@@ -1,0 +1,7 @@
+registry_name,inventory_meta,items,stacks_64,loose_items,roles
+ExtraUtilities:greenscreen,9,16,0,16,N
+Ztones:tile.korpBlock,2,100,1,36,K
+Ztones:tile.laveBlock,12,190,2,62,L
+minecraft:dirt,0,24,0,24,E
+minecraft:leaves,0,48,0,48,V
+minecraft:stonebrick,0,384,6,0,F

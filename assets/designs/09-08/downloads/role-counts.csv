@@ -1,0 +1,7 @@
+role,positions,registry_name,placed_meta,inventory_meta
+B,9610,Ztones:tile.bittBlock,0,0
+F,4096,minecraft:stonebrick,0,0
+G,800,minecraft:glass,0,0
+K,2460,Ztones:tile.korpBlock,2,2
+L,3648,Ztones:tile.laveBlock,12,12
+N,248,ExtraUtilities:greenscreen,9,9

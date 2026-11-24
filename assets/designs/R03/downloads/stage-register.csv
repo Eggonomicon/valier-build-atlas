@@ -1,0 +1,5 @@
+stage,title,new_positions,cumulative_positions,y_first,y_last
+S01,Subgrade structure and access / civil Y-10..-9,240,240,-10,-9
+S02,Subgrade structure and access / civil Y-8..-5,192,432,-8,-5
+S03,Subgrade structure and access / civil Y-4..-2,480,912,-4,-2
+S04,"Base, floor and ground-level frame / civil Y-1..-1",288,1200,-1,-1

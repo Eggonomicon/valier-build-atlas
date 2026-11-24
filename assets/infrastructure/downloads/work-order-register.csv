@@ -1,0 +1,20 @@
+order,name,x0,z0,x1,z1,new_permanent,cumulative_permanent,cap_add,cap_remove,cap_remaining,status
+WO01,M11 maintenance stair and gallery connection,98,118,115,143,2018,2018,60,0,60,planned only; not reported built
+WO02,V01 north service link,96,0,107,143,6082,8100,120,30,150,planned only; not reported built
+WO03,H00 west feeder,0,0,95,11,4896,12996,60,30,180,planned only; not reported built
+WO04,Steam works block infrastructure,0,0,107,107,9918,22914,60,90,150,planned only; not reported built
+WO05,Coke ovens block infrastructure,96,0,203,107,14754,37668,120,60,210,planned only; not reported built
+WO06,Water works block infrastructure,192,0,299,107,14754,52422,120,60,270,planned only; not reported built
+WO07,LV factory block infrastructure,288,0,395,107,14754,67176,120,60,330,planned only; not reported built
+WO08,LV ore processing block infrastructure,0,96,107,203,12942,80118,120,90,360,planned only; not reported built
+WO09,EBF hall block infrastructure,96,96,203,203,9888,90006,90,90,360,planned only; not reported built
+WO10,LV chemistry block infrastructure,192,96,299,203,9888,99894,90,90,360,planned only; not reported built
+WO11,LV circuits block infrastructure,288,96,395,203,9902,109796,110,90,380,planned only; not reported built
+WO12,MV fabrication block infrastructure,0,192,107,299,14742,124538,120,90,410,planned only; not reported built
+WO13,MV fuel block infrastructure,96,192,203,299,9888,134426,90,90,410,planned only; not reported built
+WO14,MV power block infrastructure,192,192,299,299,9888,144314,90,90,410,planned only; not reported built
+WO15,HV fabrication block infrastructure,288,192,395,299,9888,154202,90,90,410,planned only; not reported built
+WO16,HV metallurgy block infrastructure,0,288,107,395,14742,168944,120,90,440,planned only; not reported built
+WO17,HV chemistry block infrastructure,96,288,203,395,9888,178832,90,90,440,planned only; not reported built
+WO18,Cleanroom block infrastructure,192,288,299,395,9888,188720,90,90,440,planned only; not reported built
+WO19,HV reserves block infrastructure,288,288,395,395,9888,198608,90,90,440,planned only; not reported built

@@ -1,0 +1,4 @@
+registry_name,inventory_meta,items,stacks_64,loose_items,roles
+Ztones:tile.bittBlock,0,128,2,0,B
+Ztones:tile.laveBlock,12,16,0,16,L
+minecraft:stonebrick,0,480,7,32,F

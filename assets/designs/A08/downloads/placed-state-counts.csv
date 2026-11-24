@@ -1,0 +1,5 @@
+registry_name,placed_meta,positions,roles
+ExtraUtilities:greenscreen,9,4,N
+Ztones:tile.bittBlock,0,12,B
+Ztones:tile.laveBlock,12,28,L
+minecraft:stonebrick,0,64,F

@@ -1,0 +1,7 @@
+registry_name,inventory_meta,items,stacks_64,loose_items,roles
+Ztones:tile.korpBlock,2,92,1,28,K
+Ztones:tile.laveBlock,12,80,1,16,L
+minecraft:dirt,0,64,1,0,E
+minecraft:leaves,0,128,2,0,V
+minecraft:stone_slab,0,24,0,24,s
+minecraft:stonebrick,0,576,9,0,F

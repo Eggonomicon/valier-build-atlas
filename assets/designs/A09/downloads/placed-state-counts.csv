@@ -1,0 +1,7 @@
+registry_name,placed_meta,positions,roles
+Ztones:tile.korpBlock,2,92,K
+Ztones:tile.laveBlock,12,80,L
+minecraft:dirt,0,64,E
+minecraft:leaves,4,128,V
+minecraft:stone_slab,0,24,s
+minecraft:stonebrick,0,576,F

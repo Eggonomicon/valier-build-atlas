@@ -1,0 +1,32 @@
+stage,title,new_positions,cumulative_positions,y_first,y_last
+S01,"Base, floor and ground-level frame / civil Y-1..+0",4645,4645,-1,0
+S02,Ascending structural lift / civil Y+1..+4,1294,5939,1,4
+S03,Ascending structural lift / civil Y+5..+8,528,6467,5,8
+S04,Ascending structural lift / civil Y+9..+12,1344,7811,9,12
+S05,Ascending structural lift / civil Y+13..+16,3114,10925,13,16
+S06,Ascending structural lift / civil Y+17..+20,376,11301,17,20
+S07,Ascending structural lift / civil Y+21..+24,500,11801,21,24
+S08,Ascending structural lift / civil Y+25..+28,492,12293,25,28
+S09,Ascending structural lift / civil Y+29..+32,360,12653,29,32
+S10,Ascending structural lift / civil Y+33..+36,592,13245,33,36
+S11,Ascending structural lift / civil Y+37..+40,360,13605,37,40
+S12,Ascending structural lift / civil Y+41..+44,568,14173,41,44
+S13,Ascending structural lift / civil Y+45..+48,344,14517,45,48
+S14,Ascending structural lift / civil Y+49..+52,452,14969,49,52
+S15,Ascending structural lift / civil Y+53..+56,444,15413,53,56
+S16,Ascending structural lift / civil Y+57..+60,328,15741,57,60
+S17,Ascending structural lift / civil Y+61..+64,528,16269,61,64
+S18,Ascending structural lift / civil Y+65..+65,957,17226,65,65
+S19,Glazing infill / civil Y+5..+8,752,17978,5,8
+S20,Glazing infill / civil Y+17..+18,248,18226,17,18
+S21,Glazing infill / civil Y+24..+32,445,18671,24,32
+S22,Glazing infill / civil Y+38..+46,417,19088,38,46
+S23,Glazing infill / civil Y+52..+59,289,19377,52,59
+S24,Glazing infill / civil Y+60..+60,100,19477,60,60
+S25,Cyan trim and white fixtures / civil Y+2..+2,4,19481,2,2
+S26,Cyan trim and white fixtures / civil Y+24..+24,35,19516,24,24
+S27,Cyan trim and white fixtures / civil Y+38..+38,31,19547,38,38
+S28,Cyan trim and white fixtures / civil Y+52..+52,27,19574,52,52
+S29,Planting-bed dirt / civil Y+0..+0,50,19624,0,0
+S30,Upright decorative oak trunks / civil Y+1..+4,8,19632,1,4
+S31,Player-placed oak foliage / civil Y+1..+9,314,19946,1,9

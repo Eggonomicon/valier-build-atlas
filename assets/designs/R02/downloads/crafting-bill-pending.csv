@@ -1,0 +1,4 @@
+registry_name,inventory_meta,required_items,ingredient_recipe,craft_operations,recipe_evidence,status
+Ztones:tile.bittBlock,0,128,,,,Final target NEI recipe not verified
+Ztones:tile.laveBlock,12,16,,,,Final target NEI recipe not verified
+minecraft:stonebrick,0,480,,,,Final target NEI recipe not verified

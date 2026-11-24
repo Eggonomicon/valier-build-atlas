@@ -1,0 +1,7 @@
+stage,title,new_positions,cumulative_positions,y_first,y_last
+S01,"Base, floor and ground-level frame / civil Y-1..+0",428,428,-1,0
+S02,Ascending structural lift / civil Y+1..+4,68,496,1,4
+S03,Ascending structural lift / civil Y+5..+8,178,674,5,8
+S04,Cyan trim and white fixtures / civil Y+7..+7,16,690,7,7
+S05,Planting-bed dirt / civil Y+0..+0,24,714,0,0
+S06,Player-placed oak foliage / civil Y+1..+2,48,762,1,2

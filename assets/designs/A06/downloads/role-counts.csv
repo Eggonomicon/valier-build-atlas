@@ -1,0 +1,7 @@
+role,positions,registry_name,placed_meta,inventory_meta
+E,18,minecraft:dirt,0,0
+F,64,minecraft:stonebrick,0,0
+K,28,Ztones:tile.korpBlock,2,2
+L,22,Ztones:tile.laveBlock,12,12
+V,36,minecraft:leaves,4,0
+s,12,minecraft:stone_slab,0,0

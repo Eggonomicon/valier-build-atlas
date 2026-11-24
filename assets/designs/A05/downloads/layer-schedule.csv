@@ -1,0 +1,9 @@
+civil_y,positions,roles_counts,construction_stages
+-1,32,F:32,S01
+0,2,K:1 L:1,S01
+1,2,N:2,S04
+2,1,K:1,S02
+3,1,K:1,S02
+4,1,K:1,S02
+5,2,K:1 W:1,S03 S04
+6,3,L:3,S03

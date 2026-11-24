@@ -1,0 +1,13 @@
+stage,title,new_positions,cumulative_positions,y_first,y_last
+S01,"Base, floor and ground-level frame / civil Y-1..+0",4324,4324,-1,0
+S02,Ascending structural lift / civil Y+1..+4,1520,5844,1,4
+S03,Ascending structural lift / civil Y+5..+8,464,6308,5,8
+S04,Ascending structural lift / civil Y+9..+12,664,6972,9,12
+S05,Ascending structural lift / civil Y+13..+16,864,7836,13,16
+S06,Ascending structural lift / civil Y+17..+20,1280,9116,17,20
+S07,Ascending structural lift / civil Y+21..+24,2784,11900,21,24
+S08,Ascending structural lift / civil Y+25..+28,3183,15083,25,28
+S09,Ascending structural lift / civil Y+29..+32,414,15497,29,32
+S10,Glazing infill / civil Y+5..+11,1368,16865,5,11
+S11,Glazing infill / civil Y+15..+18,800,17665,15,18
+S12,Cyan trim and white fixtures / civil Y+16..+16,208,17873,16,16

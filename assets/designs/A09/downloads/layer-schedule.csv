@@ -1,0 +1,5 @@
+civil_y,positions,roles_counts,construction_stages
+-1,576,F:576,S01
+0,168,E:64 K:80 s:24,S01 S03
+1,156,K:12 L:80 V:64,S02 S04
+2,64,V:64,S04

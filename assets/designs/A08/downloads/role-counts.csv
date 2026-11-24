@@ -1,0 +1,5 @@
+role,positions,registry_name,placed_meta,inventory_meta
+B,12,Ztones:tile.bittBlock,0,0
+F,64,minecraft:stonebrick,0,0
+L,28,Ztones:tile.laveBlock,12,12
+N,4,ExtraUtilities:greenscreen,9,9
