@@ -1,0 +1,36 @@
+{
+  "id": "01-06",
+  "title": "Polymer plant",
+  "kind": "plot",
+  "family": "chemistry",
+  "sector": "NE",
+  "source_model_sha256": "1650425bf52c27bca11a88fe483c2cb363c735698a9c713c2903b9d4392033e2",
+  "source_positions": 21134,
+  "source_role_counts": {
+    "F": 4096,
+    "K": 2322,
+    "L": 4522,
+    "B": 9186,
+    "G": 800,
+    "N": 208
+  },
+  "images": {
+    "isometric": "01-06/iso-se.webp",
+    "atmosphere": "01-06/atmosphere.webp",
+    "northwest": "01-06/iso-nw.webp",
+    "north": "01-06/north.webp",
+    "south": "01-06/south.webp",
+    "east": "01-06/east.webp",
+    "west": "01-06/west.webp",
+    "roof": "01-06/roof.webp",
+    "street": "01-06/street.webp"
+  },
+  "thumbnail": "01-06/thumbnail.webp",
+  "visible_faces": {
+    "SE": 20150,
+    "NW": 20150,
+    "street": 20150
+  },
+  "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+  "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+}

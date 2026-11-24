@@ -1,0 +1,79 @@
+{
+  "id": "A07",
+  "title": "Valier monument",
+  "kind": "module",
+  "file": "buildings/Valier_A07_Valier_monument_GTNH29.schematic",
+  "sha256": "f6ff85635a5f6ab28bb8d335a0cc23ca395fb9609718e3b01edac822fb7ad800",
+  "dimensions_xyz": [
+    12,
+    8,
+    12
+  ],
+  "source_bounds_xyz_inclusive": [
+    0,
+    -1,
+    0,
+    11,
+    6,
+    11
+  ],
+  "array_order": "x + Width*(z + Length*y); numpy shape(y,z,x)",
+  "occupied_positions": 256,
+  "air_positions": 896,
+  "role_counts": {
+    "F": 144,
+    "K": 60,
+    "L": 48,
+    "N": 4
+  },
+  "placed_states": [
+    {
+      "registry_name": "ExtraUtilities:greenscreen",
+      "metadata": 9,
+      "positions": 4
+    },
+    {
+      "registry_name": "Ztones:tile.korpBlock",
+      "metadata": 2,
+      "positions": 60
+    },
+    {
+      "registry_name": "Ztones:tile.laveBlock",
+      "metadata": 12,
+      "positions": 48
+    },
+    {
+      "registry_name": "minecraft:stonebrick",
+      "metadata": 0,
+      "positions": 144
+    }
+  ],
+  "registry_map": {
+    "minecraft:air": 0,
+    "ExtraUtilities:greenscreen": 1,
+    "Ztones:tile.bittBlock": 2,
+    "Ztones:tile.korpBlock": 3,
+    "Ztones:tile.laveBlock": 4,
+    "minecraft:dirt": 5,
+    "minecraft:glass": 6,
+    "minecraft:leaves": 7,
+    "minecraft:log": 8,
+    "minecraft:stone_slab": 9,
+    "minecraft:stonebrick": 10
+  },
+  "source_model": "design/visual-library-v1/models/A07.json.gz",
+  "source_model_sha256": "a1673443277fe88b12624d81813b8164f8f6a67f97aa91fc70d9106a704af696",
+  "source_window": null,
+  "anchor": "Local NW minimum corner at the lowest source civil Y; all six WorldEdit origin/offset tags0",
+  "city_minimum_xz": null,
+  "minimum_y_formula": "world minimum Y = future surface S + (-1)",
+  "world_xz_formula": "Component unplaced; choose a separate clash-checked site",
+  "orientation": "+X east; +Z south; north is−Z. No rotation/flip applied. World anchor/S/rotation unassigned.",
+  "air_policy": "Explicit air fills unused bounding-box cells. Those blank cells are NOT whole-parcel excavation instructions. WorldEdit -a skips clipboard air; without it air can clear destination cells. Civil required-clear masks remain separate.",
+  "entities": 0,
+  "tile_entities": 0,
+  "machines_included": 0,
+  "native_machine_NBT_included": false,
+  "format_status": "Alpha NBT with identical name mappings for inspected installed loaders; static round-trip validation separate from in-game test",
+  "game_tested": false
+}

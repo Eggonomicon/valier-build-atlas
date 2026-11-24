@@ -1,0 +1,36 @@
+{
+  "id": "08-01",
+  "title": "Advanced bees",
+  "kind": "plot",
+  "family": "greenhouse",
+  "sector": "SW",
+  "source_model_sha256": "be782585e242b3bc8a214b411004818cc00ef80ac16792b2dbb9526f2df65864",
+  "source_positions": 16464,
+  "source_role_counts": {
+    "F": 4096,
+    "K": 700,
+    "L": 3674,
+    "B": 645,
+    "G": 7141,
+    "N": 208
+  },
+  "images": {
+    "isometric": "08-01/iso-se.webp",
+    "atmosphere": "08-01/atmosphere.webp",
+    "northwest": "08-01/iso-nw.webp",
+    "north": "08-01/north.webp",
+    "south": "08-01/south.webp",
+    "east": "08-01/east.webp",
+    "west": "08-01/west.webp",
+    "roof": "08-01/roof.webp",
+    "street": "08-01/street.webp"
+  },
+  "thumbnail": "08-01/thumbnail.webp",
+  "visible_faces": {
+    "SE": 17589,
+    "NW": 17573,
+    "street": 17589
+  },
+  "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+  "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+}

@@ -1,0 +1,36 @@
+{
+  "id": "01-09",
+  "title": "Electronics lab",
+  "kind": "plot",
+  "family": "laboratory",
+  "sector": "NE",
+  "source_model_sha256": "5cb9fcb88418eccc3b0ec144ef05ad9d3078b477cb9240399a9028d71aa1685d",
+  "source_positions": 19137,
+  "source_role_counts": {
+    "F": 4096,
+    "K": 1326,
+    "L": 4214,
+    "B": 7125,
+    "G": 2168,
+    "N": 208
+  },
+  "images": {
+    "isometric": "01-09/iso-se.webp",
+    "atmosphere": "01-09/atmosphere.webp",
+    "northwest": "01-09/iso-nw.webp",
+    "north": "01-09/north.webp",
+    "south": "01-09/south.webp",
+    "east": "01-09/east.webp",
+    "west": "01-09/west.webp",
+    "roof": "01-09/roof.webp",
+    "street": "01-09/street.webp"
+  },
+  "thumbnail": "01-09/thumbnail.webp",
+  "visible_faces": {
+    "SE": 18639,
+    "NW": 18639,
+    "street": 18639
+  },
+  "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+  "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+}

@@ -1,0 +1,36 @@
+{
+  "id": "07-03",
+  "title": "Bio feedstocks",
+  "kind": "plot",
+  "family": "greenhouse",
+  "sector": "SW",
+  "source_model_sha256": "c30279b266d7c1e336d9112058051f289a3cc115680f50b05230722c68dd5feb",
+  "source_positions": 17728,
+  "source_role_counts": {
+    "F": 4096,
+    "K": 844,
+    "L": 3930,
+    "B": 713,
+    "G": 7937,
+    "N": 208
+  },
+  "images": {
+    "isometric": "07-03/iso-se.webp",
+    "atmosphere": "07-03/atmosphere.webp",
+    "northwest": "07-03/iso-nw.webp",
+    "north": "07-03/north.webp",
+    "south": "07-03/south.webp",
+    "east": "07-03/east.webp",
+    "west": "07-03/west.webp",
+    "roof": "07-03/roof.webp",
+    "street": "07-03/street.webp"
+  },
+  "thumbnail": "07-03/thumbnail.webp",
+  "visible_faces": {
+    "SE": 18869,
+    "NW": 18845,
+    "street": 18869
+  },
+  "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+  "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+}

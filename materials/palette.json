@@ -1,0 +1,2169 @@
+{
+  "revision": "installed-materials-v1",
+  "instance_label": "GT_New_Horizons_2.9.0_Java_17-26",
+  "source_options_sha256": "d45f40aef920cc46969039c12bb7d8100fb91670e09f8e57e6b52c2b28e7aa48",
+  "active_resource_packs": [
+    {
+      "filename": "Realistic Sky GT New Horizons.zip",
+      "sha256": "7d006f8603e014acdf8ec0d15717039c6f3f4caec50984bfe9911ae3a7ba7981"
+    },
+    {
+      "filename": "Glow Lines Only Galacticraft Thermal Padding GT V1.0.0.zip",
+      "sha256": "7a36ec95c5ee1d107bff1e201390d338f639b3872bc2cb185f71f51d91a0524c"
+    },
+    {
+      "filename": "KuraNeonGTNH-V1.3.2.zip",
+      "sha256": "8ab23b6e1b5c51ac6bb1089bda2671b56f75a095a1b8407e7c94f8db36eced9b"
+    },
+    {
+      "filename": "KuraReflectionsGTNH-V1.3.zip",
+      "sha256": "2e47fccd2973807c9873297ecade44d821267ab695a74654c618959680c1c843"
+    },
+    {
+      "filename": "KuraBetterCoilsGTNH-V1.4.zip",
+      "sha256": "e37caf48897a9cff4a90ef0c521220886142d1db0e2961999ec59a12e3083f12"
+    },
+    {
+      "filename": "KuraNeonExtrasGTNH-V1.1.zip",
+      "sha256": "cf99b0461065f51a04b42c0137d459cf25f850d2876b26ae5683185d9d903e17"
+    }
+  ],
+  "graphics": {
+    "fancyGraphics": "true",
+    "mipmapLevels": "4",
+    "gamma": "0.0"
+  },
+  "roles": {
+    "B": {
+      "role": "B",
+      "display_name": "Bitt 0",
+      "registry_name": "Ztones:tile.bittBlock",
+      "placed_metadata": 0,
+      "inventory_metadata": 0,
+      "faces": {
+        "side": {
+          "file": "textures/B-side.png",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (0).png",
+          "member_sha256": "49752f03785d00b8d47896bd6c7daa5b32cf218e67ab33a0b92287bb87375e93",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/B-top-display.png"
+        },
+        "top": {
+          "file": "textures/B-side.png",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (0).png",
+          "member_sha256": "49752f03785d00b8d47896bd6c7daa5b32cf218e67ab33a0b92287bb87375e93",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/B-top-display.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "tint_evidence": "No color multiplier",
+      "fullbright": false,
+      "geometry": "full cube",
+      "binding_status": "Inherited installed palette identity; target runtime recipe/game behavior not checked"
+    },
+    "K": {
+      "role": "K",
+      "display_name": "Korp 2",
+      "registry_name": "Ztones:tile.korpBlock",
+      "placed_metadata": 2,
+      "inventory_metadata": 2,
+      "faces": {
+        "side": {
+          "file": "textures/K-side.png",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "member": "assets/ztones/textures/blocks/sets/korp/korp_ (2).png",
+          "member_sha256": "326e9fc3b7760f4ebc2e7d245dd2d1ad346e55a8b93949f9fbafc2b79ffbe5e8",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/K-top-display.png"
+        },
+        "top": {
+          "file": "textures/K-side.png",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "member": "assets/ztones/textures/blocks/sets/korp/korp_ (2).png",
+          "member_sha256": "326e9fc3b7760f4ebc2e7d245dd2d1ad346e55a8b93949f9fbafc2b79ffbe5e8",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/K-top-display.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "tint_evidence": "No color multiplier",
+      "fullbright": false,
+      "geometry": "full cube",
+      "binding_status": "Inherited installed palette identity; target runtime recipe/game behavior not checked"
+    },
+    "L": {
+      "role": "L",
+      "display_name": "Lave 12",
+      "registry_name": "Ztones:tile.laveBlock",
+      "placed_metadata": 12,
+      "inventory_metadata": 12,
+      "faces": {
+        "side": {
+          "file": "textures/L-side.png",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "member": "assets/ztones/textures/blocks/sets/lave/lave_ (12).png",
+          "member_sha256": "f0d6e2ebe43e9deea0ca47d85267e1f7d89223674a4864450573650ac9030513",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/L-top-display.png"
+        },
+        "top": {
+          "file": "textures/L-side.png",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "member": "assets/ztones/textures/blocks/sets/lave/lave_ (12).png",
+          "member_sha256": "f0d6e2ebe43e9deea0ca47d85267e1f7d89223674a4864450573650ac9030513",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/L-top-display.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "tint_evidence": "No color multiplier",
+      "fullbright": false,
+      "geometry": "full cube",
+      "binding_status": "Inherited installed palette identity; target runtime recipe/game behavior not checked"
+    },
+    "N": {
+      "role": "N",
+      "display_name": "Cyan Lapis Caelestis",
+      "registry_name": "ExtraUtilities:greenscreen",
+      "placed_metadata": 9,
+      "inventory_metadata": 9,
+      "faces": {
+        "side": {
+          "file": "textures/N-side.png",
+          "source_artifact": "extrautilities-1.2.12.jar",
+          "source_artifact_sha256": "a1941ee4d4b965c4d2ddc6ec0e0b1eb3f3ff8c8b492a18a25b5fcf27c67ba58b",
+          "member": "assets/extrautils/textures/blocks/greenscreen.png",
+          "member_sha256": "b38d08009310843632aba1768eaab876a9fffd07b0c53bc2647a4c228233c5c2",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/N-top-display.png"
+        },
+        "top": {
+          "file": "textures/N-side.png",
+          "source_artifact": "extrautilities-1.2.12.jar",
+          "source_artifact_sha256": "a1941ee4d4b965c4d2ddc6ec0e0b1eb3f3ff8c8b492a18a25b5fcf27c67ba58b",
+          "member": "assets/extrautils/textures/blocks/greenscreen.png",
+          "member_sha256": "b38d08009310843632aba1768eaab876a9fffd07b0c53bc2647a4c228233c5c2",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/N-top-display.png"
+        }
+      },
+      "tint_rgb": [
+        0,
+        255,
+        255
+      ],
+      "tint_evidence": "Installed BlockGreenScreen.cols[9]=(0,1,1)",
+      "fullbright": true,
+      "geometry": "full cube",
+      "binding_status": "Inherited installed palette identity; target runtime recipe/game behavior not checked"
+    },
+    "W": {
+      "role": "W",
+      "display_name": "White Lapis Caelestis",
+      "registry_name": "ExtraUtilities:greenscreen",
+      "placed_metadata": 0,
+      "inventory_metadata": 0,
+      "faces": {
+        "side": {
+          "file": "textures/W-side.png",
+          "source_artifact": "extrautilities-1.2.12.jar",
+          "source_artifact_sha256": "a1941ee4d4b965c4d2ddc6ec0e0b1eb3f3ff8c8b492a18a25b5fcf27c67ba58b",
+          "member": "assets/extrautils/textures/blocks/greenscreen.png",
+          "member_sha256": "b38d08009310843632aba1768eaab876a9fffd07b0c53bc2647a4c228233c5c2",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/W-top-display.png"
+        },
+        "top": {
+          "file": "textures/W-side.png",
+          "source_artifact": "extrautilities-1.2.12.jar",
+          "source_artifact_sha256": "a1941ee4d4b965c4d2ddc6ec0e0b1eb3f3ff8c8b492a18a25b5fcf27c67ba58b",
+          "member": "assets/extrautils/textures/blocks/greenscreen.png",
+          "member_sha256": "b38d08009310843632aba1768eaab876a9fffd07b0c53bc2647a4c228233c5c2",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/W-top-display.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "tint_evidence": "No color multiplier",
+      "fullbright": true,
+      "geometry": "full cube",
+      "binding_status": "Inherited installed palette identity; target runtime recipe/game behavior not checked"
+    },
+    "G": {
+      "role": "G",
+      "display_name": "Glass",
+      "registry_name": "minecraft:glass",
+      "placed_metadata": 0,
+      "inventory_metadata": 0,
+      "faces": {
+        "side": {
+          "file": "textures/G-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/glass.png",
+          "member_sha256": "47e6c40346af11ed7d973e5c0b581d3ac40ebc88c9b304f0e903477055d3dc09",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/G-top-display.png"
+        },
+        "top": {
+          "file": "textures/G-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/glass.png",
+          "member_sha256": "47e6c40346af11ed7d973e5c0b581d3ac40ebc88c9b304f0e903477055d3dc09",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/G-top-display.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "tint_evidence": "No color multiplier",
+      "fullbright": false,
+      "geometry": "full cube",
+      "binding_status": "Inherited installed palette identity; target runtime recipe/game behavior not checked"
+    },
+    "F": {
+      "role": "F",
+      "display_name": "Stone bricks",
+      "registry_name": "minecraft:stonebrick",
+      "placed_metadata": 0,
+      "inventory_metadata": 0,
+      "faces": {
+        "side": {
+          "file": "textures/F-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/stonebrick.png",
+          "member_sha256": "4b35ff37f7b028265ec20bb4540e655cc5b355f399fcec202bd7b277742c9536",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/F-top-display.png"
+        },
+        "top": {
+          "file": "textures/F-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/stonebrick.png",
+          "member_sha256": "4b35ff37f7b028265ec20bb4540e655cc5b355f399fcec202bd7b277742c9536",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/F-top-display.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "tint_evidence": "No color multiplier",
+      "fullbright": false,
+      "geometry": "full cube",
+      "binding_status": "Inherited installed palette identity; target runtime recipe/game behavior not checked"
+    },
+    "s": {
+      "role": "s",
+      "display_name": "Stone slab, bottom",
+      "registry_name": "minecraft:stone_slab",
+      "placed_metadata": 0,
+      "inventory_metadata": 0,
+      "faces": {
+        "side": {
+          "file": "textures/slab-bottom-side-wall.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/stone_slab_side.png",
+          "member_sha256": "5e701b44f2a06fd324be2e4ec56f8b3b1b30fd7e243a032ebb3db5998d402357",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/slab-bottom-side-display.png"
+        },
+        "top": {
+          "file": "textures/slab-bottom-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/stone_slab_top.png",
+          "member_sha256": "65e8a0b1b2df9baa0ed6b34381d7298e60b4d6ff6fdf39bb612edf1ec565c597",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/slab-bottom-top-display.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "tint_evidence": "No color multiplier",
+      "fullbright": false,
+      "geometry": "bottom half slab",
+      "binding_status": "Inherited installed palette identity; target runtime recipe/game behavior not checked"
+    },
+    "S": {
+      "role": "S",
+      "display_name": "Stone slab, top",
+      "registry_name": "minecraft:stone_slab",
+      "placed_metadata": 8,
+      "inventory_metadata": 0,
+      "faces": {
+        "side": {
+          "file": "textures/slab-top-side-wall.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/stone_slab_side.png",
+          "member_sha256": "5e701b44f2a06fd324be2e4ec56f8b3b1b30fd7e243a032ebb3db5998d402357",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/slab-top-side-display.png"
+        },
+        "top": {
+          "file": "textures/slab-top-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/stone_slab_top.png",
+          "member_sha256": "65e8a0b1b2df9baa0ed6b34381d7298e60b4d6ff6fdf39bb612edf1ec565c597",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/slab-top-top-display.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "tint_evidence": "No color multiplier",
+      "fullbright": false,
+      "geometry": "top half slab",
+      "binding_status": "Inherited installed palette identity; target runtime recipe/game behavior not checked"
+    },
+    "E": {
+      "role": "E",
+      "display_name": "Dirt / planting-bed infill",
+      "registry_name": "minecraft:dirt",
+      "placed_metadata": 0,
+      "inventory_metadata": 0,
+      "faces": {
+        "side": {
+          "file": "textures/E-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/dirt.png",
+          "member_sha256": "fb0450253248276e0b8d653d5a4d21c59763cbf775c0e048469ff500afaaef68",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/E-top-display.png"
+        },
+        "top": {
+          "file": "textures/E-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/dirt.png",
+          "member_sha256": "fb0450253248276e0b8d653d5a4d21c59763cbf775c0e048469ff500afaaef68",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/E-top-display.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "tint_evidence": "No color multiplier",
+      "fullbright": false,
+      "geometry": "full cube",
+      "binding_status": "New proposed role binding; installed vanilla identity/meta inspected"
+    },
+    "T": {
+      "role": "T",
+      "display_name": "Oak log / vertical decorative trunk",
+      "registry_name": "minecraft:log",
+      "placed_metadata": 0,
+      "inventory_metadata": 0,
+      "faces": {
+        "side": {
+          "file": "textures/T-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/log_oak.png",
+          "member_sha256": "6f24bf4e31b5f91d63da2e1543c1beafe8086d6a594d82abd834148c62670c21",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/T-side-display.png"
+        },
+        "top": {
+          "file": "textures/T-end-grain.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/log_oak_top.png",
+          "member_sha256": "f9045998a74062efaa5dbc3da828378198749b97163aef468ee63743c28229b4",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/T-top-display.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "tint_evidence": "No color multiplier",
+      "fullbright": false,
+      "geometry": "full cube",
+      "binding_status": "New proposed role binding; installed vanilla identity/meta inspected"
+    },
+    "V": {
+      "role": "V",
+      "display_name": "Oak leaves / player-placed persistent state",
+      "registry_name": "minecraft:leaves",
+      "placed_metadata": 4,
+      "inventory_metadata": 0,
+      "faces": {
+        "side": {
+          "file": "textures/V-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/leaves_oak.png",
+          "member_sha256": "50cc5b0dc5f0f361391ce3891ae8d601f330e86f03433bc51933b14a8f4af4be",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/V-top-display.png"
+        },
+        "top": {
+          "file": "textures/V-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/leaves_oak.png",
+          "member_sha256": "50cc5b0dc5f0f361391ce3891ae8d601f330e86f03433bc51933b14a8f4af4be",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/V-top-display.png"
+        }
+      },
+      "tint_rgb": [
+        72,
+        181,
+        24
+      ],
+      "tint_evidence": "Installed vanilla BlockLeaves.i→ColorizerFoliage.c=4764952 (#48B518), default inventory tint; world biome unset",
+      "fullbright": false,
+      "geometry": "full cube",
+      "binding_status": "New proposed role binding; installed vanilla identity/meta inspected"
+    },
+    "Q": {
+      "role": "Q",
+      "display_name": "Glass / dry ornamental basin fill",
+      "registry_name": "minecraft:glass",
+      "placed_metadata": 0,
+      "inventory_metadata": 0,
+      "faces": {
+        "side": {
+          "file": "textures/Q-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/glass.png",
+          "member_sha256": "47e6c40346af11ed7d973e5c0b581d3ac40ebc88c9b304f0e903477055d3dc09",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/Q-top-display.png"
+        },
+        "top": {
+          "file": "textures/Q-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/glass.png",
+          "member_sha256": "47e6c40346af11ed7d973e5c0b581d3ac40ebc88c9b304f0e903477055d3dc09",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/Q-top-display.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "tint_evidence": "No color multiplier",
+      "fullbright": false,
+      "geometry": "full cube",
+      "binding_status": "New dry-finish role binding to existing verified glass identity"
+    }
+  },
+  "variants": [
+    {
+      "family": "bitt",
+      "metadata": 0,
+      "registry_name": "Ztones:tile.bittBlock",
+      "selected_for_current_models": true,
+      "file": "textures/bitt-00.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (0).png",
+      "member_sha256": "49752f03785d00b8d47896bd6c7daa5b32cf218e67ab33a0b92287bb87375e93",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "bitt",
+      "metadata": 1,
+      "registry_name": "Ztones:tile.bittBlock",
+      "selected_for_current_models": false,
+      "file": "textures/bitt-01.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (1).png",
+      "member_sha256": "4ffc025d086c7acba5cc9567929ac680373c40ce1dd39bd55a497bad4de8953a",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "bitt",
+      "metadata": 2,
+      "registry_name": "Ztones:tile.bittBlock",
+      "selected_for_current_models": false,
+      "file": "textures/bitt-02.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (2).png",
+      "member_sha256": "a01d37197ad1b05e24a2f3e796b66e1b718f768fbe7432b19becabe3b7103429",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "bitt",
+      "metadata": 3,
+      "registry_name": "Ztones:tile.bittBlock",
+      "selected_for_current_models": false,
+      "file": "textures/bitt-03.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (3).png",
+      "member_sha256": "c4e158d54c92dc9697f9f6fecfd1c39dcdff997cc3383cbbb7f23ecaacb97442",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "bitt",
+      "metadata": 4,
+      "registry_name": "Ztones:tile.bittBlock",
+      "selected_for_current_models": false,
+      "file": "textures/bitt-04.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (4).png",
+      "member_sha256": "ea7b80d39d0e3c093451e6d944e0dfa9a6536580536433941d5f655e937214ec",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "bitt",
+      "metadata": 5,
+      "registry_name": "Ztones:tile.bittBlock",
+      "selected_for_current_models": false,
+      "file": "textures/bitt-05.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (5).png",
+      "member_sha256": "e852022493b49a55dbfabd07bae8b4f8102af5306e3c59040221741fd1d517ac",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "bitt",
+      "metadata": 6,
+      "registry_name": "Ztones:tile.bittBlock",
+      "selected_for_current_models": false,
+      "file": "textures/bitt-06.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (6).png",
+      "member_sha256": "b7d118607b92a5e8e4d5e2995cae0a1e3a954608192822ddae42b0828ecef578",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "bitt",
+      "metadata": 7,
+      "registry_name": "Ztones:tile.bittBlock",
+      "selected_for_current_models": false,
+      "file": "textures/bitt-07.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (7).png",
+      "member_sha256": "445fe442bdede50bd561d1693e2be7e823f90b52bc4820cfc9db7ba6e6e76e65",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "bitt",
+      "metadata": 8,
+      "registry_name": "Ztones:tile.bittBlock",
+      "selected_for_current_models": false,
+      "file": "textures/bitt-08.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (8).png",
+      "member_sha256": "85ca5f15eedb80e48cc49b4d4fd1099d9c3b6667d2d274b393dc7e89112c2724",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "bitt",
+      "metadata": 9,
+      "registry_name": "Ztones:tile.bittBlock",
+      "selected_for_current_models": false,
+      "file": "textures/bitt-09.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (9).png",
+      "member_sha256": "d84e5613cf396ca0a0fdc685321ef6e2b64b8377cf5d4320cb4a3b13f45ebf90",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "bitt",
+      "metadata": 10,
+      "registry_name": "Ztones:tile.bittBlock",
+      "selected_for_current_models": false,
+      "file": "textures/bitt-10.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (10).png",
+      "member_sha256": "f6b32875d8f97cfdc9629b275a3ce6065fdf735f12e52cf9b222b0c419193629",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "bitt",
+      "metadata": 11,
+      "registry_name": "Ztones:tile.bittBlock",
+      "selected_for_current_models": false,
+      "file": "textures/bitt-11.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (11).png",
+      "member_sha256": "2d011d824f0699dc9a70a02c1d862510058779529107825cb2caeec51fc0a295",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "bitt",
+      "metadata": 12,
+      "registry_name": "Ztones:tile.bittBlock",
+      "selected_for_current_models": false,
+      "file": "textures/bitt-12.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (12).png",
+      "member_sha256": "9d45e94147b913370014c111cce8969733ddb1e5657e161b5f7a891a0811996d",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "bitt",
+      "metadata": 13,
+      "registry_name": "Ztones:tile.bittBlock",
+      "selected_for_current_models": false,
+      "file": "textures/bitt-13.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (13).png",
+      "member_sha256": "467d30fba32cf9563258dd7c8c17ffd3b25b71cf9e927d6503773e9574528483",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "bitt",
+      "metadata": 14,
+      "registry_name": "Ztones:tile.bittBlock",
+      "selected_for_current_models": false,
+      "file": "textures/bitt-14.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (14).png",
+      "member_sha256": "ced613131d9687e6bdfe66f5fc7b2ad7e945350a40796d33c28e7139e5f2ba9e",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "bitt",
+      "metadata": 15,
+      "registry_name": "Ztones:tile.bittBlock",
+      "selected_for_current_models": false,
+      "file": "textures/bitt-15.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (15).png",
+      "member_sha256": "3ac3adc1ca0cdb5002fdcc54d784885bdd8ffeea613020354964c1484cf64283",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "korp",
+      "metadata": 0,
+      "registry_name": "Ztones:tile.korpBlock",
+      "selected_for_current_models": false,
+      "file": "textures/korp-00.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (0).png",
+      "member_sha256": "244501f5e992f6183ec19194197cba536b373cdae877fe9acb29bf01f0f728e5",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "korp",
+      "metadata": 1,
+      "registry_name": "Ztones:tile.korpBlock",
+      "selected_for_current_models": false,
+      "file": "textures/korp-01.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (1).png",
+      "member_sha256": "95c023b1d71c481ad7a09f44dbe8415ce19bb7ee4c5160b01a8cea82675771db",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "korp",
+      "metadata": 2,
+      "registry_name": "Ztones:tile.korpBlock",
+      "selected_for_current_models": true,
+      "file": "textures/korp-02.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (2).png",
+      "member_sha256": "326e9fc3b7760f4ebc2e7d245dd2d1ad346e55a8b93949f9fbafc2b79ffbe5e8",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "korp",
+      "metadata": 3,
+      "registry_name": "Ztones:tile.korpBlock",
+      "selected_for_current_models": false,
+      "file": "textures/korp-03.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (3).png",
+      "member_sha256": "5ecaa5f0cce8d2e349d9e6d917738a4340fe89234465c3777f5f420ccc32a9aa",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "korp",
+      "metadata": 4,
+      "registry_name": "Ztones:tile.korpBlock",
+      "selected_for_current_models": false,
+      "file": "textures/korp-04.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (4).png",
+      "member_sha256": "f67bb235627a77acd413f02c655240a2fb3b8f6f2f2015847e6d0192e076f527",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "korp",
+      "metadata": 5,
+      "registry_name": "Ztones:tile.korpBlock",
+      "selected_for_current_models": false,
+      "file": "textures/korp-05.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (5).png",
+      "member_sha256": "0890cb662f9860973984bda94b5ab29bad2cb3c3cca5fa7b93cba1b109498ff7",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "korp",
+      "metadata": 6,
+      "registry_name": "Ztones:tile.korpBlock",
+      "selected_for_current_models": false,
+      "file": "textures/korp-06.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (6).png",
+      "member_sha256": "d4ccac37ba9ef423d51d8f79bd412d1f321c497ff97f3f867d202bbdc786380b",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "korp",
+      "metadata": 7,
+      "registry_name": "Ztones:tile.korpBlock",
+      "selected_for_current_models": false,
+      "file": "textures/korp-07.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (7).png",
+      "member_sha256": "3c4713e6aaa110f54f643ceb7d4fb146b9e5dc1a42e8e0c81ba11a14da0ff17c",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "korp",
+      "metadata": 8,
+      "registry_name": "Ztones:tile.korpBlock",
+      "selected_for_current_models": false,
+      "file": "textures/korp-08.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (8).png",
+      "member_sha256": "d30f1ce5f301f0259c4441115dda4c6ae027b09e7000611a1353bc43eb187652",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "korp",
+      "metadata": 9,
+      "registry_name": "Ztones:tile.korpBlock",
+      "selected_for_current_models": false,
+      "file": "textures/korp-09.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (9).png",
+      "member_sha256": "b5fae78cc1929b841ec5f7764687ca0568c72577cb064f63e69677a131df3545",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "korp",
+      "metadata": 10,
+      "registry_name": "Ztones:tile.korpBlock",
+      "selected_for_current_models": false,
+      "file": "textures/korp-10.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (10).png",
+      "member_sha256": "a3cf4849f12c5b4e25c3e94c6f078f88d8c190e1670ffb055a6fa88ea03c3308",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "korp",
+      "metadata": 11,
+      "registry_name": "Ztones:tile.korpBlock",
+      "selected_for_current_models": false,
+      "file": "textures/korp-11.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (11).png",
+      "member_sha256": "82f35a5d0c998ffd8b6a4741310f9628a91489545c0034ac22c8e20e354cb653",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "korp",
+      "metadata": 12,
+      "registry_name": "Ztones:tile.korpBlock",
+      "selected_for_current_models": false,
+      "file": "textures/korp-12.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (12).png",
+      "member_sha256": "2e6b54c8be465ec283eca566e741c1c8603548f65b44cd668691f52999ff2cc1",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "korp",
+      "metadata": 13,
+      "registry_name": "Ztones:tile.korpBlock",
+      "selected_for_current_models": false,
+      "file": "textures/korp-13.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (13).png",
+      "member_sha256": "879b4be7facc70e5b891fbf6d48696053d21003993864c232455b6ad41dfbf18",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "korp",
+      "metadata": 14,
+      "registry_name": "Ztones:tile.korpBlock",
+      "selected_for_current_models": false,
+      "file": "textures/korp-14.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (14).png",
+      "member_sha256": "c9b79010c88874087d225ad5c7e59e321c2aad18543369f6bbf3ef344caa81a9",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "korp",
+      "metadata": 15,
+      "registry_name": "Ztones:tile.korpBlock",
+      "selected_for_current_models": false,
+      "file": "textures/korp-15.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (15).png",
+      "member_sha256": "e6a8db60d995337fd8ba6a26ca5d94e95d93e9f11ff56e5eb44c16ead67fe033",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "lave",
+      "metadata": 0,
+      "registry_name": "Ztones:tile.laveBlock",
+      "selected_for_current_models": false,
+      "file": "textures/lave-00.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (0).png",
+      "member_sha256": "71e30bdd467f1a7205d6ac16beb3721421ab621a091ad55eb155d6256b960ef9",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "lave",
+      "metadata": 1,
+      "registry_name": "Ztones:tile.laveBlock",
+      "selected_for_current_models": false,
+      "file": "textures/lave-01.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (1).png",
+      "member_sha256": "b46adf365344ffa407fb1b10af388c114ceb4be6341d0aaff8c68f67dffbb94c",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "lave",
+      "metadata": 2,
+      "registry_name": "Ztones:tile.laveBlock",
+      "selected_for_current_models": false,
+      "file": "textures/lave-02.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (2).png",
+      "member_sha256": "a5158065b7805a76a82140b12b1c65f294e24b64c2556d68a75377676f3a71f5",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "lave",
+      "metadata": 3,
+      "registry_name": "Ztones:tile.laveBlock",
+      "selected_for_current_models": false,
+      "file": "textures/lave-03.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (3).png",
+      "member_sha256": "86a30706f225b4398e99ee09a800e80af2ab3387b6b66f7adc93d4ee1b4fb923",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "lave",
+      "metadata": 4,
+      "registry_name": "Ztones:tile.laveBlock",
+      "selected_for_current_models": false,
+      "file": "textures/lave-04.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (4).png",
+      "member_sha256": "1db64d31b124e29db391ac8f8b922e4271e30bdc0421084a363375b8bb6115a7",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "lave",
+      "metadata": 5,
+      "registry_name": "Ztones:tile.laveBlock",
+      "selected_for_current_models": false,
+      "file": "textures/lave-05.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (5).png",
+      "member_sha256": "6bc5a49779c347af3d4e4002d2f448e0c87c50a0d0e1d0f56eaeebf38ce757f0",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "lave",
+      "metadata": 6,
+      "registry_name": "Ztones:tile.laveBlock",
+      "selected_for_current_models": false,
+      "file": "textures/lave-06.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (6).png",
+      "member_sha256": "f5f2f708bf9eb21af783647afe7cbefc36a328092ec2b361d0c7b83a71f1b163",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "lave",
+      "metadata": 7,
+      "registry_name": "Ztones:tile.laveBlock",
+      "selected_for_current_models": false,
+      "file": "textures/lave-07.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (7).png",
+      "member_sha256": "007942177ff171228ca0904d98cee182b0f789a227563765bfe213ddede2a18f",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "lave",
+      "metadata": 8,
+      "registry_name": "Ztones:tile.laveBlock",
+      "selected_for_current_models": false,
+      "file": "textures/lave-08.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (8).png",
+      "member_sha256": "c354b5f9a1fd7d46f69e011846ae591a206611a3bb9daa0aaa3505db2c0d0560",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "lave",
+      "metadata": 9,
+      "registry_name": "Ztones:tile.laveBlock",
+      "selected_for_current_models": false,
+      "file": "textures/lave-09.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (9).png",
+      "member_sha256": "d5a37f5c2cebfd28ac2e5ef81f17a9b6acae5e8f8fdeb630c71f437e5418c13c",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "lave",
+      "metadata": 10,
+      "registry_name": "Ztones:tile.laveBlock",
+      "selected_for_current_models": false,
+      "file": "textures/lave-10.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (10).png",
+      "member_sha256": "aa235b2dcd4f539feec1fe092003b6d45326fefd795b0cf13ffdaffeb04e95dd",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "lave",
+      "metadata": 11,
+      "registry_name": "Ztones:tile.laveBlock",
+      "selected_for_current_models": false,
+      "file": "textures/lave-11.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (11).png",
+      "member_sha256": "698a45d2c8dd86af992c8b098427770ce6e4ae6fdc7bf2035b1f2b73b0afeb6f",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "lave",
+      "metadata": 12,
+      "registry_name": "Ztones:tile.laveBlock",
+      "selected_for_current_models": true,
+      "file": "textures/lave-12.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (12).png",
+      "member_sha256": "f0d6e2ebe43e9deea0ca47d85267e1f7d89223674a4864450573650ac9030513",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "lave",
+      "metadata": 13,
+      "registry_name": "Ztones:tile.laveBlock",
+      "selected_for_current_models": false,
+      "file": "textures/lave-13.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (13).png",
+      "member_sha256": "6711a04a96019b0815fc2fd0f8511e2e7c62ccfe2ca74c7588090f3a4faaee58",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "lave",
+      "metadata": 14,
+      "registry_name": "Ztones:tile.laveBlock",
+      "selected_for_current_models": false,
+      "file": "textures/lave-14.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (14).png",
+      "member_sha256": "91d94f593f4798315712b2fd59e87acdc846b0fc1654d07c4f92cd218b5547b5",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "family": "lave",
+      "metadata": 15,
+      "registry_name": "Ztones:tile.laveBlock",
+      "selected_for_current_models": false,
+      "file": "textures/lave-15.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (15).png",
+      "member_sha256": "449d541a34af3009eb563b5426733366f223f44bb94c64d378fc153f914c355c",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    }
+  ],
+  "extracted_assets": [
+    {
+      "file": "textures/B-side.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (0).png",
+      "member_sha256": "49752f03785d00b8d47896bd6c7daa5b32cf218e67ab33a0b92287bb87375e93",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": [],
+      "display_file": "textures/B-top-display.png"
+    },
+    {
+      "file": "textures/K-side.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (2).png",
+      "member_sha256": "326e9fc3b7760f4ebc2e7d245dd2d1ad346e55a8b93949f9fbafc2b79ffbe5e8",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": [],
+      "display_file": "textures/K-top-display.png"
+    },
+    {
+      "file": "textures/L-side.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (12).png",
+      "member_sha256": "f0d6e2ebe43e9deea0ca47d85267e1f7d89223674a4864450573650ac9030513",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": [],
+      "display_file": "textures/L-top-display.png"
+    },
+    {
+      "file": "textures/N-side.png",
+      "source_artifact": "extrautilities-1.2.12.jar",
+      "source_artifact_sha256": "a1941ee4d4b965c4d2ddc6ec0e0b1eb3f3ff8c8b492a18a25b5fcf27c67ba58b",
+      "member": "assets/extrautils/textures/blocks/greenscreen.png",
+      "member_sha256": "b38d08009310843632aba1768eaab876a9fffd07b0c53bc2647a4c228233c5c2",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": [],
+      "display_file": "textures/N-top-display.png"
+    },
+    {
+      "file": "textures/W-side.png",
+      "source_artifact": "extrautilities-1.2.12.jar",
+      "source_artifact_sha256": "a1941ee4d4b965c4d2ddc6ec0e0b1eb3f3ff8c8b492a18a25b5fcf27c67ba58b",
+      "member": "assets/extrautils/textures/blocks/greenscreen.png",
+      "member_sha256": "b38d08009310843632aba1768eaab876a9fffd07b0c53bc2647a4c228233c5c2",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": [],
+      "display_file": "textures/W-top-display.png"
+    },
+    {
+      "file": "textures/G-side.png",
+      "source_artifact": "minecraft-1.7.10-client.jar",
+      "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/glass.png",
+      "member_sha256": "47e6c40346af11ed7d973e5c0b581d3ac40ebc88c9b304f0e903477055d3dc09",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": [],
+      "display_file": "textures/G-top-display.png"
+    },
+    {
+      "file": "textures/F-side.png",
+      "source_artifact": "minecraft-1.7.10-client.jar",
+      "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/stonebrick.png",
+      "member_sha256": "4b35ff37f7b028265ec20bb4540e655cc5b355f399fcec202bd7b277742c9536",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": [],
+      "display_file": "textures/F-top-display.png"
+    },
+    {
+      "file": "textures/slab-bottom-side.png",
+      "source_artifact": "minecraft-1.7.10-client.jar",
+      "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/stone_slab_top.png",
+      "member_sha256": "65e8a0b1b2df9baa0ed6b34381d7298e60b4d6ff6fdf39bb612edf1ec565c597",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": [],
+      "display_file": "textures/slab-bottom-top-display.png"
+    },
+    {
+      "file": "textures/slab-bottom-side-wall.png",
+      "source_artifact": "minecraft-1.7.10-client.jar",
+      "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/stone_slab_side.png",
+      "member_sha256": "5e701b44f2a06fd324be2e4ec56f8b3b1b30fd7e243a032ebb3db5998d402357",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": [],
+      "display_file": "textures/slab-bottom-side-display.png"
+    },
+    {
+      "file": "textures/slab-top-side.png",
+      "source_artifact": "minecraft-1.7.10-client.jar",
+      "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/stone_slab_top.png",
+      "member_sha256": "65e8a0b1b2df9baa0ed6b34381d7298e60b4d6ff6fdf39bb612edf1ec565c597",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": [],
+      "display_file": "textures/slab-top-top-display.png"
+    },
+    {
+      "file": "textures/slab-top-side-wall.png",
+      "source_artifact": "minecraft-1.7.10-client.jar",
+      "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/stone_slab_side.png",
+      "member_sha256": "5e701b44f2a06fd324be2e4ec56f8b3b1b30fd7e243a032ebb3db5998d402357",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": [],
+      "display_file": "textures/slab-top-side-display.png"
+    },
+    {
+      "file": "textures/E-side.png",
+      "source_artifact": "minecraft-1.7.10-client.jar",
+      "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/dirt.png",
+      "member_sha256": "fb0450253248276e0b8d653d5a4d21c59763cbf775c0e048469ff500afaaef68",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": [],
+      "display_file": "textures/E-top-display.png"
+    },
+    {
+      "file": "textures/T-side.png",
+      "source_artifact": "minecraft-1.7.10-client.jar",
+      "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/log_oak.png",
+      "member_sha256": "6f24bf4e31b5f91d63da2e1543c1beafe8086d6a594d82abd834148c62670c21",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": [],
+      "display_file": "textures/T-side-display.png"
+    },
+    {
+      "file": "textures/T-end-grain.png",
+      "source_artifact": "minecraft-1.7.10-client.jar",
+      "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/log_oak_top.png",
+      "member_sha256": "f9045998a74062efaa5dbc3da828378198749b97163aef468ee63743c28229b4",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": [],
+      "display_file": "textures/T-top-display.png"
+    },
+    {
+      "file": "textures/V-side.png",
+      "source_artifact": "minecraft-1.7.10-client.jar",
+      "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/leaves_oak.png",
+      "member_sha256": "50cc5b0dc5f0f361391ce3891ae8d601f330e86f03433bc51933b14a8f4af4be",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": [],
+      "display_file": "textures/V-top-display.png"
+    },
+    {
+      "file": "textures/Q-side.png",
+      "source_artifact": "minecraft-1.7.10-client.jar",
+      "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/glass.png",
+      "member_sha256": "47e6c40346af11ed7d973e5c0b581d3ac40ebc88c9b304f0e903477055d3dc09",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": [],
+      "display_file": "textures/Q-top-display.png"
+    },
+    {
+      "file": "textures/bitt-00.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (0).png",
+      "member_sha256": "49752f03785d00b8d47896bd6c7daa5b32cf218e67ab33a0b92287bb87375e93",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/bitt-01.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (1).png",
+      "member_sha256": "4ffc025d086c7acba5cc9567929ac680373c40ce1dd39bd55a497bad4de8953a",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/bitt-02.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (2).png",
+      "member_sha256": "a01d37197ad1b05e24a2f3e796b66e1b718f768fbe7432b19becabe3b7103429",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/bitt-03.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (3).png",
+      "member_sha256": "c4e158d54c92dc9697f9f6fecfd1c39dcdff997cc3383cbbb7f23ecaacb97442",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/bitt-04.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (4).png",
+      "member_sha256": "ea7b80d39d0e3c093451e6d944e0dfa9a6536580536433941d5f655e937214ec",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/bitt-05.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (5).png",
+      "member_sha256": "e852022493b49a55dbfabd07bae8b4f8102af5306e3c59040221741fd1d517ac",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/bitt-06.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (6).png",
+      "member_sha256": "b7d118607b92a5e8e4d5e2995cae0a1e3a954608192822ddae42b0828ecef578",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/bitt-07.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (7).png",
+      "member_sha256": "445fe442bdede50bd561d1693e2be7e823f90b52bc4820cfc9db7ba6e6e76e65",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/bitt-08.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (8).png",
+      "member_sha256": "85ca5f15eedb80e48cc49b4d4fd1099d9c3b6667d2d274b393dc7e89112c2724",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/bitt-09.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (9).png",
+      "member_sha256": "d84e5613cf396ca0a0fdc685321ef6e2b64b8377cf5d4320cb4a3b13f45ebf90",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/bitt-10.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (10).png",
+      "member_sha256": "f6b32875d8f97cfdc9629b275a3ce6065fdf735f12e52cf9b222b0c419193629",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/bitt-11.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (11).png",
+      "member_sha256": "2d011d824f0699dc9a70a02c1d862510058779529107825cb2caeec51fc0a295",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/bitt-12.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (12).png",
+      "member_sha256": "9d45e94147b913370014c111cce8969733ddb1e5657e161b5f7a891a0811996d",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/bitt-13.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (13).png",
+      "member_sha256": "467d30fba32cf9563258dd7c8c17ffd3b25b71cf9e927d6503773e9574528483",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/bitt-14.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (14).png",
+      "member_sha256": "ced613131d9687e6bdfe66f5fc7b2ad7e945350a40796d33c28e7139e5f2ba9e",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/bitt-15.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/bitt/bitt_ (15).png",
+      "member_sha256": "3ac3adc1ca0cdb5002fdcc54d784885bdd8ffeea613020354964c1484cf64283",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/korp-00.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (0).png",
+      "member_sha256": "244501f5e992f6183ec19194197cba536b373cdae877fe9acb29bf01f0f728e5",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/korp-01.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (1).png",
+      "member_sha256": "95c023b1d71c481ad7a09f44dbe8415ce19bb7ee4c5160b01a8cea82675771db",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/korp-02.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (2).png",
+      "member_sha256": "326e9fc3b7760f4ebc2e7d245dd2d1ad346e55a8b93949f9fbafc2b79ffbe5e8",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/korp-03.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (3).png",
+      "member_sha256": "5ecaa5f0cce8d2e349d9e6d917738a4340fe89234465c3777f5f420ccc32a9aa",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/korp-04.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (4).png",
+      "member_sha256": "f67bb235627a77acd413f02c655240a2fb3b8f6f2f2015847e6d0192e076f527",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/korp-05.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (5).png",
+      "member_sha256": "0890cb662f9860973984bda94b5ab29bad2cb3c3cca5fa7b93cba1b109498ff7",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/korp-06.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (6).png",
+      "member_sha256": "d4ccac37ba9ef423d51d8f79bd412d1f321c497ff97f3f867d202bbdc786380b",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/korp-07.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (7).png",
+      "member_sha256": "3c4713e6aaa110f54f643ceb7d4fb146b9e5dc1a42e8e0c81ba11a14da0ff17c",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/korp-08.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (8).png",
+      "member_sha256": "d30f1ce5f301f0259c4441115dda4c6ae027b09e7000611a1353bc43eb187652",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/korp-09.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (9).png",
+      "member_sha256": "b5fae78cc1929b841ec5f7764687ca0568c72577cb064f63e69677a131df3545",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/korp-10.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (10).png",
+      "member_sha256": "a3cf4849f12c5b4e25c3e94c6f078f88d8c190e1670ffb055a6fa88ea03c3308",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/korp-11.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (11).png",
+      "member_sha256": "82f35a5d0c998ffd8b6a4741310f9628a91489545c0034ac22c8e20e354cb653",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/korp-12.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (12).png",
+      "member_sha256": "2e6b54c8be465ec283eca566e741c1c8603548f65b44cd668691f52999ff2cc1",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/korp-13.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (13).png",
+      "member_sha256": "879b4be7facc70e5b891fbf6d48696053d21003993864c232455b6ad41dfbf18",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/korp-14.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (14).png",
+      "member_sha256": "c9b79010c88874087d225ad5c7e59e321c2aad18543369f6bbf3ef344caa81a9",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/korp-15.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (15).png",
+      "member_sha256": "e6a8db60d995337fd8ba6a26ca5d94e95d93e9f11ff56e5eb44c16ead67fe033",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/lave-00.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (0).png",
+      "member_sha256": "71e30bdd467f1a7205d6ac16beb3721421ab621a091ad55eb155d6256b960ef9",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/lave-01.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (1).png",
+      "member_sha256": "b46adf365344ffa407fb1b10af388c114ceb4be6341d0aaff8c68f67dffbb94c",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/lave-02.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (2).png",
+      "member_sha256": "a5158065b7805a76a82140b12b1c65f294e24b64c2556d68a75377676f3a71f5",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/lave-03.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (3).png",
+      "member_sha256": "86a30706f225b4398e99ee09a800e80af2ab3387b6b66f7adc93d4ee1b4fb923",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/lave-04.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (4).png",
+      "member_sha256": "1db64d31b124e29db391ac8f8b922e4271e30bdc0421084a363375b8bb6115a7",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/lave-05.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (5).png",
+      "member_sha256": "6bc5a49779c347af3d4e4002d2f448e0c87c50a0d0e1d0f56eaeebf38ce757f0",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/lave-06.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (6).png",
+      "member_sha256": "f5f2f708bf9eb21af783647afe7cbefc36a328092ec2b361d0c7b83a71f1b163",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/lave-07.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (7).png",
+      "member_sha256": "007942177ff171228ca0904d98cee182b0f789a227563765bfe213ddede2a18f",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/lave-08.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (8).png",
+      "member_sha256": "c354b5f9a1fd7d46f69e011846ae591a206611a3bb9daa0aaa3505db2c0d0560",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/lave-09.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (9).png",
+      "member_sha256": "d5a37f5c2cebfd28ac2e5ef81f17a9b6acae5e8f8fdeb630c71f437e5418c13c",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/lave-10.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (10).png",
+      "member_sha256": "aa235b2dcd4f539feec1fe092003b6d45326fefd795b0cf13ffdaffeb04e95dd",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/lave-11.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (11).png",
+      "member_sha256": "698a45d2c8dd86af992c8b098427770ce6e4ae6fdc7bf2035b1f2b73b0afeb6f",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/lave-12.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (12).png",
+      "member_sha256": "f0d6e2ebe43e9deea0ca47d85267e1f7d89223674a4864450573650ac9030513",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/lave-13.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (13).png",
+      "member_sha256": "6711a04a96019b0815fc2fd0f8511e2e7c62ccfe2ca74c7588090f3a4faaee58",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/lave-14.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (14).png",
+      "member_sha256": "91d94f593f4798315712b2fd59e87acdc846b0fc1654d07c4f92cd218b5547b5",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    },
+    {
+      "file": "textures/lave-15.png",
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/lave/lave_ (15).png",
+      "member_sha256": "449d541a34af3009eb563b5426733366f223f44bb94c64d378fc153f914c355c",
+      "dimensions": [
+        16,
+        16
+      ],
+      "active_albedo_overrides": []
+    }
+  ],
+  "active_override_count": 0,
+  "method": "Read-only installed ZIP members, options and prior/current bytecode evidence. No Minecraft or mod initialization executed. Original assets unchanged.",
+  "render_limits": "Exact active albedo bytes and selected registry/meta. Leaf world biome unset; default item tint used. Neutral directional shading and optional atmosphere/bloom are presentation choices, not a target-game screenshot or verified shader/light result."
+}

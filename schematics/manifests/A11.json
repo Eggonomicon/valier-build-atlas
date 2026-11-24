@@ -1,0 +1,85 @@
+{
+  "id": "A11",
+  "title": "Boundary wall and planted edge",
+  "kind": "module",
+  "file": "buildings/Valier_A11_Boundary_wall_and_planted_edge_GTNH29.schematic",
+  "sha256": "ac618bf505b6f0373d0d10fb51dc2dff9365d04a5d645d82108f70da5e88cf9c",
+  "dimensions_xyz": [
+    12,
+    5,
+    32
+  ],
+  "source_bounds_xyz_inclusive": [
+    0,
+    -1,
+    0,
+    11,
+    3,
+    31
+  ],
+  "array_order": "x + Width*(z + Length*y); numpy shape(y,z,x)",
+  "occupied_positions": 709,
+  "air_positions": 1211,
+  "role_counts": {
+    "F": 384,
+    "K": 176,
+    "E": 27,
+    "L": 68,
+    "V": 54
+  },
+  "placed_states": [
+    {
+      "registry_name": "Ztones:tile.korpBlock",
+      "metadata": 2,
+      "positions": 176
+    },
+    {
+      "registry_name": "Ztones:tile.laveBlock",
+      "metadata": 12,
+      "positions": 68
+    },
+    {
+      "registry_name": "minecraft:dirt",
+      "metadata": 0,
+      "positions": 27
+    },
+    {
+      "registry_name": "minecraft:leaves",
+      "metadata": 4,
+      "positions": 54
+    },
+    {
+      "registry_name": "minecraft:stonebrick",
+      "metadata": 0,
+      "positions": 384
+    }
+  ],
+  "registry_map": {
+    "minecraft:air": 0,
+    "ExtraUtilities:greenscreen": 1,
+    "Ztones:tile.bittBlock": 2,
+    "Ztones:tile.korpBlock": 3,
+    "Ztones:tile.laveBlock": 4,
+    "minecraft:dirt": 5,
+    "minecraft:glass": 6,
+    "minecraft:leaves": 7,
+    "minecraft:log": 8,
+    "minecraft:stone_slab": 9,
+    "minecraft:stonebrick": 10
+  },
+  "source_model": "design/visual-library-v1/models/A11.json.gz",
+  "source_model_sha256": "654fe18e6feecd1663d3e9f23ed7a6d36c31cd28b276cffd2c0b524fbbb87dc4",
+  "source_window": null,
+  "anchor": "Local NW minimum corner at the lowest source civil Y; all six WorldEdit origin/offset tags0",
+  "city_minimum_xz": null,
+  "minimum_y_formula": "world minimum Y = future surface S + (-1)",
+  "world_xz_formula": "Component unplaced; choose a separate clash-checked site",
+  "orientation": "+X east; +Z south; north is−Z. No rotation/flip applied. World anchor/S/rotation unassigned.",
+  "air_policy": "Explicit air fills unused bounding-box cells. Those blank cells are NOT whole-parcel excavation instructions. WorldEdit -a skips clipboard air; without it air can clear destination cells. Civil required-clear masks remain separate.",
+  "entities": 0,
+  "tile_entities": 0,
+  "machines_included": 0,
+  "native_machine_NBT_included": false,
+  "format_status": "Alpha NBT with identical name mappings for inspected installed loaders; static round-trip validation separate from in-game test",
+  "game_tested": false
+}

@@ -1,0 +1,74 @@
+{
+  "id": "C10-10",
+  "title": "Civil tile 10-10",
+  "kind": "civil tile",
+  "file": "civil/Valier_C10-10_Civil_tile_10-10_GTNH29.schematic",
+  "sha256": "0614dac5de5f7bb302537f81a7c6acb81103047735db5a32fc26b0cd81d3fe54",
+  "dimensions_xyz": [
+    12,
+    11,
+    12
+  ],
+  "source_bounds_xyz_inclusive": [
+    864,
+    -10,
+    864,
+    875,
+    0,
+    875
+  ],
+  "array_order": "x + Width*(z + Length*y); numpy shape(y,z,x)",
+  "occupied_positions": 684,
+  "air_positions": 900,
+  "role_counts": {
+    "F": 144,
+    "R": 128,
+    "W": 16,
+    "G": 128,
+    "C": 128,
+    "B": 140
+  },
+  "placed_states": [
+    {
+      "registry_name": "minecraft:stonebrick",
+      "metadata": 0,
+      "positions": 684
+    }
+  ],
+  "registry_map": {
+    "minecraft:air": 0,
+    "ExtraUtilities:greenscreen": 1,
+    "Ztones:tile.bittBlock": 2,
+    "Ztones:tile.korpBlock": 3,
+    "Ztones:tile.laveBlock": 4,
+    "minecraft:dirt": 5,
+    "minecraft:glass": 6,
+    "minecraft:leaves": 7,
+    "minecraft:log": 8,
+    "minecraft:stone_slab": 9,
+    "minecraft:stonebrick": 10
+  },
+  "source_model": "generated/pdim-masterplan-v1/data/civil-layers.npz",
+  "source_model_sha256": "d93da4155c12b131a6eb422309be775bace178b634955be7e396c97feccb4b98",
+  "source_window": [
+    864,
+    864,
+    875,
+    875
+  ],
+  "anchor": "Local NW minimum corner at the lowest source civil Y; all six WorldEdit origin/offset tags0",
+  "city_minimum_xz": [
+    864,
+    864
+  ],
+  "minimum_y_formula": "world minimum Y = future surface S + (-10)",
+  "world_xz_formula": "world minimum X/Z = surveyed city anchor X/Z + city_minimum_xz, before any rotation",
+  "orientation": "+X east; +Z south; north is−Z. No rotation/flip applied. World anchor/S/rotation unassigned.",
+  "air_policy": "Explicit air fills unused bounding-box cells. Those blank cells are NOT whole-parcel excavation instructions. WorldEdit -a skips clipboard air; without it air can clear destination cells. Civil required-clear masks remain separate.",
+  "entities": 0,
+  "tile_entities": 0,
+  "machines_included": 0,
+  "native_machine_NBT_included": false,
+  "format_status": "Alpha NBT with identical name mappings for inspected installed loaders; static round-trip validation separate from in-game test",
+  "game_tested": false
+}

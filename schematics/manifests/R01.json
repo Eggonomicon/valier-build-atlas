@@ -1,0 +1,79 @@
+{
+  "id": "R01",
+  "title": "12-wide street / 48-block finish study",
+  "kind": "module",
+  "file": "buildings/Valier_R01_12-wide_street_48-block_finish_study_GTNH29.schematic",
+  "sha256": "8273f1c20dc1530348133e9578746e317467c3ae89343c791932cb75a02f2124",
+  "dimensions_xyz": [
+    12,
+    10,
+    48
+  ],
+  "source_bounds_xyz_inclusive": [
+    0,
+    -10,
+    0,
+    11,
+    -1,
+    47
+  ],
+  "array_order": "x + Width*(z + Length*y); numpy shape(y,z,x)",
+  "occupied_positions": 2400,
+  "air_positions": 3360,
+  "role_counts": {
+    "F": 1824,
+    "L": 188,
+    "B": 384,
+    "N": 4
+  },
+  "placed_states": [
+    {
+      "registry_name": "ExtraUtilities:greenscreen",
+      "metadata": 9,
+      "positions": 4
+    },
+    {
+      "registry_name": "Ztones:tile.bittBlock",
+      "metadata": 0,
+      "positions": 384
+    },
+    {
+      "registry_name": "Ztones:tile.laveBlock",
+      "metadata": 12,
+      "positions": 188
+    },
+    {
+      "registry_name": "minecraft:stonebrick",
+      "metadata": 0,
+      "positions": 1824
+    }
+  ],
+  "registry_map": {
+    "minecraft:air": 0,
+    "ExtraUtilities:greenscreen": 1,
+    "Ztones:tile.bittBlock": 2,
+    "Ztones:tile.korpBlock": 3,
+    "Ztones:tile.laveBlock": 4,
+    "minecraft:dirt": 5,
+    "minecraft:glass": 6,
+    "minecraft:leaves": 7,
+    "minecraft:log": 8,
+    "minecraft:stone_slab": 9,
+    "minecraft:stonebrick": 10
+  },
+  "source_model": "design/visual-library-v1/models/R01.json.gz",
+  "source_model_sha256": "f4a798b3aea0fbcbe31c46e6a84e96d5556597c17cd2a3b218935c475f8bc7a5",
+  "source_window": null,
+  "anchor": "Local NW minimum corner at the lowest source civil Y; all six WorldEdit origin/offset tags0",
+  "city_minimum_xz": null,
+  "minimum_y_formula": "world minimum Y = future surface S + (-10)",
+  "world_xz_formula": "Component unplaced; choose a separate clash-checked site",
+  "orientation": "+X east; +Z south; north is−Z. No rotation/flip applied. World anchor/S/rotation unassigned.",
+  "air_policy": "Explicit air fills unused bounding-box cells. Those blank cells are NOT whole-parcel excavation instructions. WorldEdit -a skips clipboard air; without it air can clear destination cells. Civil required-clear masks remain separate.",
+  "entities": 0,
+  "tile_entities": 0,
+  "machines_included": 0,
+  "native_machine_NBT_included": false,
+  "format_status": "Alpha NBT with identical name mappings for inspected installed loaders; static round-trip validation separate from in-game test",
+  "game_tested": false
+}

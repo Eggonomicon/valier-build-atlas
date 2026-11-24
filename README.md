@@ -4,6 +4,12 @@ Interactive city plans, exterior designs, block palettes and staged assembly gui
 
 Website: https://eggonomicon.github.io/valier-build-atlas/
 
+Textures and schematics: https://eggonomicon.github.io/valier-build-atlas/#installed
+
+All96 saved designs have864 views using exact selected textures from the installed GTNH2.9 profile. Neutral material views accompany low-angle atmosphere images retaining the concept language.13 role bindings,48 installed Ztones variants, source assets/metadata and shader/biome limits are documented.
+
+196 registry-mapped Alpha schematics cover96 architectural/components and100 disjoint civil tiles. Current installed WorldEdit v0.0.10 and Schematica1.12.6-GTNH loader code support the included name maps. Independent NBT/source/remap checks passed. No machines or native machine NBT are included, and actual in-game import/re-import remains untested. Read each minimum-corner anchor manifest and the pack README, including clipboard air behavior.
+
 Build planning: https://eggonomicon.github.io/valier-build-atlas/#operations/01-01
 
 The planning section supplies all81 department programs and324 activity zones,81 model-derived operations drawings, and32 proposed machine cells across Steam Works, LV factory, ore processing, chemistry and circuits. It also contains the unchanged12-block road/gallery section, infrastructure-first startup sequence,31 installed singleblock machine identities and downloadable planning models/CSVs. Source shells and the65-square HQ reservation are unchanged.

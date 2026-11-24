@@ -1,0 +1,36 @@
+{
+  "id": "03-08",
+  "title": "ZPM chemistry",
+  "kind": "plot",
+  "family": "chemistry",
+  "sector": "NE",
+  "source_model_sha256": "f52d8c60a522de72c6439574b2182731ac4c48ae1fe53110e158356e0b9aabe2",
+  "source_positions": 20502,
+  "source_role_counts": {
+    "F": 4096,
+    "K": 2210,
+    "L": 4394,
+    "B": 8794,
+    "G": 800,
+    "N": 208
+  },
+  "images": {
+    "isometric": "03-08/iso-se.webp",
+    "atmosphere": "03-08/atmosphere.webp",
+    "northwest": "03-08/iso-nw.webp",
+    "north": "03-08/north.webp",
+    "south": "03-08/south.webp",
+    "east": "03-08/east.webp",
+    "west": "03-08/west.webp",
+    "roof": "03-08/roof.webp",
+    "street": "03-08/street.webp"
+  },
+  "thumbnail": "03-08/thumbnail.webp",
+  "visible_faces": {
+    "SE": 19582,
+    "NW": 19582,
+    "street": 19582
+  },
+  "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+  "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+}

@@ -1,0 +1,36 @@
+{
+  "id": "02-08",
+  "title": "IV chemistry",
+  "kind": "plot",
+  "family": "chemistry",
+  "sector": "NE",
+  "source_model_sha256": "6b0ad827ece1b32ef5173746150cc50132bb5efbf55361d98e92dad7838bced0",
+  "source_positions": 20454,
+  "source_role_counts": {
+    "F": 4096,
+    "K": 2162,
+    "L": 4394,
+    "B": 8794,
+    "G": 800,
+    "N": 208
+  },
+  "images": {
+    "isometric": "02-08/iso-se.webp",
+    "atmosphere": "02-08/atmosphere.webp",
+    "northwest": "02-08/iso-nw.webp",
+    "north": "02-08/north.webp",
+    "south": "02-08/south.webp",
+    "east": "02-08/east.webp",
+    "west": "02-08/west.webp",
+    "roof": "02-08/roof.webp",
+    "street": "02-08/street.webp"
+  },
+  "thumbnail": "02-08/thumbnail.webp",
+  "visible_faces": {
+    "SE": 19534,
+    "NW": 19534,
+    "street": 19534
+  },
+  "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+  "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+}

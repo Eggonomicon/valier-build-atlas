@@ -1,0 +1,94 @@
+{
+  "id": "02-08",
+  "title": "IV chemistry",
+  "kind": "plot",
+  "file": "buildings/Valier_02-08_IV_chemistry_GTNH29.schematic",
+  "sha256": "07007f70c98d1e0dc6788291b83c9e6a15036fd6eb5fbd57a13b4fab599ca740",
+  "dimensions_xyz": [
+    64,
+    42,
+    64
+  ],
+  "source_bounds_xyz_inclusive": [
+    0,
+    -1,
+    0,
+    63,
+    40,
+    63
+  ],
+  "array_order": "x + Width*(z + Length*y); numpy shape(y,z,x)",
+  "occupied_positions": 20454,
+  "air_positions": 151578,
+  "role_counts": {
+    "F": 4096,
+    "K": 2162,
+    "L": 4394,
+    "B": 8794,
+    "G": 800,
+    "N": 208
+  },
+  "placed_states": [
+    {
+      "registry_name": "ExtraUtilities:greenscreen",
+      "metadata": 9,
+      "positions": 208
+    },
+    {
+      "registry_name": "Ztones:tile.bittBlock",
+      "metadata": 0,
+      "positions": 8794
+    },
+    {
+      "registry_name": "Ztones:tile.korpBlock",
+      "metadata": 2,
+      "positions": 2162
+    },
+    {
+      "registry_name": "Ztones:tile.laveBlock",
+      "metadata": 12,
+      "positions": 4394
+    },
+    {
+      "registry_name": "minecraft:glass",
+      "metadata": 0,
+      "positions": 800
+    },
+    {
+      "registry_name": "minecraft:stonebrick",
+      "metadata": 0,
+      "positions": 4096
+    }
+  ],
+  "registry_map": {
+    "minecraft:air": 0,
+    "ExtraUtilities:greenscreen": 1,
+    "Ztones:tile.bittBlock": 2,
+    "Ztones:tile.korpBlock": 3,
+    "Ztones:tile.laveBlock": 4,
+    "minecraft:dirt": 5,
+    "minecraft:glass": 6,
+    "minecraft:leaves": 7,
+    "minecraft:log": 8,
+    "minecraft:stone_slab": 9,
+    "minecraft:stonebrick": 10
+  },
+  "source_model": "design/visual-library-v1/models/02-08.json.gz",
+  "source_model_sha256": "6b0ad827ece1b32ef5173746150cc50132bb5efbf55361d98e92dad7838bced0",
+  "source_window": null,
+  "anchor": "Local NW minimum corner at the lowest source civil Y; all six WorldEdit origin/offset tags0",
+  "city_minimum_xz": [
+    694,
+    118
+  ],
+  "minimum_y_formula": "world minimum Y = future surface S + (-1)",
+  "world_xz_formula": "world minimum X/Z = surveyed city anchor X/Z + city_minimum_xz, before any rotation",
+  "orientation": "+X east; +Z south; north is−Z. No rotation/flip applied. World anchor/S/rotation unassigned.",
+  "air_policy": "Explicit air fills unused bounding-box cells. Those blank cells are NOT whole-parcel excavation instructions. WorldEdit -a skips clipboard air; without it air can clear destination cells. Civil required-clear masks remain separate.",
+  "entities": 0,
+  "tile_entities": 0,
+  "machines_included": 0,
+  "native_machine_NBT_included": false,
+  "format_status": "Alpha NBT with identical name mappings for inspected installed loaders; static round-trip validation separate from in-game test",
+  "game_tested": false
+}

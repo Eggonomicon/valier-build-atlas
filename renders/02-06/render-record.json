@@ -1,0 +1,36 @@
+{
+  "id": "02-06",
+  "title": "EV chemistry",
+  "kind": "plot",
+  "family": "chemistry",
+  "sector": "NE",
+  "source_model_sha256": "d3a8cc36ac9215f108b7dc1d62175e99ce953dd8474286e4e9222b132cccc058",
+  "source_positions": 21182,
+  "source_role_counts": {
+    "F": 4096,
+    "K": 2370,
+    "L": 4522,
+    "B": 9186,
+    "G": 800,
+    "N": 208
+  },
+  "images": {
+    "isometric": "02-06/iso-se.webp",
+    "atmosphere": "02-06/atmosphere.webp",
+    "northwest": "02-06/iso-nw.webp",
+    "north": "02-06/north.webp",
+    "south": "02-06/south.webp",
+    "east": "02-06/east.webp",
+    "west": "02-06/west.webp",
+    "roof": "02-06/roof.webp",
+    "street": "02-06/street.webp"
+  },
+  "thumbnail": "02-06/thumbnail.webp",
+  "visible_faces": {
+    "SE": 20198,
+    "NW": 20198,
+    "street": 20198
+  },
+  "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+  "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+}

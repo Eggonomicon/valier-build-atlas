@@ -1,0 +1,567 @@
+{
+  "title": "Installed schematic format evidence v1",
+  "date": "2026-11-23",
+  "status": "Installed static bytecode/config evidence; no game, import, printer or world paste test performed",
+  "method": "Read-only ZIP member extraction/hashing and javap disassembly. No mod class initialization or world access.",
+  "sources": [
+    {
+      "filename": "Schematica-1.12.6-GTNH.jar",
+      "version_label": "1.12.6-GTNH",
+      "sha256": "9b12f671791c336288a8ba7541eaef388a3d0a1db6ece04295555604bdb8a6c1",
+      "bytes": 264277,
+      "mcmod_info": [
+        {
+          "modid": "Schematica",
+          "name": "Schematica",
+          "description": "Import and export Minecraft schematic files in Minecraft!",
+          "version": "1.12.6-GTNH",
+          "mcversion": "1.7.10",
+          "authorList": [
+            "Lunatrius"
+          ],
+          "credits": "AbrarSyed, Adaptivity, AtomicBlom, bilde2910, bombcar, cltnschlosser, inpixies, Johann Bernhardt, Kamesuta, Kiwi233, MattBDev, mist475, Moravuscz, qb20nh, ShaRose, Tatara88, ThranMaru, UltraMoogleMan",
+          "dependants": [],
+          "dependencies": [
+            "LunatriusCore@[1.1.5,)"
+          ],
+          "parent": "",
+          "requiredMods": [
+            "LunatriusCore@[1.1.5,)"
+          ],
+          "logoFile": "/assets/schematica/logo.png",
+          "screenshots": [],
+          "updateUrl": "",
+          "url": "http://mc.lunatri.us/",
+          "useDependencyInformation": true
+        }
+      ],
+      "classes": [
+        {
+          "member": "com/github/lunatrius/schematica/client/world/SchematicWorld.class",
+          "class_sha256": "5e840c96f1d3b4685c4fa5c17f9d3f2122970088f073c74ccc65fd32e9d4b98a",
+          "disassembly": "verification/schematic-format-v1/com.github.lunatrius.schematica.client.world.SchematicWorld.javap.txt",
+          "disassembly_sha256": "fab0a9190da3995e90b2828e1a08d20a05ec13372288133710cd3c04fa209121"
+        },
+        {
+          "member": "com/github/lunatrius/schematica/handler/ConfigurationHandler.class",
+          "class_sha256": "8c37f7e12644ced3e1c8a5d119889ea73009602f2a983e34788bb86968c79585",
+          "disassembly": "verification/schematic-format-v1/com.github.lunatrius.schematica.handler.ConfigurationHandler.javap.txt",
+          "disassembly_sha256": "9ec92e656fa4eeb8aac4e2281d2dde5ae51af42b3a6b2e13149dc89bea2c1f87"
+        },
+        {
+          "member": "com/github/lunatrius/schematica/world/schematic/SchematicAlpha.class",
+          "class_sha256": "94247c690e8b317b83ea95d938e2b03f2fe7a15c0bb8659ff9a7c7226f370c7e",
+          "disassembly": "verification/schematic-format-v1/com.github.lunatrius.schematica.world.schematic.SchematicAlpha.javap.txt",
+          "disassembly_sha256": "63e7f6f5434dc30f02e71f4866fc5917f2ea8dbf60252147dc6a6608c8ef0246"
+        },
+        {
+          "member": "com/github/lunatrius/schematica/world/schematic/SchematicFormat.class",
+          "class_sha256": "789ba1ce63cec2061cc2f5c1d0921b5862be0eacd45404bfd5696ee73e5eb3df",
+          "disassembly": "verification/schematic-format-v1/com.github.lunatrius.schematica.world.schematic.SchematicFormat.javap.txt",
+          "disassembly_sha256": "384048e93138db2aaacf1d44cde1a518801334fd08970e5f1bd797ca853481bd"
+        },
+        {
+          "member": "com/github/lunatrius/schematica/world/schematic/SchematicUtil.class",
+          "class_sha256": "cd66b0ed24a1eb14bd4ab59d132ca6404f651de639b21053f0165763fd4b97b6",
+          "disassembly": "verification/schematic-format-v1/com.github.lunatrius.schematica.world.schematic.SchematicUtil.javap.txt",
+          "disassembly_sha256": "289e494031646e3dc5bc183ca94ae0470278f6f2cb223e505cce6fbd857ab580"
+        },
+        {
+          "member": "com/github/lunatrius/schematica/world/schematic/UnsupportedFormatException.class",
+          "class_sha256": "26a345d701037e03f41b4a8331de0cbc4ff94a6e99f02dcde793119867f79841",
+          "disassembly": "verification/schematic-format-v1/com.github.lunatrius.schematica.world.schematic.UnsupportedFormatException.javap.txt",
+          "disassembly_sha256": "1ac1d22eb5eb66c72de457148998d6959c652ae5493592d8e70ad71a6ebfd07d"
+        },
+        {
+          "member": "com/github/lunatrius/schematica/world/storage/Schematic.class",
+          "class_sha256": "2ce2619dfb83c9fdc49e8d37fe217e1bd2d420ed93e7cba7f12d1657eba564bb",
+          "disassembly": "verification/schematic-format-v1/com.github.lunatrius.schematica.world.storage.Schematic.javap.txt",
+          "disassembly_sha256": "187b23b70a3110cc5dea9fbb0403acdfc9a1bd35b405f8b02973c03488e8ebd4"
+        }
+      ]
+    },
+    {
+      "filename": "worldedit-v0.0.10.jar",
+      "version_label": "v0.0.10",
+      "sha256": "4904a6d7e29e53afaf28d99a50ce4b946b429d174fecd0563e7787e9c8ef481f",
+      "bytes": 1455992,
+      "mcmod_info": [
+        {
+          "modid": "worldedit",
+          "name": "WorldEdit",
+          "description": "WorldEdit is an easy-to-use in-game world editor for Minecraft, supporting both single player and multiplayer.",
+          "version": "v0.0.10",
+          "mcversion": "1.7.10",
+          "url": "http://wiki.sk89q.com/wiki/WorldEdit",
+          "updateUrl": "",
+          "authors": [
+            "sk89q",
+            "wizjany",
+            "TomyLobo"
+          ],
+          "credits": "",
+          "logoFile": "",
+          "screenshots": [],
+          "requiredMods": [],
+          "dependencies": [
+            "ForgeMultipart"
+          ],
+          "dependants": []
+        }
+      ],
+      "classes": [
+        {
+          "member": "com/sk89q/worldedit/command/ClipboardCommands.class",
+          "class_sha256": "f2f241434ab3424c0b268efdb1227a405bac56b41eb10480bbcbf6f5f4d4c2b0",
+          "disassembly": "verification/schematic-format-v1/com.sk89q.worldedit.command.ClipboardCommands.annotations.javap.txt",
+          "disassembly_sha256": "1d40742169f0f31e1736571676d3909f5477e3a12d92c6987404608d8de4e630"
+        },
+        {
+          "member": "com/sk89q/worldedit/command/ClipboardCommands.class",
+          "class_sha256": "f2f241434ab3424c0b268efdb1227a405bac56b41eb10480bbcbf6f5f4d4c2b0",
+          "disassembly": "verification/schematic-format-v1/com.sk89q.worldedit.command.ClipboardCommands.javap.txt",
+          "disassembly_sha256": "0173ac73694c8104789be68f2f920656fc7cc598c7aceb6ae1e56283a4c96bc6"
+        },
+        {
+          "member": "com/sk89q/worldedit/command/SchematicCommands.class",
+          "class_sha256": "05b4693096acd5ab1761d0ede712a01cd527d247a244ac937c7cd39c3a5a685e",
+          "disassembly": "verification/schematic-format-v1/com.sk89q.worldedit.command.SchematicCommands.javap.txt",
+          "disassembly_sha256": "874533062e4f61309b85ee0ed8c1915537a26e09344f43470fa154e92657b6e5"
+        },
+        {
+          "member": "com/sk89q/worldedit/extent/clipboard/io/ClipboardFormat$1.class",
+          "class_sha256": "624480419079fcc43b22a05f2e66d41fdadb8800b9822d102d71eccd2a7a7e20",
+          "disassembly": "verification/schematic-format-v1/com.sk89q.worldedit.extent.clipboard.io.ClipboardFormat$1.javap.txt",
+          "disassembly_sha256": "fca0b768152ac027db9545d35edb411059a86456aec7d6578b9b1360fa70836e"
+        },
+        {
+          "member": "com/sk89q/worldedit/extent/clipboard/io/ClipboardFormat.class",
+          "class_sha256": "47ffc2a833176ce9e1a36a2b40ad7921be6128a7e486548f09325f83514d10fb",
+          "disassembly": "verification/schematic-format-v1/com.sk89q.worldedit.extent.clipboard.io.ClipboardFormat.javap.txt",
+          "disassembly_sha256": "9d867fdc1fb8ceeaa51f274c9c7f299257e43d514c976d900ae8073deb8f15d1"
+        },
+        {
+          "member": "com/sk89q/worldedit/extent/clipboard/io/SchematicReader.class",
+          "class_sha256": "860ea8827852dea17bcca03be1164793aff3506802c2370e5e35f9473bb266a6",
+          "disassembly": "verification/schematic-format-v1/com.sk89q.worldedit.extent.clipboard.io.SchematicReader.javap.txt",
+          "disassembly_sha256": "f2732ab94a1f9f29db02a553f3f1f983eb7edd4327e51b341163731c05e59721"
+        },
+        {
+          "member": "com/sk89q/worldedit/extent/clipboard/io/SchematicWriter.class",
+          "class_sha256": "9a3c9233f0a51a735a1b131c7a27c08c9046b941fdbe0ba8a05e9e73387d1d5b",
+          "disassembly": "verification/schematic-format-v1/com.sk89q.worldedit.extent.clipboard.io.SchematicWriter.javap.txt",
+          "disassembly_sha256": "d3f0a5829aa85ac397c591c6c85dd891db2d75365b83161e4d31c600b9cd5125"
+        },
+        {
+          "member": "com/sk89q/worldedit/schematic/MCEditSchematicFormat.class",
+          "class_sha256": "d857685c1706980bf89b0b086acfc904a561d3ae2a8c7561491524e937a1c3a6",
+          "disassembly": "verification/schematic-format-v1/com.sk89q.worldedit.schematic.MCEditSchematicFormat.javap.txt",
+          "disassembly_sha256": "c7b3a176ebcafd5f873391f58f79e0c474efc92fbe40ad4fd1363dff5f63bfb1"
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "key": "container",
+      "finding": "GZIP-compressed named NBT root compound Schematic; Materials TAG_String Alpha; Width/Height/Length TAG_Short. Both readers accept these; dimensions must stay positive signed-short values.",
+      "evidence": [
+        {
+          "file": "verification/schematic-format-v1/com.github.lunatrius.schematica.world.schematic.SchematicFormat.javap.txt",
+          "lines": [
+            63,
+            103
+          ]
+        },
+        {
+          "file": "verification/schematic-format-v1/com.github.lunatrius.schematica.world.schematic.SchematicFormat.javap.txt",
+          "lines": [
+            142,
+            156
+          ]
+        },
+        {
+          "file": "verification/schematic-format-v1/com.sk89q.worldedit.extent.clipboard.io.ClipboardFormat$1.javap.txt",
+          "lines": [
+            12,
+            27
+          ]
+        },
+        {
+          "file": "verification/schematic-format-v1/com.sk89q.worldedit.extent.clipboard.io.SchematicReader.javap.txt",
+          "lines": [
+            19,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "key": "dual_mapping",
+      "finding": "SchematicaMapping and BlockMapping are distinct TAG_Compound tags. Both use exact registry-name keys and TAG_Short file-ID values. Schematica constructs file-ID→current registry ID using FML registry getId(name). WorldEdit constructs the same remap using Block.getBlockFromName(name)/getIdFromBlock. Include identical complete compounds, including air.",
+      "evidence": [
+        {
+          "file": "verification/schematic-format-v1/com.github.lunatrius.schematica.world.schematic.SchematicAlpha.javap.txt",
+          "lines": [
+            293,
+            326
+          ]
+        },
+        {
+          "file": "verification/schematic-format-v1/com.github.lunatrius.schematica.world.schematic.SchematicAlpha.javap.txt",
+          "lines": [
+            384,
+            405
+          ]
+        },
+        {
+          "file": "verification/schematic-format-v1/com.sk89q.worldedit.extent.clipboard.io.SchematicReader.javap.txt",
+          "lines": [
+            190,
+            233
+          ]
+        },
+        {
+          "file": "verification/schematic-format-v1/com.sk89q.worldedit.extent.clipboard.io.SchematicReader.javap.txt",
+          "lines": [
+            510,
+            527
+          ]
+        },
+        {
+          "file": "verification/schematic-format-v1/com.sk89q.worldedit.extent.clipboard.io.SchematicWriter.javap.txt",
+          "lines": [
+            341,
+            353
+          ]
+        }
+      ]
+    },
+    {
+      "key": "layout",
+      "finding": "Blocks is one unsigned low-ID byte per cell; Data is one unsigned metadata byte per cell. Index is x + Width*(z + Length*y), X fastest then Z then Y. Metadata is placed metadata, not inventory item damage.",
+      "evidence": [
+        {
+          "file": "verification/schematic-format-v1/com.github.lunatrius.schematica.world.schematic.SchematicAlpha.javap.txt",
+          "lines": [
+            335,
+            405
+          ]
+        },
+        {
+          "file": "verification/schematic-format-v1/com.sk89q.worldedit.extent.clipboard.io.SchematicReader.javap.txt",
+          "lines": [
+            478,
+            550
+          ]
+        }
+      ]
+    },
+    {
+      "key": "addblocks_incompatibility",
+      "finding": "Installed normal Schematica expands AddBlocks with even cell in high nibble and odd cell in low nibble; installed WorldEdit combines even cell from low nibble and odd from high. Therefore use only file-local IDs 0..255 and omit AddBlocks/Add/AddBlocks2. No need to encode runtime IDs. Do not re-save in either tool and assume cross-tool portability without rechecking high-ID output.",
+      "evidence": [
+        {
+          "file": "verification/schematic-format-v1/com.github.lunatrius.schematica.world.schematic.SchematicAlpha.javap.txt",
+          "lines": [
+            214,
+            276
+          ]
+        },
+        {
+          "file": "verification/schematic-format-v1/com.sk89q.worldedit.extent.clipboard.io.SchematicReader.javap.txt",
+          "lines": [
+            689,
+            775
+          ]
+        }
+      ]
+    },
+    {
+      "key": "schematicplus",
+      "finding": "The installed Schematica config currently sets useSchematicplusFormat=false. The true branch expects an unpacked full-volume AddBlocks array even for low IDs. Proposed export requires false; it is not compatible with the alternative true branch.",
+      "evidence": [
+        {
+          "file": "verification/schematic-format-v1/com.github.lunatrius.schematica.world.schematic.SchematicAlpha.javap.txt",
+          "lines": [
+            11,
+            29
+          ]
+        },
+        {
+          "file": "verification/schematic-format-v1/com.github.lunatrius.schematica.world.schematic.SchematicAlpha.javap.txt",
+          "lines": [
+            113,
+            126
+          ]
+        },
+        {
+          "file": "verification/schematic-format-v1/installed-config-observation.json"
+        }
+      ]
+    },
+    {
+      "key": "origin",
+      "finding": "WorldEdit reads WEOriginX/Y/Z as clipboard region minimum, WEOffsetX/Y/Z as minimum minus clipboard anchor, and sets clipboard origin to WEOrigin minus WEOffset. Use all six TAG_Int values zero for a minimum-corner placement anchor; keep city/civil/world translation in sidecar manifest. Schematica Alpha reader does not consume these tags; position its ghost manually.",
+      "evidence": [
+        {
+          "file": "verification/schematic-format-v1/com.sk89q.worldedit.extent.clipboard.io.SchematicReader.javap.txt",
+          "lines": [
+            91,
+            186
+          ]
+        },
+        {
+          "file": "verification/schematic-format-v1/com.sk89q.worldedit.extent.clipboard.io.SchematicReader.javap.txt",
+          "lines": [
+            466,
+            473
+          ]
+        },
+        {
+          "file": "verification/schematic-format-v1/com.github.lunatrius.schematica.world.schematic.SchematicAlpha.javap.txt",
+          "lines": [
+            11,
+            449
+          ]
+        }
+      ]
+    },
+    {
+      "key": "entities",
+      "finding": "Write empty TAG_List<Compound> TileEntities and Entities for architectural exports. Both read tile entity lists; WorldEdit requires and reads Entities. Schematica Alpha writes Entities but its readFromNBT does not load Entities. Exclude machines, inventories, multipart, shaped-block tile data, doors and other unvalidated tile/NBT content from this shell format.",
+      "evidence": [
+        {
+          "file": "verification/schematic-format-v1/com.github.lunatrius.schematica.world.schematic.SchematicAlpha.javap.txt",
+          "lines": [
+            413,
+            449
+          ]
+        },
+        {
+          "file": "verification/schematic-format-v1/com.github.lunatrius.schematica.world.schematic.SchematicAlpha.javap.txt",
+          "lines": [
+            1228,
+            1238
+          ]
+        },
+        {
+          "file": "verification/schematic-format-v1/com.sk89q.worldedit.extent.clipboard.io.SchematicReader.javap.txt",
+          "lines": [
+            343,
+            354
+          ]
+        },
+        {
+          "file": "verification/schematic-format-v1/com.sk89q.worldedit.extent.clipboard.io.SchematicReader.javap.txt",
+          "lines": [
+            628,
+            678
+          ]
+        }
+      ]
+    },
+    {
+      "key": "air",
+      "finding": "Export explicit air ID0 and metadata0 in every unoccupied bounding-box cell; it counts toward full array volume, not occupied shell bill. WorldEdit paste -a skips air; without -a the clipboard includes air and can clear destination cells. Installed command annotation and PasteBuilder connection confirm this behavior. File creation or loading is not a paste authorization.",
+      "evidence": [
+        {
+          "file": "verification/schematic-format-v1/com.github.lunatrius.schematica.world.schematic.SchematicAlpha.javap.txt",
+          "lines": [
+            335,
+            405
+          ]
+        },
+        {
+          "file": "verification/schematic-format-v1/com.sk89q.worldedit.extent.clipboard.io.SchematicReader.javap.txt",
+          "lines": [
+            478,
+            550
+          ]
+        },
+        {
+          "file": "verification/schematic-format-v1/com.sk89q.worldedit.command.ClipboardCommands.annotations.javap.txt",
+          "lines": [
+            682,
+            715
+          ]
+        },
+        {
+          "file": "verification/schematic-format-v1/com.sk89q.worldedit.command.ClipboardCommands.annotations.javap.txt",
+          "lines": [
+            811,
+            846
+          ]
+        }
+      ]
+    },
+    {
+      "key": "active_worldedit_loader",
+      "finding": "Installed //schematic load calls ClipboardFormat.getReader and uses SchematicReader, with aliases mcedit/mce/schematic. The separate obsolete MCEditSchematicFormat loader has no BlockMapping support; do not call that legacy Java API or claim general compatibility with every WorldEdit 6 build.",
+      "evidence": [
+        {
+          "file": "verification/schematic-format-v1/com.sk89q.worldedit.command.SchematicCommands.javap.txt",
+          "lines": [
+            21,
+            113
+          ]
+        },
+        {
+          "file": "verification/schematic-format-v1/com.sk89q.worldedit.extent.clipboard.io.ClipboardFormat$1.javap.txt",
+          "lines": [
+            12,
+            27
+          ]
+        },
+        {
+          "file": "verification/schematic-format-v1/com.sk89q.worldedit.extent.clipboard.io.ClipboardFormat.javap.txt",
+          "lines": [
+            112,
+            133
+          ]
+        },
+        {
+          "file": "verification/schematic-format-v1/com.sk89q.worldedit.schematic.MCEditSchematicFormat.javap.txt",
+          "lines": [
+            22,
+            180
+          ]
+        }
+      ]
+    }
+  ],
+  "recommendation": {
+    "format": "Alpha .schematic with dual registry-name mappings and low file-local IDs",
+    "compatibility_scope": "Statically supported by Schematica1.12.6-GTNH normal-format reader and installed WorldEditv0.0.10 active SchematicReader only; runtime validation pending",
+    "root_name": "Schematic",
+    "compression": "gzip",
+    "materials": "Alpha",
+    "mapping_tags": [
+      "SchematicaMapping",
+      "BlockMapping"
+    ],
+    "mapping_value_nbt_type": "TAG_Short",
+    "proposed_mapping": {
+      "minecraft:air": 0,
+      "ExtraUtilities:greenscreen": 1,
+      "Ztones:tile.bittBlock": 2,
+      "Ztones:tile.korpBlock": 3,
+      "Ztones:tile.laveBlock": 4,
+      "minecraft:dirt": 5,
+      "minecraft:glass": 6,
+      "minecraft:leaves": 7,
+      "minecraft:log": 8,
+      "minecraft:stone_slab": 9,
+      "minecraft:stonebrick": 10
+    },
+    "role_bindings": {
+      "B": {
+        "registry_name": "Ztones:tile.bittBlock",
+        "placed_metadata": 0,
+        "file_local_id": 2
+      },
+      "K": {
+        "registry_name": "Ztones:tile.korpBlock",
+        "placed_metadata": 2,
+        "file_local_id": 3
+      },
+      "L": {
+        "registry_name": "Ztones:tile.laveBlock",
+        "placed_metadata": 12,
+        "file_local_id": 4
+      },
+      "N": {
+        "registry_name": "ExtraUtilities:greenscreen",
+        "placed_metadata": 9,
+        "file_local_id": 1
+      },
+      "W": {
+        "registry_name": "ExtraUtilities:greenscreen",
+        "placed_metadata": 0,
+        "file_local_id": 1
+      },
+      "G": {
+        "registry_name": "minecraft:glass",
+        "placed_metadata": 0,
+        "file_local_id": 6
+      },
+      "F": {
+        "registry_name": "minecraft:stonebrick",
+        "placed_metadata": 0,
+        "file_local_id": 10
+      },
+      "s": {
+        "registry_name": "minecraft:stone_slab",
+        "placed_metadata": 0,
+        "file_local_id": 9
+      },
+      "S": {
+        "registry_name": "minecraft:stone_slab",
+        "placed_metadata": 8,
+        "file_local_id": 9
+      },
+      "E": {
+        "registry_name": "minecraft:dirt",
+        "placed_metadata": 0,
+        "file_local_id": 5
+      },
+      "T": {
+        "registry_name": "minecraft:log",
+        "placed_metadata": 0,
+        "file_local_id": 8
+      },
+      "V": {
+        "registry_name": "minecraft:leaves",
+        "placed_metadata": 4,
+        "file_local_id": 7
+      },
+      "Q": {
+        "registry_name": "minecraft:glass",
+        "placed_metadata": 0,
+        "file_local_id": 6
+      }
+    },
+    "index": "x + Width*(z + Length*y)",
+    "blocks_length": "Width*Height*Length",
+    "data_length": "Width*Height*Length",
+    "metadata_range": [
+      0,
+      15
+    ],
+    "omit_tags": [
+      "AddBlocks",
+      "Add",
+      "AddBlocks2",
+      "AddData"
+    ],
+    "empty_lists": {
+      "TileEntities": "TAG_List with compound element type and zero length",
+      "Entities": "TAG_List with compound element type and zero length"
+    },
+    "origin_tags": {
+      "WEOriginX": 0,
+      "WEOriginY": 0,
+      "WEOriginZ": 0,
+      "WEOffsetX": 0,
+      "WEOffsetY": 0,
+      "WEOffsetZ": 0
+    },
+    "config_prerequisite": "Schematica useSchematicplusFormat=false",
+    "counts": {
+      "roles": 13,
+      "registry_names_excluding_air": 10,
+      "placed_states_excluding_air": 12
+    },
+    "validation_constraints": [
+      "Check every registry name exists in destination installed instance before accepting an import; missing-name fallback must never be considered success.",
+      "One file ID per registry name, shared across metadata variants; all used IDs covered in both identical compounds; IDs0..255, air0.",
+      "Encode exact placed metadata: slab top8 versus inventory0; leaves4 versus inventory0; Q remains dry glass0.",
+      "Round-trip gzip/NBT with independent decoder, compare each occupied registry+metadata cell to the authoritative coordinate model and compare air volume, extents, counts and all views.",
+      "Retain role sidecar: G and Q are identical glass0 state; role distinction cannot be recovered from schematic alone.",
+      "One structure/module per file with local NW minimum-corner anchor; do not allocate the entire864/876-city dense volume in one file.",
+      "No rotation/flip assumed: orientation metadata transforms and post-paste updates need a separate test.",
+      "No machine tile entities or functional assemblies are included or implied.",
+      "Disposable-copy in-game ghost/import and block/state checks remain pending; do not mark build-ready or game-tested from this static report."
+    ]
+  }
+}

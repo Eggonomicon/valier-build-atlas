@@ -1,0 +1,73 @@
+{
+  "id": "R02",
+  "title": "12 by 12 junction / unobstructed finish study",
+  "kind": "module",
+  "file": "buildings/Valier_R02_12_by_12_junction_unobstructed_finish_study_GTNH29.schematic",
+  "sha256": "95567b58505b1f2f259ba424d2bc232fa5278a43c5d5823a833793a05fa7ffc6",
+  "dimensions_xyz": [
+    12,
+    10,
+    12
+  ],
+  "source_bounds_xyz_inclusive": [
+    0,
+    -10,
+    0,
+    11,
+    -1,
+    11
+  ],
+  "array_order": "x + Width*(z + Length*y); numpy shape(y,z,x)",
+  "occupied_positions": 624,
+  "air_positions": 816,
+  "role_counts": {
+    "F": 480,
+    "L": 16,
+    "B": 128
+  },
+  "placed_states": [
+    {
+      "registry_name": "Ztones:tile.bittBlock",
+      "metadata": 0,
+      "positions": 128
+    },
+    {
+      "registry_name": "Ztones:tile.laveBlock",
+      "metadata": 12,
+      "positions": 16
+    },
+    {
+      "registry_name": "minecraft:stonebrick",
+      "metadata": 0,
+      "positions": 480
+    }
+  ],
+  "registry_map": {
+    "minecraft:air": 0,
+    "ExtraUtilities:greenscreen": 1,
+    "Ztones:tile.bittBlock": 2,
+    "Ztones:tile.korpBlock": 3,
+    "Ztones:tile.laveBlock": 4,
+    "minecraft:dirt": 5,
+    "minecraft:glass": 6,
+    "minecraft:leaves": 7,
+    "minecraft:log": 8,
+    "minecraft:stone_slab": 9,
+    "minecraft:stonebrick": 10
+  },
+  "source_model": "design/visual-library-v1/models/R02.json.gz",
+  "source_model_sha256": "d64e01201dd7797d9df4346f0b474a9e8816f899f7f1866237755b964d66901e",
+  "source_window": null,
+  "anchor": "Local NW minimum corner at the lowest source civil Y; all six WorldEdit origin/offset tags0",
+  "city_minimum_xz": null,
+  "minimum_y_formula": "world minimum Y = future surface S + (-10)",
+  "world_xz_formula": "Component unplaced; choose a separate clash-checked site",
+  "orientation": "+X east; +Z south; north is−Z. No rotation/flip applied. World anchor/S/rotation unassigned.",
+  "air_policy": "Explicit air fills unused bounding-box cells. Those blank cells are NOT whole-parcel excavation instructions. WorldEdit -a skips clipboard air; without it air can clear destination cells. Civil required-clear masks remain separate.",
+  "entities": 0,
+  "tile_entities": 0,
+  "machines_included": 0,
+  "native_machine_NBT_included": false,
+  "format_status": "Alpha NBT with identical name mappings for inspected installed loaders; static round-trip validation separate from in-game test",
+  "game_tested": false
+}

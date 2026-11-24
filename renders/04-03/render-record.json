@@ -1,0 +1,36 @@
+{
+  "id": "04-03",
+  "title": "Cleanroom",
+  "kind": "plot",
+  "family": "laboratory",
+  "sector": "NW",
+  "source_model_sha256": "5f37232ee47536655dc1e8284836f459cfb6a73de7083661505437f7b06b36e9",
+  "source_positions": 19137,
+  "source_role_counts": {
+    "F": 4096,
+    "K": 1326,
+    "L": 4214,
+    "B": 7125,
+    "G": 2168,
+    "N": 208
+  },
+  "images": {
+    "isometric": "04-03/iso-se.webp",
+    "atmosphere": "04-03/atmosphere.webp",
+    "northwest": "04-03/iso-nw.webp",
+    "north": "04-03/north.webp",
+    "south": "04-03/south.webp",
+    "east": "04-03/east.webp",
+    "west": "04-03/west.webp",
+    "roof": "04-03/roof.webp",
+    "street": "04-03/street.webp"
+  },
+  "thumbnail": "04-03/thumbnail.webp",
+  "visible_faces": {
+    "SE": 18639,
+    "NW": 18639,
+    "street": 18639
+  },
+  "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+  "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+}

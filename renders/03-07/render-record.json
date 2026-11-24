@@ -1,0 +1,36 @@
+{
+  "id": "03-07",
+  "title": "LuV chemistry",
+  "kind": "plot",
+  "family": "chemistry",
+  "sector": "NE",
+  "source_model_sha256": "a1880bab753bc666a421ee3826124253420ba39938258d7247e846ee26b016a8",
+  "source_positions": 19822,
+  "source_role_counts": {
+    "F": 4096,
+    "K": 2050,
+    "L": 4266,
+    "B": 8402,
+    "G": 800,
+    "N": 208
+  },
+  "images": {
+    "isometric": "03-07/iso-se.webp",
+    "atmosphere": "03-07/atmosphere.webp",
+    "northwest": "03-07/iso-nw.webp",
+    "north": "03-07/north.webp",
+    "south": "03-07/south.webp",
+    "east": "03-07/east.webp",
+    "west": "03-07/west.webp",
+    "roof": "03-07/roof.webp",
+    "street": "03-07/street.webp"
+  },
+  "thumbnail": "03-07/thumbnail.webp",
+  "visible_faces": {
+    "SE": 18966,
+    "NW": 18966,
+    "street": 18966
+  },
+  "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+  "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+}

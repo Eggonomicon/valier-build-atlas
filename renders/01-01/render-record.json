@@ -1,0 +1,39 @@
+{
+  "id": "01-01",
+  "title": "Steam works",
+  "kind": "plot",
+  "family": "steam-v2",
+  "sector": "NW",
+  "source_model_sha256": "705ccf76596b6fd74f9bd72f6b03e92cdaf0ff15b109c851c3e851313d3e8bde",
+  "source_positions": 28766,
+  "source_role_counts": {
+    "F": 12946,
+    "K": 2455,
+    "S": 87,
+    "s": 87,
+    "W": 65,
+    "B": 7734,
+    "L": 4356,
+    "N": 276,
+    "G": 760
+  },
+  "images": {
+    "isometric": "01-01/iso-se.webp",
+    "atmosphere": "01-01/atmosphere.webp",
+    "northwest": "01-01/iso-nw.webp",
+    "north": "01-01/north.webp",
+    "south": "01-01/south.webp",
+    "east": "01-01/east.webp",
+    "west": "01-01/west.webp",
+    "roof": "01-01/roof.webp",
+    "street": "01-01/street.webp"
+  },
+  "thumbnail": "01-01/thumbnail.webp",
+  "visible_faces": {
+    "SE": 15608,
+    "NW": 15571,
+    "street": 15608
+  },
+  "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+  "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+}

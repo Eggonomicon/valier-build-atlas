@@ -1,0 +1,36 @@
+{
+  "id": "05-06",
+  "title": "Transit station",
+  "kind": "plot",
+  "family": "transit",
+  "sector": "C",
+  "source_model_sha256": "e9ac233e8a74df1d05f5b8012603ef6555e7775838bccdcb032a216bdb8a8b82",
+  "source_positions": 16584,
+  "source_role_counts": {
+    "F": 4096,
+    "K": 2004,
+    "L": 2700,
+    "B": 6776,
+    "G": 800,
+    "N": 208
+  },
+  "images": {
+    "isometric": "05-06/iso-se.webp",
+    "atmosphere": "05-06/atmosphere.webp",
+    "northwest": "05-06/iso-nw.webp",
+    "north": "05-06/north.webp",
+    "south": "05-06/south.webp",
+    "east": "05-06/east.webp",
+    "west": "05-06/west.webp",
+    "roof": "05-06/roof.webp",
+    "street": "05-06/street.webp"
+  },
+  "thumbnail": "05-06/thumbnail.webp",
+  "visible_faces": {
+    "SE": 16618,
+    "NW": 16618,
+    "street": 16618
+  },
+  "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+  "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+}

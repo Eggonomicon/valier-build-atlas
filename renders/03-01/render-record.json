@@ -1,0 +1,36 @@
+{
+  "id": "03-01",
+  "title": "MV fabrication",
+  "kind": "plot",
+  "family": "production",
+  "sector": "NW",
+  "source_model_sha256": "ada77a309075a6d2bf21a1760733b2f727c83decf347e5389559b841acc8a307",
+  "source_positions": 16824,
+  "source_role_counts": {
+    "F": 4096,
+    "K": 1378,
+    "L": 3084,
+    "B": 7258,
+    "G": 800,
+    "N": 208
+  },
+  "images": {
+    "isometric": "03-01/iso-se.webp",
+    "atmosphere": "03-01/atmosphere.webp",
+    "northwest": "03-01/iso-nw.webp",
+    "north": "03-01/north.webp",
+    "south": "03-01/south.webp",
+    "east": "03-01/east.webp",
+    "west": "03-01/west.webp",
+    "roof": "03-01/roof.webp",
+    "street": "03-01/street.webp"
+  },
+  "thumbnail": "03-01/thumbnail.webp",
+  "visible_faces": {
+    "SE": 16772,
+    "NW": 16772,
+    "street": 16772
+  },
+  "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+  "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+}

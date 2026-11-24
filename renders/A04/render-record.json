@@ -1,0 +1,37 @@
+{
+  "id": "A04",
+  "title": "Garden promenade",
+  "kind": "module",
+  "family": "landscape-furniture",
+  "sector": null,
+  "source_model_sha256": "eea2a996eeca4b1f7264bb771f425554c36f7d3cd4ef9dba68a0781e38bb1eb1",
+  "source_positions": 581,
+  "source_role_counts": {
+    "F": 384,
+    "K": 58,
+    "E": 27,
+    "L": 54,
+    "V": 54,
+    "N": 2,
+    "W": 2
+  },
+  "images": {
+    "isometric": "A04/iso-se.webp",
+    "atmosphere": "A04/atmosphere.webp",
+    "northwest": "A04/iso-nw.webp",
+    "north": "A04/north.webp",
+    "south": "A04/south.webp",
+    "east": "A04/east.webp",
+    "west": "A04/west.webp",
+    "roof": "A04/roof.webp",
+    "street": "A04/street.webp"
+  },
+  "thumbnail": "A04/thumbnail.webp",
+  "visible_faces": {
+    "SE": 690,
+    "NW": 690,
+    "street": 690
+  },
+  "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+  "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+}

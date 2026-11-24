@@ -1,0 +1,91 @@
+{
+  "id": "A06",
+  "title": "Bench and planter",
+  "kind": "module",
+  "file": "buildings/Valier_A06_Bench_and_planter_GTNH29.schematic",
+  "sha256": "e97aa4f6407bea1fb9c716c16d5aadf5c8cff8a08a9f372b2f2e108f6369d969",
+  "dimensions_xyz": [
+    8,
+    4,
+    8
+  ],
+  "source_bounds_xyz_inclusive": [
+    0,
+    -1,
+    0,
+    7,
+    2,
+    7
+  ],
+  "array_order": "x + Width*(z + Length*y); numpy shape(y,z,x)",
+  "occupied_positions": 180,
+  "air_positions": 76,
+  "role_counts": {
+    "F": 64,
+    "K": 28,
+    "E": 18,
+    "s": 12,
+    "L": 22,
+    "V": 36
+  },
+  "placed_states": [
+    {
+      "registry_name": "Ztones:tile.korpBlock",
+      "metadata": 2,
+      "positions": 28
+    },
+    {
+      "registry_name": "Ztones:tile.laveBlock",
+      "metadata": 12,
+      "positions": 22
+    },
+    {
+      "registry_name": "minecraft:dirt",
+      "metadata": 0,
+      "positions": 18
+    },
+    {
+      "registry_name": "minecraft:leaves",
+      "metadata": 4,
+      "positions": 36
+    },
+    {
+      "registry_name": "minecraft:stone_slab",
+      "metadata": 0,
+      "positions": 12
+    },
+    {
+      "registry_name": "minecraft:stonebrick",
+      "metadata": 0,
+      "positions": 64
+    }
+  ],
+  "registry_map": {
+    "minecraft:air": 0,
+    "ExtraUtilities:greenscreen": 1,
+    "Ztones:tile.bittBlock": 2,
+    "Ztones:tile.korpBlock": 3,
+    "Ztones:tile.laveBlock": 4,
+    "minecraft:dirt": 5,
+    "minecraft:glass": 6,
+    "minecraft:leaves": 7,
+    "minecraft:log": 8,
+    "minecraft:stone_slab": 9,
+    "minecraft:stonebrick": 10
+  },
+  "source_model": "design/visual-library-v1/models/A06.json.gz",
+  "source_model_sha256": "ed8afa9fcfeaabfeea94bcb39bc0000d46c21e88df0d5b6aefc3b1e0ec0a6dda",
+  "source_window": null,
+  "anchor": "Local NW minimum corner at the lowest source civil Y; all six WorldEdit origin/offset tags0",
+  "city_minimum_xz": null,
+  "minimum_y_formula": "world minimum Y = future surface S + (-1)",
+  "world_xz_formula": "Component unplaced; choose a separate clash-checked site",
+  "orientation": "+X east; +Z south; north is−Z. No rotation/flip applied. World anchor/S/rotation unassigned.",
+  "air_policy": "Explicit air fills unused bounding-box cells. Those blank cells are NOT whole-parcel excavation instructions. WorldEdit -a skips clipboard air; without it air can clear destination cells. Civil required-clear masks remain separate.",
+  "entities": 0,
+  "tile_entities": 0,
+  "machines_included": 0,
+  "native_machine_NBT_included": false,
+  "format_status": "Alpha NBT with identical name mappings for inspected installed loaders; static round-trip validation separate from in-game test",
+  "game_tested": false
+}
