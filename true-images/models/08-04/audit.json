@@ -1,0 +1,111 @@
+{
+  "id": "08-04",
+  "card": "models/08-04/card.webp",
+  "palette": "models/08-04/palette.webp",
+  "progress": "models/08-04/progress.webp",
+  "source_model_sha256": "4c16e5db0bdedde34c5740deae5225bf5c298373fc3ee98779e09bcaa0b9f6bd",
+  "stages": [
+    {
+      "stage": "S01",
+      "cumulative_positions": 4274,
+      "role_counts": {
+        "L": 1495,
+        "F": 2601,
+        "K": 130,
+        "s": 48
+      }
+    },
+    {
+      "stage": "S02",
+      "cumulative_positions": 4432,
+      "role_counts": {
+        "L": 1623,
+        "F": 2601,
+        "K": 160,
+        "s": 48
+      }
+    },
+    {
+      "stage": "S03",
+      "cumulative_positions": 4440,
+      "role_counts": {
+        "L": 1629,
+        "F": 2601,
+        "K": 162,
+        "s": 48
+      }
+    },
+    {
+      "stage": "S04",
+      "cumulative_positions": 4444,
+      "role_counts": {
+        "L": 1629,
+        "F": 2601,
+        "K": 162,
+        "s": 48,
+        "N": 2,
+        "W": 2
+      }
+    },
+    {
+      "stage": "S05",
+      "cumulative_positions": 4493,
+      "role_counts": {
+        "L": 1629,
+        "F": 2601,
+        "K": 162,
+        "s": 48,
+        "N": 2,
+        "W": 2,
+        "Q": 49
+      }
+    },
+    {
+      "stage": "S06",
+      "cumulative_positions": 4593,
+      "role_counts": {
+        "L": 1629,
+        "F": 2601,
+        "K": 162,
+        "s": 48,
+        "N": 2,
+        "W": 2,
+        "Q": 49,
+        "E": 100
+      }
+    },
+    {
+      "stage": "S07",
+      "cumulative_positions": 4609,
+      "role_counts": {
+        "L": 1629,
+        "F": 2601,
+        "K": 162,
+        "s": 48,
+        "N": 2,
+        "W": 2,
+        "Q": 49,
+        "E": 100,
+        "T": 16
+      }
+    },
+    {
+      "stage": "S08",
+      "cumulative_positions": 5237,
+      "role_counts": {
+        "L": 1629,
+        "F": 2601,
+        "K": 162,
+        "s": 48,
+        "N": 2,
+        "W": 2,
+        "Q": 49,
+        "E": 100,
+        "T": 16,
+        "V": 628
+      }
+    }
+  ],
+  "source_positions": 5237,
+  "thumbnail": "models/08-04/thumbnail.webp"
+}

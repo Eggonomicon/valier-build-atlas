@@ -1,0 +1,106 @@
+{
+  "id": "WO16",
+  "name": "HV metallurgy block infrastructure",
+  "bounds": [
+    0,
+    288,
+    107,
+    395
+  ],
+  "dimensions_xyz": [
+    108,
+    11,
+    108
+  ],
+  "file": "schematics/Valier_P1_WO16_Permanent_GTNH29.schematic",
+  "manifest_url": "manifests/WO16.json",
+  "occupied_positions": 14742,
+  "city_minimum_xz": [
+    0,
+    288
+  ],
+  "min_civil_y": -10,
+  "sha256": "f1439189880f88d80a8d575a89a36318f13bb76f6b21f0f908ffe86647c5475f",
+  "sequence": 16,
+  "purpose": "Complete this plot's road/gallery surrounds, capped branch and approach paving. The building envelope stays empty; individual building work remains deferred.",
+  "source_bounds_xyz_inclusive": [
+    0,
+    -10,
+    288,
+    107,
+    0,
+    395
+  ],
+  "air_positions": 113562,
+  "role_counts": {
+    "G": 2344,
+    "B": 2790,
+    "C": 2344,
+    "F": 3632,
+    "W": 1040,
+    "R": 2272,
+    "P": 320
+  },
+  "placed_states": [
+    {
+      "registry_name": "minecraft:stonebrick",
+      "metadata": 0,
+      "positions": 14742
+    }
+  ],
+  "registry_map": {
+    "minecraft:air": 0,
+    "minecraft:stonebrick": 1,
+    "minecraft:stone_slab": 2
+  },
+  "array_index": "x + Width*(z + Length*y); local y=civil_y+10",
+  "source_files": {
+    "generated/pdim-fieldpack-v1/orders/WO16/work-order.json": "561e2072d0c1f22e081af934dbe9873d3f22591e7d1fa6d36bbfbe879bc451c0",
+    "generated/pdim-fieldpack-v1/orders/WO16/permanent-block-runs.csv.gz": "b9e2ac7084d16a8f457bcf395861c02eb357829bc239caec001c0559fa17cb9d"
+  },
+  "source_plan": {
+    "file": "generated/pdim-fieldpack-v1/data/plan.json",
+    "sha256": "9f6a8d2e5e72a056f7cec8d0ff706e56a0e8be07b7adc8fafb060bd1584551fe"
+  },
+  "original_civil_sources": {
+    "design/pdim-masterplan-v1/model.json": "8f380a2ef255e8c9023065007dfb041559b0bdf5821c6d72b5a2d9a5ee2c93e2",
+    "generated/pdim-masterplan-v1/data/civil-layers.npz": "d93da4155c12b131a6eb422309be775bace178b634955be7e396c97feccb4b98",
+    "design/steamworks-v2/block-model.json": "d91950a5f1c9a89076f656763402f7a9ba8e81b661447dc3b142e600c7eeae81"
+  },
+  "world_placement": {
+    "minimum_x": "city_origin_X + 0",
+    "minimum_y": "surface_S - 10",
+    "minimum_z": "city_origin_Z + 288",
+    "orientation": "+X east; +Z south; north is -Z; no rotation applied",
+    "world_assigned": false
+  },
+  "load_command": "//schematic load mcedit Valier_P1_WO16_Permanent_GTNH29.schematic",
+  "paste_command": "//paste -a -s",
+  "air_policy": "Explicit air is blank unowned/unmodeled space. Use -a to preserve it. These files do not specify excavation or required clearance.",
+  "temporary_caps_included": false,
+  "temporary_cap_csvs": [
+    {
+      "label": "temporary-cap-add.csv",
+      "url": "references/WO16/temporary-cap-add.csv",
+      "sha256": "4dc17fcc7eed03802da0ed2c49f3f1a5a5436416a93164f0b41bf7f5a7cedc14",
+      "scope": "Separate temporary cap schedule; no cap blocks are included in the schematic"
+    },
+    {
+      "label": "temporary-cap-remove.csv",
+      "url": "references/WO16/temporary-cap-remove.csv",
+      "sha256": "aa528c7fe6afd2a631783c4c278656a3e8e7047ecfa2db49131749436751093b",
+      "scope": "Separate temporary cap schedule; no cap blocks are included in the schematic"
+    },
+    {
+      "label": "temporary-cap-end-state.csv",
+      "url": "references/WO16/temporary-cap-end-state.csv",
+      "sha256": "b52540c4c2ca7bdc74a489874fb865aad82c7d991a4a3fc4a1aa780d91d28b26",
+      "scope": "Separate temporary cap schedule; no cap blocks are included in the schematic"
+    }
+  ],
+  "entities": 0,
+  "tile_entities": 0,
+  "functional_utilities_included": false,
+  "game_tested": false,
+  "status": "Permanent workorder blocks only; independent static checks separate from in-game validation"
+}

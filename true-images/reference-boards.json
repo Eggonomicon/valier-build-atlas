@@ -1,0 +1,55 @@
+{
+  "references": [
+    {
+      "id": "streets",
+      "title": "Streets And Galleries",
+      "url": "references/streets.webp",
+      "model_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04"
+      ],
+      "ensemble": "city/streets-ensemble.webp",
+      "note": "Hero: actual northwest city crop. R01/R02: optional finish studies; R03/R04: exact civil cutaways.",
+      "status": "Installed-texture coordinate rendering; not a game screenshot"
+    },
+    {
+      "id": "public-space",
+      "title": "Plazas, Gardens And Forecourts",
+      "url": "references/public-space.webp",
+      "model_ids": [
+        "05-05",
+        "A01",
+        "A02",
+        "A03"
+      ],
+      "ensemble": "city/public-space-ensemble.webp",
+      "note": "Hero: actual civic crop. Detached A-series examples are unsited modules, not extra city placements.",
+      "status": "Installed-texture coordinate rendering; not a game screenshot"
+    },
+    {
+      "id": "facade-families",
+      "title": "Facade Families",
+      "url": "references/facade-families.webp",
+      "model_ids": [
+        "01-01",
+        "01-02",
+        "07-02",
+        "03-04",
+        "05-05",
+        "01-05"
+      ],
+      "ensemble": null,
+      "note": "Neutral installed-block renders of saved designs. No concept-only props or geometry added.",
+      "status": "Installed-texture coordinate rendering; not a game screenshot"
+    }
+  ],
+  "sector_images": {
+    "NW": "sectors/NW.webp",
+    "NE": "sectors/NE.webp",
+    "SW": "sectors/SW.webp",
+    "SE": "sectors/SE.webp",
+    "C": "sectors/C.webp"
+  }
+}

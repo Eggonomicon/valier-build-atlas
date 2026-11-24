@@ -1,0 +1,378 @@
+{
+  "id": "05-05",
+  "card": "models/05-05/card.webp",
+  "palette": "models/05-05/palette.webp",
+  "progress": "models/05-05/progress.webp",
+  "source_model_sha256": "d2b8bc82e6f0f10862088dbf7ed4f307ccbcc1f346fcf53051bf15544aead70a",
+  "stages": [
+    {
+      "stage": "S01",
+      "cumulative_positions": 4645,
+      "role_counts": {
+        "F": 3803,
+        "L": 466,
+        "K": 116,
+        "B": 248,
+        "s": 12
+      }
+    },
+    {
+      "stage": "S02",
+      "cumulative_positions": 5939,
+      "role_counts": {
+        "F": 3803,
+        "L": 910,
+        "K": 146,
+        "B": 1068,
+        "s": 12
+      }
+    },
+    {
+      "stage": "S03",
+      "cumulative_positions": 6467,
+      "role_counts": {
+        "F": 3803,
+        "L": 1102,
+        "K": 178,
+        "B": 1372,
+        "s": 12
+      }
+    },
+    {
+      "stage": "S04",
+      "cumulative_positions": 7811,
+      "role_counts": {
+        "F": 3803,
+        "L": 1718,
+        "K": 194,
+        "B": 2084,
+        "s": 12
+      }
+    },
+    {
+      "stage": "S05",
+      "cumulative_positions": 10925,
+      "role_counts": {
+        "F": 3803,
+        "L": 2144,
+        "K": 194,
+        "B": 4772,
+        "s": 12
+      }
+    },
+    {
+      "stage": "S06",
+      "cumulative_positions": 11301,
+      "role_counts": {
+        "F": 3803,
+        "L": 2272,
+        "K": 194,
+        "B": 5020,
+        "s": 12
+      }
+    },
+    {
+      "stage": "S07",
+      "cumulative_positions": 11801,
+      "role_counts": {
+        "F": 3803,
+        "L": 2400,
+        "K": 194,
+        "B": 5392,
+        "s": 12
+      }
+    },
+    {
+      "stage": "S08",
+      "cumulative_positions": 12293,
+      "role_counts": {
+        "F": 3803,
+        "L": 2768,
+        "K": 194,
+        "B": 5516,
+        "s": 12
+      }
+    },
+    {
+      "stage": "S09",
+      "cumulative_positions": 12653,
+      "role_counts": {
+        "F": 3803,
+        "L": 2896,
+        "K": 194,
+        "B": 5748,
+        "s": 12
+      }
+    },
+    {
+      "stage": "S10",
+      "cumulative_positions": 13245,
+      "role_counts": {
+        "F": 3803,
+        "L": 3024,
+        "K": 194,
+        "B": 6212,
+        "s": 12
+      }
+    },
+    {
+      "stage": "S11",
+      "cumulative_positions": 13605,
+      "role_counts": {
+        "F": 3803,
+        "L": 3152,
+        "K": 194,
+        "B": 6444,
+        "s": 12
+      }
+    },
+    {
+      "stage": "S12",
+      "cumulative_positions": 14173,
+      "role_counts": {
+        "F": 3803,
+        "L": 3504,
+        "K": 194,
+        "B": 6660,
+        "s": 12
+      }
+    },
+    {
+      "stage": "S13",
+      "cumulative_positions": 14517,
+      "role_counts": {
+        "F": 3803,
+        "L": 3632,
+        "K": 194,
+        "B": 6876,
+        "s": 12
+      }
+    },
+    {
+      "stage": "S14",
+      "cumulative_positions": 14969,
+      "role_counts": {
+        "F": 3803,
+        "L": 3760,
+        "K": 194,
+        "B": 7200,
+        "s": 12
+      }
+    },
+    {
+      "stage": "S15",
+      "cumulative_positions": 15413,
+      "role_counts": {
+        "F": 3803,
+        "L": 4096,
+        "K": 194,
+        "B": 7308,
+        "s": 12
+      }
+    },
+    {
+      "stage": "S16",
+      "cumulative_positions": 15741,
+      "role_counts": {
+        "F": 3803,
+        "L": 4224,
+        "K": 194,
+        "B": 7508,
+        "s": 12
+      }
+    },
+    {
+      "stage": "S17",
+      "cumulative_positions": 16269,
+      "role_counts": {
+        "F": 3803,
+        "L": 4352,
+        "K": 194,
+        "B": 7908,
+        "s": 12
+      }
+    },
+    {
+      "stage": "S18",
+      "cumulative_positions": 17226,
+      "role_counts": {
+        "F": 3803,
+        "L": 4472,
+        "K": 194,
+        "B": 8745,
+        "s": 12
+      }
+    },
+    {
+      "stage": "S19",
+      "cumulative_positions": 17978,
+      "role_counts": {
+        "F": 3803,
+        "L": 4472,
+        "K": 194,
+        "B": 8745,
+        "s": 12,
+        "G": 752
+      }
+    },
+    {
+      "stage": "S20",
+      "cumulative_positions": 18226,
+      "role_counts": {
+        "F": 3803,
+        "L": 4472,
+        "K": 194,
+        "B": 8745,
+        "s": 12,
+        "G": 1000
+      }
+    },
+    {
+      "stage": "S21",
+      "cumulative_positions": 18671,
+      "role_counts": {
+        "F": 3803,
+        "L": 4472,
+        "K": 194,
+        "B": 8745,
+        "s": 12,
+        "G": 1445
+      }
+    },
+    {
+      "stage": "S22",
+      "cumulative_positions": 19088,
+      "role_counts": {
+        "F": 3803,
+        "L": 4472,
+        "K": 194,
+        "B": 8745,
+        "s": 12,
+        "G": 1862
+      }
+    },
+    {
+      "stage": "S23",
+      "cumulative_positions": 19377,
+      "role_counts": {
+        "F": 3803,
+        "L": 4472,
+        "K": 194,
+        "B": 8745,
+        "s": 12,
+        "G": 2151
+      }
+    },
+    {
+      "stage": "S24",
+      "cumulative_positions": 19477,
+      "role_counts": {
+        "F": 3803,
+        "L": 4472,
+        "K": 194,
+        "B": 8745,
+        "s": 12,
+        "G": 2251
+      }
+    },
+    {
+      "stage": "S25",
+      "cumulative_positions": 19481,
+      "role_counts": {
+        "F": 3803,
+        "L": 4472,
+        "K": 194,
+        "B": 8745,
+        "s": 12,
+        "G": 2251,
+        "N": 4
+      }
+    },
+    {
+      "stage": "S26",
+      "cumulative_positions": 19516,
+      "role_counts": {
+        "F": 3803,
+        "L": 4472,
+        "K": 194,
+        "B": 8745,
+        "s": 12,
+        "G": 2251,
+        "N": 39
+      }
+    },
+    {
+      "stage": "S27",
+      "cumulative_positions": 19547,
+      "role_counts": {
+        "F": 3803,
+        "L": 4472,
+        "K": 194,
+        "B": 8745,
+        "s": 12,
+        "G": 2251,
+        "N": 70
+      }
+    },
+    {
+      "stage": "S28",
+      "cumulative_positions": 19574,
+      "role_counts": {
+        "F": 3803,
+        "L": 4472,
+        "K": 194,
+        "B": 8745,
+        "s": 12,
+        "G": 2251,
+        "N": 97
+      }
+    },
+    {
+      "stage": "S29",
+      "cumulative_positions": 19624,
+      "role_counts": {
+        "F": 3803,
+        "L": 4472,
+        "K": 194,
+        "B": 8745,
+        "s": 12,
+        "G": 2251,
+        "N": 97,
+        "E": 50
+      }
+    },
+    {
+      "stage": "S30",
+      "cumulative_positions": 19632,
+      "role_counts": {
+        "F": 3803,
+        "L": 4472,
+        "K": 194,
+        "B": 8745,
+        "s": 12,
+        "G": 2251,
+        "N": 97,
+        "E": 50,
+        "T": 8
+      }
+    },
+    {
+      "stage": "S31",
+      "cumulative_positions": 19946,
+      "role_counts": {
+        "F": 3803,
+        "L": 4472,
+        "K": 194,
+        "B": 8745,
+        "s": 12,
+        "G": 2251,
+        "N": 97,
+        "E": 50,
+        "T": 8,
+        "V": 314
+      }
+    }
+  ],
+  "source_positions": 19946,
+  "thumbnail": "models/05-05/thumbnail.webp"
+}

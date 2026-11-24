@@ -1,0 +1,486 @@
+{
+  "revision": "p1-schematics-v1",
+  "title": "P1 permanent-only workorder schematics",
+  "orders": [
+    {
+      "id": "WO01",
+      "name": "M11 maintenance stair and gallery connection",
+      "bounds": [
+        98,
+        118,
+        115,
+        143
+      ],
+      "dimensions_xyz": [
+        18,
+        11,
+        26
+      ],
+      "file": "schematics/Valier_P1_WO01_Permanent_GTNH29.schematic",
+      "manifest_url": "manifests/WO01.json",
+      "occupied_positions": 2018,
+      "city_minimum_xz": [
+        98,
+        118
+      ],
+      "min_civil_y": -10,
+      "sha256": "50e4c815912e55205b3db0c234c80c28df646e4bbc702647ec244d70b80c9765"
+    },
+    {
+      "id": "WO02",
+      "name": "V01 north service link",
+      "bounds": [
+        96,
+        0,
+        107,
+        143
+      ],
+      "dimensions_xyz": [
+        12,
+        11,
+        144
+      ],
+      "file": "schematics/Valier_P1_WO02_Permanent_GTNH29.schematic",
+      "manifest_url": "manifests/WO02.json",
+      "occupied_positions": 6082,
+      "city_minimum_xz": [
+        96,
+        0
+      ],
+      "min_civil_y": -10,
+      "sha256": "8d339f89c00868f804684b75403966b68bb57af063a46ab8b1df9a3a3128b0b3"
+    },
+    {
+      "id": "WO03",
+      "name": "H00 west feeder",
+      "bounds": [
+        0,
+        0,
+        95,
+        11
+      ],
+      "dimensions_xyz": [
+        96,
+        11,
+        12
+      ],
+      "file": "schematics/Valier_P1_WO03_Permanent_GTNH29.schematic",
+      "manifest_url": "manifests/WO03.json",
+      "occupied_positions": 4896,
+      "city_minimum_xz": [
+        0,
+        0
+      ],
+      "min_civil_y": -10,
+      "sha256": "ad82942d8c19d4e67679e055b4fc4c363b6767ff25b71e33220bbb4879b09dde"
+    },
+    {
+      "id": "WO04",
+      "name": "Steam works block infrastructure",
+      "bounds": [
+        0,
+        0,
+        107,
+        107
+      ],
+      "dimensions_xyz": [
+        108,
+        11,
+        108
+      ],
+      "file": "schematics/Valier_P1_WO04_Permanent_GTNH29.schematic",
+      "manifest_url": "manifests/WO04.json",
+      "occupied_positions": 9918,
+      "city_minimum_xz": [
+        0,
+        0
+      ],
+      "min_civil_y": -10,
+      "sha256": "1379742123cd5a186fa77fab5897806e794c14e0c507281eab6ffebaadd31979"
+    },
+    {
+      "id": "WO05",
+      "name": "Coke ovens block infrastructure",
+      "bounds": [
+        96,
+        0,
+        203,
+        107
+      ],
+      "dimensions_xyz": [
+        108,
+        11,
+        108
+      ],
+      "file": "schematics/Valier_P1_WO05_Permanent_GTNH29.schematic",
+      "manifest_url": "manifests/WO05.json",
+      "occupied_positions": 14754,
+      "city_minimum_xz": [
+        96,
+        0
+      ],
+      "min_civil_y": -10,
+      "sha256": "37599dcd1c47ac91a858690eb742928aab95aea81414039ca7815301cd6c2280"
+    },
+    {
+      "id": "WO06",
+      "name": "Water works block infrastructure",
+      "bounds": [
+        192,
+        0,
+        299,
+        107
+      ],
+      "dimensions_xyz": [
+        108,
+        11,
+        108
+      ],
+      "file": "schematics/Valier_P1_WO06_Permanent_GTNH29.schematic",
+      "manifest_url": "manifests/WO06.json",
+      "occupied_positions": 14754,
+      "city_minimum_xz": [
+        192,
+        0
+      ],
+      "min_civil_y": -10,
+      "sha256": "37599dcd1c47ac91a858690eb742928aab95aea81414039ca7815301cd6c2280"
+    },
+    {
+      "id": "WO07",
+      "name": "LV factory block infrastructure",
+      "bounds": [
+        288,
+        0,
+        395,
+        107
+      ],
+      "dimensions_xyz": [
+        108,
+        11,
+        108
+      ],
+      "file": "schematics/Valier_P1_WO07_Permanent_GTNH29.schematic",
+      "manifest_url": "manifests/WO07.json",
+      "occupied_positions": 14754,
+      "city_minimum_xz": [
+        288,
+        0
+      ],
+      "min_civil_y": -10,
+      "sha256": "37599dcd1c47ac91a858690eb742928aab95aea81414039ca7815301cd6c2280"
+    },
+    {
+      "id": "WO08",
+      "name": "LV ore processing block infrastructure",
+      "bounds": [
+        0,
+        96,
+        107,
+        203
+      ],
+      "dimensions_xyz": [
+        108,
+        11,
+        108
+      ],
+      "file": "schematics/Valier_P1_WO08_Permanent_GTNH29.schematic",
+      "manifest_url": "manifests/WO08.json",
+      "occupied_positions": 12942,
+      "city_minimum_xz": [
+        0,
+        96
+      ],
+      "min_civil_y": -10,
+      "sha256": "5658d0fd2c3e0c51c5e7fca236fcaa10beeacc6c9fe87ff8bf35ceff3777a1a9"
+    },
+    {
+      "id": "WO09",
+      "name": "EBF hall block infrastructure",
+      "bounds": [
+        96,
+        96,
+        203,
+        203
+      ],
+      "dimensions_xyz": [
+        108,
+        11,
+        108
+      ],
+      "file": "schematics/Valier_P1_WO09_Permanent_GTNH29.schematic",
+      "manifest_url": "manifests/WO09.json",
+      "occupied_positions": 9888,
+      "city_minimum_xz": [
+        96,
+        96
+      ],
+      "min_civil_y": -10,
+      "sha256": "7f9119f04a70e66252a8ece8947ecea114175dcbf18d00dcb1175b6ba2351142"
+    },
+    {
+      "id": "WO10",
+      "name": "LV chemistry block infrastructure",
+      "bounds": [
+        192,
+        96,
+        299,
+        203
+      ],
+      "dimensions_xyz": [
+        108,
+        11,
+        108
+      ],
+      "file": "schematics/Valier_P1_WO10_Permanent_GTNH29.schematic",
+      "manifest_url": "manifests/WO10.json",
+      "occupied_positions": 9888,
+      "city_minimum_xz": [
+        192,
+        96
+      ],
+      "min_civil_y": -10,
+      "sha256": "7f9119f04a70e66252a8ece8947ecea114175dcbf18d00dcb1175b6ba2351142"
+    },
+    {
+      "id": "WO11",
+      "name": "LV circuits block infrastructure",
+      "bounds": [
+        288,
+        96,
+        395,
+        203
+      ],
+      "dimensions_xyz": [
+        108,
+        11,
+        108
+      ],
+      "file": "schematics/Valier_P1_WO11_Permanent_GTNH29.schematic",
+      "manifest_url": "manifests/WO11.json",
+      "occupied_positions": 9902,
+      "city_minimum_xz": [
+        288,
+        96
+      ],
+      "min_civil_y": -10,
+      "sha256": "1fc0770b50a42c5ef59776f0481289f50567f358d59ad6bbbe7d20f141df8c5f"
+    },
+    {
+      "id": "WO12",
+      "name": "MV fabrication block infrastructure",
+      "bounds": [
+        0,
+        192,
+        107,
+        299
+      ],
+      "dimensions_xyz": [
+        108,
+        11,
+        108
+      ],
+      "file": "schematics/Valier_P1_WO12_Permanent_GTNH29.schematic",
+      "manifest_url": "manifests/WO12.json",
+      "occupied_positions": 14742,
+      "city_minimum_xz": [
+        0,
+        192
+      ],
+      "min_civil_y": -10,
+      "sha256": "f1439189880f88d80a8d575a89a36318f13bb76f6b21f0f908ffe86647c5475f"
+    },
+    {
+      "id": "WO13",
+      "name": "MV fuel block infrastructure",
+      "bounds": [
+        96,
+        192,
+        203,
+        299
+      ],
+      "dimensions_xyz": [
+        108,
+        11,
+        108
+      ],
+      "file": "schematics/Valier_P1_WO13_Permanent_GTNH29.schematic",
+      "manifest_url": "manifests/WO13.json",
+      "occupied_positions": 9888,
+      "city_minimum_xz": [
+        96,
+        192
+      ],
+      "min_civil_y": -10,
+      "sha256": "7f9119f04a70e66252a8ece8947ecea114175dcbf18d00dcb1175b6ba2351142"
+    },
+    {
+      "id": "WO14",
+      "name": "MV power block infrastructure",
+      "bounds": [
+        192,
+        192,
+        299,
+        299
+      ],
+      "dimensions_xyz": [
+        108,
+        11,
+        108
+      ],
+      "file": "schematics/Valier_P1_WO14_Permanent_GTNH29.schematic",
+      "manifest_url": "manifests/WO14.json",
+      "occupied_positions": 9888,
+      "city_minimum_xz": [
+        192,
+        192
+      ],
+      "min_civil_y": -10,
+      "sha256": "7f9119f04a70e66252a8ece8947ecea114175dcbf18d00dcb1175b6ba2351142"
+    },
+    {
+      "id": "WO15",
+      "name": "HV fabrication block infrastructure",
+      "bounds": [
+        288,
+        192,
+        395,
+        299
+      ],
+      "dimensions_xyz": [
+        108,
+        11,
+        108
+      ],
+      "file": "schematics/Valier_P1_WO15_Permanent_GTNH29.schematic",
+      "manifest_url": "manifests/WO15.json",
+      "occupied_positions": 9888,
+      "city_minimum_xz": [
+        288,
+        192
+      ],
+      "min_civil_y": -10,
+      "sha256": "7f9119f04a70e66252a8ece8947ecea114175dcbf18d00dcb1175b6ba2351142"
+    },
+    {
+      "id": "WO16",
+      "name": "HV metallurgy block infrastructure",
+      "bounds": [
+        0,
+        288,
+        107,
+        395
+      ],
+      "dimensions_xyz": [
+        108,
+        11,
+        108
+      ],
+      "file": "schematics/Valier_P1_WO16_Permanent_GTNH29.schematic",
+      "manifest_url": "manifests/WO16.json",
+      "occupied_positions": 14742,
+      "city_minimum_xz": [
+        0,
+        288
+      ],
+      "min_civil_y": -10,
+      "sha256": "f1439189880f88d80a8d575a89a36318f13bb76f6b21f0f908ffe86647c5475f"
+    },
+    {
+      "id": "WO17",
+      "name": "HV chemistry block infrastructure",
+      "bounds": [
+        96,
+        288,
+        203,
+        395
+      ],
+      "dimensions_xyz": [
+        108,
+        11,
+        108
+      ],
+      "file": "schematics/Valier_P1_WO17_Permanent_GTNH29.schematic",
+      "manifest_url": "manifests/WO17.json",
+      "occupied_positions": 9888,
+      "city_minimum_xz": [
+        96,
+        288
+      ],
+      "min_civil_y": -10,
+      "sha256": "7f9119f04a70e66252a8ece8947ecea114175dcbf18d00dcb1175b6ba2351142"
+    },
+    {
+      "id": "WO18",
+      "name": "Cleanroom block infrastructure",
+      "bounds": [
+        192,
+        288,
+        299,
+        395
+      ],
+      "dimensions_xyz": [
+        108,
+        11,
+        108
+      ],
+      "file": "schematics/Valier_P1_WO18_Permanent_GTNH29.schematic",
+      "manifest_url": "manifests/WO18.json",
+      "occupied_positions": 9888,
+      "city_minimum_xz": [
+        192,
+        288
+      ],
+      "min_civil_y": -10,
+      "sha256": "7f9119f04a70e66252a8ece8947ecea114175dcbf18d00dcb1175b6ba2351142"
+    },
+    {
+      "id": "WO19",
+      "name": "HV reserves block infrastructure",
+      "bounds": [
+        288,
+        288,
+        395,
+        395
+      ],
+      "dimensions_xyz": [
+        108,
+        11,
+        108
+      ],
+      "file": "schematics/Valier_P1_WO19_Permanent_GTNH29.schematic",
+      "manifest_url": "manifests/WO19.json",
+      "occupied_positions": 9888,
+      "city_minimum_xz": [
+        288,
+        288
+      ],
+      "min_civil_y": -10,
+      "sha256": "7f9119f04a70e66252a8ece8947ecea114175dcbf18d00dcb1175b6ba2351142"
+    }
+  ],
+  "registry_map": {
+    "minecraft:air": 0,
+    "minecraft:stonebrick": 1,
+    "minecraft:stone_slab": 2
+  },
+  "counts": {
+    "orders": 19,
+    "permanent_positions": 198608,
+    "stone_brick_positions": 198554,
+    "slab_positions": 54
+  },
+  "downloads": [
+    {
+      "label": "All19 permanent workorder schematics and manifests",
+      "url": "Valier_P1_Workorder_Permanent_Schematics.zip"
+    },
+    {
+      "label": "WorldEdit loading guide",
+      "url": "LOADING_GUIDE.md"
+    }
+  ],
+  "game_tested": false,
+  "temporary_caps_included": false,
+  "scope": "Permanent workorder additions only. Temporary caps are separate CSV references. No excavation, machine, pipe/cable or game-tested claim."
+}

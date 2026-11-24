@@ -1,0 +1,70 @@
+{
+  "id": "A03",
+  "card": "models/A03/card.webp",
+  "palette": "models/A03/palette.webp",
+  "progress": "models/A03/progress.webp",
+  "source_model_sha256": "8b9fdb2648e4685595f3b506612cc8599e77f43a2aa1d2985bf7e7ebe95e3c59",
+  "stages": [
+    {
+      "stage": "S01",
+      "cumulative_positions": 428,
+      "role_counts": {
+        "F": 384,
+        "K": 44
+      }
+    },
+    {
+      "stage": "S02",
+      "cumulative_positions": 496,
+      "role_counts": {
+        "F": 384,
+        "K": 76,
+        "L": 36
+      }
+    },
+    {
+      "stage": "S03",
+      "cumulative_positions": 674,
+      "role_counts": {
+        "F": 384,
+        "K": 100,
+        "L": 190
+      }
+    },
+    {
+      "stage": "S04",
+      "cumulative_positions": 690,
+      "role_counts": {
+        "F": 384,
+        "K": 100,
+        "L": 190,
+        "N": 16
+      }
+    },
+    {
+      "stage": "S05",
+      "cumulative_positions": 714,
+      "role_counts": {
+        "F": 384,
+        "K": 100,
+        "L": 190,
+        "N": 16,
+        "E": 24
+      }
+    },
+    {
+      "stage": "S06",
+      "cumulative_positions": 762,
+      "role_counts": {
+        "F": 384,
+        "K": 100,
+        "L": 190,
+        "N": 16,
+        "E": 24,
+        "V": 48
+      }
+    }
+  ],
+  "source_positions": 762,
+  "thumbnail": "models/A03/thumbnail.webp"
+}

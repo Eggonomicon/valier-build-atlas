@@ -1,0 +1,97 @@
+{
+  "WO01": {
+    "image": "workorders/WO01.webp",
+    "positions": 2018,
+    "source_sha256": "8bfbad9b5244fa7bf38d2bcfdcabfd763d2c64c38664a1444e45ca38941897f4"
+  },
+  "WO02": {
+    "image": "workorders/WO02.webp",
+    "positions": 6082,
+    "source_sha256": "cba8df14346c830f2dc8debc597e3b190c3631ba88537fe6d0b50f4c54a4b62e"
+  },
+  "WO03": {
+    "image": "workorders/WO03.webp",
+    "positions": 4896,
+    "source_sha256": "3bda750cbcfb0effbfa7bb6c37a4b67969a7491e860159eea3df9a72fce9e67f"
+  },
+  "WO04": {
+    "image": "workorders/WO04.webp",
+    "positions": 9918,
+    "source_sha256": "0108977d1f5cefa3011687a90b8cb54971da4b04d5ce84c54bb7fe4e7830f8a1"
+  },
+  "WO05": {
+    "image": "workorders/WO05.webp",
+    "positions": 14754,
+    "source_sha256": "7351d1a10e2f13d30116f4d0598b43e6f066f4ea80105bfa649e29b6dfd9488f"
+  },
+  "WO06": {
+    "image": "workorders/WO06.webp",
+    "positions": 14754,
+    "source_sha256": "cc861205fed8a142681e29e53b0afcd8a890394931b7eabc846af28819f74093"
+  },
+  "WO07": {
+    "image": "workorders/WO07.webp",
+    "positions": 14754,
+    "source_sha256": "87499ff92d20e847bc3566fd917ac0b91f0864d557344f13bac920bca005da48"
+  },
+  "WO08": {
+    "image": "workorders/WO08.webp",
+    "positions": 12942,
+    "source_sha256": "40ae780c3e3bb786d13eed5f2d2dab43f35f01d7348ced8a235036dddbaac57b"
+  },
+  "WO09": {
+    "image": "workorders/WO09.webp",
+    "positions": 9888,
+    "source_sha256": "2fec76682833d0bb9a8fde0c4a805d129386c52a73ace42fb1605aa204e61173"
+  },
+  "WO10": {
+    "image": "workorders/WO10.webp",
+    "positions": 9888,
+    "source_sha256": "b7aa33a4c5d1f1eb920625acebb4c5e6223fc6ab4ff8f316c01429a56dd11bc2"
+  },
+  "WO11": {
+    "image": "workorders/WO11.webp",
+    "positions": 9902,
+    "source_sha256": "eb3799fa0ed002da992337870e4ecba8c98eb476d0194bca3820b0637be1177d"
+  },
+  "WO12": {
+    "image": "workorders/WO12.webp",
+    "positions": 14742,
+    "source_sha256": "057e142b651d6a51a952f8997aed081abfa35de3be5de237f3257af6dfbd8e25"
+  },
+  "WO13": {
+    "image": "workorders/WO13.webp",
+    "positions": 9888,
+    "source_sha256": "8260a0cd198e875f3d8d01e153c3c0ea5eec96a3df96f02a951568edd71048ff"
+  },
+  "WO14": {
+    "image": "workorders/WO14.webp",
+    "positions": 9888,
+    "source_sha256": "caf1ed6a5e604bbb4c39de72c60015c0f37d0abc573635df99123c696c724094"
+  },
+  "WO15": {
+    "image": "workorders/WO15.webp",
+    "positions": 9888,
+    "source_sha256": "b6e668460b2f4db3572494d6eed4cb5240a1f9f57649f6aa8bdd1000e15b64d3"
+  },
+  "WO16": {
+    "image": "workorders/WO16.webp",
+    "positions": 14742,
+    "source_sha256": "b9e2ac7084d16a8f457bcf395861c02eb357829bc239caec001c0559fa17cb9d"
+  },
+  "WO17": {
+    "image": "workorders/WO17.webp",
+    "positions": 9888,
+    "source_sha256": "7c3e8bf34c45d1135733d69dc90c09506d9886e3ab6c8b4103185a0415e1fc10"
+  },
+  "WO18": {
+    "image": "workorders/WO18.webp",
+    "positions": 9888,
+    "source_sha256": "20d9cf2f11167eae193be860baf71c9847f5b6268e3ac61aa55de32825e6e7bb"
+  },
+  "WO19": {
+    "image": "workorders/WO19.webp",
+    "positions": 9888,
+    "source_sha256": "2c1984b13c9911fcc031bc54ec431524ac28a00cafd893f8fd9e80a9c636f217"
+  }
+}

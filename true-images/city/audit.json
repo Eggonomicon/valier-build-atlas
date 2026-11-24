@@ -1,0 +1,35 @@
+{
+  "image": "city/isometric.webp",
+  "plan_image": "city/roof-plan.webp",
+  "above_ground_positions": 1569775,
+  "city_bounds_xz": [
+    0,
+    0,
+    875,
+    875
+  ],
+  "ensembles": {
+    "streets": {
+      "image": "city/streets-ensemble.webp",
+      "city_bounds_xz": [
+        0,
+        0,
+        287,
+        95
+      ],
+      "positions": 63549
+    },
+    "public-space": {
+      "image": "city/public-space-ensemble.webp",
+      "city_bounds_xz": [
+        384,
+        384,
+        671,
+        479
+      ],
+      "positions": 49264
+    }
+  },
+  "civil_model_sha256": "8f380a2ef255e8c9023065007dfb041559b0bdf5821c6d72b5a2d9a5ee2c93e2",
+  "civil_voxel_sha256": "d93da4155c12b131a6eb422309be775bace178b634955be7e396c97feccb4b98"
+}

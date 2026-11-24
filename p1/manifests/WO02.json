@@ -1,0 +1,105 @@
+{
+  "id": "WO02",
+  "name": "V01 north service link",
+  "bounds": [
+    96,
+    0,
+    107,
+    143
+  ],
+  "dimensions_xyz": [
+    12,
+    11,
+    144
+  ],
+  "file": "schematics/Valier_P1_WO02_Permanent_GTNH29.schematic",
+  "manifest_url": "manifests/WO02.json",
+  "occupied_positions": 6082,
+  "city_minimum_xz": [
+    96,
+    0
+  ],
+  "min_civil_y": -10,
+  "sha256": "8d339f89c00868f804684b75403966b68bb57af063a46ab8b1df9a3a3128b0b3",
+  "sequence": 2,
+  "purpose": "Connect M11 toward the north road, including the V01/H00 and V01/H01 junction pieces. Previously owned WO01 cells are excluded.",
+  "source_bounds_xyz_inclusive": [
+    96,
+    -10,
+    0,
+    107,
+    0,
+    143
+  ],
+  "air_positions": 12926,
+  "role_counts": {
+    "G": 1008,
+    "B": 1130,
+    "C": 1008,
+    "F": 1468,
+    "W": 460,
+    "R": 1008
+  },
+  "placed_states": [
+    {
+      "registry_name": "minecraft:stonebrick",
+      "metadata": 0,
+      "positions": 6082
+    }
+  ],
+  "registry_map": {
+    "minecraft:air": 0,
+    "minecraft:stonebrick": 1,
+    "minecraft:stone_slab": 2
+  },
+  "array_index": "x + Width*(z + Length*y); local y=civil_y+10",
+  "source_files": {
+    "generated/pdim-fieldpack-v1/orders/WO02/work-order.json": "d6fd2ef0f6b574dbdcca7aeca640d9f7efe6565fc49107b64d611de1c28ea9d5",
+    "generated/pdim-fieldpack-v1/orders/WO02/permanent-block-runs.csv.gz": "cba8df14346c830f2dc8debc597e3b190c3631ba88537fe6d0b50f4c54a4b62e"
+  },
+  "source_plan": {
+    "file": "generated/pdim-fieldpack-v1/data/plan.json",
+    "sha256": "9f6a8d2e5e72a056f7cec8d0ff706e56a0e8be07b7adc8fafb060bd1584551fe"
+  },
+  "original_civil_sources": {
+    "design/pdim-masterplan-v1/model.json": "8f380a2ef255e8c9023065007dfb041559b0bdf5821c6d72b5a2d9a5ee2c93e2",
+    "generated/pdim-masterplan-v1/data/civil-layers.npz": "d93da4155c12b131a6eb422309be775bace178b634955be7e396c97feccb4b98",
+    "design/steamworks-v2/block-model.json": "d91950a5f1c9a89076f656763402f7a9ba8e81b661447dc3b142e600c7eeae81"
+  },
+  "world_placement": {
+    "minimum_x": "city_origin_X + 96",
+    "minimum_y": "surface_S - 10",
+    "minimum_z": "city_origin_Z + 0",
+    "orientation": "+X east; +Z south; north is -Z; no rotation applied",
+    "world_assigned": false
+  },
+  "load_command": "//schematic load mcedit Valier_P1_WO02_Permanent_GTNH29.schematic",
+  "paste_command": "//paste -a -s",
+  "air_policy": "Explicit air is blank unowned/unmodeled space. Use -a to preserve it. These files do not specify excavation or required clearance.",
+  "temporary_caps_included": false,
+  "temporary_cap_csvs": [
+    {
+      "label": "temporary-cap-add.csv",
+      "url": "references/WO02/temporary-cap-add.csv",
+      "sha256": "376090d9d8ae81e2ab2cc68febff2187ff440aeb348f4b524eb6b084c3767aaa",
+      "scope": "Separate temporary cap schedule; no cap blocks are included in the schematic"
+    },
+    {
+      "label": "temporary-cap-remove.csv",
+      "url": "references/WO02/temporary-cap-remove.csv",
+      "sha256": "3bc022a566a14a2504774b6f83bf131eefa6f17f33919822945c85ddfc9c39eb",
+      "scope": "Separate temporary cap schedule; no cap blocks are included in the schematic"
+    },
+    {
+      "label": "temporary-cap-end-state.csv",
+      "url": "references/WO02/temporary-cap-end-state.csv",
+      "sha256": "a365b07d07d510c9aaf7b6279fe1085b9902713ee84f5a3fe479f4b050fed971",
+      "scope": "Separate temporary cap schedule; no cap blocks are included in the schematic"
+    }
+  ],
+  "entities": 0,
+  "tile_entities": 0,
+  "functional_utilities_included": false,
+  "game_tested": false,
+  "status": "Permanent workorder blocks only; independent static checks separate from in-game validation"
+}

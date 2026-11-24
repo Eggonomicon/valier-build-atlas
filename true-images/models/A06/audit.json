@@ -1,0 +1,53 @@
+{
+  "id": "A06",
+  "card": "models/A06/card.webp",
+  "palette": "models/A06/palette.webp",
+  "progress": "models/A06/progress.webp",
+  "source_model_sha256": "ed8afa9fcfeaabfeea94bcb39bc0000d46c21e88df0d5b6aefc3b1e0ec0a6dda",
+  "stages": [
+    {
+      "stage": "S01",
+      "cumulative_positions": 98,
+      "role_counts": {
+        "F": 64,
+        "K": 22,
+        "s": 12
+      }
+    },
+    {
+      "stage": "S02",
+      "cumulative_positions": 126,
+      "role_counts": {
+        "F": 64,
+        "K": 28,
+        "s": 12,
+        "L": 22
+      }
+    },
+    {
+      "stage": "S03",
+      "cumulative_positions": 144,
+      "role_counts": {
+        "F": 64,
+        "K": 28,
+        "s": 12,
+        "L": 22,
+        "E": 18
+      }
+    },
+    {
+      "stage": "S04",
+      "cumulative_positions": 180,
+      "role_counts": {
+        "F": 64,
+        "K": 28,
+        "s": 12,
+        "L": 22,
+        "E": 18,
+        "V": 36
+      }
+    }
+  ],
+  "source_positions": 180,
+  "thumbnail": "models/A06/thumbnail.webp"
+}

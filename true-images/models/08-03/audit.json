@@ -1,0 +1,135 @@
+{
+  "id": "08-03",
+  "card": "models/08-03/card.webp",
+  "palette": "models/08-03/palette.webp",
+  "progress": "models/08-03/progress.webp",
+  "source_model_sha256": "d9505ff2f2aff269847664417dc5b98848a490a3ee71d279cb3866f1655519e1",
+  "stages": [
+    {
+      "stage": "S01",
+      "cumulative_positions": 4324,
+      "role_counts": {
+        "F": 4096,
+        "K": 16,
+        "L": 212
+      }
+    },
+    {
+      "stage": "S02",
+      "cumulative_positions": 5494,
+      "role_counts": {
+        "F": 4096,
+        "K": 84,
+        "L": 1048,
+        "B": 266
+      }
+    },
+    {
+      "stage": "S03",
+      "cumulative_positions": 5962,
+      "role_counts": {
+        "F": 4096,
+        "K": 228,
+        "L": 1304,
+        "B": 334
+      }
+    },
+    {
+      "stage": "S04",
+      "cumulative_positions": 6430,
+      "role_counts": {
+        "F": 4096,
+        "K": 372,
+        "L": 1560,
+        "B": 402
+      }
+    },
+    {
+      "stage": "S05",
+      "cumulative_positions": 6802,
+      "role_counts": {
+        "F": 4096,
+        "K": 468,
+        "L": 1816,
+        "B": 422
+      }
+    },
+    {
+      "stage": "S06",
+      "cumulative_positions": 7853,
+      "role_counts": {
+        "F": 4096,
+        "K": 540,
+        "L": 2504,
+        "B": 713
+      }
+    },
+    {
+      "stage": "S07",
+      "cumulative_positions": 9439,
+      "role_counts": {
+        "F": 4096,
+        "K": 844,
+        "L": 3786,
+        "B": 713
+      }
+    },
+    {
+      "stage": "S08",
+      "cumulative_positions": 9583,
+      "role_counts": {
+        "F": 4096,
+        "K": 844,
+        "L": 3930,
+        "B": 713
+      }
+    },
+    {
+      "stage": "S09",
+      "cumulative_positions": 11294,
+      "role_counts": {
+        "F": 4096,
+        "K": 844,
+        "L": 3930,
+        "B": 713,
+        "G": 1711
+      }
+    },
+    {
+      "stage": "S10",
+      "cumulative_positions": 15358,
+      "role_counts": {
+        "F": 4096,
+        "K": 844,
+        "L": 3930,
+        "B": 713,
+        "G": 5775
+      }
+    },
+    {
+      "stage": "S11",
+      "cumulative_positions": 17520,
+      "role_counts": {
+        "F": 4096,
+        "K": 844,
+        "L": 3930,
+        "B": 713,
+        "G": 7937
+      }
+    },
+    {
+      "stage": "S12",
+      "cumulative_positions": 17728,
+      "role_counts": {
+        "F": 4096,
+        "K": 844,
+        "L": 3930,
+        "B": 713,
+        "G": 7937,
+        "N": 208
+      }
+    }
+  ],
+  "source_positions": 17728,
+  "thumbnail": "models/08-03/thumbnail.webp"
+}

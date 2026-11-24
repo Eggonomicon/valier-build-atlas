@@ -1,0 +1,113 @@
+{
+  "id": "03-04",
+  "card": "models/03-04/card.webp",
+  "palette": "models/03-04/palette.webp",
+  "progress": "models/03-04/progress.webp",
+  "source_model_sha256": "a2bc3bc25eb72a4859e3114d9c4ac9784e7b7712105f9e25832a0e5c48a801e1",
+  "stages": [
+    {
+      "stage": "S01",
+      "cumulative_positions": 4324,
+      "role_counts": {
+        "F": 4096,
+        "K": 16,
+        "L": 212
+      }
+    },
+    {
+      "stage": "S02",
+      "cumulative_positions": 5716,
+      "role_counts": {
+        "F": 4096,
+        "K": 102,
+        "L": 920,
+        "B": 598
+      }
+    },
+    {
+      "stage": "S03",
+      "cumulative_positions": 6820,
+      "role_counts": {
+        "F": 4096,
+        "K": 322,
+        "L": 1048,
+        "B": 1354
+      }
+    },
+    {
+      "stage": "S04",
+      "cumulative_positions": 7956,
+      "role_counts": {
+        "F": 4096,
+        "K": 546,
+        "L": 1176,
+        "B": 2138
+      }
+    },
+    {
+      "stage": "S05",
+      "cumulative_positions": 8892,
+      "role_counts": {
+        "F": 4096,
+        "K": 738,
+        "L": 1304,
+        "B": 2754
+      }
+    },
+    {
+      "stage": "S06",
+      "cumulative_positions": 9428,
+      "role_counts": {
+        "F": 4096,
+        "K": 866,
+        "L": 1432,
+        "B": 3034
+      }
+    },
+    {
+      "stage": "S07",
+      "cumulative_positions": 12544,
+      "role_counts": {
+        "F": 4096,
+        "K": 1050,
+        "L": 2564,
+        "B": 4834
+      }
+    },
+    {
+      "stage": "S08",
+      "cumulative_positions": 15816,
+      "role_counts": {
+        "F": 4096,
+        "K": 1378,
+        "L": 3084,
+        "B": 7258
+      }
+    },
+    {
+      "stage": "S09",
+      "cumulative_positions": 16616,
+      "role_counts": {
+        "F": 4096,
+        "K": 1378,
+        "L": 3084,
+        "B": 7258,
+        "G": 800
+      }
+    },
+    {
+      "stage": "S10",
+      "cumulative_positions": 16824,
+      "role_counts": {
+        "F": 4096,
+        "K": 1378,
+        "L": 3084,
+        "B": 7258,
+        "G": 800,
+        "N": 208
+      }
+    }
+  ],
+  "source_positions": 16824,
+  "thumbnail": "models/03-04/thumbnail.webp"
+}

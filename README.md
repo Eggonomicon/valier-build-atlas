@@ -1,5 +1,9 @@
 # Valier Corp GTNH Build Atlas
 
+Current image policy: all current architectural views use explicit block coordinates and installed texture assets. 415 new images extend the 864 installed model views to city/sector/reference boards, palettes, cards, thumbnails, stage sheets and all19 workorders. Three original AI boards are preserved in an expandable labeled archive. Neutral materials are default; atmosphere lighting is optional. Technical blueprints and program overlays are labeled symbolic diagrams. These are offline renders, not game screenshots.
+
+Start with WO01 / M11 maintenance stair and gallery connection. [Loading guide](p1/LOADING_GUIDE.md) and [19 staged permanent-only P1 schematics](p1/Valier_P1_Workorder_Permanent_Schematics.zip). Installed WorldEdit's directory is `.minecraft/config/worldedit/schematics`. Site total215 exports includes the unchanged196 base files. World anchor/surface S remain unassigned; no game import or world paste has been performed.
+
 Interactive city plans, exterior designs, block palettes and staged assembly guides for an original Serenity City adaptation in GTNH 2.9.
 
 Website: https://eggonomicon.github.io/valier-build-atlas/
