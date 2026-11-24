@@ -1,0 +1,412 @@
+{
+  "coordinate_convention": "Local NW origin; +X east, +Z south, north up. Y is civil relative to future surface S; world origin/rotation/S unassigned. Bounds inclusive.",
+  "surface_y": -1,
+  "base_y": -2,
+  "width": 12,
+  "cross_section": [
+    {
+      "offsets": [
+        0,
+        1
+      ],
+      "role": "Sidewalk,2 blocks",
+      "optional_finish": "Lave12 replacement of existing stone brick"
+    },
+    {
+      "offsets": [
+        2,
+        9
+      ],
+      "role": "Running surface,8 blocks",
+      "optional_finish": "Bitt0 replacement of existing stone brick"
+    },
+    {
+      "offsets": [
+        10,
+        11
+      ],
+      "role": "Sidewalk,2 blocks",
+      "optional_finish": "Lave12 replacement of existing stone brick"
+    }
+  ],
+  "gallery": {
+    "outer_offsets": [
+      2,
+      9
+    ],
+    "floor_y": -10,
+    "roof_y": -4,
+    "clear_y": [
+      -9,
+      -5
+    ],
+    "clear_offsets": [
+      3,
+      8
+    ],
+    "walking_offsets": [
+      5,
+      6
+    ],
+    "fluid_reservation_offsets": [
+      3,
+      4
+    ],
+    "electrical_reservation_offsets": [
+      7,
+      8
+    ]
+  },
+  "streets": [
+    {
+      "id": "V00",
+      "axis": "north-south",
+      "index": 0,
+      "bounds": [
+        0,
+        0,
+        11,
+        875
+      ],
+      "cross_offset_start": 0,
+      "cross_offset_end": 11,
+      "centerline": 5.5,
+      "class": "perimeter",
+      "status": "preserved road ribbon"
+    },
+    {
+      "id": "V01",
+      "axis": "north-south",
+      "index": 1,
+      "bounds": [
+        96,
+        0,
+        107,
+        875
+      ],
+      "cross_offset_start": 96,
+      "cross_offset_end": 107,
+      "centerline": 101.5,
+      "class": "district",
+      "status": "preserved road ribbon"
+    },
+    {
+      "id": "V02",
+      "axis": "north-south",
+      "index": 2,
+      "bounds": [
+        192,
+        0,
+        203,
+        875
+      ],
+      "cross_offset_start": 192,
+      "cross_offset_end": 203,
+      "centerline": 197.5,
+      "class": "district",
+      "status": "preserved road ribbon"
+    },
+    {
+      "id": "V03",
+      "axis": "north-south",
+      "index": 3,
+      "bounds": [
+        288,
+        0,
+        299,
+        875
+      ],
+      "cross_offset_start": 288,
+      "cross_offset_end": 299,
+      "centerline": 293.5,
+      "class": "district",
+      "status": "preserved road ribbon"
+    },
+    {
+      "id": "V04",
+      "axis": "north-south",
+      "index": 4,
+      "bounds": [
+        384,
+        0,
+        395,
+        875
+      ],
+      "cross_offset_start": 384,
+      "cross_offset_end": 395,
+      "centerline": 389.5,
+      "class": "civic",
+      "status": "preserved road ribbon"
+    },
+    {
+      "id": "V05",
+      "axis": "north-south",
+      "index": 5,
+      "bounds": [
+        480,
+        0,
+        491,
+        875
+      ],
+      "cross_offset_start": 480,
+      "cross_offset_end": 491,
+      "centerline": 485.5,
+      "class": "civic",
+      "status": "preserved road ribbon"
+    },
+    {
+      "id": "V06",
+      "axis": "north-south",
+      "index": 6,
+      "bounds": [
+        576,
+        0,
+        587,
+        875
+      ],
+      "cross_offset_start": 576,
+      "cross_offset_end": 587,
+      "centerline": 581.5,
+      "class": "district",
+      "status": "preserved road ribbon"
+    },
+    {
+      "id": "V07",
+      "axis": "north-south",
+      "index": 7,
+      "bounds": [
+        672,
+        0,
+        683,
+        875
+      ],
+      "cross_offset_start": 672,
+      "cross_offset_end": 683,
+      "centerline": 677.5,
+      "class": "district",
+      "status": "preserved road ribbon"
+    },
+    {
+      "id": "V08",
+      "axis": "north-south",
+      "index": 8,
+      "bounds": [
+        768,
+        0,
+        779,
+        875
+      ],
+      "cross_offset_start": 768,
+      "cross_offset_end": 779,
+      "centerline": 773.5,
+      "class": "district",
+      "status": "preserved road ribbon"
+    },
+    {
+      "id": "V09",
+      "axis": "north-south",
+      "index": 9,
+      "bounds": [
+        864,
+        0,
+        875,
+        875
+      ],
+      "cross_offset_start": 864,
+      "cross_offset_end": 875,
+      "centerline": 869.5,
+      "class": "perimeter",
+      "status": "new outer closure outside original core"
+    },
+    {
+      "id": "H00",
+      "axis": "east-west",
+      "index": 0,
+      "bounds": [
+        0,
+        0,
+        875,
+        11
+      ],
+      "cross_offset_start": 0,
+      "cross_offset_end": 11,
+      "centerline": 5.5,
+      "class": "perimeter",
+      "status": "preserved road ribbon"
+    },
+    {
+      "id": "H01",
+      "axis": "east-west",
+      "index": 1,
+      "bounds": [
+        0,
+        96,
+        875,
+        107
+      ],
+      "cross_offset_start": 96,
+      "cross_offset_end": 107,
+      "centerline": 101.5,
+      "class": "district",
+      "status": "preserved road ribbon"
+    },
+    {
+      "id": "H02",
+      "axis": "east-west",
+      "index": 2,
+      "bounds": [
+        0,
+        192,
+        875,
+        203
+      ],
+      "cross_offset_start": 192,
+      "cross_offset_end": 203,
+      "centerline": 197.5,
+      "class": "district",
+      "status": "preserved road ribbon"
+    },
+    {
+      "id": "H03",
+      "axis": "east-west",
+      "index": 3,
+      "bounds": [
+        0,
+        288,
+        875,
+        299
+      ],
+      "cross_offset_start": 288,
+      "cross_offset_end": 299,
+      "centerline": 293.5,
+      "class": "district",
+      "status": "preserved road ribbon"
+    },
+    {
+      "id": "H04",
+      "axis": "east-west",
+      "index": 4,
+      "bounds": [
+        0,
+        384,
+        875,
+        395
+      ],
+      "cross_offset_start": 384,
+      "cross_offset_end": 395,
+      "centerline": 389.5,
+      "class": "civic",
+      "status": "preserved road ribbon"
+    },
+    {
+      "id": "H05",
+      "axis": "east-west",
+      "index": 5,
+      "bounds": [
+        0,
+        480,
+        875,
+        491
+      ],
+      "cross_offset_start": 480,
+      "cross_offset_end": 491,
+      "centerline": 485.5,
+      "class": "civic",
+      "status": "preserved road ribbon"
+    },
+    {
+      "id": "H06",
+      "axis": "east-west",
+      "index": 6,
+      "bounds": [
+        0,
+        576,
+        875,
+        587
+      ],
+      "cross_offset_start": 576,
+      "cross_offset_end": 587,
+      "centerline": 581.5,
+      "class": "district",
+      "status": "preserved road ribbon"
+    },
+    {
+      "id": "H07",
+      "axis": "east-west",
+      "index": 7,
+      "bounds": [
+        0,
+        672,
+        875,
+        683
+      ],
+      "cross_offset_start": 672,
+      "cross_offset_end": 683,
+      "centerline": 677.5,
+      "class": "district",
+      "status": "preserved road ribbon"
+    },
+    {
+      "id": "H08",
+      "axis": "east-west",
+      "index": 8,
+      "bounds": [
+        0,
+        768,
+        875,
+        779
+      ],
+      "cross_offset_start": 768,
+      "cross_offset_end": 779,
+      "centerline": 773.5,
+      "class": "district",
+      "status": "preserved road ribbon"
+    },
+    {
+      "id": "H09",
+      "axis": "east-west",
+      "index": 9,
+      "bounds": [
+        0,
+        864,
+        875,
+        875
+      ],
+      "cross_offset_start": 864,
+      "cross_offset_end": 875,
+      "centerline": 869.5,
+      "class": "perimeter",
+      "status": "new outer closure outside original core"
+    }
+  ],
+  "finish_status": "Optional replacement study only; not merged into civil quantities. Existing2/8/2 road profile retained. No widening, extra layer or cosmetic stock adopted.",
+  "marking_policy": "If selected later, short pale dashes replace running-surface cells. Keep junctions, parcel entrances and maintenance openings clear; use explicit coordinate model before counting or construction.",
+  "utility_policy": "Offsets3/4 fluid reservations,5/6 clear walk,7/8 electrical reservations within each under-road gallery. These are civil reservations, not laid pipe/cable. At junctions, design separation and bend geometry after actual pipe/cable choice. Keep all access hubs and capped branches intact.",
+  "build_order": [
+    "P0 create/survey PDIM and translate local coordinates",
+    "P1 nineteen existing northwest civil work orders",
+    "P2 civic/perimeter civil network",
+    "P3 remaining street/gallery network",
+    "P4 parcel approach, cover, access and inspection",
+    "P5 water/fuel/Steam/LV commissioning one building at a time; permanent09-08/09-09 generation later"
+  ],
+  "startup_sequence": [
+    "01-03 choose and test water supply",
+    "01-02 choose/test coke/fuel process",
+    "01-01 one boiler and steam process trial; add proposed second boiler only after measured demand",
+    "01-04 basic LV turbine and one consumer at a time",
+    "02-01 choose ore-specific recipe chain",
+    "02-03/02-04 reagents/circuits after NEI checks",
+    "02-02 furnace after energy, coil, hatch and formation checks"
+  ],
+  "commissioning": [
+    "Inspect all chosen recipes and machine IDs in target GTNH2.9",
+    "Establish continuous water before fuel; follow actual machine warnings",
+    "Configure main/exhaust/output faces and covers; keep vent cells out of aisles",
+    "Select real pipes/cables, branch topology, voltage/amperage and losses",
+    "Test one recipe per machine, then simultaneous load and buffers",
+    "Record measured fuel/water/steam/power rates before choosing final unit counts",
+    "Check all hatches, maintenance, player collision, lighting and egress in game",
+    "Only export/import native NBT after target mapping and authorized disposable-world test"
+  ]
+}

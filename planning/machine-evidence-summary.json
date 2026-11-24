@@ -1,0 +1,2507 @@
+{
+  "revision": "machine-evidence-v1",
+  "pack_label": "Installed GTNH2.9.0 profile",
+  "registry_identity_evidence": "Installed BetterQuesting item records explicitly use gregtech:gt.blockmachines and Damage fields; enum+loader identifies each selected item damage/meta-tile ID.",
+  "source_artifact": {
+    "filename": "gregtech-5.09.54.265.jar",
+    "sha256": "b969e11625a0298416a75b6e39703da795233edb71cb66f25fb9bbf654d75528"
+  },
+  "method": "Read-only ZIP/config inspection and javap; no game, mod initialization, recovered code execution or world access. Java17 disassembly collected explicitly; core facing methods checked against Java21 multi-release variant.",
+  "metaID_meaning": "GregTech meta-tile ID / machine ItemStack damage. NOT vanilla placed block metadata. No numeric placed-block ID/NBT export supplied.",
+  "machine_count": 31,
+  "machines": [
+    {
+      "key": "boiler_bronze",
+      "title": "Small Coal Boiler",
+      "enum_key": "SMALL_COAL_BOILER",
+      "metaID": 100,
+      "registry_name": "gregtech:gt.blockmachines",
+      "item_damage": 100,
+      "placed_block_metadata": null,
+      "machine_tile_NBT": null,
+      "class": "gregtech.common.tileentities.boilers.MTEBoilerBronze",
+      "internal_name": "boiler.bronze",
+      "tier": "bronze boiler",
+      "singleblock_evidence": {
+        "occupied_block_dimensions_xyz": [
+          1,
+          1,
+          1
+        ],
+        "basis": "Class inherits the singleblock basic-machine/tank chain and CommonMetaTileEntity full-block collision bounds; no multiblock structure is claimed. Service/exhaust/aisle space is additional.",
+        "game_tested": false
+      },
+      "exhaust_note": "No steam-machine exhaust rule assigned from the bronze-processing class; obey separately evidenced machine-specific facing and plumbing.",
+      "evidence_refs": [
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.enums.MetaTileEntityIDs.javap17.txt",
+          "line": 12892,
+          "end_line": 12898,
+          "claim": "Second enum constructor integer is the stored ID; first integer is enum ordinal, not machine ID"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.loaders.preload.LoaderMetaTileEntities.javap17.txt",
+          "line": 20590,
+          "end_line": 20608,
+          "claim": "Registration enum ID, class/builder, internal/display names and tier"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.CommonMetaTileEntity.javap17.txt",
+          "line": 960,
+          "end_line": 982,
+          "claim": "Default bounds from (x,y,z) to (x+1,y+1,z+1)"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.MetaTileEntity.javap17.txt",
+          "line": 241,
+          "end_line": 253,
+          "claim": "sBlockMachines ItemStack damage uses mID; these are not vanilla placed-block metadata values"
+        }
+      ],
+      "capacities_or_rates": {
+        "nominal_steam_L_per_second": 120,
+        "fluid_tank_capacity_units": 16000,
+        "limits": "Nominal getter and installed tooltip, not a measured sustained system output. Warm-up, fuel/water, temperature, output plumbing and controls still matter.",
+        "evidence_refs": [
+          {
+            "file": "verification/machine-evidence-v1/gregtech.common.tileentities.boilers.MTEBoilerBronze.javap17.txt",
+            "line": 367,
+            "end_line": 371,
+            "claim": "Nominal steam production getter, corroborated by installed en_US tooltip"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.common.tileentities.boilers.MTEBoiler.javap17.txt",
+            "line": 1083,
+            "end_line": 1087,
+            "claim": "Capacity getter; parent getSteamCapacity delegates to this"
+          }
+        ]
+      },
+      "native_placement_status": "Item/meta-tile identity checked statically. Placed block metadata, tile NBT/facing and target-world import remain unvalidated.",
+      "boiler_name_note": "Small Coal Boiler is the bronze singleblock.",
+      "quest_item_crosscheck": true
+    },
+    {
+      "key": "boiler_steel",
+      "title": "Large Coal Boiler",
+      "enum_key": "HIGH_PRESSURE_COAL_BOILER",
+      "metaID": 101,
+      "registry_name": "gregtech:gt.blockmachines",
+      "item_damage": 101,
+      "placed_block_metadata": null,
+      "machine_tile_NBT": null,
+      "class": "gregtech.common.tileentities.boilers.MTEBoilerSteel",
+      "internal_name": "boiler.steel",
+      "tier": "steel boiler",
+      "singleblock_evidence": {
+        "occupied_block_dimensions_xyz": [
+          1,
+          1,
+          1
+        ],
+        "basis": "Class inherits the singleblock basic-machine/tank chain and CommonMetaTileEntity full-block collision bounds; no multiblock structure is claimed. Service/exhaust/aisle space is additional.",
+        "game_tested": false
+      },
+      "exhaust_note": "No steam-machine exhaust rule assigned from the bronze-processing class; obey separately evidenced machine-specific facing and plumbing.",
+      "evidence_refs": [
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.enums.MetaTileEntityIDs.javap17.txt",
+          "line": 12899,
+          "end_line": 12905,
+          "claim": "Second enum constructor integer is the stored ID; first integer is enum ordinal, not machine ID"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.loaders.preload.LoaderMetaTileEntities.javap17.txt",
+          "line": 20602,
+          "end_line": 20620,
+          "claim": "Registration enum ID, class/builder, internal/display names and tier"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.CommonMetaTileEntity.javap17.txt",
+          "line": 960,
+          "end_line": 982,
+          "claim": "Default bounds from (x,y,z) to (x+1,y+1,z+1)"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.MetaTileEntity.javap17.txt",
+          "line": 241,
+          "end_line": 253,
+          "claim": "sBlockMachines ItemStack damage uses mID; these are not vanilla placed-block metadata values"
+        }
+      ],
+      "capacities_or_rates": {
+        "nominal_steam_L_per_second": 300,
+        "fluid_tank_capacity_units": 32000,
+        "limits": "Nominal getter and installed tooltip, not a measured sustained system output. Warm-up, fuel/water, temperature, output plumbing and controls still matter.",
+        "evidence_refs": [
+          {
+            "file": "verification/machine-evidence-v1/gregtech.common.tileentities.boilers.MTEBoilerSteel.javap17.txt",
+            "line": 191,
+            "end_line": 195,
+            "claim": "Nominal steam production getter, corroborated by installed en_US tooltip"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.common.tileentities.boilers.MTEBoilerSteel.javap17.txt",
+            "line": 186,
+            "end_line": 190,
+            "claim": "Capacity getter; parent getSteamCapacity delegates to this"
+          }
+        ]
+      },
+      "native_placement_status": "Item/meta-tile identity checked statically. Placed block metadata, tile NBT/facing and target-world import remain unvalidated.",
+      "boiler_name_note": "Large Coal Boiler here is the singleblock steel MTEBoilerSteel, not the separate multiblock Large Steel Boiler.",
+      "quest_item_crosscheck": true
+    },
+    {
+      "key": "steam_furnace_bronze",
+      "title": "Steam Furnace",
+      "enum_key": "STEAM_FURNACE",
+      "metaID": 103,
+      "registry_name": "gregtech:gt.blockmachines",
+      "item_damage": 103,
+      "placed_block_metadata": null,
+      "machine_tile_NBT": null,
+      "class": "gregtech.common.tileentities.machines.steam.MTESteamFurnaceBronze",
+      "internal_name": "bronzemachine.furnace",
+      "tier": "bronze steam",
+      "singleblock_evidence": {
+        "occupied_block_dimensions_xyz": [
+          1,
+          1,
+          1
+        ],
+        "basis": "Class inherits the singleblock basic-machine/tank chain and CommonMetaTileEntity full-block collision bounds; no multiblock structure is claimed. Service/exhaust/aisle space is additional.",
+        "game_tested": false
+      },
+      "exhaust_note": "Keep the immediately adjacent block on configured base.getFrontFacing() clear of collision hitboxes; no cover on that exhaust side. Steam venting can damage living entities in that adjacent cube, so keep it out of the operator aisle.",
+      "evidence_refs": [
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.enums.MetaTileEntityIDs.javap17.txt",
+          "line": 12913,
+          "end_line": 12919,
+          "claim": "Second enum constructor integer is the stored ID; first integer is enum ordinal, not machine ID"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.loaders.preload.LoaderMetaTileEntities.javap17.txt",
+          "line": 1862,
+          "end_line": 1880,
+          "claim": "Registration enum ID, class/builder, internal/display names and tier"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.CommonMetaTileEntity.javap17.txt",
+          "line": 960,
+          "end_line": 982,
+          "claim": "Default bounds from (x,y,z) to (x+1,y+1,z+1)"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.MetaTileEntity.javap17.txt",
+          "line": 241,
+          "end_line": 253,
+          "claim": "sBlockMachines ItemStack damage uses mID; these are not vanilla placed-block metadata values"
+        }
+      ],
+      "capacities_or_rates": {
+        "maxSteamStore_internal_units": 16000,
+        "fluid_tank_exposure": "getTankInfo multiplies the internal stored steam and capacity by2; do not label16000 internal units as16000L.",
+        "evidence_refs": [
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 140,
+            "end_line": 144,
+            "claim": "Literal16000 internal storage units"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 161,
+            "end_line": 193,
+            "claim": "Forge fluid stored/capacity exposure multiplied by2"
+          }
+        ]
+      },
+      "native_placement_status": "Item/meta-tile identity checked statically. Placed block metadata, tile NBT/facing and target-world import remain unvalidated.",
+      "facing_rules": {
+        "rule": "Keep the immediately adjacent block on configured base.getFrontFacing() clear of collision hitboxes; no cover on that exhaust side. Steam venting can damage living entities in that adjacent cube, so keep it out of the operator aisle.",
+        "main_face_rule": "Steam fluid input excludes mMainFacing. The GUI/main face and configured exhaust/output face are separate fields.",
+        "planned_south_main_north_exhaust_static_support": true,
+        "runtime_configuration_tested": false,
+        "evidence_refs": [
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 194,
+            "end_line": 320,
+            "claim": "Cover/hitbox vent blocking, adjacent block and entity heat-damage check"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 145,
+            "end_line": 155,
+            "claim": "Steam input excludes mMainFacing"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 385,
+            "end_line": 413,
+            "claim": "Stores mMainFacing and moves equal base front to its opposite"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 937,
+            "end_line": 955,
+            "claim": "When main face is known, configured base facing must differ from it"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 366,
+            "end_line": 384,
+            "claim": "Main face excludes UP and DOWN"
+          }
+        ]
+      },
+      "quest_item_crosscheck": true
+    },
+    {
+      "key": "steam_furnace_steel",
+      "title": "High Pressure Steam Furnace",
+      "enum_key": "HP_STEAM_FURNACE",
+      "metaID": 104,
+      "registry_name": "gregtech:gt.blockmachines",
+      "item_damage": 104,
+      "placed_block_metadata": null,
+      "machine_tile_NBT": null,
+      "class": "gregtech.common.tileentities.machines.steam.MTESteamFurnaceSteel",
+      "internal_name": "hpmachine.furnace",
+      "tier": "steel steam",
+      "singleblock_evidence": {
+        "occupied_block_dimensions_xyz": [
+          1,
+          1,
+          1
+        ],
+        "basis": "Class inherits the singleblock basic-machine/tank chain and CommonMetaTileEntity full-block collision bounds; no multiblock structure is claimed. Service/exhaust/aisle space is additional.",
+        "game_tested": false
+      },
+      "exhaust_note": "Keep the immediately adjacent block on configured base.getFrontFacing() clear of collision hitboxes; no cover on that exhaust side. Steam venting can damage living entities in that adjacent cube, so keep it out of the operator aisle.",
+      "evidence_refs": [
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.enums.MetaTileEntityIDs.javap17.txt",
+          "line": 12920,
+          "end_line": 12926,
+          "claim": "Second enum constructor integer is the stored ID; first integer is enum ordinal, not machine ID"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.loaders.preload.LoaderMetaTileEntities.javap17.txt",
+          "line": 3194,
+          "end_line": 3212,
+          "claim": "Registration enum ID, class/builder, internal/display names and tier"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.CommonMetaTileEntity.javap17.txt",
+          "line": 960,
+          "end_line": 982,
+          "claim": "Default bounds from (x,y,z) to (x+1,y+1,z+1)"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.MetaTileEntity.javap17.txt",
+          "line": 241,
+          "end_line": 253,
+          "claim": "sBlockMachines ItemStack damage uses mID; these are not vanilla placed-block metadata values"
+        }
+      ],
+      "capacities_or_rates": {
+        "maxSteamStore_internal_units": 16000,
+        "fluid_tank_exposure": "getTankInfo multiplies the internal stored steam and capacity by2; do not label16000 internal units as16000L.",
+        "evidence_refs": [
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 140,
+            "end_line": 144,
+            "claim": "Literal16000 internal storage units"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 161,
+            "end_line": 193,
+            "claim": "Forge fluid stored/capacity exposure multiplied by2"
+          }
+        ]
+      },
+      "native_placement_status": "Item/meta-tile identity checked statically. Placed block metadata, tile NBT/facing and target-world import remain unvalidated.",
+      "facing_rules": {
+        "rule": "Keep the immediately adjacent block on configured base.getFrontFacing() clear of collision hitboxes; no cover on that exhaust side. Steam venting can damage living entities in that adjacent cube, so keep it out of the operator aisle.",
+        "main_face_rule": "Steam fluid input excludes mMainFacing. The GUI/main face and configured exhaust/output face are separate fields.",
+        "planned_south_main_north_exhaust_static_support": true,
+        "runtime_configuration_tested": false,
+        "evidence_refs": [
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 194,
+            "end_line": 320,
+            "claim": "Cover/hitbox vent blocking, adjacent block and entity heat-damage check"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 145,
+            "end_line": 155,
+            "claim": "Steam input excludes mMainFacing"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 385,
+            "end_line": 413,
+            "claim": "Stores mMainFacing and moves equal base front to its opposite"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 937,
+            "end_line": 955,
+            "claim": "When main face is known, configured base facing must differ from it"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 366,
+            "end_line": 384,
+            "claim": "Main face excludes UP and DOWN"
+          }
+        ]
+      },
+      "quest_item_crosscheck": true
+    },
+    {
+      "key": "steam_macerator_bronze",
+      "title": "Steam Macerator",
+      "enum_key": "STEAM_MACERATOR",
+      "metaID": 106,
+      "registry_name": "gregtech:gt.blockmachines",
+      "item_damage": 106,
+      "placed_block_metadata": null,
+      "machine_tile_NBT": null,
+      "class": "gregtech.common.tileentities.machines.steam.MTESteamMaceratorBronze",
+      "internal_name": "bronzemachine.macerator",
+      "tier": "bronze steam",
+      "singleblock_evidence": {
+        "occupied_block_dimensions_xyz": [
+          1,
+          1,
+          1
+        ],
+        "basis": "Class inherits the singleblock basic-machine/tank chain and CommonMetaTileEntity full-block collision bounds; no multiblock structure is claimed. Service/exhaust/aisle space is additional.",
+        "game_tested": false
+      },
+      "exhaust_note": "Keep the immediately adjacent block on configured base.getFrontFacing() clear of collision hitboxes; no cover on that exhaust side. Steam venting can damage living entities in that adjacent cube, so keep it out of the operator aisle.",
+      "evidence_refs": [
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.enums.MetaTileEntityIDs.javap17.txt",
+          "line": 12934,
+          "end_line": 12940,
+          "claim": "Second enum constructor integer is the stored ID; first integer is enum ordinal, not machine ID"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.loaders.preload.LoaderMetaTileEntities.javap17.txt",
+          "line": 1874,
+          "end_line": 1892,
+          "claim": "Registration enum ID, class/builder, internal/display names and tier"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.CommonMetaTileEntity.javap17.txt",
+          "line": 960,
+          "end_line": 982,
+          "claim": "Default bounds from (x,y,z) to (x+1,y+1,z+1)"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.MetaTileEntity.javap17.txt",
+          "line": 241,
+          "end_line": 253,
+          "claim": "sBlockMachines ItemStack damage uses mID; these are not vanilla placed-block metadata values"
+        }
+      ],
+      "capacities_or_rates": {
+        "maxSteamStore_internal_units": 16000,
+        "fluid_tank_exposure": "getTankInfo multiplies the internal stored steam and capacity by2; do not label16000 internal units as16000L.",
+        "evidence_refs": [
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 140,
+            "end_line": 144,
+            "claim": "Literal16000 internal storage units"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 161,
+            "end_line": 193,
+            "claim": "Forge fluid stored/capacity exposure multiplied by2"
+          }
+        ]
+      },
+      "native_placement_status": "Item/meta-tile identity checked statically. Placed block metadata, tile NBT/facing and target-world import remain unvalidated.",
+      "facing_rules": {
+        "rule": "Keep the immediately adjacent block on configured base.getFrontFacing() clear of collision hitboxes; no cover on that exhaust side. Steam venting can damage living entities in that adjacent cube, so keep it out of the operator aisle.",
+        "main_face_rule": "Steam fluid input excludes mMainFacing. The GUI/main face and configured exhaust/output face are separate fields.",
+        "planned_south_main_north_exhaust_static_support": true,
+        "runtime_configuration_tested": false,
+        "evidence_refs": [
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 194,
+            "end_line": 320,
+            "claim": "Cover/hitbox vent blocking, adjacent block and entity heat-damage check"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 145,
+            "end_line": 155,
+            "claim": "Steam input excludes mMainFacing"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 385,
+            "end_line": 413,
+            "claim": "Stores mMainFacing and moves equal base front to its opposite"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 937,
+            "end_line": 955,
+            "claim": "When main face is known, configured base facing must differ from it"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 366,
+            "end_line": 384,
+            "claim": "Main face excludes UP and DOWN"
+          }
+        ]
+      },
+      "quest_item_crosscheck": true
+    },
+    {
+      "key": "steam_macerator_steel",
+      "title": "High Pressure Steam Macerator",
+      "enum_key": "HP_STEAM_MACERATOR",
+      "metaID": 107,
+      "registry_name": "gregtech:gt.blockmachines",
+      "item_damage": 107,
+      "placed_block_metadata": null,
+      "machine_tile_NBT": null,
+      "class": "gregtech.common.tileentities.machines.steam.MTESteamMaceratorSteel",
+      "internal_name": "hpmachine.macerator",
+      "tier": "steel steam",
+      "singleblock_evidence": {
+        "occupied_block_dimensions_xyz": [
+          1,
+          1,
+          1
+        ],
+        "basis": "Class inherits the singleblock basic-machine/tank chain and CommonMetaTileEntity full-block collision bounds; no multiblock structure is claimed. Service/exhaust/aisle space is additional.",
+        "game_tested": false
+      },
+      "exhaust_note": "Keep the immediately adjacent block on configured base.getFrontFacing() clear of collision hitboxes; no cover on that exhaust side. Steam venting can damage living entities in that adjacent cube, so keep it out of the operator aisle.",
+      "evidence_refs": [
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.enums.MetaTileEntityIDs.javap17.txt",
+          "line": 12941,
+          "end_line": 12947,
+          "claim": "Second enum constructor integer is the stored ID; first integer is enum ordinal, not machine ID"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.loaders.preload.LoaderMetaTileEntities.javap17.txt",
+          "line": 3206,
+          "end_line": 3224,
+          "claim": "Registration enum ID, class/builder, internal/display names and tier"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.CommonMetaTileEntity.javap17.txt",
+          "line": 960,
+          "end_line": 982,
+          "claim": "Default bounds from (x,y,z) to (x+1,y+1,z+1)"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.MetaTileEntity.javap17.txt",
+          "line": 241,
+          "end_line": 253,
+          "claim": "sBlockMachines ItemStack damage uses mID; these are not vanilla placed-block metadata values"
+        }
+      ],
+      "capacities_or_rates": {
+        "maxSteamStore_internal_units": 16000,
+        "fluid_tank_exposure": "getTankInfo multiplies the internal stored steam and capacity by2; do not label16000 internal units as16000L.",
+        "evidence_refs": [
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 140,
+            "end_line": 144,
+            "claim": "Literal16000 internal storage units"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 161,
+            "end_line": 193,
+            "claim": "Forge fluid stored/capacity exposure multiplied by2"
+          }
+        ]
+      },
+      "native_placement_status": "Item/meta-tile identity checked statically. Placed block metadata, tile NBT/facing and target-world import remain unvalidated.",
+      "facing_rules": {
+        "rule": "Keep the immediately adjacent block on configured base.getFrontFacing() clear of collision hitboxes; no cover on that exhaust side. Steam venting can damage living entities in that adjacent cube, so keep it out of the operator aisle.",
+        "main_face_rule": "Steam fluid input excludes mMainFacing. The GUI/main face and configured exhaust/output face are separate fields.",
+        "planned_south_main_north_exhaust_static_support": true,
+        "runtime_configuration_tested": false,
+        "evidence_refs": [
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 194,
+            "end_line": 320,
+            "claim": "Cover/hitbox vent blocking, adjacent block and entity heat-damage check"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 145,
+            "end_line": 155,
+            "claim": "Steam input excludes mMainFacing"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 385,
+            "end_line": 413,
+            "claim": "Stores mMainFacing and moves equal base front to its opposite"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 937,
+            "end_line": 955,
+            "claim": "When main face is known, configured base facing must differ from it"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 366,
+            "end_line": 384,
+            "claim": "Main face excludes UP and DOWN"
+          }
+        ]
+      },
+      "quest_item_crosscheck": true
+    },
+    {
+      "key": "steam_extractor_bronze",
+      "title": "Steam Extractor",
+      "enum_key": "STEAM_EXTRACTOR",
+      "metaID": 109,
+      "registry_name": "gregtech:gt.blockmachines",
+      "item_damage": 109,
+      "placed_block_metadata": null,
+      "machine_tile_NBT": null,
+      "class": "gregtech.common.tileentities.machines.steam.MTESteamExtractorBronze",
+      "internal_name": "bronzemachine.extractor",
+      "tier": "bronze steam",
+      "singleblock_evidence": {
+        "occupied_block_dimensions_xyz": [
+          1,
+          1,
+          1
+        ],
+        "basis": "Class inherits the singleblock basic-machine/tank chain and CommonMetaTileEntity full-block collision bounds; no multiblock structure is claimed. Service/exhaust/aisle space is additional.",
+        "game_tested": false
+      },
+      "exhaust_note": "Keep the immediately adjacent block on configured base.getFrontFacing() clear of collision hitboxes; no cover on that exhaust side. Steam venting can damage living entities in that adjacent cube, so keep it out of the operator aisle.",
+      "evidence_refs": [
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.enums.MetaTileEntityIDs.javap17.txt",
+          "line": 12948,
+          "end_line": 12954,
+          "claim": "Second enum constructor integer is the stored ID; first integer is enum ordinal, not machine ID"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.loaders.preload.LoaderMetaTileEntities.javap17.txt",
+          "line": 1886,
+          "end_line": 1904,
+          "claim": "Registration enum ID, class/builder, internal/display names and tier"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.CommonMetaTileEntity.javap17.txt",
+          "line": 960,
+          "end_line": 982,
+          "claim": "Default bounds from (x,y,z) to (x+1,y+1,z+1)"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.MetaTileEntity.javap17.txt",
+          "line": 241,
+          "end_line": 253,
+          "claim": "sBlockMachines ItemStack damage uses mID; these are not vanilla placed-block metadata values"
+        }
+      ],
+      "capacities_or_rates": {
+        "maxSteamStore_internal_units": 16000,
+        "fluid_tank_exposure": "getTankInfo multiplies the internal stored steam and capacity by2; do not label16000 internal units as16000L.",
+        "evidence_refs": [
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 140,
+            "end_line": 144,
+            "claim": "Literal16000 internal storage units"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 161,
+            "end_line": 193,
+            "claim": "Forge fluid stored/capacity exposure multiplied by2"
+          }
+        ]
+      },
+      "native_placement_status": "Item/meta-tile identity checked statically. Placed block metadata, tile NBT/facing and target-world import remain unvalidated.",
+      "facing_rules": {
+        "rule": "Keep the immediately adjacent block on configured base.getFrontFacing() clear of collision hitboxes; no cover on that exhaust side. Steam venting can damage living entities in that adjacent cube, so keep it out of the operator aisle.",
+        "main_face_rule": "Steam fluid input excludes mMainFacing. The GUI/main face and configured exhaust/output face are separate fields.",
+        "planned_south_main_north_exhaust_static_support": true,
+        "runtime_configuration_tested": false,
+        "evidence_refs": [
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 194,
+            "end_line": 320,
+            "claim": "Cover/hitbox vent blocking, adjacent block and entity heat-damage check"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 145,
+            "end_line": 155,
+            "claim": "Steam input excludes mMainFacing"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 385,
+            "end_line": 413,
+            "claim": "Stores mMainFacing and moves equal base front to its opposite"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 937,
+            "end_line": 955,
+            "claim": "When main face is known, configured base facing must differ from it"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 366,
+            "end_line": 384,
+            "claim": "Main face excludes UP and DOWN"
+          }
+        ]
+      },
+      "quest_item_crosscheck": true
+    },
+    {
+      "key": "steam_extractor_steel",
+      "title": "High Pressure Steam Extractor",
+      "enum_key": "HP_STEAM_EXTRACTOR",
+      "metaID": 110,
+      "registry_name": "gregtech:gt.blockmachines",
+      "item_damage": 110,
+      "placed_block_metadata": null,
+      "machine_tile_NBT": null,
+      "class": "gregtech.common.tileentities.machines.steam.MTESteamExtractorSteel",
+      "internal_name": "hpmachine.extractor",
+      "tier": "steel steam",
+      "singleblock_evidence": {
+        "occupied_block_dimensions_xyz": [
+          1,
+          1,
+          1
+        ],
+        "basis": "Class inherits the singleblock basic-machine/tank chain and CommonMetaTileEntity full-block collision bounds; no multiblock structure is claimed. Service/exhaust/aisle space is additional.",
+        "game_tested": false
+      },
+      "exhaust_note": "Keep the immediately adjacent block on configured base.getFrontFacing() clear of collision hitboxes; no cover on that exhaust side. Steam venting can damage living entities in that adjacent cube, so keep it out of the operator aisle.",
+      "evidence_refs": [
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.enums.MetaTileEntityIDs.javap17.txt",
+          "line": 12955,
+          "end_line": 12961,
+          "claim": "Second enum constructor integer is the stored ID; first integer is enum ordinal, not machine ID"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.loaders.preload.LoaderMetaTileEntities.javap17.txt",
+          "line": 3182,
+          "end_line": 3200,
+          "claim": "Registration enum ID, class/builder, internal/display names and tier"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.CommonMetaTileEntity.javap17.txt",
+          "line": 960,
+          "end_line": 982,
+          "claim": "Default bounds from (x,y,z) to (x+1,y+1,z+1)"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.MetaTileEntity.javap17.txt",
+          "line": 241,
+          "end_line": 253,
+          "claim": "sBlockMachines ItemStack damage uses mID; these are not vanilla placed-block metadata values"
+        }
+      ],
+      "capacities_or_rates": {
+        "maxSteamStore_internal_units": 16000,
+        "fluid_tank_exposure": "getTankInfo multiplies the internal stored steam and capacity by2; do not label16000 internal units as16000L.",
+        "evidence_refs": [
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 140,
+            "end_line": 144,
+            "claim": "Literal16000 internal storage units"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 161,
+            "end_line": 193,
+            "claim": "Forge fluid stored/capacity exposure multiplied by2"
+          }
+        ]
+      },
+      "native_placement_status": "Item/meta-tile identity checked statically. Placed block metadata, tile NBT/facing and target-world import remain unvalidated.",
+      "facing_rules": {
+        "rule": "Keep the immediately adjacent block on configured base.getFrontFacing() clear of collision hitboxes; no cover on that exhaust side. Steam venting can damage living entities in that adjacent cube, so keep it out of the operator aisle.",
+        "main_face_rule": "Steam fluid input excludes mMainFacing. The GUI/main face and configured exhaust/output face are separate fields.",
+        "planned_south_main_north_exhaust_static_support": true,
+        "runtime_configuration_tested": false,
+        "evidence_refs": [
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 194,
+            "end_line": 320,
+            "claim": "Cover/hitbox vent blocking, adjacent block and entity heat-damage check"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 145,
+            "end_line": 155,
+            "claim": "Steam input excludes mMainFacing"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 385,
+            "end_line": 413,
+            "claim": "Stores mMainFacing and moves equal base front to its opposite"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 937,
+            "end_line": 955,
+            "claim": "When main face is known, configured base facing must differ from it"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 366,
+            "end_line": 384,
+            "claim": "Main face excludes UP and DOWN"
+          }
+        ]
+      },
+      "quest_item_crosscheck": true
+    },
+    {
+      "key": "steam_forge_hammer_bronze",
+      "title": "Steam Forge Hammer",
+      "enum_key": "STEAM_FORGE_HAMMER",
+      "metaID": 112,
+      "registry_name": "gregtech:gt.blockmachines",
+      "item_damage": 112,
+      "placed_block_metadata": null,
+      "machine_tile_NBT": null,
+      "class": "gregtech.common.tileentities.machines.steam.MTESteamForgeHammerBronze",
+      "internal_name": "bronzemachine.hammer",
+      "tier": "bronze steam",
+      "singleblock_evidence": {
+        "occupied_block_dimensions_xyz": [
+          1,
+          1,
+          1
+        ],
+        "basis": "Class inherits the singleblock basic-machine/tank chain and CommonMetaTileEntity full-block collision bounds; no multiblock structure is claimed. Service/exhaust/aisle space is additional.",
+        "game_tested": false
+      },
+      "exhaust_note": "Keep the immediately adjacent block on configured base.getFrontFacing() clear of collision hitboxes; no cover on that exhaust side. Steam venting can damage living entities in that adjacent cube, so keep it out of the operator aisle.",
+      "evidence_refs": [
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.enums.MetaTileEntityIDs.javap17.txt",
+          "line": 12969,
+          "end_line": 12975,
+          "claim": "Second enum constructor integer is the stored ID; first integer is enum ordinal, not machine ID"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.loaders.preload.LoaderMetaTileEntities.javap17.txt",
+          "line": 1898,
+          "end_line": 1916,
+          "claim": "Registration enum ID, class/builder, internal/display names and tier"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.CommonMetaTileEntity.javap17.txt",
+          "line": 960,
+          "end_line": 982,
+          "claim": "Default bounds from (x,y,z) to (x+1,y+1,z+1)"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.MetaTileEntity.javap17.txt",
+          "line": 241,
+          "end_line": 253,
+          "claim": "sBlockMachines ItemStack damage uses mID; these are not vanilla placed-block metadata values"
+        }
+      ],
+      "capacities_or_rates": {
+        "maxSteamStore_internal_units": 16000,
+        "fluid_tank_exposure": "getTankInfo multiplies the internal stored steam and capacity by2; do not label16000 internal units as16000L.",
+        "evidence_refs": [
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 140,
+            "end_line": 144,
+            "claim": "Literal16000 internal storage units"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 161,
+            "end_line": 193,
+            "claim": "Forge fluid stored/capacity exposure multiplied by2"
+          }
+        ]
+      },
+      "native_placement_status": "Item/meta-tile identity checked statically. Placed block metadata, tile NBT/facing and target-world import remain unvalidated.",
+      "facing_rules": {
+        "rule": "Keep the immediately adjacent block on configured base.getFrontFacing() clear of collision hitboxes; no cover on that exhaust side. Steam venting can damage living entities in that adjacent cube, so keep it out of the operator aisle.",
+        "main_face_rule": "Steam fluid input excludes mMainFacing. The GUI/main face and configured exhaust/output face are separate fields.",
+        "planned_south_main_north_exhaust_static_support": true,
+        "runtime_configuration_tested": false,
+        "evidence_refs": [
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 194,
+            "end_line": 320,
+            "claim": "Cover/hitbox vent blocking, adjacent block and entity heat-damage check"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 145,
+            "end_line": 155,
+            "claim": "Steam input excludes mMainFacing"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 385,
+            "end_line": 413,
+            "claim": "Stores mMainFacing and moves equal base front to its opposite"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 937,
+            "end_line": 955,
+            "claim": "When main face is known, configured base facing must differ from it"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 366,
+            "end_line": 384,
+            "claim": "Main face excludes UP and DOWN"
+          }
+        ]
+      },
+      "quest_item_crosscheck": true
+    },
+    {
+      "key": "steam_forge_hammer_steel",
+      "title": "High Pressure Steam Forge Hammer",
+      "enum_key": "HP_STEAM_FORGE_HAMMER",
+      "metaID": 113,
+      "registry_name": "gregtech:gt.blockmachines",
+      "item_damage": 113,
+      "placed_block_metadata": null,
+      "machine_tile_NBT": null,
+      "class": "gregtech.common.tileentities.machines.steam.MTESteamForgeHammerSteel",
+      "internal_name": "hpmachine.hammer",
+      "tier": "steel steam",
+      "singleblock_evidence": {
+        "occupied_block_dimensions_xyz": [
+          1,
+          1,
+          1
+        ],
+        "basis": "Class inherits the singleblock basic-machine/tank chain and CommonMetaTileEntity full-block collision bounds; no multiblock structure is claimed. Service/exhaust/aisle space is additional.",
+        "game_tested": false
+      },
+      "exhaust_note": "Keep the immediately adjacent block on configured base.getFrontFacing() clear of collision hitboxes; no cover on that exhaust side. Steam venting can damage living entities in that adjacent cube, so keep it out of the operator aisle.",
+      "evidence_refs": [
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.enums.MetaTileEntityIDs.javap17.txt",
+          "line": 12976,
+          "end_line": 12982,
+          "claim": "Second enum constructor integer is the stored ID; first integer is enum ordinal, not machine ID"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.loaders.preload.LoaderMetaTileEntities.javap17.txt",
+          "line": 3218,
+          "end_line": 3236,
+          "claim": "Registration enum ID, class/builder, internal/display names and tier"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.CommonMetaTileEntity.javap17.txt",
+          "line": 960,
+          "end_line": 982,
+          "claim": "Default bounds from (x,y,z) to (x+1,y+1,z+1)"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.MetaTileEntity.javap17.txt",
+          "line": 241,
+          "end_line": 253,
+          "claim": "sBlockMachines ItemStack damage uses mID; these are not vanilla placed-block metadata values"
+        }
+      ],
+      "capacities_or_rates": {
+        "maxSteamStore_internal_units": 16000,
+        "fluid_tank_exposure": "getTankInfo multiplies the internal stored steam and capacity by2; do not label16000 internal units as16000L.",
+        "evidence_refs": [
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 140,
+            "end_line": 144,
+            "claim": "Literal16000 internal storage units"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 161,
+            "end_line": 193,
+            "claim": "Forge fluid stored/capacity exposure multiplied by2"
+          }
+        ]
+      },
+      "native_placement_status": "Item/meta-tile identity checked statically. Placed block metadata, tile NBT/facing and target-world import remain unvalidated.",
+      "facing_rules": {
+        "rule": "Keep the immediately adjacent block on configured base.getFrontFacing() clear of collision hitboxes; no cover on that exhaust side. Steam venting can damage living entities in that adjacent cube, so keep it out of the operator aisle.",
+        "main_face_rule": "Steam fluid input excludes mMainFacing. The GUI/main face and configured exhaust/output face are separate fields.",
+        "planned_south_main_north_exhaust_static_support": true,
+        "runtime_configuration_tested": false,
+        "evidence_refs": [
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 194,
+            "end_line": 320,
+            "claim": "Cover/hitbox vent blocking, adjacent block and entity heat-damage check"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 145,
+            "end_line": 155,
+            "claim": "Steam input excludes mMainFacing"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 385,
+            "end_line": 413,
+            "claim": "Stores mMainFacing and moves equal base front to its opposite"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 937,
+            "end_line": 955,
+            "claim": "When main face is known, configured base facing must differ from it"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 366,
+            "end_line": 384,
+            "claim": "Main face excludes UP and DOWN"
+          }
+        ]
+      },
+      "quest_item_crosscheck": true
+    },
+    {
+      "key": "steam_compressor_bronze",
+      "title": "Steam Compressor",
+      "enum_key": "STEAM_COMPRESSOR",
+      "metaID": 115,
+      "registry_name": "gregtech:gt.blockmachines",
+      "item_damage": 115,
+      "placed_block_metadata": null,
+      "machine_tile_NBT": null,
+      "class": "gregtech.common.tileentities.machines.steam.MTESteamCompressorBronze",
+      "internal_name": "bronzemachine.compressor",
+      "tier": "bronze steam",
+      "singleblock_evidence": {
+        "occupied_block_dimensions_xyz": [
+          1,
+          1,
+          1
+        ],
+        "basis": "Class inherits the singleblock basic-machine/tank chain and CommonMetaTileEntity full-block collision bounds; no multiblock structure is claimed. Service/exhaust/aisle space is additional.",
+        "game_tested": false
+      },
+      "exhaust_note": "Keep the immediately adjacent block on configured base.getFrontFacing() clear of collision hitboxes; no cover on that exhaust side. Steam venting can damage living entities in that adjacent cube, so keep it out of the operator aisle.",
+      "evidence_refs": [
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.enums.MetaTileEntityIDs.javap17.txt",
+          "line": 12990,
+          "end_line": 12996,
+          "claim": "Second enum constructor integer is the stored ID; first integer is enum ordinal, not machine ID"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.loaders.preload.LoaderMetaTileEntities.javap17.txt",
+          "line": 1910,
+          "end_line": 1928,
+          "claim": "Registration enum ID, class/builder, internal/display names and tier"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.CommonMetaTileEntity.javap17.txt",
+          "line": 960,
+          "end_line": 982,
+          "claim": "Default bounds from (x,y,z) to (x+1,y+1,z+1)"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.MetaTileEntity.javap17.txt",
+          "line": 241,
+          "end_line": 253,
+          "claim": "sBlockMachines ItemStack damage uses mID; these are not vanilla placed-block metadata values"
+        }
+      ],
+      "capacities_or_rates": {
+        "maxSteamStore_internal_units": 16000,
+        "fluid_tank_exposure": "getTankInfo multiplies the internal stored steam and capacity by2; do not label16000 internal units as16000L.",
+        "evidence_refs": [
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 140,
+            "end_line": 144,
+            "claim": "Literal16000 internal storage units"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 161,
+            "end_line": 193,
+            "claim": "Forge fluid stored/capacity exposure multiplied by2"
+          }
+        ]
+      },
+      "native_placement_status": "Item/meta-tile identity checked statically. Placed block metadata, tile NBT/facing and target-world import remain unvalidated.",
+      "facing_rules": {
+        "rule": "Keep the immediately adjacent block on configured base.getFrontFacing() clear of collision hitboxes; no cover on that exhaust side. Steam venting can damage living entities in that adjacent cube, so keep it out of the operator aisle.",
+        "main_face_rule": "Steam fluid input excludes mMainFacing. The GUI/main face and configured exhaust/output face are separate fields.",
+        "planned_south_main_north_exhaust_static_support": true,
+        "runtime_configuration_tested": false,
+        "evidence_refs": [
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 194,
+            "end_line": 320,
+            "claim": "Cover/hitbox vent blocking, adjacent block and entity heat-damage check"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 145,
+            "end_line": 155,
+            "claim": "Steam input excludes mMainFacing"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 385,
+            "end_line": 413,
+            "claim": "Stores mMainFacing and moves equal base front to its opposite"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 937,
+            "end_line": 955,
+            "claim": "When main face is known, configured base facing must differ from it"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 366,
+            "end_line": 384,
+            "claim": "Main face excludes UP and DOWN"
+          }
+        ]
+      },
+      "quest_item_crosscheck": true
+    },
+    {
+      "key": "steam_compressor_steel",
+      "title": "High Pressure Steam Compressor",
+      "enum_key": "HP_STEAM_COMPRESSOR",
+      "metaID": 116,
+      "registry_name": "gregtech:gt.blockmachines",
+      "item_damage": 116,
+      "placed_block_metadata": null,
+      "machine_tile_NBT": null,
+      "class": "gregtech.common.tileentities.machines.steam.MTESteamCompressorSteel",
+      "internal_name": "hpmachine.compressor",
+      "tier": "steel steam",
+      "singleblock_evidence": {
+        "occupied_block_dimensions_xyz": [
+          1,
+          1,
+          1
+        ],
+        "basis": "Class inherits the singleblock basic-machine/tank chain and CommonMetaTileEntity full-block collision bounds; no multiblock structure is claimed. Service/exhaust/aisle space is additional.",
+        "game_tested": false
+      },
+      "exhaust_note": "Keep the immediately adjacent block on configured base.getFrontFacing() clear of collision hitboxes; no cover on that exhaust side. Steam venting can damage living entities in that adjacent cube, so keep it out of the operator aisle.",
+      "evidence_refs": [
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.enums.MetaTileEntityIDs.javap17.txt",
+          "line": 12997,
+          "end_line": 13003,
+          "claim": "Second enum constructor integer is the stored ID; first integer is enum ordinal, not machine ID"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.loaders.preload.LoaderMetaTileEntities.javap17.txt",
+          "line": 3230,
+          "end_line": 3248,
+          "claim": "Registration enum ID, class/builder, internal/display names and tier"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.CommonMetaTileEntity.javap17.txt",
+          "line": 960,
+          "end_line": 982,
+          "claim": "Default bounds from (x,y,z) to (x+1,y+1,z+1)"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.MetaTileEntity.javap17.txt",
+          "line": 241,
+          "end_line": 253,
+          "claim": "sBlockMachines ItemStack damage uses mID; these are not vanilla placed-block metadata values"
+        }
+      ],
+      "capacities_or_rates": {
+        "maxSteamStore_internal_units": 16000,
+        "fluid_tank_exposure": "getTankInfo multiplies the internal stored steam and capacity by2; do not label16000 internal units as16000L.",
+        "evidence_refs": [
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 140,
+            "end_line": 144,
+            "claim": "Literal16000 internal storage units"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 161,
+            "end_line": 193,
+            "claim": "Forge fluid stored/capacity exposure multiplied by2"
+          }
+        ]
+      },
+      "native_placement_status": "Item/meta-tile identity checked statically. Placed block metadata, tile NBT/facing and target-world import remain unvalidated.",
+      "facing_rules": {
+        "rule": "Keep the immediately adjacent block on configured base.getFrontFacing() clear of collision hitboxes; no cover on that exhaust side. Steam venting can damage living entities in that adjacent cube, so keep it out of the operator aisle.",
+        "main_face_rule": "Steam fluid input excludes mMainFacing. The GUI/main face and configured exhaust/output face are separate fields.",
+        "planned_south_main_north_exhaust_static_support": true,
+        "runtime_configuration_tested": false,
+        "evidence_refs": [
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 194,
+            "end_line": 320,
+            "claim": "Cover/hitbox vent blocking, adjacent block and entity heat-damage check"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 145,
+            "end_line": 155,
+            "claim": "Steam input excludes mMainFacing"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 385,
+            "end_line": 413,
+            "claim": "Stores mMainFacing and moves equal base front to its opposite"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 937,
+            "end_line": 955,
+            "claim": "When main face is known, configured base facing must differ from it"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 366,
+            "end_line": 384,
+            "claim": "Main face excludes UP and DOWN"
+          }
+        ]
+      },
+      "quest_item_crosscheck": true
+    },
+    {
+      "key": "steam_alloy_smelter_bronze",
+      "title": "Steam Alloy Smelter",
+      "enum_key": "STEAM_ALLOY_SMELTER",
+      "metaID": 118,
+      "registry_name": "gregtech:gt.blockmachines",
+      "item_damage": 118,
+      "placed_block_metadata": null,
+      "machine_tile_NBT": null,
+      "class": "gregtech.common.tileentities.machines.steam.MTESteamAlloySmelterBronze",
+      "internal_name": "bronzemachine.alloysmelter",
+      "tier": "bronze steam",
+      "singleblock_evidence": {
+        "occupied_block_dimensions_xyz": [
+          1,
+          1,
+          1
+        ],
+        "basis": "Class inherits the singleblock basic-machine/tank chain and CommonMetaTileEntity full-block collision bounds; no multiblock structure is claimed. Service/exhaust/aisle space is additional.",
+        "game_tested": false
+      },
+      "exhaust_note": "Keep the immediately adjacent block on configured base.getFrontFacing() clear of collision hitboxes; no cover on that exhaust side. Steam venting can damage living entities in that adjacent cube, so keep it out of the operator aisle.",
+      "evidence_refs": [
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.enums.MetaTileEntityIDs.javap17.txt",
+          "line": 13004,
+          "end_line": 13010,
+          "claim": "Second enum constructor integer is the stored ID; first integer is enum ordinal, not machine ID"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.loaders.preload.LoaderMetaTileEntities.javap17.txt",
+          "line": 1922,
+          "end_line": 1940,
+          "claim": "Registration enum ID, class/builder, internal/display names and tier"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.CommonMetaTileEntity.javap17.txt",
+          "line": 960,
+          "end_line": 982,
+          "claim": "Default bounds from (x,y,z) to (x+1,y+1,z+1)"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.MetaTileEntity.javap17.txt",
+          "line": 241,
+          "end_line": 253,
+          "claim": "sBlockMachines ItemStack damage uses mID; these are not vanilla placed-block metadata values"
+        }
+      ],
+      "capacities_or_rates": {
+        "maxSteamStore_internal_units": 16000,
+        "fluid_tank_exposure": "getTankInfo multiplies the internal stored steam and capacity by2; do not label16000 internal units as16000L.",
+        "evidence_refs": [
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 140,
+            "end_line": 144,
+            "claim": "Literal16000 internal storage units"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 161,
+            "end_line": 193,
+            "claim": "Forge fluid stored/capacity exposure multiplied by2"
+          }
+        ]
+      },
+      "native_placement_status": "Item/meta-tile identity checked statically. Placed block metadata, tile NBT/facing and target-world import remain unvalidated.",
+      "facing_rules": {
+        "rule": "Keep the immediately adjacent block on configured base.getFrontFacing() clear of collision hitboxes; no cover on that exhaust side. Steam venting can damage living entities in that adjacent cube, so keep it out of the operator aisle.",
+        "main_face_rule": "Steam fluid input excludes mMainFacing. The GUI/main face and configured exhaust/output face are separate fields.",
+        "planned_south_main_north_exhaust_static_support": true,
+        "runtime_configuration_tested": false,
+        "evidence_refs": [
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 194,
+            "end_line": 320,
+            "claim": "Cover/hitbox vent blocking, adjacent block and entity heat-damage check"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 145,
+            "end_line": 155,
+            "claim": "Steam input excludes mMainFacing"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 385,
+            "end_line": 413,
+            "claim": "Stores mMainFacing and moves equal base front to its opposite"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 937,
+            "end_line": 955,
+            "claim": "When main face is known, configured base facing must differ from it"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 366,
+            "end_line": 384,
+            "claim": "Main face excludes UP and DOWN"
+          }
+        ]
+      },
+      "quest_item_crosscheck": true
+    },
+    {
+      "key": "steam_alloy_smelter_steel",
+      "title": "High Pressure Steam Alloy Smelter",
+      "enum_key": "HP_STEAM_ALLOY_SMELTER",
+      "metaID": 119,
+      "registry_name": "gregtech:gt.blockmachines",
+      "item_damage": 119,
+      "placed_block_metadata": null,
+      "machine_tile_NBT": null,
+      "class": "gregtech.common.tileentities.machines.steam.MTESteamAlloySmelterSteel",
+      "internal_name": "hpmachine.alloysmelter",
+      "tier": "steel steam",
+      "singleblock_evidence": {
+        "occupied_block_dimensions_xyz": [
+          1,
+          1,
+          1
+        ],
+        "basis": "Class inherits the singleblock basic-machine/tank chain and CommonMetaTileEntity full-block collision bounds; no multiblock structure is claimed. Service/exhaust/aisle space is additional.",
+        "game_tested": false
+      },
+      "exhaust_note": "Keep the immediately adjacent block on configured base.getFrontFacing() clear of collision hitboxes; no cover on that exhaust side. Steam venting can damage living entities in that adjacent cube, so keep it out of the operator aisle.",
+      "evidence_refs": [
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.enums.MetaTileEntityIDs.javap17.txt",
+          "line": 13011,
+          "end_line": 13017,
+          "claim": "Second enum constructor integer is the stored ID; first integer is enum ordinal, not machine ID"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.loaders.preload.LoaderMetaTileEntities.javap17.txt",
+          "line": 3242,
+          "end_line": 3260,
+          "claim": "Registration enum ID, class/builder, internal/display names and tier"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.CommonMetaTileEntity.javap17.txt",
+          "line": 960,
+          "end_line": 982,
+          "claim": "Default bounds from (x,y,z) to (x+1,y+1,z+1)"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.MetaTileEntity.javap17.txt",
+          "line": 241,
+          "end_line": 253,
+          "claim": "sBlockMachines ItemStack damage uses mID; these are not vanilla placed-block metadata values"
+        }
+      ],
+      "capacities_or_rates": {
+        "maxSteamStore_internal_units": 16000,
+        "fluid_tank_exposure": "getTankInfo multiplies the internal stored steam and capacity by2; do not label16000 internal units as16000L.",
+        "evidence_refs": [
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 140,
+            "end_line": 144,
+            "claim": "Literal16000 internal storage units"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 161,
+            "end_line": 193,
+            "claim": "Forge fluid stored/capacity exposure multiplied by2"
+          }
+        ]
+      },
+      "native_placement_status": "Item/meta-tile identity checked statically. Placed block metadata, tile NBT/facing and target-world import remain unvalidated.",
+      "facing_rules": {
+        "rule": "Keep the immediately adjacent block on configured base.getFrontFacing() clear of collision hitboxes; no cover on that exhaust side. Steam venting can damage living entities in that adjacent cube, so keep it out of the operator aisle.",
+        "main_face_rule": "Steam fluid input excludes mMainFacing. The GUI/main face and configured exhaust/output face are separate fields.",
+        "planned_south_main_north_exhaust_static_support": true,
+        "runtime_configuration_tested": false,
+        "evidence_refs": [
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 194,
+            "end_line": 320,
+            "claim": "Cover/hitbox vent blocking, adjacent block and entity heat-damage check"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+            "line": 145,
+            "end_line": 155,
+            "claim": "Steam input excludes mMainFacing"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 385,
+            "end_line": 413,
+            "claim": "Stores mMainFacing and moves equal base front to its opposite"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 937,
+            "end_line": 955,
+            "claim": "When main face is known, configured base facing must differ from it"
+          },
+          {
+            "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+            "line": 366,
+            "end_line": 384,
+            "claim": "Main face excludes UP and DOWN"
+          }
+        ]
+      },
+      "quest_item_crosscheck": true
+    },
+    {
+      "key": "lv_steam_turbine",
+      "title": "Basic Steam Turbine",
+      "enum_key": "STEAM_TURBINE_LV",
+      "metaID": 1120,
+      "registry_name": "gregtech:gt.blockmachines",
+      "item_damage": 1120,
+      "placed_block_metadata": null,
+      "machine_tile_NBT": null,
+      "class": "gregtech.common.tileentities.generators.MTESteamTurbine",
+      "internal_name": "basicgenerator.steamturbine.tier.01",
+      "tier": "LV",
+      "singleblock_evidence": {
+        "occupied_block_dimensions_xyz": [
+          1,
+          1,
+          1
+        ],
+        "basis": "Class inherits the singleblock basic-machine/tank chain and CommonMetaTileEntity full-block collision bounds; no multiblock structure is claimed. Service/exhaust/aisle space is additional.",
+        "game_tested": false
+      },
+      "exhaust_note": "No steam-machine exhaust rule assigned from the bronze-processing class; obey separately evidenced machine-specific facing and plumbing.",
+      "evidence_refs": [
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.enums.MetaTileEntityIDs.javap17.txt",
+          "line": 16644,
+          "end_line": 16650,
+          "claim": "Second enum constructor integer is the stored ID; first integer is enum ordinal, not machine ID"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.loaders.preload.LoaderMetaTileEntities.javap17.txt",
+          "line": 23086,
+          "end_line": 23104,
+          "claim": "Registration enum ID, class/builder, internal/display names and tier"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.CommonMetaTileEntity.javap17.txt",
+          "line": 960,
+          "end_line": 982,
+          "claim": "Default bounds from (x,y,z) to (x+1,y+1,z+1)"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.MetaTileEntity.javap17.txt",
+          "line": 241,
+          "end_line": 253,
+          "claim": "sBlockMachines ItemStack damage uses mID; these are not vanilla placed-block metadata values"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.common.tileentities.generators.MTESteamTurbine.javap17.txt",
+          "line": 27,
+          "end_line": 38,
+          "claim": "Output direction equals base tile front facing"
+        }
+      ],
+      "capacities_or_rates": {
+        "steam_tank_fluid_units": 24000,
+        "basis": "getCapacity returns24000*mTier; loader sets tier1",
+        "evidence_refs": [
+          {
+            "file": "verification/machine-evidence-v1/gregtech.common.tileentities.generators.MTESteamTurbine.javap17.txt",
+            "line": 103,
+            "end_line": 110,
+            "claim": "Tank getter24000*tier; loader sets1"
+          }
+        ]
+      },
+      "native_placement_status": "Item/meta-tile identity checked statically. Placed block metadata, tile NBT/facing and target-world import remain unvalidated.",
+      "output_facing": "EU output faces configured base.getFrontFacing(); superclass energy output and target wiring require separate checks.",
+      "quest_item_crosscheck": true
+    },
+    {
+      "key": "lv_electric_furnace",
+      "title": "Basic Electric Furnace",
+      "enum_key": "ELECTRIC_FURNACE_LV",
+      "metaID": 261,
+      "registry_name": "gregtech:gt.blockmachines",
+      "item_damage": 261,
+      "placed_block_metadata": null,
+      "machine_tile_NBT": null,
+      "class": "gregtech.api.metatileentity.implementations.MTEBasicMachineWithRecipe",
+      "internal_name": "basicmachine.e_furnace.tier.01",
+      "tier": "LV",
+      "singleblock_evidence": {
+        "occupied_block_dimensions_xyz": [
+          1,
+          1,
+          1
+        ],
+        "basis": "Class inherits the singleblock basic-machine/tank chain and CommonMetaTileEntity full-block collision bounds; no multiblock structure is claimed. Service/exhaust/aisle space is additional.",
+        "game_tested": false
+      },
+      "exhaust_note": "No steam-machine exhaust rule assigned from the bronze-processing class; obey separately evidenced machine-specific facing and plumbing.",
+      "evidence_refs": [
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.enums.MetaTileEntityIDs.javap17.txt",
+          "line": 13886,
+          "end_line": 13892,
+          "claim": "Second enum constructor integer is the stored ID; first integer is enum ordinal, not machine ID"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.loaders.preload.LoaderMetaTileEntities.javap17.txt",
+          "line": 10448,
+          "end_line": 10466,
+          "claim": "Registration enum ID, class/builder, internal/display names and tier"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.CommonMetaTileEntity.javap17.txt",
+          "line": 960,
+          "end_line": 982,
+          "claim": "Default bounds from (x,y,z) to (x+1,y+1,z+1)"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.MetaTileEntity.javap17.txt",
+          "line": 241,
+          "end_line": 253,
+          "claim": "sBlockMachines ItemStack damage uses mID; these are not vanilla placed-block metadata values"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.common.tileentities.machines.basic.MTEBasicMachineWithRecipeBuilder$Builder.javap17.txt",
+          "line": 230,
+          "end_line": 401,
+          "claim": "Builder creates a MTEBasicMachineWithRecipe singleblock object"
+        }
+      ],
+      "capacities_or_rates": {},
+      "native_placement_status": "Item/meta-tile identity checked statically. Placed block metadata, tile NBT/facing and target-world import remain unvalidated.",
+      "quest_item_crosscheck": true
+    },
+    {
+      "key": "lv_macerator",
+      "title": "Basic Macerator",
+      "enum_key": "MACERATOR_LV",
+      "metaID": 301,
+      "registry_name": "gregtech:gt.blockmachines",
+      "item_damage": 301,
+      "placed_block_metadata": null,
+      "machine_tile_NBT": null,
+      "class": "gregtech.api.metatileentity.implementations.MTEBasicMachineWithRecipe",
+      "internal_name": "basicmachine.macerator.tier.01",
+      "tier": "LV",
+      "singleblock_evidence": {
+        "occupied_block_dimensions_xyz": [
+          1,
+          1,
+          1
+        ],
+        "basis": "Class inherits the singleblock basic-machine/tank chain and CommonMetaTileEntity full-block collision bounds; no multiblock structure is claimed. Service/exhaust/aisle space is additional.",
+        "game_tested": false
+      },
+      "exhaust_note": "No steam-machine exhaust rule assigned from the bronze-processing class; obey separately evidenced machine-specific facing and plumbing.",
+      "evidence_refs": [
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.enums.MetaTileEntityIDs.javap17.txt",
+          "line": 14061,
+          "end_line": 14067,
+          "claim": "Second enum constructor integer is the stored ID; first integer is enum ordinal, not machine ID"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.loaders.preload.LoaderMetaTileEntities.javap17.txt",
+          "line": 13808,
+          "end_line": 13826,
+          "claim": "Registration enum ID, class/builder, internal/display names and tier"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.CommonMetaTileEntity.javap17.txt",
+          "line": 960,
+          "end_line": 982,
+          "claim": "Default bounds from (x,y,z) to (x+1,y+1,z+1)"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.MetaTileEntity.javap17.txt",
+          "line": 241,
+          "end_line": 253,
+          "claim": "sBlockMachines ItemStack damage uses mID; these are not vanilla placed-block metadata values"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.common.tileentities.machines.basic.MTEBasicMachineWithRecipeBuilder$Builder.javap17.txt",
+          "line": 230,
+          "end_line": 401,
+          "claim": "Builder creates a MTEBasicMachineWithRecipe singleblock object"
+        }
+      ],
+      "capacities_or_rates": {},
+      "native_placement_status": "Item/meta-tile identity checked statically. Placed block metadata, tile NBT/facing and target-world import remain unvalidated.",
+      "quest_item_crosscheck": true
+    },
+    {
+      "key": "lv_compressor",
+      "title": "Basic Compressor",
+      "enum_key": "COMPRESSOR_LV",
+      "metaID": 241,
+      "registry_name": "gregtech:gt.blockmachines",
+      "item_damage": 241,
+      "placed_block_metadata": null,
+      "machine_tile_NBT": null,
+      "class": "gregtech.api.metatileentity.implementations.MTEBasicMachineWithRecipe",
+      "internal_name": "basicmachine.compressor.tier.01",
+      "tier": "LV",
+      "singleblock_evidence": {
+        "occupied_block_dimensions_xyz": [
+          1,
+          1,
+          1
+        ],
+        "basis": "Class inherits the singleblock basic-machine/tank chain and CommonMetaTileEntity full-block collision bounds; no multiblock structure is claimed. Service/exhaust/aisle space is additional.",
+        "game_tested": false
+      },
+      "exhaust_note": "No steam-machine exhaust rule assigned from the bronze-processing class; obey separately evidenced machine-specific facing and plumbing.",
+      "evidence_refs": [
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.enums.MetaTileEntityIDs.javap17.txt",
+          "line": 13816,
+          "end_line": 13822,
+          "claim": "Second enum constructor integer is the stored ID; first integer is enum ordinal, not machine ID"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.loaders.preload.LoaderMetaTileEntities.javap17.txt",
+          "line": 9392,
+          "end_line": 9410,
+          "claim": "Registration enum ID, class/builder, internal/display names and tier"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.CommonMetaTileEntity.javap17.txt",
+          "line": 960,
+          "end_line": 982,
+          "claim": "Default bounds from (x,y,z) to (x+1,y+1,z+1)"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.MetaTileEntity.javap17.txt",
+          "line": 241,
+          "end_line": 253,
+          "claim": "sBlockMachines ItemStack damage uses mID; these are not vanilla placed-block metadata values"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.common.tileentities.machines.basic.MTEBasicMachineWithRecipeBuilder$Builder.javap17.txt",
+          "line": 230,
+          "end_line": 401,
+          "claim": "Builder creates a MTEBasicMachineWithRecipe singleblock object"
+        }
+      ],
+      "capacities_or_rates": {},
+      "native_placement_status": "Item/meta-tile identity checked statically. Placed block metadata, tile NBT/facing and target-world import remain unvalidated.",
+      "quest_item_crosscheck": true
+    },
+    {
+      "key": "lv_extractor",
+      "title": "Basic Extractor",
+      "enum_key": "EXTRACTOR_LV",
+      "metaID": 271,
+      "registry_name": "gregtech:gt.blockmachines",
+      "item_damage": 271,
+      "placed_block_metadata": null,
+      "machine_tile_NBT": null,
+      "class": "gregtech.api.metatileentity.implementations.MTEBasicMachineWithRecipe",
+      "internal_name": "basicmachine.extractor.tier.01",
+      "tier": "LV",
+      "singleblock_evidence": {
+        "occupied_block_dimensions_xyz": [
+          1,
+          1,
+          1
+        ],
+        "basis": "Class inherits the singleblock basic-machine/tank chain and CommonMetaTileEntity full-block collision bounds; no multiblock structure is claimed. Service/exhaust/aisle space is additional.",
+        "game_tested": false
+      },
+      "exhaust_note": "No steam-machine exhaust rule assigned from the bronze-processing class; obey separately evidenced machine-specific facing and plumbing.",
+      "evidence_refs": [
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.enums.MetaTileEntityIDs.javap17.txt",
+          "line": 13949,
+          "end_line": 13955,
+          "claim": "Second enum constructor integer is the stored ID; first integer is enum ordinal, not machine ID"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.loaders.preload.LoaderMetaTileEntities.javap17.txt",
+          "line": 11442,
+          "end_line": 11460,
+          "claim": "Registration enum ID, class/builder, internal/display names and tier"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.CommonMetaTileEntity.javap17.txt",
+          "line": 960,
+          "end_line": 982,
+          "claim": "Default bounds from (x,y,z) to (x+1,y+1,z+1)"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.MetaTileEntity.javap17.txt",
+          "line": 241,
+          "end_line": 253,
+          "claim": "sBlockMachines ItemStack damage uses mID; these are not vanilla placed-block metadata values"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.common.tileentities.machines.basic.MTEBasicMachineWithRecipeBuilder$Builder.javap17.txt",
+          "line": 230,
+          "end_line": 401,
+          "claim": "Builder creates a MTEBasicMachineWithRecipe singleblock object"
+        }
+      ],
+      "capacities_or_rates": {},
+      "native_placement_status": "Item/meta-tile identity checked statically. Placed block metadata, tile NBT/facing and target-world import remain unvalidated.",
+      "quest_item_crosscheck": true
+    },
+    {
+      "key": "lv_forge_hammer",
+      "title": "Basic Forge Hammer",
+      "enum_key": "FORGE_HAMMER_LV",
+      "metaID": 611,
+      "registry_name": "gregtech:gt.blockmachines",
+      "item_damage": 611,
+      "placed_block_metadata": null,
+      "machine_tile_NBT": null,
+      "class": "gregtech.api.metatileentity.implementations.MTEBasicMachineWithRecipe",
+      "internal_name": "basicmachine.hammer.tier.01",
+      "tier": "LV",
+      "singleblock_evidence": {
+        "occupied_block_dimensions_xyz": [
+          1,
+          1,
+          1
+        ],
+        "basis": "Class inherits the singleblock basic-machine/tank chain and CommonMetaTileEntity full-block collision bounds; no multiblock structure is claimed. Service/exhaust/aisle space is additional.",
+        "game_tested": false
+      },
+      "exhaust_note": "No steam-machine exhaust rule assigned from the bronze-processing class; obey separately evidenced machine-specific facing and plumbing.",
+      "evidence_refs": [
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.enums.MetaTileEntityIDs.javap17.txt",
+          "line": 15237,
+          "end_line": 15243,
+          "claim": "Second enum constructor integer is the stored ID; first integer is enum ordinal, not machine ID"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.loaders.preload.LoaderMetaTileEntities.javap17.txt",
+          "line": 12778,
+          "end_line": 12796,
+          "claim": "Registration enum ID, class/builder, internal/display names and tier"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.CommonMetaTileEntity.javap17.txt",
+          "line": 960,
+          "end_line": 982,
+          "claim": "Default bounds from (x,y,z) to (x+1,y+1,z+1)"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.MetaTileEntity.javap17.txt",
+          "line": 241,
+          "end_line": 253,
+          "claim": "sBlockMachines ItemStack damage uses mID; these are not vanilla placed-block metadata values"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.common.tileentities.machines.basic.MTEBasicMachineWithRecipeBuilder$Builder.javap17.txt",
+          "line": 230,
+          "end_line": 401,
+          "claim": "Builder creates a MTEBasicMachineWithRecipe singleblock object"
+        }
+      ],
+      "capacities_or_rates": {},
+      "native_placement_status": "Item/meta-tile identity checked statically. Placed block metadata, tile NBT/facing and target-world import remain unvalidated.",
+      "quest_item_crosscheck": true
+    },
+    {
+      "key": "lv_alloy_smelter",
+      "title": "Basic Alloy Smelter",
+      "enum_key": "ALLOY_SMELTER_LV",
+      "metaID": 201,
+      "registry_name": "gregtech:gt.blockmachines",
+      "item_damage": 201,
+      "placed_block_metadata": null,
+      "machine_tile_NBT": null,
+      "class": "gregtech.api.metatileentity.implementations.MTEBasicMachineWithRecipe",
+      "internal_name": "basicmachine.alloysmelter.tier.01",
+      "tier": "LV",
+      "singleblock_evidence": {
+        "occupied_block_dimensions_xyz": [
+          1,
+          1,
+          1
+        ],
+        "basis": "Class inherits the singleblock basic-machine/tank chain and CommonMetaTileEntity full-block collision bounds; no multiblock structure is claimed. Service/exhaust/aisle space is additional.",
+        "game_tested": false
+      },
+      "exhaust_note": "No steam-machine exhaust rule assigned from the bronze-processing class; obey separately evidenced machine-specific facing and plumbing.",
+      "evidence_refs": [
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.enums.MetaTileEntityIDs.javap17.txt",
+          "line": 13585,
+          "end_line": 13591,
+          "claim": "Second enum constructor integer is the stored ID; first integer is enum ordinal, not machine ID"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.loaders.preload.LoaderMetaTileEntities.javap17.txt",
+          "line": 2864,
+          "end_line": 2882,
+          "claim": "Registration enum ID, class/builder, internal/display names and tier"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.CommonMetaTileEntity.javap17.txt",
+          "line": 960,
+          "end_line": 982,
+          "claim": "Default bounds from (x,y,z) to (x+1,y+1,z+1)"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.MetaTileEntity.javap17.txt",
+          "line": 241,
+          "end_line": 253,
+          "claim": "sBlockMachines ItemStack damage uses mID; these are not vanilla placed-block metadata values"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.common.tileentities.machines.basic.MTEBasicMachineWithRecipeBuilder$Builder.javap17.txt",
+          "line": 230,
+          "end_line": 401,
+          "claim": "Builder creates a MTEBasicMachineWithRecipe singleblock object"
+        }
+      ],
+      "capacities_or_rates": {},
+      "native_placement_status": "Item/meta-tile identity checked statically. Placed block metadata, tile NBT/facing and target-world import remain unvalidated.",
+      "quest_item_crosscheck": true
+    },
+    {
+      "key": "lv_wiremill",
+      "title": "Basic Wiremill",
+      "enum_key": "WIREMILL_LV",
+      "metaID": 351,
+      "registry_name": "gregtech:gt.blockmachines",
+      "item_damage": 351,
+      "placed_block_metadata": null,
+      "machine_tile_NBT": null,
+      "class": "gregtech.api.metatileentity.implementations.MTEBasicMachineWithRecipe",
+      "internal_name": "basicmachine.wiremill.tier.01",
+      "tier": "LV",
+      "singleblock_evidence": {
+        "occupied_block_dimensions_xyz": [
+          1,
+          1,
+          1
+        ],
+        "basis": "Class inherits the singleblock basic-machine/tank chain and CommonMetaTileEntity full-block collision bounds; no multiblock structure is claimed. Service/exhaust/aisle space is additional.",
+        "game_tested": false
+      },
+      "exhaust_note": "No steam-machine exhaust rule assigned from the bronze-processing class; obey separately evidenced machine-specific facing and plumbing.",
+      "evidence_refs": [
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.enums.MetaTileEntityIDs.javap17.txt",
+          "line": 14264,
+          "end_line": 14270,
+          "claim": "Second enum constructor integer is the stored ID; first integer is enum ordinal, not machine ID"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.loaders.preload.LoaderMetaTileEntities.javap17.txt",
+          "line": 16619,
+          "end_line": 16637,
+          "claim": "Registration enum ID, class/builder, internal/display names and tier"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.CommonMetaTileEntity.javap17.txt",
+          "line": 960,
+          "end_line": 982,
+          "claim": "Default bounds from (x,y,z) to (x+1,y+1,z+1)"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.MetaTileEntity.javap17.txt",
+          "line": 241,
+          "end_line": 253,
+          "claim": "sBlockMachines ItemStack damage uses mID; these are not vanilla placed-block metadata values"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.common.tileentities.machines.basic.MTEBasicMachineWithRecipeBuilder$Builder.javap17.txt",
+          "line": 230,
+          "end_line": 401,
+          "claim": "Builder creates a MTEBasicMachineWithRecipe singleblock object"
+        }
+      ],
+      "capacities_or_rates": {},
+      "native_placement_status": "Item/meta-tile identity checked statically. Placed block metadata, tile NBT/facing and target-world import remain unvalidated.",
+      "quest_item_crosscheck": true
+    },
+    {
+      "key": "lv_bending_machine",
+      "title": "Basic Bending Machine",
+      "enum_key": "BENDING_MACHINE_LV",
+      "metaID": 221,
+      "registry_name": "gregtech:gt.blockmachines",
+      "item_damage": 221,
+      "placed_block_metadata": null,
+      "machine_tile_NBT": null,
+      "class": "gregtech.api.metatileentity.implementations.MTEBasicMachineWithRecipe",
+      "internal_name": "basicmachine.bender.tier.01",
+      "tier": "LV",
+      "singleblock_evidence": {
+        "occupied_block_dimensions_xyz": [
+          1,
+          1,
+          1
+        ],
+        "basis": "Class inherits the singleblock basic-machine/tank chain and CommonMetaTileEntity full-block collision bounds; no multiblock structure is claimed. Service/exhaust/aisle space is additional.",
+        "game_tested": false
+      },
+      "exhaust_note": "No steam-machine exhaust rule assigned from the bronze-processing class; obey separately evidenced machine-specific facing and plumbing.",
+      "evidence_refs": [
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.enums.MetaTileEntityIDs.javap17.txt",
+          "line": 13711,
+          "end_line": 13717,
+          "claim": "Second enum constructor integer is the stored ID; first integer is enum ordinal, not machine ID"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.loaders.preload.LoaderMetaTileEntities.javap17.txt",
+          "line": 9076,
+          "end_line": 9094,
+          "claim": "Registration enum ID, class/builder, internal/display names and tier"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.CommonMetaTileEntity.javap17.txt",
+          "line": 960,
+          "end_line": 982,
+          "claim": "Default bounds from (x,y,z) to (x+1,y+1,z+1)"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.MetaTileEntity.javap17.txt",
+          "line": 241,
+          "end_line": 253,
+          "claim": "sBlockMachines ItemStack damage uses mID; these are not vanilla placed-block metadata values"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.common.tileentities.machines.basic.MTEBasicMachineWithRecipeBuilder$Builder.javap17.txt",
+          "line": 230,
+          "end_line": 401,
+          "claim": "Builder creates a MTEBasicMachineWithRecipe singleblock object"
+        }
+      ],
+      "capacities_or_rates": {},
+      "native_placement_status": "Item/meta-tile identity checked statically. Placed block metadata, tile NBT/facing and target-world import remain unvalidated.",
+      "quest_item_crosscheck": true
+    },
+    {
+      "key": "lv_lathe",
+      "title": "Basic Lathe",
+      "enum_key": "LATHE_LV",
+      "metaID": 291,
+      "registry_name": "gregtech:gt.blockmachines",
+      "item_damage": 291,
+      "placed_block_metadata": null,
+      "machine_tile_NBT": null,
+      "class": "gregtech.api.metatileentity.implementations.MTEBasicMachineWithRecipe",
+      "internal_name": "basicmachine.lathe.tier.01",
+      "tier": "LV",
+      "singleblock_evidence": {
+        "occupied_block_dimensions_xyz": [
+          1,
+          1,
+          1
+        ],
+        "basis": "Class inherits the singleblock basic-machine/tank chain and CommonMetaTileEntity full-block collision bounds; no multiblock structure is claimed. Service/exhaust/aisle space is additional.",
+        "game_tested": false
+      },
+      "exhaust_note": "No steam-machine exhaust rule assigned from the bronze-processing class; obey separately evidenced machine-specific facing and plumbing.",
+      "evidence_refs": [
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.enums.MetaTileEntityIDs.javap17.txt",
+          "line": 14026,
+          "end_line": 14032,
+          "claim": "Second enum constructor integer is the stored ID; first integer is enum ordinal, not machine ID"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.loaders.preload.LoaderMetaTileEntities.javap17.txt",
+          "line": 13140,
+          "end_line": 13158,
+          "claim": "Registration enum ID, class/builder, internal/display names and tier"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.CommonMetaTileEntity.javap17.txt",
+          "line": 960,
+          "end_line": 982,
+          "claim": "Default bounds from (x,y,z) to (x+1,y+1,z+1)"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.MetaTileEntity.javap17.txt",
+          "line": 241,
+          "end_line": 253,
+          "claim": "sBlockMachines ItemStack damage uses mID; these are not vanilla placed-block metadata values"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.common.tileentities.machines.basic.MTEBasicMachineWithRecipeBuilder$Builder.javap17.txt",
+          "line": 230,
+          "end_line": 401,
+          "claim": "Builder creates a MTEBasicMachineWithRecipe singleblock object"
+        }
+      ],
+      "capacities_or_rates": {},
+      "native_placement_status": "Item/meta-tile identity checked statically. Placed block metadata, tile NBT/facing and target-world import remain unvalidated.",
+      "quest_item_crosscheck": true
+    },
+    {
+      "key": "lv_cutting_machine",
+      "title": "Basic Cutting Machine",
+      "enum_key": "CUTTING_MACHINE_LV",
+      "metaID": 251,
+      "registry_name": "gregtech:gt.blockmachines",
+      "item_damage": 251,
+      "placed_block_metadata": null,
+      "machine_tile_NBT": null,
+      "class": "gregtech.api.metatileentity.implementations.MTEBasicMachineWithRecipe",
+      "internal_name": "basicmachine.cutter.tier.01",
+      "tier": "LV",
+      "singleblock_evidence": {
+        "occupied_block_dimensions_xyz": [
+          1,
+          1,
+          1
+        ],
+        "basis": "Class inherits the singleblock basic-machine/tank chain and CommonMetaTileEntity full-block collision bounds; no multiblock structure is claimed. Service/exhaust/aisle space is additional.",
+        "game_tested": false
+      },
+      "exhaust_note": "No steam-machine exhaust rule assigned from the bronze-processing class; obey separately evidenced machine-specific facing and plumbing.",
+      "evidence_refs": [
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.enums.MetaTileEntityIDs.javap17.txt",
+          "line": 13851,
+          "end_line": 13857,
+          "claim": "Second enum constructor integer is the stored ID; first integer is enum ordinal, not machine ID"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.loaders.preload.LoaderMetaTileEntities.javap17.txt",
+          "line": 9744,
+          "end_line": 9762,
+          "claim": "Registration enum ID, class/builder, internal/display names and tier"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.CommonMetaTileEntity.javap17.txt",
+          "line": 960,
+          "end_line": 982,
+          "claim": "Default bounds from (x,y,z) to (x+1,y+1,z+1)"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.MetaTileEntity.javap17.txt",
+          "line": 241,
+          "end_line": 253,
+          "claim": "sBlockMachines ItemStack damage uses mID; these are not vanilla placed-block metadata values"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.common.tileentities.machines.basic.MTEBasicMachineWithRecipeBuilder$Builder.javap17.txt",
+          "line": 230,
+          "end_line": 401,
+          "claim": "Builder creates a MTEBasicMachineWithRecipe singleblock object"
+        }
+      ],
+      "capacities_or_rates": {},
+      "native_placement_status": "Item/meta-tile identity checked statically. Placed block metadata, tile NBT/facing and target-world import remain unvalidated.",
+      "quest_item_crosscheck": true
+    },
+    {
+      "key": "lv_assembler",
+      "title": "Basic Assembling Machine",
+      "enum_key": "ASSEMBLER_LV",
+      "metaID": 211,
+      "registry_name": "gregtech:gt.blockmachines",
+      "item_damage": 211,
+      "placed_block_metadata": null,
+      "machine_tile_NBT": null,
+      "class": "gregtech.api.metatileentity.implementations.MTEBasicMachineWithRecipe",
+      "internal_name": "basicmachine.assembler.tier.01",
+      "tier": "LV",
+      "singleblock_evidence": {
+        "occupied_block_dimensions_xyz": [
+          1,
+          1,
+          1
+        ],
+        "basis": "Class inherits the singleblock basic-machine/tank chain and CommonMetaTileEntity full-block collision bounds; no multiblock structure is claimed. Service/exhaust/aisle space is additional.",
+        "game_tested": false
+      },
+      "exhaust_note": "No steam-machine exhaust rule assigned from the bronze-processing class; obey separately evidenced machine-specific facing and plumbing.",
+      "evidence_refs": [
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.enums.MetaTileEntityIDs.javap17.txt",
+          "line": 13648,
+          "end_line": 13654,
+          "claim": "Second enum constructor integer is the stored ID; first integer is enum ordinal, not machine ID"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.loaders.preload.LoaderMetaTileEntities.javap17.txt",
+          "line": 2148,
+          "end_line": 2166,
+          "claim": "Registration enum ID, class/builder, internal/display names and tier"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.CommonMetaTileEntity.javap17.txt",
+          "line": 960,
+          "end_line": 982,
+          "claim": "Default bounds from (x,y,z) to (x+1,y+1,z+1)"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.MetaTileEntity.javap17.txt",
+          "line": 241,
+          "end_line": 253,
+          "claim": "sBlockMachines ItemStack damage uses mID; these are not vanilla placed-block metadata values"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.common.tileentities.machines.basic.MTEBasicMachineWithRecipeBuilder$Builder.javap17.txt",
+          "line": 230,
+          "end_line": 401,
+          "claim": "Builder creates a MTEBasicMachineWithRecipe singleblock object"
+        }
+      ],
+      "capacities_or_rates": {},
+      "native_placement_status": "Item/meta-tile identity checked statically. Placed block metadata, tile NBT/facing and target-world import remain unvalidated.",
+      "quest_item_crosscheck": true
+    },
+    {
+      "key": "lv_circuit_assembler",
+      "title": "Basic Circuit Assembler",
+      "enum_key": "CIRCUIT_ASSEMBLER_LV",
+      "metaID": 1180,
+      "registry_name": "gregtech:gt.blockmachines",
+      "item_damage": 1180,
+      "placed_block_metadata": null,
+      "machine_tile_NBT": null,
+      "class": "gregtech.api.metatileentity.implementations.MTEBasicMachineWithRecipe",
+      "internal_name": "basicmachine.circuitassembler.tier.01",
+      "tier": "LV",
+      "singleblock_evidence": {
+        "occupied_block_dimensions_xyz": [
+          1,
+          1,
+          1
+        ],
+        "basis": "Class inherits the singleblock basic-machine/tank chain and CommonMetaTileEntity full-block collision bounds; no multiblock structure is claimed. Service/exhaust/aisle space is additional.",
+        "game_tested": false
+      },
+      "exhaust_note": "No steam-machine exhaust rule assigned from the bronze-processing class; obey separately evidenced machine-specific facing and plumbing.",
+      "evidence_refs": [
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.enums.MetaTileEntityIDs.javap17.txt",
+          "line": 17001,
+          "end_line": 17007,
+          "claim": "Second enum constructor integer is the stored ID; first integer is enum ordinal, not machine ID"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.loaders.preload.LoaderMetaTileEntities.javap17.txt",
+          "line": 21782,
+          "end_line": 21800,
+          "claim": "Registration enum ID, class/builder, internal/display names and tier"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.CommonMetaTileEntity.javap17.txt",
+          "line": 960,
+          "end_line": 982,
+          "claim": "Default bounds from (x,y,z) to (x+1,y+1,z+1)"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.MetaTileEntity.javap17.txt",
+          "line": 241,
+          "end_line": 253,
+          "claim": "sBlockMachines ItemStack damage uses mID; these are not vanilla placed-block metadata values"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.common.tileentities.machines.basic.MTEBasicMachineWithRecipeBuilder$Builder.javap17.txt",
+          "line": 230,
+          "end_line": 401,
+          "claim": "Builder creates a MTEBasicMachineWithRecipe singleblock object"
+        }
+      ],
+      "capacities_or_rates": {},
+      "native_placement_status": "Item/meta-tile identity checked statically. Placed block metadata, tile NBT/facing and target-world import remain unvalidated.",
+      "quest_item_crosscheck": true
+    },
+    {
+      "key": "lv_mixer",
+      "title": "Basic Mixer",
+      "enum_key": "MIXER_LV",
+      "metaID": 581,
+      "registry_name": "gregtech:gt.blockmachines",
+      "item_damage": 581,
+      "placed_block_metadata": null,
+      "machine_tile_NBT": null,
+      "class": "gregtech.api.metatileentity.implementations.MTEBasicMachineWithRecipe",
+      "internal_name": "basicmachine.mixer.tier.01",
+      "tier": "LV",
+      "singleblock_evidence": {
+        "occupied_block_dimensions_xyz": [
+          1,
+          1,
+          1
+        ],
+        "basis": "Class inherits the singleblock basic-machine/tank chain and CommonMetaTileEntity full-block collision bounds; no multiblock structure is claimed. Service/exhaust/aisle space is additional.",
+        "game_tested": false
+      },
+      "exhaust_note": "No steam-machine exhaust rule assigned from the bronze-processing class; obey separately evidenced machine-specific facing and plumbing.",
+      "evidence_refs": [
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.enums.MetaTileEntityIDs.javap17.txt",
+          "line": 15132,
+          "end_line": 15138,
+          "claim": "Second enum constructor integer is the stored ID; first integer is enum ordinal, not machine ID"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.loaders.preload.LoaderMetaTileEntities.javap17.txt",
+          "line": 8372,
+          "end_line": 8390,
+          "claim": "Registration enum ID, class/builder, internal/display names and tier"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.CommonMetaTileEntity.javap17.txt",
+          "line": 960,
+          "end_line": 982,
+          "claim": "Default bounds from (x,y,z) to (x+1,y+1,z+1)"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.MetaTileEntity.javap17.txt",
+          "line": 241,
+          "end_line": 253,
+          "claim": "sBlockMachines ItemStack damage uses mID; these are not vanilla placed-block metadata values"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.common.tileentities.machines.basic.MTEBasicMachineWithRecipeBuilder$Builder.javap17.txt",
+          "line": 230,
+          "end_line": 401,
+          "claim": "Builder creates a MTEBasicMachineWithRecipe singleblock object"
+        }
+      ],
+      "capacities_or_rates": {},
+      "native_placement_status": "Item/meta-tile identity checked statically. Placed block metadata, tile NBT/facing and target-world import remain unvalidated.",
+      "quest_item_crosscheck": true
+    },
+    {
+      "key": "lv_chemical_reactor",
+      "title": "Basic Chemical Reactor",
+      "enum_key": "CHEMICAL_REACTOR_LV",
+      "metaID": 421,
+      "registry_name": "gregtech:gt.blockmachines",
+      "item_damage": 421,
+      "placed_block_metadata": null,
+      "machine_tile_NBT": null,
+      "class": "gregtech.api.metatileentity.implementations.MTEBasicMachineWithRecipe",
+      "internal_name": "basicmachine.chemicalreactor.tier.01",
+      "tier": "LV",
+      "singleblock_evidence": {
+        "occupied_block_dimensions_xyz": [
+          1,
+          1,
+          1
+        ],
+        "basis": "Class inherits the singleblock basic-machine/tank chain and CommonMetaTileEntity full-block collision bounds; no multiblock structure is claimed. Service/exhaust/aisle space is additional.",
+        "game_tested": false
+      },
+      "exhaust_note": "No steam-machine exhaust rule assigned from the bronze-processing class; obey separately evidenced machine-specific facing and plumbing.",
+      "evidence_refs": [
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.enums.MetaTileEntityIDs.javap17.txt",
+          "line": 14607,
+          "end_line": 14613,
+          "claim": "Second enum constructor integer is the stored ID; first integer is enum ordinal, not machine ID"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.loaders.preload.LoaderMetaTileEntities.javap17.txt",
+          "line": 6600,
+          "end_line": 6618,
+          "claim": "Registration enum ID, class/builder, internal/display names and tier"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.CommonMetaTileEntity.javap17.txt",
+          "line": 960,
+          "end_line": 982,
+          "claim": "Default bounds from (x,y,z) to (x+1,y+1,z+1)"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.MetaTileEntity.javap17.txt",
+          "line": 241,
+          "end_line": 253,
+          "claim": "sBlockMachines ItemStack damage uses mID; these are not vanilla placed-block metadata values"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.common.tileentities.machines.basic.MTEBasicMachineWithRecipeBuilder$Builder.javap17.txt",
+          "line": 230,
+          "end_line": 401,
+          "claim": "Builder creates a MTEBasicMachineWithRecipe singleblock object"
+        }
+      ],
+      "capacities_or_rates": {},
+      "native_placement_status": "Item/meta-tile identity checked statically. Placed block metadata, tile NBT/facing and target-world import remain unvalidated.",
+      "quest_item_crosscheck": true
+    },
+    {
+      "key": "lv_electrolyser",
+      "title": "Basic Electrolyzer",
+      "enum_key": "ELECTROLYSER_LV",
+      "metaID": 371,
+      "registry_name": "gregtech:gt.blockmachines",
+      "item_damage": 371,
+      "placed_block_metadata": null,
+      "machine_tile_NBT": null,
+      "class": "gregtech.api.metatileentity.implementations.MTEBasicMachineWithRecipe",
+      "internal_name": "basicmachine.electrolyzer.tier.01",
+      "tier": "LV",
+      "singleblock_evidence": {
+        "occupied_block_dimensions_xyz": [
+          1,
+          1,
+          1
+        ],
+        "basis": "Class inherits the singleblock basic-machine/tank chain and CommonMetaTileEntity full-block collision bounds; no multiblock structure is claimed. Service/exhaust/aisle space is additional.",
+        "game_tested": false
+      },
+      "exhaust_note": "No steam-machine exhaust rule assigned from the bronze-processing class; obey separately evidenced machine-specific facing and plumbing.",
+      "evidence_refs": [
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.enums.MetaTileEntityIDs.javap17.txt",
+          "line": 14390,
+          "end_line": 14396,
+          "claim": "Second enum constructor integer is the stored ID; first integer is enum ordinal, not machine ID"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.loaders.preload.LoaderMetaTileEntities.javap17.txt",
+          "line": 10774,
+          "end_line": 10792,
+          "claim": "Registration enum ID, class/builder, internal/display names and tier"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.CommonMetaTileEntity.javap17.txt",
+          "line": 960,
+          "end_line": 982,
+          "claim": "Default bounds from (x,y,z) to (x+1,y+1,z+1)"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.MetaTileEntity.javap17.txt",
+          "line": 241,
+          "end_line": 253,
+          "claim": "sBlockMachines ItemStack damage uses mID; these are not vanilla placed-block metadata values"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.common.tileentities.machines.basic.MTEBasicMachineWithRecipeBuilder$Builder.javap17.txt",
+          "line": 230,
+          "end_line": 401,
+          "claim": "Builder creates a MTEBasicMachineWithRecipe singleblock object"
+        }
+      ],
+      "capacities_or_rates": {},
+      "native_placement_status": "Item/meta-tile identity checked statically. Placed block metadata, tile NBT/facing and target-world import remain unvalidated.",
+      "quest_item_crosscheck": true
+    },
+    {
+      "key": "lv_ore_washer",
+      "title": "Basic Ore Washing Plant",
+      "enum_key": "ORE_WASHER_LV",
+      "metaID": 391,
+      "registry_name": "gregtech:gt.blockmachines",
+      "item_damage": 391,
+      "placed_block_metadata": null,
+      "machine_tile_NBT": null,
+      "class": "gregtech.api.metatileentity.implementations.MTEBasicMachineWithRecipe",
+      "internal_name": "basicmachine.orewasher.tier.01",
+      "tier": "LV",
+      "singleblock_evidence": {
+        "occupied_block_dimensions_xyz": [
+          1,
+          1,
+          1
+        ],
+        "basis": "Class inherits the singleblock basic-machine/tank chain and CommonMetaTileEntity full-block collision bounds; no multiblock structure is claimed. Service/exhaust/aisle space is additional.",
+        "game_tested": false
+      },
+      "exhaust_note": "No steam-machine exhaust rule assigned from the bronze-processing class; obey separately evidenced machine-specific facing and plumbing.",
+      "evidence_refs": [
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.enums.MetaTileEntityIDs.javap17.txt",
+          "line": 14460,
+          "end_line": 14466,
+          "claim": "Second enum constructor integer is the stored ID; first integer is enum ordinal, not machine ID"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.loaders.preload.LoaderMetaTileEntities.javap17.txt",
+          "line": 14715,
+          "end_line": 14733,
+          "claim": "Registration enum ID, class/builder, internal/display names and tier"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.CommonMetaTileEntity.javap17.txt",
+          "line": 960,
+          "end_line": 982,
+          "claim": "Default bounds from (x,y,z) to (x+1,y+1,z+1)"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.MetaTileEntity.javap17.txt",
+          "line": 241,
+          "end_line": 253,
+          "claim": "sBlockMachines ItemStack damage uses mID; these are not vanilla placed-block metadata values"
+        },
+        {
+          "file": "verification/machine-evidence-v1/gregtech.common.tileentities.machines.basic.MTEBasicMachineWithRecipeBuilder$Builder.javap17.txt",
+          "line": 230,
+          "end_line": 401,
+          "claim": "Builder creates a MTEBasicMachineWithRecipe singleblock object"
+        }
+      ],
+      "capacities_or_rates": {},
+      "native_placement_status": "Item/meta-tile identity checked statically. Placed block metadata, tile NBT/facing and target-world import remain unvalidated.",
+      "quest_item_crosscheck": true
+    }
+  ],
+  "common_steam_exhaust": {
+    "rule": "Keep the immediately adjacent block on configured base.getFrontFacing() clear of collision hitboxes; no cover on that exhaust side. Steam venting can damage living entities in that adjacent cube, so keep it out of the operator aisle.",
+    "main_face_rule": "Steam fluid input excludes mMainFacing. The GUI/main face and configured exhaust/output face are separate fields.",
+    "planned_south_main_north_exhaust_static_support": true,
+    "runtime_configuration_tested": false,
+    "evidence_refs": [
+      {
+        "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+        "line": 194,
+        "end_line": 320,
+        "claim": "Cover/hitbox vent blocking, adjacent block and entity heat-damage check"
+      },
+      {
+        "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachineBronze.javap17.txt",
+        "line": 145,
+        "end_line": 155,
+        "claim": "Steam input excludes mMainFacing"
+      },
+      {
+        "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+        "line": 385,
+        "end_line": 413,
+        "claim": "Stores mMainFacing and moves equal base front to its opposite"
+      },
+      {
+        "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+        "line": 937,
+        "end_line": 955,
+        "claim": "When main face is known, configured base facing must differ from it"
+      },
+      {
+        "file": "verification/machine-evidence-v1/gregtech.api.metatileentity.implementations.MTEBasicMachine.javap17.txt",
+        "line": 366,
+        "end_line": 384,
+        "claim": "Main face excludes UP and DOWN"
+      }
+    ]
+  },
+  "basic_facing_java17_java21_instruction_match": {
+    "setMainFacing": true,
+    "isFacingValid": true,
+    "isValidMainFacing": true,
+    "isLiquidInput": true
+  },
+  "multiblock_reservations": [
+    {
+      "key": "railcraft_coke_oven",
+      "title": "Railcraft Coke Oven",
+      "class": "mods.railcraft.common.blocks.machine.alpha.TileCokeOven",
+      "singleblock": false,
+      "formed_dimensions_xyz": null,
+      "registry_name": null,
+      "metadata": null,
+      "raw_static_tank_capacity_fluid_units": 64000,
+      "evidence_refs": [
+        {
+          "file": "verification/machine-evidence-v1/mods.railcraft.common.blocks.machine.alpha.TileCokeOven.javap.txt",
+          "line": 18,
+          "end_line": 70,
+          "claim": "TANK_CAPACITY64000 and StandardTank construction"
+        }
+      ],
+      "status": "Class and tank observed; full structure pattern/registry mapping not reconciled, so retain a volume reservation instead of a formed machine claim."
+    }
+  ],
+  "game_tested": false,
+  "native_export_tested": false,
+  "limits": "Static identity/geometry/facing evidence only. Recipes, machine throughput, actual sustained supply, all pipe/cable capacities, real wrench configuration, runtime modifications and game results remain open.",
+  "summary": "31 machines checked against installed GTNH2.9.0 classes and registration; exact machine IDs, singleblock geometry and facing observations. No recipes or operating performance verified."
+}

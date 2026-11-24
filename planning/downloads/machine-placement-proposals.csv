@@ -1,0 +1,33 @@
+plot,module,machine,meta_tile_id,local_x,civil_y,local_z,city_x,city_z,main_facing,exhaust_facing,status
+01-01,M01,Small Coal Boiler,100,12,0,12,34,34,south +Z,not assigned,proposal; no native block NBT/recipe/throughput/game result
+01-01,M02,Small Coal Boiler,100,20,0,12,42,34,south +Z,not assigned,proposal; no native block NBT/recipe/throughput/game result
+01-01,M03,Steam Furnace,103,42,0,12,64,34,south +Z,north -Z,proposal; no native block NBT/recipe/throughput/game result
+01-01,M04,Steam Alloy Smelter,118,50,0,12,72,34,south +Z,north -Z,proposal; no native block NBT/recipe/throughput/game result
+01-01,M05,Steam Forge Hammer,112,12,0,42,34,64,south +Z,north -Z,proposal; no native block NBT/recipe/throughput/game result
+01-01,M06,Steam Compressor,115,20,0,42,42,64,south +Z,north -Z,proposal; no native block NBT/recipe/throughput/game result
+01-01,M07,Steam Macerator,106,42,0,42,64,64,south +Z,north -Z,proposal; no native block NBT/recipe/throughput/game result
+01-01,M08,Steam Extractor,109,50,0,42,72,64,south +Z,north -Z,proposal; no native block NBT/recipe/throughput/game result
+01-04,M01,Basic Forge Hammer,611,12,0,12,322,34,south +Z,not assigned,proposal; no native block NBT/recipe/throughput/game result
+01-04,M02,Basic Compressor,241,20,0,12,330,34,south +Z,not assigned,proposal; no native block NBT/recipe/throughput/game result
+01-04,M03,Basic Alloy Smelter,201,42,0,12,352,34,south +Z,not assigned,proposal; no native block NBT/recipe/throughput/game result
+01-04,M04,Basic Electric Furnace,261,50,0,12,360,34,south +Z,not assigned,proposal; no native block NBT/recipe/throughput/game result
+01-04,M05,Basic Macerator,301,12,0,42,322,64,south +Z,not assigned,proposal; no native block NBT/recipe/throughput/game result
+01-04,M06,Basic Extractor,271,20,0,42,330,64,south +Z,not assigned,proposal; no native block NBT/recipe/throughput/game result
+01-04,M07,Basic Steam Turbine,1120,42,0,42,352,64,south +Z,not assigned,proposal; no native block NBT/recipe/throughput/game result
+01-04,M08,Basic Steam Turbine,1120,50,0,42,360,64,south +Z,not assigned,proposal; no native block NBT/recipe/throughput/game result
+01-04,M09,Basic Bending Machine,221,12,0,20,322,42,south +Z,not assigned,proposal; no native block NBT/recipe/throughput/game result
+01-04,M10,Basic Cutting Machine,251,20,0,20,330,42,south +Z,not assigned,proposal; no native block NBT/recipe/throughput/game result
+01-04,M11,Basic Assembling Machine,211,42,0,20,352,42,south +Z,not assigned,proposal; no native block NBT/recipe/throughput/game result
+01-04,M12,Basic Lathe,291,12,0,50,322,72,south +Z,not assigned,proposal; no native block NBT/recipe/throughput/game result
+01-04,M13,Basic Wiremill,351,20,0,50,330,72,south +Z,not assigned,proposal; no native block NBT/recipe/throughput/game result
+02-01,M01,Basic Macerator,301,12,0,12,34,130,south +Z,not assigned,proposal; no native block NBT/recipe/throughput/game result
+02-01,M02,Basic Macerator,301,20,0,12,42,130,south +Z,not assigned,proposal; no native block NBT/recipe/throughput/game result
+02-01,M03,Basic Forge Hammer,611,42,0,12,64,130,south +Z,not assigned,proposal; no native block NBT/recipe/throughput/game result
+02-01,M04,Basic Extractor,271,50,0,12,72,130,south +Z,not assigned,proposal; no native block NBT/recipe/throughput/game result
+02-01,M05,Basic Ore Washing Plant,391,12,0,42,34,160,south +Z,not assigned,proposal; no native block NBT/recipe/throughput/game result
+02-03,M01,Basic Mixer,581,12,0,12,226,130,south +Z,not assigned,proposal; no native block NBT/recipe/throughput/game result
+02-03,M02,Basic Chemical Reactor,421,42,0,12,256,130,south +Z,not assigned,proposal; no native block NBT/recipe/throughput/game result
+02-03,M03,Basic Electrolyzer,371,12,0,42,226,160,south +Z,not assigned,proposal; no native block NBT/recipe/throughput/game result
+02-04,M01,Basic Wiremill,351,12,0,42,322,160,south +Z,not assigned,proposal; no native block NBT/recipe/throughput/game result
+02-04,M02,Basic Circuit Assembler,1180,42,0,12,352,130,south +Z,not assigned,proposal; no native block NBT/recipe/throughput/game result
+02-04,M03,Basic Assembling Machine,211,50,0,12,360,130,south +Z,not assigned,proposal; no native block NBT/recipe/throughput/game result

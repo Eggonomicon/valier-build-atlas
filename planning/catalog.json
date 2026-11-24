@@ -1,0 +1,6227 @@
+{
+  "revision": "operations-plan-v1",
+  "coordinate_convention": "Local NW origin; +X east, +Z south, north up. Y is civil relative to future surface S; world origin/rotation/S unassigned. Bounds inclusive.",
+  "status": "New operating-program and machine-placement proposals; not a functional or build-ready release",
+  "models": [
+    {
+      "id": "01-01",
+      "title": "Steam works",
+      "sector": "NW",
+      "legacy_phase_label": "Steam/LV",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        22,
+        22,
+        85,
+        85
+      ],
+      "process": "Fuel and water → steam → six starter steam processes; output to LV factory.",
+      "interfaces": "Water01-03; coke01-02; processed stock01-04",
+      "equipment_status": "Exact proposed singleblock cells with checked shell clearances",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Boiler room",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Hot processing",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Forming workshop",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Ore and recovery",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [
+        "Small Coal Boiler",
+        "Small Coal Boiler",
+        "Steam Furnace",
+        "Steam Alloy Smelter",
+        "Steam Forge Hammer",
+        "Steam Compressor",
+        "Steam Macerator",
+        "Steam Extractor"
+      ],
+      "modules_count": 8,
+      "model_url": "models/01-01.json",
+      "plan_url": "plans/01-01.png"
+    },
+    {
+      "id": "01-02",
+      "title": "Coke ovens",
+      "sector": "NW",
+      "legacy_phase_label": "Steam/LV",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        118,
+        22,
+        181,
+        85
+      ],
+      "process": "Raw fuel → coke and creosote; isolate liquid collection from solid dispatch.",
+      "interfaces": "Feed from tree/charcoal departments later; coke to01-01; creosote to fluid store",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Fuel receiving",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Coke conversion",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Creosote collection",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Coke dispatch",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/01-02.json",
+      "plan_url": "plans/01-02.png"
+    },
+    {
+      "id": "01-03",
+      "title": "Water works",
+      "sector": "NW",
+      "legacy_phase_label": "Steam/LV",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        214,
+        22,
+        277,
+        85
+      ],
+      "process": "Acquire water → buffer → separate boiler/process branches; select source and pump after recipe checks.",
+      "interfaces": "Boiler01-01; ore02-01; chemistry02-03",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Water intake",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Buffer storage",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Pump and distribution",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Inspection workshop",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/01-03.json",
+      "plan_url": "plans/01-03.png"
+    },
+    {
+      "id": "01-04",
+      "title": "LV factory",
+      "sector": "NW",
+      "legacy_phase_label": "Steam/LV",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        310,
+        22,
+        373,
+        85
+      ],
+      "process": "Ingots/plates/wire → motors, pumps, pistons and reusable components.",
+      "interfaces": "Ore02-01; Steam01-01; circuits02-04; logistics01-05",
+      "equipment_status": "Exact proposed singleblock cells with checked shell clearances",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Metal working",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Assembly",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Component fabrication",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Finished stock",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [
+        "Basic Forge Hammer",
+        "Basic Compressor",
+        "Basic Alloy Smelter",
+        "Basic Electric Furnace",
+        "Basic Macerator",
+        "Basic Extractor",
+        "Basic Steam Turbine",
+        "Basic Steam Turbine",
+        "Basic Bending Machine",
+        "Basic Cutting Machine",
+        "Basic Assembling Machine",
+        "Basic Lathe",
+        "Basic Wiremill"
+      ],
+      "modules_count": 13,
+      "model_url": "models/01-04.json",
+      "plan_url": "plans/01-04.png"
+    },
+    {
+      "id": "01-05",
+      "title": "Logistics hub",
+      "sector": "C",
+      "legacy_phase_label": "All",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        406,
+        22,
+        469,
+        85
+      ],
+      "process": "North district stock exchange; manual buffers first, digital network later.",
+      "interfaces": "Manufacturing NW; chemistry NE; trunk through civic cross",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Receiving",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Bulk stores",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Dispatch",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Network service",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/01-05.json",
+      "plan_url": "plans/01-05.png"
+    },
+    {
+      "id": "01-06",
+      "title": "Polymer plant",
+      "sector": "NE",
+      "legacy_phase_label": "Steam/LV",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        502,
+        22,
+        565,
+        85
+      ],
+      "process": "Keep feed preparation, polymer reaction and molding separate; recipe-specific trains later.",
+      "interfaces": "Oil01-07; chemistry02-03; fluids04-09",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Monomer preparation",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Polymer conversion",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Molding and finishing",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Product buffer",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/01-06.json",
+      "plan_url": "plans/01-06.png"
+    },
+    {
+      "id": "01-07",
+      "title": "Oil processing",
+      "sector": "NE",
+      "legacy_phase_label": "Steam/LV",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        598,
+        22,
+        661,
+        85
+      ],
+      "process": "Crude feed → separated fractions → treated fuel or chemistry feed.",
+      "interfaces": "MV fuel03-02; polymer01-06; fluids04-09",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Crude intake",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Primary separation",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Fuel finishing",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Fluid dispatch",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/01-07.json",
+      "plan_url": "plans/01-07.png"
+    },
+    {
+      "id": "01-08",
+      "title": "Materials laboratory",
+      "sector": "NE",
+      "legacy_phase_label": "Steam/LV",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        694,
+        22,
+        757,
+        85
+      ],
+      "process": "Small-batch material development; isolate experimental recipes from bulk production.",
+      "interfaces": "Metallurgy04-01; research cross; chemistry02-03",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Sample receiving",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Material tests",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Batch preparation",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Reference archive",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/01-08.json",
+      "plan_url": "plans/01-08.png"
+    },
+    {
+      "id": "01-09",
+      "title": "Electronics lab",
+      "sector": "NE",
+      "legacy_phase_label": "Steam/LV",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        790,
+        22,
+        853,
+        85
+      ],
+      "process": "Prepare electronics and inspect products; detailed circuits stay in02-04.",
+      "interfaces": "LV circuits02-04; logistics01-05",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Electronic preparation",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Precision fabrication",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Testing",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Component stock",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/01-09.json",
+      "plan_url": "plans/01-09.png"
+    },
+    {
+      "id": "02-01",
+      "title": "LV ore processing",
+      "sector": "NW",
+      "legacy_phase_label": "Steam/LV",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        22,
+        118,
+        85,
+        181
+      ],
+      "process": "Route ore-specific chains; dry reduction first, wet/separation steps when unlocked.",
+      "interfaces": "Water01-03; EBF02-02; factory01-04",
+      "equipment_status": "Exact proposed singleblock cells with checked shell clearances",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Ore receiving",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Primary reduction",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Washing reservation",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Dust and byproducts",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [
+        "Basic Macerator",
+        "Basic Macerator",
+        "Basic Forge Hammer",
+        "Basic Extractor",
+        "Basic Ore Washing Plant"
+      ],
+      "modules_count": 5,
+      "model_url": "models/02-01.json",
+      "plan_url": "plans/02-01.png"
+    },
+    {
+      "id": "02-02",
+      "title": "EBF hall",
+      "sector": "NW",
+      "legacy_phase_label": "Steam/LV",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        118,
+        118,
+        181,
+        181
+      ],
+      "process": "Recipe-specific furnace → cooling where required → alloy output; reserve tall maintenance space.",
+      "interfaces": "Ore02-01; gases02-03; metallurgy04-01",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Charge preparation",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Furnace island",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Cooling reservation",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Alloy dispatch",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/02-02.json",
+      "plan_url": "plans/02-02.png"
+    },
+    {
+      "id": "02-03",
+      "title": "LV chemistry",
+      "sector": "NW",
+      "legacy_phase_label": "Steam/LV",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        214,
+        118,
+        277,
+        181
+      ],
+      "process": "Batch reagents → chemical conversion; keep each reagent and product independently identifiable.",
+      "interfaces": "Water01-03; circuits02-04; fluids04-09",
+      "equipment_status": "Exact proposed singleblock cells with checked shell clearances",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Reagent preparation",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Reaction",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Electrolysis reservation",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Fluid buffers",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [
+        "Basic Mixer",
+        "Basic Chemical Reactor",
+        "Basic Electrolyzer"
+      ],
+      "modules_count": 3,
+      "model_url": "models/02-03.json",
+      "plan_url": "plans/02-03.png"
+    },
+    {
+      "id": "02-04",
+      "title": "LV circuits",
+      "sector": "NW",
+      "legacy_phase_label": "Steam/LV",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        310,
+        118,
+        373,
+        181
+      ],
+      "process": "Prepare boards, fine wire and parts → circuit assembly after exact recipes are checked.",
+      "interfaces": "Factory01-04; electronics01-09; chemistry02-03",
+      "equipment_status": "Exact proposed singleblock cells with checked shell clearances",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Board preparation",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Circuit assembly",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Fine components",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Circuit stock",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [
+        "Basic Wiremill",
+        "Basic Circuit Assembler",
+        "Basic Assembling Machine"
+      ],
+      "modules_count": 3,
+      "model_url": "models/02-04.json",
+      "plan_url": "plans/02-04.png"
+    },
+    {
+      "id": "02-05",
+      "title": "Logistics hub",
+      "sector": "C",
+      "legacy_phase_label": "All",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        406,
+        118,
+        469,
+        181
+      ],
+      "process": "Second north logistics interface; distribute without duplicating production responsibilities.",
+      "interfaces": "Tier factories; research cross; NE processes",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Receiving",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Manufacturing buffers",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Dispatch",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Network service",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/02-05.json",
+      "plan_url": "plans/02-05.png"
+    },
+    {
+      "id": "02-06",
+      "title": "EV chemistry",
+      "sector": "NE",
+      "legacy_phase_label": "MV/HV",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        502,
+        118,
+        565,
+        181
+      ],
+      "process": "EV chemistry department; historical phase label does not establish unlock availability.",
+      "interfaces": "Chemical reactors04-07; fluid storage04-09",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "EV reagent receiving",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "EV reactions",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Product treatment",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Buffers",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/02-06.json",
+      "plan_url": "plans/02-06.png"
+    },
+    {
+      "id": "02-07",
+      "title": "EV processing",
+      "sector": "NE",
+      "legacy_phase_label": "MV/HV",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        598,
+        118,
+        661,
+        181
+      ],
+      "process": "Dedicated EV processing trains after throughput and machine choices.",
+      "interfaces": "EV chemistry02-06; IV assembly03-06",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "EV material intake",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "EV processing",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Sorting",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Product buffers",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/02-07.json",
+      "plan_url": "plans/02-07.png"
+    },
+    {
+      "id": "02-08",
+      "title": "IV chemistry",
+      "sector": "NE",
+      "legacy_phase_label": "MV/HV",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        694,
+        118,
+        757,
+        181
+      ],
+      "process": "IV chemical trains; select recipe machines only when the installed tier is reached.",
+      "interfaces": "LuV chemistry03-07; fluid storage04-09",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "IV reagent intake",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "IV reactions",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Product treatment",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Buffers",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/02-08.json",
+      "plan_url": "plans/02-08.png"
+    },
+    {
+      "id": "02-09",
+      "title": "Platinum line",
+      "sector": "NE",
+      "legacy_phase_label": "MV/HV",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        790,
+        118,
+        853,
+        181
+      ],
+      "process": "Separate platinum-group processing and side-stream recovery; exact recipe sequence pending.",
+      "interfaces": "HV metallurgy04-01; IV chemistry02-08",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Feed preparation",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Platinum separation",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Recovery",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Product storage",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/02-09.json",
+      "plan_url": "plans/02-09.png"
+    },
+    {
+      "id": "03-01",
+      "title": "MV fabrication",
+      "sector": "NW",
+      "legacy_phase_label": "MV/HV",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        22,
+        214,
+        85,
+        277
+      ],
+      "process": "MV-tier fabrication and components; avoid copying bulk chemistry into this hall.",
+      "interfaces": "Factory01-04; circuits02-04; logistics02-05",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "MV metal working",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "MV assembly",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Machine components",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Stock",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/03-01.json",
+      "plan_url": "plans/03-01.png"
+    },
+    {
+      "id": "03-02",
+      "title": "MV fuel",
+      "sector": "NW",
+      "legacy_phase_label": "MV/HV",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        118,
+        214,
+        181,
+        277
+      ],
+      "process": "Prepare chosen MV fuel route; no fuel-rate or machine-count commitment yet.",
+      "interfaces": "Oil01-07; power03-03; fluid storage04-09",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Fuel receiving",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Fuel processing",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Buffer storage",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Dispatch",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/03-02.json",
+      "plan_url": "plans/03-02.png"
+    },
+    {
+      "id": "03-03",
+      "title": "MV power",
+      "sector": "NW",
+      "legacy_phase_label": "MV/HV",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        214,
+        214,
+        277,
+        277
+      ],
+      "process": "Local MV generation annex; long-term generation district remains in SE.",
+      "interfaces": "Fuel03-02; MV fabrication03-01",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Fuel interface",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "MV generation",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Electrical distribution",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Maintenance",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/03-03.json",
+      "plan_url": "plans/03-03.png"
+    },
+    {
+      "id": "03-04",
+      "title": "HV fabrication",
+      "sector": "NW",
+      "legacy_phase_label": "MV/HV",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        310,
+        214,
+        373,
+        277
+      ],
+      "process": "HV fabrication with separated production and upgrade aisles.",
+      "interfaces": "Metallurgy04-01; cleanroom04-03; HV chemistry04-02",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "HV metal working",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "HV assembly",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Advanced components",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Stock",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/03-04.json",
+      "plan_url": "plans/03-04.png"
+    },
+    {
+      "id": "03-05",
+      "title": "Research gallery",
+      "sector": "C",
+      "legacy_phase_label": "All",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        406,
+        214,
+        469,
+        277
+      ],
+      "process": "Research gallery with demonstrators, test records and maintenance access.",
+      "interfaces": "Adjacent fabrication; central research cross",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Public displays",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Test workshop",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Archive",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Service support",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/03-05.json",
+      "plan_url": "plans/03-05.png"
+    },
+    {
+      "id": "03-06",
+      "title": "IV assembly",
+      "sector": "NE",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        502,
+        214,
+        565,
+        277
+      ],
+      "process": "IV assembly and future line reservation; machine height/length must be verified before installation.",
+      "interfaces": "EV processing02-07; circuits02-04; cleanroom04-03",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Component intake",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "IV assembly",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Testing",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Product buffer",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/03-06.json",
+      "plan_url": "plans/03-06.png"
+    },
+    {
+      "id": "03-07",
+      "title": "LuV chemistry",
+      "sector": "NE",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        598,
+        214,
+        661,
+        277
+      ],
+      "process": "Later LuV chemistry; preserve independent feed and waste routes.",
+      "interfaces": "IV chemistry02-08; ZPM chemistry03-08",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "LuV reagent intake",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "LuV reactions",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Recovery",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Buffer storage",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/03-07.json",
+      "plan_url": "plans/03-07.png"
+    },
+    {
+      "id": "03-08",
+      "title": "ZPM chemistry",
+      "sector": "NE",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        694,
+        214,
+        757,
+        277
+      ],
+      "process": "Later ZPM chemistry; exact machine and containment design deferred.",
+      "interfaces": "LuV chemistry03-07; UV reserve03-09",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "ZPM reagent intake",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "ZPM reactions",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Recovery",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Buffer storage",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/03-08.json",
+      "plan_url": "plans/03-08.png"
+    },
+    {
+      "id": "03-09",
+      "title": "UV reserve",
+      "sector": "NE",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        790,
+        214,
+        853,
+        277
+      ],
+      "process": "Unassigned UV process expansion; leave empty until a specific process is approved.",
+      "interfaces": "ZPM chemistry03-08; outer expansion if needed",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Future intake",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "UV process reserve",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Utility reserve",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Maintenance reserve",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/03-09.json",
+      "plan_url": "plans/03-09.png"
+    },
+    {
+      "id": "04-01",
+      "title": "HV metallurgy",
+      "sector": "NW",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        22,
+        310,
+        85,
+        373
+      ],
+      "process": "HV metallurgy; separate hot equipment from operator and dispatch routes.",
+      "interfaces": "EBF02-02; platinum02-09; HV fabrication03-04",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Metal feed receiving",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "High temperature processing",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Cooling and finishing",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Alloy stock",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/04-01.json",
+      "plan_url": "plans/04-01.png"
+    },
+    {
+      "id": "04-02",
+      "title": "HV chemistry",
+      "sector": "NW",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        118,
+        310,
+        181,
+        373
+      ],
+      "process": "HV chemistry with independent reagent buffers and recipe-specific conversion trains.",
+      "interfaces": "Chemical reactors04-07; metallurgy04-01",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Reagent receiving",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "HV reactions",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Recovery",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Fluid dispatch",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/04-02.json",
+      "plan_url": "plans/04-02.png"
+    },
+    {
+      "id": "04-03",
+      "title": "Cleanroom",
+      "sector": "NW",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        214,
+        310,
+        277,
+        373
+      ],
+      "process": "Reserve a cleanroom enclosure inside the shell; enclosure dimensions/doors/filter formation remain unverified.",
+      "interfaces": "HV fabrication03-04; IV assembly03-06",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Gowning and service",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Cleanroom reserve",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "External utilities",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Output inspection",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/04-03.json",
+      "plan_url": "plans/04-03.png"
+    },
+    {
+      "id": "04-04",
+      "title": "HV reserves",
+      "sector": "NW",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        310,
+        310,
+        373,
+        373
+      ],
+      "process": "Hold HV overflow space; assign only after measured bottlenecks.",
+      "interfaces": "HV fabrication03-04; chemistry04-02",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Future intake",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "HV production reserve",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Utility reserve",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Maintenance reserve",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/04-04.json",
+      "plan_url": "plans/04-04.png"
+    },
+    {
+      "id": "04-05",
+      "title": "Research gallery",
+      "sector": "C",
+      "legacy_phase_label": "All",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        406,
+        310,
+        469,
+        373
+      ],
+      "process": "Civic research gallery; no bulk hazardous process on public circulation.",
+      "interfaces": "HQ05-05; cleanroom04-03",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Public displays",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Test workshop",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Archive",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Service support",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/04-05.json",
+      "plan_url": "plans/04-05.png"
+    },
+    {
+      "id": "04-06",
+      "title": "Chemistry intake",
+      "sector": "NE",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        502,
+        310,
+        565,
+        373
+      ],
+      "process": "Northeast chemical receiving and staging.",
+      "interfaces": "Reactors04-07; distillation04-08; fluids04-09",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Bulk receipt",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Feed sorting",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Reagent buffers",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Dispatch",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/04-06.json",
+      "plan_url": "plans/04-06.png"
+    },
+    {
+      "id": "04-07",
+      "title": "Chemical reactors",
+      "sector": "NE",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        598,
+        310,
+        661,
+        373
+      ],
+      "process": "Chemical reactor department; per-recipe hatches and service sides later.",
+      "interfaces": "Chemistry intake04-06; fluid storage04-09",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Feed preparation",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Reactor trains",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Product conditioning",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Maintenance",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/04-07.json",
+      "plan_url": "plans/04-07.png"
+    },
+    {
+      "id": "04-08",
+      "title": "Distillation",
+      "sector": "NE",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        694,
+        310,
+        757,
+        373
+      ],
+      "process": "Reserve tall distillation equipment; exact column, output elevations and roof clearance need source evidence.",
+      "interfaces": "Oil01-07; chemical reactors04-07; fluids04-09",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Feed buffers",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Column reserve",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Fraction collection",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Maintenance",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/04-08.json",
+      "plan_url": "plans/04-08.png"
+    },
+    {
+      "id": "04-09",
+      "title": "Fluid storage",
+      "sector": "NE",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        790,
+        310,
+        853,
+        373
+      ],
+      "process": "One labeled buffer family per fluid; distinguish incompatible networks and overflow policies.",
+      "interfaces": "NE chemistry and SE fuel departments",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Receiving manifold",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Dedicated fluid buffers",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Product manifold",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Inspection",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/04-09.json",
+      "plan_url": "plans/04-09.png"
+    },
+    {
+      "id": "05-01",
+      "title": "Logistics hub",
+      "sector": "C",
+      "legacy_phase_label": "All",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        22,
+        406,
+        85,
+        469
+      ],
+      "process": "West civic logistics interface; stores and handover point.",
+      "interfaces": "NW production; SW biological departments",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Receiving",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "West district stores",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Dispatch",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Network service",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/05-01.json",
+      "plan_url": "plans/05-01.png"
+    },
+    {
+      "id": "05-02",
+      "title": "Logistics hub",
+      "sector": "C",
+      "legacy_phase_label": "All",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        118,
+        406,
+        181,
+        469
+      ],
+      "process": "Civic distribution buffers without changing original plot purpose.",
+      "interfaces": "HQ05-05; research galleries; west districts",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Receiving",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Civic stores",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Dispatch",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Network service",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/05-02.json",
+      "plan_url": "plans/05-02.png"
+    },
+    {
+      "id": "05-03",
+      "title": "Research gallery",
+      "sector": "C",
+      "legacy_phase_label": "All",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        214,
+        406,
+        277,
+        469
+      ],
+      "process": "Research exhibits and records; utility access stays outside visitor displays.",
+      "interfaces": "HQ05-05; manufacturing and biological research",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Public displays",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Demonstration workshop",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Archive",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Maintenance",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/05-03.json",
+      "plan_url": "plans/05-03.png"
+    },
+    {
+      "id": "05-04",
+      "title": "Research gallery",
+      "sector": "C",
+      "legacy_phase_label": "All",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        310,
+        406,
+        373,
+        469
+      ],
+      "process": "Central research displays and project documentation.",
+      "interfaces": "HQ05-05; adjacent logistics and transit",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Public displays",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Demonstration workshop",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Archive",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Maintenance",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/05-04.json",
+      "plan_url": "plans/05-04.png"
+    },
+    {
+      "id": "05-05",
+      "title": "HQ + ceremonial plaza",
+      "sector": "C",
+      "legacy_phase_label": "Steam onward",
+      "dimensions_xz": [
+        65,
+        65
+      ],
+      "city_bounds": [
+        405,
+        405,
+        469,
+        469
+      ],
+      "process": "HQ program within preserved65-square reservation; tower floors and public routes need a separate interior model.",
+      "interfaces": "Research cross; transit05-06; city control06-09",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Reception and plaza",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Operations and records",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Exhibition",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Building services",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/05-05.json",
+      "plan_url": "plans/05-05.png"
+    },
+    {
+      "id": "05-06",
+      "title": "Transit station",
+      "sector": "C",
+      "legacy_phase_label": "All",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        502,
+        406,
+        565,
+        469
+      ],
+      "process": "Transport mode and gauge remain undecided; reserve accessible public route and separate freight handling.",
+      "interfaces": "HQ05-05; civic logistics; south transit06-05",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Passenger concourse",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Platform reservation",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Freight handover",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Maintenance",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/05-06.json",
+      "plan_url": "plans/05-06.png"
+    },
+    {
+      "id": "05-07",
+      "title": "Public garden",
+      "sector": "C",
+      "legacy_phase_label": "All",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        598,
+        406,
+        661,
+        469
+      ],
+      "process": "Public landscape; no industrial equipment in visitor routes.",
+      "interfaces": "Transit05-06; adjacent garden05-08",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Arrival court",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Seating garden",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Planting",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Service path",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/05-07.json",
+      "plan_url": "plans/05-07.png"
+    },
+    {
+      "id": "05-08",
+      "title": "Public garden",
+      "sector": "C",
+      "legacy_phase_label": "All",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        694,
+        406,
+        757,
+        469
+      ],
+      "process": "Public landscape extension with independent maintenance access.",
+      "interfaces": "Garden05-07; east logistics05-09",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Garden rooms",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Seating",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Planting",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Service path",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/05-08.json",
+      "plan_url": "plans/05-08.png"
+    },
+    {
+      "id": "05-09",
+      "title": "Logistics hub",
+      "sector": "C",
+      "legacy_phase_label": "All",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        790,
+        406,
+        853,
+        469
+      ],
+      "process": "Eastern logistics exchange between chemistry and power.",
+      "interfaces": "NE chemistry; SE generation; city trunk",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Receiving",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "East district stores",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Dispatch",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Network service",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/05-09.json",
+      "plan_url": "plans/05-09.png"
+    },
+    {
+      "id": "06-01",
+      "title": "Tree farm",
+      "sector": "SW",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        22,
+        502,
+        85,
+        565
+      ],
+      "process": "Choose farm mechanism after recipe/footprint evidence; exterior planting is decorative only.",
+      "interfaces": "Charcoal06-02; bio feedstocks07-03",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Sapling and stock",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Growing reserve",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Harvest service",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Timber dispatch",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/06-01.json",
+      "plan_url": "plans/06-01.png"
+    },
+    {
+      "id": "06-02",
+      "title": "Charcoal production",
+      "sector": "SW",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        118,
+        502,
+        181,
+        565
+      ],
+      "process": "Charcoal processing separate from forestry; exact oven technology pending.",
+      "interfaces": "Tree farm06-01; coke01-02; generation",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Timber receiving",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Charcoal conversion",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Byproduct buffer",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Solid fuel dispatch",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/06-02.json",
+      "plan_url": "plans/06-02.png"
+    },
+    {
+      "id": "06-03",
+      "title": "CropsNH",
+      "sector": "SW",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        214,
+        502,
+        277,
+        565
+      ],
+      "process": "CropsNH species-specific farm cells and access; water/light/growth behavior need in-game checks.",
+      "interfaces": "Crop processing07-01; greenhouses07-02",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Seed bank",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Crop lanes reserve",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Harvest sorting",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Service",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/06-03.json",
+      "plan_url": "plans/06-03.png"
+    },
+    {
+      "id": "06-04",
+      "title": "Bee apiary",
+      "sector": "SW",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        310,
+        502,
+        373,
+        565
+      ],
+      "process": "Bee production and breeding; species/environment/work area not yet certified.",
+      "interfaces": "Advanced bees08-01; crop processing07-01",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Breeding records",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Apiary reserve",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Product sorting",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Service",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/06-04.json",
+      "plan_url": "plans/06-04.png"
+    },
+    {
+      "id": "06-05",
+      "title": "Transit station",
+      "sector": "C",
+      "legacy_phase_label": "All",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        406,
+        502,
+        469,
+        565
+      ],
+      "process": "South civic transit; preserve cross-city maintenance routes.",
+      "interfaces": "Transit05-06; biological district; power district",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Passenger concourse",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Platform reservation",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Freight handover",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Maintenance",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/06-05.json",
+      "plan_url": "plans/06-05.png"
+    },
+    {
+      "id": "06-06",
+      "title": "HV generation",
+      "sector": "SE",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        502,
+        502,
+        565,
+        565
+      ],
+      "process": "HV power department; choose generation route and electrical topology from measured demand.",
+      "interfaces": "Fuel03-02; buffers06-08; switchyard09-06",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Fuel intake",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "HV generation",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Distribution",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Maintenance",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/06-06.json",
+      "plan_url": "plans/06-06.png"
+    },
+    {
+      "id": "06-07",
+      "title": "EV generation",
+      "sector": "SE",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        598,
+        502,
+        661,
+        565
+      ],
+      "process": "EV generation program; no unverified generator count or output promise.",
+      "interfaces": "Fluid storage04-09; buffers06-08; control06-09",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Fuel intake",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "EV generation",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Distribution",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Maintenance",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/06-07.json",
+      "plan_url": "plans/06-07.png"
+    },
+    {
+      "id": "06-08",
+      "title": "Battery buffers",
+      "sector": "SE",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        694,
+        502,
+        757,
+        565
+      ],
+      "process": "Tier-separated electrical buffers; cable amps, voltage and loss calculations remain open.",
+      "interfaces": "SE generators; switchyard09-06; control06-09",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Receiving switchgear",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Buffer banks",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Outgoing switchgear",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Maintenance",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/06-08.json",
+      "plan_url": "plans/06-08.png"
+    },
+    {
+      "id": "06-09",
+      "title": "Control center",
+      "sector": "SE",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        790,
+        502,
+        853,
+        565
+      ],
+      "process": "City operations displays and configuration records; no automatic safety claim.",
+      "interfaces": "HQ05-05; buffers06-08; switchyard09-06",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Monitoring",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Operations desks",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Network service",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Emergency access",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/06-09.json",
+      "plan_url": "plans/06-09.png"
+    },
+    {
+      "id": "07-01",
+      "title": "Crop processing",
+      "sector": "SW",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        22,
+        598,
+        85,
+        661
+      ],
+      "process": "Sort and process biological products; per-product trains after recipe selection.",
+      "interfaces": "Crops06-03; bees06-04; food07-04",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Harvest intake",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Crop processing",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Byproduct treatment",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Products",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/07-01.json",
+      "plan_url": "plans/07-01.png"
+    },
+    {
+      "id": "07-02",
+      "title": "Greenhouses",
+      "sector": "SW",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        118,
+        598,
+        181,
+        661
+      ],
+      "process": "Greenhouse architecture is not a verified farming/climate enclosure.",
+      "interfaces": "Crops06-03; processing07-01",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Seed preparation",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Growing reserve",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Harvest service",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Climate service",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/07-02.json",
+      "plan_url": "plans/07-02.png"
+    },
+    {
+      "id": "07-03",
+      "title": "Bio feedstocks",
+      "sector": "SW",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        214,
+        598,
+        277,
+        661
+      ],
+      "process": "Biological feedstock preparation; exact fuel/chemical route pending.",
+      "interfaces": "Tree farm06-01; crops06-03; renewables08-02",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Biomass intake",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Pretreatment",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Conversion",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Buffers",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/07-03.json",
+      "plan_url": "plans/07-03.png"
+    },
+    {
+      "id": "07-04",
+      "title": "Food storage",
+      "sector": "SW",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        310,
+        598,
+        373,
+        661
+      ],
+      "process": "Food storage and dispatch, with clear player access.",
+      "interfaces": "Crop processing07-01; logistics09-05",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Receiving",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Food stores",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Preparation",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Dispatch",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/07-04.json",
+      "plan_url": "plans/07-04.png"
+    },
+    {
+      "id": "07-05",
+      "title": "Public garden",
+      "sector": "C",
+      "legacy_phase_label": "All",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        406,
+        598,
+        469,
+        661
+      ],
+      "process": "Public garden on the civic cross; detached landscape modules need clash-checked placement.",
+      "interfaces": "Transit06-05; south research and logistics",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Arrival court",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Seating",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Planting",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Service path",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/07-05.json",
+      "plan_url": "plans/07-05.png"
+    },
+    {
+      "id": "07-06",
+      "title": "IV generation",
+      "sector": "SE",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        502,
+        598,
+        565,
+        661
+      ],
+      "process": "IV generation program, matched to future demand.",
+      "interfaces": "Buffers06-08; switchyard09-06",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Fuel intake",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "IV generation",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Distribution",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Maintenance",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/07-06.json",
+      "plan_url": "plans/07-06.png"
+    },
+    {
+      "id": "07-07",
+      "title": "LuV energy",
+      "sector": "SE",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        598,
+        598,
+        661,
+        661
+      ],
+      "process": "LuV energy equipment reservation; select installed machine before fixing footprint.",
+      "interfaces": "SE electrical distribution",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Fuel intake",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "LuV energy reserve",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Distribution",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Maintenance",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/07-07.json",
+      "plan_url": "plans/07-07.png"
+    },
+    {
+      "id": "07-08",
+      "title": "Fusion reserve",
+      "sector": "SE",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        694,
+        598,
+        757,
+        661
+      ],
+      "process": "Fusion reservation only. Do not infer fit or construct a reactor from the hall envelope; expand outside core if required.",
+      "interfaces": "Fuel production; switchyard09-06; outer superplots",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Feed and coolant reserve",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Fusion envelope reserve",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Output reserve",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Maintenance reserve",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/07-08.json",
+      "plan_url": "plans/07-08.png"
+    },
+    {
+      "id": "07-09",
+      "title": "ZPM generation",
+      "sector": "SE",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        790,
+        598,
+        853,
+        661
+      ],
+      "process": "ZPM power reserve subject to future machine footprint and demand.",
+      "interfaces": "Buffers06-08; switchyard09-06",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Fuel intake",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "ZPM generation reserve",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Distribution",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Maintenance",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/07-09.json",
+      "plan_url": "plans/07-09.png"
+    },
+    {
+      "id": "08-01",
+      "title": "Advanced bees",
+      "sector": "SW",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        22,
+        694,
+        85,
+        757
+      ],
+      "process": "Advanced bee research separated from ordinary apiary production.",
+      "interfaces": "Apiary06-04; botanical lab08-03",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Species archive",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Breeding reserve",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Production reserve",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Product sorting",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/08-01.json",
+      "plan_url": "plans/08-01.png"
+    },
+    {
+      "id": "08-02",
+      "title": "Renewables",
+      "sector": "SW",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        118,
+        694,
+        181,
+        757
+      ],
+      "process": "Select actual renewable route after local conditions and pack evidence.",
+      "interfaces": "Bio feedstocks07-03; power district",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Feed preparation",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Renewable conversion",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Energy buffers",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Maintenance",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/08-02.json",
+      "plan_url": "plans/08-02.png"
+    },
+    {
+      "id": "08-03",
+      "title": "Botanical lab",
+      "sector": "SW",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        214,
+        694,
+        277,
+        757
+      ],
+      "process": "Botanical experiments and small-scale grow tests; no growth rate claim.",
+      "interfaces": "Research gardens08-04; crops06-03",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Sample preparation",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Botanical testing",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Controlled growing reserve",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Records",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/08-03.json",
+      "plan_url": "plans/08-03.png"
+    },
+    {
+      "id": "08-04",
+      "title": "Research gardens",
+      "sector": "SW",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        310,
+        694,
+        373,
+        757
+      ],
+      "process": "Research gardens for controlled visual/game trials; decorative cells do not establish crop function.",
+      "interfaces": "Botanical lab08-03",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Display planting",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Experimental beds",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Observation",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Service",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/08-04.json",
+      "plan_url": "plans/08-04.png"
+    },
+    {
+      "id": "08-05",
+      "title": "Public garden",
+      "sector": "C",
+      "legacy_phase_label": "All",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        406,
+        694,
+        469,
+        757
+      ],
+      "process": "Public civic garden; preserve utility access and independent maintenance.",
+      "interfaces": "Research gardens08-04; south logistics09-05",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Arrival court",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Seating",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Planting",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Service path",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/08-05.json",
+      "plan_url": "plans/08-05.png"
+    },
+    {
+      "id": "08-06",
+      "title": "UV generation",
+      "sector": "SE",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        502,
+        694,
+        565,
+        757
+      ],
+      "process": "UV power reserve; exact machine footprint and grid needs open.",
+      "interfaces": "SE switchyard09-06; outer expansion",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Fuel intake",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "UV generation reserve",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Distribution",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Maintenance",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/08-06.json",
+      "plan_url": "plans/08-06.png"
+    },
+    {
+      "id": "08-07",
+      "title": "Space materials",
+      "sector": "SE",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        598,
+        694,
+        661,
+        757
+      ],
+      "process": "Space-related materials processing; no launch/rocket structure fit is implied.",
+      "interfaces": "Advanced metallurgy; logistics; outer special processes",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Material receiving",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Space-material process reserve",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Inspection",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Stock",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/08-07.json",
+      "plan_url": "plans/08-07.png"
+    },
+    {
+      "id": "08-08",
+      "title": "UHV reserve",
+      "sector": "SE",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        694,
+        694,
+        757,
+        757
+      ],
+      "process": "UHV reserve only; large machines may require outer superplots.",
+      "interfaces": "Future power08-09; outer expansion",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Future intake",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "UHV process reserve",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Utility reserve",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Maintenance reserve",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/08-08.json",
+      "plan_url": "plans/08-08.png"
+    },
+    {
+      "id": "08-09",
+      "title": "Future power",
+      "sector": "SE",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        790,
+        694,
+        853,
+        757
+      ],
+      "process": "Unassigned future energy expansion; no machine/capacity promise.",
+      "interfaces": "UHV08-08; outer expansion",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Future intake",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Future power reserve",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Utility reserve",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Maintenance reserve",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/08-09.json",
+      "plan_url": "plans/08-09.png"
+    },
+    {
+      "id": "09-01",
+      "title": "Water recycling",
+      "sector": "SW",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        22,
+        790,
+        85,
+        853
+      ],
+      "process": "Water recycling separated from clean supply until quality and recipe behavior are checked.",
+      "interfaces": "Biological processing; water works01-03",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Return water receiving",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Treatment reserve",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Clean water buffers",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Inspection",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/09-01.json",
+      "plan_url": "plans/09-01.png"
+    },
+    {
+      "id": "09-02",
+      "title": "Bio reserves",
+      "sector": "SW",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        118,
+        790,
+        181,
+        853
+      ],
+      "process": "Hold biological expansion; no process assigned before need.",
+      "interfaces": "Adjacent biological departments",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Future intake",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Biological reserve",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Utility reserve",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Maintenance reserve",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/09-02.json",
+      "plan_url": "plans/09-02.png"
+    },
+    {
+      "id": "09-03",
+      "title": "Public park",
+      "sector": "SW",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        214,
+        790,
+        277,
+        853
+      ],
+      "process": "Public park with maintainable paths and planting; exact finished access/lighting remain open.",
+      "interfaces": "Bio reserves; civic south",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Park arrival",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Seating and walks",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Planting",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Service",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/09-03.json",
+      "plan_url": "plans/09-03.png"
+    },
+    {
+      "id": "09-04",
+      "title": "Future bio",
+      "sector": "SW",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        310,
+        790,
+        373,
+        853
+      ],
+      "process": "Unassigned future biological process; keep adaptable.",
+      "interfaces": "Biological district; outer expansion",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Future intake",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Future biological reserve",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Utility reserve",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Maintenance reserve",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/09-04.json",
+      "plan_url": "plans/09-04.png"
+    },
+    {
+      "id": "09-05",
+      "title": "Logistics hub",
+      "sector": "C",
+      "legacy_phase_label": "All",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        406,
+        790,
+        469,
+        853
+      ],
+      "process": "South trunk logistics exchange for biological products and power consumables.",
+      "interfaces": "Biological district; power switchyard09-06",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Receiving",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "South district stores",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Dispatch",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Network service",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/09-05.json",
+      "plan_url": "plans/09-05.png"
+    },
+    {
+      "id": "09-06",
+      "title": "Power switchyard",
+      "sector": "SE",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        502,
+        790,
+        565,
+        853
+      ],
+      "process": "Electrical switchyard; verify voltage/amperage, protection and losses before cable placement.",
+      "interfaces": "Buffers06-08; all SE generation; city demands",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Incoming power reserve",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Tier-separated switching",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Outgoing feeds",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Maintenance",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/09-06.json",
+      "plan_url": "plans/09-06.png"
+    },
+    {
+      "id": "09-07",
+      "title": "Steam turbine hall",
+      "sector": "SE",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        598,
+        790,
+        661,
+        853
+      ],
+      "process": "Later steam turbine hall; not the initial two basic LV turbine slots in the LV factory.",
+      "interfaces": "Water09-01; switchyard09-06; late steam supply",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Steam interface",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "Turbine reserve",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Condensate reserve",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Maintenance",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/09-07.json",
+      "plan_url": "plans/09-07.png"
+    },
+    {
+      "id": "09-08",
+      "title": "LV generation",
+      "sector": "SE",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        694,
+        790,
+        757,
+        853
+      ],
+      "process": "Permanent LV generation department; early local turbines stay in01-04 initially.",
+      "interfaces": "Switchyard09-06; LV factory01-04",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Fuel interface",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "LV generation",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Distribution",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Maintenance",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/09-08.json",
+      "plan_url": "plans/09-08.png"
+    },
+    {
+      "id": "09-09",
+      "title": "MV generation",
+      "sector": "SE",
+      "legacy_phase_label": "EV+",
+      "dimensions_xz": [
+        64,
+        64
+      ],
+      "city_bounds": [
+        790,
+        790,
+        853,
+        853
+      ],
+      "process": "Permanent MV generation department;03-03 remains a local manufacturing annex.",
+      "interfaces": "Switchyard09-06; MV fabrication03-01",
+      "equipment_status": "Program zoning only; equipment selection/fit not checked",
+      "zones": [
+        {
+          "id": "Z1",
+          "title": "Fuel interface",
+          "bounds_xz": [
+            8,
+            8,
+            25,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z2",
+          "title": "MV generation",
+          "bounds_xz": [
+            38,
+            8,
+            55,
+            25
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z3",
+          "title": "Distribution",
+          "bounds_xz": [
+            8,
+            38,
+            25,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        },
+        {
+          "id": "Z4",
+          "title": "Maintenance",
+          "bounds_xz": [
+            38,
+            38,
+            55,
+            55
+          ],
+          "type": "program allocation only; no partitions or equipment inferred"
+        }
+      ],
+      "equipment_titles": [],
+      "modules_count": 0,
+      "model_url": "models/09-09.json",
+      "plan_url": "plans/09-09.png"
+    }
+  ],
+  "roads": {
+    "coordinate_convention": "Local NW origin; +X east, +Z south, north up. Y is civil relative to future surface S; world origin/rotation/S unassigned. Bounds inclusive.",
+    "surface_y": -1,
+    "base_y": -2,
+    "width": 12,
+    "cross_section": [
+      {
+        "offsets": [
+          0,
+          1
+        ],
+        "role": "Sidewalk,2 blocks",
+        "optional_finish": "Lave12 replacement of existing stone brick"
+      },
+      {
+        "offsets": [
+          2,
+          9
+        ],
+        "role": "Running surface,8 blocks",
+        "optional_finish": "Bitt0 replacement of existing stone brick"
+      },
+      {
+        "offsets": [
+          10,
+          11
+        ],
+        "role": "Sidewalk,2 blocks",
+        "optional_finish": "Lave12 replacement of existing stone brick"
+      }
+    ],
+    "gallery": {
+      "outer_offsets": [
+        2,
+        9
+      ],
+      "floor_y": -10,
+      "roof_y": -4,
+      "clear_y": [
+        -9,
+        -5
+      ],
+      "clear_offsets": [
+        3,
+        8
+      ],
+      "walking_offsets": [
+        5,
+        6
+      ],
+      "fluid_reservation_offsets": [
+        3,
+        4
+      ],
+      "electrical_reservation_offsets": [
+        7,
+        8
+      ]
+    },
+    "streets": [
+      {
+        "id": "V00",
+        "axis": "north-south",
+        "index": 0,
+        "bounds": [
+          0,
+          0,
+          11,
+          875
+        ],
+        "cross_offset_start": 0,
+        "cross_offset_end": 11,
+        "centerline": 5.5,
+        "class": "perimeter",
+        "status": "preserved road ribbon"
+      },
+      {
+        "id": "V01",
+        "axis": "north-south",
+        "index": 1,
+        "bounds": [
+          96,
+          0,
+          107,
+          875
+        ],
+        "cross_offset_start": 96,
+        "cross_offset_end": 107,
+        "centerline": 101.5,
+        "class": "district",
+        "status": "preserved road ribbon"
+      },
+      {
+        "id": "V02",
+        "axis": "north-south",
+        "index": 2,
+        "bounds": [
+          192,
+          0,
+          203,
+          875
+        ],
+        "cross_offset_start": 192,
+        "cross_offset_end": 203,
+        "centerline": 197.5,
+        "class": "district",
+        "status": "preserved road ribbon"
+      },
+      {
+        "id": "V03",
+        "axis": "north-south",
+        "index": 3,
+        "bounds": [
+          288,
+          0,
+          299,
+          875
+        ],
+        "cross_offset_start": 288,
+        "cross_offset_end": 299,
+        "centerline": 293.5,
+        "class": "district",
+        "status": "preserved road ribbon"
+      },
+      {
+        "id": "V04",
+        "axis": "north-south",
+        "index": 4,
+        "bounds": [
+          384,
+          0,
+          395,
+          875
+        ],
+        "cross_offset_start": 384,
+        "cross_offset_end": 395,
+        "centerline": 389.5,
+        "class": "civic",
+        "status": "preserved road ribbon"
+      },
+      {
+        "id": "V05",
+        "axis": "north-south",
+        "index": 5,
+        "bounds": [
+          480,
+          0,
+          491,
+          875
+        ],
+        "cross_offset_start": 480,
+        "cross_offset_end": 491,
+        "centerline": 485.5,
+        "class": "civic",
+        "status": "preserved road ribbon"
+      },
+      {
+        "id": "V06",
+        "axis": "north-south",
+        "index": 6,
+        "bounds": [
+          576,
+          0,
+          587,
+          875
+        ],
+        "cross_offset_start": 576,
+        "cross_offset_end": 587,
+        "centerline": 581.5,
+        "class": "district",
+        "status": "preserved road ribbon"
+      },
+      {
+        "id": "V07",
+        "axis": "north-south",
+        "index": 7,
+        "bounds": [
+          672,
+          0,
+          683,
+          875
+        ],
+        "cross_offset_start": 672,
+        "cross_offset_end": 683,
+        "centerline": 677.5,
+        "class": "district",
+        "status": "preserved road ribbon"
+      },
+      {
+        "id": "V08",
+        "axis": "north-south",
+        "index": 8,
+        "bounds": [
+          768,
+          0,
+          779,
+          875
+        ],
+        "cross_offset_start": 768,
+        "cross_offset_end": 779,
+        "centerline": 773.5,
+        "class": "district",
+        "status": "preserved road ribbon"
+      },
+      {
+        "id": "V09",
+        "axis": "north-south",
+        "index": 9,
+        "bounds": [
+          864,
+          0,
+          875,
+          875
+        ],
+        "cross_offset_start": 864,
+        "cross_offset_end": 875,
+        "centerline": 869.5,
+        "class": "perimeter",
+        "status": "new outer closure outside original core"
+      },
+      {
+        "id": "H00",
+        "axis": "east-west",
+        "index": 0,
+        "bounds": [
+          0,
+          0,
+          875,
+          11
+        ],
+        "cross_offset_start": 0,
+        "cross_offset_end": 11,
+        "centerline": 5.5,
+        "class": "perimeter",
+        "status": "preserved road ribbon"
+      },
+      {
+        "id": "H01",
+        "axis": "east-west",
+        "index": 1,
+        "bounds": [
+          0,
+          96,
+          875,
+          107
+        ],
+        "cross_offset_start": 96,
+        "cross_offset_end": 107,
+        "centerline": 101.5,
+        "class": "district",
+        "status": "preserved road ribbon"
+      },
+      {
+        "id": "H02",
+        "axis": "east-west",
+        "index": 2,
+        "bounds": [
+          0,
+          192,
+          875,
+          203
+        ],
+        "cross_offset_start": 192,
+        "cross_offset_end": 203,
+        "centerline": 197.5,
+        "class": "district",
+        "status": "preserved road ribbon"
+      },
+      {
+        "id": "H03",
+        "axis": "east-west",
+        "index": 3,
+        "bounds": [
+          0,
+          288,
+          875,
+          299
+        ],
+        "cross_offset_start": 288,
+        "cross_offset_end": 299,
+        "centerline": 293.5,
+        "class": "district",
+        "status": "preserved road ribbon"
+      },
+      {
+        "id": "H04",
+        "axis": "east-west",
+        "index": 4,
+        "bounds": [
+          0,
+          384,
+          875,
+          395
+        ],
+        "cross_offset_start": 384,
+        "cross_offset_end": 395,
+        "centerline": 389.5,
+        "class": "civic",
+        "status": "preserved road ribbon"
+      },
+      {
+        "id": "H05",
+        "axis": "east-west",
+        "index": 5,
+        "bounds": [
+          0,
+          480,
+          875,
+          491
+        ],
+        "cross_offset_start": 480,
+        "cross_offset_end": 491,
+        "centerline": 485.5,
+        "class": "civic",
+        "status": "preserved road ribbon"
+      },
+      {
+        "id": "H06",
+        "axis": "east-west",
+        "index": 6,
+        "bounds": [
+          0,
+          576,
+          875,
+          587
+        ],
+        "cross_offset_start": 576,
+        "cross_offset_end": 587,
+        "centerline": 581.5,
+        "class": "district",
+        "status": "preserved road ribbon"
+      },
+      {
+        "id": "H07",
+        "axis": "east-west",
+        "index": 7,
+        "bounds": [
+          0,
+          672,
+          875,
+          683
+        ],
+        "cross_offset_start": 672,
+        "cross_offset_end": 683,
+        "centerline": 677.5,
+        "class": "district",
+        "status": "preserved road ribbon"
+      },
+      {
+        "id": "H08",
+        "axis": "east-west",
+        "index": 8,
+        "bounds": [
+          0,
+          768,
+          875,
+          779
+        ],
+        "cross_offset_start": 768,
+        "cross_offset_end": 779,
+        "centerline": 773.5,
+        "class": "district",
+        "status": "preserved road ribbon"
+      },
+      {
+        "id": "H09",
+        "axis": "east-west",
+        "index": 9,
+        "bounds": [
+          0,
+          864,
+          875,
+          875
+        ],
+        "cross_offset_start": 864,
+        "cross_offset_end": 875,
+        "centerline": 869.5,
+        "class": "perimeter",
+        "status": "new outer closure outside original core"
+      }
+    ],
+    "finish_status": "Optional replacement study only; not merged into civil quantities. Existing2/8/2 road profile retained. No widening, extra layer or cosmetic stock adopted.",
+    "marking_policy": "If selected later, short pale dashes replace running-surface cells. Keep junctions, parcel entrances and maintenance openings clear; use explicit coordinate model before counting or construction.",
+    "utility_policy": "Offsets3/4 fluid reservations,5/6 clear walk,7/8 electrical reservations within each under-road gallery. These are civil reservations, not laid pipe/cable. At junctions, design separation and bend geometry after actual pipe/cable choice. Keep all access hubs and capped branches intact.",
+    "build_order": [
+      "P0 create/survey PDIM and translate local coordinates",
+      "P1 nineteen existing northwest civil work orders",
+      "P2 civic/perimeter civil network",
+      "P3 remaining street/gallery network",
+      "P4 parcel approach, cover, access and inspection",
+      "P5 water/fuel/Steam/LV commissioning one building at a time; permanent09-08/09-09 generation later"
+    ],
+    "startup_sequence": [
+      "01-03 choose and test water supply",
+      "01-02 choose/test coke/fuel process",
+      "01-01 one boiler and steam process trial; add proposed second boiler only after measured demand",
+      "01-04 basic LV turbine and one consumer at a time",
+      "02-01 choose ore-specific recipe chain",
+      "02-03/02-04 reagents/circuits after NEI checks",
+      "02-02 furnace after energy, coil, hatch and formation checks"
+    ],
+    "commissioning": [
+      "Inspect all chosen recipes and machine IDs in target GTNH2.9",
+      "Establish continuous water before fuel; follow actual machine warnings",
+      "Configure main/exhaust/output faces and covers; keep vent cells out of aisles",
+      "Select real pipes/cables, branch topology, voltage/amperage and losses",
+      "Test one recipe per machine, then simultaneous load and buffers",
+      "Record measured fuel/water/steam/power rates before choosing final unit counts",
+      "Check all hatches, maintenance, player collision, lighting and egress in game",
+      "Only export/import native NBT after target mapping and authorized disposable-world test"
+    ]
+  },
+  "counts": {
+    "departments": 81,
+    "zoning_allocations": 324,
+    "machine_layouts": 5,
+    "proposed_singleblock_units": 32
+  },
+  "equipment": {
+    "SMALL_COAL_BOILER": {
+      "title": "Small Coal Boiler",
+      "meta_tile_id": 100,
+      "tier": "steam"
+    },
+    "HIGH_PRESSURE_COAL_BOILER": {
+      "title": "Large Coal Boiler",
+      "meta_tile_id": 101,
+      "tier": "steam"
+    },
+    "STEAM_FURNACE": {
+      "title": "Steam Furnace",
+      "meta_tile_id": 103,
+      "tier": "steam"
+    },
+    "HP_STEAM_FURNACE": {
+      "title": "High Pressure Steam Furnace",
+      "meta_tile_id": 104,
+      "tier": "steam"
+    },
+    "STEAM_MACERATOR": {
+      "title": "Steam Macerator",
+      "meta_tile_id": 106,
+      "tier": "steam"
+    },
+    "HP_STEAM_MACERATOR": {
+      "title": "High Pressure Steam Macerator",
+      "meta_tile_id": 107,
+      "tier": "steam"
+    },
+    "STEAM_EXTRACTOR": {
+      "title": "Steam Extractor",
+      "meta_tile_id": 109,
+      "tier": "steam"
+    },
+    "HP_STEAM_EXTRACTOR": {
+      "title": "High Pressure Steam Extractor",
+      "meta_tile_id": 110,
+      "tier": "steam"
+    },
+    "STEAM_FORGE_HAMMER": {
+      "title": "Steam Forge Hammer",
+      "meta_tile_id": 112,
+      "tier": "steam"
+    },
+    "HP_STEAM_FORGE_HAMMER": {
+      "title": "High Pressure Steam Forge Hammer",
+      "meta_tile_id": 113,
+      "tier": "steam"
+    },
+    "STEAM_COMPRESSOR": {
+      "title": "Steam Compressor",
+      "meta_tile_id": 115,
+      "tier": "steam"
+    },
+    "HP_STEAM_COMPRESSOR": {
+      "title": "High Pressure Steam Compressor",
+      "meta_tile_id": 116,
+      "tier": "steam"
+    },
+    "STEAM_ALLOY_SMELTER": {
+      "title": "Steam Alloy Smelter",
+      "meta_tile_id": 118,
+      "tier": "steam"
+    },
+    "HP_STEAM_ALLOY_SMELTER": {
+      "title": "High Pressure Steam Alloy Smelter",
+      "meta_tile_id": 119,
+      "tier": "steam"
+    },
+    "STEAM_TURBINE_LV": {
+      "title": "Basic Steam Turbine",
+      "meta_tile_id": 1120,
+      "tier": "LV"
+    },
+    "ELECTRIC_FURNACE_LV": {
+      "title": "Basic Electric Furnace",
+      "meta_tile_id": 261,
+      "tier": "LV"
+    },
+    "MACERATOR_LV": {
+      "title": "Basic Macerator",
+      "meta_tile_id": 301,
+      "tier": "LV"
+    },
+    "COMPRESSOR_LV": {
+      "title": "Basic Compressor",
+      "meta_tile_id": 241,
+      "tier": "LV"
+    },
+    "EXTRACTOR_LV": {
+      "title": "Basic Extractor",
+      "meta_tile_id": 271,
+      "tier": "LV"
+    },
+    "FORGE_HAMMER_LV": {
+      "title": "Basic Forge Hammer",
+      "meta_tile_id": 611,
+      "tier": "LV"
+    },
+    "ALLOY_SMELTER_LV": {
+      "title": "Basic Alloy Smelter",
+      "meta_tile_id": 201,
+      "tier": "LV"
+    },
+    "WIREMILL_LV": {
+      "title": "Basic Wiremill",
+      "meta_tile_id": 351,
+      "tier": "LV"
+    },
+    "BENDING_MACHINE_LV": {
+      "title": "Basic Bending Machine",
+      "meta_tile_id": 221,
+      "tier": "LV"
+    },
+    "LATHE_LV": {
+      "title": "Basic Lathe",
+      "meta_tile_id": 291,
+      "tier": "LV"
+    },
+    "CUTTING_MACHINE_LV": {
+      "title": "Basic Cutting Machine",
+      "meta_tile_id": 251,
+      "tier": "LV"
+    },
+    "ASSEMBLER_LV": {
+      "title": "Basic Assembling Machine",
+      "meta_tile_id": 211,
+      "tier": "LV"
+    },
+    "CIRCUIT_ASSEMBLER_LV": {
+      "title": "Basic Circuit Assembler",
+      "meta_tile_id": 1180,
+      "tier": "LV"
+    },
+    "MIXER_LV": {
+      "title": "Basic Mixer",
+      "meta_tile_id": 581,
+      "tier": "LV"
+    },
+    "CHEMICAL_REACTOR_LV": {
+      "title": "Basic Chemical Reactor",
+      "meta_tile_id": 421,
+      "tier": "LV"
+    },
+    "ELECTROLYSER_LV": {
+      "title": "Basic Electrolyzer",
+      "meta_tile_id": 371,
+      "tier": "LV"
+    },
+    "ORE_WASHER_LV": {
+      "title": "Basic Ore Washing Plant",
+      "meta_tile_id": 391,
+      "tier": "LV"
+    }
+  },
+  "evidence_url": "machine-evidence-summary.json",
+  "downloads": [
+    {
+      "label": "All81 department programs (CSV)",
+      "url": "downloads/department-program.csv"
+    },
+    {
+      "label": "Proposed machine positions (CSV)",
+      "url": "downloads/machine-placement-proposals.csv"
+    },
+    {
+      "label": "Operations guide (Markdown)",
+      "url": "OPERATIONS_GUIDE.md"
+    },
+    {
+      "label": "All operations models and plans (ZIP)",
+      "url": "downloads/operations-plan-pack.zip"
+    }
+  ]
+}
