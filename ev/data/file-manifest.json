@@ -1616,8 +1616,8 @@
     "sha256": "f98d65a5351260976e8d9808ff68d0867507fec9c5600f84636530e62e849c53"
   },
   "data/model.js": {
-    "bytes": 2963457,
-    "sha256": "cd290578c0a9b57b2041707a1a6c9777723552057185963ace486ed58b5ff2f7"
+    "bytes": 2963494,
+    "sha256": "cda302a61937477d4e34518f01f568f1342b77026cb1ce1f65ae29a87942fd54"
   },
   "data/model.json": {
     "bytes": 1899849,
@@ -1640,8 +1640,8 @@
     "sha256": "677c403203204eb81a6e2091bbcf24ccbf8f4adc080e5f95fe30480dce4b2673"
   },
   "guide.js": {
-    "bytes": 12645,
-    "sha256": "e9eac1b6edc7e1a999fa3a3ddfb5bb380a7dec432d663a707d81108deaf34a18"
+    "bytes": 12796,
+    "sha256": "f706c0f9a6cac252bb2f23a0cbb1bae077cf3990c949fb47e0dc0462cbe9df61"
   },
   "images/01-02-EV.png": {
     "bytes": 85560,
@@ -2044,8 +2044,8 @@
     "sha256": "1ef138e6b6af7feb2b9b48eeb611c2390973763ef8549799a2d3627c11ec48d1"
   },
   "index.html": {
-    "bytes": 10489,
-    "sha256": "2ad0dd4542d429e1159bca7d1eff52ae4352d3d70ebcb4e2de3eb86f0ac6c7d5"
+    "bytes": 10939,
+    "sha256": "76433786b4ba986e41c876c107cf336aa9a1b3456997a147f421bfdb5fd5e13a"
   },
   "layers/01-02/EV/y+00.txt": {
     "bytes": 22889,
