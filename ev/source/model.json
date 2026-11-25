@@ -715,6 +715,38 @@
       "kind": "machine",
       "enum_key": "EBF_CONTROLLER"
     },
+    "ENERGY_HATCH_EV": {
+      "title": "Energy Hatch Ev",
+      "registry": "gregtech:gt.blockmachines",
+      "item_damage": 44,
+      "placed_metadata": null,
+      "kind": "machine",
+      "enum_key": "ENERGY_HATCH_EV"
+    },
+    "BATTERY_BUFFER_2_BY_2_EV": {
+      "title": "Battery Buffer 2 By 2 Ev",
+      "registry": "gregtech:gt.blockmachines",
+      "item_damage": 174,
+      "placed_metadata": null,
+      "kind": "machine",
+      "enum_key": "BATTERY_BUFFER_2_BY_2_EV"
+    },
+    "BATTERY_BUFFER_2_BY_2_HV": {
+      "title": "Battery Buffer 2 By 2 Hv",
+      "registry": "gregtech:gt.blockmachines",
+      "item_damage": 173,
+      "placed_metadata": null,
+      "kind": "machine",
+      "enum_key": "BATTERY_BUFFER_2_BY_2_HV"
+    },
+    "transformer_EV_HV": {
+      "title": "Transformer Ev Hv",
+      "registry": "gregtech:gt.blockmachines",
+      "item_damage": 23,
+      "placed_metadata": null,
+      "kind": "machine",
+      "enum_key": "transformer_EV_HV"
+    },
     "ASSEMBLER_MV": {
       "title": "Assembler Mv",
       "registry": "gregtech:gt.blockmachines",
@@ -866,30 +898,6 @@
       "placed_metadata": null,
       "kind": "machine",
       "enum_key": "CIRCUIT_ASSEMBLER_HV"
-    },
-    "BATTERY_BUFFER_2_BY_2_HV": {
-      "title": "Battery Buffer 2 By 2 Hv",
-      "registry": "gregtech:gt.blockmachines",
-      "item_damage": 173,
-      "placed_metadata": null,
-      "kind": "machine",
-      "enum_key": "BATTERY_BUFFER_2_BY_2_HV"
-    },
-    "transformer_EV_HV": {
-      "title": "Transformer Ev Hv",
-      "registry": "gregtech:gt.blockmachines",
-      "item_damage": 23,
-      "placed_metadata": null,
-      "kind": "machine",
-      "enum_key": "transformer_EV_HV"
-    },
-    "BATTERY_BUFFER_2_BY_2_EV": {
-      "title": "Battery Buffer 2 By 2 Ev",
-      "registry": "gregtech:gt.blockmachines",
-      "item_damage": 174,
-      "placed_metadata": null,
-      "kind": "machine",
-      "enum_key": "BATTERY_BUFFER_2_BY_2_EV"
     },
     "CIRCUIT_ASSEMBLER_EV": {
       "title": "Circuit Assembler Ev",
@@ -61076,7 +61084,7 @@
           "facing": "west",
           "upgrades": {
             "HV": "ENERGY_HATCH_HV",
-            "EV": "ENERGY_HATCH_HV"
+            "EV": "ENERGY_HATCH_EV"
           }
         },
         {
@@ -61125,8 +61133,9 @@
           "facing": "east",
           "upgrades": {
             "HV": "COMBUSTION_GENERATOR_HV",
-            "EV": "COMBUSTION_GENERATOR_HV"
-          }
+            "EV": "BATTERY_BUFFER_2_BY_2_EV"
+          },
+          "EV_configuration": "Replace former generator with EV buffer, output east; one EV battery; disconnect the old fuel inlet below it"
         },
         {
           "x": 135,
@@ -61137,7 +61146,7 @@
           "group": "EBF power",
           "upgrades": {
             "HV": "C_HV",
-            "EV": "C_HV"
+            "EV": "C_EV"
           }
         },
         {
@@ -61187,6 +61196,536 @@
           "part": "FUEL",
           "stage": "MV",
           "group": "fuel branch"
+        },
+        {
+          "x": 134,
+          "y": 0,
+          "z": 138,
+          "part": "COMBUSTION_GENERATOR_HV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod",
+          "facing": "south"
+        },
+        {
+          "x": 131,
+          "y": -3,
+          "z": 138,
+          "part": "FUEL",
+          "stage": "EV",
+          "group": "fuel branch"
+        },
+        {
+          "x": 132,
+          "y": -3,
+          "z": 138,
+          "part": "FUEL",
+          "stage": "EV",
+          "group": "fuel branch"
+        },
+        {
+          "x": 133,
+          "y": -3,
+          "z": 138,
+          "part": "FUEL",
+          "stage": "EV",
+          "group": "fuel branch"
+        },
+        {
+          "x": 134,
+          "y": -3,
+          "z": 138,
+          "part": "FUEL",
+          "stage": "EV",
+          "group": "fuel branch"
+        },
+        {
+          "x": 134,
+          "y": -2,
+          "z": 138,
+          "part": "FUEL",
+          "stage": "EV",
+          "group": "fuel branch"
+        },
+        {
+          "x": 134,
+          "y": -1,
+          "z": 138,
+          "part": "FUEL",
+          "stage": "EV",
+          "group": "fuel branch"
+        },
+        {
+          "x": 136,
+          "y": 0,
+          "z": 138,
+          "part": "COMBUSTION_GENERATOR_HV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod",
+          "facing": "south"
+        },
+        {
+          "x": 135,
+          "y": -3,
+          "z": 138,
+          "part": "FUEL",
+          "stage": "EV",
+          "group": "fuel branch"
+        },
+        {
+          "x": 136,
+          "y": -3,
+          "z": 138,
+          "part": "FUEL",
+          "stage": "EV",
+          "group": "fuel branch"
+        },
+        {
+          "x": 136,
+          "y": -2,
+          "z": 138,
+          "part": "FUEL",
+          "stage": "EV",
+          "group": "fuel branch"
+        },
+        {
+          "x": 136,
+          "y": -1,
+          "z": 138,
+          "part": "FUEL",
+          "stage": "EV",
+          "group": "fuel branch"
+        },
+        {
+          "x": 138,
+          "y": 0,
+          "z": 138,
+          "part": "COMBUSTION_GENERATOR_HV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod",
+          "facing": "south"
+        },
+        {
+          "x": 137,
+          "y": -3,
+          "z": 138,
+          "part": "FUEL",
+          "stage": "EV",
+          "group": "fuel branch"
+        },
+        {
+          "x": 138,
+          "y": -3,
+          "z": 138,
+          "part": "FUEL",
+          "stage": "EV",
+          "group": "fuel branch"
+        },
+        {
+          "x": 138,
+          "y": -2,
+          "z": 138,
+          "part": "FUEL",
+          "stage": "EV",
+          "group": "fuel branch"
+        },
+        {
+          "x": 138,
+          "y": -1,
+          "z": 138,
+          "part": "FUEL",
+          "stage": "EV",
+          "group": "fuel branch"
+        },
+        {
+          "x": 140,
+          "y": 0,
+          "z": 138,
+          "part": "COMBUSTION_GENERATOR_HV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod",
+          "facing": "south"
+        },
+        {
+          "x": 139,
+          "y": -3,
+          "z": 138,
+          "part": "FUEL",
+          "stage": "EV",
+          "group": "fuel branch"
+        },
+        {
+          "x": 140,
+          "y": -3,
+          "z": 138,
+          "part": "FUEL",
+          "stage": "EV",
+          "group": "fuel branch"
+        },
+        {
+          "x": 140,
+          "y": -2,
+          "z": 138,
+          "part": "FUEL",
+          "stage": "EV",
+          "group": "fuel branch"
+        },
+        {
+          "x": 140,
+          "y": -1,
+          "z": 138,
+          "part": "FUEL",
+          "stage": "EV",
+          "group": "fuel branch"
+        },
+        {
+          "x": 134,
+          "y": 0,
+          "z": 139,
+          "part": "C_HV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod source bus"
+        },
+        {
+          "x": 135,
+          "y": 0,
+          "z": 139,
+          "part": "C_HV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod source bus"
+        },
+        {
+          "x": 136,
+          "y": 0,
+          "z": 139,
+          "part": "C_HV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod source bus"
+        },
+        {
+          "x": 137,
+          "y": 0,
+          "z": 139,
+          "part": "C_HV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod source bus"
+        },
+        {
+          "x": 138,
+          "y": 0,
+          "z": 139,
+          "part": "C_HV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod source bus"
+        },
+        {
+          "x": 139,
+          "y": 0,
+          "z": 139,
+          "part": "C_HV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod source bus"
+        },
+        {
+          "x": 140,
+          "y": 0,
+          "z": 139,
+          "part": "C_HV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod source bus"
+        },
+        {
+          "x": 141,
+          "y": 0,
+          "z": 139,
+          "part": "C_HV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod source bus"
+        },
+        {
+          "x": 142,
+          "y": 0,
+          "z": 139,
+          "part": "BATTERY_BUFFER_2_BY_2_HV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod",
+          "facing": "east",
+          "batteries": "4 compatible HV batteries required"
+        },
+        {
+          "x": 143,
+          "y": 0,
+          "z": 139,
+          "part": "C_HV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod source bus"
+        },
+        {
+          "x": 144,
+          "y": 0,
+          "z": 139,
+          "part": "transformer_EV_HV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod",
+          "facing": "east",
+          "mode": "STEP-UP: normal work disabled with soft mallet; HV input WEST, EV output EAST"
+        },
+        {
+          "x": 145,
+          "y": 0,
+          "z": 139,
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod conversion lead"
+        },
+        {
+          "x": 146,
+          "y": 0,
+          "z": 139,
+          "part": "BATTERY_BUFFER_2_BY_2_EV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod",
+          "facing": "south",
+          "batteries": "1 compatible EV battery initially; do not add output batteries without redesign"
+        },
+        {
+          "x": 146,
+          "y": 0,
+          "z": 140,
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod load bus"
+        },
+        {
+          "x": 146,
+          "y": 0,
+          "z": 141,
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod load bus"
+        },
+        {
+          "x": 145,
+          "y": 0,
+          "z": 141,
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod load bus"
+        },
+        {
+          "x": 144,
+          "y": 0,
+          "z": 141,
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod load bus"
+        },
+        {
+          "x": 143,
+          "y": 0,
+          "z": 141,
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod load bus"
+        },
+        {
+          "x": 142,
+          "y": 0,
+          "z": 141,
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod load bus"
+        },
+        {
+          "x": 141,
+          "y": 0,
+          "z": 141,
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod load bus"
+        },
+        {
+          "x": 140,
+          "y": 0,
+          "z": 141,
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod load bus"
+        },
+        {
+          "x": 139,
+          "y": 0,
+          "z": 141,
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod load bus"
+        },
+        {
+          "x": 138,
+          "y": 0,
+          "z": 141,
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod load bus"
+        },
+        {
+          "x": 137,
+          "y": 0,
+          "z": 141,
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod load bus"
+        },
+        {
+          "x": 136,
+          "y": 0,
+          "z": 141,
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod load bus"
+        },
+        {
+          "x": 135,
+          "y": 0,
+          "z": 141,
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod load bus"
+        },
+        {
+          "x": 134,
+          "y": 0,
+          "z": 141,
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod load bus"
+        },
+        {
+          "x": 134,
+          "y": 0,
+          "z": 142,
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF relay feed"
+        },
+        {
+          "x": 134,
+          "y": 0,
+          "z": 143,
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF relay feed"
+        },
+        {
+          "x": 134,
+          "y": 0,
+          "z": 144,
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF relay feed"
+        },
+        {
+          "x": 134,
+          "y": 0,
+          "z": 145,
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF relay feed"
+        },
+        {
+          "x": 134,
+          "y": 0,
+          "z": 146,
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF relay feed"
+        },
+        {
+          "x": 134,
+          "y": 0,
+          "z": 147,
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF relay feed"
+        },
+        {
+          "x": 134,
+          "y": 0,
+          "z": 148,
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF relay feed"
+        },
+        {
+          "x": 134,
+          "y": 0,
+          "z": 149,
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF relay feed"
+        },
+        {
+          "x": 134,
+          "y": 0,
+          "z": 150,
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF relay feed"
+        },
+        {
+          "x": 134,
+          "y": 0,
+          "z": 151,
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF relay feed"
+        },
+        {
+          "x": 134,
+          "y": 0,
+          "z": 152,
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF relay feed"
+        },
+        {
+          "x": 134,
+          "y": 0,
+          "z": 153,
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF relay feed"
+        },
+        {
+          "x": 134,
+          "y": 0,
+          "z": 154,
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF relay feed"
+        },
+        {
+          "x": 134,
+          "y": 0,
+          "z": 155,
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF relay feed"
+        },
+        {
+          "x": 134,
+          "y": 0,
+          "z": 156,
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF relay feed"
+        },
+        {
+          "x": 134,
+          "y": 0,
+          "z": 157,
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF relay feed"
         }
       ],
       "removals": [
@@ -61533,6 +62072,38 @@
           "source": "P",
           "reason": "Replace exact floor cell with utility riser or cleanroom floor",
           "stage": "MV"
+        },
+        {
+          "x": 134,
+          "y": -1,
+          "z": 138,
+          "source": "P",
+          "reason": "Replace exact floor cell with utility riser or cleanroom floor",
+          "stage": "EV"
+        },
+        {
+          "x": 136,
+          "y": -1,
+          "z": 138,
+          "source": "P",
+          "reason": "Replace exact floor cell with utility riser or cleanroom floor",
+          "stage": "EV"
+        },
+        {
+          "x": 138,
+          "y": -1,
+          "z": 138,
+          "source": "P",
+          "reason": "Replace exact floor cell with utility riser or cleanroom floor",
+          "stage": "EV"
+        },
+        {
+          "x": 140,
+          "y": -1,
+          "z": 138,
+          "source": "P",
+          "reason": "Replace exact floor cell with utility riser or cleanroom floor",
+          "stage": "EV"
         }
       ],
       "objects": [
@@ -61556,7 +62127,34 @@
             155
           ],
           "energy_tier": "MV",
-          "io": "Manual item/fluid-container handling at explicitly named hatches; output hatches isolated. EBF upper output/muffler serviced by temporary scaffold, kept out of permanent stock."
+          "io": "Manual item/fluid-container handling at explicitly named hatches; output hatches isolated. EBF upper output/muffler serviced by temporary scaffold, kept out of permanent stock.",
+          "energy_tier_by_stage": {
+            "MV": "MV",
+            "HV": "HV",
+            "EV": "EV"
+          }
+        },
+        {
+          "name": "EV EBF conversion pod",
+          "kind": "power_pod",
+          "tier": "EV",
+          "stage": "EV",
+          "position": [
+            142,
+            0,
+            139
+          ],
+          "operator": [
+            144,
+            0,
+            140
+          ],
+          "max_peak_EV_stations": 1,
+          "generator_count": 4,
+          "HV_batteries": 4,
+          "EV_batteries": 1,
+          "source_delivery_EU_t_nameplate": 2028,
+          "notes": "Four HV generator paths of8/6/4/2 cables lose20EU/t total. HV buffer re-packetizes512V; short HV transformer lead, EV conversion lead and load bus add losses. Fuel/phase/steady transfer still require game testing."
         }
       ],
       "terminals": [
@@ -61579,6 +62177,46 @@
           "title": "Combustion generator fuel inlet",
           "initial": "CLOSED until commissioning",
           "stage": "MV"
+        },
+        {
+          "x": 134,
+          "y": -1,
+          "z": 138,
+          "network": "light_fuel",
+          "face": "up",
+          "title": "Combustion generator fuel inlet",
+          "initial": "CLOSED until commissioning",
+          "stage": "EV"
+        },
+        {
+          "x": 136,
+          "y": -1,
+          "z": 138,
+          "network": "light_fuel",
+          "face": "up",
+          "title": "Combustion generator fuel inlet",
+          "initial": "CLOSED until commissioning",
+          "stage": "EV"
+        },
+        {
+          "x": 138,
+          "y": -1,
+          "z": 138,
+          "network": "light_fuel",
+          "face": "up",
+          "title": "Combustion generator fuel inlet",
+          "initial": "CLOSED until commissioning",
+          "stage": "EV"
+        },
+        {
+          "x": 140,
+          "y": -1,
+          "z": 138,
+          "network": "light_fuel",
+          "face": "up",
+          "title": "Combustion generator fuel inlet",
+          "initial": "CLOSED until commissioning",
+          "stage": "EV"
         }
       ],
       "routes": [
@@ -61662,10 +62300,154 @@
               158
             ]
           ]
+        },
+        {
+          "part": "FUEL",
+          "stage": "EV",
+          "group": "fuel branch",
+          "points": [
+            [
+              130,
+              -3,
+              138
+            ],
+            [
+              134,
+              -3,
+              138
+            ],
+            [
+              134,
+              -1,
+              138
+            ]
+          ]
+        },
+        {
+          "part": "FUEL",
+          "stage": "EV",
+          "group": "fuel branch",
+          "points": [
+            [
+              130,
+              -3,
+              138
+            ],
+            [
+              136,
+              -3,
+              138
+            ],
+            [
+              136,
+              -1,
+              138
+            ]
+          ]
+        },
+        {
+          "part": "FUEL",
+          "stage": "EV",
+          "group": "fuel branch",
+          "points": [
+            [
+              130,
+              -3,
+              138
+            ],
+            [
+              138,
+              -3,
+              138
+            ],
+            [
+              138,
+              -1,
+              138
+            ]
+          ]
+        },
+        {
+          "part": "FUEL",
+          "stage": "EV",
+          "group": "fuel branch",
+          "points": [
+            [
+              130,
+              -3,
+              138
+            ],
+            [
+              140,
+              -3,
+              138
+            ],
+            [
+              140,
+              -1,
+              138
+            ]
+          ]
+        },
+        {
+          "part": "C_HV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod source bus",
+          "points": [
+            [
+              134,
+              0,
+              139
+            ],
+            [
+              141,
+              0,
+              139
+            ]
+          ]
+        },
+        {
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF conversion pod load bus",
+          "points": [
+            [
+              146,
+              0,
+              140
+            ],
+            [
+              146,
+              0,
+              141
+            ],
+            [
+              134,
+              0,
+              141
+            ]
+          ]
+        },
+        {
+          "part": "C_EV",
+          "stage": "EV",
+          "group": "EV EBF relay feed",
+          "points": [
+            [
+              134,
+              0,
+              141
+            ],
+            [
+              134,
+              0,
+              157
+            ]
+          ]
         }
       ],
       "notes": [
-        "EBF later stages use one HV energy hatch/generator, not an EV power claim. Reference recipe budget480EU/t. Higher-power recipes need a separately checked energy-hatch/power upgrade. Coil replacement sets are16 blocks, not cumulative extra coils."
+        "EBF power references:120EU/t at MV,480 at HV,1920 at EV. At EV replace the old generator with a one-battery EV buffer, replace its cable and energy hatch with EV parts, and disconnect the former fuel inlet. A dedicated four-HV-generator conversion pod feeds this relay. Coil heat including voltage bonus is1801K/MV,2801K/HV and3801K/EV; check recipe heat before running. Higher-heat recipes need a separately gathered16-coil upgrade. Coil replacements are not cumulative extra coils."
       ],
       "stage_stock": {
         "LV": [],
@@ -61900,7 +62682,14 @@
           },
           {
             "registry": "gregtech:gt.blockmachines",
-            "item_damage": 43,
+            "item_damage": 23,
+            "items": 1,
+            "stacks64": 0,
+            "loose": 1
+          },
+          {
+            "registry": "gregtech:gt.blockmachines",
+            "item_damage": 44,
             "items": 1,
             "stacks64": 0,
             "loose": 1
@@ -61949,6 +62738,20 @@
           },
           {
             "registry": "gregtech:gt.blockmachines",
+            "item_damage": 173,
+            "items": 1,
+            "stacks64": 0,
+            "loose": 1
+          },
+          {
+            "registry": "gregtech:gt.blockmachines",
+            "item_damage": 174,
+            "items": 2,
+            "stacks64": 0,
+            "loose": 2
+          },
+          {
+            "registry": "gregtech:gt.blockmachines",
             "item_damage": 1000,
             "items": 1,
             "stacks64": 0,
@@ -61957,23 +62760,30 @@
           {
             "registry": "gregtech:gt.blockmachines",
             "item_damage": 1112,
-            "items": 1,
+            "items": 4,
             "stacks64": 0,
-            "loose": 1
+            "loose": 4
           },
           {
             "registry": "gregtech:gt.blockmachines",
             "item_damage": 1448,
-            "items": 1,
+            "items": 9,
             "stacks64": 0,
-            "loose": 1
+            "loose": 9
+          },
+          {
+            "registry": "gregtech:gt.blockmachines",
+            "item_damage": 1586,
+            "items": 32,
+            "stacks64": 0,
+            "loose": 32
           },
           {
             "registry": "gregtech:gt.blockmachines",
             "item_damage": 5132,
-            "items": 109,
+            "items": 127,
             "stacks64": 1,
-            "loose": 45
+            "loose": 63
           },
           {
             "registry": "minecraft:stone_slab",

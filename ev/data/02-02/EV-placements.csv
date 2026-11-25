@@ -493,16 +493,81 @@ x,y,z,part,title,registry,item_damage,placed_metadata,group,configuration
 138,0,156,OUTPUT_BUS_MV,Output Bus Mv,gregtech:gt.blockmachines,82,,EBF,"{""facing"": ""north""}"
 136,0,157,INPUT_HATCH_MV,Input Hatch Mv,gregtech:gt.blockmachines,52,,EBF,"{""facing"": ""west""}"
 138,0,157,OUTPUT_HATCH_MV,Output Hatch Mv,gregtech:gt.blockmachines,62,,EBF,"{""facing"": ""east""}"
-136,0,158,ENERGY_HATCH_HV,Energy Hatch Hv,gregtech:gt.blockmachines,43,,EBF,"{""facing"": ""west""}"
+136,0,158,ENERGY_HATCH_EV,Energy Hatch Ev,gregtech:gt.blockmachines,44,,EBF,"{""facing"": ""west""}"
 137,0,158,MAINTENANCE_HATCH,Maintenance Hatch,gregtech:gt.blockmachines,90,,EBF,"{""facing"": ""south""}"
 137,3,157,MUFFLER_HATCH_MV,Muffler Hatch Mv,gregtech:gt.blockmachines,92,,EBF,"{""facing"": ""up""}"
 138,3,157,OUTPUT_HATCH_MV,Output Hatch Mv,gregtech:gt.blockmachines,62,,EBF,"{""facing"": ""east""}"
 137,0,156,EBF_CONTROLLER,Ebf Controller,gregtech:gt.blockmachines,1000,,EBF,"{""facing"": ""north""}"
-134,0,158,COMBUSTION_GENERATOR_HV,Combustion Generator Hv,gregtech:gt.blockmachines,1112,,EBF power,"{""facing"": ""east""}"
-135,0,158,C_HV,4x Electrum Cable,gregtech:gt.blockmachines,1448,,EBF power,{}
+134,0,158,BATTERY_BUFFER_2_BY_2_EV,Battery Buffer 2 By 2 Ev,gregtech:gt.blockmachines,174,,EBF power,"{""facing"": ""east"", ""EV_configuration"": ""Replace former generator with EV buffer, output east; one EV battery; disconnect the old fuel inlet below it""}"
+135,0,158,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EBF power,{}
 131,-3,158,FUEL,Steel Fluid Pipe / light fuel ONLY,gregtech:gt.blockmachines,5132,,fuel branch,{}
 132,-3,158,FUEL,Steel Fluid Pipe / light fuel ONLY,gregtech:gt.blockmachines,5132,,fuel branch,{}
 133,-3,158,FUEL,Steel Fluid Pipe / light fuel ONLY,gregtech:gt.blockmachines,5132,,fuel branch,{}
 134,-3,158,FUEL,Steel Fluid Pipe / light fuel ONLY,gregtech:gt.blockmachines,5132,,fuel branch,{}
 134,-2,158,FUEL,Steel Fluid Pipe / light fuel ONLY,gregtech:gt.blockmachines,5132,,fuel branch,{}
 134,-1,158,FUEL,Steel Fluid Pipe / light fuel ONLY,gregtech:gt.blockmachines,5132,,fuel branch,{}
+134,0,138,COMBUSTION_GENERATOR_HV,Combustion Generator Hv,gregtech:gt.blockmachines,1112,,EV EBF conversion pod,"{""facing"": ""south""}"
+131,-3,138,FUEL,Steel Fluid Pipe / light fuel ONLY,gregtech:gt.blockmachines,5132,,fuel branch,{}
+132,-3,138,FUEL,Steel Fluid Pipe / light fuel ONLY,gregtech:gt.blockmachines,5132,,fuel branch,{}
+133,-3,138,FUEL,Steel Fluid Pipe / light fuel ONLY,gregtech:gt.blockmachines,5132,,fuel branch,{}
+134,-3,138,FUEL,Steel Fluid Pipe / light fuel ONLY,gregtech:gt.blockmachines,5132,,fuel branch,{}
+134,-2,138,FUEL,Steel Fluid Pipe / light fuel ONLY,gregtech:gt.blockmachines,5132,,fuel branch,{}
+134,-1,138,FUEL,Steel Fluid Pipe / light fuel ONLY,gregtech:gt.blockmachines,5132,,fuel branch,{}
+136,0,138,COMBUSTION_GENERATOR_HV,Combustion Generator Hv,gregtech:gt.blockmachines,1112,,EV EBF conversion pod,"{""facing"": ""south""}"
+135,-3,138,FUEL,Steel Fluid Pipe / light fuel ONLY,gregtech:gt.blockmachines,5132,,fuel branch,{}
+136,-3,138,FUEL,Steel Fluid Pipe / light fuel ONLY,gregtech:gt.blockmachines,5132,,fuel branch,{}
+136,-2,138,FUEL,Steel Fluid Pipe / light fuel ONLY,gregtech:gt.blockmachines,5132,,fuel branch,{}
+136,-1,138,FUEL,Steel Fluid Pipe / light fuel ONLY,gregtech:gt.blockmachines,5132,,fuel branch,{}
+138,0,138,COMBUSTION_GENERATOR_HV,Combustion Generator Hv,gregtech:gt.blockmachines,1112,,EV EBF conversion pod,"{""facing"": ""south""}"
+137,-3,138,FUEL,Steel Fluid Pipe / light fuel ONLY,gregtech:gt.blockmachines,5132,,fuel branch,{}
+138,-3,138,FUEL,Steel Fluid Pipe / light fuel ONLY,gregtech:gt.blockmachines,5132,,fuel branch,{}
+138,-2,138,FUEL,Steel Fluid Pipe / light fuel ONLY,gregtech:gt.blockmachines,5132,,fuel branch,{}
+138,-1,138,FUEL,Steel Fluid Pipe / light fuel ONLY,gregtech:gt.blockmachines,5132,,fuel branch,{}
+140,0,138,COMBUSTION_GENERATOR_HV,Combustion Generator Hv,gregtech:gt.blockmachines,1112,,EV EBF conversion pod,"{""facing"": ""south""}"
+139,-3,138,FUEL,Steel Fluid Pipe / light fuel ONLY,gregtech:gt.blockmachines,5132,,fuel branch,{}
+140,-3,138,FUEL,Steel Fluid Pipe / light fuel ONLY,gregtech:gt.blockmachines,5132,,fuel branch,{}
+140,-2,138,FUEL,Steel Fluid Pipe / light fuel ONLY,gregtech:gt.blockmachines,5132,,fuel branch,{}
+140,-1,138,FUEL,Steel Fluid Pipe / light fuel ONLY,gregtech:gt.blockmachines,5132,,fuel branch,{}
+134,0,139,C_HV,4x Electrum Cable,gregtech:gt.blockmachines,1448,,EV EBF conversion pod source bus,{}
+135,0,139,C_HV,4x Electrum Cable,gregtech:gt.blockmachines,1448,,EV EBF conversion pod source bus,{}
+136,0,139,C_HV,4x Electrum Cable,gregtech:gt.blockmachines,1448,,EV EBF conversion pod source bus,{}
+137,0,139,C_HV,4x Electrum Cable,gregtech:gt.blockmachines,1448,,EV EBF conversion pod source bus,{}
+138,0,139,C_HV,4x Electrum Cable,gregtech:gt.blockmachines,1448,,EV EBF conversion pod source bus,{}
+139,0,139,C_HV,4x Electrum Cable,gregtech:gt.blockmachines,1448,,EV EBF conversion pod source bus,{}
+140,0,139,C_HV,4x Electrum Cable,gregtech:gt.blockmachines,1448,,EV EBF conversion pod source bus,{}
+141,0,139,C_HV,4x Electrum Cable,gregtech:gt.blockmachines,1448,,EV EBF conversion pod source bus,{}
+142,0,139,BATTERY_BUFFER_2_BY_2_HV,Battery Buffer 2 By 2 Hv,gregtech:gt.blockmachines,173,,EV EBF conversion pod,"{""facing"": ""east"", ""batteries"": ""4 compatible HV batteries required""}"
+143,0,139,C_HV,4x Electrum Cable,gregtech:gt.blockmachines,1448,,EV EBF conversion pod source bus,{}
+144,0,139,transformer_EV_HV,Transformer Ev Hv,gregtech:gt.blockmachines,23,,EV EBF conversion pod,"{""facing"": ""east"", ""mode"": ""STEP-UP: normal work disabled with soft mallet; HV input WEST, EV output EAST""}"
+145,0,139,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV EBF conversion pod conversion lead,{}
+146,0,139,BATTERY_BUFFER_2_BY_2_EV,Battery Buffer 2 By 2 Ev,gregtech:gt.blockmachines,174,,EV EBF conversion pod,"{""facing"": ""south"", ""batteries"": ""1 compatible EV battery initially; do not add output batteries without redesign""}"
+146,0,140,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV EBF conversion pod load bus,{}
+146,0,141,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV EBF conversion pod load bus,{}
+145,0,141,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV EBF conversion pod load bus,{}
+144,0,141,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV EBF conversion pod load bus,{}
+143,0,141,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV EBF conversion pod load bus,{}
+142,0,141,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV EBF conversion pod load bus,{}
+141,0,141,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV EBF conversion pod load bus,{}
+140,0,141,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV EBF conversion pod load bus,{}
+139,0,141,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV EBF conversion pod load bus,{}
+138,0,141,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV EBF conversion pod load bus,{}
+137,0,141,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV EBF conversion pod load bus,{}
+136,0,141,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV EBF conversion pod load bus,{}
+135,0,141,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV EBF conversion pod load bus,{}
+134,0,141,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV EBF conversion pod load bus,{}
+134,0,142,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV EBF relay feed,{}
+134,0,143,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV EBF relay feed,{}
+134,0,144,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV EBF relay feed,{}
+134,0,145,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV EBF relay feed,{}
+134,0,146,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV EBF relay feed,{}
+134,0,147,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV EBF relay feed,{}
+134,0,148,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV EBF relay feed,{}
+134,0,149,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV EBF relay feed,{}
+134,0,150,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV EBF relay feed,{}
+134,0,151,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV EBF relay feed,{}
+134,0,152,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV EBF relay feed,{}
+134,0,153,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV EBF relay feed,{}
+134,0,154,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV EBF relay feed,{}
+134,0,155,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV EBF relay feed,{}
+134,0,156,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV EBF relay feed,{}
+134,0,157,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV EBF relay feed,{}

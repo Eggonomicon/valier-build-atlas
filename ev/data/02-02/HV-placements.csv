@@ -498,7 +498,7 @@ x,y,z,part,title,registry,item_damage,placed_metadata,group,configuration
 137,3,157,MUFFLER_HATCH_MV,Muffler Hatch Mv,gregtech:gt.blockmachines,92,,EBF,"{""facing"": ""up""}"
 138,3,157,OUTPUT_HATCH_MV,Output Hatch Mv,gregtech:gt.blockmachines,62,,EBF,"{""facing"": ""east""}"
 137,0,156,EBF_CONTROLLER,Ebf Controller,gregtech:gt.blockmachines,1000,,EBF,"{""facing"": ""north""}"
-134,0,158,COMBUSTION_GENERATOR_HV,Combustion Generator Hv,gregtech:gt.blockmachines,1112,,EBF power,"{""facing"": ""east""}"
+134,0,158,COMBUSTION_GENERATOR_HV,Combustion Generator Hv,gregtech:gt.blockmachines,1112,,EBF power,"{""facing"": ""east"", ""EV_configuration"": ""Replace former generator with EV buffer, output east; one EV battery; disconnect the old fuel inlet below it""}"
 135,0,158,C_HV,4x Electrum Cable,gregtech:gt.blockmachines,1448,,EBF power,{}
 131,-3,158,FUEL,Steel Fluid Pipe / light fuel ONLY,gregtech:gt.blockmachines,5132,,fuel branch,{}
 132,-3,158,FUEL,Steel Fluid Pipe / light fuel ONLY,gregtech:gt.blockmachines,5132,,fuel branch,{}

@@ -795,6 +795,18 @@
     },
     {
       "stage": "MV",
+      "hall": "02-02",
+      "load": "ENERGY_HATCH_MV input",
+      "position": [
+        136,
+        0,
+        158
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "MV",
       "hall": "03-01",
       "load": "Assembler",
       "position": [
@@ -1467,6 +1479,18 @@
     },
     {
       "stage": "HV",
+      "hall": "01-07",
+      "load": "ENERGY_HATCH_HV input",
+      "position": [
+        616,
+        0,
+        73
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
       "hall": "01-08",
       "load": "Mixer",
       "position": [
@@ -1557,6 +1581,18 @@
         838,
         0,
         54
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "02-02",
+      "load": "ENERGY_HATCH_MV input",
+      "position": [
+        136,
+        0,
+        158
       ],
       "source_generators": 1,
       "tier": "HV"
@@ -1869,6 +1905,18 @@
         70,
         0,
         342
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "04-01",
+      "load": "ENERGY_HATCH_HV input",
+      "position": [
+        40,
+        0,
+        362
       ],
       "source_generators": 1,
       "tier": "HV"
@@ -1971,12 +2019,36 @@
     },
     {
       "stage": "HV",
+      "hall": "04-03",
+      "load": "ENERGY_HATCH_MV input",
+      "position": [
+        243,
+        0,
+        344
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "HV",
       "hall": "04-08",
       "load": "Chemical Reactor",
       "position": [
         712,
         0,
         342
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "04-08",
+      "load": "ENERGY_HATCH_HV input",
+      "position": [
+        712,
+        0,
+        361
       ],
       "source_generators": 1,
       "tier": "HV"
@@ -2535,6 +2607,18 @@
     },
     {
       "stage": "EV",
+      "hall": "01-07",
+      "load": "ENERGY_HATCH_HV input",
+      "position": [
+        616,
+        0,
+        73
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
       "hall": "01-08",
       "load": "Mixer",
       "position": [
@@ -2628,6 +2712,18 @@
       ],
       "source_generators": 1,
       "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-02",
+      "load": "ENERGY_HATCH_MV input",
+      "position": [
+        136,
+        0,
+        158
+      ],
+      "source_generators": 4,
+      "tier": "EV"
     },
     {
       "stage": "EV",
@@ -2937,6 +3033,18 @@
         70,
         0,
         342
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "04-01",
+      "load": "ENERGY_HATCH_HV input",
+      "position": [
+        40,
+        0,
+        362
       ],
       "source_generators": 1,
       "tier": "HV"
@@ -3087,6 +3195,18 @@
     },
     {
       "stage": "EV",
+      "hall": "04-03",
+      "load": "ENERGY_HATCH_MV input",
+      "position": [
+        243,
+        0,
+        344
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "EV",
       "hall": "02-06",
       "load": "Chemical Reactor",
       "position": [
@@ -3333,6 +3453,18 @@
         712,
         0,
         342
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "04-08",
+      "load": "ENERGY_HATCH_HV input",
+      "position": [
+        712,
+        0,
+        361
       ],
       "source_generators": 1,
       "tier": "HV"

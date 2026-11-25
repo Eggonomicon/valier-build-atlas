@@ -2,7 +2,7 @@
   "status": "pass",
   "models": 26,
   "halls": 25,
-  "unique_added_hosts": 18310,
+  "unique_added_hosts": 18375,
   "ground_access": [
     {
       "hall": "01-02",
@@ -295,8 +295,8 @@
     {
       "hall": "02-02",
       "stage": "EV",
-      "hosts": 507,
-      "operator_points": 1,
+      "hosts": 572,
+      "operator_points": 2,
       "access_failures": [],
       "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
     },
@@ -523,7 +523,7 @@
       "components": 1
     },
     "light_fuel": {
-      "hosts": 7083,
+      "hosts": 7101,
       "components": 3
     },
     "sulfuric_heavy_fuel": {
@@ -549,10 +549,10 @@
     "LV_full_generator_envelope_L_t": 2.8789,
     "MV_full_generator_envelope_L_t": 16.4263,
     "HV_full_generator_envelope_L_t": 93.5229,
-    "EV_full_generator_envelope_L_t": 148.8742
+    "EV_full_generator_envelope_L_t": 154.8047
   },
   "errors": [],
-  "authoritative_model_sha256": "5c48d3eb9acb66e3de7eca05fda7464b6ad49d63aa33a03e2e28ac45962f5d1a",
+  "authoritative_model_sha256": "626a41f1689b5de2d6f6e56e9497ac71ae3fa3c8c19d3515c06d36fdb66ef2f0",
   "game_tested": false,
   "crafting_ingredients_verified": false,
   "schematic_policy": "Architecture only, functional equipment remains in coordinate guides."

@@ -42,3 +42,7 @@ x,y,z,source,reason,stage
 152,-6,114,civil branch cap,remove only after U01 enclosed and checked,MV
 152,-5,114,civil branch cap,remove only after U01 enclosed and checked,MV
 134,-1,158,P,Replace exact floor cell with utility riser or cleanroom floor,MV
+134,-1,138,P,Replace exact floor cell with utility riser or cleanroom floor,EV
+136,-1,138,P,Replace exact floor cell with utility riser or cleanroom floor,EV
+138,-1,138,P,Replace exact floor cell with utility riser or cleanroom floor,EV
+140,-1,138,P,Replace exact floor cell with utility riser or cleanroom floor,EV
