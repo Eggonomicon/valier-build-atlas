@@ -1,0 +1,3442 @@
+{
+  "status": "pass",
+  "load_paths": [
+    {
+      "stage": "LV",
+      "hall": "01-04",
+      "load": "Forge Hammer",
+      "position": [
+        328,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "LV",
+      "hall": "01-04",
+      "load": "Compressor",
+      "position": [
+        338,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "LV",
+      "hall": "01-04",
+      "load": "Alloy Smelter",
+      "position": [
+        348,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "LV",
+      "hall": "01-04",
+      "load": "Electric Furnace",
+      "position": [
+        358,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "LV",
+      "hall": "01-04",
+      "load": "Lathe",
+      "position": [
+        328,
+        0,
+        62
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "LV",
+      "hall": "01-04",
+      "load": "Wiremill",
+      "position": [
+        338,
+        0,
+        62
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "LV",
+      "hall": "01-04",
+      "load": "Bending Machine",
+      "position": [
+        348,
+        0,
+        62
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "LV",
+      "hall": "01-04",
+      "load": "Cutting Machine",
+      "position": [
+        358,
+        0,
+        62
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "LV",
+      "hall": "01-04",
+      "load": "Assembler",
+      "position": [
+        328,
+        0,
+        70
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "LV",
+      "hall": "01-04",
+      "load": "Extruder",
+      "position": [
+        338,
+        0,
+        70
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "LV",
+      "hall": "01-04",
+      "load": "Fluid Extractor",
+      "position": [
+        348,
+        0,
+        70
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "LV",
+      "hall": "01-04",
+      "load": "Fluid Solidifier",
+      "position": [
+        358,
+        0,
+        70
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "LV",
+      "hall": "02-01",
+      "load": "Macerator",
+      "position": [
+        40,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "LV",
+      "hall": "02-01",
+      "load": "Macerator",
+      "position": [
+        50,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "LV",
+      "hall": "02-01",
+      "load": "Ore Washer",
+      "position": [
+        60,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "LV",
+      "hall": "02-01",
+      "load": "Forge Hammer",
+      "position": [
+        70,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "LV",
+      "hall": "02-03",
+      "load": "Chemical Reactor",
+      "position": [
+        232,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "LV",
+      "hall": "02-03",
+      "load": "Chemical Reactor",
+      "position": [
+        242,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "LV",
+      "hall": "02-03",
+      "load": "Electrolyser",
+      "position": [
+        252,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "LV",
+      "hall": "02-03",
+      "load": "Mixer",
+      "position": [
+        262,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "LV",
+      "hall": "02-03",
+      "load": "Centrifuge",
+      "position": [
+        232,
+        0,
+        158
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "LV",
+      "hall": "02-03",
+      "load": "Distillery",
+      "position": [
+        242,
+        0,
+        158
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "LV",
+      "hall": "02-04",
+      "load": "Circuit Assembler",
+      "position": [
+        328,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "LV",
+      "hall": "02-04",
+      "load": "Assembler",
+      "position": [
+        338,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "LV",
+      "hall": "02-04",
+      "load": "Wiremill",
+      "position": [
+        348,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "LV",
+      "hall": "02-04",
+      "load": "Forming Press",
+      "position": [
+        358,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "MV",
+      "hall": "01-04",
+      "load": "Forge Hammer",
+      "position": [
+        328,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "MV",
+      "hall": "01-04",
+      "load": "Compressor",
+      "position": [
+        338,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "MV",
+      "hall": "01-04",
+      "load": "Alloy Smelter",
+      "position": [
+        348,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "MV",
+      "hall": "01-04",
+      "load": "Electric Furnace",
+      "position": [
+        358,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "MV",
+      "hall": "01-04",
+      "load": "Lathe",
+      "position": [
+        328,
+        0,
+        62
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "MV",
+      "hall": "01-04",
+      "load": "Wiremill",
+      "position": [
+        338,
+        0,
+        62
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "MV",
+      "hall": "01-04",
+      "load": "Bending Machine",
+      "position": [
+        348,
+        0,
+        62
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "MV",
+      "hall": "01-04",
+      "load": "Cutting Machine",
+      "position": [
+        358,
+        0,
+        62
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "MV",
+      "hall": "01-04",
+      "load": "Assembler",
+      "position": [
+        328,
+        0,
+        70
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "MV",
+      "hall": "01-04",
+      "load": "Extruder",
+      "position": [
+        338,
+        0,
+        70
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "MV",
+      "hall": "01-04",
+      "load": "Fluid Extractor",
+      "position": [
+        348,
+        0,
+        70
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "MV",
+      "hall": "01-04",
+      "load": "Fluid Solidifier",
+      "position": [
+        358,
+        0,
+        70
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "MV",
+      "hall": "02-01",
+      "load": "Macerator",
+      "position": [
+        40,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "MV",
+      "hall": "02-01",
+      "load": "Macerator",
+      "position": [
+        50,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "MV",
+      "hall": "02-01",
+      "load": "Ore Washer",
+      "position": [
+        60,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "MV",
+      "hall": "02-01",
+      "load": "Forge Hammer",
+      "position": [
+        70,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "MV",
+      "hall": "02-01",
+      "load": "Thermal Centrifuge",
+      "position": [
+        40,
+        0,
+        166
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "MV",
+      "hall": "02-01",
+      "load": "Centrifuge",
+      "position": [
+        50,
+        0,
+        166
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "MV",
+      "hall": "02-03",
+      "load": "Chemical Reactor",
+      "position": [
+        232,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "MV",
+      "hall": "02-03",
+      "load": "Chemical Reactor",
+      "position": [
+        242,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "MV",
+      "hall": "02-03",
+      "load": "Electrolyser",
+      "position": [
+        252,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "MV",
+      "hall": "02-03",
+      "load": "Mixer",
+      "position": [
+        262,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "MV",
+      "hall": "02-03",
+      "load": "Centrifuge",
+      "position": [
+        232,
+        0,
+        158
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "MV",
+      "hall": "02-03",
+      "load": "Distillery",
+      "position": [
+        242,
+        0,
+        158
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "MV",
+      "hall": "02-04",
+      "load": "Circuit Assembler",
+      "position": [
+        328,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "MV",
+      "hall": "02-04",
+      "load": "Assembler",
+      "position": [
+        338,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "MV",
+      "hall": "02-04",
+      "load": "Wiremill",
+      "position": [
+        348,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "MV",
+      "hall": "02-04",
+      "load": "Forming Press",
+      "position": [
+        358,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "MV",
+      "hall": "01-06",
+      "load": "Chemical Reactor",
+      "position": [
+        520,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "MV",
+      "hall": "01-06",
+      "load": "Chemical Reactor",
+      "position": [
+        530,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "MV",
+      "hall": "01-06",
+      "load": "Extruder",
+      "position": [
+        540,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "MV",
+      "hall": "01-06",
+      "load": "Fluid Extractor",
+      "position": [
+        550,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "MV",
+      "hall": "01-06",
+      "load": "Fluid Solidifier",
+      "position": [
+        520,
+        0,
+        62
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "MV",
+      "hall": "01-06",
+      "load": "Compressor",
+      "position": [
+        530,
+        0,
+        62
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "MV",
+      "hall": "01-06",
+      "load": "Distillery",
+      "position": [
+        540,
+        0,
+        62
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "MV",
+      "hall": "01-06",
+      "load": "Mixer",
+      "position": [
+        550,
+        0,
+        62
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "MV",
+      "hall": "01-08",
+      "load": "Mixer",
+      "position": [
+        712,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "MV",
+      "hall": "01-08",
+      "load": "Alloy Smelter",
+      "position": [
+        722,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "MV",
+      "hall": "01-08",
+      "load": "Electrolyser",
+      "position": [
+        732,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "MV",
+      "hall": "01-08",
+      "load": "Chemical Reactor",
+      "position": [
+        742,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "MV",
+      "hall": "03-01",
+      "load": "Assembler",
+      "position": [
+        40,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "MV",
+      "hall": "03-01",
+      "load": "Assembler",
+      "position": [
+        50,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "MV",
+      "hall": "03-01",
+      "load": "Extruder",
+      "position": [
+        60,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "MV",
+      "hall": "03-01",
+      "load": "Lathe",
+      "position": [
+        70,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "MV",
+      "hall": "03-01",
+      "load": "Bending Machine",
+      "position": [
+        40,
+        0,
+        254
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "MV",
+      "hall": "03-01",
+      "load": "Cutting Machine",
+      "position": [
+        50,
+        0,
+        254
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "MV",
+      "hall": "03-01",
+      "load": "Wiremill",
+      "position": [
+        60,
+        0,
+        254
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "MV",
+      "hall": "03-01",
+      "load": "Forming Press",
+      "position": [
+        70,
+        0,
+        254
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "MV",
+      "hall": "03-02",
+      "load": "Fluid Canner",
+      "position": [
+        136,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "MV",
+      "hall": "03-02",
+      "load": "Mixer",
+      "position": [
+        146,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "MV",
+      "hall": "03-03",
+      "load": "Assembler",
+      "position": [
+        232,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "MV",
+      "hall": "03-03",
+      "load": "Bending Machine",
+      "position": [
+        242,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "MV",
+      "hall": "03-03",
+      "load": "Wiremill",
+      "position": [
+        252,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "MV",
+      "hall": "03-03",
+      "load": "Compressor",
+      "position": [
+        262,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "HV",
+      "hall": "01-04",
+      "load": "Forge Hammer",
+      "position": [
+        328,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "HV",
+      "hall": "01-04",
+      "load": "Compressor",
+      "position": [
+        338,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "HV",
+      "hall": "01-04",
+      "load": "Alloy Smelter",
+      "position": [
+        348,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "HV",
+      "hall": "01-04",
+      "load": "Electric Furnace",
+      "position": [
+        358,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "HV",
+      "hall": "01-04",
+      "load": "Lathe",
+      "position": [
+        328,
+        0,
+        62
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "HV",
+      "hall": "01-04",
+      "load": "Wiremill",
+      "position": [
+        338,
+        0,
+        62
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "HV",
+      "hall": "01-04",
+      "load": "Bending Machine",
+      "position": [
+        348,
+        0,
+        62
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "HV",
+      "hall": "01-04",
+      "load": "Cutting Machine",
+      "position": [
+        358,
+        0,
+        62
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "HV",
+      "hall": "01-04",
+      "load": "Assembler",
+      "position": [
+        328,
+        0,
+        70
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "HV",
+      "hall": "01-04",
+      "load": "Extruder",
+      "position": [
+        338,
+        0,
+        70
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "HV",
+      "hall": "01-04",
+      "load": "Fluid Extractor",
+      "position": [
+        348,
+        0,
+        70
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "HV",
+      "hall": "01-04",
+      "load": "Fluid Solidifier",
+      "position": [
+        358,
+        0,
+        70
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "HV",
+      "hall": "02-01",
+      "load": "Macerator",
+      "position": [
+        40,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "HV",
+      "hall": "02-01",
+      "load": "Macerator",
+      "position": [
+        50,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "HV",
+      "hall": "02-01",
+      "load": "Ore Washer",
+      "position": [
+        60,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "HV",
+      "hall": "02-01",
+      "load": "Forge Hammer",
+      "position": [
+        70,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "HV",
+      "hall": "02-01",
+      "load": "Thermal Centrifuge",
+      "position": [
+        40,
+        0,
+        166
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "HV",
+      "hall": "02-01",
+      "load": "Centrifuge",
+      "position": [
+        50,
+        0,
+        166
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "HV",
+      "hall": "02-01",
+      "load": "Sifter",
+      "position": [
+        60,
+        0,
+        166
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "02-01",
+      "load": "Chemical Bath",
+      "position": [
+        70,
+        0,
+        166
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "02-03",
+      "load": "Chemical Reactor",
+      "position": [
+        232,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "HV",
+      "hall": "02-03",
+      "load": "Chemical Reactor",
+      "position": [
+        242,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "HV",
+      "hall": "02-03",
+      "load": "Electrolyser",
+      "position": [
+        252,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "HV",
+      "hall": "02-03",
+      "load": "Mixer",
+      "position": [
+        262,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "HV",
+      "hall": "02-03",
+      "load": "Centrifuge",
+      "position": [
+        232,
+        0,
+        158
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "HV",
+      "hall": "02-03",
+      "load": "Distillery",
+      "position": [
+        242,
+        0,
+        158
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "HV",
+      "hall": "02-04",
+      "load": "Circuit Assembler",
+      "position": [
+        328,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "HV",
+      "hall": "02-04",
+      "load": "Assembler",
+      "position": [
+        338,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "HV",
+      "hall": "02-04",
+      "load": "Wiremill",
+      "position": [
+        348,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "HV",
+      "hall": "02-04",
+      "load": "Forming Press",
+      "position": [
+        358,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "HV",
+      "hall": "01-06",
+      "load": "Chemical Reactor",
+      "position": [
+        520,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "HV",
+      "hall": "01-06",
+      "load": "Chemical Reactor",
+      "position": [
+        530,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "HV",
+      "hall": "01-06",
+      "load": "Extruder",
+      "position": [
+        540,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "HV",
+      "hall": "01-06",
+      "load": "Fluid Extractor",
+      "position": [
+        550,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "HV",
+      "hall": "01-06",
+      "load": "Fluid Solidifier",
+      "position": [
+        520,
+        0,
+        62
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "HV",
+      "hall": "01-06",
+      "load": "Compressor",
+      "position": [
+        530,
+        0,
+        62
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "HV",
+      "hall": "01-06",
+      "load": "Distillery",
+      "position": [
+        540,
+        0,
+        62
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "HV",
+      "hall": "01-06",
+      "load": "Mixer",
+      "position": [
+        550,
+        0,
+        62
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "HV",
+      "hall": "01-07",
+      "load": "Chemical Reactor",
+      "position": [
+        616,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "01-07",
+      "load": "Mixer",
+      "position": [
+        626,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "01-07",
+      "load": "Distillery",
+      "position": [
+        636,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "01-07",
+      "load": "Centrifuge",
+      "position": [
+        646,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "01-08",
+      "load": "Mixer",
+      "position": [
+        712,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "HV",
+      "hall": "01-08",
+      "load": "Alloy Smelter",
+      "position": [
+        722,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "HV",
+      "hall": "01-08",
+      "load": "Electrolyser",
+      "position": [
+        732,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "HV",
+      "hall": "01-08",
+      "load": "Chemical Reactor",
+      "position": [
+        742,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "HV",
+      "hall": "01-09",
+      "load": "Assembler",
+      "position": [
+        808,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "01-09",
+      "load": "Forming Press",
+      "position": [
+        818,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "01-09",
+      "load": "Wiremill",
+      "position": [
+        828,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "01-09",
+      "load": "Laser Engraver",
+      "position": [
+        838,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "03-01",
+      "load": "Assembler",
+      "position": [
+        40,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "HV",
+      "hall": "03-01",
+      "load": "Assembler",
+      "position": [
+        50,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "HV",
+      "hall": "03-01",
+      "load": "Extruder",
+      "position": [
+        60,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "HV",
+      "hall": "03-01",
+      "load": "Lathe",
+      "position": [
+        70,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "HV",
+      "hall": "03-01",
+      "load": "Bending Machine",
+      "position": [
+        40,
+        0,
+        254
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "HV",
+      "hall": "03-01",
+      "load": "Cutting Machine",
+      "position": [
+        50,
+        0,
+        254
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "HV",
+      "hall": "03-01",
+      "load": "Wiremill",
+      "position": [
+        60,
+        0,
+        254
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "HV",
+      "hall": "03-01",
+      "load": "Forming Press",
+      "position": [
+        70,
+        0,
+        254
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "HV",
+      "hall": "03-02",
+      "load": "Fluid Canner",
+      "position": [
+        136,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "HV",
+      "hall": "03-02",
+      "load": "Mixer",
+      "position": [
+        146,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "HV",
+      "hall": "03-03",
+      "load": "Assembler",
+      "position": [
+        232,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "HV",
+      "hall": "03-03",
+      "load": "Bending Machine",
+      "position": [
+        242,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "HV",
+      "hall": "03-03",
+      "load": "Wiremill",
+      "position": [
+        252,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "HV",
+      "hall": "03-03",
+      "load": "Compressor",
+      "position": [
+        262,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "HV",
+      "hall": "03-04",
+      "load": "Assembler",
+      "position": [
+        328,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "03-04",
+      "load": "Assembler",
+      "position": [
+        338,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "03-04",
+      "load": "Extruder",
+      "position": [
+        348,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "03-04",
+      "load": "Lathe",
+      "position": [
+        358,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "03-04",
+      "load": "Wiremill",
+      "position": [
+        328,
+        0,
+        254
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "03-04",
+      "load": "Cutting Machine",
+      "position": [
+        338,
+        0,
+        254
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "03-04",
+      "load": "Forming Press",
+      "position": [
+        348,
+        0,
+        254
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "03-04",
+      "load": "Polarizer",
+      "position": [
+        358,
+        0,
+        254
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "04-01",
+      "load": "Mixer",
+      "position": [
+        40,
+        0,
+        342
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "04-01",
+      "load": "Alloy Smelter",
+      "position": [
+        50,
+        0,
+        342
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "04-01",
+      "load": "Electric Furnace",
+      "position": [
+        60,
+        0,
+        342
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "04-01",
+      "load": "Compressor",
+      "position": [
+        70,
+        0,
+        342
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "04-02",
+      "load": "Chemical Reactor",
+      "position": [
+        136,
+        0,
+        342
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "04-02",
+      "load": "Chemical Reactor",
+      "position": [
+        146,
+        0,
+        342
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "04-02",
+      "load": "Electrolyser",
+      "position": [
+        156,
+        0,
+        342
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "04-02",
+      "load": "Centrifuge",
+      "position": [
+        166,
+        0,
+        342
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "04-02",
+      "load": "Mixer",
+      "position": [
+        136,
+        0,
+        350
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "04-02",
+      "load": "Chemical Bath",
+      "position": [
+        146,
+        0,
+        350
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "04-03",
+      "load": "CIRCUIT_ASSEMBLER cleanroom",
+      "position": [
+        237,
+        0,
+        348
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "04-03",
+      "load": "LASER_ENGRAVER cleanroom",
+      "position": [
+        237,
+        0,
+        352
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "04-08",
+      "load": "Chemical Reactor",
+      "position": [
+        712,
+        0,
+        342
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "06-06",
+      "load": "Assembler",
+      "position": [
+        520,
+        0,
+        534
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "06-06",
+      "load": "Bending Machine",
+      "position": [
+        530,
+        0,
+        534
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "06-06",
+      "load": "Wiremill",
+      "position": [
+        540,
+        0,
+        534
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "HV",
+      "hall": "06-06",
+      "load": "Compressor",
+      "position": [
+        550,
+        0,
+        534
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "01-04",
+      "load": "Forge Hammer",
+      "position": [
+        328,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "EV",
+      "hall": "01-04",
+      "load": "Compressor",
+      "position": [
+        338,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "EV",
+      "hall": "01-04",
+      "load": "Alloy Smelter",
+      "position": [
+        348,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "EV",
+      "hall": "01-04",
+      "load": "Electric Furnace",
+      "position": [
+        358,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "EV",
+      "hall": "01-04",
+      "load": "Lathe",
+      "position": [
+        328,
+        0,
+        62
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "EV",
+      "hall": "01-04",
+      "load": "Wiremill",
+      "position": [
+        338,
+        0,
+        62
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "EV",
+      "hall": "01-04",
+      "load": "Bending Machine",
+      "position": [
+        348,
+        0,
+        62
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "EV",
+      "hall": "01-04",
+      "load": "Cutting Machine",
+      "position": [
+        358,
+        0,
+        62
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "EV",
+      "hall": "01-04",
+      "load": "Assembler",
+      "position": [
+        328,
+        0,
+        70
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "EV",
+      "hall": "01-04",
+      "load": "Extruder",
+      "position": [
+        338,
+        0,
+        70
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "EV",
+      "hall": "01-04",
+      "load": "Fluid Extractor",
+      "position": [
+        348,
+        0,
+        70
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "EV",
+      "hall": "01-04",
+      "load": "Fluid Solidifier",
+      "position": [
+        358,
+        0,
+        70
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-01",
+      "load": "Macerator",
+      "position": [
+        40,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-01",
+      "load": "Macerator",
+      "position": [
+        50,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-01",
+      "load": "Ore Washer",
+      "position": [
+        60,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-01",
+      "load": "Forge Hammer",
+      "position": [
+        70,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-01",
+      "load": "Thermal Centrifuge",
+      "position": [
+        40,
+        0,
+        166
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-01",
+      "load": "Centrifuge",
+      "position": [
+        50,
+        0,
+        166
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-01",
+      "load": "Sifter",
+      "position": [
+        60,
+        0,
+        166
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-01",
+      "load": "Chemical Bath",
+      "position": [
+        70,
+        0,
+        166
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-03",
+      "load": "Chemical Reactor",
+      "position": [
+        232,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-03",
+      "load": "Chemical Reactor",
+      "position": [
+        242,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-03",
+      "load": "Electrolyser",
+      "position": [
+        252,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-03",
+      "load": "Mixer",
+      "position": [
+        262,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-03",
+      "load": "Centrifuge",
+      "position": [
+        232,
+        0,
+        158
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-03",
+      "load": "Distillery",
+      "position": [
+        242,
+        0,
+        158
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-04",
+      "load": "Circuit Assembler",
+      "position": [
+        328,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-04",
+      "load": "Assembler",
+      "position": [
+        338,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-04",
+      "load": "Wiremill",
+      "position": [
+        348,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-04",
+      "load": "Forming Press",
+      "position": [
+        358,
+        0,
+        150
+      ],
+      "source_generators": 1,
+      "tier": "LV"
+    },
+    {
+      "stage": "EV",
+      "hall": "01-06",
+      "load": "Chemical Reactor",
+      "position": [
+        520,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "EV",
+      "hall": "01-06",
+      "load": "Chemical Reactor",
+      "position": [
+        530,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "EV",
+      "hall": "01-06",
+      "load": "Extruder",
+      "position": [
+        540,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "EV",
+      "hall": "01-06",
+      "load": "Fluid Extractor",
+      "position": [
+        550,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "EV",
+      "hall": "01-06",
+      "load": "Fluid Solidifier",
+      "position": [
+        520,
+        0,
+        62
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "EV",
+      "hall": "01-06",
+      "load": "Compressor",
+      "position": [
+        530,
+        0,
+        62
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "EV",
+      "hall": "01-06",
+      "load": "Distillery",
+      "position": [
+        540,
+        0,
+        62
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "EV",
+      "hall": "01-06",
+      "load": "Mixer",
+      "position": [
+        550,
+        0,
+        62
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "EV",
+      "hall": "01-07",
+      "load": "Chemical Reactor",
+      "position": [
+        616,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "01-07",
+      "load": "Mixer",
+      "position": [
+        626,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "01-07",
+      "load": "Distillery",
+      "position": [
+        636,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "01-07",
+      "load": "Centrifuge",
+      "position": [
+        646,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "01-08",
+      "load": "Mixer",
+      "position": [
+        712,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "EV",
+      "hall": "01-08",
+      "load": "Alloy Smelter",
+      "position": [
+        722,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "EV",
+      "hall": "01-08",
+      "load": "Electrolyser",
+      "position": [
+        732,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "EV",
+      "hall": "01-08",
+      "load": "Chemical Reactor",
+      "position": [
+        742,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "EV",
+      "hall": "01-09",
+      "load": "Assembler",
+      "position": [
+        808,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "01-09",
+      "load": "Forming Press",
+      "position": [
+        818,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "01-09",
+      "load": "Wiremill",
+      "position": [
+        828,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "01-09",
+      "load": "Laser Engraver",
+      "position": [
+        838,
+        0,
+        54
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "03-01",
+      "load": "Assembler",
+      "position": [
+        40,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "EV",
+      "hall": "03-01",
+      "load": "Assembler",
+      "position": [
+        50,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "EV",
+      "hall": "03-01",
+      "load": "Extruder",
+      "position": [
+        60,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "EV",
+      "hall": "03-01",
+      "load": "Lathe",
+      "position": [
+        70,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "EV",
+      "hall": "03-01",
+      "load": "Bending Machine",
+      "position": [
+        40,
+        0,
+        254
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "EV",
+      "hall": "03-01",
+      "load": "Cutting Machine",
+      "position": [
+        50,
+        0,
+        254
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "EV",
+      "hall": "03-01",
+      "load": "Wiremill",
+      "position": [
+        60,
+        0,
+        254
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "EV",
+      "hall": "03-01",
+      "load": "Forming Press",
+      "position": [
+        70,
+        0,
+        254
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "EV",
+      "hall": "03-02",
+      "load": "Fluid Canner",
+      "position": [
+        136,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "EV",
+      "hall": "03-02",
+      "load": "Mixer",
+      "position": [
+        146,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "EV",
+      "hall": "03-03",
+      "load": "Assembler",
+      "position": [
+        232,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "EV",
+      "hall": "03-03",
+      "load": "Bending Machine",
+      "position": [
+        242,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "EV",
+      "hall": "03-03",
+      "load": "Wiremill",
+      "position": [
+        252,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "EV",
+      "hall": "03-03",
+      "load": "Compressor",
+      "position": [
+        262,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "MV"
+    },
+    {
+      "stage": "EV",
+      "hall": "03-04",
+      "load": "Assembler",
+      "position": [
+        328,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "03-04",
+      "load": "Assembler",
+      "position": [
+        338,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "03-04",
+      "load": "Extruder",
+      "position": [
+        348,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "03-04",
+      "load": "Lathe",
+      "position": [
+        358,
+        0,
+        246
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "03-04",
+      "load": "Wiremill",
+      "position": [
+        328,
+        0,
+        254
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "03-04",
+      "load": "Cutting Machine",
+      "position": [
+        338,
+        0,
+        254
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "03-04",
+      "load": "Forming Press",
+      "position": [
+        348,
+        0,
+        254
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "03-04",
+      "load": "Polarizer",
+      "position": [
+        358,
+        0,
+        254
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "04-01",
+      "load": "Mixer",
+      "position": [
+        40,
+        0,
+        342
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "04-01",
+      "load": "Alloy Smelter",
+      "position": [
+        50,
+        0,
+        342
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "04-01",
+      "load": "Electric Furnace",
+      "position": [
+        60,
+        0,
+        342
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "04-01",
+      "load": "Compressor",
+      "position": [
+        70,
+        0,
+        342
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "04-02",
+      "load": "Chemical Reactor",
+      "position": [
+        136,
+        0,
+        342
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "04-02",
+      "load": "Chemical Reactor",
+      "position": [
+        146,
+        0,
+        342
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "04-02",
+      "load": "Electrolyser",
+      "position": [
+        156,
+        0,
+        342
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "04-02",
+      "load": "Centrifuge",
+      "position": [
+        166,
+        0,
+        342
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "04-02",
+      "load": "Mixer",
+      "position": [
+        136,
+        0,
+        350
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "04-02",
+      "load": "Chemical Bath",
+      "position": [
+        146,
+        0,
+        350
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "04-03",
+      "load": "CIRCUIT_ASSEMBLER cleanroom",
+      "position": [
+        237,
+        0,
+        348
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "04-03",
+      "load": "LASER_ENGRAVER cleanroom",
+      "position": [
+        237,
+        0,
+        352
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "04-03",
+      "load": "Laser Engraver",
+      "position": [
+        242,
+        0,
+        332
+      ],
+      "source_generators": 4,
+      "tier": "EV"
+    },
+    {
+      "stage": "EV",
+      "hall": "04-03",
+      "load": "Forming Press",
+      "position": [
+        248,
+        0,
+        332
+      ],
+      "source_generators": 4,
+      "tier": "EV"
+    },
+    {
+      "stage": "EV",
+      "hall": "04-03",
+      "load": "CIRCUIT_ASSEMBLER EV cleanroom",
+      "position": [
+        245,
+        0,
+        348
+      ],
+      "source_generators": 4,
+      "tier": "EV"
+    },
+    {
+      "stage": "EV",
+      "hall": "04-03",
+      "load": "ASSEMBLER EV cleanroom",
+      "position": [
+        245,
+        0,
+        352
+      ],
+      "source_generators": 4,
+      "tier": "EV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-06",
+      "load": "Chemical Reactor",
+      "position": [
+        518,
+        0,
+        154
+      ],
+      "source_generators": 4,
+      "tier": "EV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-06",
+      "load": "Chemical Reactor",
+      "position": [
+        524,
+        0,
+        154
+      ],
+      "source_generators": 4,
+      "tier": "EV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-06",
+      "load": "Electrolyser",
+      "position": [
+        530,
+        0,
+        154
+      ],
+      "source_generators": 4,
+      "tier": "EV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-06",
+      "load": "Centrifuge",
+      "position": [
+        536,
+        0,
+        154
+      ],
+      "source_generators": 4,
+      "tier": "EV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-06",
+      "load": "Mixer",
+      "position": [
+        518,
+        0,
+        168
+      ],
+      "source_generators": 4,
+      "tier": "EV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-06",
+      "load": "Autoclave",
+      "position": [
+        524,
+        0,
+        168
+      ],
+      "source_generators": 4,
+      "tier": "EV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-06",
+      "load": "Autoclave",
+      "position": [
+        530,
+        0,
+        168
+      ],
+      "source_generators": 4,
+      "tier": "EV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-06",
+      "load": "Distillery",
+      "position": [
+        536,
+        0,
+        168
+      ],
+      "source_generators": 4,
+      "tier": "EV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-07",
+      "load": "Macerator",
+      "position": [
+        614,
+        0,
+        154
+      ],
+      "source_generators": 4,
+      "tier": "EV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-07",
+      "load": "Centrifuge",
+      "position": [
+        620,
+        0,
+        154
+      ],
+      "source_generators": 4,
+      "tier": "EV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-07",
+      "load": "Sifter",
+      "position": [
+        626,
+        0,
+        154
+      ],
+      "source_generators": 4,
+      "tier": "EV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-07",
+      "load": "Ore Washer",
+      "position": [
+        632,
+        0,
+        154
+      ],
+      "source_generators": 4,
+      "tier": "EV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-07",
+      "load": "Thermal Centrifuge",
+      "position": [
+        614,
+        0,
+        168
+      ],
+      "source_generators": 4,
+      "tier": "EV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-07",
+      "load": "Assembler",
+      "position": [
+        620,
+        0,
+        168
+      ],
+      "source_generators": 4,
+      "tier": "EV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-07",
+      "load": "Forming Press",
+      "position": [
+        626,
+        0,
+        168
+      ],
+      "source_generators": 4,
+      "tier": "EV"
+    },
+    {
+      "stage": "EV",
+      "hall": "02-07",
+      "load": "Cutting Machine",
+      "position": [
+        632,
+        0,
+        168
+      ],
+      "source_generators": 4,
+      "tier": "EV"
+    },
+    {
+      "stage": "EV",
+      "hall": "04-07",
+      "load": "Chemical Reactor",
+      "position": [
+        614,
+        0,
+        346
+      ],
+      "source_generators": 4,
+      "tier": "EV"
+    },
+    {
+      "stage": "EV",
+      "hall": "04-07",
+      "load": "Chemical Reactor",
+      "position": [
+        620,
+        0,
+        346
+      ],
+      "source_generators": 4,
+      "tier": "EV"
+    },
+    {
+      "stage": "EV",
+      "hall": "04-07",
+      "load": "Chemical Reactor",
+      "position": [
+        626,
+        0,
+        346
+      ],
+      "source_generators": 4,
+      "tier": "EV"
+    },
+    {
+      "stage": "EV",
+      "hall": "04-07",
+      "load": "Electrolyser",
+      "position": [
+        632,
+        0,
+        346
+      ],
+      "source_generators": 4,
+      "tier": "EV"
+    },
+    {
+      "stage": "EV",
+      "hall": "04-08",
+      "load": "Chemical Reactor",
+      "position": [
+        712,
+        0,
+        342
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "06-06",
+      "load": "Assembler",
+      "position": [
+        520,
+        0,
+        534
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "06-06",
+      "load": "Bending Machine",
+      "position": [
+        530,
+        0,
+        534
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "06-06",
+      "load": "Wiremill",
+      "position": [
+        540,
+        0,
+        534
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "06-06",
+      "load": "Compressor",
+      "position": [
+        550,
+        0,
+        534
+      ],
+      "source_generators": 1,
+      "tier": "HV"
+    },
+    {
+      "stage": "EV",
+      "hall": "06-07",
+      "load": "Assembler",
+      "position": [
+        614,
+        0,
+        538
+      ],
+      "source_generators": 4,
+      "tier": "EV"
+    },
+    {
+      "stage": "EV",
+      "hall": "06-07",
+      "load": "Bending Machine",
+      "position": [
+        620,
+        0,
+        538
+      ],
+      "source_generators": 4,
+      "tier": "EV"
+    },
+    {
+      "stage": "EV",
+      "hall": "06-07",
+      "load": "Wiremill",
+      "position": [
+        626,
+        0,
+        538
+      ],
+      "source_generators": 4,
+      "tier": "EV"
+    },
+    {
+      "stage": "EV",
+      "hall": "06-07",
+      "load": "Compressor",
+      "position": [
+        632,
+        0,
+        538
+      ],
+      "source_generators": 4,
+      "tier": "EV"
+    }
+  ],
+  "errors": [],
+  "method": "Directed typed source paths through explicitly oriented cables, hulls, buffers and step-up transformer. No flow/tick simulation, battery chemistry or measured game performance.",
+  "EV_peak_concurrency_per_pod": 1,
+  "fuel_production_does_not_cover_full_installed_concurrency": true,
+  "game_tested": false
+}

@@ -1,0 +1,48 @@
+x,y,z,source,reason,stage
+51,-7,310,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,HV
+51,-7,311,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,HV
+52,-7,310,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,HV
+52,-7,311,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,HV
+53,-7,310,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,HV
+53,-7,311,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,HV
+54,-7,310,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,HV
+54,-7,311,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,HV
+55,-7,310,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,HV
+55,-7,311,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,HV
+56,-7,310,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,HV
+56,-7,311,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,HV
+51,-9,306,civil branch cap,remove only after U01 enclosed and checked,HV
+51,-8,306,civil branch cap,remove only after U01 enclosed and checked,HV
+51,-7,306,civil branch cap,remove only after U01 enclosed and checked,HV
+51,-6,306,civil branch cap,remove only after U01 enclosed and checked,HV
+51,-5,306,civil branch cap,remove only after U01 enclosed and checked,HV
+52,-9,306,civil branch cap,remove only after U01 enclosed and checked,HV
+52,-8,306,civil branch cap,remove only after U01 enclosed and checked,HV
+52,-7,306,civil branch cap,remove only after U01 enclosed and checked,HV
+52,-6,306,civil branch cap,remove only after U01 enclosed and checked,HV
+52,-5,306,civil branch cap,remove only after U01 enclosed and checked,HV
+53,-9,306,civil branch cap,remove only after U01 enclosed and checked,HV
+53,-8,306,civil branch cap,remove only after U01 enclosed and checked,HV
+53,-7,306,civil branch cap,remove only after U01 enclosed and checked,HV
+53,-6,306,civil branch cap,remove only after U01 enclosed and checked,HV
+53,-5,306,civil branch cap,remove only after U01 enclosed and checked,HV
+54,-9,306,civil branch cap,remove only after U01 enclosed and checked,HV
+54,-8,306,civil branch cap,remove only after U01 enclosed and checked,HV
+54,-7,306,civil branch cap,remove only after U01 enclosed and checked,HV
+54,-6,306,civil branch cap,remove only after U01 enclosed and checked,HV
+54,-5,306,civil branch cap,remove only after U01 enclosed and checked,HV
+55,-9,306,civil branch cap,remove only after U01 enclosed and checked,HV
+55,-8,306,civil branch cap,remove only after U01 enclosed and checked,HV
+55,-7,306,civil branch cap,remove only after U01 enclosed and checked,HV
+55,-6,306,civil branch cap,remove only after U01 enclosed and checked,HV
+55,-5,306,civil branch cap,remove only after U01 enclosed and checked,HV
+56,-9,306,civil branch cap,remove only after U01 enclosed and checked,HV
+56,-8,306,civil branch cap,remove only after U01 enclosed and checked,HV
+56,-7,306,civil branch cap,remove only after U01 enclosed and checked,HV
+56,-6,306,civil branch cap,remove only after U01 enclosed and checked,HV
+56,-5,306,civil branch cap,remove only after U01 enclosed and checked,HV
+38,-1,342,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+48,-1,342,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+58,-1,342,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+68,-1,342,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+38,-1,362,P,Replace exact floor cell with utility riser or cleanroom floor,HV

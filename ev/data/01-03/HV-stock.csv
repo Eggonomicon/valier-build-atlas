@@ -1,0 +1,5 @@
+registry,item_damage,installed_items,stacks64,loose
+EnderIO:blockReservoir,0,4,0,4
+gregtech:gt.blockmachines,5131,81,1,17
+minecraft:stone_slab,0,18,0,18
+minecraft:stonebrick,0,344,5,24

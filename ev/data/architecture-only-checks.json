@@ -1,0 +1,308 @@
+{
+  "status": "pass",
+  "schematics": 27,
+  "occupied_architecture_hosts": 637068,
+  "registry_names": [
+    "ArchitectureCraft:shape",
+    "ForgeMultipart:block",
+    "TConstruct:GlassBlock.StainedClear",
+    "Ztones:tile.agonBlock",
+    "Ztones:tile.korpBlock",
+    "minecraft:air",
+    "minecraft:dirt",
+    "minecraft:leaves",
+    "minecraft:log",
+    "minecraft:red_flower",
+    "minecraft:stone_slab",
+    "minecraft:stonebrick"
+  ],
+  "embedded_architectural_materials": [
+    "Ztones:tile.agonBlock",
+    "Ztones:tile.agonBlock_13",
+    "Ztones:tile.agonBlock_15",
+    "chisel:glass",
+    "tile.extrautils:greenscreen",
+    "tile.extrautils:greenscreen_9"
+  ],
+  "tile_entity_types": {
+    "savedMultipart": 49312,
+    "gcewing.shape": 28069
+  },
+  "functional_machine_pipe_cable_conduit_tank_or_coil_blocks": 0,
+  "source_architecture_unchanged": true,
+  "zip_sha256": "e3ef85f8f6dd1b51091442a92c2752f1546829cb910df95528988aaf5796d58e",
+  "game_tested": false,
+  "manual_build_printer_off": true,
+  "files": [
+    {
+      "id": "01-01",
+      "file": "Valier_01-01_Architecture_ONLY.schematic",
+      "bytes": 12632,
+      "sha256": "f0c73d3cde88c60f0b0772bcdcaf59ceeaca952adf33395861242386c8a212b6",
+      "occupied_hosts": 26507,
+      "source": "generated/reference-refinement-v1/models/01-01/Valier_01-01_Shaped_GTNH29.schematic",
+      "unchanged_architecture": true,
+      "contains_functional_machines_pipes_tanks_coils": false
+    },
+    {
+      "id": "01-02",
+      "file": "Valier_01-02_Architecture_ONLY.schematic",
+      "bytes": 12054,
+      "sha256": "5932c73f8a5e3a51ab81adcfc0f3a6c11cbffab34d110a0807d593440b70d2d8",
+      "occupied_hosts": 21660,
+      "source": "generated/reference-refinement-v1/models/01-02/Valier_01-02_Shaped_GTNH29.schematic",
+      "unchanged_architecture": true,
+      "contains_functional_machines_pipes_tanks_coils": false
+    },
+    {
+      "id": "01-03",
+      "file": "Valier_01-03_Architecture_ONLY.schematic",
+      "bytes": 12632,
+      "sha256": "f0c73d3cde88c60f0b0772bcdcaf59ceeaca952adf33395861242386c8a212b6",
+      "occupied_hosts": 26507,
+      "source": "generated/reference-refinement-v1/models/01-03/Valier_01-03_Shaped_GTNH29.schematic",
+      "unchanged_architecture": true,
+      "contains_functional_machines_pipes_tanks_coils": false
+    },
+    {
+      "id": "01-04",
+      "file": "Valier_01-04_Architecture_ONLY.schematic",
+      "bytes": 12632,
+      "sha256": "f0c73d3cde88c60f0b0772bcdcaf59ceeaca952adf33395861242386c8a212b6",
+      "occupied_hosts": 26507,
+      "source": "generated/reference-refinement-v1/models/01-04/Valier_01-04_Shaped_GTNH29.schematic",
+      "unchanged_architecture": true,
+      "contains_functional_machines_pipes_tanks_coils": false
+    },
+    {
+      "id": "02-01",
+      "file": "Valier_02-01_Architecture_ONLY.schematic",
+      "bytes": 12632,
+      "sha256": "f0c73d3cde88c60f0b0772bcdcaf59ceeaca952adf33395861242386c8a212b6",
+      "occupied_hosts": 26507,
+      "source": "generated/reference-refinement-v1/models/02-01/Valier_02-01_Shaped_GTNH29.schematic",
+      "unchanged_architecture": true,
+      "contains_functional_machines_pipes_tanks_coils": false
+    },
+    {
+      "id": "02-03",
+      "file": "Valier_02-03_Architecture_ONLY.schematic",
+      "bytes": 17521,
+      "sha256": "71a17da6e971d190f20044731b4616102337d6432db3d8fa71bf85add4d619e7",
+      "occupied_hosts": 23903,
+      "source": "generated/reference-refinement-v1/models/02-03/Valier_02-03_Shaped_GTNH29.schematic",
+      "unchanged_architecture": true,
+      "contains_functional_machines_pipes_tanks_coils": false
+    },
+    {
+      "id": "02-04",
+      "file": "Valier_02-04_Architecture_ONLY.schematic",
+      "bytes": 12632,
+      "sha256": "f0c73d3cde88c60f0b0772bcdcaf59ceeaca952adf33395861242386c8a212b6",
+      "occupied_hosts": 26507,
+      "source": "generated/reference-refinement-v1/models/02-04/Valier_02-04_Shaped_GTNH29.schematic",
+      "unchanged_architecture": true,
+      "contains_functional_machines_pipes_tanks_coils": false
+    },
+    {
+      "id": "01-06",
+      "file": "Valier_01-06_Architecture_ONLY.schematic",
+      "bytes": 17521,
+      "sha256": "71a17da6e971d190f20044731b4616102337d6432db3d8fa71bf85add4d619e7",
+      "occupied_hosts": 23903,
+      "source": "generated/reference-refinement-v1/models/01-06/Valier_01-06_Shaped_GTNH29.schematic",
+      "unchanged_architecture": true,
+      "contains_functional_machines_pipes_tanks_coils": false
+    },
+    {
+      "id": "01-07",
+      "file": "Valier_01-07_Architecture_ONLY.schematic",
+      "bytes": 17521,
+      "sha256": "71a17da6e971d190f20044731b4616102337d6432db3d8fa71bf85add4d619e7",
+      "occupied_hosts": 23903,
+      "source": "generated/reference-refinement-v1/models/01-07/Valier_01-07_Shaped_GTNH29.schematic",
+      "unchanged_architecture": true,
+      "contains_functional_machines_pipes_tanks_coils": false
+    },
+    {
+      "id": "01-08",
+      "file": "Valier_01-08_Architecture_ONLY.schematic",
+      "bytes": 12632,
+      "sha256": "f0c73d3cde88c60f0b0772bcdcaf59ceeaca952adf33395861242386c8a212b6",
+      "occupied_hosts": 26507,
+      "source": "generated/reference-refinement-v1/models/01-08/Valier_01-08_Shaped_GTNH29.schematic",
+      "unchanged_architecture": true,
+      "contains_functional_machines_pipes_tanks_coils": false
+    },
+    {
+      "id": "01-09",
+      "file": "Valier_01-09_Architecture_ONLY.schematic",
+      "bytes": 12632,
+      "sha256": "f0c73d3cde88c60f0b0772bcdcaf59ceeaca952adf33395861242386c8a212b6",
+      "occupied_hosts": 26507,
+      "source": "generated/reference-refinement-v1/models/01-09/Valier_01-09_Shaped_GTNH29.schematic",
+      "unchanged_architecture": true,
+      "contains_functional_machines_pipes_tanks_coils": false
+    },
+    {
+      "id": "02-02",
+      "file": "Valier_02-02_Architecture_ONLY.schematic",
+      "bytes": 12054,
+      "sha256": "5932c73f8a5e3a51ab81adcfc0f3a6c11cbffab34d110a0807d593440b70d2d8",
+      "occupied_hosts": 21660,
+      "source": "generated/reference-refinement-v1/models/02-02/Valier_02-02_Shaped_GTNH29.schematic",
+      "unchanged_architecture": true,
+      "contains_functional_machines_pipes_tanks_coils": false
+    },
+    {
+      "id": "03-01",
+      "file": "Valier_03-01_Architecture_ONLY.schematic",
+      "bytes": 12632,
+      "sha256": "f0c73d3cde88c60f0b0772bcdcaf59ceeaca952adf33395861242386c8a212b6",
+      "occupied_hosts": 26507,
+      "source": "generated/reference-refinement-v1/models/03-01/Valier_03-01_Shaped_GTNH29.schematic",
+      "unchanged_architecture": true,
+      "contains_functional_machines_pipes_tanks_coils": false
+    },
+    {
+      "id": "03-02",
+      "file": "Valier_03-02_Architecture_ONLY.schematic",
+      "bytes": 17521,
+      "sha256": "71a17da6e971d190f20044731b4616102337d6432db3d8fa71bf85add4d619e7",
+      "occupied_hosts": 23903,
+      "source": "generated/reference-refinement-v1/models/03-02/Valier_03-02_Shaped_GTNH29.schematic",
+      "unchanged_architecture": true,
+      "contains_functional_machines_pipes_tanks_coils": false
+    },
+    {
+      "id": "03-03",
+      "file": "Valier_03-03_Architecture_ONLY.schematic",
+      "bytes": 12054,
+      "sha256": "5932c73f8a5e3a51ab81adcfc0f3a6c11cbffab34d110a0807d593440b70d2d8",
+      "occupied_hosts": 21660,
+      "source": "generated/reference-refinement-v1/models/03-03/Valier_03-03_Shaped_GTNH29.schematic",
+      "unchanged_architecture": true,
+      "contains_functional_machines_pipes_tanks_coils": false
+    },
+    {
+      "id": "03-04",
+      "file": "Valier_03-04_Architecture_ONLY.schematic",
+      "bytes": 12632,
+      "sha256": "f0c73d3cde88c60f0b0772bcdcaf59ceeaca952adf33395861242386c8a212b6",
+      "occupied_hosts": 26507,
+      "source": "generated/reference-refinement-v1/models/03-04/Valier_03-04_Shaped_GTNH29.schematic",
+      "unchanged_architecture": true,
+      "contains_functional_machines_pipes_tanks_coils": false
+    },
+    {
+      "id": "04-01",
+      "file": "Valier_04-01_Architecture_ONLY.schematic",
+      "bytes": 12054,
+      "sha256": "5932c73f8a5e3a51ab81adcfc0f3a6c11cbffab34d110a0807d593440b70d2d8",
+      "occupied_hosts": 21660,
+      "source": "generated/reference-refinement-v1/models/04-01/Valier_04-01_Shaped_GTNH29.schematic",
+      "unchanged_architecture": true,
+      "contains_functional_machines_pipes_tanks_coils": false
+    },
+    {
+      "id": "04-02",
+      "file": "Valier_04-02_Architecture_ONLY.schematic",
+      "bytes": 17521,
+      "sha256": "71a17da6e971d190f20044731b4616102337d6432db3d8fa71bf85add4d619e7",
+      "occupied_hosts": 23903,
+      "source": "generated/reference-refinement-v1/models/04-02/Valier_04-02_Shaped_GTNH29.schematic",
+      "unchanged_architecture": true,
+      "contains_functional_machines_pipes_tanks_coils": false
+    },
+    {
+      "id": "04-03",
+      "file": "Valier_04-03_Architecture_ONLY.schematic",
+      "bytes": 12632,
+      "sha256": "f0c73d3cde88c60f0b0772bcdcaf59ceeaca952adf33395861242386c8a212b6",
+      "occupied_hosts": 26507,
+      "source": "generated/reference-refinement-v1/models/04-03/Valier_04-03_Shaped_GTNH29.schematic",
+      "unchanged_architecture": true,
+      "contains_functional_machines_pipes_tanks_coils": false
+    },
+    {
+      "id": "02-06",
+      "file": "Valier_02-06_Architecture_ONLY.schematic",
+      "bytes": 17521,
+      "sha256": "71a17da6e971d190f20044731b4616102337d6432db3d8fa71bf85add4d619e7",
+      "occupied_hosts": 23903,
+      "source": "generated/reference-refinement-v1/models/02-06/Valier_02-06_Shaped_GTNH29.schematic",
+      "unchanged_architecture": true,
+      "contains_functional_machines_pipes_tanks_coils": false
+    },
+    {
+      "id": "02-07",
+      "file": "Valier_02-07_Architecture_ONLY.schematic",
+      "bytes": 12632,
+      "sha256": "f0c73d3cde88c60f0b0772bcdcaf59ceeaca952adf33395861242386c8a212b6",
+      "occupied_hosts": 26507,
+      "source": "generated/reference-refinement-v1/models/02-07/Valier_02-07_Shaped_GTNH29.schematic",
+      "unchanged_architecture": true,
+      "contains_functional_machines_pipes_tanks_coils": false
+    },
+    {
+      "id": "04-07",
+      "file": "Valier_04-07_Architecture_ONLY.schematic",
+      "bytes": 17521,
+      "sha256": "71a17da6e971d190f20044731b4616102337d6432db3d8fa71bf85add4d619e7",
+      "occupied_hosts": 23903,
+      "source": "generated/reference-refinement-v1/models/04-07/Valier_04-07_Shaped_GTNH29.schematic",
+      "unchanged_architecture": true,
+      "contains_functional_machines_pipes_tanks_coils": false
+    },
+    {
+      "id": "04-08",
+      "file": "Valier_04-08_Architecture_ONLY.schematic",
+      "bytes": 17521,
+      "sha256": "71a17da6e971d190f20044731b4616102337d6432db3d8fa71bf85add4d619e7",
+      "occupied_hosts": 23903,
+      "source": "generated/reference-refinement-v1/models/04-08/Valier_04-08_Shaped_GTNH29.schematic",
+      "unchanged_architecture": true,
+      "contains_functional_machines_pipes_tanks_coils": false
+    },
+    {
+      "id": "04-09",
+      "file": "Valier_04-09_Architecture_ONLY.schematic",
+      "bytes": 17521,
+      "sha256": "71a17da6e971d190f20044731b4616102337d6432db3d8fa71bf85add4d619e7",
+      "occupied_hosts": 23903,
+      "source": "generated/reference-refinement-v1/models/04-09/Valier_04-09_Shaped_GTNH29.schematic",
+      "unchanged_architecture": true,
+      "contains_functional_machines_pipes_tanks_coils": false
+    },
+    {
+      "id": "06-06",
+      "file": "Valier_06-06_Architecture_ONLY.schematic",
+      "bytes": 12054,
+      "sha256": "5932c73f8a5e3a51ab81adcfc0f3a6c11cbffab34d110a0807d593440b70d2d8",
+      "occupied_hosts": 21660,
+      "source": "generated/reference-refinement-v1/models/06-06/Valier_06-06_Shaped_GTNH29.schematic",
+      "unchanged_architecture": true,
+      "contains_functional_machines_pipes_tanks_coils": false
+    },
+    {
+      "id": "06-07",
+      "file": "Valier_06-07_Architecture_ONLY.schematic",
+      "bytes": 12054,
+      "sha256": "5932c73f8a5e3a51ab81adcfc0f3a6c11cbffab34d110a0807d593440b70d2d8",
+      "occupied_hosts": 21660,
+      "source": "generated/reference-refinement-v1/models/06-07/Valier_06-07_Shaped_GTNH29.schematic",
+      "unchanged_architecture": true,
+      "contains_functional_machines_pipes_tanks_coils": false
+    },
+    {
+      "id": "SI01",
+      "file": "Valier_SI01_Architecture_ONLY.schematic",
+      "bytes": 246,
+      "sha256": "40112173cd80f0b4f2e837df2ceef722d056bbbaaffc546003732f574a6ec8da",
+      "occupied_hosts": 404,
+      "source": "generated/reference-refinement-v1/models/SI01/Valier_SI01_Shaped_GTNH29.schematic",
+      "unchanged_architecture": true,
+      "contains_functional_machines_pipes_tanks_coils": false
+    }
+  ]
+}

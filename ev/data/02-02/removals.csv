@@ -1,0 +1,44 @@
+x,y,z,source,reason,stage
+147,-7,118,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,MV
+147,-7,119,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,MV
+148,-7,118,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,MV
+148,-7,119,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,MV
+149,-7,118,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,MV
+149,-7,119,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,MV
+150,-7,118,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,MV
+150,-7,119,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,MV
+151,-7,118,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,MV
+151,-7,119,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,MV
+152,-7,118,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,MV
+152,-7,119,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,MV
+147,-9,114,civil branch cap,remove only after U01 enclosed and checked,MV
+147,-8,114,civil branch cap,remove only after U01 enclosed and checked,MV
+147,-7,114,civil branch cap,remove only after U01 enclosed and checked,MV
+147,-6,114,civil branch cap,remove only after U01 enclosed and checked,MV
+147,-5,114,civil branch cap,remove only after U01 enclosed and checked,MV
+148,-9,114,civil branch cap,remove only after U01 enclosed and checked,MV
+148,-8,114,civil branch cap,remove only after U01 enclosed and checked,MV
+148,-7,114,civil branch cap,remove only after U01 enclosed and checked,MV
+148,-6,114,civil branch cap,remove only after U01 enclosed and checked,MV
+148,-5,114,civil branch cap,remove only after U01 enclosed and checked,MV
+149,-9,114,civil branch cap,remove only after U01 enclosed and checked,MV
+149,-8,114,civil branch cap,remove only after U01 enclosed and checked,MV
+149,-7,114,civil branch cap,remove only after U01 enclosed and checked,MV
+149,-6,114,civil branch cap,remove only after U01 enclosed and checked,MV
+149,-5,114,civil branch cap,remove only after U01 enclosed and checked,MV
+150,-9,114,civil branch cap,remove only after U01 enclosed and checked,MV
+150,-8,114,civil branch cap,remove only after U01 enclosed and checked,MV
+150,-7,114,civil branch cap,remove only after U01 enclosed and checked,MV
+150,-6,114,civil branch cap,remove only after U01 enclosed and checked,MV
+150,-5,114,civil branch cap,remove only after U01 enclosed and checked,MV
+151,-9,114,civil branch cap,remove only after U01 enclosed and checked,MV
+151,-8,114,civil branch cap,remove only after U01 enclosed and checked,MV
+151,-7,114,civil branch cap,remove only after U01 enclosed and checked,MV
+151,-6,114,civil branch cap,remove only after U01 enclosed and checked,MV
+151,-5,114,civil branch cap,remove only after U01 enclosed and checked,MV
+152,-9,114,civil branch cap,remove only after U01 enclosed and checked,MV
+152,-8,114,civil branch cap,remove only after U01 enclosed and checked,MV
+152,-7,114,civil branch cap,remove only after U01 enclosed and checked,MV
+152,-6,114,civil branch cap,remove only after U01 enclosed and checked,MV
+152,-5,114,civil branch cap,remove only after U01 enclosed and checked,MV
+134,-1,158,P,Replace exact floor cell with utility riser or cleanroom floor,MV

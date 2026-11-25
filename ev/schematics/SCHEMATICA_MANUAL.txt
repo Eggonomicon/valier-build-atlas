@@ -1,0 +1,37 @@
+VALIER / THROUGH EV / ARCHITECTURE ONLY
+
+These27 schematics contain building fabric, shaped framing, microblock details,
+paving, architectural lights and planting. They contain no machines, tanks,
+coils, pipes, cables or conduits. The only tile entities are ArchitectureCraft
+shapes and ForgeMultipart cut architectural materials. Those tile entities are
+required for the smooth facade details and do not provide machinery.
+
+For survival/manual building:
+1. Put the .schematic files in .minecraft/schematics (Schematica's directory).
+2. Use Controls > Schematica > Load Schematic with your chosen key binding.
+3. Select a file and enable rendering. Position its minimum corner from its
+   source shell origin; survey the real PDIM before choosing world coordinates.
+4. Keep Printer OFF. The ghost display is a placement reference. Gather and
+   place every block yourself. Do not use WorldEdit paste for manual survival.
+5. ArchitectureCraft/microblock preview support may vary; use the preserved
+   layer/shape/material guide for manual orientation. Target-game ghost display
+   and re-import have not been certified.
+
+Steam Hall01-01 and all numbered halls use their existing shell origins and
+Y-7 lower bounds. Generic hall X/Z minima are22+96*(column-1),22+96*(row-1).
+CivilY0=S. The schematic min Y is S-7, NOT the ground walk level. SI01 is a
+separate entry component: use the matching Steam Works/EV connection guide;
+do not assume its stored zero WorldEdit origin is your surveyed city origin.
+
+These are the preserved refined shell files, renamed for clarity. Floors still
+include the architectural pavers. Follow the separate exact removal/riser patch
+only when installing utilities by hand. The machine/utility coordinate guide
+and its inventory bill are separate from this architecture-only pack.
+
+The architecture-stock folder includes matching ordinary/cut-part inventory,
+coordinate lists and host-grid ZIPs. Keep those architectural counts separate
+from the machine/utility item guide. Volume/batch figures are not verified
+crafting ingredient bills.
+
+The manifest and static NBT audit prove contents; they do not certify runtime
+recipes, ghost render compatibility, game placement or a completed factory.

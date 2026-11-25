@@ -1,0 +1,219 @@
+x,y,z,source,reason,stage
+243,-7,310,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,HV
+243,-7,311,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,HV
+244,-7,310,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,HV
+244,-7,311,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,HV
+245,-7,310,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,HV
+245,-7,311,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,HV
+246,-7,310,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,HV
+246,-7,311,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,HV
+247,-7,310,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,HV
+247,-7,311,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,HV
+248,-7,310,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,HV
+248,-7,311,refined projected basement entrance landing,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified,HV
+243,-9,306,civil branch cap,remove only after U01 enclosed and checked,HV
+243,-8,306,civil branch cap,remove only after U01 enclosed and checked,HV
+243,-7,306,civil branch cap,remove only after U01 enclosed and checked,HV
+243,-6,306,civil branch cap,remove only after U01 enclosed and checked,HV
+243,-5,306,civil branch cap,remove only after U01 enclosed and checked,HV
+244,-9,306,civil branch cap,remove only after U01 enclosed and checked,HV
+244,-8,306,civil branch cap,remove only after U01 enclosed and checked,HV
+244,-7,306,civil branch cap,remove only after U01 enclosed and checked,HV
+244,-6,306,civil branch cap,remove only after U01 enclosed and checked,HV
+244,-5,306,civil branch cap,remove only after U01 enclosed and checked,HV
+245,-9,306,civil branch cap,remove only after U01 enclosed and checked,HV
+245,-8,306,civil branch cap,remove only after U01 enclosed and checked,HV
+245,-7,306,civil branch cap,remove only after U01 enclosed and checked,HV
+245,-6,306,civil branch cap,remove only after U01 enclosed and checked,HV
+245,-5,306,civil branch cap,remove only after U01 enclosed and checked,HV
+246,-9,306,civil branch cap,remove only after U01 enclosed and checked,HV
+246,-8,306,civil branch cap,remove only after U01 enclosed and checked,HV
+246,-7,306,civil branch cap,remove only after U01 enclosed and checked,HV
+246,-6,306,civil branch cap,remove only after U01 enclosed and checked,HV
+246,-5,306,civil branch cap,remove only after U01 enclosed and checked,HV
+247,-9,306,civil branch cap,remove only after U01 enclosed and checked,HV
+247,-8,306,civil branch cap,remove only after U01 enclosed and checked,HV
+247,-7,306,civil branch cap,remove only after U01 enclosed and checked,HV
+247,-6,306,civil branch cap,remove only after U01 enclosed and checked,HV
+247,-5,306,civil branch cap,remove only after U01 enclosed and checked,HV
+248,-9,306,civil branch cap,remove only after U01 enclosed and checked,HV
+248,-8,306,civil branch cap,remove only after U01 enclosed and checked,HV
+248,-7,306,civil branch cap,remove only after U01 enclosed and checked,HV
+248,-6,306,civil branch cap,remove only after U01 enclosed and checked,HV
+248,-5,306,civil branch cap,remove only after U01 enclosed and checked,HV
+235,-1,344,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+235,-1,345,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+235,-1,346,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+235,-1,347,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+235,-1,348,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+235,-1,349,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+235,-1,350,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+235,-1,351,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+235,-1,352,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+235,-1,353,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+235,-1,354,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+235,-1,355,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+235,-1,356,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+236,-1,344,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+236,-1,345,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+236,-1,346,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+236,-1,347,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+236,-1,348,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+236,-1,349,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+236,-1,350,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+236,-1,351,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+236,-1,352,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+236,-1,353,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+236,-1,354,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+236,-1,355,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+236,-1,356,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+237,-1,344,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+237,-1,345,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+237,-1,346,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+237,-1,347,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+237,-1,348,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+237,-1,349,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+237,-1,350,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+237,-1,351,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+237,-1,352,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+237,-1,353,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+237,-1,354,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+237,-1,355,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+237,-1,356,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+238,-1,344,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+238,-1,345,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+238,-1,346,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+238,-1,347,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+238,-1,348,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+238,-1,349,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+238,-1,350,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+238,-1,351,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+238,-1,352,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+238,-1,353,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+238,-1,354,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+238,-1,355,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+238,-1,356,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+239,-1,344,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+239,-1,345,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+239,-1,346,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+239,-1,347,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+239,-1,348,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+239,-1,349,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+239,-1,350,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+239,-1,351,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+239,-1,352,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+239,-1,353,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+239,-1,354,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+239,-1,355,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+239,-1,356,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+240,-1,344,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+240,-1,345,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+240,-1,346,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+240,-1,347,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+240,-1,348,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+240,-1,349,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+240,-1,350,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+240,-1,351,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+240,-1,352,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+240,-1,353,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+240,-1,354,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+240,-1,355,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+240,-1,356,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+241,-1,344,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+241,-1,345,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+241,-1,346,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+241,-1,347,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+241,-1,348,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+241,-1,349,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+241,-1,350,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+241,-1,351,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+241,-1,352,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+241,-1,353,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+241,-1,354,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+241,-1,355,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+241,-1,356,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+242,-1,344,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+242,-1,345,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+242,-1,346,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+242,-1,347,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+242,-1,348,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+242,-1,349,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+242,-1,350,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+242,-1,351,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+242,-1,352,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+242,-1,353,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+242,-1,354,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+242,-1,355,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+242,-1,356,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+243,-1,344,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+243,-1,345,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+243,-1,346,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+243,-1,347,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+243,-1,348,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+243,-1,349,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+243,-1,350,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+243,-1,351,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+243,-1,352,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+243,-1,353,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+243,-1,354,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+243,-1,355,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+243,-1,356,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+244,-1,344,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+244,-1,345,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+244,-1,346,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+244,-1,347,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+244,-1,348,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+244,-1,349,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+244,-1,350,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+244,-1,351,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+244,-1,352,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+244,-1,353,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+244,-1,354,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+244,-1,355,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+244,-1,356,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+245,-1,344,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+245,-1,345,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+245,-1,346,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+245,-1,347,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+245,-1,348,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+245,-1,349,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+245,-1,350,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+245,-1,351,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+245,-1,352,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+245,-1,353,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+245,-1,354,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+245,-1,355,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+245,-1,356,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+246,-1,344,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+246,-1,345,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+246,-1,346,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+246,-1,347,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+246,-1,348,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+246,-1,349,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+246,-1,350,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+246,-1,351,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+246,-1,352,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+246,-1,353,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+246,-1,354,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+246,-1,355,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+246,-1,356,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+247,-1,344,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+247,-1,345,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+247,-1,346,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+247,-1,347,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+247,-1,348,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+247,-1,349,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+247,-1,350,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+247,-1,351,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+247,-1,352,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+247,-1,353,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+247,-1,354,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+247,-1,355,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+247,-1,356,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+243,-1,342,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+233,-1,348,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+233,-1,352,P,Replace exact floor cell with utility riser or cleanroom floor,HV
+230,-1,328,P,Replace exact floor cell with utility riser or cleanroom floor,EV
+232,-1,328,P,Replace exact floor cell with utility riser or cleanroom floor,EV
+234,-1,328,P,Replace exact floor cell with utility riser or cleanroom floor,EV
+236,-1,328,P,Replace exact floor cell with utility riser or cleanroom floor,EV

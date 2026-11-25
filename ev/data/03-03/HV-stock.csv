@@ -1,0 +1,11 @@
+registry,item_damage,installed_items,stacks64,loose
+gregtech:gt.blockmachines,212,1,0,1
+gregtech:gt.blockmachines,222,1,0,1
+gregtech:gt.blockmachines,242,1,0,1
+gregtech:gt.blockmachines,352,1,0,1
+gregtech:gt.blockmachines,1111,4,0,4
+gregtech:gt.blockmachines,1366,4,0,4
+gregtech:gt.blockmachines,5132,145,2,17
+minecraft:chest,0,4,0,4
+minecraft:stone_slab,0,18,0,18
+minecraft:stonebrick,0,344,5,24

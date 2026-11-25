@@ -1,0 +1,559 @@
+{
+  "status": "pass",
+  "models": 26,
+  "halls": 25,
+  "unique_added_hosts": 18310,
+  "ground_access": [
+    {
+      "hall": "01-02",
+      "stage": "LV",
+      "hosts": 258,
+      "operator_points": 9,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "01-02",
+      "stage": "MV",
+      "hosts": 258,
+      "operator_points": 9,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "01-02",
+      "stage": "HV",
+      "hosts": 258,
+      "operator_points": 9,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "01-02",
+      "stage": "EV",
+      "hosts": 258,
+      "operator_points": 9,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "01-03",
+      "stage": "LV",
+      "hosts": 447,
+      "operator_points": 1,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "01-03",
+      "stage": "MV",
+      "hosts": 447,
+      "operator_points": 1,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "01-03",
+      "stage": "HV",
+      "hosts": 447,
+      "operator_points": 1,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "01-03",
+      "stage": "EV",
+      "hosts": 447,
+      "operator_points": 1,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "01-04",
+      "stage": "LV",
+      "hosts": 639,
+      "operator_points": 12,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "01-04",
+      "stage": "MV",
+      "hosts": 639,
+      "operator_points": 12,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "01-04",
+      "stage": "HV",
+      "hosts": 639,
+      "operator_points": 12,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "01-04",
+      "stage": "EV",
+      "hosts": 639,
+      "operator_points": 12,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "02-01",
+      "stage": "LV",
+      "hosts": 523,
+      "operator_points": 4,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "02-01",
+      "stage": "MV",
+      "hosts": 549,
+      "operator_points": 6,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "02-01",
+      "stage": "HV",
+      "hosts": 581,
+      "operator_points": 8,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "02-01",
+      "stage": "EV",
+      "hosts": 581,
+      "operator_points": 8,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "02-03",
+      "stage": "LV",
+      "hosts": 549,
+      "operator_points": 6,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "02-03",
+      "stage": "MV",
+      "hosts": 549,
+      "operator_points": 6,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "02-03",
+      "stage": "HV",
+      "hosts": 549,
+      "operator_points": 6,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "02-03",
+      "stage": "EV",
+      "hosts": 549,
+      "operator_points": 6,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "02-04",
+      "stage": "LV",
+      "hosts": 523,
+      "operator_points": 4,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "02-04",
+      "stage": "MV",
+      "hosts": 523,
+      "operator_points": 4,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "02-04",
+      "stage": "HV",
+      "hosts": 523,
+      "operator_points": 4,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "02-04",
+      "stage": "EV",
+      "hosts": 523,
+      "operator_points": 4,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "01-06",
+      "stage": "MV",
+      "hosts": 581,
+      "operator_points": 8,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "01-06",
+      "stage": "HV",
+      "hosts": 581,
+      "operator_points": 8,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "01-06",
+      "stage": "EV",
+      "hosts": 581,
+      "operator_points": 8,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "01-07",
+      "stage": "HV",
+      "hosts": 1016,
+      "operator_points": 12,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "01-07",
+      "stage": "EV",
+      "hosts": 1016,
+      "operator_points": 12,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "01-08",
+      "stage": "MV",
+      "hosts": 523,
+      "operator_points": 4,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "01-08",
+      "stage": "HV",
+      "hosts": 523,
+      "operator_points": 4,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "01-08",
+      "stage": "EV",
+      "hosts": 523,
+      "operator_points": 4,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "01-09",
+      "stage": "HV",
+      "hosts": 523,
+      "operator_points": 4,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "01-09",
+      "stage": "EV",
+      "hosts": 523,
+      "operator_points": 4,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "02-02",
+      "stage": "MV",
+      "hosts": 507,
+      "operator_points": 1,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "02-02",
+      "stage": "HV",
+      "hosts": 507,
+      "operator_points": 1,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "02-02",
+      "stage": "EV",
+      "hosts": 507,
+      "operator_points": 1,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "03-01",
+      "stage": "MV",
+      "hosts": 581,
+      "operator_points": 8,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "03-01",
+      "stage": "HV",
+      "hosts": 581,
+      "operator_points": 8,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "03-01",
+      "stage": "EV",
+      "hosts": 581,
+      "operator_points": 8,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "03-02",
+      "stage": "MV",
+      "hosts": 568,
+      "operator_points": 4,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "03-02",
+      "stage": "HV",
+      "hosts": 568,
+      "operator_points": 4,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "03-02",
+      "stage": "EV",
+      "hosts": 568,
+      "operator_points": 4,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "03-03",
+      "stage": "MV",
+      "hosts": 523,
+      "operator_points": 4,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "03-03",
+      "stage": "HV",
+      "hosts": 523,
+      "operator_points": 4,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "03-03",
+      "stage": "EV",
+      "hosts": 523,
+      "operator_points": 4,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "03-04",
+      "stage": "HV",
+      "hosts": 581,
+      "operator_points": 8,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "03-04",
+      "stage": "EV",
+      "hosts": 581,
+      "operator_points": 8,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "04-01",
+      "stage": "HV",
+      "hosts": 557,
+      "operator_points": 5,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "04-01",
+      "stage": "EV",
+      "hosts": 557,
+      "operator_points": 5,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "04-02",
+      "stage": "HV",
+      "hosts": 549,
+      "operator_points": 6,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "04-02",
+      "stage": "EV",
+      "hosts": 549,
+      "operator_points": 6,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "04-03",
+      "stage": "HV",
+      "hosts": 1040,
+      "operator_points": 3,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "04-03",
+      "stage": "EV",
+      "hosts": 1146,
+      "operator_points": 8,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "02-06",
+      "stage": "EV",
+      "hosts": 591,
+      "operator_points": 10,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "02-07",
+      "stage": "EV",
+      "hosts": 591,
+      "operator_points": 10,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "04-07",
+      "stage": "EV",
+      "hosts": 528,
+      "operator_points": 5,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "04-08",
+      "stage": "HV",
+      "hosts": 968,
+      "operator_points": 9,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "04-08",
+      "stage": "EV",
+      "hosts": 968,
+      "operator_points": 9,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "04-09",
+      "stage": "HV",
+      "hosts": 136,
+      "operator_points": 4,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "04-09",
+      "stage": "EV",
+      "hosts": 136,
+      "operator_points": 4,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "06-06",
+      "stage": "HV",
+      "hosts": 523,
+      "operator_points": 4,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "06-06",
+      "stage": "EV",
+      "hosts": 523,
+      "operator_points": 4,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    },
+    {
+      "hall": "06-07",
+      "stage": "EV",
+      "hosts": 528,
+      "operator_points": 5,
+      "access_failures": [],
+      "method": "Ground cell-center routes, full-host conservative obstacles, open reinforced door during access. Full3D player collision and terrain outside source floor not certified."
+    }
+  ],
+  "networks": {
+    "water": {
+      "hosts": 274,
+      "components": 1
+    },
+    "light_fuel": {
+      "hosts": 7083,
+      "components": 3
+    },
+    "sulfuric_heavy_fuel": {
+      "hosts": 32,
+      "components": 2
+    },
+    "sulfuric_light_fuel": {
+      "hosts": 106,
+      "components": 4
+    },
+    "sulfuric_naphtha": {
+      "hosts": 56,
+      "components": 2
+    },
+    "naphthenic_acid": {
+      "hosts": 68,
+      "components": 2
+    },
+    "sulfuric_refinery_gas": {
+      "hosts": 80,
+      "components": 2
+    },
+    "LV_full_generator_envelope_L_t": 2.8789,
+    "MV_full_generator_envelope_L_t": 16.4263,
+    "HV_full_generator_envelope_L_t": 93.5229,
+    "EV_full_generator_envelope_L_t": 148.8742
+  },
+  "errors": [],
+  "authoritative_model_sha256": "fa6ac86f9f5fa0ec1ff6aa0e83c0fdebd04966528df73ea1bd53d6fd01f8bffa",
+  "game_tested": false,
+  "crafting_ingredients_verified": false,
+  "schematic_policy": "Architecture only, functional equipment remains in coordinate guides."
+}
