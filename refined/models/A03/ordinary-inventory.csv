@@ -1,0 +1,9 @@
+inventory_registry,inventory_metadata,items,scope
+TConstruct:GlassBlock.StainedClear,3,72,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"
+Ztones:tile.agonBlock,13,220,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"
+Ztones:tile.agonBlock,15,384,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"
+Ztones:tile.korpBlock,14,236,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"
+minecraft:dirt,0,18,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"
+minecraft:leaves,0,217,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"
+minecraft:log,0,12,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"
+minecraft:red_flower,2,5,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"

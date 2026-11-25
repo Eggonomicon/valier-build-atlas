@@ -1,0 +1,128 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "reference-refinement-v1",
+  "id": "03-09",
+  "title": "UV reserve",
+  "bounds": [
+    0,
+    -1,
+    0,
+    63,
+    9,
+    63
+  ],
+  "dimensions_x_y_z": [
+    64,
+    11,
+    64
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": [
+    790,
+    214,
+    853,
+    277
+  ],
+  "source_model": "design/concept-match-v1/models/03-09.json.gz",
+  "source_model_sha256": "de4d451e9fb9638ffd11ce3467df98d4f319a7d1b2f19509d59917cccf8325ef",
+  "game_tested": false,
+  "occupied_host_positions": 5050,
+  "cube_positions": 4936,
+  "architecture_shapes": 0,
+  "multipart_hosts": 114,
+  "microparts": 118,
+  "tile_entities": 114,
+  "entities": 0,
+  "model_sha256": "134e760c442f6bac431903362b139d5a8d6894a95a520fb7ed6bb9a4e24d2c5d",
+  "schematic": "models/03-09/Valier_03-09_Shaped_GTNH29.schematic",
+  "schematic_sha256": "ae2a53de57007992274cc2ed8b1b21b449f4b6d17f4c69e789b2e4c9071cd089",
+  "registry_map": {
+    "minecraft:air": 0,
+    "Ztones:tile.korpBlock": 1,
+    "Ztones:tile.agonBlock": 2,
+    "minecraft:dirt": 3,
+    "ForgeMultipart:block": 4,
+    "minecraft:red_flower": 5,
+    "minecraft:leaves": 6,
+    "minecraft:log": 7
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "cube",
+      "role": "B",
+      "shape_or_size": "14",
+      "count": 96
+    },
+    {
+      "kind": "cube",
+      "role": "E",
+      "shape_or_size": "0",
+      "count": 100
+    },
+    {
+      "kind": "cube",
+      "role": "K",
+      "shape_or_size": "13",
+      "count": 24
+    },
+    {
+      "kind": "cube",
+      "role": "M",
+      "shape_or_size": "2",
+      "count": 968
+    },
+    {
+      "kind": "cube",
+      "role": "P",
+      "shape_or_size": "15",
+      "count": 3136
+    },
+    {
+      "kind": "cube",
+      "role": "T",
+      "shape_or_size": "0",
+      "count": 24
+    },
+    {
+      "kind": "cube",
+      "role": "V",
+      "shape_or_size": "4",
+      "count": 556
+    },
+    {
+      "kind": "cube",
+      "role": "f",
+      "shape_or_size": "2",
+      "count": 32
+    },
+    {
+      "kind": "mcr_face",
+      "role": "K",
+      "shape_or_size": "5",
+      "count": 4
+    },
+    {
+      "kind": "mcr_face",
+      "role": "L",
+      "shape_or_size": "4",
+      "count": 14
+    },
+    {
+      "kind": "mcr_face",
+      "role": "N",
+      "shape_or_size": "2",
+      "count": 4
+    },
+    {
+      "kind": "mcr_face",
+      "role": "P",
+      "shape_or_size": "2",
+      "count": 96
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims.",
+  "family": "expansion-court",
+  "architectural_status": "Explicit reconstruction; static checks and game import pending",
+  "interior_scope": "Architectural floors, entrances and stated stairs; no functional machine/network certification"
+}

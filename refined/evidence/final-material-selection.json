@@ -1,0 +1,150 @@
+{
+  "revision": "reference-refinement-v1",
+  "palette_sha256": "88b9cdbcdfd014d5754524b8a50a15c0d0968278ee15269fc1967af965b71d8f",
+  "roles": {
+    "B": {
+      "display_name": "Korp charcoal horizontal courses",
+      "registry_name": "Ztones:tile.korpBlock",
+      "placed_metadata": 14,
+      "inventory_metadata": 14,
+      "micro_material": "Ztones:tile.korpBlock_14",
+      "architecturecraft_material_eligible_static": true
+    },
+    "K": {
+      "display_name": "Agon dark square panel",
+      "registry_name": "Ztones:tile.agonBlock",
+      "placed_metadata": 13,
+      "inventory_metadata": 13,
+      "micro_material": "Ztones:tile.agonBlock_13",
+      "architecturecraft_material_eligible_static": true
+    },
+    "L": {
+      "display_name": "Agon pale panel",
+      "registry_name": "Ztones:tile.agonBlock",
+      "placed_metadata": 0,
+      "inventory_metadata": 0,
+      "micro_material": "Ztones:tile.agonBlock",
+      "architecturecraft_material_eligible_static": true
+    },
+    "N": {
+      "display_name": "Cyan Lapis Caelestis",
+      "registry_name": "ExtraUtilities:greenscreen",
+      "placed_metadata": 9,
+      "inventory_metadata": 9,
+      "micro_material": "tile.extrautils:greenscreen_9"
+    },
+    "W": {
+      "display_name": "White Lapis Caelestis",
+      "registry_name": "ExtraUtilities:greenscreen",
+      "placed_metadata": 0,
+      "inventory_metadata": 0,
+      "micro_material": "tile.extrautils:greenscreen"
+    },
+    "G": {
+      "display_name": "Clear stained light_blue glass",
+      "registry_name": "TConstruct:GlassBlock.StainedClear",
+      "placed_metadata": 3,
+      "inventory_metadata": 3,
+      "micro_material": null,
+      "architecturecraft_material_eligible_static": false,
+      "ctm_tconstruct": true
+    },
+    "F": {
+      "display_name": "Stone bricks",
+      "registry_name": "minecraft:stonebrick",
+      "placed_metadata": 0,
+      "inventory_metadata": 0
+    },
+    "s": {
+      "display_name": "Stone slab, bottom",
+      "registry_name": "minecraft:stone_slab",
+      "placed_metadata": 0,
+      "inventory_metadata": 0
+    },
+    "S": {
+      "display_name": "Stone slab, top",
+      "registry_name": "minecraft:stone_slab",
+      "placed_metadata": 8,
+      "inventory_metadata": 0
+    },
+    "E": {
+      "display_name": "Dirt / planting-bed infill",
+      "registry_name": "minecraft:dirt",
+      "placed_metadata": 0,
+      "inventory_metadata": 0
+    },
+    "T": {
+      "display_name": "Oak log / vertical decorative trunk",
+      "registry_name": "minecraft:log",
+      "placed_metadata": 0,
+      "inventory_metadata": 0
+    },
+    "V": {
+      "display_name": "Oak leaves / player-placed persistent state",
+      "registry_name": "minecraft:leaves",
+      "placed_metadata": 4,
+      "inventory_metadata": 0
+    },
+    "Q": {
+      "display_name": "Glass / dry ornamental basin fill",
+      "registry_name": "minecraft:glass",
+      "placed_metadata": 0,
+      "inventory_metadata": 0,
+      "micro_material": "minecraft:glass"
+    },
+    "P": {
+      "display_name": "Agon gray paving",
+      "registry_name": "Ztones:tile.agonBlock",
+      "placed_metadata": 15,
+      "inventory_metadata": 15,
+      "micro_material": "Ztones:tile.agonBlock_15",
+      "architecturecraft_material_eligible_static": true
+    },
+    "R": {
+      "display_name": "Agon13 charcoal square road pavers",
+      "registry_name": "Ztones:tile.agonBlock",
+      "placed_metadata": 13,
+      "inventory_metadata": 13,
+      "micro_material": "Ztones:tile.agonBlock_13",
+      "architecturecraft_material_eligible_static": true
+    },
+    "D": {
+      "display_name": "White stained-glass diffuser",
+      "registry_name": "minecraft:stained_glass",
+      "placed_metadata": 0,
+      "inventory_metadata": 0,
+      "micro_material": "minecraft:stained_glass"
+    },
+    "f": {
+      "display_name": "Allium - crossed plant",
+      "registry_name": "minecraft:red_flower",
+      "placed_metadata": 2,
+      "inventory_metadata": 2
+    },
+    "M": {
+      "display_name": "Korp dark inset",
+      "registry_name": "Ztones:tile.korpBlock",
+      "placed_metadata": 2,
+      "inventory_metadata": 2,
+      "micro_material": "Ztones:tile.korpBlock_2",
+      "architecturecraft_material_eligible_static": true
+    },
+    "g": {
+      "display_name": "Borderless glass for shaped roofs",
+      "registry_name": "chisel:glass",
+      "placed_metadata": 6,
+      "inventory_metadata": 6,
+      "micro_material": null
+    },
+    "a": {
+      "display_name": "Still water source",
+      "registry_name": "minecraft:water",
+      "placed_metadata": 0,
+      "inventory_metadata": null,
+      "micro_material": null
+    }
+  },
+  "decision": "R deliberately uses the independently evidenced K/Agon13 source, replacing the preliminary Korp14 road choice in palette-bindings.json. B retains Korp14 horizontal courses.",
+  "lamp": "Four actual AC56 inward cornices;1.75-square cap envelope,1/4 rim and3/8 center; no AC18/27 placed. Actual mesh vertices override stale declared JSON bounds.",
+  "game_tested": false
+}

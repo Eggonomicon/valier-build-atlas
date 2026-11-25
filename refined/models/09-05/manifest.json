@@ -1,0 +1,192 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "reference-refinement-v1",
+  "id": "09-05",
+  "title": "Logistics hub",
+  "bounds": [
+    0,
+    -7,
+    0,
+    63,
+    27,
+    63
+  ],
+  "dimensions_x_y_z": [
+    64,
+    35,
+    64
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": [
+    406,
+    790,
+    469,
+    853
+  ],
+  "source_model": "design/concept-match-v1/models/09-05.json.gz",
+  "source_model_sha256": "9751affa50ed4ddebd77864de89e3975b0f887ba5282ad17cc7da58a9d1aceb5",
+  "game_tested": false,
+  "occupied_host_positions": 23753,
+  "cube_positions": 22051,
+  "architecture_shapes": 112,
+  "multipart_hosts": 1590,
+  "microparts": 1638,
+  "tile_entities": 1702,
+  "entities": 0,
+  "model_sha256": "662eab534bfcd0c133efe14a053a3420bb2f1dd62604905ee8fc65858ff4adaa",
+  "schematic": "models/09-05/Valier_09-05_Shaped_GTNH29.schematic",
+  "schematic_sha256": "e6cb685cbd66c712648518c20db8c722c7ad0519e34e3523b996321d988405ae",
+  "registry_map": {
+    "minecraft:air": 0,
+    "Ztones:tile.agonBlock": 1,
+    "ForgeMultipart:block": 2,
+    "minecraft:stonebrick": 3,
+    "Ztones:tile.korpBlock": 4,
+    "TConstruct:GlassBlock.StainedClear": 5,
+    "ArchitectureCraft:shape": 6,
+    "minecraft:dirt": 7,
+    "minecraft:leaves": 8,
+    "minecraft:red_flower": 9,
+    "minecraft:log": 10,
+    "minecraft:stone_slab": 11
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "architecture",
+      "role": "L",
+      "shape_or_size": "56",
+      "count": 112
+    },
+    {
+      "kind": "cube",
+      "role": "B",
+      "shape_or_size": "14",
+      "count": 1672
+    },
+    {
+      "kind": "cube",
+      "role": "E",
+      "shape_or_size": "0",
+      "count": 102
+    },
+    {
+      "kind": "cube",
+      "role": "F",
+      "shape_or_size": "0",
+      "count": 4132
+    },
+    {
+      "kind": "cube",
+      "role": "G",
+      "shape_or_size": "3",
+      "count": 2335
+    },
+    {
+      "kind": "cube",
+      "role": "K",
+      "shape_or_size": "13",
+      "count": 8055
+    },
+    {
+      "kind": "cube",
+      "role": "L",
+      "shape_or_size": "0",
+      "count": 351
+    },
+    {
+      "kind": "cube",
+      "role": "M",
+      "shape_or_size": "2",
+      "count": 2
+    },
+    {
+      "kind": "cube",
+      "role": "P",
+      "shape_or_size": "15",
+      "count": 4524
+    },
+    {
+      "kind": "cube",
+      "role": "T",
+      "shape_or_size": "0",
+      "count": 36
+    },
+    {
+      "kind": "cube",
+      "role": "V",
+      "shape_or_size": "4",
+      "count": 750
+    },
+    {
+      "kind": "cube",
+      "role": "f",
+      "shape_or_size": "2",
+      "count": 32
+    },
+    {
+      "kind": "cube",
+      "role": "s",
+      "shape_or_size": "0",
+      "count": 60
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "K",
+      "shape_or_size": "1",
+      "count": 240
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 475
+    },
+    {
+      "kind": "mcr_face",
+      "role": "K",
+      "shape_or_size": "5",
+      "count": 2
+    },
+    {
+      "kind": "mcr_face",
+      "role": "L",
+      "shape_or_size": "2",
+      "count": 246
+    },
+    {
+      "kind": "mcr_face",
+      "role": "L",
+      "shape_or_size": "4",
+      "count": 475
+    },
+    {
+      "kind": "mcr_face",
+      "role": "N",
+      "shape_or_size": "2",
+      "count": 2
+    },
+    {
+      "kind": "mcr_face",
+      "role": "P",
+      "shape_or_size": "2",
+      "count": 128
+    },
+    {
+      "kind": "mcr_face",
+      "role": "W",
+      "shape_or_size": "1",
+      "count": 56
+    },
+    {
+      "kind": "mcr_post",
+      "role": "K",
+      "shape_or_size": "4",
+      "count": 14
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims.",
+  "family": "depot",
+  "architectural_status": "Explicit reconstruction; static checks and game import pending",
+  "interior_scope": "Architectural floors, entrances and stated stairs; no functional machine/network certification"
+}

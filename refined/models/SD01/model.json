@@ -1,0 +1,207 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "reference-refinement-v1",
+  "id": "SD01",
+  "title": "Reference lamp with cyan plinth and thin housing",
+  "bounds": [
+    0,
+    0,
+    0,
+    3,
+    7,
+    2
+  ],
+  "dimensions_x_y_z": [
+    4,
+    8,
+    3
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": null,
+  "source_model_sha256": null,
+  "cube_runs": [
+    [
+      0,
+      1,
+      1,
+      1,
+      "K"
+    ]
+  ],
+  "cells": [
+    [
+      1,
+      1,
+      1,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "K",
+            "id": "mcr_face",
+            "shape": 112
+          },
+          {
+            "role": "N",
+            "id": "mcr_face",
+            "shape": 17
+          }
+        ]
+      }
+    ],
+    [
+      1,
+      2,
+      1,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "K",
+            "id": "mcr_post",
+            "shape": 64
+          }
+        ]
+      }
+    ],
+    [
+      1,
+      3,
+      1,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "K",
+            "id": "mcr_post",
+            "shape": 64
+          }
+        ]
+      }
+    ],
+    [
+      1,
+      4,
+      1,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "K",
+            "id": "mcr_post",
+            "shape": 64
+          }
+        ]
+      }
+    ],
+    [
+      1,
+      5,
+      1,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "K",
+            "id": "mcr_post",
+            "shape": 64
+          }
+        ]
+      }
+    ],
+    [
+      1,
+      6,
+      1,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "K",
+            "id": "mcr_post",
+            "shape": 64
+          },
+          {
+            "role": "W",
+            "id": "mcr_edge",
+            "shape": 25
+          },
+          {
+            "role": "W",
+            "id": "mcr_edge",
+            "shape": 27
+          }
+        ]
+      }
+    ],
+    [
+      1,
+      7,
+      0,
+      {
+        "kind": "architecture",
+        "role": "K",
+        "shape": 56,
+        "side": 0,
+        "turn": 0,
+        "offsetX": 0
+      }
+    ],
+    [
+      0,
+      7,
+      1,
+      {
+        "kind": "architecture",
+        "role": "K",
+        "shape": 56,
+        "side": 0,
+        "turn": 1,
+        "offsetX": 0
+      }
+    ],
+    [
+      1,
+      7,
+      1,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "K",
+            "id": "mcr_face",
+            "shape": 48
+          }
+        ]
+      }
+    ],
+    [
+      2,
+      7,
+      1,
+      {
+        "kind": "architecture",
+        "role": "K",
+        "shape": 56,
+        "side": 0,
+        "turn": 3,
+        "offsetX": 0
+      }
+    ],
+    [
+      1,
+      7,
+      2,
+      {
+        "kind": "architecture",
+        "role": "K",
+        "shape": 56,
+        "side": 0,
+        "turn": 2,
+        "offsetX": 0
+      }
+    ]
+  ],
+  "game_tested": false
+}

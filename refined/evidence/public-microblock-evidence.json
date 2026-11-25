@@ -1,0 +1,1287 @@
+{
+  "title": "Installed Forge Multipart detail evidence",
+  "date": "2026-11-24",
+  "game_tested": false,
+  "method": "Read-only JAR/bytecode/config inspection; no world/save reads, mod initialization, game commands or existing model/export changes.",
+  "sources": [
+    {
+      "filename": "ForgeMultipart-1.7.18.jar",
+      "bytes": 961468,
+      "sha256": "5e57550b5e81062fdf3100c0f404d010d06da1e603c60f159c4f4519f1b44c94",
+      "classes": [
+        {
+          "member": "codechicken/microblock/BlockMicroMaterial$.class",
+          "class_sha256": "e20a0f46a8d598804059d2c458999d99ae816017dbfe602a66e8594b249ef7dd",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.BlockMicroMaterial$.javap.txt",
+          "disassembly_sha256": "a8740e6a73ee13ab846ad0754e2229bea25f4d1bf373c67446949f4c63923c2e"
+        },
+        {
+          "member": "codechicken/microblock/BlockMicroMaterial.class",
+          "class_sha256": "1329c5131968676a88d2a015e73163d30fd1f9e7b0bd598ef6544b33bd691fba",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.BlockMicroMaterial.javap.txt",
+          "disassembly_sha256": "60f321b4402631c1183f306ddd7bc7dc019682bca265d35e6ce6fe278ee05215"
+        },
+        {
+          "member": "codechicken/microblock/CommonMicroblock$class.class",
+          "class_sha256": "ec14e4235661843b52ee6a6dc5364ce7c19043459accc8132bf6c29a4f854786",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.CommonMicroblock$class.javap.txt",
+          "disassembly_sha256": "8752bd2213dfd360884c2cdfe296ad7848f85bb9523d7cf36c099e2b9fd23495"
+        },
+        {
+          "member": "codechicken/microblock/CommonMicroClass.class",
+          "class_sha256": "8a9c67926f28e6243c1cacace2f81748acb692ca8de88767bd6f1cc6fca6d5e7",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.CommonMicroClass.javap.txt",
+          "disassembly_sha256": "82874ce9d39cf89e66e1bdb066952e8b5ba6da0ccde401e486050d230582b789"
+        },
+        {
+          "member": "codechicken/microblock/ConfigContent$$anonfun$handleIMC$1.class",
+          "class_sha256": "c53a260adfdf4cde5fb6f45857b01268907d298071680ef6d55a933c8fa0f139",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.ConfigContent$$anonfun$handleIMC$1.javap.txt",
+          "disassembly_sha256": "455403aa8e034346b0f817b92e7c19caad9d12e4f0caf540807ff6723d4b19b4"
+        },
+        {
+          "member": "codechicken/microblock/ConfigContent$$anonfun$load$1.class",
+          "class_sha256": "8521d063dc30fab06e966f651966d1a0a1fbf8c888db043198dd2eed2c34db38",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.ConfigContent$$anonfun$load$1.javap.txt",
+          "disassembly_sha256": "98575540753c3ff0754644fcc8b000b9717424cffed275a112b0300f4200d424"
+        },
+        {
+          "member": "codechicken/microblock/ConfigContent$.class",
+          "class_sha256": "d68cd1a964c3ff3cd11b6e03061d0ff60958e7c13fdda6742c1b5933559271ac",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.ConfigContent$.javap.txt",
+          "disassembly_sha256": "c0f7423f1ec7cdb420d89cfd2ecab2042bf04158c56fee0d08f8a8d05231d812"
+        },
+        {
+          "member": "codechicken/microblock/CornerMicroblock$class.class",
+          "class_sha256": "0a54085c6c8eb53a7a500adcb4ba285ed24b6d4ace2d7856ee4b2fab0b8009b4",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.CornerMicroblock$class.javap.txt",
+          "disassembly_sha256": "97b1156ed78c1d2074d4ef79439fc0054279ed4445013f956567801ae37edf91"
+        },
+        {
+          "member": "codechicken/microblock/CornerMicroClass$.class",
+          "class_sha256": "cfaf5abf65de2be02e37d63dc4a866d98beb9fa4d6cdbd39cf6898388e8432ea",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.CornerMicroClass$.javap.txt",
+          "disassembly_sha256": "d3230c52ec9625c358ceecd91fe455beda406d7ff124ca9a21b68b89ee816ad4"
+        },
+        {
+          "member": "codechicken/microblock/CornerMicroClass.class",
+          "class_sha256": "18ac393ca3994528cf8049b7383d211113356580897f9107e538d7d81e933341",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.CornerMicroClass.javap.txt",
+          "disassembly_sha256": "3c8bd58e2f73c738da8ffd4c1c8513ef493f554c30fa1e48ea8e776afa0740df"
+        },
+        {
+          "member": "codechicken/microblock/DefaultContent$.class",
+          "class_sha256": "ded59ace0037f0c51feef28bd8e1373e33c9a750fe43f5fcf2248080243ef05b",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.DefaultContent$.javap.txt",
+          "disassembly_sha256": "8c3976bc50c3c6a8eed0725c03dda848518365dfbbf5c26a668986e0df850fe2"
+        },
+        {
+          "member": "codechicken/microblock/EdgeMicroblock$class.class",
+          "class_sha256": "1c4c3400008f5592044404f612dafab43499c7df0149e5186f903865ee5dbaf2",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.EdgeMicroblock$class.javap.txt",
+          "disassembly_sha256": "bdbb6b85e13fe5e357008d47d63f16cafb447f48127c47b19dd410cbd26d1f4e"
+        },
+        {
+          "member": "codechicken/microblock/EdgeMicroClass$$anonfun$1$$anonfun$apply$mcVI$sp$1.class",
+          "class_sha256": "c3f999947673a5eac042e1d642202e5ebf9a880e59fa4f4d65db0761f8338b6b",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.EdgeMicroClass$$anonfun$1$$anonfun$apply$mcVI$sp$1.javap.txt",
+          "disassembly_sha256": "c3bf06d25b89f28e23e0f5cd4ce54622c69730fdf7fa56797f076e467433537f"
+        },
+        {
+          "member": "codechicken/microblock/EdgeMicroClass$$anonfun$1.class",
+          "class_sha256": "5483e48f12ea185bcb7c4a2fc6286fdf68cc8cec73f131c24eea8130d897b010",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.EdgeMicroClass$$anonfun$1.javap.txt",
+          "disassembly_sha256": "aebb82a046271dea5fbdd59a5aefdc09f30d3a6cd853da839cf0fdc3ce81aaec"
+        },
+        {
+          "member": "codechicken/microblock/EdgeMicroClass$.class",
+          "class_sha256": "ad4ebc50cd87edc54c9d1d9eb3917b1b4fc255f5b489d2460cb80b34f4725b4b",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.EdgeMicroClass$.javap.txt",
+          "disassembly_sha256": "d7f8ee04eb9468d50da7d7439bcdb0ed6ae8020ec20d45382c57723b519e0eb8"
+        },
+        {
+          "member": "codechicken/microblock/EdgeMicroClass.class",
+          "class_sha256": "f27e0af8fde59fd9595f79fdb79b672885e5e54385262c05df8db01b795e11c6",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.EdgeMicroClass.javap.txt",
+          "disassembly_sha256": "51c1d8369ac4a5955baae1fbe99831f31b3f0817e1fb2197a12e64cfbeb320bd"
+        },
+        {
+          "member": "codechicken/microblock/FaceMicroblock$class.class",
+          "class_sha256": "25d372385b38623d9cf57e8fb1de4aeb70a8eb62cd1d83f84479cfe1bce842d1",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.FaceMicroblock$class.javap.txt",
+          "disassembly_sha256": "b42f1027b56dfb9d01bffe6b9dc6db7514a776665309c8a962eecd45ddae761f"
+        },
+        {
+          "member": "codechicken/microblock/FaceMicroClass$$anonfun$1$$anonfun$apply$mcVI$sp$1.class",
+          "class_sha256": "791b06d5ac31bd803a676adbb97fc8105c3476786a0eb82cacb4034f4a2cab39",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.FaceMicroClass$$anonfun$1$$anonfun$apply$mcVI$sp$1.javap.txt",
+          "disassembly_sha256": "d379dec0aa776ca6c3f875138d8a4da7da2160ea45823273342d6db746fbe235"
+        },
+        {
+          "member": "codechicken/microblock/FaceMicroClass$$anonfun$1.class",
+          "class_sha256": "bddf103e998d810a5b68eb917b58ed9ca33991afb8a98da59a6c67b4c57c1375",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.FaceMicroClass$$anonfun$1.javap.txt",
+          "disassembly_sha256": "f4bb016c61ec85d3f6f0195a62d6667aa5137ad61ed7f67933d69b7249a567f4"
+        },
+        {
+          "member": "codechicken/microblock/FaceMicroClass$.class",
+          "class_sha256": "77e1b511fa203e05105271aac7c0573c67ab65409a8f9c50f65e239f16f6bf6e",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.FaceMicroClass$.javap.txt",
+          "disassembly_sha256": "e7cc34bcd1d8ec9f408f5132ee2e3df1ac605b0689600496fec1ba9958d44b8d"
+        },
+        {
+          "member": "codechicken/microblock/FaceMicroClass.class",
+          "class_sha256": "9397c446a5ea5289d24620700b1c66e55e0190ad96554a1a2c08a7c2f999d34b",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.FaceMicroClass.javap.txt",
+          "disassembly_sha256": "f4f3b2c98e62f1c451efbcc0cbd557d0c0d25f66d5c1ff263d5069c328330cd2"
+        },
+        {
+          "member": "codechicken/microblock/handler/MicroblockMod$.class",
+          "class_sha256": "7b0b9a548e93e08bf3b48554e167db9e2842b265beef0b14256224b1373bd591",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.handler.MicroblockMod$.javap.txt",
+          "disassembly_sha256": "b8cf5b8ea1173ee07bd885b090b616eb6a66ba0d81405fc891f2218ead8994f5"
+        },
+        {
+          "member": "codechicken/microblock/handler/MicroblockProxy_serverImpl.class",
+          "class_sha256": "9ecba6d41aac2253d0dafbc99c7c54f0706086bf5b9c8838ff1c9237acb61b53",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.handler.MicroblockProxy_serverImpl.javap.txt",
+          "disassembly_sha256": "e5bf396d6af0524ab23cf35a272d242faa0cece08a9d5bccdf7687be3c947145"
+        },
+        {
+          "member": "codechicken/microblock/HollowMicroClass$.class",
+          "class_sha256": "0fd2c4d3a61d29a12bb2153fdf1ce07daa2cfb71d8ae2b34406af27e726bf130",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.HollowMicroClass$.javap.txt",
+          "disassembly_sha256": "e4e0667ec31f775c448b18bf46ef7bfd4430db2037b3f48ec6a2a5a2396e49df"
+        },
+        {
+          "member": "codechicken/microblock/HollowMicroClass.class",
+          "class_sha256": "a145226e1d09699e97be36e252969d65ff35f286cc8dff03850007040f347708",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.HollowMicroClass.javap.txt",
+          "disassembly_sha256": "7efec97be530a61071be0a1ad5070cdb51c56c655faf540b67c316e1805ca466"
+        },
+        {
+          "member": "codechicken/microblock/ItemMicroPart$.class",
+          "class_sha256": "fc8359a9c08d6efc8b3adb0ee249eb76534ac6b0a72fa69cbe7a58e9b5071c54",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.ItemMicroPart$.javap.txt",
+          "disassembly_sha256": "9d7c7732f5387806bab351d7026023c69ebd4c40dbd54ff0c25501a0ca7c92ac"
+        },
+        {
+          "member": "codechicken/microblock/ItemMicroPart.class",
+          "class_sha256": "b22879f49f655236cdd23883f85b45b84f78b8929ea30bb946bd00f48c0b1f46",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.ItemMicroPart.javap.txt",
+          "disassembly_sha256": "ea271ecef431f115fda5bddeb7c59dba062f40cfc2062addd8f08d805ef3401b"
+        },
+        {
+          "member": "codechicken/microblock/ItemSaw.class",
+          "class_sha256": "c3f8725dc80d91be18b91c76df08db180881970a8205363428040e7655e4135b",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.ItemSaw.javap.txt",
+          "disassembly_sha256": "8591188147c06a4bfa3fcd4c90134b55ec9f9cf21e9a0715459ffd2f01869add"
+        },
+        {
+          "member": "codechicken/microblock/Microblock$.class",
+          "class_sha256": "3db24be976537627e93a1beaeb53720f8c227be794494ef2d013ee6814461ee4",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.Microblock$.javap.txt",
+          "disassembly_sha256": "6ba5685d6243c871f1fc6b1956ac8359237e138a9eb9ef8faf4af8d4553021a9"
+        },
+        {
+          "member": "codechicken/microblock/Microblock.class",
+          "class_sha256": "fb76dcf7fb8c157fefefa81a886074a02956dad7924c9c8638aec3a251899248",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.Microblock.javap.txt",
+          "disassembly_sha256": "398e1ceec929a3e685185c73ba5294cbdba267dc7d7034976e9b93be09c00500"
+        },
+        {
+          "member": "codechicken/microblock/MicroblockClass.class",
+          "class_sha256": "2ca1a102cfbf0558acce864cfd6c91ada9f435adbc35a69bc20fd2a011182e57",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.MicroblockClass.javap.txt",
+          "disassembly_sha256": "8e1a4ce526e41ba5c4964f4b2f8ffca86a272064fedbeb5b77b5db52f0c0543c"
+        },
+        {
+          "member": "codechicken/microblock/MicroblockGenerator$.class",
+          "class_sha256": "fa7561713794c8bee9ac88870e302b894fd229ac93fa3e0896388c14cdf74854",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.MicroblockGenerator$.javap.txt",
+          "disassembly_sha256": "3b5219d4012170ddecb0be777d351fae8177d0281969aa1d6598121964f4cbea"
+        },
+        {
+          "member": "codechicken/microblock/MicroblockPlacement$.class",
+          "class_sha256": "29b553fcb8fb3450285b8a29a8f3bb97531bbcfc388e6eda2cd1afaeb60c34be",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.MicroblockPlacement$.javap.txt",
+          "disassembly_sha256": "36deb0947eb6951c839efe77f49294a4e79657180c732f5b562a9599c8af1447"
+        },
+        {
+          "member": "codechicken/microblock/MicroMaterialRegistry$.class",
+          "class_sha256": "1e4d3a706b7d545dcbefc7f320c2dd95d5986980899e37594f0adab6abe60666",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.MicroMaterialRegistry$.javap.txt",
+          "disassembly_sha256": "69c87f3e2faab87e46c6d09de17095046b97407e6e232f2e750508f6062d8eca"
+        },
+        {
+          "member": "codechicken/microblock/MicroRecipe$.class",
+          "class_sha256": "fba165a29f2b1e5efc80b80cc853c58e21e3b46747f7305554cf5a57acf973f7",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.MicroRecipe$.javap.txt",
+          "disassembly_sha256": "2169c74f7d28c7ccc56b5ebb179ab5186ce321ed8c97986307f30e50de509ce9"
+        },
+        {
+          "member": "codechicken/microblock/MicroRecipe.class",
+          "class_sha256": "87b3a9623efc26bd5f8c5a96d6e90501982d937393bf00fe3ad5e7e6310ce1ef",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.MicroRecipe.javap.txt",
+          "disassembly_sha256": "228182331befef62b3e2b6a61346a0cbd41f4e742cc024818e14a2e9ac3d4b73"
+        },
+        {
+          "member": "codechicken/microblock/PostMicroblock$class.class",
+          "class_sha256": "02bca4eab4e2061f601ccaae6b68fe2489593f2b5611cdd5d1b325e5365be579",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.PostMicroblock$class.javap.txt",
+          "disassembly_sha256": "eaf80b3383599c3effb788ee721bbe2d7aa5e58a4fc9f007bb488ced5edbfe1c"
+        },
+        {
+          "member": "codechicken/microblock/PostMicroblockClient$class.class",
+          "class_sha256": "d62590b989ba5142c5f934f47199ea61ca6322f3d4e8609233999f8fd762de76",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.PostMicroblockClient$class.javap.txt",
+          "disassembly_sha256": "9227c4253d698921b7fc18151146717de97fb49724e3fd28aa24fa800c6420aa"
+        },
+        {
+          "member": "codechicken/microblock/PostMicroClass$$anonfun$2$$anonfun$apply$mcVI$sp$2.class",
+          "class_sha256": "190db05702df27823fedf58a744e95268062a8a5454a8025f46e2fca55e95537",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.PostMicroClass$$anonfun$2$$anonfun$apply$mcVI$sp$2.javap.txt",
+          "disassembly_sha256": "ac5c18f009f10568d3df224c5cb65a2470a0d532d1e96e97895de69a45c910cb"
+        },
+        {
+          "member": "codechicken/microblock/PostMicroClass$$anonfun$2.class",
+          "class_sha256": "67eae8d5e40a01384ef6c6a1d364f30e637bbe0284185601e756172ead972cde",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.PostMicroClass$$anonfun$2.javap.txt",
+          "disassembly_sha256": "179ae827766359a00352250f777c949da546360fb59a77af0685092c55cab1cf"
+        },
+        {
+          "member": "codechicken/microblock/PostMicroClass$.class",
+          "class_sha256": "06ee509be8ebed8f051134b70456d50485dec160b2dbe320de53cf2f33583c3f",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.PostMicroClass$.javap.txt",
+          "disassembly_sha256": "6979e17796dca3e5dcb9cea4900841785666f70c558e4599214fb4680b02cb55"
+        },
+        {
+          "member": "codechicken/microblock/PostMicroClass.class",
+          "class_sha256": "ba178b09e49f937aa0dc8665a3b21268e638ee98ef87276ec2b3bff5e09995f3",
+          "disassembly": "verification/shaped-detail-v1/codechicken.microblock.PostMicroClass.javap.txt",
+          "disassembly_sha256": "af79ec3f3df97e7f7bceeec20da95ce3a7cbff4a231087e78759affbef5377ee"
+        },
+        {
+          "member": "codechicken/multipart/BlockMultipart.class",
+          "class_sha256": "fa8f85bb2967e9b99e76221ec618e0698dea24c2be997c3499f60fc2d8efe6b2",
+          "disassembly": "verification/shaped-detail-v1/codechicken.multipart.BlockMultipart.javap.txt",
+          "disassembly_sha256": "8aa128d9bdefe17a3c08a1485ac2ba5279234e5ac50257011234cb7a4f19b9ed"
+        },
+        {
+          "member": "codechicken/multipart/handler/MultipartProxy_serverImpl.class",
+          "class_sha256": "6bf6580781097bba762faefa2a20b34e2cc7897a090ff3117e6f9be26deeb5f5",
+          "disassembly": "verification/shaped-detail-v1/codechicken.multipart.handler.MultipartProxy_serverImpl.javap.txt",
+          "disassembly_sha256": "55bc7beaef1ca7d0aadd353b9aab32802aaffdb57091fa6de40f15dc0f60dd0d"
+        },
+        {
+          "member": "codechicken/multipart/handler/MultipartSaveLoad$.class",
+          "class_sha256": "0cd931e18fa79d39517e30e768aeda97f053e38028792c0c2c589b7f578b8606",
+          "disassembly": "verification/shaped-detail-v1/codechicken.multipart.handler.MultipartSaveLoad$.javap.txt",
+          "disassembly_sha256": "907fc8302ce5b17f41c5fce4289b621f9cae5229bdbd2b57b003f80b446308fd"
+        },
+        {
+          "member": "codechicken/multipart/handler/MultipartSaveLoad.class",
+          "class_sha256": "83f47b0116dcc717f6d412199c6edff3af7111b879f779ecb009ad4efd94be57",
+          "disassembly": "verification/shaped-detail-v1/codechicken.multipart.handler.MultipartSaveLoad.javap.txt",
+          "disassembly_sha256": "ee9cc1e477befa7f010ddc1ab07ff00f478f883e18bbb74c00585ce0a6d80cb8"
+        },
+        {
+          "member": "codechicken/multipart/MultiPartRegistry$.class",
+          "class_sha256": "fb65c3374fb1c5bb460648421b55a22d274ecb9b53dbf674e4dea2e21afa0ac5",
+          "disassembly": "verification/shaped-detail-v1/codechicken.multipart.MultiPartRegistry$.javap.txt",
+          "disassembly_sha256": "0415620914b8a4d0d8b81358de99c1ead27b14104bbc91659fd426767425de03"
+        },
+        {
+          "member": "codechicken/multipart/PartMap.class",
+          "class_sha256": "d38220630a4e8034c23be799d36d6c3aef091d9e956ee9b7bc113c6430e1ba96",
+          "disassembly": "verification/shaped-detail-v1/codechicken.multipart.PartMap.javap.txt",
+          "disassembly_sha256": "d936d22f744482a95d0d0f7986959e95db99a1cf4aedf13f164417ed1e86446c"
+        },
+        {
+          "member": "codechicken/multipart/TileMultipart$$anonfun$loadParts$1.class",
+          "class_sha256": "adab94453fc8de6c3248374a7c52b244c74c29646f8e16793ee401223b812c7c",
+          "disassembly": "verification/shaped-detail-v1/codechicken.multipart.TileMultipart$$anonfun$loadParts$1.javap.txt",
+          "disassembly_sha256": "713f941e3629d68cbb7356264a0262ebb59a3e1e2564e6165ceabaa5e6a1179b"
+        },
+        {
+          "member": "codechicken/multipart/TileMultipart$$anonfun$writeToNBT$1.class",
+          "class_sha256": "b7086d57d3203de442ac80a65b0353d2bf183b672376797364a4f2dfbe4f2c46",
+          "disassembly": "verification/shaped-detail-v1/codechicken.multipart.TileMultipart$$anonfun$writeToNBT$1.javap.txt",
+          "disassembly_sha256": "ae0fdc60eb032977e90a6bc807d0e18bd6abc33ffc1b97615bb33ebb3439043f"
+        },
+        {
+          "member": "codechicken/multipart/TileMultipart$.class",
+          "class_sha256": "185d7759b11c8f57d3ee00a26fb34b74e0284cfe71b59ec0975d55e3508b515a",
+          "disassembly": "verification/shaped-detail-v1/codechicken.multipart.TileMultipart$.javap.txt",
+          "disassembly_sha256": "24d4ee09fc2cb8b9a80c1c57c05df917f12f44a1cd93b9660a24569bf53af4d0"
+        },
+        {
+          "member": "codechicken/multipart/TileMultipart.class",
+          "class_sha256": "e783b9c1ed5a45ee7391185e3eb944a5282ba5c1c5b88a65742c83ffb5ae3795",
+          "disassembly": "verification/shaped-detail-v1/codechicken.multipart.TileMultipart.javap.txt",
+          "disassembly_sha256": "44ce75e6452a5c97cc327ee25321af9d337e38804af904ba3cd37e8dc6de7742"
+        },
+        {
+          "member": "codechicken/multipart/TMultiPart.class",
+          "class_sha256": "9bff5bb4774954255102e32d8c43a57ac1bc70bc2199131bbd825174bd2b53e0",
+          "disassembly": "verification/shaped-detail-v1/codechicken.multipart.TMultiPart.javap.txt",
+          "disassembly_sha256": "6c92f3c0b1f14b64ccc995b1cfa384f18ef03ec5934f9a03e810196ceb90d4a9"
+        }
+      ]
+    },
+    {
+      "filename": "CodeChickenCore-1.4.22.jar",
+      "bytes": 453567,
+      "sha256": "0ff66294703701f156fb493265bf5b3572c4566127ce895095332d2cfe9205c1",
+      "classes": [
+        {
+          "member": "codechicken/lib/vec/AxisCycle.class",
+          "class_sha256": "73e5506c29e443e885803c8e3fe0a610798b6e6bb7922c5af10d5a925e3985df",
+          "disassembly": "verification/shaped-detail-v1/codechicken.lib.vec.AxisCycle.javap.txt",
+          "disassembly_sha256": "4c31312bbc38fdd8995b0d4db78a84f6c4fa2cfd0a934f70ee71045cfbbaab9f"
+        },
+        {
+          "member": "codechicken/lib/vec/Rotation.class",
+          "class_sha256": "33eda2dd79143690e62f80b44434248fa8b57c07d3b7ae173efabf0f79b8323b",
+          "disassembly": "verification/shaped-detail-v1/codechicken.lib.vec.Rotation.javap.txt",
+          "disassembly_sha256": "bf55d07a324618660e74444ef9ab0e009dcf0205d8dd2819b4f0557830f50499"
+        }
+      ]
+    },
+    {
+      "filename": "extrautilities-1.2.12.jar",
+      "bytes": 2149827,
+      "sha256": "a1941ee4d4b965c4d2ddc6ec0e0b1eb3f3ff8c8b492a18a25b5fcf27c67ba58b",
+      "classes": [
+        {
+          "member": "com/rwtema/extrautils/ExtraUtils.class",
+          "class_sha256": "504480027d498861073324697e5497a7a75f464ce363f7ab13e4a167896751ba",
+          "disassembly": "verification/shaped-detail-v1/com.rwtema.extrautils.ExtraUtils.javap.txt",
+          "disassembly_sha256": "fcdbafbe6d8db86b6a1ce9ce783999e6126c2b8aa49f4990b017898f0b06a944"
+        },
+        {
+          "member": "com/rwtema/extrautils/multipart/FullBrightMicroMaterial.class",
+          "class_sha256": "f6f3d4ca7ab9ac79779cb6ca97d59ed1df9c5a8c3d57f72802dad9c04e4de63a",
+          "disassembly": "verification/shaped-detail-v1/com.rwtema.extrautils.multipart.FullBrightMicroMaterial.javap.txt",
+          "disassembly_sha256": "ecbcc6708f8a3e5972506bbbbca960a72c142a981e768c41826282c49d9f2b56"
+        },
+        {
+          "member": "com/rwtema/extrautils/multipart/RegisterMicroMaterials.class",
+          "class_sha256": "f21c455e7dd4ed944a9f1da8322ab95ff16b5d989dd5267e58e4dd399b4360f0",
+          "disassembly": "verification/shaped-detail-v1/com.rwtema.extrautils.multipart.RegisterMicroMaterials.javap.txt",
+          "disassembly_sha256": "4ebe04993e92b8267041c5d1b696d9d6bc5d88a1d9b1a0d33e0349b26f4ccb6e"
+        }
+      ]
+    },
+    {
+      "filename": "chisel-2.17.34-GTNH.jar",
+      "bytes": 7607794,
+      "sha256": "cc8a7af6bb777c96d68f5b4ef0a47fbc11984e91471ce8d66710fb7a6a0bae1f",
+      "classes": [
+        {
+          "member": "com/cricketcraft/chisel/api/FMPIMC.class",
+          "class_sha256": "228a5e0be92a17c9e9c8648f8c26111a5421ebd7e2281863ef332a5bf1716fdf",
+          "disassembly": "verification/shaped-detail-v1/com.cricketcraft.chisel.api.FMPIMC.javap.txt",
+          "disassembly_sha256": "1277e9d72f2f6745732753906db61eb3f6d28da12939dcf3738af38c63b24dc0"
+        },
+        {
+          "member": "team/chisel/compat/fmp/FMPCompat.class",
+          "class_sha256": "cbf2d3237a8c401fe1d2f0e55958adeb61678f393834afc8d48d5bbd70708756",
+          "disassembly": "verification/shaped-detail-v1/team.chisel.compat.fmp.FMPCompat.javap.txt",
+          "disassembly_sha256": "5a7f9581465caf944820db0773814802444ac76eae4d36953a95876d7f4c6d78"
+        }
+      ]
+    },
+    {
+      "filename": "ProjRed-4.12.50-GTNH.jar",
+      "bytes": 10342159,
+      "sha256": "db2dde71cc9276c62b4c6f131f6155a319633c86419c9c01dca616c3f29dd642",
+      "classes": [
+        {
+          "member": "mrtjp/projectred/exploration/ExplorationProxy_server$$anonfun$init$4.class",
+          "class_sha256": "c43d7ff3118c12eca28e5c58af6fc661da303a37658b464fd052276c6ed40258",
+          "disassembly": "verification/shaped-detail-v1/mrtjp.projectred.exploration.ExplorationProxy_server$$anonfun$init$4.javap.txt",
+          "disassembly_sha256": "2bff40ab407d28177ea4ff818d1b5fa3df3f6c062a16f36f9bf8d41ea2f15171"
+        }
+      ]
+    },
+    {
+      "filename": "Ztones-1.7.10-2.2.2.jar",
+      "bytes": 557087,
+      "sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "classes": [
+        {
+          "member": "com/riciJak/Ztones/block/BlockZTNS.class",
+          "class_sha256": "f6bb7620d316489f9ab3a1b5676868c8135f2a8a85b1b148abb50437b7c2cd36",
+          "disassembly": "verification/shaped-detail-v1/com.riciJak.Ztones.block.BlockZTNS.javap.txt",
+          "disassembly_sha256": "6a1b54945e025ed491e7e57f3ded67d05a3b5e510277e08290e9d2217f36d8c9"
+        },
+        {
+          "member": "com/riciJak/Ztones/block/MBlocks/BlockBitt.class",
+          "class_sha256": "574ba7ac608ce84dd3785f7a915c6481f3fcf06e3f444a8b9beb323aac509bb0",
+          "disassembly": "verification/shaped-detail-v1/com.riciJak.Ztones.block.MBlocks.BlockBitt.javap.txt",
+          "disassembly_sha256": "fea13a0e512e08b6ad395ed382aa421f389a8464bd2f3a334e90ed6c98e95864"
+        },
+        {
+          "member": "com/riciJak/Ztones/block/MBlocks/BlockKorp.class",
+          "class_sha256": "49c29f9f4fd8c83a7c70b6ea633f8c6875dc74298167ff91ad95b6ba5adbd159",
+          "disassembly": "verification/shaped-detail-v1/com.riciJak.Ztones.block.MBlocks.BlockKorp.javap.txt",
+          "disassembly_sha256": "40fa30ef2f6ef1089d8a33ceaeaa1f9679ee864e1e7ee9de2b3a8a15acce3526"
+        },
+        {
+          "member": "com/riciJak/Ztones/block/MBlocks/BlockLave.class",
+          "class_sha256": "e3be191a5db0d698b2a4b59de9ab97f4ef97e13ded969494d29f465d2a7d750e",
+          "disassembly": "verification/shaped-detail-v1/com.riciJak.Ztones.block.MBlocks.BlockLave.javap.txt",
+          "disassembly_sha256": "74f68a0b3a9b061a0c97863ba58c37eeb37556132540e4012d73829d4ea43b09"
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "key": "current_smooth_materials",
+      "finding": "Current shaped-detail direction selects B=Ztones Korp2, K=Bitt0, L=Lave12, with nucrete15 retained for pavement. Installed microblocks.cfg explicitly registers all metadata0..15 of tile.korpBlock, tile.bittBlock and tile.laveBlock. The standard ConfigContent path creates BlockMicroMaterial from those registered blocks/metas; materialKey appends _meta only when meta>0. Therefore exact keys are Ztones:tile.korpBlock_2, Ztones:tile.bittBlock and Ztones:tile.laveBlock_12. Their inspected classes inherit ordinary BlockZTNS/Block rendering and metadata icon selection; no special-shaped block tile/NBT is needed for the cut material. Actual registry/saw execution remains untested. White Caelestis0 is tile.extrautils:greenscreen without _0, uses the same custom fullbright material integration and explicitly emits15. Four actual raw albedos/hashes are provided in smooth-material-assets.json.",
+      "evidence": [
+        {
+          "file": "verification/shaped-detail-v1/com.riciJak.Ztones.block.BlockZTNS.javap.txt",
+          "lines": [
+            1,
+            21
+          ],
+          "sha256": "6a1b54945e025ed491e7e57f3ded67d05a3b5e510277e08290e9d2217f36d8c9"
+        },
+        {
+          "file": "verification/shaped-detail-v1/com.riciJak.Ztones.block.MBlocks.BlockKorp.javap.txt",
+          "lines": [
+            8,
+            25
+          ],
+          "sha256": "40fa30ef2f6ef1089d8a33ceaeaa1f9679ee864e1e7ee9de2b3a8a15acce3526"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.ConfigContent$$anonfun$load$1.javap.txt",
+          "lines": [
+            5,
+            62
+          ],
+          "sha256": "98575540753c3ff0754644fcc8b000b9717424cffed275a112b0300f4200d424"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.BlockMicroMaterial$.javap.txt",
+          "lines": [
+            24,
+            48
+          ],
+          "sha256": "a8740e6a73ee13ab846ad0754e2229bea25f4d1bf373c67446949f4c63923c2e"
+        },
+        {
+          "file": "verification/shaped-detail-v1/com.rwtema.extrautils.ExtraUtils.javap.txt",
+          "lines": [
+            3891,
+            3897
+          ],
+          "sha256": "fcdbafbe6d8db86b6a1ce9ce783999e6126c2b8aa49f4990b017898f0b06a944"
+        },
+        {
+          "file": "verification/shaped-detail-v1/com.rwtema.extrautils.multipart.RegisterMicroMaterials.javap.txt",
+          "lines": [
+            18,
+            56
+          ],
+          "sha256": "4ebe04993e92b8267041c5d1b696d9d6bc5d88a1d9b1a0d33e0349b26f4ccb6e"
+        },
+        {
+          "file": "verification/shaped-detail-v1/com.rwtema.extrautils.multipart.FullBrightMicroMaterial.javap.txt",
+          "lines": [
+            24,
+            31
+          ],
+          "sha256": "ecbcc6708f8a3e5972506bbbbca960a72c142a981e768c41826282c49d9f2b56"
+        },
+        {
+          "file": "verification/shaped-detail-v1/config-observations.json",
+          "lines": [
+            1,
+            82
+          ],
+          "sha256": "e867ce9b0d2235f77fc81bd52a1459b8854371873432583eb6c5c9d850fcc8d3"
+        }
+      ]
+    },
+    {
+      "key": "native_names_and_portability",
+      "finding": "Native Microblock.save writes shape as byte and material as string materialName(runtimeID). load resolves the string with materialID. ItemMicroPart stores material in item NBT mat, while item damage encodes item class/size. No saved world numeric micro-material ID is needed to author the installed native format. Unknown names or changed integration keys can still fail; string portability is not game/import certification. Host registry is ForgeMultipart:block. MultipartSaveLoad registers generated tile names as savedMultipart. TileMultipart writes superclass id/x/y/z and a parts list; each part compound has id=getType followed by part.save.",
+      "evidence": [
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.Microblock.javap.txt",
+          "lines": [
+            275,
+            304
+          ],
+          "sha256": "398e1ceec929a3e685185c73ba5294cbdba267dc7d7034976e9b93be09c00500"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.ItemMicroPart$.javap.txt",
+          "lines": [
+            42,
+            65
+          ],
+          "sha256": "9d7c7732f5387806bab351d7026023c69ebd4c40dbd54ff0c25501a0ca7c92ac"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.multipart.handler.MultipartSaveLoad$.javap.txt",
+          "lines": [
+            56,
+            63
+          ],
+          "sha256": "907fc8302ce5b17f41c5fce4289b621f9cae5229bdbd2b57b003f80b446308fd"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.multipart.TileMultipart.javap.txt",
+          "lines": [
+            1106,
+            1127
+          ],
+          "sha256": "44ce75e6452a5c97cc327ee25321af9d337e38804af904ba3cd37e8dc6de7742"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.multipart.TileMultipart$$anonfun$writeToNBT$1.javap.txt",
+          "lines": [
+            7,
+            30
+          ],
+          "sha256": "ae0fdc60eb032977e90a6bc807d0e18bd6abc33ffc1b97615bb33ebb3439043f"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.multipart.handler.MultipartProxy_serverImpl.javap.txt",
+          "lines": [
+            64,
+            81
+          ],
+          "sha256": "55bc7beaef1ca7d0aadd353b9aab32802aaffdb57091fa6de40f15dc0f60dd0d"
+        }
+      ]
+    },
+    {
+      "key": "thin_shapes",
+      "finding": "Face and edge bounds use s/8; faces occupy1\u00d7s/8\u00d71 and edges s/8\u00d71\u00d7s/8 before rotation/cycling. Face size is1..7 eighths and has6 sides; edge has12 positions, maps to host slot15+edgeIndex. Centered posts use transverse0.5\u00b1s/16 and full-axis length1, with supported s=2,4,6. Quarter-square posts are shape32Y/33Z/34X. The attached JSON provides every eighth face and edge unit-cell bounding box with shape bytes and slot indices.",
+      "evidence": [
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.Microblock.javap.txt",
+          "lines": [
+            92,
+            118
+          ],
+          "sha256": "398e1ceec929a3e685185c73ba5294cbdba267dc7d7034976e9b93be09c00500"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.FaceMicroClass$$anonfun$1$$anonfun$apply$mcVI$sp$1.javap.txt",
+          "lines": [
+            16,
+            53
+          ],
+          "sha256": "d379dec0aa776ca6c3f875138d8a4da7da2160ea45823273342d6db746fbe235"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.EdgeMicroClass$$anonfun$1$$anonfun$apply$mcVI$sp$1.javap.txt",
+          "lines": [
+            16,
+            53
+          ],
+          "sha256": "c3bf06d25b89f28e23e0f5cd4ce54622c69730fdf7fa56797f076e467433537f"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.PostMicroClass$$anonfun$2.javap.txt",
+          "lines": [
+            12,
+            43
+          ],
+          "sha256": "179ae827766359a00352250f777c949da546360fb59a77af0685092c55cab1cf"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.PostMicroClass$$anonfun$2$$anonfun$apply$mcVI$sp$2.javap.txt",
+          "lines": [
+            16,
+            61
+          ],
+          "sha256": "ac5c18f009f10568d3df224c5cb65a2470a0d532d1e96e97895de69a45c910cb"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.multipart.PartMap.javap.txt",
+          "lines": [
+            288,
+            345
+          ],
+          "sha256": "d936d22f744482a95d0d0f7986959e95db99a1cf4aedf13f164417ed1e86446c"
+        }
+      ]
+    },
+    {
+      "key": "shared_center_joints",
+      "finding": "Different-axis centered posts explicitly pass post/post occlusionTest even though their base cuboids cross; same-axis duplicate post fails. A quarter Y post and quarter X/Z arm may therefore share a host cell in the installed placement logic. PostMicroblockClient has separate rendered-bound recalculation, so visual clipping and different-material junctions remain runtime checks. This exception does not permit arbitrary overlapping ordinary blocks or ArchitectureCraft tiles.",
+      "evidence": [
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.PostMicroblock$class.javap.txt",
+          "lines": [
+            49,
+            99
+          ],
+          "sha256": "eaf80b3383599c3effb788ee721bbe2d7aa5e58a4fc9f007bb488ced5edbfe1c"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.PostMicroblockClient$class.javap.txt",
+          "lines": [
+            45,
+            63
+          ],
+          "sha256": "9227c4253d698921b7fc18151146717de97fb49724e3fd28aa24fa800c6420aa"
+        }
+      ]
+    },
+    {
+      "key": "material_registration",
+      "finding": "Basalt stone variants call BlockMicroMaterial.createAndRegister directly. Chisel full cube variations send ForgeMicroblock microMaterial ItemStack IMC via CarvableHelper/FMPIMC and the installed handler creates/registers that block metadata. Vanilla DefaultContent registers glowstone, glass and all16 stained glass states. No config edit is required by these observed integrations. Eligibility is installed registration-code evidence; no live material registry, saw cutting or NEI recipe was executed.",
+      "evidence": [
+        {
+          "file": "verification/shaped-detail-v1/mrtjp.projectred.exploration.ExplorationProxy_server$$anonfun$init$4.javap.txt",
+          "lines": [
+            5,
+            18
+          ],
+          "sha256": "2bff40ab407d28177ea4ff818d1b5fa3df3f6c062a16f36f9bf8d41ea2f15171"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.BlockMicroMaterial$.javap.txt",
+          "lines": [
+            24,
+            48
+          ],
+          "sha256": "a8740e6a73ee13ab846ad0754e2229bea25f4d1bf373c67446949f4c63923c2e"
+        },
+        {
+          "file": "verification/shaped-detail-v1/com.cricketcraft.chisel.api.FMPIMC.javap.txt",
+          "lines": [
+            31,
+            44
+          ],
+          "sha256": "1277e9d72f2f6745732753906db61eb3f6d28da12939dcf3738af38c63b24dc0"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.ConfigContent$$anonfun$handleIMC$1.javap.txt",
+          "lines": [
+            6,
+            39
+          ],
+          "sha256": "455403aa8e034346b0f817b92e7c19caad9d12e4f0caf540807ff6723d4b19b4"
+        },
+        {
+          "file": "verification/concept-match-v1/com.cricketcraft.chisel.api.carving.CarvableHelper.javap.txt",
+          "lines": [
+            454,
+            493
+          ],
+          "sha256": "b9626a9bf0cc83005fc42c3cbd031394913795b04adb41f094cd4bcffa366380"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.DefaultContent$.javap.txt",
+          "lines": [
+            185,
+            192
+          ],
+          "sha256": "8c3976bc50c3c6a8eed0725c03dda848518365dfbbf5c26a668986e0df850fe2"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.DefaultContent$.javap.txt",
+          "lines": [
+            248,
+            258
+          ],
+          "sha256": "8c3976bc50c3c6a8eed0725c03dda848518365dfbbf5c26a668986e0df850fe2"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.DefaultContent$.javap.txt",
+          "lines": [
+            97,
+            104
+          ],
+          "sha256": "8c3976bc50c3c6a8eed0725c03dda848518365dfbbf5c26a668986e0df850fe2"
+        }
+      ]
+    },
+    {
+      "key": "cyan_and_warm_emission",
+      "finding": "Generic BlockMicroMaterial reads block.getLightValue() without world/metadata, which alone would lose Caelestis metadata emission. Installed ExtraUtilities explicitly supplies FullBrightMicroMaterial for all16 greenscreen variants, keyed from unlocalized tile.extrautils:greenscreen plus _meta. Its getLightValue calls BlockGreenScreen.getLightLevel(meta), preserving cyan10 and white15; getColour preserves metadata tint and the fullbright render pipeline is separate. Glowstone base emission15 survives ordinary micro-material cuts. Microblock part light delegates to the material; TileMultipart emits the maximum part value. A thin cyan strip remains10 by code, not a scaled fractional light value or colored-light guarantee.",
+      "evidence": [
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.BlockMicroMaterial.javap.txt",
+          "lines": [
+            308,
+            314
+          ],
+          "sha256": "60f321b4402631c1183f306ddd7bc7dc019682bca265d35e6ce6fe278ee05215"
+        },
+        {
+          "file": "verification/shaped-detail-v1/com.rwtema.extrautils.ExtraUtils.javap.txt",
+          "lines": [
+            3891,
+            3897
+          ],
+          "sha256": "fcdbafbe6d8db86b6a1ce9ce783999e6126c2b8aa49f4990b017898f0b06a944"
+        },
+        {
+          "file": "verification/shaped-detail-v1/com.rwtema.extrautils.multipart.RegisterMicroMaterials.javap.txt",
+          "lines": [
+            18,
+            56
+          ],
+          "sha256": "4ebe04993e92b8267041c5d1b696d9d6bc5d88a1d9b1a0d33e0349b26f4ccb6e"
+        },
+        {
+          "file": "verification/shaped-detail-v1/com.rwtema.extrautils.multipart.FullBrightMicroMaterial.javap.txt",
+          "lines": [
+            24,
+            31
+          ],
+          "sha256": "ecbcc6708f8a3e5972506bbbbca960a72c142a981e768c41826282c49d9f2b56"
+        },
+        {
+          "file": "verification/shaped-detail-v1/com.rwtema.extrautils.multipart.FullBrightMicroMaterial.javap.txt",
+          "lines": [
+            11,
+            33
+          ],
+          "sha256": "ecbcc6708f8a3e5972506bbbbca960a72c142a981e768c41826282c49d9f2b56"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.Microblock.javap.txt",
+          "lines": [
+            314,
+            320
+          ],
+          "sha256": "398e1ceec929a3e685185c73ba5294cbdba267dc7d7034976e9b93be09c00500"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.multipart.TileMultipart.javap.txt",
+          "lines": [
+            430,
+            459
+          ],
+          "sha256": "44ce75e6452a5c97cc327ee25321af9d337e38804af904ba3cd37e8dc6de7742"
+        }
+      ]
+    },
+    {
+      "key": "saw_and_manual_workflow",
+      "finding": "The installed recipe checks saw cutting strength against material harvest level (or maximum cutting-strength exception). A saw above the material creates two pieces with half the size; repeated thinning reaches halves, quarters and eighths. Side cuts change common shape class via splitting recipes; final centered posts are placement/orientation variants of the edge item class. Do not equate item damage with world shape. Local multipart.cfg has saw durability settings. GTNH dreamcraft presence suppresses the default saw/stone-rod crafting recipes in this jar, so actual saw acquisition and cutting recipes must be checked in target NEI; no universal saw crafting bill is asserted.",
+      "evidence": [
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.MicroRecipe$.javap.txt",
+          "lines": [
+            508,
+            529
+          ],
+          "sha256": "2169c74f7d28c7ccc56b5ebb179ab5186ce321ed8c97986307f30e50de509ce9"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.MicroRecipe$.javap.txt",
+          "lines": [
+            531,
+            649
+          ],
+          "sha256": "2169c74f7d28c7ccc56b5ebb179ab5186ce321ed8c97986307f30e50de509ce9"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.MicroRecipe$.javap.txt",
+          "lines": [
+            79,
+            108
+          ],
+          "sha256": "2169c74f7d28c7ccc56b5ebb179ab5186ce321ed8c97986307f30e50de509ce9"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.PostMicroblock$class.javap.txt",
+          "lines": [
+            43,
+            49
+          ],
+          "sha256": "eaf80b3383599c3effb788ee721bbe2d7aa5e58a4fc9f007bb488ced5edbfe1c"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.BlockMicroMaterial.javap.txt",
+          "lines": [
+            339,
+            348
+          ],
+          "sha256": "60f321b4402631c1183f306ddd7bc7dc019682bca265d35e6ce6fe278ee05215"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.handler.MicroblockProxy_serverImpl.javap.txt",
+          "lines": [
+            290,
+            304
+          ],
+          "sha256": "e5bf396d6af0524ab23cf35a272d242faa0cece08a9d5bccdf7687be3c947145"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "role": "B",
+      "title": "Basalt Brick",
+      "registry_name": "ProjRed|Exploration:projectred.exploration.stone",
+      "block_metadata": 4,
+      "micro_material_name": "ProjRed|Exploration:projectred.exploration.stone_4",
+      "emitted_light_static": 0,
+      "eligibility": "Explicit installed registration/integration code present; target runtime material registry and saw recipe not executed",
+      "material_class": "codechicken.microblock.BlockMicroMaterial",
+      "evidence": [
+        {
+          "file": "verification/shaped-detail-v1/mrtjp.projectred.exploration.ExplorationProxy_server$$anonfun$init$4.javap.txt",
+          "lines": [
+            5,
+            18
+          ],
+          "sha256": "2bff40ab407d28177ea4ff818d1b5fa3df3f6c062a16f36f9bf8d41ea2f15171"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.BlockMicroMaterial$.javap.txt",
+          "lines": [
+            24,
+            48
+          ],
+          "sha256": "a8740e6a73ee13ab846ad0754e2229bea25f4d1bf373c67446949f4c63923c2e"
+        }
+      ]
+    },
+    {
+      "role": "K",
+      "title": "Dark Concrete Tiles",
+      "registry_name": "chisel:nucrete",
+      "block_metadata": 7,
+      "micro_material_name": "chisel:nucrete_7",
+      "emitted_light_static": 0,
+      "eligibility": "Explicit installed registration/integration code present; target runtime material registry and saw recipe not executed",
+      "material_class": "codechicken.microblock.BlockMicroMaterial",
+      "evidence": [
+        {
+          "file": "verification/shaped-detail-v1/com.cricketcraft.chisel.api.FMPIMC.javap.txt",
+          "lines": [
+            31,
+            44
+          ],
+          "sha256": "1277e9d72f2f6745732753906db61eb3f6d28da12939dcf3738af38c63b24dc0"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.ConfigContent$$anonfun$handleIMC$1.javap.txt",
+          "lines": [
+            6,
+            39
+          ],
+          "sha256": "455403aa8e034346b0f817b92e7c19caad9d12e4f0caf540807ff6723d4b19b4"
+        },
+        {
+          "file": "verification/concept-match-v1/com.cricketcraft.chisel.api.carving.CarvableHelper.javap.txt",
+          "lines": [
+            454,
+            493
+          ],
+          "sha256": "b9626a9bf0cc83005fc42c3cbd031394913795b04adb41f094cd4bcffa366380"
+        }
+      ]
+    },
+    {
+      "role": "L",
+      "title": "Light Concrete Tiles",
+      "registry_name": "chisel:nucrete",
+      "block_metadata": 15,
+      "micro_material_name": "chisel:nucrete_15",
+      "emitted_light_static": 0,
+      "eligibility": "Explicit installed registration/integration code present; target runtime material registry and saw recipe not executed",
+      "material_class": "codechicken.microblock.BlockMicroMaterial",
+      "evidence": [
+        {
+          "file": "verification/shaped-detail-v1/com.cricketcraft.chisel.api.FMPIMC.javap.txt",
+          "lines": [
+            31,
+            44
+          ],
+          "sha256": "1277e9d72f2f6745732753906db61eb3f6d28da12939dcf3738af38c63b24dc0"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.ConfigContent$$anonfun$handleIMC$1.javap.txt",
+          "lines": [
+            6,
+            39
+          ],
+          "sha256": "455403aa8e034346b0f817b92e7c19caad9d12e4f0caf540807ff6723d4b19b4"
+        },
+        {
+          "file": "verification/concept-match-v1/com.cricketcraft.chisel.api.carving.CarvableHelper.javap.txt",
+          "lines": [
+            454,
+            493
+          ],
+          "sha256": "b9626a9bf0cc83005fc42c3cbd031394913795b04adb41f094cd4bcffa366380"
+        }
+      ]
+    },
+    {
+      "role": "N",
+      "title": "Cyan Lapis Caelestis",
+      "registry_name": "ExtraUtilities:greenscreen",
+      "block_metadata": 9,
+      "micro_material_name": "tile.extrautils:greenscreen_9",
+      "emitted_light_static": 10,
+      "eligibility": "Explicit installed registration/integration code present; target runtime material registry and saw recipe not executed",
+      "material_class": "com.rwtema.extrautils.multipart.FullBrightMicroMaterial",
+      "evidence": [
+        {
+          "file": "verification/shaped-detail-v1/com.rwtema.extrautils.ExtraUtils.javap.txt",
+          "lines": [
+            3891,
+            3897
+          ],
+          "sha256": "fcdbafbe6d8db86b6a1ce9ce783999e6126c2b8aa49f4990b017898f0b06a944"
+        },
+        {
+          "file": "verification/shaped-detail-v1/com.rwtema.extrautils.multipart.RegisterMicroMaterials.javap.txt",
+          "lines": [
+            18,
+            56
+          ],
+          "sha256": "4ebe04993e92b8267041c5d1b696d9d6bc5d88a1d9b1a0d33e0349b26f4ccb6e"
+        },
+        {
+          "file": "verification/shaped-detail-v1/com.rwtema.extrautils.multipart.FullBrightMicroMaterial.javap.txt",
+          "lines": [
+            24,
+            31
+          ],
+          "sha256": "ecbcc6708f8a3e5972506bbbbca960a72c142a981e768c41826282c49d9f2b56"
+        }
+      ]
+    },
+    {
+      "role": "W",
+      "title": "Glowstone",
+      "registry_name": "minecraft:glowstone",
+      "block_metadata": 0,
+      "micro_material_name": "minecraft:glowstone",
+      "emitted_light_static": 15,
+      "eligibility": "Explicit installed registration/integration code present; target runtime material registry and saw recipe not executed",
+      "material_class": "codechicken.microblock.BlockMicroMaterial",
+      "evidence": [
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.DefaultContent$.javap.txt",
+          "lines": [
+            185,
+            192
+          ],
+          "sha256": "8c3976bc50c3c6a8eed0725c03dda848518365dfbbf5c26a668986e0df850fe2"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.DefaultContent$.javap.txt",
+          "lines": [
+            248,
+            258
+          ],
+          "sha256": "8c3976bc50c3c6a8eed0725c03dda848518365dfbbf5c26a668986e0df850fe2"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.DefaultContent$.javap.txt",
+          "lines": [
+            97,
+            104
+          ],
+          "sha256": "8c3976bc50c3c6a8eed0725c03dda848518365dfbbf5c26a668986e0df850fe2"
+        }
+      ]
+    },
+    {
+      "role": "G",
+      "title": "Gray Stained Glass",
+      "registry_name": "minecraft:stained_glass",
+      "block_metadata": 7,
+      "micro_material_name": "minecraft:stained_glass_7",
+      "emitted_light_static": 0,
+      "eligibility": "Explicit installed registration/integration code present; target runtime material registry and saw recipe not executed",
+      "material_class": "codechicken.microblock.BlockMicroMaterial",
+      "evidence": [
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.DefaultContent$.javap.txt",
+          "lines": [
+            185,
+            192
+          ],
+          "sha256": "8c3976bc50c3c6a8eed0725c03dda848518365dfbbf5c26a668986e0df850fe2"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.DefaultContent$.javap.txt",
+          "lines": [
+            248,
+            258
+          ],
+          "sha256": "8c3976bc50c3c6a8eed0725c03dda848518365dfbbf5c26a668986e0df850fe2"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.DefaultContent$.javap.txt",
+          "lines": [
+            97,
+            104
+          ],
+          "sha256": "8c3976bc50c3c6a8eed0725c03dda848518365dfbbf5c26a668986e0df850fe2"
+        }
+      ]
+    },
+    {
+      "role": "D",
+      "title": "White Stained Glass",
+      "registry_name": "minecraft:stained_glass",
+      "block_metadata": 0,
+      "micro_material_name": "minecraft:stained_glass",
+      "emitted_light_static": 0,
+      "eligibility": "Explicit installed registration/integration code present; target runtime material registry and saw recipe not executed",
+      "material_class": "codechicken.microblock.BlockMicroMaterial",
+      "evidence": [
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.DefaultContent$.javap.txt",
+          "lines": [
+            185,
+            192
+          ],
+          "sha256": "8c3976bc50c3c6a8eed0725c03dda848518365dfbbf5c26a668986e0df850fe2"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.DefaultContent$.javap.txt",
+          "lines": [
+            248,
+            258
+          ],
+          "sha256": "8c3976bc50c3c6a8eed0725c03dda848518365dfbbf5c26a668986e0df850fe2"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.DefaultContent$.javap.txt",
+          "lines": [
+            97,
+            104
+          ],
+          "sha256": "8c3976bc50c3c6a8eed0725c03dda848518365dfbbf5c26a668986e0df850fe2"
+        }
+      ]
+    },
+    {
+      "role": "Q",
+      "title": "Clear Glass",
+      "registry_name": "minecraft:glass",
+      "block_metadata": 0,
+      "micro_material_name": "minecraft:glass",
+      "emitted_light_static": 0,
+      "eligibility": "Explicit installed registration/integration code present; target runtime material registry and saw recipe not executed",
+      "material_class": "codechicken.microblock.BlockMicroMaterial",
+      "evidence": [
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.DefaultContent$.javap.txt",
+          "lines": [
+            185,
+            192
+          ],
+          "sha256": "8c3976bc50c3c6a8eed0725c03dda848518365dfbbf5c26a668986e0df850fe2"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.DefaultContent$.javap.txt",
+          "lines": [
+            248,
+            258
+          ],
+          "sha256": "8c3976bc50c3c6a8eed0725c03dda848518365dfbbf5c26a668986e0df850fe2"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.DefaultContent$.javap.txt",
+          "lines": [
+            97,
+            104
+          ],
+          "sha256": "8c3976bc50c3c6a8eed0725c03dda848518365dfbbf5c26a668986e0df850fe2"
+        }
+      ]
+    },
+    {
+      "role": "B_smooth",
+      "title": "Korp2 smooth charcoal",
+      "registry_name": "Ztones:tile.korpBlock",
+      "block_metadata": 2,
+      "micro_material_name": "Ztones:tile.korpBlock_2",
+      "emitted_light_static": 0,
+      "eligibility": "Explicit installed registration/integration code present; target runtime material registry and saw recipe not executed",
+      "material_class": "codechicken.microblock.BlockMicroMaterial",
+      "evidence": [
+        {
+          "file": "verification/shaped-detail-v1/com.riciJak.Ztones.block.BlockZTNS.javap.txt",
+          "lines": [
+            1,
+            21
+          ],
+          "sha256": "6a1b54945e025ed491e7e57f3ded67d05a3b5e510277e08290e9d2217f36d8c9"
+        },
+        {
+          "file": "verification/shaped-detail-v1/com.riciJak.Ztones.block.MBlocks.BlockKorp.javap.txt",
+          "lines": [
+            8,
+            25
+          ],
+          "sha256": "40fa30ef2f6ef1089d8a33ceaeaa1f9679ee864e1e7ee9de2b3a8a15acce3526"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.ConfigContent$$anonfun$load$1.javap.txt",
+          "lines": [
+            5,
+            62
+          ],
+          "sha256": "98575540753c3ff0754644fcc8b000b9717424cffed275a112b0300f4200d424"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.BlockMicroMaterial$.javap.txt",
+          "lines": [
+            24,
+            48
+          ],
+          "sha256": "a8740e6a73ee13ab846ad0754e2229bea25f4d1bf373c67446949f4c63923c2e"
+        }
+      ]
+    },
+    {
+      "role": "K_smooth",
+      "title": "Bitt0 dark frame",
+      "registry_name": "Ztones:tile.bittBlock",
+      "block_metadata": 0,
+      "micro_material_name": "Ztones:tile.bittBlock",
+      "emitted_light_static": 0,
+      "eligibility": "Explicit installed registration/integration code present; target runtime material registry and saw recipe not executed",
+      "material_class": "codechicken.microblock.BlockMicroMaterial",
+      "evidence": [
+        {
+          "file": "verification/shaped-detail-v1/com.riciJak.Ztones.block.BlockZTNS.javap.txt",
+          "lines": [
+            1,
+            21
+          ],
+          "sha256": "6a1b54945e025ed491e7e57f3ded67d05a3b5e510277e08290e9d2217f36d8c9"
+        },
+        {
+          "file": "verification/shaped-detail-v1/com.riciJak.Ztones.block.MBlocks.BlockKorp.javap.txt",
+          "lines": [
+            8,
+            25
+          ],
+          "sha256": "40fa30ef2f6ef1089d8a33ceaeaa1f9679ee864e1e7ee9de2b3a8a15acce3526"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.ConfigContent$$anonfun$load$1.javap.txt",
+          "lines": [
+            5,
+            62
+          ],
+          "sha256": "98575540753c3ff0754644fcc8b000b9717424cffed275a112b0300f4200d424"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.BlockMicroMaterial$.javap.txt",
+          "lines": [
+            24,
+            48
+          ],
+          "sha256": "a8740e6a73ee13ab846ad0754e2229bea25f4d1bf373c67446949f4c63923c2e"
+        }
+      ]
+    },
+    {
+      "role": "L_smooth",
+      "title": "Lave12 pale frame",
+      "registry_name": "Ztones:tile.laveBlock",
+      "block_metadata": 12,
+      "micro_material_name": "Ztones:tile.laveBlock_12",
+      "emitted_light_static": 0,
+      "eligibility": "Explicit installed registration/integration code present; target runtime material registry and saw recipe not executed",
+      "material_class": "codechicken.microblock.BlockMicroMaterial",
+      "evidence": [
+        {
+          "file": "verification/shaped-detail-v1/com.riciJak.Ztones.block.BlockZTNS.javap.txt",
+          "lines": [
+            1,
+            21
+          ],
+          "sha256": "6a1b54945e025ed491e7e57f3ded67d05a3b5e510277e08290e9d2217f36d8c9"
+        },
+        {
+          "file": "verification/shaped-detail-v1/com.riciJak.Ztones.block.MBlocks.BlockKorp.javap.txt",
+          "lines": [
+            8,
+            25
+          ],
+          "sha256": "40fa30ef2f6ef1089d8a33ceaeaa1f9679ee864e1e7ee9de2b3a8a15acce3526"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.ConfigContent$$anonfun$load$1.javap.txt",
+          "lines": [
+            5,
+            62
+          ],
+          "sha256": "98575540753c3ff0754644fcc8b000b9717424cffed275a112b0300f4200d424"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.BlockMicroMaterial$.javap.txt",
+          "lines": [
+            24,
+            48
+          ],
+          "sha256": "a8740e6a73ee13ab846ad0754e2229bea25f4d1bf373c67446949f4c63923c2e"
+        }
+      ]
+    },
+    {
+      "role": "white_emitter",
+      "title": "White Lapis Caelestis",
+      "registry_name": "ExtraUtilities:greenscreen",
+      "block_metadata": 0,
+      "micro_material_name": "tile.extrautils:greenscreen",
+      "emitted_light_static": 15,
+      "eligibility": "Explicit installed registration/integration code present; target runtime material registry and saw recipe not executed",
+      "material_class": "com.rwtema.extrautils.multipart.FullBrightMicroMaterial",
+      "evidence": [
+        {
+          "file": "verification/shaped-detail-v1/com.rwtema.extrautils.ExtraUtils.javap.txt",
+          "lines": [
+            3891,
+            3897
+          ],
+          "sha256": "fcdbafbe6d8db86b6a1ce9ce783999e6126c2b8aa49f4990b017898f0b06a944"
+        },
+        {
+          "file": "verification/shaped-detail-v1/com.rwtema.extrautils.multipart.RegisterMicroMaterials.javap.txt",
+          "lines": [
+            18,
+            56
+          ],
+          "sha256": "4ebe04993e92b8267041c5d1b696d9d6bc5d88a1d9b1a0d33e0349b26f4ccb6e"
+        },
+        {
+          "file": "verification/shaped-detail-v1/com.rwtema.extrautils.multipart.FullBrightMicroMaterial.javap.txt",
+          "lines": [
+            24,
+            31
+          ],
+          "sha256": "ecbcc6708f8a3e5972506bbbbca960a72c142a981e768c41826282c49d9f2b56"
+        }
+      ]
+    }
+  ],
+  "detail_spec": "generated/shaped-detail-v1/evidence/microblock-detail-spec.json",
+  "detail_spec_sha256": "d6b8be98a4b4427f06ff0a2cef183357f0060f118d6f800319fdafc10ce971e5",
+  "config_observations": "verification/shaped-detail-v1/config-observations.json",
+  "unresolved": [
+    "Destination runtime material registry/alias resolution has not been instantiated.",
+    "No import/re-import of savedMultipart through installed WorldEdit/Schematica has been game-tested.",
+    "No native schematic or functional street lamp assembly is produced by this research task.",
+    "Placement click modes, crossing render clipping, saw unlock/recipes, lighting propagation and collision navigation require authorized disposable-game checks."
+  ]
+}

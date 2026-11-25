@@ -1,0 +1,160 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "reference-refinement-v1",
+  "id": "A09",
+  "title": "Service courtyard",
+  "bounds": [
+    0,
+    -1,
+    0,
+    23,
+    9,
+    23
+  ],
+  "dimensions_x_y_z": [
+    24,
+    11,
+    24
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": "design/concept-match-v1/models/A09.json.gz",
+  "source_model_sha256": "95d6efefeff780dced4782e33f78c4f4c1618e4f98d80b42dbe47287bc86e874",
+  "game_tested": false,
+  "occupied_host_positions": 1188,
+  "cube_positions": 1062,
+  "architecture_shapes": 8,
+  "multipart_hosts": 118,
+  "microparts": 124,
+  "tile_entities": 126,
+  "entities": 0,
+  "model_sha256": "2a1ddafdec7f2ab015c56a5f281e3d5fe3a6844cd0309f6c4c9a0e7adbd188b8",
+  "schematic": "models/A09/Valier_A09_Shaped_GTNH29.schematic",
+  "schematic_sha256": "5b7e9e5119085d12233e2cb6487c3c4da5b3d22e36804711aabbc7b4a8d10c35",
+  "registry_map": {
+    "minecraft:air": 0,
+    "Ztones:tile.agonBlock": 1,
+    "ForgeMultipart:block": 2,
+    "Ztones:tile.korpBlock": 3,
+    "minecraft:dirt": 4,
+    "minecraft:leaves": 5,
+    "minecraft:red_flower": 6,
+    "minecraft:log": 7,
+    "ArchitectureCraft:shape": 8
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "architecture",
+      "role": "K",
+      "shape_or_size": "56",
+      "count": 8
+    },
+    {
+      "kind": "cube",
+      "role": "B",
+      "shape_or_size": "14",
+      "count": 40
+    },
+    {
+      "kind": "cube",
+      "role": "E",
+      "shape_or_size": "0",
+      "count": 30
+    },
+    {
+      "kind": "cube",
+      "role": "K",
+      "shape_or_size": "13",
+      "count": 142
+    },
+    {
+      "kind": "cube",
+      "role": "P",
+      "shape_or_size": "15",
+      "count": 384
+    },
+    {
+      "kind": "cube",
+      "role": "R",
+      "shape_or_size": "13",
+      "count": 192
+    },
+    {
+      "kind": "cube",
+      "role": "T",
+      "shape_or_size": "0",
+      "count": 12
+    },
+    {
+      "kind": "cube",
+      "role": "V",
+      "shape_or_size": "4",
+      "count": 252
+    },
+    {
+      "kind": "cube",
+      "role": "f",
+      "shape_or_size": "2",
+      "count": 10
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 20
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "W",
+      "shape_or_size": "1",
+      "count": 4
+    },
+    {
+      "kind": "mcr_face",
+      "role": "K",
+      "shape_or_size": "3",
+      "count": 2
+    },
+    {
+      "kind": "mcr_face",
+      "role": "K",
+      "shape_or_size": "7",
+      "count": 2
+    },
+    {
+      "kind": "mcr_face",
+      "role": "L",
+      "shape_or_size": "4",
+      "count": 20
+    },
+    {
+      "kind": "mcr_face",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 2
+    },
+    {
+      "kind": "mcr_face",
+      "role": "P",
+      "shape_or_size": "2",
+      "count": 40
+    },
+    {
+      "kind": "mcr_face",
+      "role": "W",
+      "shape_or_size": "1",
+      "count": 8
+    },
+    {
+      "kind": "mcr_post",
+      "role": "K",
+      "shape_or_size": "4",
+      "count": 26
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims.",
+  "family": "landscape-furniture",
+  "architectural_status": "Explicit reconstruction; static checks and game import pending",
+  "interior_scope": "Architectural floors, entrances and stated stairs; no functional machine/network certification"
+}

@@ -1,0 +1,12 @@
+local_x,civil_y,local_z,kind,native_fields_json
+1,1,3,multipart,"{""kind"":""multipart"",""parts"":[{""role"":""K"",""id"":""mcr_face"",""shape"":112},{""role"":""N"",""id"":""mcr_face"",""shape"":17}]}"
+1,2,3,multipart,"{""kind"":""multipart"",""parts"":[{""role"":""K"",""id"":""mcr_post"",""shape"":64}]}"
+1,3,3,multipart,"{""kind"":""multipart"",""parts"":[{""role"":""K"",""id"":""mcr_post"",""shape"":64}]}"
+1,4,3,multipart,"{""kind"":""multipart"",""parts"":[{""role"":""K"",""id"":""mcr_post"",""shape"":64}]}"
+1,5,3,multipart,"{""kind"":""multipart"",""parts"":[{""role"":""K"",""id"":""mcr_post"",""shape"":64}]}"
+1,6,3,multipart,"{""kind"":""multipart"",""parts"":[{""role"":""K"",""id"":""mcr_post"",""shape"":64},{""role"":""W"",""id"":""mcr_edge"",""shape"":25},{""role"":""W"",""id"":""mcr_edge"",""shape"":27}]}"
+1,7,2,architecture,"{""kind"":""architecture"",""role"":""K"",""shape"":56,""side"":0,""turn"":0,""offsetX"":0}"
+0,7,3,architecture,"{""kind"":""architecture"",""role"":""K"",""shape"":56,""side"":0,""turn"":1,""offsetX"":0}"
+1,7,3,multipart,"{""kind"":""multipart"",""parts"":[{""role"":""K"",""id"":""mcr_face"",""shape"":48}]}"
+2,7,3,architecture,"{""kind"":""architecture"",""role"":""K"",""shape"":56,""side"":0,""turn"":3,""offsetX"":0}"
+1,7,4,architecture,"{""kind"":""architecture"",""role"":""K"",""shape"":56,""side"":0,""turn"":2,""offsetX"":0}"

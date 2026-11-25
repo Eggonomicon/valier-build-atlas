@@ -1,0 +1,198 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "reference-refinement-v1",
+  "id": "08-07",
+  "title": "Space materials",
+  "bounds": [
+    0,
+    -7,
+    0,
+    63,
+    27,
+    63
+  ],
+  "dimensions_x_y_z": [
+    64,
+    35,
+    64
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": [
+    598,
+    694,
+    661,
+    757
+  ],
+  "source_model": "design/concept-match-v1/models/08-07.json.gz",
+  "source_model_sha256": "4818e7b26fd6a9bccf19195ab6e8b3681060adfdda4afbe9b74ef7f5eba6f821",
+  "game_tested": false,
+  "occupied_host_positions": 26507,
+  "cube_positions": 24055,
+  "architecture_shapes": 272,
+  "multipart_hosts": 2180,
+  "microparts": 2230,
+  "tile_entities": 2452,
+  "entities": 0,
+  "model_sha256": "c6836582b76bbc4f50a58ed4d4a0b0b57f749e572b21849a91173896a7090a96",
+  "schematic": "models/08-07/Valier_08-07_Shaped_GTNH29.schematic",
+  "schematic_sha256": "f0c73d3cde88c60f0b0772bcdcaf59ceeaca952adf33395861242386c8a212b6",
+  "registry_map": {
+    "minecraft:air": 0,
+    "Ztones:tile.agonBlock": 1,
+    "ForgeMultipart:block": 2,
+    "minecraft:stonebrick": 3,
+    "Ztones:tile.korpBlock": 4,
+    "TConstruct:GlassBlock.StainedClear": 5,
+    "minecraft:stone_slab": 6,
+    "ArchitectureCraft:shape": 7,
+    "minecraft:dirt": 8,
+    "minecraft:leaves": 9,
+    "minecraft:red_flower": 10,
+    "minecraft:log": 11
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "architecture",
+      "role": "L",
+      "shape_or_size": "56",
+      "count": 216
+    },
+    {
+      "kind": "architecture",
+      "role": "L",
+      "shape_or_size": "94",
+      "count": 28
+    },
+    {
+      "kind": "architecture",
+      "role": "L",
+      "shape_or_size": "95",
+      "count": 28
+    },
+    {
+      "kind": "cube",
+      "role": "B",
+      "shape_or_size": "14",
+      "count": 2036
+    },
+    {
+      "kind": "cube",
+      "role": "E",
+      "shape_or_size": "0",
+      "count": 147
+    },
+    {
+      "kind": "cube",
+      "role": "F",
+      "shape_or_size": "0",
+      "count": 4132
+    },
+    {
+      "kind": "cube",
+      "role": "G",
+      "shape_or_size": "3",
+      "count": 1953
+    },
+    {
+      "kind": "cube",
+      "role": "K",
+      "shape_or_size": "13",
+      "count": 7873
+    },
+    {
+      "kind": "cube",
+      "role": "M",
+      "shape_or_size": "2",
+      "count": 412
+    },
+    {
+      "kind": "cube",
+      "role": "P",
+      "shape_or_size": "15",
+      "count": 6578
+    },
+    {
+      "kind": "cube",
+      "role": "T",
+      "shape_or_size": "0",
+      "count": 36
+    },
+    {
+      "kind": "cube",
+      "role": "V",
+      "shape_or_size": "4",
+      "count": 759
+    },
+    {
+      "kind": "cube",
+      "role": "f",
+      "shape_or_size": "2",
+      "count": 39
+    },
+    {
+      "kind": "cube",
+      "role": "s",
+      "shape_or_size": "0",
+      "count": 90
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "K",
+      "shape_or_size": "1",
+      "count": 316
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 654
+    },
+    {
+      "kind": "mcr_face",
+      "role": "K",
+      "shape_or_size": "5",
+      "count": 2
+    },
+    {
+      "kind": "mcr_face",
+      "role": "L",
+      "shape_or_size": "2",
+      "count": 270
+    },
+    {
+      "kind": "mcr_face",
+      "role": "L",
+      "shape_or_size": "4",
+      "count": 654
+    },
+    {
+      "kind": "mcr_face",
+      "role": "N",
+      "shape_or_size": "2",
+      "count": 2
+    },
+    {
+      "kind": "mcr_face",
+      "role": "P",
+      "shape_or_size": "2",
+      "count": 251
+    },
+    {
+      "kind": "mcr_face",
+      "role": "W",
+      "shape_or_size": "1",
+      "count": 67
+    },
+    {
+      "kind": "mcr_post",
+      "role": "K",
+      "shape_or_size": "4",
+      "count": 14
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims.",
+  "family": "production",
+  "architectural_status": "Explicit reconstruction; static checks and game import pending",
+  "interior_scope": "Architectural floors, entrances and stated stairs; no functional machine/network certification"
+}

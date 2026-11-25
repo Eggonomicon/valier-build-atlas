@@ -1,0 +1,12 @@
+kind,role,block_registry,base_metadata,shape_id_or_size_eighths,placed_items_or_parts,quantity_type,source_inventory_metadata
+architecture,L,Ztones:tile.agonBlock,0,94,10,sawbench shape item,0
+architecture,L,Ztones:tile.agonBlock,0,95,10,sawbench shape item,0
+cube,B,Ztones:tile.korpBlock,14,14,2,placed item,14
+cube,P,Ztones:tile.agonBlock,15,15,128,placed item,15
+mcr_edge,N,ExtraUtilities:greenscreen,9,1,10,cut micropart; not one full block,9
+mcr_face,K,Ztones:tile.agonBlock,13,4,42,cut micropart; not one full block,13
+mcr_face,K,Ztones:tile.agonBlock,13,7,2,cut micropart; not one full block,13
+mcr_face,L,Ztones:tile.agonBlock,0,2,12,cut micropart; not one full block,0
+mcr_face,L,Ztones:tile.agonBlock,0,4,28,cut micropart; not one full block,0
+mcr_face,N,ExtraUtilities:greenscreen,9,1,2,cut micropart; not one full block,9
+mcr_post,K,Ztones:tile.agonBlock,13,4,12,cut micropart; not one full block,13

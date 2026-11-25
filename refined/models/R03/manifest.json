@@ -1,0 +1,51 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "reference-refinement-v1",
+  "id": "R03",
+  "title": "Under-road service gallery / exact civil crop",
+  "bounds": [
+    0,
+    -10,
+    0,
+    11,
+    -1,
+    23
+  ],
+  "dimensions_x_y_z": [
+    12,
+    10,
+    24
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": "design/concept-match-v1/models/R03.json.gz",
+  "source_model_sha256": "94a3188639d224c9064a8676fff5a169aae0872c5c4eadd0b11eb3428832ed4c",
+  "game_tested": false,
+  "occupied_host_positions": 1200,
+  "cube_positions": 1200,
+  "architecture_shapes": 0,
+  "multipart_hosts": 0,
+  "microparts": 0,
+  "tile_entities": 0,
+  "entities": 0,
+  "model_sha256": "0e55ef02f0c382f8ba875d352aac5456ea5bdc4166ab87cc68dc9da43d111101",
+  "schematic": "models/R03/Valier_R03_Shaped_GTNH29.schematic",
+  "schematic_sha256": "74c344987586640c4dbb719de12bf16fb1ac70194be381ea56a3041871c1f91a",
+  "registry_map": {
+    "minecraft:air": 0,
+    "minecraft:stonebrick": 1
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "cube",
+      "role": "F",
+      "shape_or_size": "0",
+      "count": 1200
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims.",
+  "family": "civil-source",
+  "architectural_status": "Explicit reconstruction; static checks and game import pending",
+  "interior_scope": "Architectural floors, entrances and stated stairs; no functional machine/network certification"
+}

@@ -1,0 +1,211 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "reference-refinement-v1",
+  "id": "05-05",
+  "title": "HQ + ceremonial plaza",
+  "bounds": [
+    0,
+    -7,
+    0,
+    64,
+    51,
+    64
+  ],
+  "dimensions_x_y_z": [
+    65,
+    59,
+    65
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": [
+    405,
+    405,
+    469,
+    469
+  ],
+  "source_model": "design/concept-match-v1/models/05-05.json.gz",
+  "source_model_sha256": "282525d299f38686cf21d3688fcf6b9f0a9eb3502d91598eea43151c57c8ad72",
+  "game_tested": false,
+  "occupied_host_positions": 28479,
+  "cube_positions": 26312,
+  "architecture_shapes": 170,
+  "multipart_hosts": 1997,
+  "microparts": 2055,
+  "tile_entities": 2167,
+  "entities": 0,
+  "model_sha256": "28c50754e8d0006582610ff910e1d410b6f0195030ac633ca9c50b79a96fb6fb",
+  "schematic": "models/05-05/Valier_05-05_Shaped_GTNH29.schematic",
+  "schematic_sha256": "5971973bb155a38f9c3f4840348b5918de9a7b09f9c807debbe9551af13caf17",
+  "registry_map": {
+    "minecraft:air": 0,
+    "Ztones:tile.agonBlock": 1,
+    "Ztones:tile.korpBlock": 2,
+    "minecraft:water": 3,
+    "ForgeMultipart:block": 4,
+    "minecraft:stonebrick": 5,
+    "TConstruct:GlassBlock.StainedClear": 6,
+    "ArchitectureCraft:shape": 7,
+    "minecraft:dirt": 8,
+    "minecraft:leaves": 9,
+    "minecraft:red_flower": 10,
+    "minecraft:log": 11,
+    "minecraft:stone_slab": 12
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "architecture",
+      "role": "L",
+      "shape_or_size": "0",
+      "count": 56
+    },
+    {
+      "kind": "architecture",
+      "role": "L",
+      "shape_or_size": "56",
+      "count": 114
+    },
+    {
+      "kind": "cube",
+      "role": "B",
+      "shape_or_size": "14",
+      "count": 2627
+    },
+    {
+      "kind": "cube",
+      "role": "E",
+      "shape_or_size": "0",
+      "count": 201
+    },
+    {
+      "kind": "cube",
+      "role": "F",
+      "shape_or_size": "0",
+      "count": 4135
+    },
+    {
+      "kind": "cube",
+      "role": "G",
+      "shape_or_size": "3",
+      "count": 1201
+    },
+    {
+      "kind": "cube",
+      "role": "K",
+      "shape_or_size": "13",
+      "count": 6726
+    },
+    {
+      "kind": "cube",
+      "role": "L",
+      "shape_or_size": "0",
+      "count": 954
+    },
+    {
+      "kind": "cube",
+      "role": "M",
+      "shape_or_size": "2",
+      "count": 2378
+    },
+    {
+      "kind": "cube",
+      "role": "P",
+      "shape_or_size": "15",
+      "count": 6797
+    },
+    {
+      "kind": "cube",
+      "role": "T",
+      "shape_or_size": "0",
+      "count": 24
+    },
+    {
+      "kind": "cube",
+      "role": "V",
+      "shape_or_size": "4",
+      "count": 613
+    },
+    {
+      "kind": "cube",
+      "role": "f",
+      "shape_or_size": "2",
+      "count": 76
+    },
+    {
+      "kind": "cube",
+      "role": "s",
+      "shape_or_size": "0",
+      "count": 156
+    },
+    {
+      "kind": "fluid",
+      "role": "a",
+      "shape_or_size": "0",
+      "count": 424
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "K",
+      "shape_or_size": "1",
+      "count": 320
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 424
+    },
+    {
+      "kind": "mcr_face",
+      "role": "K",
+      "shape_or_size": "5",
+      "count": 4
+    },
+    {
+      "kind": "mcr_face",
+      "role": "L",
+      "shape_or_size": "2",
+      "count": 453
+    },
+    {
+      "kind": "mcr_face",
+      "role": "L",
+      "shape_or_size": "4",
+      "count": 378
+    },
+    {
+      "kind": "mcr_face",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 9
+    },
+    {
+      "kind": "mcr_face",
+      "role": "N",
+      "shape_or_size": "2",
+      "count": 4
+    },
+    {
+      "kind": "mcr_face",
+      "role": "P",
+      "shape_or_size": "2",
+      "count": 425
+    },
+    {
+      "kind": "mcr_face",
+      "role": "W",
+      "shape_or_size": "1",
+      "count": 24
+    },
+    {
+      "kind": "mcr_post",
+      "role": "K",
+      "shape_or_size": "4",
+      "count": 14
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims.",
+  "family": "headquarters",
+  "architectural_status": "Explicit reconstruction; static checks and game import pending",
+  "interior_scope": "Architectural floors, entrances and stated stairs; no functional machine/network certification"
+}

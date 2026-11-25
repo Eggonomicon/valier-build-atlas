@@ -1,0 +1,89 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "reference-refinement-v1",
+  "id": "A08",
+  "title": "Wayfinding marker",
+  "bounds": [
+    0,
+    -1,
+    0,
+    7,
+    7,
+    7
+  ],
+  "dimensions_x_y_z": [
+    8,
+    9,
+    8
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": "design/concept-match-v1/models/A08.json.gz",
+  "source_model_sha256": "8b040823249181a7847e1b41c87661f77f81c0d07c2bbf293cde86797ab61206",
+  "game_tested": false,
+  "occupied_host_positions": 85,
+  "cube_positions": 73,
+  "architecture_shapes": 0,
+  "multipart_hosts": 12,
+  "microparts": 13,
+  "tile_entities": 12,
+  "entities": 0,
+  "model_sha256": "b6e620ae9eb163ff681e5f34bc364a398df680f948444332da4050cb361b4987",
+  "schematic": "models/A08/Valier_A08_Shaped_GTNH29.schematic",
+  "schematic_sha256": "f10501fe45fd8e370e65584d3a770ebe3001c2d244cb6bcb2a0dda149600b6b9",
+  "registry_map": {
+    "minecraft:air": 0,
+    "Ztones:tile.agonBlock": 1,
+    "ForgeMultipart:block": 2,
+    "Ztones:tile.korpBlock": 3
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "cube",
+      "role": "B",
+      "shape_or_size": "14",
+      "count": 9
+    },
+    {
+      "kind": "cube",
+      "role": "P",
+      "shape_or_size": "15",
+      "count": 64
+    },
+    {
+      "kind": "mcr_face",
+      "role": "K",
+      "shape_or_size": "7",
+      "count": 1
+    },
+    {
+      "kind": "mcr_face",
+      "role": "L",
+      "shape_or_size": "2",
+      "count": 3
+    },
+    {
+      "kind": "mcr_face",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 1
+    },
+    {
+      "kind": "mcr_face",
+      "role": "W",
+      "shape_or_size": "1",
+      "count": 5
+    },
+    {
+      "kind": "mcr_post",
+      "role": "K",
+      "shape_or_size": "4",
+      "count": 3
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims.",
+  "family": "landscape-furniture",
+  "architectural_status": "Explicit reconstruction; static checks and game import pending",
+  "interior_scope": "Architectural floors, entrances and stated stairs; no functional machine/network certification"
+}

@@ -1,0 +1,26 @@
+{
+  "status": "pass",
+  "game_tested": false,
+  "selected_roles": [
+    "L",
+    "P",
+    "B",
+    "R",
+    "K",
+    "M",
+    "G",
+    "g"
+  ],
+  "raw_assets_checked": 37,
+  "tconstruct_ctm_icons": 32,
+  "selected_active_albedo_overrides": false,
+  "bindings_sha256": "43c5b12bb6904a0ddb2e78c089c5e275fc7070e6a71aeb448886ec5e5d2c27d8",
+  "public_report_sha256": "1f26fbbfa60ac7e17e96467714fbc13535f1bbeb1b667f663e920ff2b5073c6e",
+  "ctm_spec_sha256": "2f13b6628c39b15cf7faaf250faa2da744f7077d7312873380002c58dea927a8",
+  "preservation": {
+    "older_protected_paths": 4895,
+    "reference_native_authoritative_paths": 308,
+    "all_unchanged": true,
+    "scope": "Previously checked102 source models, packaged models, schematics, palette and catalog plus4895 older protected paths. This does not certify files absent from prior hash records."
+  }
+}

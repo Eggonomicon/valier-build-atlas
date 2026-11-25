@@ -1,0 +1,95 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "reference-refinement-v1",
+  "id": "A05",
+  "title": "Lamp and bollard bay",
+  "bounds": [
+    0,
+    -1,
+    0,
+    3,
+    7,
+    7
+  ],
+  "dimensions_x_y_z": [
+    4,
+    9,
+    8
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": "design/concept-match-v1/models/A05.json.gz",
+  "source_model_sha256": "88467f18554a9c4079b8d3b0e0f88296af4d7be0c06002115ad4bae6088ec479",
+  "game_tested": false,
+  "occupied_host_positions": 44,
+  "cube_positions": 33,
+  "architecture_shapes": 4,
+  "multipart_hosts": 7,
+  "microparts": 10,
+  "tile_entities": 11,
+  "entities": 0,
+  "model_sha256": "e252aa72b00f17c6ef1f3a656f5308a471346cc66d6980a29ba1b98e363c3431",
+  "schematic": "models/A05/Valier_A05_Shaped_GTNH29.schematic",
+  "schematic_sha256": "c825dd4b0c1adb2c2b7bce3c46fd42d14aa5e5175be8c219b95a6414b7c87014",
+  "registry_map": {
+    "minecraft:air": 0,
+    "Ztones:tile.agonBlock": 1,
+    "ForgeMultipart:block": 2,
+    "ArchitectureCraft:shape": 3
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "architecture",
+      "role": "K",
+      "shape_or_size": "56",
+      "count": 4
+    },
+    {
+      "kind": "cube",
+      "role": "K",
+      "shape_or_size": "13",
+      "count": 1
+    },
+    {
+      "kind": "cube",
+      "role": "P",
+      "shape_or_size": "15",
+      "count": 32
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "W",
+      "shape_or_size": "1",
+      "count": 2
+    },
+    {
+      "kind": "mcr_face",
+      "role": "K",
+      "shape_or_size": "3",
+      "count": 1
+    },
+    {
+      "kind": "mcr_face",
+      "role": "K",
+      "shape_or_size": "7",
+      "count": 1
+    },
+    {
+      "kind": "mcr_face",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 1
+    },
+    {
+      "kind": "mcr_post",
+      "role": "K",
+      "shape_or_size": "4",
+      "count": 5
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims.",
+  "family": "landscape-furniture",
+  "architectural_status": "Explicit reconstruction; static checks and game import pending",
+  "interior_scope": "Architectural floors, entrances and stated stairs; no functional machine/network certification"
+}

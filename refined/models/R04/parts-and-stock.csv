@@ -1,0 +1,4 @@
+kind,role,block_registry,base_metadata,shape_id_or_size_eighths,placed_items_or_parts,quantity_type,source_inventory_metadata
+cube,F,minecraft:stonebrick,0,0,1964,placed item,0
+cube,S,minecraft:stone_slab,8,8,27,placed item,0
+cube,s,minecraft:stone_slab,0,0,27,placed item,0

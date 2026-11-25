@@ -1,0 +1,2 @@
+inventory_registry,inventory_metadata,items,scope
+minecraft:stonebrick,0,1200,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"

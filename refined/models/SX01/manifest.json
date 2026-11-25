@@ -1,0 +1,254 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "reference-refinement-v1",
+  "id": "SX01",
+  "title": "Street and junction appearance demonstration",
+  "bounds": [
+    0,
+    -7,
+    0,
+    127,
+    51,
+    255
+  ],
+  "dimensions_x_y_z": [
+    128,
+    59,
+    256
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": "design/concept-match-v1/models/SX01.json.gz",
+  "source_model_sha256": "01b3731963f79eab917bd40a274da7907e125b642c4b144997d620823d262913",
+  "game_tested": false,
+  "occupied_host_positions": 127746,
+  "cube_positions": 111263,
+  "architecture_shapes": 1602,
+  "multipart_hosts": 14881,
+  "microparts": 15593,
+  "tile_entities": 16483,
+  "entities": 0,
+  "model_sha256": "0059ef6f001e60b4d6c5e34d852f2e5fba0798b9b80b85bfaf56c3be1909ee6d",
+  "schematic": "models/SX01/Valier_SX01_Shaped_GTNH29.schematic",
+  "schematic_sha256": "1e31bf2deb32ea54665c583829813b343326022f2e41ee30947f92dda73868a1",
+  "registry_map": {
+    "minecraft:air": 0,
+    "Ztones:tile.agonBlock": 1,
+    "ForgeMultipart:block": 2,
+    "Ztones:tile.korpBlock": 3,
+    "minecraft:water": 4,
+    "minecraft:stone_slab": 5,
+    "TConstruct:GlassBlock.StainedClear": 6,
+    "ArchitectureCraft:shape": 7,
+    "minecraft:dirt": 8,
+    "minecraft:leaves": 9,
+    "minecraft:red_flower": 10,
+    "minecraft:log": 11,
+    "minecraft:stonebrick": 12
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "architecture",
+      "role": "K",
+      "shape_or_size": "56",
+      "count": 64
+    },
+    {
+      "kind": "architecture",
+      "role": "L",
+      "shape_or_size": "0",
+      "count": 56
+    },
+    {
+      "kind": "architecture",
+      "role": "L",
+      "shape_or_size": "56",
+      "count": 1002
+    },
+    {
+      "kind": "architecture",
+      "role": "L",
+      "shape_or_size": "94",
+      "count": 240
+    },
+    {
+      "kind": "architecture",
+      "role": "L",
+      "shape_or_size": "95",
+      "count": 240
+    },
+    {
+      "kind": "cube",
+      "role": "B",
+      "shape_or_size": "14",
+      "count": 11807
+    },
+    {
+      "kind": "cube",
+      "role": "E",
+      "shape_or_size": "0",
+      "count": 885
+    },
+    {
+      "kind": "cube",
+      "role": "F",
+      "shape_or_size": "0",
+      "count": 4135
+    },
+    {
+      "kind": "cube",
+      "role": "G",
+      "shape_or_size": "3",
+      "count": 12715
+    },
+    {
+      "kind": "cube",
+      "role": "K",
+      "shape_or_size": "13",
+      "count": 27690
+    },
+    {
+      "kind": "cube",
+      "role": "L",
+      "shape_or_size": "0",
+      "count": 1242
+    },
+    {
+      "kind": "cube",
+      "role": "M",
+      "shape_or_size": "2",
+      "count": 3810
+    },
+    {
+      "kind": "cube",
+      "role": "P",
+      "shape_or_size": "15",
+      "count": 40470
+    },
+    {
+      "kind": "cube",
+      "role": "R",
+      "shape_or_size": "13",
+      "count": 2484
+    },
+    {
+      "kind": "cube",
+      "role": "T",
+      "shape_or_size": "0",
+      "count": 208
+    },
+    {
+      "kind": "cube",
+      "role": "V",
+      "shape_or_size": "4",
+      "count": 4318
+    },
+    {
+      "kind": "cube",
+      "role": "f",
+      "shape_or_size": "2",
+      "count": 247
+    },
+    {
+      "kind": "cube",
+      "role": "s",
+      "shape_or_size": "0",
+      "count": 828
+    },
+    {
+      "kind": "fluid",
+      "role": "a",
+      "shape_or_size": "0",
+      "count": 424
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "K",
+      "shape_or_size": "1",
+      "count": 3770
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 3408
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "W",
+      "shape_or_size": "1",
+      "count": 32
+    },
+    {
+      "kind": "mcr_face",
+      "role": "K",
+      "shape_or_size": "3",
+      "count": 16
+    },
+    {
+      "kind": "mcr_face",
+      "role": "K",
+      "shape_or_size": "5",
+      "count": 4
+    },
+    {
+      "kind": "mcr_face",
+      "role": "K",
+      "shape_or_size": "7",
+      "count": 16
+    },
+    {
+      "kind": "mcr_face",
+      "role": "L",
+      "shape_or_size": "2",
+      "count": 789
+    },
+    {
+      "kind": "mcr_face",
+      "role": "L",
+      "shape_or_size": "4",
+      "count": 4760
+    },
+    {
+      "kind": "mcr_face",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 25
+    },
+    {
+      "kind": "mcr_face",
+      "role": "N",
+      "shape_or_size": "2",
+      "count": 4
+    },
+    {
+      "kind": "mcr_face",
+      "role": "P",
+      "shape_or_size": "2",
+      "count": 2365
+    },
+    {
+      "kind": "mcr_face",
+      "role": "P",
+      "shape_or_size": "7",
+      "count": 80
+    },
+    {
+      "kind": "mcr_face",
+      "role": "W",
+      "shape_or_size": "1",
+      "count": 134
+    },
+    {
+      "kind": "mcr_post",
+      "role": "K",
+      "shape_or_size": "4",
+      "count": 190
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims.",
+  "family": "concept-detail",
+  "architectural_status": "Explicit reconstruction; static checks and game import pending",
+  "interior_scope": "Architectural floors, entrances and stated stairs; no functional machine/network certification"
+}

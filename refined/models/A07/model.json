@@ -1,0 +1,688 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "reference-refinement-v1",
+  "id": "A07",
+  "title": "Valier monument",
+  "bounds": [
+    0,
+    -1,
+    0,
+    11,
+    5,
+    11
+  ],
+  "dimensions_x_y_z": [
+    12,
+    7,
+    12
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": "design/concept-match-v1/models/A07.json.gz",
+  "source_model_sha256": "3330b0313f7d6eb4e71e766b300c2161a63339c0ca58285ad412a09ef61095a3",
+  "cube_runs": [
+    [
+      -1,
+      0,
+      0,
+      11,
+      "P"
+    ],
+    [
+      -1,
+      1,
+      0,
+      11,
+      "P"
+    ],
+    [
+      -1,
+      2,
+      0,
+      11,
+      "P"
+    ],
+    [
+      -1,
+      3,
+      0,
+      11,
+      "P"
+    ],
+    [
+      -1,
+      4,
+      0,
+      11,
+      "P"
+    ],
+    [
+      -1,
+      5,
+      0,
+      11,
+      "P"
+    ],
+    [
+      -1,
+      6,
+      0,
+      11,
+      "P"
+    ],
+    [
+      -1,
+      7,
+      0,
+      11,
+      "P"
+    ],
+    [
+      -1,
+      8,
+      0,
+      11,
+      "P"
+    ],
+    [
+      -1,
+      9,
+      0,
+      11,
+      "P"
+    ],
+    [
+      -1,
+      10,
+      0,
+      11,
+      "P"
+    ],
+    [
+      -1,
+      11,
+      0,
+      11,
+      "P"
+    ],
+    [
+      0,
+      3,
+      1,
+      10,
+      "B"
+    ],
+    [
+      0,
+      4,
+      1,
+      10,
+      "B"
+    ],
+    [
+      0,
+      5,
+      1,
+      10,
+      "B"
+    ],
+    [
+      0,
+      6,
+      1,
+      10,
+      "B"
+    ],
+    [
+      0,
+      7,
+      1,
+      10,
+      "B"
+    ],
+    [
+      0,
+      8,
+      1,
+      10,
+      "B"
+    ],
+    [
+      1,
+      4,
+      3,
+      8,
+      "M"
+    ],
+    [
+      1,
+      5,
+      3,
+      8,
+      "M"
+    ],
+    [
+      1,
+      6,
+      3,
+      8,
+      "M"
+    ],
+    [
+      1,
+      7,
+      3,
+      8,
+      "M"
+    ]
+  ],
+  "cells": [
+    [
+      3,
+      1,
+      3,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "N",
+            "id": "mcr_edge",
+            "shape": 27
+          }
+        ]
+      }
+    ],
+    [
+      4,
+      1,
+      3,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "N",
+            "id": "mcr_edge",
+            "shape": 27
+          }
+        ]
+      }
+    ],
+    [
+      5,
+      1,
+      3,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "N",
+            "id": "mcr_edge",
+            "shape": 27
+          }
+        ]
+      }
+    ],
+    [
+      6,
+      1,
+      3,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "N",
+            "id": "mcr_edge",
+            "shape": 27
+          }
+        ]
+      }
+    ],
+    [
+      7,
+      1,
+      3,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "N",
+            "id": "mcr_edge",
+            "shape": 27
+          }
+        ]
+      }
+    ],
+    [
+      8,
+      1,
+      3,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "N",
+            "id": "mcr_edge",
+            "shape": 27
+          }
+        ]
+      }
+    ],
+    [
+      4,
+      2,
+      5,
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": 0,
+        "side": 1,
+        "turn": 1,
+        "offsetX": 0
+      }
+    ],
+    [
+      5,
+      2,
+      5,
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": 0,
+        "side": 0,
+        "turn": 3,
+        "offsetX": 0
+      }
+    ],
+    [
+      6,
+      2,
+      5,
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": 0,
+        "side": 0,
+        "turn": 1,
+        "offsetX": 0
+      }
+    ],
+    [
+      7,
+      2,
+      5,
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": 0,
+        "side": 1,
+        "turn": 3,
+        "offsetX": 0
+      }
+    ],
+    [
+      4,
+      2,
+      6,
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": 0,
+        "side": 1,
+        "turn": 1,
+        "offsetX": 0
+      }
+    ],
+    [
+      5,
+      2,
+      6,
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": 0,
+        "side": 0,
+        "turn": 3,
+        "offsetX": 0
+      }
+    ],
+    [
+      6,
+      2,
+      6,
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": 0,
+        "side": 0,
+        "turn": 1,
+        "offsetX": 0
+      }
+    ],
+    [
+      7,
+      2,
+      6,
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": 0,
+        "side": 1,
+        "turn": 3,
+        "offsetX": 0
+      }
+    ],
+    [
+      3,
+      3,
+      5,
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": 0,
+        "side": 1,
+        "turn": 1,
+        "offsetX": 0
+      }
+    ],
+    [
+      4,
+      3,
+      5,
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": 0,
+        "side": 0,
+        "turn": 3,
+        "offsetX": 0
+      }
+    ],
+    [
+      7,
+      3,
+      5,
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": 0,
+        "side": 0,
+        "turn": 1,
+        "offsetX": 0
+      }
+    ],
+    [
+      8,
+      3,
+      5,
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": 0,
+        "side": 1,
+        "turn": 3,
+        "offsetX": 0
+      }
+    ],
+    [
+      3,
+      3,
+      6,
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": 0,
+        "side": 1,
+        "turn": 1,
+        "offsetX": 0
+      }
+    ],
+    [
+      4,
+      3,
+      6,
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": 0,
+        "side": 0,
+        "turn": 3,
+        "offsetX": 0
+      }
+    ],
+    [
+      7,
+      3,
+      6,
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": 0,
+        "side": 0,
+        "turn": 1,
+        "offsetX": 0
+      }
+    ],
+    [
+      8,
+      3,
+      6,
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": 0,
+        "side": 1,
+        "turn": 3,
+        "offsetX": 0
+      }
+    ],
+    [
+      2,
+      4,
+      5,
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": 0,
+        "side": 1,
+        "turn": 1,
+        "offsetX": 0
+      }
+    ],
+    [
+      3,
+      4,
+      5,
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": 0,
+        "side": 0,
+        "turn": 3,
+        "offsetX": 0
+      }
+    ],
+    [
+      8,
+      4,
+      5,
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": 0,
+        "side": 0,
+        "turn": 1,
+        "offsetX": 0
+      }
+    ],
+    [
+      9,
+      4,
+      5,
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": 0,
+        "side": 1,
+        "turn": 3,
+        "offsetX": 0
+      }
+    ],
+    [
+      2,
+      4,
+      6,
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": 0,
+        "side": 1,
+        "turn": 1,
+        "offsetX": 0
+      }
+    ],
+    [
+      3,
+      4,
+      6,
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": 0,
+        "side": 0,
+        "turn": 3,
+        "offsetX": 0
+      }
+    ],
+    [
+      8,
+      4,
+      6,
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": 0,
+        "side": 0,
+        "turn": 1,
+        "offsetX": 0
+      }
+    ],
+    [
+      9,
+      4,
+      6,
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": 0,
+        "side": 1,
+        "turn": 3,
+        "offsetX": 0
+      }
+    ],
+    [
+      1,
+      5,
+      5,
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": 0,
+        "side": 1,
+        "turn": 1,
+        "offsetX": 0
+      }
+    ],
+    [
+      2,
+      5,
+      5,
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": 0,
+        "side": 0,
+        "turn": 3,
+        "offsetX": 0
+      }
+    ],
+    [
+      9,
+      5,
+      5,
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": 0,
+        "side": 0,
+        "turn": 1,
+        "offsetX": 0
+      }
+    ],
+    [
+      10,
+      5,
+      5,
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": 0,
+        "side": 1,
+        "turn": 3,
+        "offsetX": 0
+      }
+    ],
+    [
+      1,
+      5,
+      6,
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": 0,
+        "side": 1,
+        "turn": 1,
+        "offsetX": 0
+      }
+    ],
+    [
+      2,
+      5,
+      6,
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": 0,
+        "side": 0,
+        "turn": 3,
+        "offsetX": 0
+      }
+    ],
+    [
+      9,
+      5,
+      6,
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": 0,
+        "side": 0,
+        "turn": 1,
+        "offsetX": 0
+      }
+    ],
+    [
+      10,
+      5,
+      6,
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": 0,
+        "side": 1,
+        "turn": 3,
+        "offsetX": 0
+      }
+    ]
+  ],
+  "game_tested": false
+}

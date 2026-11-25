@@ -1,0 +1,111 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "reference-refinement-v1",
+  "id": "A02",
+  "title": "Pocket garden",
+  "bounds": [
+    0,
+    -1,
+    0,
+    23,
+    9,
+    23
+  ],
+  "dimensions_x_y_z": [
+    24,
+    11,
+    24
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": "design/concept-match-v1/models/A02.json.gz",
+  "source_model_sha256": "b0311a38608d2b14801d4a058e0b49c76a46f6fb9d093cb5bb3437838ef09103",
+  "game_tested": false,
+  "occupied_host_positions": 1488,
+  "cube_positions": 1388,
+  "architecture_shapes": 0,
+  "multipart_hosts": 100,
+  "microparts": 104,
+  "tile_entities": 100,
+  "entities": 0,
+  "model_sha256": "364affe10fb1fa1f428bc3e0cf5b6898edfa4898465c548b5a450e444d8a12af",
+  "schematic": "models/A02/Valier_A02_Shaped_GTNH29.schematic",
+  "schematic_sha256": "f3831856ca6b0bcb7df3c3a6118e4ca62050cd4e86bd6b48f4fcd890f6ad2cd7",
+  "registry_map": {
+    "minecraft:air": 0,
+    "Ztones:tile.korpBlock": 1,
+    "Ztones:tile.agonBlock": 2,
+    "minecraft:dirt": 3,
+    "ForgeMultipart:block": 4,
+    "minecraft:red_flower": 5,
+    "minecraft:leaves": 6,
+    "minecraft:log": 7
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "cube",
+      "role": "B",
+      "shape_or_size": "14",
+      "count": 96
+    },
+    {
+      "kind": "cube",
+      "role": "E",
+      "shape_or_size": "0",
+      "count": 100
+    },
+    {
+      "kind": "cube",
+      "role": "M",
+      "shape_or_size": "2",
+      "count": 139
+    },
+    {
+      "kind": "cube",
+      "role": "P",
+      "shape_or_size": "15",
+      "count": 441
+    },
+    {
+      "kind": "cube",
+      "role": "T",
+      "shape_or_size": "0",
+      "count": 24
+    },
+    {
+      "kind": "cube",
+      "role": "V",
+      "shape_or_size": "4",
+      "count": 556
+    },
+    {
+      "kind": "cube",
+      "role": "f",
+      "shape_or_size": "2",
+      "count": 32
+    },
+    {
+      "kind": "mcr_face",
+      "role": "K",
+      "shape_or_size": "5",
+      "count": 4
+    },
+    {
+      "kind": "mcr_face",
+      "role": "N",
+      "shape_or_size": "2",
+      "count": 4
+    },
+    {
+      "kind": "mcr_face",
+      "role": "P",
+      "shape_or_size": "2",
+      "count": 96
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims.",
+  "family": "landscape-furniture",
+  "architectural_status": "Explicit reconstruction; static checks and game import pending",
+  "interior_scope": "Architectural floors, entrances and stated stairs; no functional machine/network certification"
+}

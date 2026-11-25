@@ -1,0 +1,129 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "reference-refinement-v1",
+  "id": "A04",
+  "title": "Garden promenade",
+  "bounds": [
+    0,
+    -1,
+    0,
+    11,
+    9,
+    31
+  ],
+  "dimensions_x_y_z": [
+    12,
+    11,
+    32
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": "design/concept-match-v1/models/A04.json.gz",
+  "source_model_sha256": "3b80855246ff5796b109d681bc1f7dc84f8c52c0951d3e8b1532790c8529883d",
+  "game_tested": false,
+  "occupied_host_positions": 836,
+  "cube_positions": 756,
+  "architecture_shapes": 0,
+  "multipart_hosts": 80,
+  "microparts": 88,
+  "tile_entities": 80,
+  "entities": 0,
+  "model_sha256": "b5adf59189452396aea5129e1ca5011e8c73f641fe5bb10640e0b9b7c7932597",
+  "schematic": "models/A04/Valier_A04_Shaped_GTNH29.schematic",
+  "schematic_sha256": "40eaf2e51071174ac813174ecc0d59d9b7ed81f639391d26529b00e92227d3e6",
+  "registry_map": {
+    "minecraft:air": 0,
+    "Ztones:tile.agonBlock": 1,
+    "ForgeMultipart:block": 2,
+    "Ztones:tile.korpBlock": 3,
+    "minecraft:dirt": 4,
+    "minecraft:leaves": 5,
+    "minecraft:red_flower": 6,
+    "minecraft:log": 7
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "cube",
+      "role": "B",
+      "shape_or_size": "14",
+      "count": 40
+    },
+    {
+      "kind": "cube",
+      "role": "E",
+      "shape_or_size": "0",
+      "count": 30
+    },
+    {
+      "kind": "cube",
+      "role": "M",
+      "shape_or_size": "2",
+      "count": 32
+    },
+    {
+      "kind": "cube",
+      "role": "P",
+      "shape_or_size": "15",
+      "count": 380
+    },
+    {
+      "kind": "cube",
+      "role": "T",
+      "shape_or_size": "0",
+      "count": 12
+    },
+    {
+      "kind": "cube",
+      "role": "V",
+      "shape_or_size": "4",
+      "count": 253
+    },
+    {
+      "kind": "cube",
+      "role": "f",
+      "shape_or_size": "2",
+      "count": 9
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 4
+    },
+    {
+      "kind": "mcr_face",
+      "role": "K",
+      "shape_or_size": "5",
+      "count": 4
+    },
+    {
+      "kind": "mcr_face",
+      "role": "L",
+      "shape_or_size": "4",
+      "count": 32
+    },
+    {
+      "kind": "mcr_face",
+      "role": "N",
+      "shape_or_size": "2",
+      "count": 4
+    },
+    {
+      "kind": "mcr_face",
+      "role": "P",
+      "shape_or_size": "2",
+      "count": 40
+    },
+    {
+      "kind": "mcr_face",
+      "role": "P",
+      "shape_or_size": "7",
+      "count": 4
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims.",
+  "family": "landscape-furniture",
+  "architectural_status": "Explicit reconstruction; static checks and game import pending",
+  "interior_scope": "Architectural floors, entrances and stated stairs; no functional machine/network certification"
+}

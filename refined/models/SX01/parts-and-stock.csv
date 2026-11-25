@@ -1,0 +1,34 @@
+kind,role,block_registry,base_metadata,shape_id_or_size_eighths,placed_items_or_parts,quantity_type,source_inventory_metadata
+architecture,K,Ztones:tile.agonBlock,13,56,64,sawbench shape item,13
+architecture,L,Ztones:tile.agonBlock,0,0,56,sawbench shape item,0
+architecture,L,Ztones:tile.agonBlock,0,56,1002,sawbench shape item,0
+architecture,L,Ztones:tile.agonBlock,0,94,240,sawbench shape item,0
+architecture,L,Ztones:tile.agonBlock,0,95,240,sawbench shape item,0
+cube,B,Ztones:tile.korpBlock,14,14,11807,placed item,14
+cube,E,minecraft:dirt,0,0,885,placed item,0
+cube,F,minecraft:stonebrick,0,0,4135,placed item,0
+cube,G,TConstruct:GlassBlock.StainedClear,3,3,12715,placed item,3
+cube,K,Ztones:tile.agonBlock,13,13,27690,placed item,13
+cube,L,Ztones:tile.agonBlock,0,0,1242,placed item,0
+cube,M,Ztones:tile.korpBlock,2,2,3810,placed item,2
+cube,P,Ztones:tile.agonBlock,15,15,40470,placed item,15
+cube,R,Ztones:tile.agonBlock,13,13,2484,placed item,13
+cube,T,minecraft:log,0,0,208,placed item,0
+cube,V,minecraft:leaves,4,4,4318,placed item,0
+cube,f,minecraft:red_flower,2,2,247,placed item,2
+cube,s,minecraft:stone_slab,0,0,828,placed item,0
+fluid,a,minecraft:water,0,0,424,fluid source cells; not inventory items,
+mcr_edge,K,Ztones:tile.agonBlock,13,1,3770,cut micropart; not one full block,13
+mcr_edge,N,ExtraUtilities:greenscreen,9,1,3408,cut micropart; not one full block,9
+mcr_edge,W,ExtraUtilities:greenscreen,0,1,32,cut micropart; not one full block,0
+mcr_face,K,Ztones:tile.agonBlock,13,3,16,cut micropart; not one full block,13
+mcr_face,K,Ztones:tile.agonBlock,13,5,4,cut micropart; not one full block,13
+mcr_face,K,Ztones:tile.agonBlock,13,7,16,cut micropart; not one full block,13
+mcr_face,L,Ztones:tile.agonBlock,0,2,789,cut micropart; not one full block,0
+mcr_face,L,Ztones:tile.agonBlock,0,4,4760,cut micropart; not one full block,0
+mcr_face,N,ExtraUtilities:greenscreen,9,1,25,cut micropart; not one full block,9
+mcr_face,N,ExtraUtilities:greenscreen,9,2,4,cut micropart; not one full block,9
+mcr_face,P,Ztones:tile.agonBlock,15,2,2365,cut micropart; not one full block,15
+mcr_face,P,Ztones:tile.agonBlock,15,7,80,cut micropart; not one full block,15
+mcr_face,W,ExtraUtilities:greenscreen,0,1,134,cut micropart; not one full block,0
+mcr_post,K,Ztones:tile.agonBlock,13,4,190,cut micropart; not one full block,13

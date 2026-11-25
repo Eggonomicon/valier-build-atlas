@@ -1,0 +1,263 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "reference-refinement-v1",
+  "id": "A05",
+  "title": "Lamp and bollard bay",
+  "bounds": [
+    0,
+    -1,
+    0,
+    3,
+    7,
+    7
+  ],
+  "dimensions_x_y_z": [
+    4,
+    9,
+    8
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": "design/concept-match-v1/models/A05.json.gz",
+  "source_model_sha256": "88467f18554a9c4079b8d3b0e0f88296af4d7be0c06002115ad4bae6088ec479",
+  "cube_runs": [
+    [
+      -1,
+      0,
+      0,
+      3,
+      "P"
+    ],
+    [
+      -1,
+      1,
+      0,
+      3,
+      "P"
+    ],
+    [
+      -1,
+      2,
+      0,
+      3,
+      "P"
+    ],
+    [
+      -1,
+      3,
+      0,
+      3,
+      "P"
+    ],
+    [
+      -1,
+      4,
+      0,
+      3,
+      "P"
+    ],
+    [
+      -1,
+      5,
+      0,
+      3,
+      "P"
+    ],
+    [
+      -1,
+      6,
+      0,
+      3,
+      "P"
+    ],
+    [
+      -1,
+      7,
+      0,
+      3,
+      "P"
+    ],
+    [
+      0,
+      3,
+      1,
+      1,
+      "K"
+    ]
+  ],
+  "cells": [
+    [
+      1,
+      1,
+      3,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "K",
+            "id": "mcr_face",
+            "shape": 112
+          },
+          {
+            "role": "N",
+            "id": "mcr_face",
+            "shape": 17
+          }
+        ]
+      }
+    ],
+    [
+      1,
+      2,
+      3,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "K",
+            "id": "mcr_post",
+            "shape": 64
+          }
+        ]
+      }
+    ],
+    [
+      1,
+      3,
+      3,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "K",
+            "id": "mcr_post",
+            "shape": 64
+          }
+        ]
+      }
+    ],
+    [
+      1,
+      4,
+      3,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "K",
+            "id": "mcr_post",
+            "shape": 64
+          }
+        ]
+      }
+    ],
+    [
+      1,
+      5,
+      3,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "K",
+            "id": "mcr_post",
+            "shape": 64
+          }
+        ]
+      }
+    ],
+    [
+      1,
+      6,
+      3,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "K",
+            "id": "mcr_post",
+            "shape": 64
+          },
+          {
+            "role": "W",
+            "id": "mcr_edge",
+            "shape": 25
+          },
+          {
+            "role": "W",
+            "id": "mcr_edge",
+            "shape": 27
+          }
+        ]
+      }
+    ],
+    [
+      1,
+      7,
+      2,
+      {
+        "kind": "architecture",
+        "role": "K",
+        "shape": 56,
+        "side": 0,
+        "turn": 0,
+        "offsetX": 0
+      }
+    ],
+    [
+      0,
+      7,
+      3,
+      {
+        "kind": "architecture",
+        "role": "K",
+        "shape": 56,
+        "side": 0,
+        "turn": 1,
+        "offsetX": 0
+      }
+    ],
+    [
+      1,
+      7,
+      3,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "K",
+            "id": "mcr_face",
+            "shape": 48
+          }
+        ]
+      }
+    ],
+    [
+      2,
+      7,
+      3,
+      {
+        "kind": "architecture",
+        "role": "K",
+        "shape": 56,
+        "side": 0,
+        "turn": 3,
+        "offsetX": 0
+      }
+    ],
+    [
+      1,
+      7,
+      4,
+      {
+        "kind": "architecture",
+        "role": "K",
+        "shape": 56,
+        "side": 0,
+        "turn": 2,
+        "offsetX": 0
+      }
+    ]
+  ],
+  "game_tested": false
+}

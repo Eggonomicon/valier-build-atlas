@@ -1,0 +1,1561 @@
+{
+  "revision": "reference-refinement-v1",
+  "roles": {
+    "B": {
+      "role": "B",
+      "title": "Korp charcoal horizontal courses",
+      "display_name": "Korp charcoal horizontal courses",
+      "basename": "korp14",
+      "registry_name": "Ztones:tile.korpBlock",
+      "placed_metadata": 14,
+      "inventory_metadata": 14,
+      "faces": {
+        "side": {
+          "file": "textures/refined-korp14.png",
+          "display_file": "textures/refined-korp14.png",
+          "member": "assets/ztones/textures/blocks/sets/korp/korp_ (14).png",
+          "member_sha256": "c9b79010c88874087d225ad5c7e59e321c2aad18543369f6bbf3ef344caa81a9",
+          "effective_texture_sha256": "c9b79010c88874087d225ad5c7e59e321c2aad18543369f6bbf3ef344caa81a9",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            255,
+            255
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 256
+        },
+        "top": {
+          "file": "textures/refined-korp14.png",
+          "display_file": "textures/refined-korp14.png",
+          "member": "assets/ztones/textures/blocks/sets/korp/korp_ (14).png",
+          "member_sha256": "c9b79010c88874087d225ad5c7e59e321c2aad18543369f6bbf3ef344caa81a9",
+          "effective_texture_sha256": "c9b79010c88874087d225ad5c7e59e321c2aad18543369f6bbf3ef344caa81a9",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            255,
+            255
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 256
+        }
+      },
+      "texture_file": "generated/reference-refinement-v1/evidence/korp14.png",
+      "display_file": "generated/reference-refinement-v1/evidence/korp14.png",
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "geometry": "full cube",
+      "fullbright": false,
+      "emitted_light": 0,
+      "micro_material": "Ztones:tile.korpBlock_14",
+      "micro_scope": "Installed microblocks.cfg explicitly includes0..15 for this exact block; ordinary block metadata selects icons. Static registration evidence only; no saw/game execution.",
+      "architecturecraft_material_eligible_static": true,
+      "evidence": "verification/reference-refinement-v1/PALETTE_EVIDENCE.md"
+    },
+    "K": {
+      "role": "K",
+      "title": "Agon dark square panel",
+      "display_name": "Agon dark square panel",
+      "basename": "agon13",
+      "registry_name": "Ztones:tile.agonBlock",
+      "placed_metadata": 13,
+      "inventory_metadata": 13,
+      "faces": {
+        "side": {
+          "file": "textures/refined-agon13.png",
+          "display_file": "textures/refined-agon13.png",
+          "member": "assets/ztones/textures/blocks/sets/agon/agon_ (13).png",
+          "member_sha256": "0ea5815d8c9a0f14c8dc1669da535102fff15a4248830aa41ac1d675bb769431",
+          "effective_texture_sha256": "0ea5815d8c9a0f14c8dc1669da535102fff15a4248830aa41ac1d675bb769431",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            255,
+            255
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 256
+        },
+        "top": {
+          "file": "textures/refined-agon13.png",
+          "display_file": "textures/refined-agon13.png",
+          "member": "assets/ztones/textures/blocks/sets/agon/agon_ (13).png",
+          "member_sha256": "0ea5815d8c9a0f14c8dc1669da535102fff15a4248830aa41ac1d675bb769431",
+          "effective_texture_sha256": "0ea5815d8c9a0f14c8dc1669da535102fff15a4248830aa41ac1d675bb769431",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            255,
+            255
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 256
+        }
+      },
+      "texture_file": "generated/reference-refinement-v1/evidence/agon13.png",
+      "display_file": "generated/reference-refinement-v1/evidence/agon13.png",
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "geometry": "full cube",
+      "fullbright": false,
+      "emitted_light": 0,
+      "micro_material": "Ztones:tile.agonBlock_13",
+      "micro_scope": "Installed microblocks.cfg explicitly includes0..15 for this exact block; ordinary block metadata selects icons. Static registration evidence only; no saw/game execution.",
+      "architecturecraft_material_eligible_static": true,
+      "evidence": "verification/reference-refinement-v1/PALETTE_EVIDENCE.md"
+    },
+    "L": {
+      "role": "L",
+      "title": "Agon pale panel",
+      "display_name": "Agon pale panel",
+      "basename": "agon0",
+      "registry_name": "Ztones:tile.agonBlock",
+      "placed_metadata": 0,
+      "inventory_metadata": 0,
+      "faces": {
+        "side": {
+          "file": "textures/refined-agon0.png",
+          "display_file": "textures/refined-agon0.png",
+          "member": "assets/ztones/textures/blocks/sets/agon/agon_ (0).png",
+          "member_sha256": "14bd7f04a892268ccc09cd369e22cc63468b765f55be8ce1a75fd8633ed04493",
+          "effective_texture_sha256": "14bd7f04a892268ccc09cd369e22cc63468b765f55be8ce1a75fd8633ed04493",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            255,
+            255
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 256
+        },
+        "top": {
+          "file": "textures/refined-agon0.png",
+          "display_file": "textures/refined-agon0.png",
+          "member": "assets/ztones/textures/blocks/sets/agon/agon_ (0).png",
+          "member_sha256": "14bd7f04a892268ccc09cd369e22cc63468b765f55be8ce1a75fd8633ed04493",
+          "effective_texture_sha256": "14bd7f04a892268ccc09cd369e22cc63468b765f55be8ce1a75fd8633ed04493",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            255,
+            255
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 256
+        }
+      },
+      "texture_file": "generated/reference-refinement-v1/evidence/agon0.png",
+      "display_file": "generated/reference-refinement-v1/evidence/agon0.png",
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "geometry": "full cube",
+      "fullbright": false,
+      "emitted_light": 0,
+      "micro_material": "Ztones:tile.agonBlock",
+      "micro_scope": "Installed microblocks.cfg explicitly includes0..15 for this exact block; ordinary block metadata selects icons. Static registration evidence only; no saw/game execution.",
+      "architecturecraft_material_eligible_static": true,
+      "evidence": "verification/reference-refinement-v1/PALETTE_EVIDENCE.md"
+    },
+    "N": {
+      "role": "N",
+      "display_name": "Cyan Lapis Caelestis",
+      "registry_name": "ExtraUtilities:greenscreen",
+      "placed_metadata": 9,
+      "inventory_metadata": 9,
+      "faces": {
+        "side": {
+          "file": "textures/N-side.png",
+          "source_artifact": "extrautilities-1.2.12.jar",
+          "source_artifact_sha256": "a1941ee4d4b965c4d2ddc6ec0e0b1eb3f3ff8c8b492a18a25b5fcf27c67ba58b",
+          "member": "assets/extrautils/textures/blocks/greenscreen.png",
+          "member_sha256": "b38d08009310843632aba1768eaab876a9fffd07b0c53bc2647a4c228233c5c2",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/N-top-display.png"
+        },
+        "top": {
+          "file": "textures/N-side.png",
+          "source_artifact": "extrautilities-1.2.12.jar",
+          "source_artifact_sha256": "a1941ee4d4b965c4d2ddc6ec0e0b1eb3f3ff8c8b492a18a25b5fcf27c67ba58b",
+          "member": "assets/extrautils/textures/blocks/greenscreen.png",
+          "member_sha256": "b38d08009310843632aba1768eaab876a9fffd07b0c53bc2647a4c228233c5c2",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/N-top-display.png"
+        }
+      },
+      "tint_rgb": [
+        0,
+        255,
+        255
+      ],
+      "tint_evidence": "Installed BlockGreenScreen.cols[9]=(0,1,1)",
+      "fullbright": true,
+      "geometry": "full cube",
+      "binding_status": "Inherited installed palette identity; target runtime recipe/game behavior not checked",
+      "emitted_light": 10,
+      "micro_material": "tile.extrautils:greenscreen_9"
+    },
+    "W": {
+      "role": "W",
+      "display_name": "White Lapis Caelestis",
+      "registry_name": "ExtraUtilities:greenscreen",
+      "placed_metadata": 0,
+      "inventory_metadata": 0,
+      "faces": {
+        "side": {
+          "file": "textures/W-side.png",
+          "source_artifact": "extrautilities-1.2.12.jar",
+          "source_artifact_sha256": "a1941ee4d4b965c4d2ddc6ec0e0b1eb3f3ff8c8b492a18a25b5fcf27c67ba58b",
+          "member": "assets/extrautils/textures/blocks/greenscreen.png",
+          "member_sha256": "b38d08009310843632aba1768eaab876a9fffd07b0c53bc2647a4c228233c5c2",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/W-top-display.png"
+        },
+        "top": {
+          "file": "textures/W-side.png",
+          "source_artifact": "extrautilities-1.2.12.jar",
+          "source_artifact_sha256": "a1941ee4d4b965c4d2ddc6ec0e0b1eb3f3ff8c8b492a18a25b5fcf27c67ba58b",
+          "member": "assets/extrautils/textures/blocks/greenscreen.png",
+          "member_sha256": "b38d08009310843632aba1768eaab876a9fffd07b0c53bc2647a4c228233c5c2",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/W-top-display.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "tint_evidence": "No color multiplier",
+      "fullbright": true,
+      "geometry": "full cube",
+      "binding_status": "Inherited installed palette identity; target runtime recipe/game behavior not checked",
+      "emitted_light": 15,
+      "micro_material": "tile.extrautils:greenscreen"
+    },
+    "G": {
+      "role": "G",
+      "title": "TConstruct clear stained light_blue",
+      "display_name": "Clear stained light_blue glass",
+      "basename": "tinker-light_blue",
+      "registry_name": "TConstruct:GlassBlock.StainedClear",
+      "placed_metadata": 3,
+      "inventory_metadata": 3,
+      "faces": {
+        "side": {
+          "file": "textures/refined-tinker-light_blue-0.png",
+          "display_file": "textures/refined-tinker-light_blue-0.png",
+          "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass.png",
+          "member_sha256": "497e1bcb8e96c39506d7b9d24b2873c74f99ab74f5889d660645e8941945e049",
+          "effective_texture_sha256": "497e1bcb8e96c39506d7b9d24b2873c74f99ab74f5889d660645e8941945e049",
+          "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+          "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            130,
+            204
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 0
+        },
+        "top": {
+          "file": "textures/refined-tinker-light_blue-0.png",
+          "display_file": "textures/refined-tinker-light_blue-0.png",
+          "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass.png",
+          "member_sha256": "497e1bcb8e96c39506d7b9d24b2873c74f99ab74f5889d660645e8941945e049",
+          "effective_texture_sha256": "497e1bcb8e96c39506d7b9d24b2873c74f99ab74f5889d660645e8941945e049",
+          "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+          "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            130,
+            204
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 0
+        }
+      },
+      "texture_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-0.png",
+      "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-0.png",
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "geometry": "full cube",
+      "emitted_light": 0,
+      "fullbright": false,
+      "micro_material": null,
+      "micro_scope": "Full cubes only for this prototype; no new cut-material eligibility claim",
+      "tile_entity_required_static": false,
+      "architecturecraft_material_eligible_static": false,
+      "architecturecraft_reason": "Opaque=false and tile.GlassBlock.StainedClear is absent from installed AC whitelist. Keep verified chisel:glass6 roof role.",
+      "ctm": {
+        "kind": "16 whole-face icons, not Chisel quadrant atlas",
+        "icons": [
+          {
+            "file": "textures/ctm/G-0.png",
+            "display_file": "textures/ctm/G-0.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass.png",
+            "member_sha256": "497e1bcb8e96c39506d7b9d24b2873c74f99ab74f5889d660645e8941945e049",
+            "effective_texture_sha256": "497e1bcb8e96c39506d7b9d24b2873c74f99ab74f5889d660645e8941945e049",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "textures/ctm/G-1.png",
+            "display_file": "textures/ctm/G-1.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_1_d.png",
+            "member_sha256": "3a19fc192bfda02a052ee646ae838d6bb42eeefd7196a474e8a5b905b5df16e9",
+            "effective_texture_sha256": "3a19fc192bfda02a052ee646ae838d6bb42eeefd7196a474e8a5b905b5df16e9",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "textures/ctm/G-2.png",
+            "display_file": "textures/ctm/G-2.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_1_u.png",
+            "member_sha256": "bf5defe34e89e4bd7836b68336970d789a06b7e1e6c28e15588054ebfc486320",
+            "effective_texture_sha256": "bf5defe34e89e4bd7836b68336970d789a06b7e1e6c28e15588054ebfc486320",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "textures/ctm/G-3.png",
+            "display_file": "textures/ctm/G-3.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_1_l.png",
+            "member_sha256": "b07959dbbd55314c63363e5fe8389a8487bfc6ccfc374f14a33c7cd0fe61c1e9",
+            "effective_texture_sha256": "b07959dbbd55314c63363e5fe8389a8487bfc6ccfc374f14a33c7cd0fe61c1e9",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "textures/ctm/G-4.png",
+            "display_file": "textures/ctm/G-4.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_1_r.png",
+            "member_sha256": "17a6b99e3f67d998e11ff15d75665707babb9cf9bf0d342ad6a69c0c003b8bfc",
+            "effective_texture_sha256": "17a6b99e3f67d998e11ff15d75665707babb9cf9bf0d342ad6a69c0c003b8bfc",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "textures/ctm/G-5.png",
+            "display_file": "textures/ctm/G-5.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_2_h.png",
+            "member_sha256": "908774cb7973b4f7a6d9a47eec8cb1589b3f4854640ca88709eab19403e7a9f4",
+            "effective_texture_sha256": "908774cb7973b4f7a6d9a47eec8cb1589b3f4854640ca88709eab19403e7a9f4",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "textures/ctm/G-6.png",
+            "display_file": "textures/ctm/G-6.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_2_v.png",
+            "member_sha256": "c0efa6fbb55a54fcc5acbfa63b2d0d5a3744b5ed3f7b0214d3e454929454475b",
+            "effective_texture_sha256": "c0efa6fbb55a54fcc5acbfa63b2d0d5a3744b5ed3f7b0214d3e454929454475b",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "textures/ctm/G-7.png",
+            "display_file": "textures/ctm/G-7.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_2_dl.png",
+            "member_sha256": "50987545705cea070c46be3556e7b4744615a8f772a917ee9bc2a6f60e9c7b3b",
+            "effective_texture_sha256": "50987545705cea070c46be3556e7b4744615a8f772a917ee9bc2a6f60e9c7b3b",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "textures/ctm/G-8.png",
+            "display_file": "textures/ctm/G-8.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_2_dr.png",
+            "member_sha256": "a9a2ab09a285549520294f22501b8f4766f2a6813a54f306b4d228a2e9dd1b56",
+            "effective_texture_sha256": "a9a2ab09a285549520294f22501b8f4766f2a6813a54f306b4d228a2e9dd1b56",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "textures/ctm/G-9.png",
+            "display_file": "textures/ctm/G-9.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_2_ul.png",
+            "member_sha256": "84c82654314b7433bdc3a57190d4469d99b02bf8da837f527c8bb4dfd16a27ea",
+            "effective_texture_sha256": "84c82654314b7433bdc3a57190d4469d99b02bf8da837f527c8bb4dfd16a27ea",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "textures/ctm/G-10.png",
+            "display_file": "textures/ctm/G-10.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_2_ur.png",
+            "member_sha256": "b410961261283ac0ae6b66ec8a5f45da9d70d38eced32c70a36701bb60116062",
+            "effective_texture_sha256": "b410961261283ac0ae6b66ec8a5f45da9d70d38eced32c70a36701bb60116062",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "textures/ctm/G-11.png",
+            "display_file": "textures/ctm/G-11.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_3_d.png",
+            "member_sha256": "f494aa7bc5e16010f2be01ab492142f967707f53ab352bf47953376b84d32ba4",
+            "effective_texture_sha256": "f494aa7bc5e16010f2be01ab492142f967707f53ab352bf47953376b84d32ba4",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "textures/ctm/G-12.png",
+            "display_file": "textures/ctm/G-12.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_3_u.png",
+            "member_sha256": "221c45ba1ef1ec2d257cbadaa20c1c7676b3391a6952050acfcde665134f461a",
+            "effective_texture_sha256": "221c45ba1ef1ec2d257cbadaa20c1c7676b3391a6952050acfcde665134f461a",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "textures/ctm/G-13.png",
+            "display_file": "textures/ctm/G-13.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_3_l.png",
+            "member_sha256": "1989472c1f52bb7c38e9ba58a1c5dda080c4c3ca78a518883b2a6d670a5dcc2d",
+            "effective_texture_sha256": "1989472c1f52bb7c38e9ba58a1c5dda080c4c3ca78a518883b2a6d670a5dcc2d",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "textures/ctm/G-14.png",
+            "display_file": "textures/ctm/G-14.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_3_r.png",
+            "member_sha256": "5442e702f497c0a02ce245fd5d44f337e785dbb59705f6ef117da0de0c57dfb0",
+            "effective_texture_sha256": "5442e702f497c0a02ce245fd5d44f337e785dbb59705f6ef117da0de0c57dfb0",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "textures/ctm/G-15.png",
+            "display_file": "textures/ctm/G-15.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_4.png",
+            "member_sha256": "286e36416666e564cce39a8aabd9aa63685a640b0dad31b1bc5f08db36675764",
+            "effective_texture_sha256": "286e36416666e564cce39a8aabd9aa63685a640b0dad31b1bc5f08db36675764",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              133
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          }
+        ],
+        "mask_bit_order": [
+          "U",
+          "D",
+          "L",
+          "R"
+        ],
+        "mask_to_icon_index": [
+          0,
+          2,
+          1,
+          6,
+          3,
+          8,
+          10,
+          14,
+          4,
+          7,
+          9,
+          13,
+          5,
+          11,
+          12,
+          15
+        ],
+        "fully_connected_icon_index": 15,
+        "spec": "verification/reference-refinement-v1/tconstruct-ctm-spec.json"
+      },
+      "evidence": "verification/reference-refinement-v1/PALETTE_EVIDENCE.md",
+      "ctm_tconstruct": true
+    },
+    "F": {
+      "role": "F",
+      "display_name": "Stone bricks",
+      "registry_name": "minecraft:stonebrick",
+      "placed_metadata": 0,
+      "inventory_metadata": 0,
+      "faces": {
+        "side": {
+          "file": "textures/F-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/stonebrick.png",
+          "member_sha256": "4b35ff37f7b028265ec20bb4540e655cc5b355f399fcec202bd7b277742c9536",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/F-top-display.png"
+        },
+        "top": {
+          "file": "textures/F-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/stonebrick.png",
+          "member_sha256": "4b35ff37f7b028265ec20bb4540e655cc5b355f399fcec202bd7b277742c9536",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/F-top-display.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "tint_evidence": "No color multiplier",
+      "fullbright": false,
+      "geometry": "full cube",
+      "binding_status": "Inherited installed palette identity; target runtime recipe/game behavior not checked",
+      "emitted_light": 0
+    },
+    "s": {
+      "role": "s",
+      "display_name": "Stone slab, bottom",
+      "registry_name": "minecraft:stone_slab",
+      "placed_metadata": 0,
+      "inventory_metadata": 0,
+      "faces": {
+        "side": {
+          "file": "textures/slab-bottom-side-wall.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/stone_slab_side.png",
+          "member_sha256": "5e701b44f2a06fd324be2e4ec56f8b3b1b30fd7e243a032ebb3db5998d402357",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/slab-bottom-side-display.png"
+        },
+        "top": {
+          "file": "textures/slab-bottom-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/stone_slab_top.png",
+          "member_sha256": "65e8a0b1b2df9baa0ed6b34381d7298e60b4d6ff6fdf39bb612edf1ec565c597",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/slab-bottom-top-display.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "tint_evidence": "No color multiplier",
+      "fullbright": false,
+      "geometry": "bottom half slab",
+      "binding_status": "Inherited installed palette identity; target runtime recipe/game behavior not checked",
+      "emitted_light": 0
+    },
+    "S": {
+      "role": "S",
+      "display_name": "Stone slab, top",
+      "registry_name": "minecraft:stone_slab",
+      "placed_metadata": 8,
+      "inventory_metadata": 0,
+      "faces": {
+        "side": {
+          "file": "textures/slab-top-side-wall.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/stone_slab_side.png",
+          "member_sha256": "5e701b44f2a06fd324be2e4ec56f8b3b1b30fd7e243a032ebb3db5998d402357",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/slab-top-side-display.png"
+        },
+        "top": {
+          "file": "textures/slab-top-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/stone_slab_top.png",
+          "member_sha256": "65e8a0b1b2df9baa0ed6b34381d7298e60b4d6ff6fdf39bb612edf1ec565c597",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/slab-top-top-display.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "tint_evidence": "No color multiplier",
+      "fullbright": false,
+      "geometry": "top half slab",
+      "binding_status": "Inherited installed palette identity; target runtime recipe/game behavior not checked",
+      "emitted_light": 0
+    },
+    "E": {
+      "role": "E",
+      "display_name": "Dirt / planting-bed infill",
+      "registry_name": "minecraft:dirt",
+      "placed_metadata": 0,
+      "inventory_metadata": 0,
+      "faces": {
+        "side": {
+          "file": "textures/E-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/dirt.png",
+          "member_sha256": "fb0450253248276e0b8d653d5a4d21c59763cbf775c0e048469ff500afaaef68",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/E-top-display.png"
+        },
+        "top": {
+          "file": "textures/E-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/dirt.png",
+          "member_sha256": "fb0450253248276e0b8d653d5a4d21c59763cbf775c0e048469ff500afaaef68",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/E-top-display.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "tint_evidence": "No color multiplier",
+      "fullbright": false,
+      "geometry": "full cube",
+      "binding_status": "New proposed role binding; installed vanilla identity/meta inspected",
+      "emitted_light": 0
+    },
+    "T": {
+      "role": "T",
+      "display_name": "Oak log / vertical decorative trunk",
+      "registry_name": "minecraft:log",
+      "placed_metadata": 0,
+      "inventory_metadata": 0,
+      "faces": {
+        "side": {
+          "file": "textures/T-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/log_oak.png",
+          "member_sha256": "6f24bf4e31b5f91d63da2e1543c1beafe8086d6a594d82abd834148c62670c21",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/T-side-display.png"
+        },
+        "top": {
+          "file": "textures/T-end-grain.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/log_oak_top.png",
+          "member_sha256": "f9045998a74062efaa5dbc3da828378198749b97163aef468ee63743c28229b4",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/T-top-display.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "tint_evidence": "No color multiplier",
+      "fullbright": false,
+      "geometry": "full cube",
+      "binding_status": "New proposed role binding; installed vanilla identity/meta inspected",
+      "emitted_light": 0
+    },
+    "V": {
+      "role": "V",
+      "display_name": "Oak leaves / player-placed persistent state",
+      "registry_name": "minecraft:leaves",
+      "placed_metadata": 4,
+      "inventory_metadata": 0,
+      "faces": {
+        "side": {
+          "file": "textures/V-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/leaves_oak.png",
+          "member_sha256": "50cc5b0dc5f0f361391ce3891ae8d601f330e86f03433bc51933b14a8f4af4be",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/V-top-display.png"
+        },
+        "top": {
+          "file": "textures/V-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/leaves_oak.png",
+          "member_sha256": "50cc5b0dc5f0f361391ce3891ae8d601f330e86f03433bc51933b14a8f4af4be",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/V-top-display.png"
+        }
+      },
+      "tint_rgb": [
+        72,
+        181,
+        24
+      ],
+      "tint_evidence": "Installed vanilla BlockLeaves.iÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ColorizerFoliage.c=4764952 (#48B518), default inventory tint; world biome unset",
+      "fullbright": false,
+      "geometry": "full cube",
+      "binding_status": "New proposed role binding; installed vanilla identity/meta inspected",
+      "emitted_light": 0
+    },
+    "Q": {
+      "role": "Q",
+      "display_name": "Glass / dry ornamental basin fill",
+      "registry_name": "minecraft:glass",
+      "placed_metadata": 0,
+      "inventory_metadata": 0,
+      "faces": {
+        "side": {
+          "file": "textures/Q-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/glass.png",
+          "member_sha256": "47e6c40346af11ed7d973e5c0b581d3ac40ebc88c9b304f0e903477055d3dc09",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/Q-top-display.png"
+        },
+        "top": {
+          "file": "textures/Q-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/glass.png",
+          "member_sha256": "47e6c40346af11ed7d973e5c0b581d3ac40ebc88c9b304f0e903477055d3dc09",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/Q-top-display.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "tint_evidence": "No color multiplier",
+      "fullbright": false,
+      "geometry": "full cube",
+      "binding_status": "New dry-finish role binding to existing verified glass identity",
+      "emitted_light": 0,
+      "micro_material": "minecraft:glass"
+    },
+    "P": {
+      "role": "P",
+      "title": "Agon gray paving",
+      "display_name": "Agon gray paving",
+      "basename": "agon15",
+      "registry_name": "Ztones:tile.agonBlock",
+      "placed_metadata": 15,
+      "inventory_metadata": 15,
+      "faces": {
+        "side": {
+          "file": "textures/refined-agon15.png",
+          "display_file": "textures/refined-agon15.png",
+          "member": "assets/ztones/textures/blocks/sets/agon/agon_ (15).png",
+          "member_sha256": "aeecafe43dfbe0c495f366ca180b2d757bfeeda3448051534e00384faf874641",
+          "effective_texture_sha256": "aeecafe43dfbe0c495f366ca180b2d757bfeeda3448051534e00384faf874641",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            255,
+            255
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 256
+        },
+        "top": {
+          "file": "textures/refined-agon15.png",
+          "display_file": "textures/refined-agon15.png",
+          "member": "assets/ztones/textures/blocks/sets/agon/agon_ (15).png",
+          "member_sha256": "aeecafe43dfbe0c495f366ca180b2d757bfeeda3448051534e00384faf874641",
+          "effective_texture_sha256": "aeecafe43dfbe0c495f366ca180b2d757bfeeda3448051534e00384faf874641",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            255,
+            255
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 256
+        }
+      },
+      "texture_file": "generated/reference-refinement-v1/evidence/agon15.png",
+      "display_file": "generated/reference-refinement-v1/evidence/agon15.png",
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "geometry": "full cube",
+      "fullbright": false,
+      "emitted_light": 0,
+      "micro_material": "Ztones:tile.agonBlock_15",
+      "micro_scope": "Installed microblocks.cfg explicitly includes0..15 for this exact block; ordinary block metadata selects icons. Static registration evidence only; no saw/game execution.",
+      "architecturecraft_material_eligible_static": true,
+      "evidence": "verification/reference-refinement-v1/PALETTE_EVIDENCE.md"
+    },
+    "R": {
+      "role": "R",
+      "title": "Agon dark square panel",
+      "display_name": "Agon13 charcoal square road pavers",
+      "basename": "agon13",
+      "registry_name": "Ztones:tile.agonBlock",
+      "placed_metadata": 13,
+      "inventory_metadata": 13,
+      "faces": {
+        "side": {
+          "file": "textures/refined-agon13.png",
+          "display_file": "textures/refined-agon13.png",
+          "member": "assets/ztones/textures/blocks/sets/agon/agon_ (13).png",
+          "member_sha256": "0ea5815d8c9a0f14c8dc1669da535102fff15a4248830aa41ac1d675bb769431",
+          "effective_texture_sha256": "0ea5815d8c9a0f14c8dc1669da535102fff15a4248830aa41ac1d675bb769431",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            255,
+            255
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 256
+        },
+        "top": {
+          "file": "textures/refined-agon13.png",
+          "display_file": "textures/refined-agon13.png",
+          "member": "assets/ztones/textures/blocks/sets/agon/agon_ (13).png",
+          "member_sha256": "0ea5815d8c9a0f14c8dc1669da535102fff15a4248830aa41ac1d675bb769431",
+          "effective_texture_sha256": "0ea5815d8c9a0f14c8dc1669da535102fff15a4248830aa41ac1d675bb769431",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            255,
+            255
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 256
+        }
+      },
+      "texture_file": "generated/reference-refinement-v1/evidence/agon13.png",
+      "display_file": "generated/reference-refinement-v1/evidence/agon13.png",
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "geometry": "full cube",
+      "fullbright": false,
+      "emitted_light": 0,
+      "micro_material": "Ztones:tile.agonBlock_13",
+      "micro_scope": "Installed microblocks.cfg explicitly includes0..15 for this exact block; ordinary block metadata selects icons. Static registration evidence only; no saw/game execution.",
+      "architecturecraft_material_eligible_static": true,
+      "evidence": "verification/reference-refinement-v1/PALETTE_EVIDENCE.md"
+    },
+    "D": {
+      "role": "D",
+      "display_name": "White stained-glass diffuser",
+      "registry_name": "minecraft:stained_glass",
+      "placed_metadata": 0,
+      "inventory_metadata": 0,
+      "faces": {
+        "side": {
+          "file": "textures/D-raw.png",
+          "display_file": "textures/D-display.png",
+          "member_sha256": "bc5cb68b4642513582ea40650038db0f0e0a84284fff26ee115bc21a132a9e8e",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "member": "assets/minecraft/textures/blocks/glass_white.png"
+        },
+        "top": {
+          "file": "textures/D-raw.png",
+          "display_file": "textures/D-display.png",
+          "member_sha256": "bc5cb68b4642513582ea40650038db0f0e0a84284fff26ee115bc21a132a9e8e",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "member": "assets/minecraft/textures/blocks/glass_white.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "fullbright": false,
+      "emitted_light": 0,
+      "geometry": "full cube",
+      "binding_status": "Installed identity/metadata/assets checked; runtime recipe and game test pending",
+      "evidence": "verification/concept-match-v1/PALETTE_AND_LIGHT_EVIDENCE.md; verification/concept-match-v1/texture-evidence.json",
+      "micro_material": "minecraft:stained_glass"
+    },
+    "f": {
+      "role": "f",
+      "display_name": "Allium - crossed plant",
+      "registry_name": "minecraft:red_flower",
+      "placed_metadata": 2,
+      "inventory_metadata": 2,
+      "faces": {
+        "side": {
+          "file": "textures/f-raw.png",
+          "display_file": "textures/f-display.png",
+          "member_sha256": "68316f7f69fc3245e53f437289eb66e5e8cd6a4540086fee4ba13ff1323ffac0",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "member": "assets/minecraft/textures/blocks/flower_allium.png"
+        },
+        "top": {
+          "file": "textures/f-raw.png",
+          "display_file": "textures/f-display.png",
+          "member_sha256": "68316f7f69fc3245e53f437289eb66e5e8cd6a4540086fee4ba13ff1323ffac0",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "member": "assets/minecraft/textures/blocks/flower_allium.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "fullbright": false,
+      "emitted_light": 0,
+      "geometry": "crossed plant",
+      "binding_status": "Installed identity/metadata/assets checked; runtime recipe and game test pending",
+      "evidence": "verification/concept-match-v1/PALETTE_AND_LIGHT_EVIDENCE.md; verification/concept-match-v1/texture-evidence.json"
+    },
+    "M": {
+      "role": "M",
+      "title": "Korp dark inset",
+      "display_name": "Korp dark inset",
+      "basename": "korp2",
+      "registry_name": "Ztones:tile.korpBlock",
+      "placed_metadata": 2,
+      "inventory_metadata": 2,
+      "faces": {
+        "side": {
+          "file": "textures/refined-korp2.png",
+          "display_file": "textures/refined-korp2.png",
+          "member": "assets/ztones/textures/blocks/sets/korp/korp_ (2).png",
+          "member_sha256": "326e9fc3b7760f4ebc2e7d245dd2d1ad346e55a8b93949f9fbafc2b79ffbe5e8",
+          "effective_texture_sha256": "326e9fc3b7760f4ebc2e7d245dd2d1ad346e55a8b93949f9fbafc2b79ffbe5e8",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            255,
+            255
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 256
+        },
+        "top": {
+          "file": "textures/refined-korp2.png",
+          "display_file": "textures/refined-korp2.png",
+          "member": "assets/ztones/textures/blocks/sets/korp/korp_ (2).png",
+          "member_sha256": "326e9fc3b7760f4ebc2e7d245dd2d1ad346e55a8b93949f9fbafc2b79ffbe5e8",
+          "effective_texture_sha256": "326e9fc3b7760f4ebc2e7d245dd2d1ad346e55a8b93949f9fbafc2b79ffbe5e8",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            255,
+            255
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 256
+        }
+      },
+      "texture_file": "generated/reference-refinement-v1/evidence/korp2.png",
+      "display_file": "generated/reference-refinement-v1/evidence/korp2.png",
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "geometry": "full cube",
+      "fullbright": false,
+      "emitted_light": 0,
+      "micro_material": "Ztones:tile.korpBlock_2",
+      "micro_scope": "Installed microblocks.cfg explicitly includes0..15 for this exact block; ordinary block metadata selects icons. Static registration evidence only; no saw/game execution.",
+      "architecturecraft_material_eligible_static": true,
+      "evidence": "verification/reference-refinement-v1/PALETTE_EVIDENCE.md"
+    },
+    "g": {
+      "role": "g",
+      "title": "Borderless glass for shaped roofs",
+      "display_name": "Borderless glass for shaped roofs",
+      "basename": "glass6",
+      "registry_name": "chisel:glass",
+      "placed_metadata": 6,
+      "inventory_metadata": 6,
+      "texture_file": "generated/reference-materials-v1/evidence/glass6-source.png",
+      "display_file": "generated/reference-materials-v1/evidence/glass6-display.png",
+      "faces": {
+        "side": {
+          "file": "textures/refined-glass6-source.png",
+          "display_file": "textures/refined-glass6-display.png",
+          "member": "assets/chisel/textures/blocks/glass/terrain-glassnoborder.png",
+          "member_sha256": "dd0220f9e7774a13c899ac3878ebb9ebfe88db0791ec079528d914e1a2d212c3",
+          "source_artifact": "chisel-2.17.34-GTNH.jar",
+          "source_artifact_sha256": "cc8a7af6bb777c96d68f5b4ef0a47fbc11984e91471ce8d66710fb7a6a0bae1f",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_crop_box": null
+        },
+        "top": {
+          "file": "textures/refined-glass6-source.png",
+          "display_file": "textures/refined-glass6-display.png",
+          "member": "assets/chisel/textures/blocks/glass/terrain-glassnoborder.png",
+          "member_sha256": "dd0220f9e7774a13c899ac3878ebb9ebfe88db0791ec079528d914e1a2d212c3",
+          "source_artifact": "chisel-2.17.34-GTNH.jar",
+          "source_artifact_sha256": "cc8a7af6bb777c96d68f5b4ef0a47fbc11984e91471ce8d66710fb7a6a0bae1f",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_crop_box": null
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "fullbright": false,
+      "emitted_light": 0,
+      "geometry": "full cube",
+      "micro_material": null,
+      "micro_scope": "Full cubes only in this proposal; no new cut-material eligibility claim",
+      "evidence": "verification/reference-materials-v1/PALETTE_EVIDENCE.md; verification/reference-materials-v1/public-palette-evidence.json",
+      "architecturecraft_material_eligible": true,
+      "architecturecraft_evidence": "TileSawbench.isAcceptableMaterial reads block unlocalized-name whitelist. CarvableHelper assigns tile.chisel.glass; installed architecturecraft.cfg explicitly contains tile.chisel.glass. Exact evidence: verification/reference-materials-v1/shaped-glass-and-face-sizes.json.",
+      "texture_behavior": "Base icon has pale perimeter, no diagonal highlights. ArchitectureCraft slope base icon is intentionally kept separate from full-cube modern-glass CTM."
+    },
+    "a": {
+      "role": "a",
+      "title": "Still water source",
+      "display_name": "Still water source",
+      "basename": "water0",
+      "registry_name": "minecraft:water",
+      "placed_metadata": 0,
+      "inventory_metadata": null,
+      "texture_file": "generated/reference-materials-v1/evidence/water0-source.png",
+      "display_file": "generated/reference-materials-v1/evidence/water0-display.png",
+      "faces": {
+        "side": {
+          "file": "textures/audit-a-water0-source.png",
+          "display_file": "textures/audit-a-water0-display.png",
+          "member": "assets/minecraft/textures/blocks/water_still.png",
+          "member_sha256": "f4a5a43c2fe921ed80331cff62f1d5c635dae06e580e52b237b1090ce242ee4e",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "dimensions": [
+            16,
+            512
+          ],
+          "active_albedo_overrides": [],
+          "display_crop_box": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "top": {
+          "file": "textures/audit-a-water0-source.png",
+          "display_file": "textures/audit-a-water0-display.png",
+          "member": "assets/minecraft/textures/blocks/water_still.png",
+          "member_sha256": "f4a5a43c2fe921ed80331cff62f1d5c635dae06e580e52b237b1090ce242ee4e",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "dimensions": [
+            16,
+            512
+          ],
+          "active_albedo_overrides": [],
+          "display_crop_box": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "fullbright": false,
+      "emitted_light": 0,
+      "geometry": "fluid source; rendered surface height is context-dependent",
+      "micro_material": null,
+      "micro_scope": "Fluid only; not a saw-cut material or inventory block",
+      "evidence": "verification/reference-materials-v1/PALETTE_EVIDENCE.md; verification/reference-materials-v1/public-palette-evidence.json",
+      "texture_behavior": "First16x16 animation frame cropped from the unmodified16x512 still-water source. Default biome waterColorMultiplier and BlockLiquid block color are0xFFFFFF. World tint averages the surrounding3x3 biome water multipliers; actual future PDIM biome is unknown.",
+      "tint_scope": "Default vanilla biome only; no world/PDIM tint claim"
+    }
+  },
+  "evidence": "evidence/public-microblock-evidence.json",
+  "appearance": "Warm gray Agon framing and paving, charcoal Korp courses, clear light blue TConstruct glazing, molded native cornices, short knee braces, full planting and compact hooded lamps.",
+  "game_tested": false
+}

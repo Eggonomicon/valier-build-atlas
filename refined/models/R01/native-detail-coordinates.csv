@@ -1,0 +1,5 @@
+local_x,civil_y,local_z,kind,native_fields_json
+1,-1,12,multipart,"{""kind"":""multipart"",""parts"":[{""role"":""P"",""id"":""mcr_face"",""shape"":116},{""role"":""N"",""id"":""mcr_edge"",""shape"":23}]}"
+10,-1,12,multipart,"{""kind"":""multipart"",""parts"":[{""role"":""P"",""id"":""mcr_face"",""shape"":117},{""role"":""N"",""id"":""mcr_edge"",""shape"":22}]}"
+1,-1,36,multipart,"{""kind"":""multipart"",""parts"":[{""role"":""P"",""id"":""mcr_face"",""shape"":116},{""role"":""N"",""id"":""mcr_edge"",""shape"":23}]}"
+10,-1,36,multipart,"{""kind"":""multipart"",""parts"":[{""role"":""P"",""id"":""mcr_face"",""shape"":117},{""role"":""N"",""id"":""mcr_edge"",""shape"":22}]}"

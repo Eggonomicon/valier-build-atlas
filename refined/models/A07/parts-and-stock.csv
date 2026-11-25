@@ -1,0 +1,6 @@
+kind,role,block_registry,base_metadata,shape_id_or_size_eighths,placed_items_or_parts,quantity_type,source_inventory_metadata
+architecture,L,Ztones:tile.agonBlock,0,0,32,sawbench shape item,0
+cube,B,Ztones:tile.korpBlock,14,14,60,placed item,14
+cube,M,Ztones:tile.korpBlock,2,2,24,placed item,2
+cube,P,Ztones:tile.agonBlock,15,15,144,placed item,15
+mcr_edge,N,ExtraUtilities:greenscreen,9,1,6,cut micropart; not one full block,9

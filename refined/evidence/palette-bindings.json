@@ -1,0 +1,2039 @@
+{
+  "title": "New concept-refinement prototype palette",
+  "revision": "reference-refinement-v1",
+  "game_tested": false,
+  "roles": {
+    "L": {
+      "role": "L",
+      "title": "Agon pale panel",
+      "display_name": "Agon pale panel",
+      "basename": "agon0",
+      "registry_name": "Ztones:tile.agonBlock",
+      "placed_metadata": 0,
+      "inventory_metadata": 0,
+      "faces": {
+        "side": {
+          "file": "generated/reference-refinement-v1/evidence/agon0.png",
+          "display_file": "generated/reference-refinement-v1/evidence/agon0.png",
+          "member": "assets/ztones/textures/blocks/sets/agon/agon_ (0).png",
+          "member_sha256": "14bd7f04a892268ccc09cd369e22cc63468b765f55be8ce1a75fd8633ed04493",
+          "effective_texture_sha256": "14bd7f04a892268ccc09cd369e22cc63468b765f55be8ce1a75fd8633ed04493",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            255,
+            255
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 256
+        },
+        "top": {
+          "file": "generated/reference-refinement-v1/evidence/agon0.png",
+          "display_file": "generated/reference-refinement-v1/evidence/agon0.png",
+          "member": "assets/ztones/textures/blocks/sets/agon/agon_ (0).png",
+          "member_sha256": "14bd7f04a892268ccc09cd369e22cc63468b765f55be8ce1a75fd8633ed04493",
+          "effective_texture_sha256": "14bd7f04a892268ccc09cd369e22cc63468b765f55be8ce1a75fd8633ed04493",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            255,
+            255
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 256
+        }
+      },
+      "texture_file": "generated/reference-refinement-v1/evidence/agon0.png",
+      "display_file": "generated/reference-refinement-v1/evidence/agon0.png",
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "geometry": "full cube",
+      "fullbright": false,
+      "emitted_light": 0,
+      "micro_material": "Ztones:tile.agonBlock",
+      "micro_scope": "Installed microblocks.cfg explicitly includes0..15 for this exact block; ordinary block metadata selects icons. Static registration evidence only; no saw/game execution.",
+      "architecturecraft_material_eligible_static": true,
+      "evidence": "verification/reference-refinement-v1/PALETTE_EVIDENCE.md"
+    },
+    "P": {
+      "role": "P",
+      "title": "Agon gray paving",
+      "display_name": "Agon gray paving",
+      "basename": "agon15",
+      "registry_name": "Ztones:tile.agonBlock",
+      "placed_metadata": 15,
+      "inventory_metadata": 15,
+      "faces": {
+        "side": {
+          "file": "generated/reference-refinement-v1/evidence/agon15.png",
+          "display_file": "generated/reference-refinement-v1/evidence/agon15.png",
+          "member": "assets/ztones/textures/blocks/sets/agon/agon_ (15).png",
+          "member_sha256": "aeecafe43dfbe0c495f366ca180b2d757bfeeda3448051534e00384faf874641",
+          "effective_texture_sha256": "aeecafe43dfbe0c495f366ca180b2d757bfeeda3448051534e00384faf874641",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            255,
+            255
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 256
+        },
+        "top": {
+          "file": "generated/reference-refinement-v1/evidence/agon15.png",
+          "display_file": "generated/reference-refinement-v1/evidence/agon15.png",
+          "member": "assets/ztones/textures/blocks/sets/agon/agon_ (15).png",
+          "member_sha256": "aeecafe43dfbe0c495f366ca180b2d757bfeeda3448051534e00384faf874641",
+          "effective_texture_sha256": "aeecafe43dfbe0c495f366ca180b2d757bfeeda3448051534e00384faf874641",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            255,
+            255
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 256
+        }
+      },
+      "texture_file": "generated/reference-refinement-v1/evidence/agon15.png",
+      "display_file": "generated/reference-refinement-v1/evidence/agon15.png",
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "geometry": "full cube",
+      "fullbright": false,
+      "emitted_light": 0,
+      "micro_material": "Ztones:tile.agonBlock_15",
+      "micro_scope": "Installed microblocks.cfg explicitly includes0..15 for this exact block; ordinary block metadata selects icons. Static registration evidence only; no saw/game execution.",
+      "architecturecraft_material_eligible_static": true,
+      "evidence": "verification/reference-refinement-v1/PALETTE_EVIDENCE.md"
+    },
+    "B": {
+      "role": "B",
+      "title": "Korp charcoal horizontal courses",
+      "display_name": "Korp charcoal horizontal courses",
+      "basename": "korp14",
+      "registry_name": "Ztones:tile.korpBlock",
+      "placed_metadata": 14,
+      "inventory_metadata": 14,
+      "faces": {
+        "side": {
+          "file": "generated/reference-refinement-v1/evidence/korp14.png",
+          "display_file": "generated/reference-refinement-v1/evidence/korp14.png",
+          "member": "assets/ztones/textures/blocks/sets/korp/korp_ (14).png",
+          "member_sha256": "c9b79010c88874087d225ad5c7e59e321c2aad18543369f6bbf3ef344caa81a9",
+          "effective_texture_sha256": "c9b79010c88874087d225ad5c7e59e321c2aad18543369f6bbf3ef344caa81a9",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            255,
+            255
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 256
+        },
+        "top": {
+          "file": "generated/reference-refinement-v1/evidence/korp14.png",
+          "display_file": "generated/reference-refinement-v1/evidence/korp14.png",
+          "member": "assets/ztones/textures/blocks/sets/korp/korp_ (14).png",
+          "member_sha256": "c9b79010c88874087d225ad5c7e59e321c2aad18543369f6bbf3ef344caa81a9",
+          "effective_texture_sha256": "c9b79010c88874087d225ad5c7e59e321c2aad18543369f6bbf3ef344caa81a9",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            255,
+            255
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 256
+        }
+      },
+      "texture_file": "generated/reference-refinement-v1/evidence/korp14.png",
+      "display_file": "generated/reference-refinement-v1/evidence/korp14.png",
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "geometry": "full cube",
+      "fullbright": false,
+      "emitted_light": 0,
+      "micro_material": "Ztones:tile.korpBlock_14",
+      "micro_scope": "Installed microblocks.cfg explicitly includes0..15 for this exact block; ordinary block metadata selects icons. Static registration evidence only; no saw/game execution.",
+      "architecturecraft_material_eligible_static": true,
+      "evidence": "verification/reference-refinement-v1/PALETTE_EVIDENCE.md"
+    },
+    "R": {
+      "role": "R",
+      "title": "Korp charcoal horizontal courses",
+      "display_name": "Korp charcoal horizontal courses",
+      "basename": "korp14",
+      "registry_name": "Ztones:tile.korpBlock",
+      "placed_metadata": 14,
+      "inventory_metadata": 14,
+      "faces": {
+        "side": {
+          "file": "generated/reference-refinement-v1/evidence/korp14.png",
+          "display_file": "generated/reference-refinement-v1/evidence/korp14.png",
+          "member": "assets/ztones/textures/blocks/sets/korp/korp_ (14).png",
+          "member_sha256": "c9b79010c88874087d225ad5c7e59e321c2aad18543369f6bbf3ef344caa81a9",
+          "effective_texture_sha256": "c9b79010c88874087d225ad5c7e59e321c2aad18543369f6bbf3ef344caa81a9",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            255,
+            255
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 256
+        },
+        "top": {
+          "file": "generated/reference-refinement-v1/evidence/korp14.png",
+          "display_file": "generated/reference-refinement-v1/evidence/korp14.png",
+          "member": "assets/ztones/textures/blocks/sets/korp/korp_ (14).png",
+          "member_sha256": "c9b79010c88874087d225ad5c7e59e321c2aad18543369f6bbf3ef344caa81a9",
+          "effective_texture_sha256": "c9b79010c88874087d225ad5c7e59e321c2aad18543369f6bbf3ef344caa81a9",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            255,
+            255
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 256
+        }
+      },
+      "texture_file": "generated/reference-refinement-v1/evidence/korp14.png",
+      "display_file": "generated/reference-refinement-v1/evidence/korp14.png",
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "geometry": "full cube",
+      "fullbright": false,
+      "emitted_light": 0,
+      "micro_material": "Ztones:tile.korpBlock_14",
+      "micro_scope": "Installed microblocks.cfg explicitly includes0..15 for this exact block; ordinary block metadata selects icons. Static registration evidence only; no saw/game execution.",
+      "architecturecraft_material_eligible_static": true,
+      "evidence": "verification/reference-refinement-v1/PALETTE_EVIDENCE.md"
+    },
+    "K": {
+      "role": "K",
+      "title": "Agon dark square panel",
+      "display_name": "Agon dark square panel",
+      "basename": "agon13",
+      "registry_name": "Ztones:tile.agonBlock",
+      "placed_metadata": 13,
+      "inventory_metadata": 13,
+      "faces": {
+        "side": {
+          "file": "generated/reference-refinement-v1/evidence/agon13.png",
+          "display_file": "generated/reference-refinement-v1/evidence/agon13.png",
+          "member": "assets/ztones/textures/blocks/sets/agon/agon_ (13).png",
+          "member_sha256": "0ea5815d8c9a0f14c8dc1669da535102fff15a4248830aa41ac1d675bb769431",
+          "effective_texture_sha256": "0ea5815d8c9a0f14c8dc1669da535102fff15a4248830aa41ac1d675bb769431",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            255,
+            255
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 256
+        },
+        "top": {
+          "file": "generated/reference-refinement-v1/evidence/agon13.png",
+          "display_file": "generated/reference-refinement-v1/evidence/agon13.png",
+          "member": "assets/ztones/textures/blocks/sets/agon/agon_ (13).png",
+          "member_sha256": "0ea5815d8c9a0f14c8dc1669da535102fff15a4248830aa41ac1d675bb769431",
+          "effective_texture_sha256": "0ea5815d8c9a0f14c8dc1669da535102fff15a4248830aa41ac1d675bb769431",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            255,
+            255
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 256
+        }
+      },
+      "texture_file": "generated/reference-refinement-v1/evidence/agon13.png",
+      "display_file": "generated/reference-refinement-v1/evidence/agon13.png",
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "geometry": "full cube",
+      "fullbright": false,
+      "emitted_light": 0,
+      "micro_material": "Ztones:tile.agonBlock_13",
+      "micro_scope": "Installed microblocks.cfg explicitly includes0..15 for this exact block; ordinary block metadata selects icons. Static registration evidence only; no saw/game execution.",
+      "architecturecraft_material_eligible_static": true,
+      "evidence": "verification/reference-refinement-v1/PALETTE_EVIDENCE.md"
+    },
+    "M": {
+      "role": "M",
+      "title": "Korp dark inset",
+      "display_name": "Korp dark inset",
+      "basename": "korp2",
+      "registry_name": "Ztones:tile.korpBlock",
+      "placed_metadata": 2,
+      "inventory_metadata": 2,
+      "faces": {
+        "side": {
+          "file": "generated/reference-refinement-v1/evidence/korp2.png",
+          "display_file": "generated/reference-refinement-v1/evidence/korp2.png",
+          "member": "assets/ztones/textures/blocks/sets/korp/korp_ (2).png",
+          "member_sha256": "326e9fc3b7760f4ebc2e7d245dd2d1ad346e55a8b93949f9fbafc2b79ffbe5e8",
+          "effective_texture_sha256": "326e9fc3b7760f4ebc2e7d245dd2d1ad346e55a8b93949f9fbafc2b79ffbe5e8",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            255,
+            255
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 256
+        },
+        "top": {
+          "file": "generated/reference-refinement-v1/evidence/korp2.png",
+          "display_file": "generated/reference-refinement-v1/evidence/korp2.png",
+          "member": "assets/ztones/textures/blocks/sets/korp/korp_ (2).png",
+          "member_sha256": "326e9fc3b7760f4ebc2e7d245dd2d1ad346e55a8b93949f9fbafc2b79ffbe5e8",
+          "effective_texture_sha256": "326e9fc3b7760f4ebc2e7d245dd2d1ad346e55a8b93949f9fbafc2b79ffbe5e8",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            255,
+            255
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 256
+        }
+      },
+      "texture_file": "generated/reference-refinement-v1/evidence/korp2.png",
+      "display_file": "generated/reference-refinement-v1/evidence/korp2.png",
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "geometry": "full cube",
+      "fullbright": false,
+      "emitted_light": 0,
+      "micro_material": "Ztones:tile.korpBlock_2",
+      "micro_scope": "Installed microblocks.cfg explicitly includes0..15 for this exact block; ordinary block metadata selects icons. Static registration evidence only; no saw/game execution.",
+      "architecturecraft_material_eligible_static": true,
+      "evidence": "verification/reference-refinement-v1/PALETTE_EVIDENCE.md"
+    },
+    "G": {
+      "role": "G",
+      "title": "TConstruct clear stained light_blue",
+      "display_name": "Clear stained light_blue glass",
+      "basename": "tinker-light_blue",
+      "registry_name": "TConstruct:GlassBlock.StainedClear",
+      "placed_metadata": 3,
+      "inventory_metadata": 3,
+      "faces": {
+        "side": {
+          "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-0.png",
+          "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-0.png",
+          "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass.png",
+          "member_sha256": "497e1bcb8e96c39506d7b9d24b2873c74f99ab74f5889d660645e8941945e049",
+          "effective_texture_sha256": "497e1bcb8e96c39506d7b9d24b2873c74f99ab74f5889d660645e8941945e049",
+          "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+          "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            130,
+            204
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 0
+        },
+        "top": {
+          "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-0.png",
+          "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-0.png",
+          "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass.png",
+          "member_sha256": "497e1bcb8e96c39506d7b9d24b2873c74f99ab74f5889d660645e8941945e049",
+          "effective_texture_sha256": "497e1bcb8e96c39506d7b9d24b2873c74f99ab74f5889d660645e8941945e049",
+          "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+          "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            130,
+            204
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 0
+        }
+      },
+      "texture_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-0.png",
+      "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-0.png",
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "geometry": "full cube",
+      "emitted_light": 0,
+      "fullbright": false,
+      "micro_material": null,
+      "micro_scope": "Full cubes only for this prototype; no new cut-material eligibility claim",
+      "tile_entity_required_static": false,
+      "architecturecraft_material_eligible_static": false,
+      "architecturecraft_reason": "Opaque=false and tile.GlassBlock.StainedClear is absent from installed AC whitelist. Keep verified chisel:glass6 roof role.",
+      "ctm": {
+        "kind": "16 whole-face icons, not Chisel quadrant atlas",
+        "icons": [
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-0.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-0.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass.png",
+            "member_sha256": "497e1bcb8e96c39506d7b9d24b2873c74f99ab74f5889d660645e8941945e049",
+            "effective_texture_sha256": "497e1bcb8e96c39506d7b9d24b2873c74f99ab74f5889d660645e8941945e049",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-1.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-1.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_1_d.png",
+            "member_sha256": "3a19fc192bfda02a052ee646ae838d6bb42eeefd7196a474e8a5b905b5df16e9",
+            "effective_texture_sha256": "3a19fc192bfda02a052ee646ae838d6bb42eeefd7196a474e8a5b905b5df16e9",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-2.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-2.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_1_u.png",
+            "member_sha256": "bf5defe34e89e4bd7836b68336970d789a06b7e1e6c28e15588054ebfc486320",
+            "effective_texture_sha256": "bf5defe34e89e4bd7836b68336970d789a06b7e1e6c28e15588054ebfc486320",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-3.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-3.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_1_l.png",
+            "member_sha256": "b07959dbbd55314c63363e5fe8389a8487bfc6ccfc374f14a33c7cd0fe61c1e9",
+            "effective_texture_sha256": "b07959dbbd55314c63363e5fe8389a8487bfc6ccfc374f14a33c7cd0fe61c1e9",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-4.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-4.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_1_r.png",
+            "member_sha256": "17a6b99e3f67d998e11ff15d75665707babb9cf9bf0d342ad6a69c0c003b8bfc",
+            "effective_texture_sha256": "17a6b99e3f67d998e11ff15d75665707babb9cf9bf0d342ad6a69c0c003b8bfc",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-5.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-5.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_2_h.png",
+            "member_sha256": "908774cb7973b4f7a6d9a47eec8cb1589b3f4854640ca88709eab19403e7a9f4",
+            "effective_texture_sha256": "908774cb7973b4f7a6d9a47eec8cb1589b3f4854640ca88709eab19403e7a9f4",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-6.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-6.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_2_v.png",
+            "member_sha256": "c0efa6fbb55a54fcc5acbfa63b2d0d5a3744b5ed3f7b0214d3e454929454475b",
+            "effective_texture_sha256": "c0efa6fbb55a54fcc5acbfa63b2d0d5a3744b5ed3f7b0214d3e454929454475b",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-7.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-7.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_2_dl.png",
+            "member_sha256": "50987545705cea070c46be3556e7b4744615a8f772a917ee9bc2a6f60e9c7b3b",
+            "effective_texture_sha256": "50987545705cea070c46be3556e7b4744615a8f772a917ee9bc2a6f60e9c7b3b",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-8.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-8.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_2_dr.png",
+            "member_sha256": "a9a2ab09a285549520294f22501b8f4766f2a6813a54f306b4d228a2e9dd1b56",
+            "effective_texture_sha256": "a9a2ab09a285549520294f22501b8f4766f2a6813a54f306b4d228a2e9dd1b56",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-9.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-9.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_2_ul.png",
+            "member_sha256": "84c82654314b7433bdc3a57190d4469d99b02bf8da837f527c8bb4dfd16a27ea",
+            "effective_texture_sha256": "84c82654314b7433bdc3a57190d4469d99b02bf8da837f527c8bb4dfd16a27ea",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-10.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-10.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_2_ur.png",
+            "member_sha256": "b410961261283ac0ae6b66ec8a5f45da9d70d38eced32c70a36701bb60116062",
+            "effective_texture_sha256": "b410961261283ac0ae6b66ec8a5f45da9d70d38eced32c70a36701bb60116062",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-11.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-11.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_3_d.png",
+            "member_sha256": "f494aa7bc5e16010f2be01ab492142f967707f53ab352bf47953376b84d32ba4",
+            "effective_texture_sha256": "f494aa7bc5e16010f2be01ab492142f967707f53ab352bf47953376b84d32ba4",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-12.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-12.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_3_u.png",
+            "member_sha256": "221c45ba1ef1ec2d257cbadaa20c1c7676b3391a6952050acfcde665134f461a",
+            "effective_texture_sha256": "221c45ba1ef1ec2d257cbadaa20c1c7676b3391a6952050acfcde665134f461a",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-13.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-13.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_3_l.png",
+            "member_sha256": "1989472c1f52bb7c38e9ba58a1c5dda080c4c3ca78a518883b2a6d670a5dcc2d",
+            "effective_texture_sha256": "1989472c1f52bb7c38e9ba58a1c5dda080c4c3ca78a518883b2a6d670a5dcc2d",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-14.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-14.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_3_r.png",
+            "member_sha256": "5442e702f497c0a02ce245fd5d44f337e785dbb59705f6ef117da0de0c57dfb0",
+            "effective_texture_sha256": "5442e702f497c0a02ce245fd5d44f337e785dbb59705f6ef117da0de0c57dfb0",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-15.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-15.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_4.png",
+            "member_sha256": "286e36416666e564cce39a8aabd9aa63685a640b0dad31b1bc5f08db36675764",
+            "effective_texture_sha256": "286e36416666e564cce39a8aabd9aa63685a640b0dad31b1bc5f08db36675764",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              133
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          }
+        ],
+        "mask_bit_order": [
+          "U",
+          "D",
+          "L",
+          "R"
+        ],
+        "mask_to_icon_index": [
+          0,
+          2,
+          1,
+          6,
+          3,
+          8,
+          10,
+          14,
+          4,
+          7,
+          9,
+          13,
+          5,
+          11,
+          12,
+          15
+        ],
+        "fully_connected_icon_index": 15,
+        "spec": "verification/reference-refinement-v1/tconstruct-ctm-spec.json"
+      },
+      "evidence": "verification/reference-refinement-v1/PALETTE_EVIDENCE.md"
+    },
+    "g": {
+      "role": "g",
+      "title": "Borderless glass for shaped roofs",
+      "display_name": "Borderless glass for shaped roofs",
+      "basename": "glass6",
+      "registry_name": "chisel:glass",
+      "placed_metadata": 6,
+      "inventory_metadata": 6,
+      "texture_file": "generated/reference-materials-v1/evidence/glass6-source.png",
+      "display_file": "generated/reference-materials-v1/evidence/glass6-display.png",
+      "faces": {
+        "side": {
+          "file": "generated/reference-materials-v1/evidence/glass6-source.png",
+          "display_file": "generated/reference-materials-v1/evidence/glass6-display.png",
+          "member": "assets/chisel/textures/blocks/glass/terrain-glassnoborder.png",
+          "member_sha256": "dd0220f9e7774a13c899ac3878ebb9ebfe88db0791ec079528d914e1a2d212c3",
+          "source_artifact": "chisel-2.17.34-GTNH.jar",
+          "source_artifact_sha256": "cc8a7af6bb777c96d68f5b4ef0a47fbc11984e91471ce8d66710fb7a6a0bae1f",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_crop_box": null
+        },
+        "top": {
+          "file": "generated/reference-materials-v1/evidence/glass6-source.png",
+          "display_file": "generated/reference-materials-v1/evidence/glass6-display.png",
+          "member": "assets/chisel/textures/blocks/glass/terrain-glassnoborder.png",
+          "member_sha256": "dd0220f9e7774a13c899ac3878ebb9ebfe88db0791ec079528d914e1a2d212c3",
+          "source_artifact": "chisel-2.17.34-GTNH.jar",
+          "source_artifact_sha256": "cc8a7af6bb777c96d68f5b4ef0a47fbc11984e91471ce8d66710fb7a6a0bae1f",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_crop_box": null
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "fullbright": false,
+      "emitted_light": 0,
+      "geometry": "full cube",
+      "micro_material": null,
+      "micro_scope": "Full cubes only in this proposal; no new cut-material eligibility claim",
+      "evidence": "verification/reference-materials-v1/PALETTE_EVIDENCE.md; verification/reference-materials-v1/public-palette-evidence.json",
+      "architecturecraft_material_eligible": true,
+      "architecturecraft_evidence": "TileSawbench.isAcceptableMaterial reads block unlocalized-name whitelist. CarvableHelper assigns tile.chisel.glass; installed architecturecraft.cfg explicitly contains tile.chisel.glass. Exact evidence: verification/reference-materials-v1/shaped-glass-and-face-sizes.json.",
+      "texture_behavior": "Base icon has pale perimeter, no diagonal highlights. ArchitectureCraft slope base icon is intentionally kept separate from full-cube modern-glass CTM."
+    }
+  },
+  "glass_alternatives": {
+    "light_blue": {
+      "role": "G",
+      "title": "TConstruct clear stained light_blue",
+      "display_name": "Clear stained light_blue glass",
+      "basename": "tinker-light_blue",
+      "registry_name": "TConstruct:GlassBlock.StainedClear",
+      "placed_metadata": 3,
+      "inventory_metadata": 3,
+      "faces": {
+        "side": {
+          "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-0.png",
+          "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-0.png",
+          "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass.png",
+          "member_sha256": "497e1bcb8e96c39506d7b9d24b2873c74f99ab74f5889d660645e8941945e049",
+          "effective_texture_sha256": "497e1bcb8e96c39506d7b9d24b2873c74f99ab74f5889d660645e8941945e049",
+          "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+          "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            130,
+            204
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 0
+        },
+        "top": {
+          "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-0.png",
+          "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-0.png",
+          "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass.png",
+          "member_sha256": "497e1bcb8e96c39506d7b9d24b2873c74f99ab74f5889d660645e8941945e049",
+          "effective_texture_sha256": "497e1bcb8e96c39506d7b9d24b2873c74f99ab74f5889d660645e8941945e049",
+          "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+          "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            130,
+            204
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 0
+        }
+      },
+      "texture_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-0.png",
+      "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-0.png",
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "geometry": "full cube",
+      "emitted_light": 0,
+      "fullbright": false,
+      "micro_material": null,
+      "micro_scope": "Full cubes only for this prototype; no new cut-material eligibility claim",
+      "tile_entity_required_static": false,
+      "architecturecraft_material_eligible_static": false,
+      "architecturecraft_reason": "Opaque=false and tile.GlassBlock.StainedClear is absent from installed AC whitelist. Keep verified chisel:glass6 roof role.",
+      "ctm": {
+        "kind": "16 whole-face icons, not Chisel quadrant atlas",
+        "icons": [
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-0.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-0.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass.png",
+            "member_sha256": "497e1bcb8e96c39506d7b9d24b2873c74f99ab74f5889d660645e8941945e049",
+            "effective_texture_sha256": "497e1bcb8e96c39506d7b9d24b2873c74f99ab74f5889d660645e8941945e049",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-1.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-1.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_1_d.png",
+            "member_sha256": "3a19fc192bfda02a052ee646ae838d6bb42eeefd7196a474e8a5b905b5df16e9",
+            "effective_texture_sha256": "3a19fc192bfda02a052ee646ae838d6bb42eeefd7196a474e8a5b905b5df16e9",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-2.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-2.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_1_u.png",
+            "member_sha256": "bf5defe34e89e4bd7836b68336970d789a06b7e1e6c28e15588054ebfc486320",
+            "effective_texture_sha256": "bf5defe34e89e4bd7836b68336970d789a06b7e1e6c28e15588054ebfc486320",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-3.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-3.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_1_l.png",
+            "member_sha256": "b07959dbbd55314c63363e5fe8389a8487bfc6ccfc374f14a33c7cd0fe61c1e9",
+            "effective_texture_sha256": "b07959dbbd55314c63363e5fe8389a8487bfc6ccfc374f14a33c7cd0fe61c1e9",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-4.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-4.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_1_r.png",
+            "member_sha256": "17a6b99e3f67d998e11ff15d75665707babb9cf9bf0d342ad6a69c0c003b8bfc",
+            "effective_texture_sha256": "17a6b99e3f67d998e11ff15d75665707babb9cf9bf0d342ad6a69c0c003b8bfc",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-5.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-5.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_2_h.png",
+            "member_sha256": "908774cb7973b4f7a6d9a47eec8cb1589b3f4854640ca88709eab19403e7a9f4",
+            "effective_texture_sha256": "908774cb7973b4f7a6d9a47eec8cb1589b3f4854640ca88709eab19403e7a9f4",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-6.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-6.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_2_v.png",
+            "member_sha256": "c0efa6fbb55a54fcc5acbfa63b2d0d5a3744b5ed3f7b0214d3e454929454475b",
+            "effective_texture_sha256": "c0efa6fbb55a54fcc5acbfa63b2d0d5a3744b5ed3f7b0214d3e454929454475b",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-7.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-7.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_2_dl.png",
+            "member_sha256": "50987545705cea070c46be3556e7b4744615a8f772a917ee9bc2a6f60e9c7b3b",
+            "effective_texture_sha256": "50987545705cea070c46be3556e7b4744615a8f772a917ee9bc2a6f60e9c7b3b",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-8.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-8.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_2_dr.png",
+            "member_sha256": "a9a2ab09a285549520294f22501b8f4766f2a6813a54f306b4d228a2e9dd1b56",
+            "effective_texture_sha256": "a9a2ab09a285549520294f22501b8f4766f2a6813a54f306b4d228a2e9dd1b56",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-9.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-9.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_2_ul.png",
+            "member_sha256": "84c82654314b7433bdc3a57190d4469d99b02bf8da837f527c8bb4dfd16a27ea",
+            "effective_texture_sha256": "84c82654314b7433bdc3a57190d4469d99b02bf8da837f527c8bb4dfd16a27ea",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-10.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-10.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_2_ur.png",
+            "member_sha256": "b410961261283ac0ae6b66ec8a5f45da9d70d38eced32c70a36701bb60116062",
+            "effective_texture_sha256": "b410961261283ac0ae6b66ec8a5f45da9d70d38eced32c70a36701bb60116062",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-11.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-11.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_3_d.png",
+            "member_sha256": "f494aa7bc5e16010f2be01ab492142f967707f53ab352bf47953376b84d32ba4",
+            "effective_texture_sha256": "f494aa7bc5e16010f2be01ab492142f967707f53ab352bf47953376b84d32ba4",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-12.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-12.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_3_u.png",
+            "member_sha256": "221c45ba1ef1ec2d257cbadaa20c1c7676b3391a6952050acfcde665134f461a",
+            "effective_texture_sha256": "221c45ba1ef1ec2d257cbadaa20c1c7676b3391a6952050acfcde665134f461a",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-13.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-13.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_3_l.png",
+            "member_sha256": "1989472c1f52bb7c38e9ba58a1c5dda080c4c3ca78a518883b2a6d670a5dcc2d",
+            "effective_texture_sha256": "1989472c1f52bb7c38e9ba58a1c5dda080c4c3ca78a518883b2a6d670a5dcc2d",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-14.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-14.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_3_r.png",
+            "member_sha256": "5442e702f497c0a02ce245fd5d44f337e785dbb59705f6ef117da0de0c57dfb0",
+            "effective_texture_sha256": "5442e702f497c0a02ce245fd5d44f337e785dbb59705f6ef117da0de0c57dfb0",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-light_blue-15.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-light_blue-15.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass_4.png",
+            "member_sha256": "286e36416666e564cce39a8aabd9aa63685a640b0dad31b1bc5f08db36675764",
+            "effective_texture_sha256": "286e36416666e564cce39a8aabd9aa63685a640b0dad31b1bc5f08db36675764",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              133
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          }
+        ],
+        "mask_bit_order": [
+          "U",
+          "D",
+          "L",
+          "R"
+        ],
+        "mask_to_icon_index": [
+          0,
+          2,
+          1,
+          6,
+          3,
+          8,
+          10,
+          14,
+          4,
+          7,
+          9,
+          13,
+          5,
+          11,
+          12,
+          15
+        ],
+        "fully_connected_icon_index": 15,
+        "spec": "verification/reference-refinement-v1/tconstruct-ctm-spec.json"
+      },
+      "evidence": "verification/reference-refinement-v1/PALETTE_EVIDENCE.md"
+    },
+    "gray": {
+      "role": "G",
+      "title": "TConstruct clear stained gray",
+      "display_name": "Clear stained gray glass",
+      "basename": "tinker-gray",
+      "registry_name": "TConstruct:GlassBlock.StainedClear",
+      "placed_metadata": 7,
+      "inventory_metadata": 7,
+      "faces": {
+        "side": {
+          "file": "generated/reference-refinement-v1/evidence/tinker-gray-0.png",
+          "display_file": "generated/reference-refinement-v1/evidence/tinker-gray-0.png",
+          "member": "assets/tinker/textures/blocks/glass/stained/gray/glass.png",
+          "member_sha256": "d9fadd3a3f1d51f9d6099da9ff674f02eb816702a212d13b641d619ad5dd6e70",
+          "effective_texture_sha256": "d9fadd3a3f1d51f9d6099da9ff674f02eb816702a212d13b641d619ad5dd6e70",
+          "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+          "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            130,
+            204
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 0
+        },
+        "top": {
+          "file": "generated/reference-refinement-v1/evidence/tinker-gray-0.png",
+          "display_file": "generated/reference-refinement-v1/evidence/tinker-gray-0.png",
+          "member": "assets/tinker/textures/blocks/glass/stained/gray/glass.png",
+          "member_sha256": "d9fadd3a3f1d51f9d6099da9ff674f02eb816702a212d13b641d619ad5dd6e70",
+          "effective_texture_sha256": "d9fadd3a3f1d51f9d6099da9ff674f02eb816702a212d13b641d619ad5dd6e70",
+          "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+          "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            130,
+            204
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 0
+        }
+      },
+      "texture_file": "generated/reference-refinement-v1/evidence/tinker-gray-0.png",
+      "display_file": "generated/reference-refinement-v1/evidence/tinker-gray-0.png",
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "geometry": "full cube",
+      "emitted_light": 0,
+      "fullbright": false,
+      "micro_material": null,
+      "micro_scope": "Full cubes only for this prototype; no new cut-material eligibility claim",
+      "tile_entity_required_static": false,
+      "architecturecraft_material_eligible_static": false,
+      "architecturecraft_reason": "Opaque=false and tile.GlassBlock.StainedClear is absent from installed AC whitelist. Keep verified chisel:glass6 roof role.",
+      "ctm": {
+        "kind": "16 whole-face icons, not Chisel quadrant atlas",
+        "icons": [
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-gray-0.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-gray-0.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/gray/glass.png",
+            "member_sha256": "d9fadd3a3f1d51f9d6099da9ff674f02eb816702a212d13b641d619ad5dd6e70",
+            "effective_texture_sha256": "d9fadd3a3f1d51f9d6099da9ff674f02eb816702a212d13b641d619ad5dd6e70",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-gray-1.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-gray-1.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/gray/glass_1_d.png",
+            "member_sha256": "baeccdbd7f97d96d672465b868d267e5393f11c916026b58e4f94cbd4fcc0d5a",
+            "effective_texture_sha256": "baeccdbd7f97d96d672465b868d267e5393f11c916026b58e4f94cbd4fcc0d5a",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-gray-2.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-gray-2.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/gray/glass_1_u.png",
+            "member_sha256": "2cbb1f11f518af1243d2dbdffc8f019c2de392e49790c36ec4155e5100ae12a5",
+            "effective_texture_sha256": "2cbb1f11f518af1243d2dbdffc8f019c2de392e49790c36ec4155e5100ae12a5",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-gray-3.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-gray-3.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/gray/glass_1_l.png",
+            "member_sha256": "ad69c183ea400ff9944044530901e0eb3091b939e77c360d9ec7605f03d72b2c",
+            "effective_texture_sha256": "ad69c183ea400ff9944044530901e0eb3091b939e77c360d9ec7605f03d72b2c",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-gray-4.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-gray-4.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/gray/glass_1_r.png",
+            "member_sha256": "c5de9dff4f6e9e6cce671510a31bb57a174404002b880bd023d1448547549fcc",
+            "effective_texture_sha256": "c5de9dff4f6e9e6cce671510a31bb57a174404002b880bd023d1448547549fcc",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-gray-5.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-gray-5.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/gray/glass_2_h.png",
+            "member_sha256": "7d05e9b2d8cbdf8b269c15662149ec1dae0649bdea65d86a5bb9f1e0d1e7b668",
+            "effective_texture_sha256": "7d05e9b2d8cbdf8b269c15662149ec1dae0649bdea65d86a5bb9f1e0d1e7b668",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-gray-6.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-gray-6.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/gray/glass_2_v.png",
+            "member_sha256": "765e7b7a029e4756aa791f87ca1e20075763d3ed2de988aa3ada7ec0420a1e31",
+            "effective_texture_sha256": "765e7b7a029e4756aa791f87ca1e20075763d3ed2de988aa3ada7ec0420a1e31",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-gray-7.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-gray-7.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/gray/glass_2_dl.png",
+            "member_sha256": "d4e8d5e6de532a51d91c8c6b0c1ffcd9779db43e9a2bc23251c4434f146e3c8a",
+            "effective_texture_sha256": "d4e8d5e6de532a51d91c8c6b0c1ffcd9779db43e9a2bc23251c4434f146e3c8a",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-gray-8.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-gray-8.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/gray/glass_2_dr.png",
+            "member_sha256": "a1a0f927814c6f9f7b191230b9f584bf1574da5857183f70665f7b163c4ec7c5",
+            "effective_texture_sha256": "a1a0f927814c6f9f7b191230b9f584bf1574da5857183f70665f7b163c4ec7c5",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-gray-9.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-gray-9.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/gray/glass_2_ul.png",
+            "member_sha256": "2a8a3d3cac9a977b3ee4eb1285eae53ce90d1dd93009d83f9add36227ecb1af9",
+            "effective_texture_sha256": "2a8a3d3cac9a977b3ee4eb1285eae53ce90d1dd93009d83f9add36227ecb1af9",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-gray-10.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-gray-10.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/gray/glass_2_ur.png",
+            "member_sha256": "09617b01b1a728e6bc79aff6c991fd812b487d73a5e36bf94a2680815ec2f91a",
+            "effective_texture_sha256": "09617b01b1a728e6bc79aff6c991fd812b487d73a5e36bf94a2680815ec2f91a",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-gray-11.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-gray-11.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/gray/glass_3_d.png",
+            "member_sha256": "0edbfa422405a758f692cf3c59d346315fca6c2dd8c3da1273e4c8937f4943db",
+            "effective_texture_sha256": "0edbfa422405a758f692cf3c59d346315fca6c2dd8c3da1273e4c8937f4943db",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-gray-12.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-gray-12.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/gray/glass_3_u.png",
+            "member_sha256": "6077c77fd5a779bab1c2531f554278192eb598e257836bc92c44a40e8b3de88f",
+            "effective_texture_sha256": "6077c77fd5a779bab1c2531f554278192eb598e257836bc92c44a40e8b3de88f",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-gray-13.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-gray-13.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/gray/glass_3_l.png",
+            "member_sha256": "ac9adaf969ac239397c52c5dded74e4659286eb97c0c6801ad4c98948f964ad5",
+            "effective_texture_sha256": "ac9adaf969ac239397c52c5dded74e4659286eb97c0c6801ad4c98948f964ad5",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-gray-14.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-gray-14.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/gray/glass_3_r.png",
+            "member_sha256": "5668d9833fcbedb37fd565e987b77224d415a850b0060a5c466f1886b6137e16",
+            "effective_texture_sha256": "5668d9833fcbedb37fd565e987b77224d415a850b0060a5c466f1886b6137e16",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              204
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          },
+          {
+            "file": "generated/reference-refinement-v1/evidence/tinker-gray-15.png",
+            "display_file": "generated/reference-refinement-v1/evidence/tinker-gray-15.png",
+            "member": "assets/tinker/textures/blocks/glass/stained/gray/glass_4.png",
+            "member_sha256": "4c2c02d0e7791bb372d4587ce0b8c976981f28502d01f8397127535b0150440b",
+            "effective_texture_sha256": "4c2c02d0e7791bb372d4587ce0b8c976981f28502d01f8397127535b0150440b",
+            "source_artifact": "TConstruct-1.14.123-GTNH.jar",
+            "source_artifact_sha256": "7e9ecb65757a594b2dc320ec5921d37392c8dabf490cd83bd1720f45b717f1c2",
+            "dimensions": [
+              16,
+              16
+            ],
+            "tint_rgb": [
+              255,
+              255,
+              255
+            ],
+            "active_albedo_overrides": [],
+            "alpha_extrema": [
+              130,
+              133
+            ],
+            "fully_transparent_pixels": 0,
+            "fully_opaque_pixels": 0
+          }
+        ],
+        "mask_bit_order": [
+          "U",
+          "D",
+          "L",
+          "R"
+        ],
+        "mask_to_icon_index": [
+          0,
+          2,
+          1,
+          6,
+          3,
+          8,
+          10,
+          14,
+          4,
+          7,
+          9,
+          13,
+          5,
+          11,
+          12,
+          15
+        ],
+        "fully_connected_icon_index": 15,
+        "spec": "verification/reference-refinement-v1/tconstruct-ctm-spec.json"
+      },
+      "evidence": "verification/reference-refinement-v1/PALETTE_EVIDENCE.md"
+    }
+  },
+  "scope": "Separate installed-material research only. Existing102 reference designs and exports unchanged."
+}

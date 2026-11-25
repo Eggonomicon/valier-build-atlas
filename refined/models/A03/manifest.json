@@ -1,0 +1,136 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "reference-refinement-v1",
+  "id": "A03",
+  "title": "Entry forecourt and canopy",
+  "bounds": [
+    0,
+    -1,
+    0,
+    23,
+    10,
+    15
+  ],
+  "dimensions_x_y_z": [
+    24,
+    12,
+    16
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": "design/concept-match-v1/models/A03.json.gz",
+  "source_model_sha256": "55751b17468e947531043e159eec0d2959f07aac1d22f2f8d01551c320d3e346",
+  "game_tested": false,
+  "occupied_host_positions": 1317,
+  "cube_positions": 1164,
+  "architecture_shapes": 0,
+  "multipart_hosts": 153,
+  "microparts": 163,
+  "tile_entities": 153,
+  "entities": 0,
+  "model_sha256": "c92bdae4c16eea53833c228263664df453189e60487bddf863db61b4cdf35634",
+  "schematic": "models/A03/Valier_A03_Shaped_GTNH29.schematic",
+  "schematic_sha256": "8412f0a8897db53c0d85956b1e44e6901b2ac66d612de0f63639a1a7360a9c73",
+  "registry_map": {
+    "minecraft:air": 0,
+    "Ztones:tile.agonBlock": 1,
+    "Ztones:tile.korpBlock": 2,
+    "TConstruct:GlassBlock.StainedClear": 3,
+    "ForgeMultipart:block": 4,
+    "minecraft:dirt": 5,
+    "minecraft:leaves": 6,
+    "minecraft:red_flower": 7,
+    "minecraft:log": 8
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "cube",
+      "role": "B",
+      "shape_or_size": "14",
+      "count": 236
+    },
+    {
+      "kind": "cube",
+      "role": "E",
+      "shape_or_size": "0",
+      "count": 18
+    },
+    {
+      "kind": "cube",
+      "role": "G",
+      "shape_or_size": "3",
+      "count": 72
+    },
+    {
+      "kind": "cube",
+      "role": "K",
+      "shape_or_size": "13",
+      "count": 220
+    },
+    {
+      "kind": "cube",
+      "role": "P",
+      "shape_or_size": "15",
+      "count": 384
+    },
+    {
+      "kind": "cube",
+      "role": "T",
+      "shape_or_size": "0",
+      "count": 12
+    },
+    {
+      "kind": "cube",
+      "role": "V",
+      "shape_or_size": "4",
+      "count": 217
+    },
+    {
+      "kind": "cube",
+      "role": "f",
+      "shape_or_size": "2",
+      "count": 5
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "K",
+      "shape_or_size": "1",
+      "count": 59
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 20
+    },
+    {
+      "kind": "mcr_face",
+      "role": "L",
+      "shape_or_size": "2",
+      "count": 16
+    },
+    {
+      "kind": "mcr_face",
+      "role": "L",
+      "shape_or_size": "4",
+      "count": 20
+    },
+    {
+      "kind": "mcr_face",
+      "role": "P",
+      "shape_or_size": "2",
+      "count": 32
+    },
+    {
+      "kind": "mcr_face",
+      "role": "W",
+      "shape_or_size": "1",
+      "count": 16
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims.",
+  "family": "landscape-furniture",
+  "architectural_status": "Explicit reconstruction; static checks and game import pending",
+  "interior_scope": "Architectural floors, entrances and stated stairs; no functional machine/network certification"
+}

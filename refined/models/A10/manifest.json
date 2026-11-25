@@ -1,0 +1,114 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "reference-refinement-v1",
+  "id": "A10",
+  "title": "Open portal and entry gate",
+  "bounds": [
+    0,
+    -1,
+    0,
+    15,
+    8,
+    7
+  ],
+  "dimensions_x_y_z": [
+    16,
+    10,
+    8
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": "design/concept-match-v1/models/A10.json.gz",
+  "source_model_sha256": "79c1ebbaa1f28ad5c8151bf1dd0e356471047fa996e240d87868afef0e8755d7",
+  "game_tested": false,
+  "occupied_host_positions": 256,
+  "cube_positions": 130,
+  "architecture_shapes": 20,
+  "multipart_hosts": 106,
+  "microparts": 108,
+  "tile_entities": 126,
+  "entities": 0,
+  "model_sha256": "eb2fcf4c854733a9db35d486737fa9dd822779daf7d2890691cf72e640f71371",
+  "schematic": "models/A10/Valier_A10_Shaped_GTNH29.schematic",
+  "schematic_sha256": "68da5ba22bbc7fe33fbe44a4c32ac7cd0f926674a710f45f88bf9a39375aed45",
+  "registry_map": {
+    "minecraft:air": 0,
+    "Ztones:tile.agonBlock": 1,
+    "Ztones:tile.korpBlock": 2,
+    "ForgeMultipart:block": 3,
+    "ArchitectureCraft:shape": 4
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "architecture",
+      "role": "L",
+      "shape_or_size": "94",
+      "count": 10
+    },
+    {
+      "kind": "architecture",
+      "role": "L",
+      "shape_or_size": "95",
+      "count": 10
+    },
+    {
+      "kind": "cube",
+      "role": "B",
+      "shape_or_size": "14",
+      "count": 2
+    },
+    {
+      "kind": "cube",
+      "role": "P",
+      "shape_or_size": "15",
+      "count": 128
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 10
+    },
+    {
+      "kind": "mcr_face",
+      "role": "K",
+      "shape_or_size": "4",
+      "count": 42
+    },
+    {
+      "kind": "mcr_face",
+      "role": "K",
+      "shape_or_size": "7",
+      "count": 2
+    },
+    {
+      "kind": "mcr_face",
+      "role": "L",
+      "shape_or_size": "2",
+      "count": 12
+    },
+    {
+      "kind": "mcr_face",
+      "role": "L",
+      "shape_or_size": "4",
+      "count": 28
+    },
+    {
+      "kind": "mcr_face",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 2
+    },
+    {
+      "kind": "mcr_post",
+      "role": "K",
+      "shape_or_size": "4",
+      "count": 12
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims.",
+  "family": "landscape-furniture",
+  "architectural_status": "Explicit reconstruction; static checks and game import pending",
+  "interior_scope": "Architectural floors, entrances and stated stairs; no functional machine/network certification"
+}

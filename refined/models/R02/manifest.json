@@ -1,0 +1,64 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "reference-refinement-v1",
+  "id": "R02",
+  "title": "12 by 12 junction / unobstructed finish study",
+  "bounds": [
+    0,
+    -10,
+    0,
+    11,
+    -1,
+    11
+  ],
+  "dimensions_x_y_z": [
+    12,
+    10,
+    12
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": "design/concept-match-v1/models/R02.json.gz",
+  "source_model_sha256": "536d5ee73d90770cf6daf17ccd52cd30f565e584002f731b42f0ca6fabf37675",
+  "game_tested": false,
+  "occupied_host_positions": 624,
+  "cube_positions": 624,
+  "architecture_shapes": 0,
+  "multipart_hosts": 0,
+  "microparts": 0,
+  "tile_entities": 0,
+  "entities": 0,
+  "model_sha256": "b59911e11e0e85aa700c39bbb407c7c9d52f55d65a914275c34f9a8d5b3b6bbb",
+  "schematic": "models/R02/Valier_R02_Shaped_GTNH29.schematic",
+  "schematic_sha256": "5ed8d527dae99dae65cf42f1acc97405737d4affb56b61491cfd9eae573616b8",
+  "registry_map": {
+    "minecraft:air": 0,
+    "minecraft:stonebrick": 1,
+    "Ztones:tile.agonBlock": 2
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "cube",
+      "role": "F",
+      "shape_or_size": "0",
+      "count": 480
+    },
+    {
+      "kind": "cube",
+      "role": "P",
+      "shape_or_size": "15",
+      "count": 16
+    },
+    {
+      "kind": "cube",
+      "role": "R",
+      "shape_or_size": "13",
+      "count": 128
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims.",
+  "family": "civil-finish",
+  "architectural_status": "Explicit reconstruction; static checks and game import pending",
+  "interior_scope": "Architectural floors, entrances and stated stairs; no functional machine/network certification"
+}

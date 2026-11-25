@@ -1,0 +1,77 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "reference-refinement-v1",
+  "id": "R01",
+  "title": "12-wide street / 48-block finish study",
+  "bounds": [
+    0,
+    -10,
+    0,
+    11,
+    -1,
+    47
+  ],
+  "dimensions_x_y_z": [
+    12,
+    10,
+    48
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": "design/concept-match-v1/models/R01.json.gz",
+  "source_model_sha256": "cc1523b37d1890561c3a4a3b8680ae182a005d5b2a1a6c0b7672706e4c4df48d",
+  "game_tested": false,
+  "occupied_host_positions": 2400,
+  "cube_positions": 2396,
+  "architecture_shapes": 0,
+  "multipart_hosts": 4,
+  "microparts": 8,
+  "tile_entities": 4,
+  "entities": 0,
+  "model_sha256": "97772220173977f89155fb351572e9ce2fab21e00f0f7c02f2b32e53110d3f31",
+  "schematic": "models/R01/Valier_R01_Shaped_GTNH29.schematic",
+  "schematic_sha256": "9e3ebcea629c40a7963a4d1882c803debe1f369f1f02a831b4a84fe9591e90ac",
+  "registry_map": {
+    "minecraft:air": 0,
+    "minecraft:stonebrick": 1,
+    "Ztones:tile.agonBlock": 2,
+    "ForgeMultipart:block": 3
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "cube",
+      "role": "F",
+      "shape_or_size": "0",
+      "count": 1824
+    },
+    {
+      "kind": "cube",
+      "role": "P",
+      "shape_or_size": "15",
+      "count": 188
+    },
+    {
+      "kind": "cube",
+      "role": "R",
+      "shape_or_size": "13",
+      "count": 384
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 4
+    },
+    {
+      "kind": "mcr_face",
+      "role": "P",
+      "shape_or_size": "7",
+      "count": 4
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims.",
+  "family": "civil-finish",
+  "architectural_status": "Explicit reconstruction; static checks and game import pending",
+  "interior_scope": "Architectural floors, entrances and stated stairs; no functional machine/network certification"
+}
