@@ -1,0 +1,36 @@
+{
+  "id": "07-07",
+  "title": "LuV energy",
+  "kind": "plot",
+  "family": "power",
+  "sector": null,
+  "source_model_sha256": "828ba7c46c9d4c03fa1bdbcaf55df376007f7fbf0084deb58037a8eb0bb80041",
+  "source_positions": 20294,
+  "source_role_counts": {
+    "F": 4096,
+    "K": 2348,
+    "L": 3584,
+    "B": 9218,
+    "G": 800,
+    "N": 248
+  },
+  "images": {
+    "isometric": "07-07/iso-se.webp",
+    "atmosphere": "07-07/atmosphere.webp",
+    "northwest": "07-07/iso-nw.webp",
+    "north": "07-07/north.webp",
+    "south": "07-07/south.webp",
+    "east": "07-07/east.webp",
+    "west": "07-07/west.webp",
+    "roof": "07-07/roof.webp",
+    "street": "07-07/street.webp"
+  },
+  "thumbnail": "07-07/thumbnail.webp",
+  "visible_faces": {
+    "SE": 19943,
+    "NW": 19943,
+    "street": 19943
+  },
+  "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+  "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+}

@@ -1,0 +1,176 @@
+{
+  "schema": "valier-exterior-rle-v1",
+  "revision": "concept-match-v1",
+  "coordinate_convention": "Local northwest origin; +X east, +Z south; civil Y0 = future walkable surface S. World origin, S and rotation unassigned.",
+  "bounds": [
+    0,
+    -1,
+    0,
+    63,
+    21,
+    63
+  ],
+  "dimensions_x_y_z": [
+    64,
+    23,
+    64
+  ],
+  "role_counts": {
+    "B": 645,
+    "F": 4096,
+    "G": 7141,
+    "K": 700,
+    "L": 3674,
+    "N": 208
+  },
+  "id": "06-01",
+  "title": "Tree farm",
+  "kind": "plot",
+  "family": "greenhouse",
+  "site_bounds": [
+    22,
+    502,
+    85,
+    565
+  ],
+  "source_model": "design/visual-library-v1/models/06-01.json.gz",
+  "source_model_sha256": "5ce71a1bcd86f4e7f1b35aa0df77cf1bc55c61e06bc9a55688423d7edbcd1421",
+  "occupied_geometry_unchanged": true,
+  "source_role_counts": {
+    "B": 645,
+    "F": 4096,
+    "G": 7141,
+    "K": 700,
+    "L": 3674,
+    "N": 208
+  },
+  "scope": "Alternate finish on preserved source architecture; no new functional fit or complete concept-geometry claim.",
+  "occupied_positions": 16464,
+  "air_positions": 77744,
+  "model_sha256": "a795685bfeed1c0d09bfef6d859317777cdf1ba28482fafe254a3d961317fcfb",
+  "model": "design/concept-match-v1/models/06-01.json.gz",
+  "schematic": "models/06-01/Valier_06-01_ConceptFinish_GTNH29.schematic",
+  "schematic_sha256": "27ec75877a75b8ae1f44fb752a0044f19abbe287f06aeb1282462f5d24c14c9d",
+  "registry_map": {
+    "minecraft:air": 0,
+    "ExtraUtilities:greenscreen": 1,
+    "ProjRed|Exploration:projectred.exploration.stone": 2,
+    "chisel:concrete": 3,
+    "chisel:nucrete": 4,
+    "minecraft:dirt": 5,
+    "minecraft:glass": 6,
+    "minecraft:glowstone": 7,
+    "minecraft:leaves": 8,
+    "minecraft:log": 9,
+    "minecraft:red_flower": 10,
+    "minecraft:stained_glass": 11,
+    "minecraft:stone_slab": 12,
+    "minecraft:stonebrick": 13
+  },
+  "placed_states": [
+    {
+      "registry_name": "ExtraUtilities:greenscreen",
+      "metadata": 9,
+      "positions": 208,
+      "roles": [
+        "N"
+      ]
+    },
+    {
+      "registry_name": "ProjRed|Exploration:projectred.exploration.stone",
+      "metadata": 4,
+      "positions": 645,
+      "roles": [
+        "B"
+      ]
+    },
+    {
+      "registry_name": "chisel:nucrete",
+      "metadata": 7,
+      "positions": 700,
+      "roles": [
+        "K"
+      ]
+    },
+    {
+      "registry_name": "chisel:nucrete",
+      "metadata": 15,
+      "positions": 3674,
+      "roles": [
+        "L"
+      ]
+    },
+    {
+      "registry_name": "minecraft:stained_glass",
+      "metadata": 7,
+      "positions": 7141,
+      "roles": [
+        "G"
+      ]
+    },
+    {
+      "registry_name": "minecraft:stonebrick",
+      "metadata": 0,
+      "positions": 4096,
+      "roles": [
+        "F"
+      ]
+    }
+  ],
+  "inventory_stock": [
+    {
+      "registry_name": "ExtraUtilities:greenscreen",
+      "metadata": 9,
+      "items": 208,
+      "roles": [
+        "N"
+      ]
+    },
+    {
+      "registry_name": "ProjRed|Exploration:projectred.exploration.stone",
+      "metadata": 4,
+      "items": 645,
+      "roles": [
+        "B"
+      ]
+    },
+    {
+      "registry_name": "chisel:nucrete",
+      "metadata": 7,
+      "items": 700,
+      "roles": [
+        "K"
+      ]
+    },
+    {
+      "registry_name": "chisel:nucrete",
+      "metadata": 15,
+      "items": 3674,
+      "roles": [
+        "L"
+      ]
+    },
+    {
+      "registry_name": "minecraft:stained_glass",
+      "metadata": 7,
+      "items": 7141,
+      "roles": [
+        "G"
+      ]
+    },
+    {
+      "registry_name": "minecraft:stonebrick",
+      "metadata": 0,
+      "items": 4096,
+      "roles": [
+        "F"
+      ]
+    }
+  ],
+  "anchor": "NW minimum corner; all WE origins/offsets zero; minimum worldY=S+minimum civilY",
+  "air_policy": "Air is not excavation. -a skips air. Finish variants are complete standalone architectural alternatives, not additive materials pasted on occupied original models.",
+  "entities": 0,
+  "tile_entities": 0,
+  "game_tested": false,
+  "machine_layout_revalidated": false
+}

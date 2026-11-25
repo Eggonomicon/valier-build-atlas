@@ -1,0 +1,36 @@
+{
+  "id": "A01",
+  "title": "Civic plaza / clear crossing",
+  "kind": "module",
+  "family": "landscape-furniture",
+  "sector": null,
+  "source_model_sha256": "47724ffd895e8bb9b6dc4a7a202f1953596861b490865bec72614f98aa62b90e",
+  "source_positions": 1372,
+  "source_role_counts": {
+    "F": 324,
+    "L": 332,
+    "K": 80,
+    "E": 64,
+    "V": 556,
+    "T": 16
+  },
+  "images": {
+    "isometric": "A01/iso-se.webp",
+    "atmosphere": "A01/atmosphere.webp",
+    "northwest": "A01/iso-nw.webp",
+    "north": "A01/north.webp",
+    "south": "A01/south.webp",
+    "east": "A01/east.webp",
+    "west": "A01/west.webp",
+    "roof": "A01/roof.webp",
+    "street": "A01/street.webp"
+  },
+  "thumbnail": "A01/thumbnail.webp",
+  "visible_faces": {
+    "SE": 2404,
+    "NW": 2404,
+    "street": 2404
+  },
+  "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+  "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+}

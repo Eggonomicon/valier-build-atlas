@@ -1,0 +1,301 @@
+{
+  "schema": "valier-exterior-rle-v1",
+  "revision": "concept-match-v1",
+  "coordinate_convention": "Local northwest origin; +X east, +Z south; civil Y0 = future walkable surface S. World origin, S and rotation unassigned.",
+  "bounds": [
+    0,
+    -1,
+    0,
+    127,
+    24,
+    95
+  ],
+  "dimensions_x_y_z": [
+    128,
+    26,
+    96
+  ],
+  "role_counts": {
+    "B": 7682,
+    "D": 8,
+    "E": 72,
+    "F": 14144,
+    "G": 3450,
+    "K": 2300,
+    "L": 700,
+    "N": 52,
+    "P": 7016,
+    "R": 1728,
+    "T": 48,
+    "V": 898,
+    "W": 8,
+    "f": 22,
+    "s": 12
+  },
+  "id": "SX01",
+  "title": "Street and junction appearance demonstration",
+  "kind": "detached appearance scene",
+  "family": "concept-detail",
+  "site_bounds": null,
+  "source_model": null,
+  "occupied_geometry_unchanged": false,
+  "scope": "New explicit detached architecture/landscape demonstration. Not placed into the civil masterplan. No functional machines or world claims.",
+  "occupied_positions": 38140,
+  "air_positions": 281348,
+  "model_sha256": "01b3731963f79eab917bd40a274da7907e125b642c4b144997d620823d262913",
+  "model": "design/concept-match-v1/models/SX01.json.gz",
+  "schematic": "models/SX01/Valier_SX01_ConceptFinish_GTNH29.schematic",
+  "schematic_sha256": "ce8669003dd0e009bb1fba2aa234e981bc47b77163d4c447f775f72ad6fcad2b",
+  "registry_map": {
+    "minecraft:air": 0,
+    "ExtraUtilities:greenscreen": 1,
+    "ProjRed|Exploration:projectred.exploration.stone": 2,
+    "chisel:concrete": 3,
+    "chisel:nucrete": 4,
+    "minecraft:dirt": 5,
+    "minecraft:glass": 6,
+    "minecraft:glowstone": 7,
+    "minecraft:leaves": 8,
+    "minecraft:log": 9,
+    "minecraft:red_flower": 10,
+    "minecraft:stained_glass": 11,
+    "minecraft:stone_slab": 12,
+    "minecraft:stonebrick": 13
+  },
+  "placed_states": [
+    {
+      "registry_name": "ExtraUtilities:greenscreen",
+      "metadata": 9,
+      "positions": 52,
+      "roles": [
+        "N"
+      ]
+    },
+    {
+      "registry_name": "ProjRed|Exploration:projectred.exploration.stone",
+      "metadata": 4,
+      "positions": 7682,
+      "roles": [
+        "B"
+      ]
+    },
+    {
+      "registry_name": "chisel:concrete",
+      "metadata": 10,
+      "positions": 1728,
+      "roles": [
+        "R"
+      ]
+    },
+    {
+      "registry_name": "chisel:nucrete",
+      "metadata": 7,
+      "positions": 2300,
+      "roles": [
+        "K"
+      ]
+    },
+    {
+      "registry_name": "chisel:nucrete",
+      "metadata": 15,
+      "positions": 7716,
+      "roles": [
+        "L",
+        "P"
+      ]
+    },
+    {
+      "registry_name": "minecraft:dirt",
+      "metadata": 0,
+      "positions": 72,
+      "roles": [
+        "E"
+      ]
+    },
+    {
+      "registry_name": "minecraft:glowstone",
+      "metadata": 0,
+      "positions": 8,
+      "roles": [
+        "W"
+      ]
+    },
+    {
+      "registry_name": "minecraft:leaves",
+      "metadata": 4,
+      "positions": 898,
+      "roles": [
+        "V"
+      ]
+    },
+    {
+      "registry_name": "minecraft:log",
+      "metadata": 0,
+      "positions": 48,
+      "roles": [
+        "T"
+      ]
+    },
+    {
+      "registry_name": "minecraft:red_flower",
+      "metadata": 2,
+      "positions": 22,
+      "roles": [
+        "f"
+      ]
+    },
+    {
+      "registry_name": "minecraft:stained_glass",
+      "metadata": 0,
+      "positions": 8,
+      "roles": [
+        "D"
+      ]
+    },
+    {
+      "registry_name": "minecraft:stained_glass",
+      "metadata": 7,
+      "positions": 3450,
+      "roles": [
+        "G"
+      ]
+    },
+    {
+      "registry_name": "minecraft:stone_slab",
+      "metadata": 0,
+      "positions": 12,
+      "roles": [
+        "s"
+      ]
+    },
+    {
+      "registry_name": "minecraft:stonebrick",
+      "metadata": 0,
+      "positions": 14144,
+      "roles": [
+        "F"
+      ]
+    }
+  ],
+  "inventory_stock": [
+    {
+      "registry_name": "ExtraUtilities:greenscreen",
+      "metadata": 9,
+      "items": 52,
+      "roles": [
+        "N"
+      ]
+    },
+    {
+      "registry_name": "ProjRed|Exploration:projectred.exploration.stone",
+      "metadata": 4,
+      "items": 7682,
+      "roles": [
+        "B"
+      ]
+    },
+    {
+      "registry_name": "chisel:concrete",
+      "metadata": 10,
+      "items": 1728,
+      "roles": [
+        "R"
+      ]
+    },
+    {
+      "registry_name": "chisel:nucrete",
+      "metadata": 7,
+      "items": 2300,
+      "roles": [
+        "K"
+      ]
+    },
+    {
+      "registry_name": "chisel:nucrete",
+      "metadata": 15,
+      "items": 7716,
+      "roles": [
+        "L",
+        "P"
+      ]
+    },
+    {
+      "registry_name": "minecraft:dirt",
+      "metadata": 0,
+      "items": 72,
+      "roles": [
+        "E"
+      ]
+    },
+    {
+      "registry_name": "minecraft:glowstone",
+      "metadata": 0,
+      "items": 8,
+      "roles": [
+        "W"
+      ]
+    },
+    {
+      "registry_name": "minecraft:leaves",
+      "metadata": 0,
+      "items": 898,
+      "roles": [
+        "V"
+      ]
+    },
+    {
+      "registry_name": "minecraft:log",
+      "metadata": 0,
+      "items": 48,
+      "roles": [
+        "T"
+      ]
+    },
+    {
+      "registry_name": "minecraft:red_flower",
+      "metadata": 2,
+      "items": 22,
+      "roles": [
+        "f"
+      ]
+    },
+    {
+      "registry_name": "minecraft:stained_glass",
+      "metadata": 0,
+      "items": 8,
+      "roles": [
+        "D"
+      ]
+    },
+    {
+      "registry_name": "minecraft:stained_glass",
+      "metadata": 7,
+      "items": 3450,
+      "roles": [
+        "G"
+      ]
+    },
+    {
+      "registry_name": "minecraft:stone_slab",
+      "metadata": 0,
+      "items": 12,
+      "roles": [
+        "s"
+      ]
+    },
+    {
+      "registry_name": "minecraft:stonebrick",
+      "metadata": 0,
+      "items": 14144,
+      "roles": [
+        "F"
+      ]
+    }
+  ],
+  "anchor": "NW minimum corner; all WE origins/offsets zero; minimum worldY=S+minimum civilY",
+  "air_policy": "Air is not excavation. -a skips air. Finish variants are complete standalone architectural alternatives, not additive materials pasted on occupied original models.",
+  "entities": 0,
+  "tile_entities": 0,
+  "game_tested": false,
+  "machine_layout_revalidated": false
+}

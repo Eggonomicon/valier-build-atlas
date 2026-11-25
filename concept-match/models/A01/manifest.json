@@ -1,0 +1,171 @@
+{
+  "schema": "valier-exterior-rle-v1",
+  "revision": "concept-match-v1",
+  "coordinate_convention": "Local northwest origin; +X east, +Z south; civil Y0 = future walkable surface S. World origin, S and rotation unassigned.",
+  "bounds": [
+    0,
+    -1,
+    0,
+    23,
+    9,
+    23
+  ],
+  "dimensions_x_y_z": [
+    24,
+    11,
+    24
+  ],
+  "role_counts": {
+    "E": 64,
+    "F": 324,
+    "K": 80,
+    "L": 332,
+    "T": 16,
+    "V": 556
+  },
+  "id": "A01",
+  "title": "Civic plaza / clear crossing",
+  "kind": "module",
+  "family": "landscape-furniture",
+  "site_bounds": null,
+  "source_model": "design/visual-library-v1/models/A01.json.gz",
+  "source_model_sha256": "5eb4505822dfcbe9b9a0674695d5a4779775c0ca37850419bd089d0bc2300fca",
+  "occupied_geometry_unchanged": true,
+  "source_role_counts": {
+    "E": 64,
+    "F": 324,
+    "K": 80,
+    "L": 332,
+    "T": 16,
+    "V": 556
+  },
+  "scope": "Alternate finish on preserved source architecture; no new functional fit or complete concept-geometry claim.",
+  "occupied_positions": 1372,
+  "air_positions": 4964,
+  "model_sha256": "47724ffd895e8bb9b6dc4a7a202f1953596861b490865bec72614f98aa62b90e",
+  "model": "design/concept-match-v1/models/A01.json.gz",
+  "schematic": "models/A01/Valier_A01_ConceptFinish_GTNH29.schematic",
+  "schematic_sha256": "ba10ff43172f40ff260e2d7197534842a1d078125de33cddffd07bf98368bf6d",
+  "registry_map": {
+    "minecraft:air": 0,
+    "ExtraUtilities:greenscreen": 1,
+    "ProjRed|Exploration:projectred.exploration.stone": 2,
+    "chisel:concrete": 3,
+    "chisel:nucrete": 4,
+    "minecraft:dirt": 5,
+    "minecraft:glass": 6,
+    "minecraft:glowstone": 7,
+    "minecraft:leaves": 8,
+    "minecraft:log": 9,
+    "minecraft:red_flower": 10,
+    "minecraft:stained_glass": 11,
+    "minecraft:stone_slab": 12,
+    "minecraft:stonebrick": 13
+  },
+  "placed_states": [
+    {
+      "registry_name": "chisel:nucrete",
+      "metadata": 7,
+      "positions": 80,
+      "roles": [
+        "K"
+      ]
+    },
+    {
+      "registry_name": "chisel:nucrete",
+      "metadata": 15,
+      "positions": 332,
+      "roles": [
+        "L"
+      ]
+    },
+    {
+      "registry_name": "minecraft:dirt",
+      "metadata": 0,
+      "positions": 64,
+      "roles": [
+        "E"
+      ]
+    },
+    {
+      "registry_name": "minecraft:leaves",
+      "metadata": 4,
+      "positions": 556,
+      "roles": [
+        "V"
+      ]
+    },
+    {
+      "registry_name": "minecraft:log",
+      "metadata": 0,
+      "positions": 16,
+      "roles": [
+        "T"
+      ]
+    },
+    {
+      "registry_name": "minecraft:stonebrick",
+      "metadata": 0,
+      "positions": 324,
+      "roles": [
+        "F"
+      ]
+    }
+  ],
+  "inventory_stock": [
+    {
+      "registry_name": "chisel:nucrete",
+      "metadata": 7,
+      "items": 80,
+      "roles": [
+        "K"
+      ]
+    },
+    {
+      "registry_name": "chisel:nucrete",
+      "metadata": 15,
+      "items": 332,
+      "roles": [
+        "L"
+      ]
+    },
+    {
+      "registry_name": "minecraft:dirt",
+      "metadata": 0,
+      "items": 64,
+      "roles": [
+        "E"
+      ]
+    },
+    {
+      "registry_name": "minecraft:leaves",
+      "metadata": 0,
+      "items": 556,
+      "roles": [
+        "V"
+      ]
+    },
+    {
+      "registry_name": "minecraft:log",
+      "metadata": 0,
+      "items": 16,
+      "roles": [
+        "T"
+      ]
+    },
+    {
+      "registry_name": "minecraft:stonebrick",
+      "metadata": 0,
+      "items": 324,
+      "roles": [
+        "F"
+      ]
+    }
+  ],
+  "anchor": "NW minimum corner; all WE origins/offsets zero; minimum worldY=S+minimum civilY",
+  "air_policy": "Air is not excavation. -a skips air. Finish variants are complete standalone architectural alternatives, not additive materials pasted on occupied original models.",
+  "entities": 0,
+  "tile_entities": 0,
+  "game_tested": false,
+  "machine_layout_revalidated": false
+}

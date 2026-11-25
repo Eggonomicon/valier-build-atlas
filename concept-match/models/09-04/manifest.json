@@ -1,0 +1,194 @@
+{
+  "schema": "valier-exterior-rle-v1",
+  "revision": "concept-match-v1",
+  "coordinate_convention": "Local northwest origin; +X east, +Z south; civil Y0 = future walkable surface S. World origin, S and rotation unassigned.",
+  "bounds": [
+    0,
+    -1,
+    0,
+    63,
+    9,
+    63
+  ],
+  "dimensions_x_y_z": [
+    64,
+    11,
+    64
+  ],
+  "role_counts": {
+    "E": 50,
+    "F": 2601,
+    "K": 48,
+    "L": 1623,
+    "N": 16,
+    "T": 8,
+    "V": 314
+  },
+  "id": "09-04",
+  "title": "Future bio",
+  "kind": "plot",
+  "family": "expansion-court",
+  "site_bounds": [
+    310,
+    790,
+    373,
+    853
+  ],
+  "source_model": "design/visual-library-v1/models/09-04.json.gz",
+  "source_model_sha256": "b8040e31e2ef37a568ad69b94bea1353b35a9bdf0bf5d2fec4fc67a049bec8e6",
+  "occupied_geometry_unchanged": true,
+  "source_role_counts": {
+    "E": 50,
+    "F": 2601,
+    "K": 48,
+    "L": 1623,
+    "N": 16,
+    "T": 8,
+    "V": 314
+  },
+  "scope": "Alternate finish on preserved source architecture; no new functional fit or complete concept-geometry claim.",
+  "occupied_positions": 4660,
+  "air_positions": 40396,
+  "model_sha256": "749d64e48a9254b63d406ad281de91045d35769db06bb21d0e730efe4448ce1e",
+  "model": "design/concept-match-v1/models/09-04.json.gz",
+  "schematic": "models/09-04/Valier_09-04_ConceptFinish_GTNH29.schematic",
+  "schematic_sha256": "9906cc92c7a62b22b826cbf6383b1aa0e7919659ff410a22c85eae60045f54ec",
+  "registry_map": {
+    "minecraft:air": 0,
+    "ExtraUtilities:greenscreen": 1,
+    "ProjRed|Exploration:projectred.exploration.stone": 2,
+    "chisel:concrete": 3,
+    "chisel:nucrete": 4,
+    "minecraft:dirt": 5,
+    "minecraft:glass": 6,
+    "minecraft:glowstone": 7,
+    "minecraft:leaves": 8,
+    "minecraft:log": 9,
+    "minecraft:red_flower": 10,
+    "minecraft:stained_glass": 11,
+    "minecraft:stone_slab": 12,
+    "minecraft:stonebrick": 13
+  },
+  "placed_states": [
+    {
+      "registry_name": "ExtraUtilities:greenscreen",
+      "metadata": 9,
+      "positions": 16,
+      "roles": [
+        "N"
+      ]
+    },
+    {
+      "registry_name": "chisel:nucrete",
+      "metadata": 7,
+      "positions": 48,
+      "roles": [
+        "K"
+      ]
+    },
+    {
+      "registry_name": "chisel:nucrete",
+      "metadata": 15,
+      "positions": 1623,
+      "roles": [
+        "L"
+      ]
+    },
+    {
+      "registry_name": "minecraft:dirt",
+      "metadata": 0,
+      "positions": 50,
+      "roles": [
+        "E"
+      ]
+    },
+    {
+      "registry_name": "minecraft:leaves",
+      "metadata": 4,
+      "positions": 314,
+      "roles": [
+        "V"
+      ]
+    },
+    {
+      "registry_name": "minecraft:log",
+      "metadata": 0,
+      "positions": 8,
+      "roles": [
+        "T"
+      ]
+    },
+    {
+      "registry_name": "minecraft:stonebrick",
+      "metadata": 0,
+      "positions": 2601,
+      "roles": [
+        "F"
+      ]
+    }
+  ],
+  "inventory_stock": [
+    {
+      "registry_name": "ExtraUtilities:greenscreen",
+      "metadata": 9,
+      "items": 16,
+      "roles": [
+        "N"
+      ]
+    },
+    {
+      "registry_name": "chisel:nucrete",
+      "metadata": 7,
+      "items": 48,
+      "roles": [
+        "K"
+      ]
+    },
+    {
+      "registry_name": "chisel:nucrete",
+      "metadata": 15,
+      "items": 1623,
+      "roles": [
+        "L"
+      ]
+    },
+    {
+      "registry_name": "minecraft:dirt",
+      "metadata": 0,
+      "items": 50,
+      "roles": [
+        "E"
+      ]
+    },
+    {
+      "registry_name": "minecraft:leaves",
+      "metadata": 0,
+      "items": 314,
+      "roles": [
+        "V"
+      ]
+    },
+    {
+      "registry_name": "minecraft:log",
+      "metadata": 0,
+      "items": 8,
+      "roles": [
+        "T"
+      ]
+    },
+    {
+      "registry_name": "minecraft:stonebrick",
+      "metadata": 0,
+      "items": 2601,
+      "roles": [
+        "F"
+      ]
+    }
+  ],
+  "anchor": "NW minimum corner; all WE origins/offsets zero; minimum worldY=S+minimum civilY",
+  "air_policy": "Air is not excavation. -a skips air. Finish variants are complete standalone architectural alternatives, not additive materials pasted on occupied original models.",
+  "entities": 0,
+  "tile_entities": 0,
+  "game_tested": false,
+  "machine_layout_revalidated": false
+}

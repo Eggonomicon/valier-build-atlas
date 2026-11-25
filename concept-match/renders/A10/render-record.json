@@ -1,0 +1,34 @@
+{
+  "id": "A10",
+  "title": "Open portal and entry gate",
+  "kind": "module",
+  "family": "landscape-furniture",
+  "sector": null,
+  "source_model_sha256": "79c1ebbaa1f28ad5c8151bf1dd0e356471047fa996e240d87868afef0e8755d7",
+  "source_positions": 374,
+  "source_role_counts": {
+    "F": 128,
+    "K": 162,
+    "L": 76,
+    "N": 8
+  },
+  "images": {
+    "isometric": "A10/iso-se.webp",
+    "atmosphere": "A10/atmosphere.webp",
+    "northwest": "A10/iso-nw.webp",
+    "north": "A10/north.webp",
+    "south": "A10/south.webp",
+    "east": "A10/east.webp",
+    "west": "A10/west.webp",
+    "roof": "A10/roof.webp",
+    "street": "A10/street.webp"
+  },
+  "thumbnail": "A10/thumbnail.webp",
+  "visible_faces": {
+    "SE": 318,
+    "NW": 318,
+    "street": 318
+  },
+  "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+  "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+}

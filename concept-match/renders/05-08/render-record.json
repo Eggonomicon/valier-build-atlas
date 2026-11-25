@@ -1,0 +1,39 @@
+{
+  "id": "05-08",
+  "title": "Public garden",
+  "kind": "plot",
+  "family": "garden",
+  "sector": null,
+  "source_model_sha256": "23027aa8801f77d2960917ecaff9601cced7a4e0101f94d39f33657c5aca4a66",
+  "source_positions": 5236,
+  "source_role_counts": {
+    "L": 1645,
+    "F": 2601,
+    "K": 190,
+    "E": 100,
+    "s": 48,
+    "V": 628,
+    "T": 16,
+    "N": 6,
+    "W": 2
+  },
+  "images": {
+    "isometric": "05-08/iso-se.webp",
+    "atmosphere": "05-08/atmosphere.webp",
+    "northwest": "05-08/iso-nw.webp",
+    "north": "05-08/north.webp",
+    "south": "05-08/south.webp",
+    "east": "05-08/east.webp",
+    "west": "05-08/west.webp",
+    "roof": "05-08/roof.webp",
+    "street": "05-08/street.webp"
+  },
+  "thumbnail": "05-08/thumbnail.webp",
+  "visible_faces": {
+    "SE": 6432,
+    "NW": 6432,
+    "street": 6432
+  },
+  "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+  "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+}

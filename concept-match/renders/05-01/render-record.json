@@ -1,0 +1,36 @@
+{
+  "id": "05-01",
+  "title": "Logistics hub",
+  "kind": "plot",
+  "family": "depot",
+  "sector": null,
+  "source_model_sha256": "d2ab38a8262168d74ee99d01dfeb3b0ba0353b2d90b43824bf8305069b2ff4fa",
+  "source_positions": 16016,
+  "source_role_counts": {
+    "F": 4096,
+    "K": 1892,
+    "L": 2636,
+    "B": 6384,
+    "G": 800,
+    "N": 208
+  },
+  "images": {
+    "isometric": "05-01/iso-se.webp",
+    "atmosphere": "05-01/atmosphere.webp",
+    "northwest": "05-01/iso-nw.webp",
+    "north": "05-01/north.webp",
+    "south": "05-01/south.webp",
+    "east": "05-01/east.webp",
+    "west": "05-01/west.webp",
+    "roof": "05-01/roof.webp",
+    "street": "05-01/street.webp"
+  },
+  "thumbnail": "05-01/thumbnail.webp",
+  "visible_faces": {
+    "SE": 16066,
+    "NW": 16066,
+    "street": 16066
+  },
+  "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+  "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+}

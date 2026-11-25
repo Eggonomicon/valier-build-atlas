@@ -1,0 +1,36 @@
+{
+  "id": "03-04",
+  "title": "HV fabrication",
+  "kind": "plot",
+  "family": "production",
+  "sector": null,
+  "source_model_sha256": "85fb036a8a913d90dcb5132d32476f95856dc8a977756024d7605780175062b3",
+  "source_positions": 16824,
+  "source_role_counts": {
+    "F": 4096,
+    "K": 1378,
+    "L": 3084,
+    "B": 7258,
+    "G": 800,
+    "N": 208
+  },
+  "images": {
+    "isometric": "03-04/iso-se.webp",
+    "atmosphere": "03-04/atmosphere.webp",
+    "northwest": "03-04/iso-nw.webp",
+    "north": "03-04/north.webp",
+    "south": "03-04/south.webp",
+    "east": "03-04/east.webp",
+    "west": "03-04/west.webp",
+    "roof": "03-04/roof.webp",
+    "street": "03-04/street.webp"
+  },
+  "thumbnail": "03-04/thumbnail.webp",
+  "visible_faces": {
+    "SE": 16772,
+    "NW": 16772,
+    "street": 16772
+  },
+  "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+  "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+}

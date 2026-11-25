@@ -1,0 +1,36 @@
+{
+  "id": "A06",
+  "title": "Bench and planter",
+  "kind": "module",
+  "family": "landscape-furniture",
+  "sector": null,
+  "source_model_sha256": "d315d3d1769ac34f1ff08c9fe6e44148851e465efb5f1e75139978070ddb44a8",
+  "source_positions": 180,
+  "source_role_counts": {
+    "F": 64,
+    "K": 28,
+    "E": 18,
+    "s": 12,
+    "L": 22,
+    "V": 36
+  },
+  "images": {
+    "isometric": "A06/iso-se.webp",
+    "atmosphere": "A06/atmosphere.webp",
+    "northwest": "A06/iso-nw.webp",
+    "north": "A06/north.webp",
+    "south": "A06/south.webp",
+    "east": "A06/east.webp",
+    "west": "A06/west.webp",
+    "roof": "A06/roof.webp",
+    "street": "A06/street.webp"
+  },
+  "thumbnail": "A06/thumbnail.webp",
+  "visible_faces": {
+    "SE": 235,
+    "NW": 235,
+    "street": 235
+  },
+  "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+  "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+}

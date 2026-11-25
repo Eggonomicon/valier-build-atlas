@@ -1,0 +1,36 @@
+{
+  "id": "01-03",
+  "title": "Water works",
+  "kind": "plot",
+  "family": "production",
+  "sector": null,
+  "source_model_sha256": "fc7d05ade2d155d74c8b3b40f715746e8ed4573403f47859c667ae484fbb425e",
+  "source_positions": 17960,
+  "source_role_counts": {
+    "F": 4096,
+    "K": 1602,
+    "L": 3212,
+    "B": 8042,
+    "G": 800,
+    "N": 208
+  },
+  "images": {
+    "isometric": "01-03/iso-se.webp",
+    "atmosphere": "01-03/atmosphere.webp",
+    "northwest": "01-03/iso-nw.webp",
+    "north": "01-03/north.webp",
+    "south": "01-03/south.webp",
+    "east": "01-03/east.webp",
+    "west": "01-03/west.webp",
+    "roof": "01-03/roof.webp",
+    "street": "01-03/street.webp"
+  },
+  "thumbnail": "01-03/thumbnail.webp",
+  "visible_faces": {
+    "SE": 17876,
+    "NW": 17876,
+    "street": 17876
+  },
+  "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+  "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+}

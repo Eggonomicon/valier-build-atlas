@@ -1,0 +1,110 @@
+{
+  "schema": "valier-exterior-rle-v1",
+  "revision": "concept-match-v1",
+  "coordinate_convention": "Local northwest origin; +X east, +Z south; civil Y0 = future walkable surface S. World origin, S and rotation unassigned.",
+  "bounds": [
+    0,
+    -10,
+    0,
+    17,
+    0,
+    25
+  ],
+  "dimensions_x_y_z": [
+    18,
+    11,
+    26
+  ],
+  "role_counts": {
+    "F": 1964,
+    "S": 27,
+    "s": 27
+  },
+  "id": "R04",
+  "title": "M11 stair access / exact civil crop",
+  "kind": "module",
+  "family": "civil-source",
+  "site_bounds": null,
+  "source_model": "design/visual-library-v1/models/R04.json.gz",
+  "source_model_sha256": "efd572831781ab31eb0538f38fb89db3d9f1f01ff54f168bf60f45e4cc7d2602",
+  "occupied_geometry_unchanged": true,
+  "source_role_counts": {
+    "F": 1964,
+    "S": 27,
+    "s": 27
+  },
+  "scope": "Alternate finish on preserved source architecture; no new functional fit or complete concept-geometry claim.",
+  "occupied_positions": 2018,
+  "air_positions": 3130,
+  "model_sha256": "56f8967a39ffc4ebc43a9515ce2706c95f158e1f6c104fb2f0b2b49690ca3709",
+  "model": "design/concept-match-v1/models/R04.json.gz",
+  "schematic": "models/R04/Valier_R04_ConceptFinish_GTNH29.schematic",
+  "schematic_sha256": "26ebfdb93429c888a4a0eb20986e3f6b7085d342a625a269537bc8a8e441d047",
+  "registry_map": {
+    "minecraft:air": 0,
+    "ExtraUtilities:greenscreen": 1,
+    "ProjRed|Exploration:projectred.exploration.stone": 2,
+    "chisel:concrete": 3,
+    "chisel:nucrete": 4,
+    "minecraft:dirt": 5,
+    "minecraft:glass": 6,
+    "minecraft:glowstone": 7,
+    "minecraft:leaves": 8,
+    "minecraft:log": 9,
+    "minecraft:red_flower": 10,
+    "minecraft:stained_glass": 11,
+    "minecraft:stone_slab": 12,
+    "minecraft:stonebrick": 13
+  },
+  "placed_states": [
+    {
+      "registry_name": "minecraft:stone_slab",
+      "metadata": 0,
+      "positions": 27,
+      "roles": [
+        "s"
+      ]
+    },
+    {
+      "registry_name": "minecraft:stone_slab",
+      "metadata": 8,
+      "positions": 27,
+      "roles": [
+        "S"
+      ]
+    },
+    {
+      "registry_name": "minecraft:stonebrick",
+      "metadata": 0,
+      "positions": 1964,
+      "roles": [
+        "F"
+      ]
+    }
+  ],
+  "inventory_stock": [
+    {
+      "registry_name": "minecraft:stone_slab",
+      "metadata": 0,
+      "items": 54,
+      "roles": [
+        "S",
+        "s"
+      ]
+    },
+    {
+      "registry_name": "minecraft:stonebrick",
+      "metadata": 0,
+      "items": 1964,
+      "roles": [
+        "F"
+      ]
+    }
+  ],
+  "anchor": "NW minimum corner; all WE origins/offsets zero; minimum worldY=S+minimum civilY",
+  "air_policy": "Air is not excavation. -a skips air. Finish variants are complete standalone architectural alternatives, not additive materials pasted on occupied original models.",
+  "entities": 0,
+  "tile_entities": 0,
+  "game_tested": false,
+  "machine_layout_revalidated": false
+}

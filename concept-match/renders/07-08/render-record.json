@@ -1,0 +1,37 @@
+{
+  "id": "07-08",
+  "title": "Fusion reserve",
+  "kind": "plot",
+  "family": "expansion-court",
+  "sector": null,
+  "source_model_sha256": "b9cdd32e04597bf439219febd0884161242cc13bd35e584b99e80e6656fc6673",
+  "source_positions": 4660,
+  "source_role_counts": {
+    "L": 1623,
+    "F": 2601,
+    "K": 48,
+    "E": 50,
+    "V": 314,
+    "T": 8,
+    "N": 16
+  },
+  "images": {
+    "isometric": "07-08/iso-se.webp",
+    "atmosphere": "07-08/atmosphere.webp",
+    "northwest": "07-08/iso-nw.webp",
+    "north": "07-08/north.webp",
+    "south": "07-08/south.webp",
+    "east": "07-08/east.webp",
+    "west": "07-08/west.webp",
+    "roof": "07-08/roof.webp",
+    "street": "07-08/street.webp"
+  },
+  "thumbnail": "07-08/thumbnail.webp",
+  "visible_faces": {
+    "SE": 5326,
+    "NW": 5326,
+    "street": 5326
+  },
+  "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+  "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+}

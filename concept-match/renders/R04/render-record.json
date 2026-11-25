@@ -1,0 +1,33 @@
+{
+  "id": "R04",
+  "title": "M11 stair access / exact civil crop",
+  "kind": "module",
+  "family": "civil-source",
+  "sector": null,
+  "source_model_sha256": "56f8967a39ffc4ebc43a9515ce2706c95f158e1f6c104fb2f0b2b49690ca3709",
+  "source_positions": 2018,
+  "source_role_counts": {
+    "F": 1964,
+    "S": 27,
+    "s": 27
+  },
+  "images": {
+    "isometric": "R04/iso-se.webp",
+    "atmosphere": "R04/atmosphere.webp",
+    "northwest": "R04/iso-nw.webp",
+    "north": "R04/north.webp",
+    "south": "R04/south.webp",
+    "east": "R04/east.webp",
+    "west": "R04/west.webp",
+    "roof": "R04/roof.webp",
+    "street": "R04/street.webp"
+  },
+  "thumbnail": "R04/thumbnail.webp",
+  "visible_faces": {
+    "SE": 1018,
+    "NW": 981,
+    "street": 1018
+  },
+  "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+  "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+}

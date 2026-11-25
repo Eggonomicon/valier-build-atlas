@@ -1,0 +1,13 @@
+{
+  "id": "07-02",
+  "source_model_sha256": "2a1f3229f63e0bb4a59048bd9f3b2c383fe7e0e9646c76ebc65b8d4239b97a3a",
+  "palette_sha256": "0962847b6d26b588164292c3af290f9c4738516640b7cdfb368a6943cda5b2f1",
+  "source_positions": 17096,
+  "shown_positions": 17096,
+  "voxel_faces": 50317,
+  "renderer": "Blender 5.1.2 Cycles CPU",
+  "samples": 16,
+  "lighting": "Illustrative daylight, AgX tonemapping and emitter surface strength. No game shader or colored-light equivalence claimed. Studio ground is not a block.",
+  "display_selection": "Above-ground civilY>=-1; full downloadable models retain all cells.",
+  "game_screenshot": false
+}

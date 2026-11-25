@@ -1,0 +1,36 @@
+{
+  "id": "07-01",
+  "title": "Crop processing",
+  "kind": "plot",
+  "family": "production",
+  "sector": null,
+  "source_model_sha256": "e6e25f48713a5437323f92aad5ed321e966fd14450fcc31a6ab725c89c74403d",
+  "source_positions": 16824,
+  "source_role_counts": {
+    "F": 4096,
+    "K": 1378,
+    "L": 3084,
+    "B": 7258,
+    "G": 800,
+    "N": 208
+  },
+  "images": {
+    "isometric": "07-01/iso-se.webp",
+    "atmosphere": "07-01/atmosphere.webp",
+    "northwest": "07-01/iso-nw.webp",
+    "north": "07-01/north.webp",
+    "south": "07-01/south.webp",
+    "east": "07-01/east.webp",
+    "west": "07-01/west.webp",
+    "roof": "07-01/roof.webp",
+    "street": "07-01/street.webp"
+  },
+  "thumbnail": "07-01/thumbnail.webp",
+  "visible_faces": {
+    "SE": 16772,
+    "NW": 16772,
+    "street": 16772
+  },
+  "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+  "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+}

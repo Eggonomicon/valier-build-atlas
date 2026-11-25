@@ -1,0 +1,647 @@
+{
+  "revision": "concept-match-v1",
+  "roles": {
+    "B": {
+      "role": "B",
+      "display_name": "Basalt brick - charcoal walls",
+      "registry_name": "ProjRed|Exploration:projectred.exploration.stone",
+      "placed_metadata": 4,
+      "inventory_metadata": 4,
+      "faces": {
+        "side": {
+          "file": "textures/B-raw.png",
+          "display_file": "textures/B-display.png",
+          "member_sha256": "252d389b87659e226d6f09d35bb6c0b3577ac4bfe047e44346c88d5acd11660f",
+          "source_artifact": "ProjRed-4.12.50-GTNH.jar",
+          "member": "assets/projectred/textures/blocks/world/basalt_brick.png"
+        },
+        "top": {
+          "file": "textures/B-raw.png",
+          "display_file": "textures/B-display.png",
+          "member_sha256": "252d389b87659e226d6f09d35bb6c0b3577ac4bfe047e44346c88d5acd11660f",
+          "source_artifact": "ProjRed-4.12.50-GTNH.jar",
+          "member": "assets/projectred/textures/blocks/world/basalt_brick.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "fullbright": false,
+      "emitted_light": 0,
+      "geometry": "full cube",
+      "binding_status": "Installed identity/metadata/assets checked; runtime recipe and game test pending",
+      "evidence": "verification/concept-match-v1/PALETTE_AND_LIGHT_EVIDENCE.md; verification/concept-match-v1/texture-evidence.json"
+    },
+    "K": {
+      "role": "K",
+      "display_name": "Dark concrete tiles",
+      "registry_name": "chisel:nucrete",
+      "placed_metadata": 7,
+      "inventory_metadata": 7,
+      "faces": {
+        "side": {
+          "file": "textures/K-raw.png",
+          "display_file": "textures/K-display.png",
+          "member_sha256": "925b7f1e2218e7c33292997c936aabaf997a2d7dd527d9fe618b23cec2e1fded",
+          "source_artifact": "chisel-2.17.34-GTNH.jar",
+          "member": "assets/chisel/textures/blocks/nucrete/darktiles.png"
+        },
+        "top": {
+          "file": "textures/K-raw.png",
+          "display_file": "textures/K-display.png",
+          "member_sha256": "925b7f1e2218e7c33292997c936aabaf997a2d7dd527d9fe618b23cec2e1fded",
+          "source_artifact": "chisel-2.17.34-GTNH.jar",
+          "member": "assets/chisel/textures/blocks/nucrete/darktiles.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "fullbright": false,
+      "emitted_light": 0,
+      "geometry": "full cube",
+      "binding_status": "Installed identity/metadata/assets checked; runtime recipe and game test pending",
+      "evidence": "verification/concept-match-v1/PALETTE_AND_LIGHT_EVIDENCE.md; verification/concept-match-v1/texture-evidence.json"
+    },
+    "L": {
+      "role": "L",
+      "display_name": "Light concrete tiles",
+      "registry_name": "chisel:nucrete",
+      "placed_metadata": 15,
+      "inventory_metadata": 15,
+      "faces": {
+        "side": {
+          "file": "textures/L-raw.png",
+          "display_file": "textures/L-display.png",
+          "member_sha256": "8305a791492367f4ae8f6e3f744b16b339a5ad4649bc2fa91eeffe72bcb7f643",
+          "source_artifact": "chisel-2.17.34-GTNH.jar",
+          "member": "assets/chisel/textures/blocks/nucrete/lighttiles.png"
+        },
+        "top": {
+          "file": "textures/L-raw.png",
+          "display_file": "textures/L-display.png",
+          "member_sha256": "8305a791492367f4ae8f6e3f744b16b339a5ad4649bc2fa91eeffe72bcb7f643",
+          "source_artifact": "chisel-2.17.34-GTNH.jar",
+          "member": "assets/chisel/textures/blocks/nucrete/lighttiles.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "fullbright": false,
+      "emitted_light": 0,
+      "geometry": "full cube",
+      "binding_status": "Installed identity/metadata/assets checked; runtime recipe and game test pending",
+      "evidence": "verification/concept-match-v1/PALETTE_AND_LIGHT_EVIDENCE.md; verification/concept-match-v1/texture-evidence.json"
+    },
+    "N": {
+      "role": "N",
+      "display_name": "Cyan Lapis Caelestis",
+      "registry_name": "ExtraUtilities:greenscreen",
+      "placed_metadata": 9,
+      "inventory_metadata": 9,
+      "faces": {
+        "side": {
+          "file": "textures/N-raw.png",
+          "display_file": "textures/N-display.png",
+          "member_sha256": "b38d08009310843632aba1768eaab876a9fffd07b0c53bc2647a4c228233c5c2",
+          "source_artifact": "extrautilities-1.2.12.jar",
+          "member": "assets/extrautils/textures/blocks/greenscreen.png"
+        },
+        "top": {
+          "file": "textures/N-raw.png",
+          "display_file": "textures/N-display.png",
+          "member_sha256": "b38d08009310843632aba1768eaab876a9fffd07b0c53bc2647a4c228233c5c2",
+          "source_artifact": "extrautilities-1.2.12.jar",
+          "member": "assets/extrautils/textures/blocks/greenscreen.png"
+        }
+      },
+      "tint_rgb": [
+        0,
+        255,
+        255
+      ],
+      "fullbright": true,
+      "emitted_light": 10,
+      "geometry": "full cube",
+      "binding_status": "Installed identity/metadata/assets checked; runtime recipe and game test pending",
+      "evidence": "verification/concept-match-v1/PALETTE_AND_LIGHT_EVIDENCE.md; verification/concept-match-v1/texture-evidence.json"
+    },
+    "W": {
+      "role": "W",
+      "display_name": "Warm lamp diffuser material",
+      "registry_name": "minecraft:glowstone",
+      "placed_metadata": 0,
+      "inventory_metadata": 0,
+      "faces": {
+        "side": {
+          "file": "textures/W-raw.png",
+          "display_file": "textures/W-display.png",
+          "member_sha256": "d6b0cb68ba48957b0d2172cd8f242a9df1d8627c3aea0c8d23b8f0edde4d17e2",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "member": "assets/minecraft/textures/blocks/glowstone.png"
+        },
+        "top": {
+          "file": "textures/W-raw.png",
+          "display_file": "textures/W-display.png",
+          "member_sha256": "d6b0cb68ba48957b0d2172cd8f242a9df1d8627c3aea0c8d23b8f0edde4d17e2",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "member": "assets/minecraft/textures/blocks/glowstone.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "fullbright": false,
+      "emitted_light": 15,
+      "geometry": "full cube",
+      "binding_status": "Installed identity/metadata/assets checked; runtime recipe and game test pending",
+      "evidence": "verification/concept-match-v1/PALETTE_AND_LIGHT_EVIDENCE.md; verification/concept-match-v1/texture-evidence.json"
+    },
+    "G": {
+      "role": "G",
+      "display_name": "Gray stained glass",
+      "registry_name": "minecraft:stained_glass",
+      "placed_metadata": 7,
+      "inventory_metadata": 7,
+      "faces": {
+        "side": {
+          "file": "textures/G-raw.png",
+          "display_file": "textures/G-display.png",
+          "member_sha256": "0fb52d041107cdaa3ece3652b258419ae5b6217b465ec37d2a5ee8741112d390",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "member": "assets/minecraft/textures/blocks/glass_gray.png"
+        },
+        "top": {
+          "file": "textures/G-raw.png",
+          "display_file": "textures/G-display.png",
+          "member_sha256": "0fb52d041107cdaa3ece3652b258419ae5b6217b465ec37d2a5ee8741112d390",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "member": "assets/minecraft/textures/blocks/glass_gray.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "fullbright": false,
+      "emitted_light": 0,
+      "geometry": "full cube",
+      "binding_status": "Installed identity/metadata/assets checked; runtime recipe and game test pending",
+      "evidence": "verification/concept-match-v1/PALETTE_AND_LIGHT_EVIDENCE.md; verification/concept-match-v1/texture-evidence.json"
+    },
+    "F": {
+      "role": "F",
+      "display_name": "Stone bricks",
+      "registry_name": "minecraft:stonebrick",
+      "placed_metadata": 0,
+      "inventory_metadata": 0,
+      "faces": {
+        "side": {
+          "file": "textures/F-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/stonebrick.png",
+          "member_sha256": "4b35ff37f7b028265ec20bb4540e655cc5b355f399fcec202bd7b277742c9536",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/F-top-display.png"
+        },
+        "top": {
+          "file": "textures/F-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/stonebrick.png",
+          "member_sha256": "4b35ff37f7b028265ec20bb4540e655cc5b355f399fcec202bd7b277742c9536",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/F-top-display.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "tint_evidence": "No color multiplier",
+      "fullbright": false,
+      "geometry": "full cube",
+      "binding_status": "Inherited installed palette identity; target runtime recipe/game behavior not checked"
+    },
+    "s": {
+      "role": "s",
+      "display_name": "Stone slab, bottom",
+      "registry_name": "minecraft:stone_slab",
+      "placed_metadata": 0,
+      "inventory_metadata": 0,
+      "faces": {
+        "side": {
+          "file": "textures/slab-bottom-side-wall.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/stone_slab_side.png",
+          "member_sha256": "5e701b44f2a06fd324be2e4ec56f8b3b1b30fd7e243a032ebb3db5998d402357",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/slab-bottom-side-display.png"
+        },
+        "top": {
+          "file": "textures/slab-bottom-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/stone_slab_top.png",
+          "member_sha256": "65e8a0b1b2df9baa0ed6b34381d7298e60b4d6ff6fdf39bb612edf1ec565c597",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/slab-bottom-top-display.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "tint_evidence": "No color multiplier",
+      "fullbright": false,
+      "geometry": "bottom half slab",
+      "binding_status": "Inherited installed palette identity; target runtime recipe/game behavior not checked"
+    },
+    "S": {
+      "role": "S",
+      "display_name": "Stone slab, top",
+      "registry_name": "minecraft:stone_slab",
+      "placed_metadata": 8,
+      "inventory_metadata": 0,
+      "faces": {
+        "side": {
+          "file": "textures/slab-top-side-wall.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/stone_slab_side.png",
+          "member_sha256": "5e701b44f2a06fd324be2e4ec56f8b3b1b30fd7e243a032ebb3db5998d402357",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/slab-top-side-display.png"
+        },
+        "top": {
+          "file": "textures/slab-top-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/stone_slab_top.png",
+          "member_sha256": "65e8a0b1b2df9baa0ed6b34381d7298e60b4d6ff6fdf39bb612edf1ec565c597",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/slab-top-top-display.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "tint_evidence": "No color multiplier",
+      "fullbright": false,
+      "geometry": "top half slab",
+      "binding_status": "Inherited installed palette identity; target runtime recipe/game behavior not checked"
+    },
+    "E": {
+      "role": "E",
+      "display_name": "Dirt / planting-bed infill",
+      "registry_name": "minecraft:dirt",
+      "placed_metadata": 0,
+      "inventory_metadata": 0,
+      "faces": {
+        "side": {
+          "file": "textures/E-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/dirt.png",
+          "member_sha256": "fb0450253248276e0b8d653d5a4d21c59763cbf775c0e048469ff500afaaef68",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/E-top-display.png"
+        },
+        "top": {
+          "file": "textures/E-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/dirt.png",
+          "member_sha256": "fb0450253248276e0b8d653d5a4d21c59763cbf775c0e048469ff500afaaef68",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/E-top-display.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "tint_evidence": "No color multiplier",
+      "fullbright": false,
+      "geometry": "full cube",
+      "binding_status": "New proposed role binding; installed vanilla identity/meta inspected"
+    },
+    "T": {
+      "role": "T",
+      "display_name": "Oak log / vertical decorative trunk",
+      "registry_name": "minecraft:log",
+      "placed_metadata": 0,
+      "inventory_metadata": 0,
+      "faces": {
+        "side": {
+          "file": "textures/T-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/log_oak.png",
+          "member_sha256": "6f24bf4e31b5f91d63da2e1543c1beafe8086d6a594d82abd834148c62670c21",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/T-side-display.png"
+        },
+        "top": {
+          "file": "textures/T-end-grain.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/log_oak_top.png",
+          "member_sha256": "f9045998a74062efaa5dbc3da828378198749b97163aef468ee63743c28229b4",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/T-top-display.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "tint_evidence": "No color multiplier",
+      "fullbright": false,
+      "geometry": "full cube",
+      "binding_status": "New proposed role binding; installed vanilla identity/meta inspected"
+    },
+    "V": {
+      "role": "V",
+      "display_name": "Oak leaves / player-placed persistent state",
+      "registry_name": "minecraft:leaves",
+      "placed_metadata": 4,
+      "inventory_metadata": 0,
+      "faces": {
+        "side": {
+          "file": "textures/V-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/leaves_oak.png",
+          "member_sha256": "50cc5b0dc5f0f361391ce3891ae8d601f330e86f03433bc51933b14a8f4af4be",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/V-top-display.png"
+        },
+        "top": {
+          "file": "textures/V-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/leaves_oak.png",
+          "member_sha256": "50cc5b0dc5f0f361391ce3891ae8d601f330e86f03433bc51933b14a8f4af4be",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/V-top-display.png"
+        }
+      },
+      "tint_rgb": [
+        72,
+        181,
+        24
+      ],
+      "tint_evidence": "Installed vanilla BlockLeaves.iâ†’ColorizerFoliage.c=4764952 (#48B518), default inventory tint; world biome unset",
+      "fullbright": false,
+      "geometry": "full cube",
+      "binding_status": "New proposed role binding; installed vanilla identity/meta inspected"
+    },
+    "Q": {
+      "role": "Q",
+      "display_name": "Glass / dry ornamental basin fill",
+      "registry_name": "minecraft:glass",
+      "placed_metadata": 0,
+      "inventory_metadata": 0,
+      "faces": {
+        "side": {
+          "file": "textures/Q-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/glass.png",
+          "member_sha256": "47e6c40346af11ed7d973e5c0b581d3ac40ebc88c9b304f0e903477055d3dc09",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/Q-top-display.png"
+        },
+        "top": {
+          "file": "textures/Q-side.png",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "source_artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+          "member": "assets/minecraft/textures/blocks/glass.png",
+          "member_sha256": "47e6c40346af11ed7d973e5c0b581d3ac40ebc88c9b304f0e903477055d3dc09",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/Q-top-display.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "tint_evidence": "No color multiplier",
+      "fullbright": false,
+      "geometry": "full cube",
+      "binding_status": "New dry-finish role binding to existing verified glass identity"
+    },
+    "P": {
+      "role": "P",
+      "display_name": "Light concrete tiles",
+      "registry_name": "chisel:nucrete",
+      "placed_metadata": 15,
+      "inventory_metadata": 15,
+      "faces": {
+        "side": {
+          "file": "textures/P-raw.png",
+          "display_file": "textures/P-display.png",
+          "member_sha256": "8305a791492367f4ae8f6e3f744b16b339a5ad4649bc2fa91eeffe72bcb7f643",
+          "source_artifact": "chisel-2.17.34-GTNH.jar",
+          "member": "assets/chisel/textures/blocks/nucrete/lighttiles.png"
+        },
+        "top": {
+          "file": "textures/P-raw.png",
+          "display_file": "textures/P-display.png",
+          "member_sha256": "8305a791492367f4ae8f6e3f744b16b339a5ad4649bc2fa91eeffe72bcb7f643",
+          "source_artifact": "chisel-2.17.34-GTNH.jar",
+          "member": "assets/chisel/textures/blocks/nucrete/lighttiles.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "fullbright": false,
+      "emitted_light": 0,
+      "geometry": "full cube",
+      "binding_status": "Installed identity/metadata/assets checked; runtime recipe and game test pending",
+      "evidence": "verification/concept-match-v1/PALETTE_AND_LIGHT_EVIDENCE.md; verification/concept-match-v1/texture-evidence.json"
+    },
+    "R": {
+      "role": "R",
+      "display_name": "Asphalt road surface",
+      "registry_name": "chisel:concrete",
+      "placed_metadata": 10,
+      "inventory_metadata": 10,
+      "faces": {
+        "side": {
+          "file": "textures/R-raw.png",
+          "display_file": "textures/R-display.png",
+          "member_sha256": "4e3794d7f91d8b23f02503096ff8c0d713a1c6f191e274abadd45a618e1211ab",
+          "source_artifact": "chisel-2.17.34-GTNH.jar",
+          "member": "assets/chisel/textures/blocks/concrete/asphalt.png"
+        },
+        "top": {
+          "file": "textures/R-raw.png",
+          "display_file": "textures/R-display.png",
+          "member_sha256": "4e3794d7f91d8b23f02503096ff8c0d713a1c6f191e274abadd45a618e1211ab",
+          "source_artifact": "chisel-2.17.34-GTNH.jar",
+          "member": "assets/chisel/textures/blocks/concrete/asphalt.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "fullbright": false,
+      "emitted_light": 0,
+      "geometry": "full cube",
+      "binding_status": "Installed identity/metadata/assets checked; runtime recipe and game test pending",
+      "evidence": "verification/concept-match-v1/PALETTE_AND_LIGHT_EVIDENCE.md; verification/concept-match-v1/texture-evidence.json"
+    },
+    "D": {
+      "role": "D",
+      "display_name": "White stained-glass diffuser",
+      "registry_name": "minecraft:stained_glass",
+      "placed_metadata": 0,
+      "inventory_metadata": 0,
+      "faces": {
+        "side": {
+          "file": "textures/D-raw.png",
+          "display_file": "textures/D-display.png",
+          "member_sha256": "bc5cb68b4642513582ea40650038db0f0e0a84284fff26ee115bc21a132a9e8e",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "member": "assets/minecraft/textures/blocks/glass_white.png"
+        },
+        "top": {
+          "file": "textures/D-raw.png",
+          "display_file": "textures/D-display.png",
+          "member_sha256": "bc5cb68b4642513582ea40650038db0f0e0a84284fff26ee115bc21a132a9e8e",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "member": "assets/minecraft/textures/blocks/glass_white.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "fullbright": false,
+      "emitted_light": 0,
+      "geometry": "full cube",
+      "binding_status": "Installed identity/metadata/assets checked; runtime recipe and game test pending",
+      "evidence": "verification/concept-match-v1/PALETTE_AND_LIGHT_EVIDENCE.md; verification/concept-match-v1/texture-evidence.json"
+    },
+    "f": {
+      "role": "f",
+      "display_name": "Allium - crossed plant",
+      "registry_name": "minecraft:red_flower",
+      "placed_metadata": 2,
+      "inventory_metadata": 2,
+      "faces": {
+        "side": {
+          "file": "textures/f-raw.png",
+          "display_file": "textures/f-display.png",
+          "member_sha256": "68316f7f69fc3245e53f437289eb66e5e8cd6a4540086fee4ba13ff1323ffac0",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "member": "assets/minecraft/textures/blocks/flower_allium.png"
+        },
+        "top": {
+          "file": "textures/f-raw.png",
+          "display_file": "textures/f-display.png",
+          "member_sha256": "68316f7f69fc3245e53f437289eb66e5e8cd6a4540086fee4ba13ff1323ffac0",
+          "source_artifact": "minecraft-1.7.10-client.jar",
+          "member": "assets/minecraft/textures/blocks/flower_allium.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "fullbright": false,
+      "emitted_light": 0,
+      "geometry": "crossed plant",
+      "binding_status": "Installed identity/metadata/assets checked; runtime recipe and game test pending",
+      "evidence": "verification/concept-match-v1/PALETTE_AND_LIGHT_EVIDENCE.md; verification/concept-match-v1/texture-evidence.json"
+    }
+  },
+  "coordinate_convention": "Local northwest origin; +X east, +Z south; civil Y0 = future walkable surface S. World origin, S and rotation unassigned.",
+  "method": "Exact installed assets, revised finish bindings; prior palette and outputs preserved.",
+  "game_tested": false,
+  "render_limits": "Offline presentation lighting; no Minecraft shader, biome, colored light or spawn-safety certification."
+}

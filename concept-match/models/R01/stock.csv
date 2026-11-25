@@ -1,0 +1,5 @@
+registry_name,inventory_metadata,items,stacks64,loose,roles
+ExtraUtilities:greenscreen,9,4,0,4,N
+chisel:concrete,10,384,6,0,R
+chisel:nucrete,15,188,2,60,P
+minecraft:stonebrick,0,1824,28,32,F

@@ -1,0 +1,60 @@
+{
+  "revision": "concept-match-v1",
+  "beauty": {
+    "01-01": "beauty/01-01.webp",
+    "01-05": "beauty/01-05.webp",
+    "02-03": "beauty/02-03.webp",
+    "03-03": "beauty/03-03.webp",
+    "05-05": "beauty/05-05.webp",
+    "07-02": "beauty/07-02.webp",
+    "SX01-overview": "beauty/SX01-overview.webp",
+    "SX01": "beauty/SX01.webp",
+    "SX02": "beauty/SX02.webp"
+  },
+  "boards": [
+    {
+      "title": "Streets and junctions \u2014 revised real blocks",
+      "url": "boards/streets.webp",
+      "note": "SX01 is a new detached appearance scene. R01/R02 are separate optional finish variants; none is silently merged into the civil masterplan."
+    },
+    {
+      "title": "Plazas, gardens and forecourts \u2014 revised real blocks",
+      "url": "boards/public-space.webp",
+      "note": "SX02, A03 and A04 are detached appearance studies with matching models/exports. The basin is dry glass, not simulated water."
+    },
+    {
+      "title": "Facade families \u2014 revised real blocks",
+      "url": "boards/facade-families.webp",
+      "note": "Six existing coordinate models use the revised material profile. Massing is preserved; no exact reproduction of AI shapes, signs or extra landscaping is claimed."
+    }
+  ],
+  "palette_comparison": "boards/palette-before-after.webp",
+  "renderer_records": {
+    "01-01": "beauty/01-01-record.json",
+    "01-05": "beauty/01-05-record.json",
+    "02-03": "beauty/02-03-record.json",
+    "03-03": "beauty/03-03-record.json",
+    "05-05": "beauty/05-05-record.json",
+    "07-02": "beauty/07-02-record.json",
+    "SX01-overview": "beauty/SX01-overview-record.json",
+    "SX01": "beauty/SX01-record.json",
+    "SX02": "beauty/SX02-record.json"
+  },
+  "lighting_status": "Illustrative renderer only; actual emitted light statically verified separately.",
+  "source_architecture_unchanged": 96,
+  "new_detached_scenes": 2,
+  "source_screenshots": [
+    {
+      "file": "codex-clipboard-14d78385-ed8e-41fa-acbf-f34458d8dc83.png",
+      "sha256": "7644a2918541e27d10e6ac72023e39e19a182924feb587ae2fa1d2e0bc06275a"
+    },
+    {
+      "file": "codex-clipboard-1c11f61c-2036-465e-a3d0-92b18455b196.png",
+      "sha256": "ff5fdfabbb88057697e84f3af340d228eccbf0936e181ab87e4aaa00cbb0202c"
+    },
+    {
+      "file": "codex-clipboard-ddf12976-8e93-4408-9c44-2a39bf22e596.png",
+      "sha256": "927de08c047f108e984b81941df44bf5579e06ce434ce4df27815e9ece4360cf"
+    }
+  ]
+}

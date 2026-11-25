@@ -1,0 +1,40 @@
+{
+  "id": "05-05",
+  "title": "HQ + ceremonial plaza",
+  "kind": "plot",
+  "family": "headquarters",
+  "sector": null,
+  "source_model_sha256": "282525d299f38686cf21d3688fcf6b9f0a9eb3502d91598eea43151c57c8ad72",
+  "source_positions": 19946,
+  "source_role_counts": {
+    "F": 3803,
+    "L": 4472,
+    "K": 194,
+    "B": 8745,
+    "s": 12,
+    "E": 50,
+    "V": 314,
+    "T": 8,
+    "N": 97,
+    "G": 2251
+  },
+  "images": {
+    "isometric": "05-05/iso-se.webp",
+    "atmosphere": "05-05/atmosphere.webp",
+    "northwest": "05-05/iso-nw.webp",
+    "north": "05-05/north.webp",
+    "south": "05-05/south.webp",
+    "east": "05-05/east.webp",
+    "west": "05-05/west.webp",
+    "roof": "05-05/roof.webp",
+    "street": "05-05/street.webp"
+  },
+  "thumbnail": "05-05/thumbnail.webp",
+  "visible_faces": {
+    "SE": 19795,
+    "NW": 19803,
+    "street": 19795
+  },
+  "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+  "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+}

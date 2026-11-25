@@ -1,0 +1,36 @@
+{
+  "id": "01-08",
+  "title": "Materials laboratory",
+  "kind": "plot",
+  "family": "laboratory",
+  "sector": null,
+  "source_model_sha256": "411fe46cdf5f4dc4ad63c4a09bff301020c85ecd16103d39c8c6580210fc5298",
+  "source_positions": 18505,
+  "source_role_counts": {
+    "F": 4096,
+    "K": 1214,
+    "L": 4086,
+    "B": 6733,
+    "G": 2168,
+    "N": 208
+  },
+  "images": {
+    "isometric": "01-08/iso-se.webp",
+    "atmosphere": "01-08/atmosphere.webp",
+    "northwest": "01-08/iso-nw.webp",
+    "north": "01-08/north.webp",
+    "south": "01-08/south.webp",
+    "east": "01-08/east.webp",
+    "west": "01-08/west.webp",
+    "roof": "01-08/roof.webp",
+    "street": "01-08/street.webp"
+  },
+  "thumbnail": "01-08/thumbnail.webp",
+  "visible_faces": {
+    "SE": 18071,
+    "NW": 18071,
+    "street": 18071
+  },
+  "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+  "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+}

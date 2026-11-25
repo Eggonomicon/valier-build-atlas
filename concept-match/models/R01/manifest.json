@@ -1,0 +1,135 @@
+{
+  "schema": "valier-exterior-rle-v1",
+  "revision": "concept-match-v1",
+  "coordinate_convention": "Local northwest origin; +X east, +Z south; civil Y0 = future walkable surface S. World origin, S and rotation unassigned.",
+  "bounds": [
+    0,
+    -10,
+    0,
+    11,
+    -1,
+    47
+  ],
+  "dimensions_x_y_z": [
+    12,
+    10,
+    48
+  ],
+  "role_counts": {
+    "F": 1824,
+    "N": 4,
+    "P": 188,
+    "R": 384
+  },
+  "id": "R01",
+  "title": "12-wide street / 48-block finish study",
+  "kind": "module",
+  "family": "civil-finish",
+  "site_bounds": null,
+  "source_model": "design/visual-library-v1/models/R01.json.gz",
+  "source_model_sha256": "f4a798b3aea0fbcbe31c46e6a84e96d5556597c17cd2a3b218935c475f8bc7a5",
+  "occupied_geometry_unchanged": true,
+  "source_role_counts": {
+    "B": 384,
+    "F": 1824,
+    "L": 188,
+    "N": 4
+  },
+  "scope": "Alternate finish on preserved source architecture; no new functional fit or complete concept-geometry claim.",
+  "occupied_positions": 2400,
+  "air_positions": 3360,
+  "model_sha256": "cc1523b37d1890561c3a4a3b8680ae182a005d5b2a1a6c0b7672706e4c4df48d",
+  "model": "design/concept-match-v1/models/R01.json.gz",
+  "schematic": "models/R01/Valier_R01_ConceptFinish_GTNH29.schematic",
+  "schematic_sha256": "da424cc00769b5af4c28bc0ed3500547a9653e802b0719ad97b7ca08b553af37",
+  "registry_map": {
+    "minecraft:air": 0,
+    "ExtraUtilities:greenscreen": 1,
+    "ProjRed|Exploration:projectred.exploration.stone": 2,
+    "chisel:concrete": 3,
+    "chisel:nucrete": 4,
+    "minecraft:dirt": 5,
+    "minecraft:glass": 6,
+    "minecraft:glowstone": 7,
+    "minecraft:leaves": 8,
+    "minecraft:log": 9,
+    "minecraft:red_flower": 10,
+    "minecraft:stained_glass": 11,
+    "minecraft:stone_slab": 12,
+    "minecraft:stonebrick": 13
+  },
+  "placed_states": [
+    {
+      "registry_name": "ExtraUtilities:greenscreen",
+      "metadata": 9,
+      "positions": 4,
+      "roles": [
+        "N"
+      ]
+    },
+    {
+      "registry_name": "chisel:concrete",
+      "metadata": 10,
+      "positions": 384,
+      "roles": [
+        "R"
+      ]
+    },
+    {
+      "registry_name": "chisel:nucrete",
+      "metadata": 15,
+      "positions": 188,
+      "roles": [
+        "P"
+      ]
+    },
+    {
+      "registry_name": "minecraft:stonebrick",
+      "metadata": 0,
+      "positions": 1824,
+      "roles": [
+        "F"
+      ]
+    }
+  ],
+  "inventory_stock": [
+    {
+      "registry_name": "ExtraUtilities:greenscreen",
+      "metadata": 9,
+      "items": 4,
+      "roles": [
+        "N"
+      ]
+    },
+    {
+      "registry_name": "chisel:concrete",
+      "metadata": 10,
+      "items": 384,
+      "roles": [
+        "R"
+      ]
+    },
+    {
+      "registry_name": "chisel:nucrete",
+      "metadata": 15,
+      "items": 188,
+      "roles": [
+        "P"
+      ]
+    },
+    {
+      "registry_name": "minecraft:stonebrick",
+      "metadata": 0,
+      "items": 1824,
+      "roles": [
+        "F"
+      ]
+    }
+  ],
+  "anchor": "NW minimum corner; all WE origins/offsets zero; minimum worldY=S+minimum civilY",
+  "air_policy": "Air is not excavation. -a skips air. Finish variants are complete standalone architectural alternatives, not additive materials pasted on occupied original models.",
+  "entities": 0,
+  "tile_entities": 0,
+  "game_tested": false,
+  "machine_layout_revalidated": false
+}

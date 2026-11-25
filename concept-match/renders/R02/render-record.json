@@ -1,0 +1,33 @@
+{
+  "id": "R02",
+  "title": "12 by 12 junction / unobstructed finish study",
+  "kind": "module",
+  "family": "civil-finish",
+  "sector": null,
+  "source_model_sha256": "536d5ee73d90770cf6daf17ccd52cd30f565e584002f731b42f0ca6fabf37675",
+  "source_positions": 624,
+  "source_role_counts": {
+    "F": 480,
+    "P": 16,
+    "R": 128
+  },
+  "images": {
+    "isometric": "R02/iso-se.webp",
+    "atmosphere": "R02/atmosphere.webp",
+    "northwest": "R02/iso-nw.webp",
+    "north": "R02/north.webp",
+    "south": "R02/south.webp",
+    "east": "R02/east.webp",
+    "west": "R02/west.webp",
+    "roof": "R02/roof.webp",
+    "street": "R02/street.webp"
+  },
+  "thumbnail": "R02/thumbnail.webp",
+  "visible_faces": {
+    "SE": 168,
+    "NW": 168,
+    "street": 168
+  },
+  "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+  "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+}

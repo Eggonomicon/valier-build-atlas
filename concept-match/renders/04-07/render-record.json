@@ -1,0 +1,36 @@
+{
+  "id": "04-07",
+  "title": "Chemical reactors",
+  "kind": "plot",
+  "family": "chemistry",
+  "sector": null,
+  "source_model_sha256": "b9880744d40e68d0247478b5f590d5a373077f3f6f3faf62a3c320a040a5d5d2",
+  "source_positions": 19870,
+  "source_role_counts": {
+    "F": 4096,
+    "K": 2098,
+    "L": 4266,
+    "B": 8402,
+    "G": 800,
+    "N": 208
+  },
+  "images": {
+    "isometric": "04-07/iso-se.webp",
+    "atmosphere": "04-07/atmosphere.webp",
+    "northwest": "04-07/iso-nw.webp",
+    "north": "04-07/north.webp",
+    "south": "04-07/south.webp",
+    "east": "04-07/east.webp",
+    "west": "04-07/west.webp",
+    "roof": "04-07/roof.webp",
+    "street": "04-07/street.webp"
+  },
+  "thumbnail": "04-07/thumbnail.webp",
+  "visible_faces": {
+    "SE": 19014,
+    "NW": 19014,
+    "street": 19014
+  },
+  "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+  "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+}

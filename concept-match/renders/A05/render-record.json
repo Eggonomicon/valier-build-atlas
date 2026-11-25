@@ -1,0 +1,35 @@
+{
+  "id": "A05",
+  "title": "Lamp and bollard bay",
+  "kind": "module",
+  "family": "landscape-furniture",
+  "sector": null,
+  "source_model_sha256": "88467f18554a9c4079b8d3b0e0f88296af4d7be0c06002115ad4bae6088ec479",
+  "source_positions": 44,
+  "source_role_counts": {
+    "F": 32,
+    "K": 5,
+    "L": 4,
+    "N": 2,
+    "W": 1
+  },
+  "images": {
+    "isometric": "A05/iso-se.webp",
+    "atmosphere": "A05/atmosphere.webp",
+    "northwest": "A05/iso-nw.webp",
+    "north": "A05/north.webp",
+    "south": "A05/south.webp",
+    "east": "A05/east.webp",
+    "west": "A05/west.webp",
+    "roof": "A05/roof.webp",
+    "street": "A05/street.webp"
+  },
+  "thumbnail": "A05/thumbnail.webp",
+  "visible_faces": {
+    "SE": 68,
+    "NW": 68,
+    "street": 68
+  },
+  "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+  "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+}

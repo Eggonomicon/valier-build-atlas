@@ -1,0 +1,10 @@
+registry_name,inventory_metadata,items,stacks64,loose,roles
+ExtraUtilities:greenscreen,9,6,0,6,N
+chisel:nucrete,7,190,2,62,K
+chisel:nucrete,15,1645,25,45,L
+minecraft:dirt,0,100,1,36,E
+minecraft:glowstone,0,2,0,2,W
+minecraft:leaves,0,628,9,52,V
+minecraft:log,0,16,0,16,T
+minecraft:stone_slab,0,48,0,48,s
+minecraft:stonebrick,0,2601,40,41,F

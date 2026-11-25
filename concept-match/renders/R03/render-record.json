@@ -1,0 +1,31 @@
+{
+  "id": "R03",
+  "title": "Under-road service gallery / exact civil crop",
+  "kind": "module",
+  "family": "civil-source",
+  "sector": null,
+  "source_model_sha256": "94a3188639d224c9064a8676fff5a169aae0872c5c4eadd0b11eb3428832ed4c",
+  "source_positions": 1200,
+  "source_role_counts": {
+    "F": 1200
+  },
+  "images": {
+    "isometric": "R03/iso-se.webp",
+    "atmosphere": "R03/atmosphere.webp",
+    "northwest": "R03/iso-nw.webp",
+    "north": "R03/north.webp",
+    "south": "R03/south.webp",
+    "east": "R03/east.webp",
+    "west": "R03/west.webp",
+    "roof": "R03/roof.webp",
+    "street": "R03/street.webp"
+  },
+  "thumbnail": "R03/thumbnail.webp",
+  "visible_faces": {
+    "SE": 324,
+    "NW": 324,
+    "street": 324
+  },
+  "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+  "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+}

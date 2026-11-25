@@ -1,0 +1,526 @@
+{
+  "title": "Concept-match installed palette and lighting evidence",
+  "date": "2026-11-24",
+  "game_tested": false,
+  "method": "Read-only installed ZIP/class disassembly/config/asset inspection. No world/save access, class initialization, game launch or existing model/palette/export changes.",
+  "sources": [
+    {
+      "key": "projectred",
+      "filename": "ProjRed-4.12.50-GTNH.jar",
+      "sha256": "db2dde71cc9276c62b4c6f131f6155a319633c86419c9c01dca616c3f29dd642",
+      "bytes": 10342159,
+      "classes": [
+        {
+          "member": "mrtjp/projectred/exploration/BlockDecoratives$$anonfun$registerBlockIcons$2.class",
+          "class_sha256": "b259f19f06e6daf2a1baf0d6969477273aca87edf86ff9a4d94e75cec1c40ce0",
+          "disassembly": "verification/concept-match-v1/mrtjp.projectred.exploration.BlockDecoratives$$anonfun$registerBlockIcons$2.javap.txt",
+          "disassembly_sha256": "456ccf9e3bcdc9ec0ad35b82005392cf1e0afbc09e33d55ba1a31ae6420e0ac0"
+        },
+        {
+          "member": "mrtjp/projectred/exploration/BlockDecoratives.class",
+          "class_sha256": "2bb5d8b1630b716c58e35156e11eb60025b816fdf4cbfa752c92895f532d8a3e",
+          "disassembly": "verification/concept-match-v1/mrtjp.projectred.exploration.BlockDecoratives.javap.txt",
+          "disassembly_sha256": "cbad9f652a28b9206994137a890110240976388c496ef641371236314954fb79"
+        },
+        {
+          "member": "mrtjp/projectred/exploration/DecorativeStoneDefs$.class",
+          "class_sha256": "5e98007fe70713c3ddc4641aa149674833ddb9244136274c52f50de8d2fa2a19",
+          "disassembly": "verification/concept-match-v1/mrtjp.projectred.exploration.DecorativeStoneDefs$.javap.txt",
+          "disassembly_sha256": "bd16e09607ddf5e1a28510f219f2abe3cab0739f9fedbba6c2c0a21232bd90be"
+        },
+        {
+          "member": "mrtjp/projectred/exploration/DecorativeStoneDefs$StoneVal.class",
+          "class_sha256": "31091d05c9958dfa73596c276706028ff370df5770c63664c092158c9a4fdff9",
+          "disassembly": "verification/concept-match-v1/mrtjp.projectred.exploration.DecorativeStoneDefs$StoneVal.javap.txt",
+          "disassembly_sha256": "ce6bd8beb2dc5a3ef39ea6e9d4d2ca9eec7a00885b7c8173992fbaa0647f6825"
+        },
+        {
+          "member": "mrtjp/projectred/exploration/ExplorationProxy_server.class",
+          "class_sha256": "5e25c436750bfbd28cd729aff9dbbf54750ce1387eb022abc95638a6d150984a",
+          "disassembly": "verification/concept-match-v1/mrtjp.projectred.exploration.ExplorationProxy_server.javap.txt",
+          "disassembly_sha256": "35b56407df55978c69cbd1f6b4e42e14a90d7fe9d326b7dff2efb5ac590ebcde"
+        },
+        {
+          "member": "mrtjp/projectred/ProjectRedExploration$.class",
+          "class_sha256": "be767dea1b0f15300e62f401130b2d831ca3f1061fdade6e059700024be95e61",
+          "disassembly": "verification/concept-match-v1/mrtjp.projectred.ProjectRedExploration$.annotations.javap.txt",
+          "disassembly_sha256": "0e81aa452745de7d2d6d6b360b3830c09d26b0079e3bee0884ead719bfd6af69"
+        },
+        {
+          "member": "mrtjp/projectred/ProjectRedExploration$.class",
+          "class_sha256": "be767dea1b0f15300e62f401130b2d831ca3f1061fdade6e059700024be95e61",
+          "disassembly": "verification/concept-match-v1/mrtjp.projectred.ProjectRedExploration$.javap.txt",
+          "disassembly_sha256": "5c21c2b3c535fab678d40d87e05c8b809721a1c9019c762c001648dba0d49669"
+        }
+      ]
+    },
+    {
+      "key": "chisel",
+      "filename": "chisel-2.17.34-GTNH.jar",
+      "sha256": "cc8a7af6bb777c96d68f5b4ef0a47fbc11984e91471ce8d66710fb7a6a0bae1f",
+      "bytes": 7607794,
+      "classes": [
+        {
+          "member": "com/cricketcraft/chisel/api/carving/CarvableHelper.class",
+          "class_sha256": "c90c9ffb89326e599d449609870d7106d15394853231ecddb7dd168be8ef7c3c",
+          "disassembly": "verification/concept-match-v1/com.cricketcraft.chisel.api.carving.CarvableHelper.javap.txt",
+          "disassembly_sha256": "b9626a9bf0cc83005fc42c3cbd031394913795b04adb41f094cd4bcffa366380"
+        },
+        {
+          "member": "team/chisel/block/BlockCarvable.class",
+          "class_sha256": "77f0c0e211c3ef51bf2dfde9425a13cc3874ecc64b6fa1b12236f4e54ba67228",
+          "disassembly": "verification/concept-match-v1/team.chisel.block.BlockCarvable.javap.txt",
+          "disassembly_sha256": "513637b9777b7db6015f90463072a3b016fc2655c91fba9a801976d85c1738a2"
+        },
+        {
+          "member": "team/chisel/block/BlockConcrete.class",
+          "class_sha256": "dcecf55576bd79be660d70ba3f1cde55c198cbaf9659d9517e0b66d7bb6c73a4",
+          "disassembly": "verification/concept-match-v1/team.chisel.block.BlockConcrete.javap.txt",
+          "disassembly_sha256": "8acd1a5d0745b0a7f2945a0df34c1db7cab6db587b81e9c63ae783e7dbe919e8"
+        },
+        {
+          "member": "team/chisel/Chisel.class",
+          "class_sha256": "e40237dee2e47c07b7568696cd1623307cbc723e4b334f03bae1d683d11b4b5a",
+          "disassembly": "verification/concept-match-v1/team.chisel.Chisel.annotations.javap.txt",
+          "disassembly_sha256": "cd16a36a602dd2918c945c956db8f2c0f378e71f8d66c0ddb463f64f2f4eee7c"
+        },
+        {
+          "member": "team/chisel/Features$23.class",
+          "class_sha256": "98d5c4f5b9b5c7f02e4b3eb1a85fc78155722b899aec9673d15caddd6d5768cf",
+          "disassembly": "verification/concept-match-v1/team.chisel.Features$23.javap.txt",
+          "disassembly_sha256": "7fe89b60dfc09810d78d7acf3ca64c0a46276de971b4f0e5e8febe05ea42fb81"
+        },
+        {
+          "member": "team/chisel/Features$61.class",
+          "class_sha256": "03ef13711f22990f68c4796839008ba17b399a742c7403971f8cb77a333c1b7f",
+          "disassembly": "verification/concept-match-v1/team.chisel.Features$61.javap.txt",
+          "disassembly_sha256": "8fd37fbd2b24cfeb8c1f3ea8dfc2b5eacfdbb9f670fa05d62b4ac3588b69deba"
+        },
+        {
+          "member": "team/chisel/Features$67.class",
+          "class_sha256": "7570d8f64d31ed5f56eb0365565d144acd252031e8a858edace5155d21dcca46",
+          "disassembly": "verification/concept-match-v1/team.chisel.Features$67.javap.txt",
+          "disassembly_sha256": "a599cad5bfaba5499f5811165009b3a90ef49d947168ce73e7ff97d73f4facd6"
+        },
+        {
+          "member": "team/chisel/Features.class",
+          "class_sha256": "e5c06d5546595493ac74075cc17caad00e75ce14ca42fba7d352659282583a7c",
+          "disassembly": "verification/concept-match-v1/team.chisel.Features.javap.txt",
+          "disassembly_sha256": "43ba09c90a1e5f256589a747234a3bb165c906548fb2b3cce0164a784dba61f8"
+        },
+        {
+          "member": "team/chisel/init/ChiselBlocks.class",
+          "class_sha256": "659a03dda9ec2e9dac340c83be89f19b4102b443909bce7be8c5d419a53091b8",
+          "disassembly": "verification/concept-match-v1/team.chisel.init.ChiselBlocks.javap.txt",
+          "disassembly_sha256": "24716933a336175d612ea426b7c50151081bb60b7c98482f8ce9ce6653570e31"
+        }
+      ]
+    },
+    {
+      "key": "ztones",
+      "filename": "Ztones-1.7.10-2.2.2.jar",
+      "sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "bytes": 557087,
+      "classes": [
+        {
+          "member": "com/riciJak/Ztones/block/VBlocks/BlockLampBlack.class",
+          "class_sha256": "91de8130a73a85b5b3b70c3b1b16b6ef125ce7f449f4c3f884f37fb502586933",
+          "disassembly": "verification/concept-match-v1/com.riciJak.Ztones.block.VBlocks.BlockLampBlack.javap.txt",
+          "disassembly_sha256": "cf717a81f0f25e1fd4b84adecdd134e35453b28286ec70a91b074b284de83278"
+        },
+        {
+          "member": "com/riciJak/Ztones/block/VBlocks/BlockLampFlat.class",
+          "class_sha256": "ea7e0fa6258c15d2d4ea1a93b8a2ccf7d6d90797d4c705bc4a58d154b02e59b7",
+          "disassembly": "verification/concept-match-v1/com.riciJak.Ztones.block.VBlocks.BlockLampFlat.javap.txt",
+          "disassembly_sha256": "edb20f5916f29e18b9bd81514e38be08cb5a41b9c6f32dc69c7055e00d51c78b"
+        },
+        {
+          "member": "com/riciJak/Ztones/block/VBlocks/BlockLampTransparent.class",
+          "class_sha256": "64e3c9e196200df2964207be44ead9491f6b44d9462270c831351d1bb66bd13a",
+          "disassembly": "verification/concept-match-v1/com.riciJak.Ztones.block.VBlocks.BlockLampTransparent.javap.txt",
+          "disassembly_sha256": "2c18237189a590eb316f58c46b3a53c88c35e57031efa2ffd05001db01eaa540"
+        },
+        {
+          "member": "com/riciJak/Ztones/init/ModBlocks.class",
+          "class_sha256": "d39754f712aedd53386771055812e693f8e2bff4038d4747890a3f1ba670853f",
+          "disassembly": "verification/concept-match-v1/com.riciJak.Ztones.init.ModBlocks.javap.txt",
+          "disassembly_sha256": "d3d086453a7ad8bc6365430f75de9ae6c6b1e8bb854fb1eee9d77b06c70c7a96"
+        }
+      ]
+    },
+    {
+      "key": "mrtjpcore",
+      "filename": "MrTJPCore-1.3.7.jar",
+      "sha256": "bda0302e180ac34f41d05a872e07a3bfc161b91ac32a53b664104447a0f94726",
+      "bytes": 739589,
+      "classes": [
+        {
+          "member": "mrtjp/core/block/BlockCore.class",
+          "class_sha256": "590b3f2de0c8647e645e4914372fe14961f27726b792a91232888ec897c4a2ad",
+          "disassembly": "verification/concept-match-v1/mrtjp.core.block.BlockCore.javap.txt",
+          "disassembly_sha256": "a588baa1da31e856b8f1f62e75d3b1e4f64a2dc0482dfb6143a87a2ab9b98aef"
+        }
+      ]
+    },
+    {
+      "key": "extrautils",
+      "filename": "extrautilities-1.2.12.jar",
+      "sha256": "a1941ee4d4b965c4d2ddc6ec0e0b1eb3f3ff8c8b492a18a25b5fcf27c67ba58b",
+      "bytes": 2149827,
+      "classes": []
+    },
+    {
+      "key": "vanilla",
+      "filename": "minecraft-1.7.10-client.jar",
+      "sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "bytes": 5256245,
+      "classes": [
+        {
+          "member": "acj.class",
+          "class_sha256": "1663f8e6d33de02ec212221d7731753e3a212bff98bf43f26aea80a36e401f42",
+          "disassembly": "verification/concept-match-v1/vanilla.acj.javap.txt",
+          "disassembly_sha256": "7f61be988b763c7a2202486076d09a748f7a14a455e049a39cfd81dfe7d368ad"
+        },
+        {
+          "member": "adg.class",
+          "class_sha256": "41b965b7cae989183a9b1e940700322d903e763b37e587cb2a36238f50934f51",
+          "disassembly": "verification/concept-match-v1/vanilla.adg.javap.txt",
+          "disassembly_sha256": "652af66d4e9f41dd3d7f573eae38a41cc10d6b2693df801394d8a75d7b6d4f7f"
+        },
+        {
+          "member": "ajr.class",
+          "class_sha256": "88a1b7f01877f7c91f1c1082303ef0ea765a4b0f8985f38f82e83c891e38cebf",
+          "disassembly": "verification/concept-match-v1/vanilla.ajr.javap.txt",
+          "disassembly_sha256": "a21e064f33555ed8efc08470223a5aca0374666e0e5539e817a0d2bd0d9e846d"
+        },
+        {
+          "member": "aka.class",
+          "class_sha256": "c179509ef5e68001d6ac40838c7606873fb61e2cfb591ae82e1d866ed4f0f6ee",
+          "disassembly": "verification/concept-match-v1/vanilla.aka.javap.txt",
+          "disassembly_sha256": "ed9ac94a3665e1732958c826cf9724c49ad1e6f45bebb65d6b3eb4174ea7deb3"
+        },
+        {
+          "member": "alc.class",
+          "class_sha256": "addcd90ccefbea4b4d391f49ce75e394191ca17a80360f6ebc68aa90206f46d1",
+          "disassembly": "verification/concept-match-v1/vanilla.alc.javap.txt",
+          "disassembly_sha256": "d2416d37afc8b37af3cdb1463ffa7f8e50e6da8ed0172bd738c9857d539c8c64"
+        },
+        {
+          "member": "alt.class",
+          "class_sha256": "7e422d749bdc584511ed5f9e5658a21c39e7e54c80b1a8236db0d62e53e76b20",
+          "disassembly": "verification/concept-match-v1/vanilla.alt.javap.txt",
+          "disassembly_sha256": "2d5f368dc5e51d15c096b35d057b8dcbcf3e5a73a05233b5d6aa0825e45b152a"
+        },
+        {
+          "member": "anq.class",
+          "class_sha256": "dd6ad72cf7128acd21bc39cb250e857b71741b6bba45a46541c292da009a21ff",
+          "disassembly": "verification/concept-match-v1/vanilla.anq.javap.txt",
+          "disassembly_sha256": "85c2991af3ec5f9005876fbaa17babd0712dae9378958f9433dba5f6d4a7c78e"
+        },
+        {
+          "member": "aji.class",
+          "class_sha256": "d3af9ac23bc8ea67d02ad824d70e5c43fc2dc1b938e7bd5612ffb818abb43dd4",
+          "disassembly": "verification/concept-match-v1/vanilla.Block.aji.javap.txt",
+          "disassembly_sha256": "e780569472495ffe7754efcf9a35617930c057266cf6998bb7fb32102ce61b6d"
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "key": "charcoal_masonry",
+      "finding": "B is ProjRed|Exploration:projectred.exploration.stone metadata4, Basalt Brick. Installed Exploration annotation names the namespace; BlockDecoratives passes projectred.exploration.stone to MrTJPCore BlockCore, which calls GameRegistry.registerBlock. Installed language maps stone|4 to Basalt Brick. Enum data and texture registration connect basalt_brick to assets/projectred/textures/blocks/world/basalt_brick.png. Exploration Module is enabled in current config. This is ordinary textured masonry, not an emissive block.",
+      "evidence": [
+        {
+          "file": "verification/concept-match-v1/mrtjp.projectred.ProjectRedExploration$.annotations.javap.txt",
+          "lines": [
+            2602,
+            2609
+          ],
+          "sha256": "0e81aa452745de7d2d6d6b360b3830c09d26b0079e3bee0884ead719bfd6af69"
+        },
+        {
+          "file": "verification/concept-match-v1/mrtjp.projectred.exploration.BlockDecoratives.javap.txt",
+          "lines": [
+            141,
+            160
+          ],
+          "sha256": "cbad9f652a28b9206994137a890110240976388c496ef641371236314954fb79"
+        },
+        {
+          "file": "verification/concept-match-v1/mrtjp.core.block.BlockCore.javap.txt",
+          "lines": [
+            16,
+            31
+          ],
+          "sha256": "a588baa1da31e856b8f1f62e75d3b1e4f64a2dc0482dfb6143a87a2ab9b98aef"
+        },
+        {
+          "file": "verification/concept-match-v1/mrtjp.projectred.exploration.DecorativeStoneDefs$.javap.txt",
+          "lines": [
+            145,
+            176
+          ],
+          "sha256": "bd16e09607ddf5e1a28510f219f2abe3cab0739f9fedbba6c2c0a21232bd90be"
+        },
+        {
+          "file": "verification/concept-match-v1/mrtjp.projectred.exploration.DecorativeStoneDefs$StoneVal.javap.txt",
+          "lines": [
+            52,
+            66
+          ],
+          "sha256": "ce6bd8beb2dc5a3ef39ea6e9d4d2ca9eec7a00885b7c8173992fbaa0647f6825"
+        }
+      ]
+    },
+    {
+      "key": "concrete_frames_and_paving",
+      "finding": "K is chisel:nucrete metadata7 (Dark Concrete Tiles); L/P is chisel:nucrete metadata15 (Light Concrete Tiles). The installed feature explicitly associates7 with nucrete/darktiles and15 with nucrete/lighttiles, then registerAll(...,\"nucrete\"). K was selected after observed render QA found the earlier metadata1 riveted panel too industrial for the clean masonry direction. CarvableHelper registers that name under installed modid chisel. A repeated albedo contact sheet does not certify final in-game seams. Current nucrete=true.",
+      "evidence": [
+        {
+          "file": "verification/concept-match-v1/team.chisel.Features$67.javap.txt",
+          "lines": [
+            72,
+            77
+          ],
+          "sha256": "a599cad5bfaba5499f5811165009b3a90ef49d947168ce73e7ff97d73f4facd6"
+        },
+        {
+          "file": "verification/concept-match-v1/team.chisel.Features$67.javap.txt",
+          "lines": [
+            118,
+            128
+          ],
+          "sha256": "a599cad5bfaba5499f5811165009b3a90ef49d947168ce73e7ff97d73f4facd6"
+        },
+        {
+          "file": "verification/concept-match-v1/com.cricketcraft.chisel.api.carving.CarvableHelper.javap.txt",
+          "lines": [
+            402,
+            431
+          ],
+          "sha256": "b9626a9bf0cc83005fc42c3cbd031394913795b04adb41f094cd4bcffa366380"
+        },
+        {
+          "file": "verification/concept-match-v1/team.chisel.Chisel.annotations.javap.txt",
+          "lines": [
+            1316,
+            1323
+          ],
+          "sha256": "cd16a36a602dd2918c945c956db8f2c0f378e71f8d66c0ddb463f64f2f4eee7c"
+        }
+      ]
+    },
+    {
+      "key": "road_surface",
+      "finding": "R is a separate wearing-course proposal chisel:concrete metadata10, Asphalt. Installed feature associates10 with concrete/asphalt and registers concrete. Structural F remains minecraft:stonebrick metadata0; no existing civil palette/model is replaced by this research. The legacy config fullBlockConcrete=false comment was not treated as shape proof: the installed BlockConcrete implementation has no geometry override and only adds a movement event handler. A binary class-reference scan found fullBlockConcrete only in Configurations, not a block geometry implementation. Movement and collision still require game verification.",
+      "evidence": [
+        {
+          "file": "verification/concept-match-v1/team.chisel.Features$23.javap.txt",
+          "lines": [
+            85,
+            105
+          ],
+          "sha256": "7fe89b60dfc09810d78d7acf3ca64c0a46276de971b4f0e5e8febe05ea42fb81"
+        },
+        {
+          "file": "verification/concept-match-v1/team.chisel.block.BlockConcrete.javap.txt",
+          "lines": [
+            1,
+            29
+          ],
+          "sha256": "8acd1a5d0745b0a7f2945a0df34c1db7cab6db587b81e9c63ae783e7dbe919e8"
+        },
+        {
+          "file": "verification/concept-match-v1/team.chisel.block.BlockCarvable.javap.txt",
+          "lines": [
+            1,
+            46
+          ],
+          "sha256": "513637b9777b7db6015f90463072a3b016fc2655c91fba9a801976d85c1738a2"
+        }
+      ]
+    },
+    {
+      "key": "glass",
+      "finding": "G is minecraft:stained_glass metadata7, gray. Alternative metadata3 light blue is provided for comparison. D is the same block metadata0, white, for a lamp housing/diffuser. Installed vanilla StainedGlass indexes icons by placed metadata and uses inverted dye-name indexing:7\u2192gray,3\u2192light_blue,0\u2192white. Inventory metadata remains identical. All three actual PNGs contain alpha and are preserved without flattening. A white stained-glass diffuser has no intrinsic emitted light; place the actual emitter separately. Blue-gray appearance depends on surroundings, alpha compositing and shader settings.",
+      "evidence": [
+        {
+          "file": "verification/concept-match-v1/vanilla.Block.aji.javap.txt",
+          "lines": [
+            1672,
+            1687
+          ],
+          "sha256": "e780569472495ffe7754efcf9a35617930c057266cf6998bb7fb32102ce61b6d"
+        },
+        {
+          "file": "verification/concept-match-v1/vanilla.anq.javap.txt",
+          "lines": [
+            18,
+            43
+          ],
+          "sha256": "85c2991af3ec5f9005876fbaa17babd0712dae9378958f9433dba5f6d4a7c78e"
+        },
+        {
+          "file": "verification/concept-match-v1/vanilla.anq.javap.txt",
+          "lines": [
+            75,
+            106
+          ],
+          "sha256": "85c2991af3ec5f9005876fbaa17babd0712dae9378958f9433dba5f6d4a7c78e"
+        },
+        {
+          "file": "verification/concept-match-v1/vanilla.acj.javap.txt",
+          "lines": [
+            508,
+            542
+          ],
+          "sha256": "7f61be988b763c7a2202486076d09a748f7a14a455e049a39cfd81dfe7d368ad"
+        }
+      ]
+    },
+    {
+      "key": "cyan_light",
+      "finding": "N remains ExtraUtilities:greenscreen metadata9. Installed color9 is RGB0,1,1; the actual raw albedo is multiplied by cyan for display. Its getLightLevel is int((r+g+b)/3*15), so cyan emits scalar light10; white metadata0 emits15. This is independent of its fullBrightBlockID renderer. A shader material-map or fullbright surface is not itself evidence of emitted world light. Restrained strips should use measured in-game light checks when arranging actual coverage.",
+      "evidence": [
+        {
+          "file": "verification/installed-palette-2026-11-23/Caelestis-metadata-light.txt",
+          "lines": [
+            34,
+            55
+          ],
+          "sha256": "4941540f078a5e940364a86f2391fb30a0074cbfcdf1c88cd189c0e1da73e32c"
+        },
+        {
+          "file": "verification/installed-palette-2026-11-23/Caelestis-metadata-light.txt",
+          "lines": [
+            57,
+            68
+          ],
+          "sha256": "4941540f078a5e940364a86f2391fb30a0074cbfcdf1c88cd189c0e1da73e32c"
+        },
+        {
+          "file": "verification/installed-palette-2026-11-23/Caelestis-metadata-light.txt",
+          "lines": [
+            82,
+            93
+          ],
+          "sha256": "4941540f078a5e940364a86f2391fb30a0074cbfcdf1c88cd189c0e1da73e32c"
+        }
+      ]
+    },
+    {
+      "key": "warm_fixture_light",
+      "finding": "W is minecraft:glowstone metadata0: actual installed albedo is yellow-gold and its registry constructor calls setLightLevel(1.0); the installed setter multiplies by15, producing scalar block-light15. The warm fixture proposal is glowstone plus a separate white stained-glass housing, not an invented warm-white emitter block. Vanilla scalar light does not establish a colored warm cast, shader bloom or light filtering through glass. Ztones Flat/Black/Transparent lamp constructors were also reviewed: each sets light level1.0 (15); they were not selected because the actual glowstone texture provides a concrete warm appearance and simpler full-block geometry.",
+      "evidence": [
+        {
+          "file": "verification/concept-match-v1/vanilla.Block.aji.javap.txt",
+          "lines": [
+            1567,
+            1584
+          ],
+          "sha256": "e780569472495ffe7754efcf9a35617930c057266cf6998bb7fb32102ce61b6d"
+        },
+        {
+          "file": "verification/concept-match-v1/vanilla.Block.aji.javap.txt",
+          "lines": [
+            2939,
+            2948
+          ],
+          "sha256": "e780569472495ffe7754efcf9a35617930c057266cf6998bb7fb32102ce61b6d"
+        },
+        {
+          "file": "verification/concept-match-v1/com.riciJak.Ztones.block.VBlocks.BlockLampFlat.javap.txt",
+          "lines": [
+            3,
+            20
+          ],
+          "sha256": "edb20f5916f29e18b9bd81514e38be08cb5a41b9c6f32dc69c7055e00d51c78b"
+        },
+        {
+          "file": "verification/concept-match-v1/com.riciJak.Ztones.block.VBlocks.BlockLampBlack.javap.txt",
+          "lines": [
+            3,
+            20
+          ],
+          "sha256": "cf717a81f0f25e1fd4b84adecdd134e35453b28286ec70a91b074b284de83278"
+        },
+        {
+          "file": "verification/concept-match-v1/com.riciJak.Ztones.block.VBlocks.BlockLampTransparent.javap.txt",
+          "lines": [
+            3,
+            20
+          ],
+          "sha256": "2c18237189a590eb316f58c46b3a53c88c35e57031efa2ffd05001db01eaa540"
+        }
+      ]
+    },
+    {
+      "key": "plants_and_persistence",
+      "finding": "f is minecraft:red_flower metadata2, allium: installed BlockFlower red-variant icon array has flower_allium at index2. Its BlockBush parent renders crossed plant type1, returns no collision bounding box and checks support; use actual suitable soil rather than a full-cube flower substitute. V keeps baseline minecraft:leaves placed4/inventory0; installed ItemLeaves placement ORs4 (persistent/player-placed bit). Oak leaf albedo is grayscale and actual foliage tint depends on destination biome, which remains unassigned. No static RGB foliage tint is asserted as measured PDIM appearance.",
+      "evidence": [
+        {
+          "file": "verification/concept-match-v1/vanilla.Block.aji.javap.txt",
+          "lines": [
+            740,
+            755
+          ],
+          "sha256": "e780569472495ffe7754efcf9a35617930c057266cf6998bb7fb32102ce61b6d"
+        },
+        {
+          "file": "verification/concept-match-v1/vanilla.alc.javap.txt",
+          "lines": [
+            184,
+            215
+          ],
+          "sha256": "d2416d37afc8b37af3cdb1463ffa7f8e50e6da8ed0172bd738c9857d539c8c64"
+        },
+        {
+          "file": "verification/concept-match-v1/vanilla.ajr.javap.txt",
+          "lines": [
+            145,
+            176
+          ],
+          "sha256": "a21e064f33555ed8efc08470223a5aca0374666e0e5539e817a0d2bd0d9e846d"
+        },
+        {
+          "file": "verification/concept-match-v1/vanilla.adg.javap.txt",
+          "lines": [
+            20,
+            31
+          ],
+          "sha256": "652af66d4e9f41dd3d7f573eae38a41cc10d6b2693df801394d8a75d7b6d4f7f"
+        }
+      ]
+    },
+    {
+      "key": "active_packs_and_status",
+      "finding": "All six active resource packs were checked for every selected albedo path. None overrides the12 selected PNGs. KuraNeonGTNH contains greenscreen_s.png, a related material map, and does not replace greenscreen.png. Texture-evidence records pack order/hashes, jar/member paths, raw/effective texture hashes, dimensions and alpha extrema. These are installed static observations and proposed role bindings; recipes, destination registry initialization, import, shaders, light propagation, spawn/access checks and affordability remain untested.",
+      "evidence": [
+        {
+          "file": "verification/concept-match-v1/texture-evidence.json",
+          "sha256": "4d9a155c35ea51133701fb483d261757e7861c78137da8369538f4cd63358bfe"
+        }
+      ]
+    }
+  ],
+  "language_excerpts": "verification/concept-match-v1/language-excerpts.json",
+  "config_observations": "verification/concept-match-v1/config-observations.json",
+  "selected_role_bindings": "generated/concept-match-v1/evidence/final-role-bindings.json",
+  "role_binding_sha256": "40e10724dd0880e91aab784f0f26d98fdfe9169b8e7e0ba01a0b53a248935366",
+  "texture_evidence": "verification/concept-match-v1/texture-evidence.json",
+  "contact_sheet": "generated/concept-match-v1/evidence/candidate-contact-sheet.png",
+  "minecraft_symbol_mapping": {
+    "file": "work/vanilla-deobf.srg",
+    "sha256": "0069d604ec188e89229fd0d2f929f06a93fa858b6bad3657b17e8a8f3bb97132",
+    "source": "Installed Forge deobfuscation_data-1.7.10.lzma mapping extracted earlier"
+  },
+  "proposal_not_replacement": true,
+  "fullBlockConcrete_reference_scan": {
+    "source_jar_sha256": "cc8a7af6bb777c96d68f5b4ef0a47fbc11984e91471ce8d66710fb7a6a0bae1f",
+    "method": "Read-only binary UTF8 constant reference scan in all installed .class entries",
+    "members_containing_field_name": [
+      "team/chisel/config/Configurations.class"
+    ]
+  }
+}

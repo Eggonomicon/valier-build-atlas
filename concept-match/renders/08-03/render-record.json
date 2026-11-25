@@ -1,0 +1,36 @@
+{
+  "id": "08-03",
+  "title": "Botanical lab",
+  "kind": "plot",
+  "family": "greenhouse",
+  "sector": null,
+  "source_model_sha256": "fba368932437b5839c40e2e4155aea36fa1a1c506f415397645a8c205271ab6f",
+  "source_positions": 17728,
+  "source_role_counts": {
+    "F": 4096,
+    "K": 844,
+    "L": 3930,
+    "B": 713,
+    "G": 7937,
+    "N": 208
+  },
+  "images": {
+    "isometric": "08-03/iso-se.webp",
+    "atmosphere": "08-03/atmosphere.webp",
+    "northwest": "08-03/iso-nw.webp",
+    "north": "08-03/north.webp",
+    "south": "08-03/south.webp",
+    "east": "08-03/east.webp",
+    "west": "08-03/west.webp",
+    "roof": "08-03/roof.webp",
+    "street": "08-03/street.webp"
+  },
+  "thumbnail": "08-03/thumbnail.webp",
+  "visible_faces": {
+    "SE": 18869,
+    "NW": 18845,
+    "street": 18869
+  },
+  "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+  "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+}

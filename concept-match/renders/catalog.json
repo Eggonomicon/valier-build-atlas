@@ -1,0 +1,3481 @@
+{
+  "revision": "concept-match-v1",
+  "models": [
+    {
+      "id": "01-01",
+      "title": "Steam works",
+      "kind": "plot",
+      "family": "steam-v2",
+      "sector": null,
+      "source_model_sha256": "f03d2d7183e949f6bb5c0416af7f115353b1bf868fdcb4d333de6493d4875ded",
+      "source_positions": 28766,
+      "source_role_counts": {
+        "F": 12946,
+        "K": 2455,
+        "S": 87,
+        "s": 87,
+        "W": 65,
+        "B": 7734,
+        "L": 4356,
+        "N": 276,
+        "G": 760
+      },
+      "images": {
+        "isometric": "01-01/iso-se.webp",
+        "atmosphere": "01-01/atmosphere.webp",
+        "northwest": "01-01/iso-nw.webp",
+        "north": "01-01/north.webp",
+        "south": "01-01/south.webp",
+        "east": "01-01/east.webp",
+        "west": "01-01/west.webp",
+        "roof": "01-01/roof.webp",
+        "street": "01-01/street.webp"
+      },
+      "thumbnail": "01-01/thumbnail.webp",
+      "visible_faces": {
+        "SE": 15608,
+        "NW": 15571,
+        "street": 15608
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "01-02",
+      "title": "Coke ovens",
+      "kind": "plot",
+      "family": "thermal",
+      "sector": null,
+      "source_model_sha256": "b9039424a8cd42777958faeb66e7ba3d34da69de585610da9a7143affeed5b8e",
+      "source_positions": 20110,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2322,
+        "L": 3498,
+        "B": 9186,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "01-02/iso-se.webp",
+        "atmosphere": "01-02/atmosphere.webp",
+        "northwest": "01-02/iso-nw.webp",
+        "north": "01-02/north.webp",
+        "south": "01-02/south.webp",
+        "east": "01-02/east.webp",
+        "west": "01-02/west.webp",
+        "roof": "01-02/roof.webp",
+        "street": "01-02/street.webp"
+      },
+      "thumbnail": "01-02/thumbnail.webp",
+      "visible_faces": {
+        "SE": 19942,
+        "NW": 19942,
+        "street": 19942
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "01-03",
+      "title": "Water works",
+      "kind": "plot",
+      "family": "production",
+      "sector": null,
+      "source_model_sha256": "fc7d05ade2d155d74c8b3b40f715746e8ed4573403f47859c667ae484fbb425e",
+      "source_positions": 17960,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 1602,
+        "L": 3212,
+        "B": 8042,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "01-03/iso-se.webp",
+        "atmosphere": "01-03/atmosphere.webp",
+        "northwest": "01-03/iso-nw.webp",
+        "north": "01-03/north.webp",
+        "south": "01-03/south.webp",
+        "east": "01-03/east.webp",
+        "west": "01-03/west.webp",
+        "roof": "01-03/roof.webp",
+        "street": "01-03/street.webp"
+      },
+      "thumbnail": "01-03/thumbnail.webp",
+      "visible_faces": {
+        "SE": 17876,
+        "NW": 17876,
+        "street": 17876
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "01-04",
+      "title": "LV factory",
+      "kind": "plot",
+      "family": "production",
+      "sector": null,
+      "source_model_sha256": "367410b30c4b5ab5e09b6a91ba5ac99f43eedfb5467a96e8ef6524c278d48826",
+      "source_positions": 16824,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 1378,
+        "L": 3084,
+        "B": 7258,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "01-04/iso-se.webp",
+        "atmosphere": "01-04/atmosphere.webp",
+        "northwest": "01-04/iso-nw.webp",
+        "north": "01-04/north.webp",
+        "south": "01-04/south.webp",
+        "east": "01-04/east.webp",
+        "west": "01-04/west.webp",
+        "roof": "01-04/roof.webp",
+        "street": "01-04/street.webp"
+      },
+      "thumbnail": "01-04/thumbnail.webp",
+      "visible_faces": {
+        "SE": 16772,
+        "NW": 16772,
+        "street": 16772
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "01-05",
+      "title": "Logistics hub",
+      "kind": "plot",
+      "family": "depot",
+      "sector": null,
+      "source_model_sha256": "1c80d0c189535cfc06fcb66c34cde2cbacb32f147c6a0720516fa7e6e6523fcc",
+      "source_positions": 16584,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2004,
+        "L": 2700,
+        "B": 6776,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "01-05/iso-se.webp",
+        "atmosphere": "01-05/atmosphere.webp",
+        "northwest": "01-05/iso-nw.webp",
+        "north": "01-05/north.webp",
+        "south": "01-05/south.webp",
+        "east": "01-05/east.webp",
+        "west": "01-05/west.webp",
+        "roof": "01-05/roof.webp",
+        "street": "01-05/street.webp"
+      },
+      "thumbnail": "01-05/thumbnail.webp",
+      "visible_faces": {
+        "SE": 16618,
+        "NW": 16618,
+        "street": 16618
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "01-06",
+      "title": "Polymer plant",
+      "kind": "plot",
+      "family": "chemistry",
+      "sector": null,
+      "source_model_sha256": "953e2a07edb80b12fd821812a1f219e59c6ab8e37306104b9273d6c7684778df",
+      "source_positions": 21134,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2322,
+        "L": 4522,
+        "B": 9186,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "01-06/iso-se.webp",
+        "atmosphere": "01-06/atmosphere.webp",
+        "northwest": "01-06/iso-nw.webp",
+        "north": "01-06/north.webp",
+        "south": "01-06/south.webp",
+        "east": "01-06/east.webp",
+        "west": "01-06/west.webp",
+        "roof": "01-06/roof.webp",
+        "street": "01-06/street.webp"
+      },
+      "thumbnail": "01-06/thumbnail.webp",
+      "visible_faces": {
+        "SE": 20150,
+        "NW": 20150,
+        "street": 20150
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "01-07",
+      "title": "Oil processing",
+      "kind": "plot",
+      "family": "chemistry",
+      "sector": null,
+      "source_model_sha256": "2a5ff8bedee0b577845ee10131544f5677e26bbaf7e86a62a18e6380b756de2f",
+      "source_positions": 19918,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2146,
+        "L": 4266,
+        "B": 8402,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "01-07/iso-se.webp",
+        "atmosphere": "01-07/atmosphere.webp",
+        "northwest": "01-07/iso-nw.webp",
+        "north": "01-07/north.webp",
+        "south": "01-07/south.webp",
+        "east": "01-07/east.webp",
+        "west": "01-07/west.webp",
+        "roof": "01-07/roof.webp",
+        "street": "01-07/street.webp"
+      },
+      "thumbnail": "01-07/thumbnail.webp",
+      "visible_faces": {
+        "SE": 19062,
+        "NW": 19062,
+        "street": 19062
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "01-08",
+      "title": "Materials laboratory",
+      "kind": "plot",
+      "family": "laboratory",
+      "sector": null,
+      "source_model_sha256": "411fe46cdf5f4dc4ad63c4a09bff301020c85ecd16103d39c8c6580210fc5298",
+      "source_positions": 18505,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 1214,
+        "L": 4086,
+        "B": 6733,
+        "G": 2168,
+        "N": 208
+      },
+      "images": {
+        "isometric": "01-08/iso-se.webp",
+        "atmosphere": "01-08/atmosphere.webp",
+        "northwest": "01-08/iso-nw.webp",
+        "north": "01-08/north.webp",
+        "south": "01-08/south.webp",
+        "east": "01-08/east.webp",
+        "west": "01-08/west.webp",
+        "roof": "01-08/roof.webp",
+        "street": "01-08/street.webp"
+      },
+      "thumbnail": "01-08/thumbnail.webp",
+      "visible_faces": {
+        "SE": 18071,
+        "NW": 18071,
+        "street": 18071
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "01-09",
+      "title": "Electronics lab",
+      "kind": "plot",
+      "family": "laboratory",
+      "sector": null,
+      "source_model_sha256": "b5b2c5fae50a74acdf76b7406f9f2025a91c82e5a67652fce28d935175dfa9c8",
+      "source_positions": 19137,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 1326,
+        "L": 4214,
+        "B": 7125,
+        "G": 2168,
+        "N": 208
+      },
+      "images": {
+        "isometric": "01-09/iso-se.webp",
+        "atmosphere": "01-09/atmosphere.webp",
+        "northwest": "01-09/iso-nw.webp",
+        "north": "01-09/north.webp",
+        "south": "01-09/south.webp",
+        "east": "01-09/east.webp",
+        "west": "01-09/west.webp",
+        "roof": "01-09/roof.webp",
+        "street": "01-09/street.webp"
+      },
+      "thumbnail": "01-09/thumbnail.webp",
+      "visible_faces": {
+        "SE": 18639,
+        "NW": 18639,
+        "street": 18639
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "02-01",
+      "title": "LV ore processing",
+      "kind": "plot",
+      "family": "production",
+      "sector": null,
+      "source_model_sha256": "ad91ebaff05be74280bb13ff0376885f2ac6a68da62ce53ab530fc464d07e30f",
+      "source_positions": 16824,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 1378,
+        "L": 3084,
+        "B": 7258,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "02-01/iso-se.webp",
+        "atmosphere": "02-01/atmosphere.webp",
+        "northwest": "02-01/iso-nw.webp",
+        "north": "02-01/north.webp",
+        "south": "02-01/south.webp",
+        "east": "02-01/east.webp",
+        "west": "02-01/west.webp",
+        "roof": "02-01/roof.webp",
+        "street": "02-01/street.webp"
+      },
+      "thumbnail": "02-01/thumbnail.webp",
+      "visible_faces": {
+        "SE": 16772,
+        "NW": 16772,
+        "street": 16772
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "02-02",
+      "title": "EBF hall",
+      "kind": "plot",
+      "family": "thermal",
+      "sector": null,
+      "source_model_sha256": "d200590b1cdc318424c57a97319e8c481bef4c39aa78acb7b602f727e2127d8f",
+      "source_positions": 20158,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2370,
+        "L": 3498,
+        "B": 9186,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "02-02/iso-se.webp",
+        "atmosphere": "02-02/atmosphere.webp",
+        "northwest": "02-02/iso-nw.webp",
+        "north": "02-02/north.webp",
+        "south": "02-02/south.webp",
+        "east": "02-02/east.webp",
+        "west": "02-02/west.webp",
+        "roof": "02-02/roof.webp",
+        "street": "02-02/street.webp"
+      },
+      "thumbnail": "02-02/thumbnail.webp",
+      "visible_faces": {
+        "SE": 19990,
+        "NW": 19990,
+        "street": 19990
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "02-03",
+      "title": "LV chemistry",
+      "kind": "plot",
+      "family": "chemistry",
+      "sector": null,
+      "source_model_sha256": "744ddb7fd198d42088bec6fc6b162dcf4d8c3ce5eecfaea252be99277e3c5031",
+      "source_positions": 21230,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2418,
+        "L": 4522,
+        "B": 9186,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "02-03/iso-se.webp",
+        "atmosphere": "02-03/atmosphere.webp",
+        "northwest": "02-03/iso-nw.webp",
+        "north": "02-03/north.webp",
+        "south": "02-03/south.webp",
+        "east": "02-03/east.webp",
+        "west": "02-03/west.webp",
+        "roof": "02-03/roof.webp",
+        "street": "02-03/street.webp"
+      },
+      "thumbnail": "02-03/thumbnail.webp",
+      "visible_faces": {
+        "SE": 20246,
+        "NW": 20246,
+        "street": 20246
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "02-04",
+      "title": "LV circuits",
+      "kind": "plot",
+      "family": "laboratory",
+      "sector": null,
+      "source_model_sha256": "a89fa869f86e6690500f8b3f7ce73bfd4c6e88fab93335bc1479840895bdcdea",
+      "source_positions": 17873,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 1102,
+        "L": 3958,
+        "B": 6341,
+        "G": 2168,
+        "N": 208
+      },
+      "images": {
+        "isometric": "02-04/iso-se.webp",
+        "atmosphere": "02-04/atmosphere.webp",
+        "northwest": "02-04/iso-nw.webp",
+        "north": "02-04/north.webp",
+        "south": "02-04/south.webp",
+        "east": "02-04/east.webp",
+        "west": "02-04/west.webp",
+        "roof": "02-04/roof.webp",
+        "street": "02-04/street.webp"
+      },
+      "thumbnail": "02-04/thumbnail.webp",
+      "visible_faces": {
+        "SE": 17503,
+        "NW": 17503,
+        "street": 17503
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "02-05",
+      "title": "Logistics hub",
+      "kind": "plot",
+      "family": "depot",
+      "sector": null,
+      "source_model_sha256": "92bfee79cd5647786e3a4c39ce47a09c3bd0bf99bd73f6667e22eac4e097f789",
+      "source_positions": 16584,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2004,
+        "L": 2700,
+        "B": 6776,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "02-05/iso-se.webp",
+        "atmosphere": "02-05/atmosphere.webp",
+        "northwest": "02-05/iso-nw.webp",
+        "north": "02-05/north.webp",
+        "south": "02-05/south.webp",
+        "east": "02-05/east.webp",
+        "west": "02-05/west.webp",
+        "roof": "02-05/roof.webp",
+        "street": "02-05/street.webp"
+      },
+      "thumbnail": "02-05/thumbnail.webp",
+      "visible_faces": {
+        "SE": 16618,
+        "NW": 16618,
+        "street": 16618
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "02-06",
+      "title": "EV chemistry",
+      "kind": "plot",
+      "family": "chemistry",
+      "sector": null,
+      "source_model_sha256": "8e6d0ac9ce6f0eae88c43cfa23373f140c649a6bfb736b97eb7d3a3e00f79e2f",
+      "source_positions": 21182,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2370,
+        "L": 4522,
+        "B": 9186,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "02-06/iso-se.webp",
+        "atmosphere": "02-06/atmosphere.webp",
+        "northwest": "02-06/iso-nw.webp",
+        "north": "02-06/north.webp",
+        "south": "02-06/south.webp",
+        "east": "02-06/east.webp",
+        "west": "02-06/west.webp",
+        "roof": "02-06/roof.webp",
+        "street": "02-06/street.webp"
+      },
+      "thumbnail": "02-06/thumbnail.webp",
+      "visible_faces": {
+        "SE": 20198,
+        "NW": 20198,
+        "street": 20198
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "02-07",
+      "title": "EV processing",
+      "kind": "plot",
+      "family": "production",
+      "sector": null,
+      "source_model_sha256": "fd18cd95db293b729180f0c486532987e0631823d56e1c6240401e09d92ee67f",
+      "source_positions": 16824,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 1378,
+        "L": 3084,
+        "B": 7258,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "02-07/iso-se.webp",
+        "atmosphere": "02-07/atmosphere.webp",
+        "northwest": "02-07/iso-nw.webp",
+        "north": "02-07/north.webp",
+        "south": "02-07/south.webp",
+        "east": "02-07/east.webp",
+        "west": "02-07/west.webp",
+        "roof": "02-07/roof.webp",
+        "street": "02-07/street.webp"
+      },
+      "thumbnail": "02-07/thumbnail.webp",
+      "visible_faces": {
+        "SE": 16772,
+        "NW": 16772,
+        "street": 16772
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "02-08",
+      "title": "IV chemistry",
+      "kind": "plot",
+      "family": "chemistry",
+      "sector": null,
+      "source_model_sha256": "e355a954188a809d61bd26d948029897158aaeb411bb710fdce2224153aa42be",
+      "source_positions": 20454,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2162,
+        "L": 4394,
+        "B": 8794,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "02-08/iso-se.webp",
+        "atmosphere": "02-08/atmosphere.webp",
+        "northwest": "02-08/iso-nw.webp",
+        "north": "02-08/north.webp",
+        "south": "02-08/south.webp",
+        "east": "02-08/east.webp",
+        "west": "02-08/west.webp",
+        "roof": "02-08/roof.webp",
+        "street": "02-08/street.webp"
+      },
+      "thumbnail": "02-08/thumbnail.webp",
+      "visible_faces": {
+        "SE": 19534,
+        "NW": 19534,
+        "street": 19534
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "02-09",
+      "title": "Platinum line",
+      "kind": "plot",
+      "family": "chemistry",
+      "sector": null,
+      "source_model_sha256": "13a781c1791093b8c3fc8c0f98b540b10da703e76c86f3c219de0963ddb591b7",
+      "source_positions": 21134,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2322,
+        "L": 4522,
+        "B": 9186,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "02-09/iso-se.webp",
+        "atmosphere": "02-09/atmosphere.webp",
+        "northwest": "02-09/iso-nw.webp",
+        "north": "02-09/north.webp",
+        "south": "02-09/south.webp",
+        "east": "02-09/east.webp",
+        "west": "02-09/west.webp",
+        "roof": "02-09/roof.webp",
+        "street": "02-09/street.webp"
+      },
+      "thumbnail": "02-09/thumbnail.webp",
+      "visible_faces": {
+        "SE": 20150,
+        "NW": 20150,
+        "street": 20150
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "03-01",
+      "title": "MV fabrication",
+      "kind": "plot",
+      "family": "production",
+      "sector": null,
+      "source_model_sha256": "716d73749b67992f6063714b0f2730198ebfead97fab5705bca4c2d048dde671",
+      "source_positions": 16824,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 1378,
+        "L": 3084,
+        "B": 7258,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "03-01/iso-se.webp",
+        "atmosphere": "03-01/atmosphere.webp",
+        "northwest": "03-01/iso-nw.webp",
+        "north": "03-01/north.webp",
+        "south": "03-01/south.webp",
+        "east": "03-01/east.webp",
+        "west": "03-01/west.webp",
+        "roof": "03-01/roof.webp",
+        "street": "03-01/street.webp"
+      },
+      "thumbnail": "03-01/thumbnail.webp",
+      "visible_faces": {
+        "SE": 16772,
+        "NW": 16772,
+        "street": 16772
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "03-02",
+      "title": "MV fuel",
+      "kind": "plot",
+      "family": "chemistry",
+      "sector": null,
+      "source_model_sha256": "34b5d98dc9b2637f888206167d6f438f365f6255a63222c25cf6c714b596bef0",
+      "source_positions": 20598,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2306,
+        "L": 4394,
+        "B": 8794,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "03-02/iso-se.webp",
+        "atmosphere": "03-02/atmosphere.webp",
+        "northwest": "03-02/iso-nw.webp",
+        "north": "03-02/north.webp",
+        "south": "03-02/south.webp",
+        "east": "03-02/east.webp",
+        "west": "03-02/west.webp",
+        "roof": "03-02/roof.webp",
+        "street": "03-02/street.webp"
+      },
+      "thumbnail": "03-02/thumbnail.webp",
+      "visible_faces": {
+        "SE": 19678,
+        "NW": 19678,
+        "street": 19678
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "03-03",
+      "title": "MV power",
+      "kind": "plot",
+      "family": "power",
+      "sector": null,
+      "source_model_sha256": "d937e41e73cf68dfd252e05bb357adff1aaaa2c413a380f8180ae8e249e48b30",
+      "source_positions": 21430,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2572,
+        "L": 3712,
+        "B": 10002,
+        "G": 800,
+        "N": 248
+      },
+      "images": {
+        "isometric": "03-03/iso-se.webp",
+        "atmosphere": "03-03/atmosphere.webp",
+        "northwest": "03-03/iso-nw.webp",
+        "north": "03-03/north.webp",
+        "south": "03-03/south.webp",
+        "east": "03-03/east.webp",
+        "west": "03-03/west.webp",
+        "roof": "03-03/roof.webp",
+        "street": "03-03/street.webp"
+      },
+      "thumbnail": "03-03/thumbnail.webp",
+      "visible_faces": {
+        "SE": 21047,
+        "NW": 21047,
+        "street": 21047
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "03-04",
+      "title": "HV fabrication",
+      "kind": "plot",
+      "family": "production",
+      "sector": null,
+      "source_model_sha256": "85fb036a8a913d90dcb5132d32476f95856dc8a977756024d7605780175062b3",
+      "source_positions": 16824,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 1378,
+        "L": 3084,
+        "B": 7258,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "03-04/iso-se.webp",
+        "atmosphere": "03-04/atmosphere.webp",
+        "northwest": "03-04/iso-nw.webp",
+        "north": "03-04/north.webp",
+        "south": "03-04/south.webp",
+        "east": "03-04/east.webp",
+        "west": "03-04/west.webp",
+        "roof": "03-04/roof.webp",
+        "street": "03-04/street.webp"
+      },
+      "thumbnail": "03-04/thumbnail.webp",
+      "visible_faces": {
+        "SE": 16772,
+        "NW": 16772,
+        "street": 16772
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "03-05",
+      "title": "Research gallery",
+      "kind": "plot",
+      "family": "laboratory",
+      "sector": null,
+      "source_model_sha256": "9aad00d2e72a5da1ec1702c6a94976720891e39a8177915723da76b6de66baef",
+      "source_positions": 18505,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 1214,
+        "L": 4086,
+        "B": 6733,
+        "G": 2168,
+        "N": 208
+      },
+      "images": {
+        "isometric": "03-05/iso-se.webp",
+        "atmosphere": "03-05/atmosphere.webp",
+        "northwest": "03-05/iso-nw.webp",
+        "north": "03-05/north.webp",
+        "south": "03-05/south.webp",
+        "east": "03-05/east.webp",
+        "west": "03-05/west.webp",
+        "roof": "03-05/roof.webp",
+        "street": "03-05/street.webp"
+      },
+      "thumbnail": "03-05/thumbnail.webp",
+      "visible_faces": {
+        "SE": 18071,
+        "NW": 18071,
+        "street": 18071
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "03-06",
+      "title": "IV assembly",
+      "kind": "plot",
+      "family": "production",
+      "sector": null,
+      "source_model_sha256": "6bfe9eac738fd66c1748d355763a5cb7945c34fd36da5fd2f33d1e176e5a4205",
+      "source_positions": 17960,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 1602,
+        "L": 3212,
+        "B": 8042,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "03-06/iso-se.webp",
+        "atmosphere": "03-06/atmosphere.webp",
+        "northwest": "03-06/iso-nw.webp",
+        "north": "03-06/north.webp",
+        "south": "03-06/south.webp",
+        "east": "03-06/east.webp",
+        "west": "03-06/west.webp",
+        "roof": "03-06/roof.webp",
+        "street": "03-06/street.webp"
+      },
+      "thumbnail": "03-06/thumbnail.webp",
+      "visible_faces": {
+        "SE": 17876,
+        "NW": 17876,
+        "street": 17876
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "03-07",
+      "title": "LuV chemistry",
+      "kind": "plot",
+      "family": "chemistry",
+      "sector": null,
+      "source_model_sha256": "1205054a644c9e8383d8297e0f884fa58d1e9f882ae8832c710aa6485ef1bcda",
+      "source_positions": 19822,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2050,
+        "L": 4266,
+        "B": 8402,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "03-07/iso-se.webp",
+        "atmosphere": "03-07/atmosphere.webp",
+        "northwest": "03-07/iso-nw.webp",
+        "north": "03-07/north.webp",
+        "south": "03-07/south.webp",
+        "east": "03-07/east.webp",
+        "west": "03-07/west.webp",
+        "roof": "03-07/roof.webp",
+        "street": "03-07/street.webp"
+      },
+      "thumbnail": "03-07/thumbnail.webp",
+      "visible_faces": {
+        "SE": 18966,
+        "NW": 18966,
+        "street": 18966
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "03-08",
+      "title": "ZPM chemistry",
+      "kind": "plot",
+      "family": "chemistry",
+      "sector": null,
+      "source_model_sha256": "832bc3e7432100914a25545daec5ccff0077d1d0971982d5ed0688e20139c0c3",
+      "source_positions": 20502,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2210,
+        "L": 4394,
+        "B": 8794,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "03-08/iso-se.webp",
+        "atmosphere": "03-08/atmosphere.webp",
+        "northwest": "03-08/iso-nw.webp",
+        "north": "03-08/north.webp",
+        "south": "03-08/south.webp",
+        "east": "03-08/east.webp",
+        "west": "03-08/west.webp",
+        "roof": "03-08/roof.webp",
+        "street": "03-08/street.webp"
+      },
+      "thumbnail": "03-08/thumbnail.webp",
+      "visible_faces": {
+        "SE": 19582,
+        "NW": 19582,
+        "street": 19582
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "03-09",
+      "title": "UV reserve",
+      "kind": "plot",
+      "family": "expansion-court",
+      "sector": null,
+      "source_model_sha256": "de4d451e9fb9638ffd11ce3467df98d4f319a7d1b2f19509d59917cccf8325ef",
+      "source_positions": 4660,
+      "source_role_counts": {
+        "L": 1623,
+        "F": 2601,
+        "K": 48,
+        "E": 50,
+        "V": 314,
+        "T": 8,
+        "N": 16
+      },
+      "images": {
+        "isometric": "03-09/iso-se.webp",
+        "atmosphere": "03-09/atmosphere.webp",
+        "northwest": "03-09/iso-nw.webp",
+        "north": "03-09/north.webp",
+        "south": "03-09/south.webp",
+        "east": "03-09/east.webp",
+        "west": "03-09/west.webp",
+        "roof": "03-09/roof.webp",
+        "street": "03-09/street.webp"
+      },
+      "thumbnail": "03-09/thumbnail.webp",
+      "visible_faces": {
+        "SE": 5326,
+        "NW": 5326,
+        "street": 5326
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "04-01",
+      "title": "HV metallurgy",
+      "kind": "plot",
+      "family": "thermal",
+      "sector": null,
+      "source_model_sha256": "79cb4abda25e43093645d635db4f918a9e36ec76c01baa8c1a152fce8e63d286",
+      "source_positions": 19638,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2306,
+        "L": 3434,
+        "B": 8794,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "04-01/iso-se.webp",
+        "atmosphere": "04-01/atmosphere.webp",
+        "northwest": "04-01/iso-nw.webp",
+        "north": "04-01/north.webp",
+        "south": "04-01/south.webp",
+        "east": "04-01/east.webp",
+        "west": "04-01/west.webp",
+        "roof": "04-01/roof.webp",
+        "street": "04-01/street.webp"
+      },
+      "thumbnail": "04-01/thumbnail.webp",
+      "visible_faces": {
+        "SE": 19486,
+        "NW": 19486,
+        "street": 19486
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "04-02",
+      "title": "HV chemistry",
+      "kind": "plot",
+      "family": "chemistry",
+      "sector": null,
+      "source_model_sha256": "e6df606b624c0503f97657a69ce52e0a410ed07ca57f831a253e1cf3bbee09d4",
+      "source_positions": 20454,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2162,
+        "L": 4394,
+        "B": 8794,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "04-02/iso-se.webp",
+        "atmosphere": "04-02/atmosphere.webp",
+        "northwest": "04-02/iso-nw.webp",
+        "north": "04-02/north.webp",
+        "south": "04-02/south.webp",
+        "east": "04-02/east.webp",
+        "west": "04-02/west.webp",
+        "roof": "04-02/roof.webp",
+        "street": "04-02/street.webp"
+      },
+      "thumbnail": "04-02/thumbnail.webp",
+      "visible_faces": {
+        "SE": 19534,
+        "NW": 19534,
+        "street": 19534
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "04-03",
+      "title": "Cleanroom",
+      "kind": "plot",
+      "family": "laboratory",
+      "sector": null,
+      "source_model_sha256": "52db390d554f23bbc10675a6330ac8e914789ea27d17950618db48f5922a06da",
+      "source_positions": 19137,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 1326,
+        "L": 4214,
+        "B": 7125,
+        "G": 2168,
+        "N": 208
+      },
+      "images": {
+        "isometric": "04-03/iso-se.webp",
+        "atmosphere": "04-03/atmosphere.webp",
+        "northwest": "04-03/iso-nw.webp",
+        "north": "04-03/north.webp",
+        "south": "04-03/south.webp",
+        "east": "04-03/east.webp",
+        "west": "04-03/west.webp",
+        "roof": "04-03/roof.webp",
+        "street": "04-03/street.webp"
+      },
+      "thumbnail": "04-03/thumbnail.webp",
+      "visible_faces": {
+        "SE": 18639,
+        "NW": 18639,
+        "street": 18639
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "04-04",
+      "title": "HV reserves",
+      "kind": "plot",
+      "family": "expansion-court",
+      "sector": null,
+      "source_model_sha256": "004eb99e2d4336dfb89349811712bc3628ba8d981f9585629d7d45d26370eb72",
+      "source_positions": 4660,
+      "source_role_counts": {
+        "L": 1623,
+        "F": 2601,
+        "K": 48,
+        "E": 50,
+        "V": 314,
+        "T": 8,
+        "N": 16
+      },
+      "images": {
+        "isometric": "04-04/iso-se.webp",
+        "atmosphere": "04-04/atmosphere.webp",
+        "northwest": "04-04/iso-nw.webp",
+        "north": "04-04/north.webp",
+        "south": "04-04/south.webp",
+        "east": "04-04/east.webp",
+        "west": "04-04/west.webp",
+        "roof": "04-04/roof.webp",
+        "street": "04-04/street.webp"
+      },
+      "thumbnail": "04-04/thumbnail.webp",
+      "visible_faces": {
+        "SE": 5326,
+        "NW": 5326,
+        "street": 5326
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "04-05",
+      "title": "Research gallery",
+      "kind": "plot",
+      "family": "laboratory",
+      "sector": null,
+      "source_model_sha256": "51912022f206c52ecc78dcc6061e4195dfc532ce8747a4e05431b6d554397a09",
+      "source_positions": 18505,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 1214,
+        "L": 4086,
+        "B": 6733,
+        "G": 2168,
+        "N": 208
+      },
+      "images": {
+        "isometric": "04-05/iso-se.webp",
+        "atmosphere": "04-05/atmosphere.webp",
+        "northwest": "04-05/iso-nw.webp",
+        "north": "04-05/north.webp",
+        "south": "04-05/south.webp",
+        "east": "04-05/east.webp",
+        "west": "04-05/west.webp",
+        "roof": "04-05/roof.webp",
+        "street": "04-05/street.webp"
+      },
+      "thumbnail": "04-05/thumbnail.webp",
+      "visible_faces": {
+        "SE": 18071,
+        "NW": 18071,
+        "street": 18071
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "04-06",
+      "title": "Chemistry intake",
+      "kind": "plot",
+      "family": "chemistry",
+      "sector": null,
+      "source_model_sha256": "ed34098f0d5bdda0257f7cd89c2a3eef4a1f40add0d0a26dcdbedcb7ff5073b7",
+      "source_positions": 21086,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2274,
+        "L": 4522,
+        "B": 9186,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "04-06/iso-se.webp",
+        "atmosphere": "04-06/atmosphere.webp",
+        "northwest": "04-06/iso-nw.webp",
+        "north": "04-06/north.webp",
+        "south": "04-06/south.webp",
+        "east": "04-06/east.webp",
+        "west": "04-06/west.webp",
+        "roof": "04-06/roof.webp",
+        "street": "04-06/street.webp"
+      },
+      "thumbnail": "04-06/thumbnail.webp",
+      "visible_faces": {
+        "SE": 20102,
+        "NW": 20102,
+        "street": 20102
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "04-07",
+      "title": "Chemical reactors",
+      "kind": "plot",
+      "family": "chemistry",
+      "sector": null,
+      "source_model_sha256": "b9880744d40e68d0247478b5f590d5a373077f3f6f3faf62a3c320a040a5d5d2",
+      "source_positions": 19870,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2098,
+        "L": 4266,
+        "B": 8402,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "04-07/iso-se.webp",
+        "atmosphere": "04-07/atmosphere.webp",
+        "northwest": "04-07/iso-nw.webp",
+        "north": "04-07/north.webp",
+        "south": "04-07/south.webp",
+        "east": "04-07/east.webp",
+        "west": "04-07/west.webp",
+        "roof": "04-07/roof.webp",
+        "street": "04-07/street.webp"
+      },
+      "thumbnail": "04-07/thumbnail.webp",
+      "visible_faces": {
+        "SE": 19014,
+        "NW": 19014,
+        "street": 19014
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "04-08",
+      "title": "Distillation",
+      "kind": "plot",
+      "family": "chemistry",
+      "sector": null,
+      "source_model_sha256": "a3507b66b2792633884c32c73c6fdbd32479c4946a38b954a183d9713ec84705",
+      "source_positions": 20550,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2258,
+        "L": 4394,
+        "B": 8794,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "04-08/iso-se.webp",
+        "atmosphere": "04-08/atmosphere.webp",
+        "northwest": "04-08/iso-nw.webp",
+        "north": "04-08/north.webp",
+        "south": "04-08/south.webp",
+        "east": "04-08/east.webp",
+        "west": "04-08/west.webp",
+        "roof": "04-08/roof.webp",
+        "street": "04-08/street.webp"
+      },
+      "thumbnail": "04-08/thumbnail.webp",
+      "visible_faces": {
+        "SE": 19630,
+        "NW": 19630,
+        "street": 19630
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "04-09",
+      "title": "Fluid storage",
+      "kind": "plot",
+      "family": "chemistry",
+      "sector": null,
+      "source_model_sha256": "6985a227086964ff872d3f28421b3d81ce020561063c43629b77f2b562cbd8d9",
+      "source_positions": 21230,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2418,
+        "L": 4522,
+        "B": 9186,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "04-09/iso-se.webp",
+        "atmosphere": "04-09/atmosphere.webp",
+        "northwest": "04-09/iso-nw.webp",
+        "north": "04-09/north.webp",
+        "south": "04-09/south.webp",
+        "east": "04-09/east.webp",
+        "west": "04-09/west.webp",
+        "roof": "04-09/roof.webp",
+        "street": "04-09/street.webp"
+      },
+      "thumbnail": "04-09/thumbnail.webp",
+      "visible_faces": {
+        "SE": 20246,
+        "NW": 20246,
+        "street": 20246
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "05-01",
+      "title": "Logistics hub",
+      "kind": "plot",
+      "family": "depot",
+      "sector": null,
+      "source_model_sha256": "d2ab38a8262168d74ee99d01dfeb3b0ba0353b2d90b43824bf8305069b2ff4fa",
+      "source_positions": 16016,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 1892,
+        "L": 2636,
+        "B": 6384,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "05-01/iso-se.webp",
+        "atmosphere": "05-01/atmosphere.webp",
+        "northwest": "05-01/iso-nw.webp",
+        "north": "05-01/north.webp",
+        "south": "05-01/south.webp",
+        "east": "05-01/east.webp",
+        "west": "05-01/west.webp",
+        "roof": "05-01/roof.webp",
+        "street": "05-01/street.webp"
+      },
+      "thumbnail": "05-01/thumbnail.webp",
+      "visible_faces": {
+        "SE": 16066,
+        "NW": 16066,
+        "street": 16066
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "05-02",
+      "title": "Logistics hub",
+      "kind": "plot",
+      "family": "depot",
+      "sector": null,
+      "source_model_sha256": "838fcb848776f0d5634d356d522fc46083bf48bce765a9cdcade469a9c824814",
+      "source_positions": 16584,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2004,
+        "L": 2700,
+        "B": 6776,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "05-02/iso-se.webp",
+        "atmosphere": "05-02/atmosphere.webp",
+        "northwest": "05-02/iso-nw.webp",
+        "north": "05-02/north.webp",
+        "south": "05-02/south.webp",
+        "east": "05-02/east.webp",
+        "west": "05-02/west.webp",
+        "roof": "05-02/roof.webp",
+        "street": "05-02/street.webp"
+      },
+      "thumbnail": "05-02/thumbnail.webp",
+      "visible_faces": {
+        "SE": 16618,
+        "NW": 16618,
+        "street": 16618
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "05-03",
+      "title": "Research gallery",
+      "kind": "plot",
+      "family": "laboratory",
+      "sector": null,
+      "source_model_sha256": "d62bac8f544c16ef6705272e3a77cc6c9bd03b187e5d9e8eab2be535f5953a65",
+      "source_positions": 19137,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 1326,
+        "L": 4214,
+        "B": 7125,
+        "G": 2168,
+        "N": 208
+      },
+      "images": {
+        "isometric": "05-03/iso-se.webp",
+        "atmosphere": "05-03/atmosphere.webp",
+        "northwest": "05-03/iso-nw.webp",
+        "north": "05-03/north.webp",
+        "south": "05-03/south.webp",
+        "east": "05-03/east.webp",
+        "west": "05-03/west.webp",
+        "roof": "05-03/roof.webp",
+        "street": "05-03/street.webp"
+      },
+      "thumbnail": "05-03/thumbnail.webp",
+      "visible_faces": {
+        "SE": 18639,
+        "NW": 18639,
+        "street": 18639
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "05-04",
+      "title": "Research gallery",
+      "kind": "plot",
+      "family": "laboratory",
+      "sector": null,
+      "source_model_sha256": "0999e18818b946b1827075559a740ebc7344e82999373ddae91e5aa2701e9f3b",
+      "source_positions": 17873,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 1102,
+        "L": 3958,
+        "B": 6341,
+        "G": 2168,
+        "N": 208
+      },
+      "images": {
+        "isometric": "05-04/iso-se.webp",
+        "atmosphere": "05-04/atmosphere.webp",
+        "northwest": "05-04/iso-nw.webp",
+        "north": "05-04/north.webp",
+        "south": "05-04/south.webp",
+        "east": "05-04/east.webp",
+        "west": "05-04/west.webp",
+        "roof": "05-04/roof.webp",
+        "street": "05-04/street.webp"
+      },
+      "thumbnail": "05-04/thumbnail.webp",
+      "visible_faces": {
+        "SE": 17503,
+        "NW": 17503,
+        "street": 17503
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "05-05",
+      "title": "HQ + ceremonial plaza",
+      "kind": "plot",
+      "family": "headquarters",
+      "sector": null,
+      "source_model_sha256": "282525d299f38686cf21d3688fcf6b9f0a9eb3502d91598eea43151c57c8ad72",
+      "source_positions": 19946,
+      "source_role_counts": {
+        "F": 3803,
+        "L": 4472,
+        "K": 194,
+        "B": 8745,
+        "s": 12,
+        "E": 50,
+        "V": 314,
+        "T": 8,
+        "N": 97,
+        "G": 2251
+      },
+      "images": {
+        "isometric": "05-05/iso-se.webp",
+        "atmosphere": "05-05/atmosphere.webp",
+        "northwest": "05-05/iso-nw.webp",
+        "north": "05-05/north.webp",
+        "south": "05-05/south.webp",
+        "east": "05-05/east.webp",
+        "west": "05-05/west.webp",
+        "roof": "05-05/roof.webp",
+        "street": "05-05/street.webp"
+      },
+      "thumbnail": "05-05/thumbnail.webp",
+      "visible_faces": {
+        "SE": 19795,
+        "NW": 19803,
+        "street": 19795
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "05-06",
+      "title": "Transit station",
+      "kind": "plot",
+      "family": "transit",
+      "sector": null,
+      "source_model_sha256": "8df9f67eee62b4130c543c543198e00e98f812ca3771043558eb76af2212398b",
+      "source_positions": 16584,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2004,
+        "L": 2700,
+        "B": 6776,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "05-06/iso-se.webp",
+        "atmosphere": "05-06/atmosphere.webp",
+        "northwest": "05-06/iso-nw.webp",
+        "north": "05-06/north.webp",
+        "south": "05-06/south.webp",
+        "east": "05-06/east.webp",
+        "west": "05-06/west.webp",
+        "roof": "05-06/roof.webp",
+        "street": "05-06/street.webp"
+      },
+      "thumbnail": "05-06/thumbnail.webp",
+      "visible_faces": {
+        "SE": 16618,
+        "NW": 16618,
+        "street": 16618
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "05-07",
+      "title": "Public garden",
+      "kind": "plot",
+      "family": "garden",
+      "sector": null,
+      "source_model_sha256": "edebc295c425451b2c0e7c549f9d1b8e7ea4ccf58bc4945520ebe4ac4c8b283f",
+      "source_positions": 5237,
+      "source_role_counts": {
+        "L": 1629,
+        "F": 2601,
+        "K": 162,
+        "E": 100,
+        "Q": 49,
+        "s": 48,
+        "V": 628,
+        "T": 16,
+        "N": 2,
+        "W": 2
+      },
+      "images": {
+        "isometric": "05-07/iso-se.webp",
+        "atmosphere": "05-07/atmosphere.webp",
+        "northwest": "05-07/iso-nw.webp",
+        "north": "05-07/north.webp",
+        "south": "05-07/south.webp",
+        "east": "05-07/east.webp",
+        "west": "05-07/west.webp",
+        "roof": "05-07/roof.webp",
+        "street": "05-07/street.webp"
+      },
+      "thumbnail": "05-07/thumbnail.webp",
+      "visible_faces": {
+        "SE": 6473,
+        "NW": 6473,
+        "street": 6473
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "05-08",
+      "title": "Public garden",
+      "kind": "plot",
+      "family": "garden",
+      "sector": null,
+      "source_model_sha256": "23027aa8801f77d2960917ecaff9601cced7a4e0101f94d39f33657c5aca4a66",
+      "source_positions": 5236,
+      "source_role_counts": {
+        "L": 1645,
+        "F": 2601,
+        "K": 190,
+        "E": 100,
+        "s": 48,
+        "V": 628,
+        "T": 16,
+        "N": 6,
+        "W": 2
+      },
+      "images": {
+        "isometric": "05-08/iso-se.webp",
+        "atmosphere": "05-08/atmosphere.webp",
+        "northwest": "05-08/iso-nw.webp",
+        "north": "05-08/north.webp",
+        "south": "05-08/south.webp",
+        "east": "05-08/east.webp",
+        "west": "05-08/west.webp",
+        "roof": "05-08/roof.webp",
+        "street": "05-08/street.webp"
+      },
+      "thumbnail": "05-08/thumbnail.webp",
+      "visible_faces": {
+        "SE": 6432,
+        "NW": 6432,
+        "street": 6432
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "05-09",
+      "title": "Logistics hub",
+      "kind": "plot",
+      "family": "depot",
+      "sector": null,
+      "source_model_sha256": "82ec1f10e99f1f737653452ebe02c27bd2c54b974a67d2ace059a723d7ee919a",
+      "source_positions": 17152,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2116,
+        "L": 2764,
+        "B": 7168,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "05-09/iso-se.webp",
+        "atmosphere": "05-09/atmosphere.webp",
+        "northwest": "05-09/iso-nw.webp",
+        "north": "05-09/north.webp",
+        "south": "05-09/south.webp",
+        "east": "05-09/east.webp",
+        "west": "05-09/west.webp",
+        "roof": "05-09/roof.webp",
+        "street": "05-09/street.webp"
+      },
+      "thumbnail": "05-09/thumbnail.webp",
+      "visible_faces": {
+        "SE": 17170,
+        "NW": 17170,
+        "street": 17170
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "06-01",
+      "title": "Tree farm",
+      "kind": "plot",
+      "family": "greenhouse",
+      "sector": null,
+      "source_model_sha256": "a795685bfeed1c0d09bfef6d859317777cdf1ba28482fafe254a3d961317fcfb",
+      "source_positions": 16464,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 700,
+        "L": 3674,
+        "B": 645,
+        "G": 7141,
+        "N": 208
+      },
+      "images": {
+        "isometric": "06-01/iso-se.webp",
+        "atmosphere": "06-01/atmosphere.webp",
+        "northwest": "06-01/iso-nw.webp",
+        "north": "06-01/north.webp",
+        "south": "06-01/south.webp",
+        "east": "06-01/east.webp",
+        "west": "06-01/west.webp",
+        "roof": "06-01/roof.webp",
+        "street": "06-01/street.webp"
+      },
+      "thumbnail": "06-01/thumbnail.webp",
+      "visible_faces": {
+        "SE": 17589,
+        "NW": 17573,
+        "street": 17589
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "06-02",
+      "title": "Charcoal production",
+      "kind": "plot",
+      "family": "thermal",
+      "sector": null,
+      "source_model_sha256": "38fe22f632766349b3b52f29bac7957e2ed928e8608192862733c6d3296f6981",
+      "source_positions": 20158,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2370,
+        "L": 3498,
+        "B": 9186,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "06-02/iso-se.webp",
+        "atmosphere": "06-02/atmosphere.webp",
+        "northwest": "06-02/iso-nw.webp",
+        "north": "06-02/north.webp",
+        "south": "06-02/south.webp",
+        "east": "06-02/east.webp",
+        "west": "06-02/west.webp",
+        "roof": "06-02/roof.webp",
+        "street": "06-02/street.webp"
+      },
+      "thumbnail": "06-02/thumbnail.webp",
+      "visible_faces": {
+        "SE": 19990,
+        "NW": 19990,
+        "street": 19990
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "06-03",
+      "title": "CropsNH",
+      "kind": "plot",
+      "family": "greenhouse",
+      "sector": null,
+      "source_model_sha256": "a83871632398900a54e331e39039d26db45d1cc9d708594791bb848f9753a06c",
+      "source_positions": 17728,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 844,
+        "L": 3930,
+        "B": 713,
+        "G": 7937,
+        "N": 208
+      },
+      "images": {
+        "isometric": "06-03/iso-se.webp",
+        "atmosphere": "06-03/atmosphere.webp",
+        "northwest": "06-03/iso-nw.webp",
+        "north": "06-03/north.webp",
+        "south": "06-03/south.webp",
+        "east": "06-03/east.webp",
+        "west": "06-03/west.webp",
+        "roof": "06-03/roof.webp",
+        "street": "06-03/street.webp"
+      },
+      "thumbnail": "06-03/thumbnail.webp",
+      "visible_faces": {
+        "SE": 18869,
+        "NW": 18845,
+        "street": 18869
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "06-04",
+      "title": "Bee apiary",
+      "kind": "plot",
+      "family": "greenhouse",
+      "sector": null,
+      "source_model_sha256": "2c42d7b0ed621035483013a8c1e1b32b5f81f898644b0033ee9096bed0215226",
+      "source_positions": 16464,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 700,
+        "L": 3674,
+        "B": 645,
+        "G": 7141,
+        "N": 208
+      },
+      "images": {
+        "isometric": "06-04/iso-se.webp",
+        "atmosphere": "06-04/atmosphere.webp",
+        "northwest": "06-04/iso-nw.webp",
+        "north": "06-04/north.webp",
+        "south": "06-04/south.webp",
+        "east": "06-04/east.webp",
+        "west": "06-04/west.webp",
+        "roof": "06-04/roof.webp",
+        "street": "06-04/street.webp"
+      },
+      "thumbnail": "06-04/thumbnail.webp",
+      "visible_faces": {
+        "SE": 17589,
+        "NW": 17573,
+        "street": 17589
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "06-05",
+      "title": "Transit station",
+      "kind": "plot",
+      "family": "transit",
+      "sector": null,
+      "source_model_sha256": "d5ce6f436d36d65cb90e055974605f23d4c7141a0ff7ce265876de36b762673b",
+      "source_positions": 16016,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 1892,
+        "L": 2636,
+        "B": 6384,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "06-05/iso-se.webp",
+        "atmosphere": "06-05/atmosphere.webp",
+        "northwest": "06-05/iso-nw.webp",
+        "north": "06-05/north.webp",
+        "south": "06-05/south.webp",
+        "east": "06-05/east.webp",
+        "west": "06-05/west.webp",
+        "roof": "06-05/roof.webp",
+        "street": "06-05/street.webp"
+      },
+      "thumbnail": "06-05/thumbnail.webp",
+      "visible_faces": {
+        "SE": 16066,
+        "NW": 16066,
+        "street": 16066
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "06-06",
+      "title": "HV generation",
+      "kind": "plot",
+      "family": "power",
+      "sector": null,
+      "source_model_sha256": "b43d4e90f947dc3a9534ab6aca58f8c58836dc9e5b64a9cd9fbb92eeb1a973cf",
+      "source_positions": 21430,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2572,
+        "L": 3712,
+        "B": 10002,
+        "G": 800,
+        "N": 248
+      },
+      "images": {
+        "isometric": "06-06/iso-se.webp",
+        "atmosphere": "06-06/atmosphere.webp",
+        "northwest": "06-06/iso-nw.webp",
+        "north": "06-06/north.webp",
+        "south": "06-06/south.webp",
+        "east": "06-06/east.webp",
+        "west": "06-06/west.webp",
+        "roof": "06-06/roof.webp",
+        "street": "06-06/street.webp"
+      },
+      "thumbnail": "06-06/thumbnail.webp",
+      "visible_faces": {
+        "SE": 21047,
+        "NW": 21047,
+        "street": 21047
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "06-07",
+      "title": "EV generation",
+      "kind": "plot",
+      "family": "power",
+      "sector": null,
+      "source_model_sha256": "53e1e216979b5c84d2eada6bff0574075f8ad65ca275d0db0ae26bdfaf22ce2d",
+      "source_positions": 20294,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2348,
+        "L": 3584,
+        "B": 9218,
+        "G": 800,
+        "N": 248
+      },
+      "images": {
+        "isometric": "06-07/iso-se.webp",
+        "atmosphere": "06-07/atmosphere.webp",
+        "northwest": "06-07/iso-nw.webp",
+        "north": "06-07/north.webp",
+        "south": "06-07/south.webp",
+        "east": "06-07/east.webp",
+        "west": "06-07/west.webp",
+        "roof": "06-07/roof.webp",
+        "street": "06-07/street.webp"
+      },
+      "thumbnail": "06-07/thumbnail.webp",
+      "visible_faces": {
+        "SE": 19943,
+        "NW": 19943,
+        "street": 19943
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "06-08",
+      "title": "Battery buffers",
+      "kind": "plot",
+      "family": "power",
+      "sector": null,
+      "source_model_sha256": "daee108c7664611773c258d6448f33d42479990196c26a769b02bac1a236b1c4",
+      "source_positions": 20862,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2460,
+        "L": 3648,
+        "B": 9610,
+        "G": 800,
+        "N": 248
+      },
+      "images": {
+        "isometric": "06-08/iso-se.webp",
+        "atmosphere": "06-08/atmosphere.webp",
+        "northwest": "06-08/iso-nw.webp",
+        "north": "06-08/north.webp",
+        "south": "06-08/south.webp",
+        "east": "06-08/east.webp",
+        "west": "06-08/west.webp",
+        "roof": "06-08/roof.webp",
+        "street": "06-08/street.webp"
+      },
+      "thumbnail": "06-08/thumbnail.webp",
+      "visible_faces": {
+        "SE": 20495,
+        "NW": 20495,
+        "street": 20495
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "06-09",
+      "title": "Control center",
+      "kind": "plot",
+      "family": "laboratory",
+      "sector": null,
+      "source_model_sha256": "d7d9a6550039133146b258c699abfa2636dd7ce95d91a97c04b673a0f8bcc9e1",
+      "source_positions": 19137,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 1326,
+        "L": 4214,
+        "B": 7125,
+        "G": 2168,
+        "N": 208
+      },
+      "images": {
+        "isometric": "06-09/iso-se.webp",
+        "atmosphere": "06-09/atmosphere.webp",
+        "northwest": "06-09/iso-nw.webp",
+        "north": "06-09/north.webp",
+        "south": "06-09/south.webp",
+        "east": "06-09/east.webp",
+        "west": "06-09/west.webp",
+        "roof": "06-09/roof.webp",
+        "street": "06-09/street.webp"
+      },
+      "thumbnail": "06-09/thumbnail.webp",
+      "visible_faces": {
+        "SE": 18639,
+        "NW": 18639,
+        "street": 18639
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "07-01",
+      "title": "Crop processing",
+      "kind": "plot",
+      "family": "production",
+      "sector": null,
+      "source_model_sha256": "e6e25f48713a5437323f92aad5ed321e966fd14450fcc31a6ab725c89c74403d",
+      "source_positions": 16824,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 1378,
+        "L": 3084,
+        "B": 7258,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "07-01/iso-se.webp",
+        "atmosphere": "07-01/atmosphere.webp",
+        "northwest": "07-01/iso-nw.webp",
+        "north": "07-01/north.webp",
+        "south": "07-01/south.webp",
+        "east": "07-01/east.webp",
+        "west": "07-01/west.webp",
+        "roof": "07-01/roof.webp",
+        "street": "07-01/street.webp"
+      },
+      "thumbnail": "07-01/thumbnail.webp",
+      "visible_faces": {
+        "SE": 16772,
+        "NW": 16772,
+        "street": 16772
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "07-02",
+      "title": "Greenhouses",
+      "kind": "plot",
+      "family": "greenhouse",
+      "sector": null,
+      "source_model_sha256": "2a1f3229f63e0bb4a59048bd9f3b2c383fe7e0e9646c76ebc65b8d4239b97a3a",
+      "source_positions": 17096,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 772,
+        "L": 3802,
+        "B": 679,
+        "G": 7539,
+        "N": 208
+      },
+      "images": {
+        "isometric": "07-02/iso-se.webp",
+        "atmosphere": "07-02/atmosphere.webp",
+        "northwest": "07-02/iso-nw.webp",
+        "north": "07-02/north.webp",
+        "south": "07-02/south.webp",
+        "east": "07-02/east.webp",
+        "west": "07-02/west.webp",
+        "roof": "07-02/roof.webp",
+        "street": "07-02/street.webp"
+      },
+      "thumbnail": "07-02/thumbnail.webp",
+      "visible_faces": {
+        "SE": 18229,
+        "NW": 18209,
+        "street": 18229
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "07-03",
+      "title": "Bio feedstocks",
+      "kind": "plot",
+      "family": "greenhouse",
+      "sector": null,
+      "source_model_sha256": "71501871824a1cbf75cc7c0329a190c289f2a9d41d4dd4b72583575e7dd8bb09",
+      "source_positions": 17728,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 844,
+        "L": 3930,
+        "B": 713,
+        "G": 7937,
+        "N": 208
+      },
+      "images": {
+        "isometric": "07-03/iso-se.webp",
+        "atmosphere": "07-03/atmosphere.webp",
+        "northwest": "07-03/iso-nw.webp",
+        "north": "07-03/north.webp",
+        "south": "07-03/south.webp",
+        "east": "07-03/east.webp",
+        "west": "07-03/west.webp",
+        "roof": "07-03/roof.webp",
+        "street": "07-03/street.webp"
+      },
+      "thumbnail": "07-03/thumbnail.webp",
+      "visible_faces": {
+        "SE": 18869,
+        "NW": 18845,
+        "street": 18869
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "07-04",
+      "title": "Food storage",
+      "kind": "plot",
+      "family": "depot",
+      "sector": null,
+      "source_model_sha256": "9bb949c4cab1e43a12b36d9256a0be2cd0911307cb522d3e57869799d3715f25",
+      "source_positions": 16016,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 1892,
+        "L": 2636,
+        "B": 6384,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "07-04/iso-se.webp",
+        "atmosphere": "07-04/atmosphere.webp",
+        "northwest": "07-04/iso-nw.webp",
+        "north": "07-04/north.webp",
+        "south": "07-04/south.webp",
+        "east": "07-04/east.webp",
+        "west": "07-04/west.webp",
+        "roof": "07-04/roof.webp",
+        "street": "07-04/street.webp"
+      },
+      "thumbnail": "07-04/thumbnail.webp",
+      "visible_faces": {
+        "SE": 16066,
+        "NW": 16066,
+        "street": 16066
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "07-05",
+      "title": "Public garden",
+      "kind": "plot",
+      "family": "garden",
+      "sector": null,
+      "source_model_sha256": "069b4d327c636e105fb08bfab1f23fd8031bd437a79ec98e1efdf2de49d60a2e",
+      "source_positions": 5237,
+      "source_role_counts": {
+        "L": 1629,
+        "F": 2601,
+        "K": 162,
+        "E": 100,
+        "Q": 49,
+        "s": 48,
+        "V": 628,
+        "T": 16,
+        "N": 2,
+        "W": 2
+      },
+      "images": {
+        "isometric": "07-05/iso-se.webp",
+        "atmosphere": "07-05/atmosphere.webp",
+        "northwest": "07-05/iso-nw.webp",
+        "north": "07-05/north.webp",
+        "south": "07-05/south.webp",
+        "east": "07-05/east.webp",
+        "west": "07-05/west.webp",
+        "roof": "07-05/roof.webp",
+        "street": "07-05/street.webp"
+      },
+      "thumbnail": "07-05/thumbnail.webp",
+      "visible_faces": {
+        "SE": 6473,
+        "NW": 6473,
+        "street": 6473
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "07-06",
+      "title": "IV generation",
+      "kind": "plot",
+      "family": "power",
+      "sector": null,
+      "source_model_sha256": "e1d266b34b0f253a2eaffcb65a202ef3a3266a027965e27d42bca687a9f54bb4",
+      "source_positions": 21430,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2572,
+        "L": 3712,
+        "B": 10002,
+        "G": 800,
+        "N": 248
+      },
+      "images": {
+        "isometric": "07-06/iso-se.webp",
+        "atmosphere": "07-06/atmosphere.webp",
+        "northwest": "07-06/iso-nw.webp",
+        "north": "07-06/north.webp",
+        "south": "07-06/south.webp",
+        "east": "07-06/east.webp",
+        "west": "07-06/west.webp",
+        "roof": "07-06/roof.webp",
+        "street": "07-06/street.webp"
+      },
+      "thumbnail": "07-06/thumbnail.webp",
+      "visible_faces": {
+        "SE": 21047,
+        "NW": 21047,
+        "street": 21047
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "07-07",
+      "title": "LuV energy",
+      "kind": "plot",
+      "family": "power",
+      "sector": null,
+      "source_model_sha256": "828ba7c46c9d4c03fa1bdbcaf55df376007f7fbf0084deb58037a8eb0bb80041",
+      "source_positions": 20294,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2348,
+        "L": 3584,
+        "B": 9218,
+        "G": 800,
+        "N": 248
+      },
+      "images": {
+        "isometric": "07-07/iso-se.webp",
+        "atmosphere": "07-07/atmosphere.webp",
+        "northwest": "07-07/iso-nw.webp",
+        "north": "07-07/north.webp",
+        "south": "07-07/south.webp",
+        "east": "07-07/east.webp",
+        "west": "07-07/west.webp",
+        "roof": "07-07/roof.webp",
+        "street": "07-07/street.webp"
+      },
+      "thumbnail": "07-07/thumbnail.webp",
+      "visible_faces": {
+        "SE": 19943,
+        "NW": 19943,
+        "street": 19943
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "07-08",
+      "title": "Fusion reserve",
+      "kind": "plot",
+      "family": "expansion-court",
+      "sector": null,
+      "source_model_sha256": "b9cdd32e04597bf439219febd0884161242cc13bd35e584b99e80e6656fc6673",
+      "source_positions": 4660,
+      "source_role_counts": {
+        "L": 1623,
+        "F": 2601,
+        "K": 48,
+        "E": 50,
+        "V": 314,
+        "T": 8,
+        "N": 16
+      },
+      "images": {
+        "isometric": "07-08/iso-se.webp",
+        "atmosphere": "07-08/atmosphere.webp",
+        "northwest": "07-08/iso-nw.webp",
+        "north": "07-08/north.webp",
+        "south": "07-08/south.webp",
+        "east": "07-08/east.webp",
+        "west": "07-08/west.webp",
+        "roof": "07-08/roof.webp",
+        "street": "07-08/street.webp"
+      },
+      "thumbnail": "07-08/thumbnail.webp",
+      "visible_faces": {
+        "SE": 5326,
+        "NW": 5326,
+        "street": 5326
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "07-09",
+      "title": "ZPM generation",
+      "kind": "plot",
+      "family": "power",
+      "sector": null,
+      "source_model_sha256": "bb9475430e8acf988e94d2a8d19a4c2e3bb3dce6f61f14399fbb7e79cfebc24d",
+      "source_positions": 21430,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2572,
+        "L": 3712,
+        "B": 10002,
+        "G": 800,
+        "N": 248
+      },
+      "images": {
+        "isometric": "07-09/iso-se.webp",
+        "atmosphere": "07-09/atmosphere.webp",
+        "northwest": "07-09/iso-nw.webp",
+        "north": "07-09/north.webp",
+        "south": "07-09/south.webp",
+        "east": "07-09/east.webp",
+        "west": "07-09/west.webp",
+        "roof": "07-09/roof.webp",
+        "street": "07-09/street.webp"
+      },
+      "thumbnail": "07-09/thumbnail.webp",
+      "visible_faces": {
+        "SE": 21047,
+        "NW": 21047,
+        "street": 21047
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "08-01",
+      "title": "Advanced bees",
+      "kind": "plot",
+      "family": "greenhouse",
+      "sector": null,
+      "source_model_sha256": "391d8ddacbaf6935cda9e159e46cc97dcd0acf2a114098ea291d2f6ee85e7737",
+      "source_positions": 16464,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 700,
+        "L": 3674,
+        "B": 645,
+        "G": 7141,
+        "N": 208
+      },
+      "images": {
+        "isometric": "08-01/iso-se.webp",
+        "atmosphere": "08-01/atmosphere.webp",
+        "northwest": "08-01/iso-nw.webp",
+        "north": "08-01/north.webp",
+        "south": "08-01/south.webp",
+        "east": "08-01/east.webp",
+        "west": "08-01/west.webp",
+        "roof": "08-01/roof.webp",
+        "street": "08-01/street.webp"
+      },
+      "thumbnail": "08-01/thumbnail.webp",
+      "visible_faces": {
+        "SE": 17589,
+        "NW": 17573,
+        "street": 17589
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "08-02",
+      "title": "Renewables",
+      "kind": "plot",
+      "family": "production",
+      "sector": null,
+      "source_model_sha256": "5e507353e3179d8d74aba787262fb724680d4e1b8efe667a01a64987b23b604e",
+      "source_positions": 17392,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 1490,
+        "L": 3148,
+        "B": 7650,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "08-02/iso-se.webp",
+        "atmosphere": "08-02/atmosphere.webp",
+        "northwest": "08-02/iso-nw.webp",
+        "north": "08-02/north.webp",
+        "south": "08-02/south.webp",
+        "east": "08-02/east.webp",
+        "west": "08-02/west.webp",
+        "roof": "08-02/roof.webp",
+        "street": "08-02/street.webp"
+      },
+      "thumbnail": "08-02/thumbnail.webp",
+      "visible_faces": {
+        "SE": 17324,
+        "NW": 17324,
+        "street": 17324
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "08-03",
+      "title": "Botanical lab",
+      "kind": "plot",
+      "family": "greenhouse",
+      "sector": null,
+      "source_model_sha256": "fba368932437b5839c40e2e4155aea36fa1a1c506f415397645a8c205271ab6f",
+      "source_positions": 17728,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 844,
+        "L": 3930,
+        "B": 713,
+        "G": 7937,
+        "N": 208
+      },
+      "images": {
+        "isometric": "08-03/iso-se.webp",
+        "atmosphere": "08-03/atmosphere.webp",
+        "northwest": "08-03/iso-nw.webp",
+        "north": "08-03/north.webp",
+        "south": "08-03/south.webp",
+        "east": "08-03/east.webp",
+        "west": "08-03/west.webp",
+        "roof": "08-03/roof.webp",
+        "street": "08-03/street.webp"
+      },
+      "thumbnail": "08-03/thumbnail.webp",
+      "visible_faces": {
+        "SE": 18869,
+        "NW": 18845,
+        "street": 18869
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "08-04",
+      "title": "Research gardens",
+      "kind": "plot",
+      "family": "garden",
+      "sector": null,
+      "source_model_sha256": "288c8ff35ca29ffc885563c5167a42aebbe673526d3bc6547cce161d33f2b632",
+      "source_positions": 5237,
+      "source_role_counts": {
+        "L": 1629,
+        "F": 2601,
+        "K": 162,
+        "E": 100,
+        "Q": 49,
+        "s": 48,
+        "V": 628,
+        "T": 16,
+        "N": 2,
+        "W": 2
+      },
+      "images": {
+        "isometric": "08-04/iso-se.webp",
+        "atmosphere": "08-04/atmosphere.webp",
+        "northwest": "08-04/iso-nw.webp",
+        "north": "08-04/north.webp",
+        "south": "08-04/south.webp",
+        "east": "08-04/east.webp",
+        "west": "08-04/west.webp",
+        "roof": "08-04/roof.webp",
+        "street": "08-04/street.webp"
+      },
+      "thumbnail": "08-04/thumbnail.webp",
+      "visible_faces": {
+        "SE": 6473,
+        "NW": 6473,
+        "street": 6473
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "08-05",
+      "title": "Public garden",
+      "kind": "plot",
+      "family": "garden",
+      "sector": null,
+      "source_model_sha256": "9061c5ed3faa04df57bac47b6a1386116ce6eb336f577c4931c52f00d1b921a8",
+      "source_positions": 5236,
+      "source_role_counts": {
+        "L": 1645,
+        "F": 2601,
+        "K": 190,
+        "E": 100,
+        "s": 48,
+        "V": 628,
+        "T": 16,
+        "N": 6,
+        "W": 2
+      },
+      "images": {
+        "isometric": "08-05/iso-se.webp",
+        "atmosphere": "08-05/atmosphere.webp",
+        "northwest": "08-05/iso-nw.webp",
+        "north": "08-05/north.webp",
+        "south": "08-05/south.webp",
+        "east": "08-05/east.webp",
+        "west": "08-05/west.webp",
+        "roof": "08-05/roof.webp",
+        "street": "08-05/street.webp"
+      },
+      "thumbnail": "08-05/thumbnail.webp",
+      "visible_faces": {
+        "SE": 6432,
+        "NW": 6432,
+        "street": 6432
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "08-06",
+      "title": "UV generation",
+      "kind": "plot",
+      "family": "power",
+      "sector": null,
+      "source_model_sha256": "6489bf7a60767d3ea066f6c812f26dff18443ec63d006c4373dc772ae2979330",
+      "source_positions": 21430,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2572,
+        "L": 3712,
+        "B": 10002,
+        "G": 800,
+        "N": 248
+      },
+      "images": {
+        "isometric": "08-06/iso-se.webp",
+        "atmosphere": "08-06/atmosphere.webp",
+        "northwest": "08-06/iso-nw.webp",
+        "north": "08-06/north.webp",
+        "south": "08-06/south.webp",
+        "east": "08-06/east.webp",
+        "west": "08-06/west.webp",
+        "roof": "08-06/roof.webp",
+        "street": "08-06/street.webp"
+      },
+      "thumbnail": "08-06/thumbnail.webp",
+      "visible_faces": {
+        "SE": 21047,
+        "NW": 21047,
+        "street": 21047
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "08-07",
+      "title": "Space materials",
+      "kind": "plot",
+      "family": "production",
+      "sector": null,
+      "source_model_sha256": "4818e7b26fd6a9bccf19195ab6e8b3681060adfdda4afbe9b74ef7f5eba6f821",
+      "source_positions": 16824,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 1378,
+        "L": 3084,
+        "B": 7258,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "08-07/iso-se.webp",
+        "atmosphere": "08-07/atmosphere.webp",
+        "northwest": "08-07/iso-nw.webp",
+        "north": "08-07/north.webp",
+        "south": "08-07/south.webp",
+        "east": "08-07/east.webp",
+        "west": "08-07/west.webp",
+        "roof": "08-07/roof.webp",
+        "street": "08-07/street.webp"
+      },
+      "thumbnail": "08-07/thumbnail.webp",
+      "visible_faces": {
+        "SE": 16772,
+        "NW": 16772,
+        "street": 16772
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "08-08",
+      "title": "UHV reserve",
+      "kind": "plot",
+      "family": "expansion-court",
+      "sector": null,
+      "source_model_sha256": "3ee621a20a44e521a7bfa59dd3b90b36f05f16ebc15062dbd5f35373ee5cc5a3",
+      "source_positions": 4660,
+      "source_role_counts": {
+        "L": 1623,
+        "F": 2601,
+        "K": 48,
+        "E": 50,
+        "V": 314,
+        "T": 8,
+        "N": 16
+      },
+      "images": {
+        "isometric": "08-08/iso-se.webp",
+        "atmosphere": "08-08/atmosphere.webp",
+        "northwest": "08-08/iso-nw.webp",
+        "north": "08-08/north.webp",
+        "south": "08-08/south.webp",
+        "east": "08-08/east.webp",
+        "west": "08-08/west.webp",
+        "roof": "08-08/roof.webp",
+        "street": "08-08/street.webp"
+      },
+      "thumbnail": "08-08/thumbnail.webp",
+      "visible_faces": {
+        "SE": 5326,
+        "NW": 5326,
+        "street": 5326
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "08-09",
+      "title": "Future power",
+      "kind": "plot",
+      "family": "expansion-court",
+      "sector": null,
+      "source_model_sha256": "23c61f7bd5109655e326f0ffa402f831a12649dd1902205d9ec55b4e2456d6b3",
+      "source_positions": 4660,
+      "source_role_counts": {
+        "L": 1623,
+        "F": 2601,
+        "K": 48,
+        "E": 50,
+        "V": 314,
+        "T": 8,
+        "N": 16
+      },
+      "images": {
+        "isometric": "08-09/iso-se.webp",
+        "atmosphere": "08-09/atmosphere.webp",
+        "northwest": "08-09/iso-nw.webp",
+        "north": "08-09/north.webp",
+        "south": "08-09/south.webp",
+        "east": "08-09/east.webp",
+        "west": "08-09/west.webp",
+        "roof": "08-09/roof.webp",
+        "street": "08-09/street.webp"
+      },
+      "thumbnail": "08-09/thumbnail.webp",
+      "visible_faces": {
+        "SE": 5326,
+        "NW": 5326,
+        "street": 5326
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "09-01",
+      "title": "Water recycling",
+      "kind": "plot",
+      "family": "production",
+      "sector": null,
+      "source_model_sha256": "5086c43ed274f37eb45729adb94eb520eee74badac384eab3311c5164de1d965",
+      "source_positions": 16824,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 1378,
+        "L": 3084,
+        "B": 7258,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "09-01/iso-se.webp",
+        "atmosphere": "09-01/atmosphere.webp",
+        "northwest": "09-01/iso-nw.webp",
+        "north": "09-01/north.webp",
+        "south": "09-01/south.webp",
+        "east": "09-01/east.webp",
+        "west": "09-01/west.webp",
+        "roof": "09-01/roof.webp",
+        "street": "09-01/street.webp"
+      },
+      "thumbnail": "09-01/thumbnail.webp",
+      "visible_faces": {
+        "SE": 16772,
+        "NW": 16772,
+        "street": 16772
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "09-02",
+      "title": "Bio reserves",
+      "kind": "plot",
+      "family": "expansion-court",
+      "sector": null,
+      "source_model_sha256": "8ec64fad01f50d534aa0a661fffa4933b94052051e1e31b6382740dc8824fe9c",
+      "source_positions": 4660,
+      "source_role_counts": {
+        "L": 1623,
+        "F": 2601,
+        "K": 48,
+        "E": 50,
+        "V": 314,
+        "T": 8,
+        "N": 16
+      },
+      "images": {
+        "isometric": "09-02/iso-se.webp",
+        "atmosphere": "09-02/atmosphere.webp",
+        "northwest": "09-02/iso-nw.webp",
+        "north": "09-02/north.webp",
+        "south": "09-02/south.webp",
+        "east": "09-02/east.webp",
+        "west": "09-02/west.webp",
+        "roof": "09-02/roof.webp",
+        "street": "09-02/street.webp"
+      },
+      "thumbnail": "09-02/thumbnail.webp",
+      "visible_faces": {
+        "SE": 5326,
+        "NW": 5326,
+        "street": 5326
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "09-03",
+      "title": "Public park",
+      "kind": "plot",
+      "family": "garden",
+      "sector": null,
+      "source_model_sha256": "11478b49a83d65c1300995618ad6dab20a785ef8e853dd6ed85249677dcecbde",
+      "source_positions": 5237,
+      "source_role_counts": {
+        "L": 1629,
+        "F": 2601,
+        "K": 162,
+        "E": 100,
+        "Q": 49,
+        "s": 48,
+        "V": 628,
+        "T": 16,
+        "N": 2,
+        "W": 2
+      },
+      "images": {
+        "isometric": "09-03/iso-se.webp",
+        "atmosphere": "09-03/atmosphere.webp",
+        "northwest": "09-03/iso-nw.webp",
+        "north": "09-03/north.webp",
+        "south": "09-03/south.webp",
+        "east": "09-03/east.webp",
+        "west": "09-03/west.webp",
+        "roof": "09-03/roof.webp",
+        "street": "09-03/street.webp"
+      },
+      "thumbnail": "09-03/thumbnail.webp",
+      "visible_faces": {
+        "SE": 6473,
+        "NW": 6473,
+        "street": 6473
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "09-04",
+      "title": "Future bio",
+      "kind": "plot",
+      "family": "expansion-court",
+      "sector": null,
+      "source_model_sha256": "749d64e48a9254b63d406ad281de91045d35769db06bb21d0e730efe4448ce1e",
+      "source_positions": 4660,
+      "source_role_counts": {
+        "L": 1623,
+        "F": 2601,
+        "K": 48,
+        "E": 50,
+        "V": 314,
+        "T": 8,
+        "N": 16
+      },
+      "images": {
+        "isometric": "09-04/iso-se.webp",
+        "atmosphere": "09-04/atmosphere.webp",
+        "northwest": "09-04/iso-nw.webp",
+        "north": "09-04/north.webp",
+        "south": "09-04/south.webp",
+        "east": "09-04/east.webp",
+        "west": "09-04/west.webp",
+        "roof": "09-04/roof.webp",
+        "street": "09-04/street.webp"
+      },
+      "thumbnail": "09-04/thumbnail.webp",
+      "visible_faces": {
+        "SE": 5326,
+        "NW": 5326,
+        "street": 5326
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "09-05",
+      "title": "Logistics hub",
+      "kind": "plot",
+      "family": "depot",
+      "sector": null,
+      "source_model_sha256": "9751affa50ed4ddebd77864de89e3975b0f887ba5282ad17cc7da58a9d1aceb5",
+      "source_positions": 16584,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2004,
+        "L": 2700,
+        "B": 6776,
+        "G": 800,
+        "N": 208
+      },
+      "images": {
+        "isometric": "09-05/iso-se.webp",
+        "atmosphere": "09-05/atmosphere.webp",
+        "northwest": "09-05/iso-nw.webp",
+        "north": "09-05/north.webp",
+        "south": "09-05/south.webp",
+        "east": "09-05/east.webp",
+        "west": "09-05/west.webp",
+        "roof": "09-05/roof.webp",
+        "street": "09-05/street.webp"
+      },
+      "thumbnail": "09-05/thumbnail.webp",
+      "visible_faces": {
+        "SE": 16618,
+        "NW": 16618,
+        "street": 16618
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "09-06",
+      "title": "Power switchyard",
+      "kind": "plot",
+      "family": "power",
+      "sector": null,
+      "source_model_sha256": "fb92eb7e051483d5e9c4465f8a445ae153fd9cdf6d84ddae1c78eeb15d05c1d0",
+      "source_positions": 21430,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2572,
+        "L": 3712,
+        "B": 10002,
+        "G": 800,
+        "N": 248
+      },
+      "images": {
+        "isometric": "09-06/iso-se.webp",
+        "atmosphere": "09-06/atmosphere.webp",
+        "northwest": "09-06/iso-nw.webp",
+        "north": "09-06/north.webp",
+        "south": "09-06/south.webp",
+        "east": "09-06/east.webp",
+        "west": "09-06/west.webp",
+        "roof": "09-06/roof.webp",
+        "street": "09-06/street.webp"
+      },
+      "thumbnail": "09-06/thumbnail.webp",
+      "visible_faces": {
+        "SE": 21047,
+        "NW": 21047,
+        "street": 21047
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "09-07",
+      "title": "Steam turbine hall",
+      "kind": "plot",
+      "family": "power",
+      "sector": null,
+      "source_model_sha256": "4493c37c56e48e15e3d15c2b2af92c67f7cade3af55d1946bf328b21adf39b32",
+      "source_positions": 20294,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2348,
+        "L": 3584,
+        "B": 9218,
+        "G": 800,
+        "N": 248
+      },
+      "images": {
+        "isometric": "09-07/iso-se.webp",
+        "atmosphere": "09-07/atmosphere.webp",
+        "northwest": "09-07/iso-nw.webp",
+        "north": "09-07/north.webp",
+        "south": "09-07/south.webp",
+        "east": "09-07/east.webp",
+        "west": "09-07/west.webp",
+        "roof": "09-07/roof.webp",
+        "street": "09-07/street.webp"
+      },
+      "thumbnail": "09-07/thumbnail.webp",
+      "visible_faces": {
+        "SE": 19943,
+        "NW": 19943,
+        "street": 19943
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "09-08",
+      "title": "LV generation",
+      "kind": "plot",
+      "family": "power",
+      "sector": null,
+      "source_model_sha256": "7cc0f820b2017b1d6a56fae7a617b15bb8fdee1385419e9fc12594aa668da360",
+      "source_positions": 20862,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2460,
+        "L": 3648,
+        "B": 9610,
+        "G": 800,
+        "N": 248
+      },
+      "images": {
+        "isometric": "09-08/iso-se.webp",
+        "atmosphere": "09-08/atmosphere.webp",
+        "northwest": "09-08/iso-nw.webp",
+        "north": "09-08/north.webp",
+        "south": "09-08/south.webp",
+        "east": "09-08/east.webp",
+        "west": "09-08/west.webp",
+        "roof": "09-08/roof.webp",
+        "street": "09-08/street.webp"
+      },
+      "thumbnail": "09-08/thumbnail.webp",
+      "visible_faces": {
+        "SE": 20495,
+        "NW": 20495,
+        "street": 20495
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "09-09",
+      "title": "MV generation",
+      "kind": "plot",
+      "family": "power",
+      "sector": null,
+      "source_model_sha256": "a7b6da0ea0e006a0c815a1f2931a05fd6855126839a2acd8353002e9ba20436f",
+      "source_positions": 21430,
+      "source_role_counts": {
+        "F": 4096,
+        "K": 2572,
+        "L": 3712,
+        "B": 10002,
+        "G": 800,
+        "N": 248
+      },
+      "images": {
+        "isometric": "09-09/iso-se.webp",
+        "atmosphere": "09-09/atmosphere.webp",
+        "northwest": "09-09/iso-nw.webp",
+        "north": "09-09/north.webp",
+        "south": "09-09/south.webp",
+        "east": "09-09/east.webp",
+        "west": "09-09/west.webp",
+        "roof": "09-09/roof.webp",
+        "street": "09-09/street.webp"
+      },
+      "thumbnail": "09-09/thumbnail.webp",
+      "visible_faces": {
+        "SE": 21047,
+        "NW": 21047,
+        "street": 21047
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "R01",
+      "title": "12-wide street / 48-block finish study",
+      "kind": "module",
+      "family": "civil-finish",
+      "sector": null,
+      "source_model_sha256": "cc1523b37d1890561c3a4a3b8680ae182a005d5b2a1a6c0b7672706e4c4df48d",
+      "source_positions": 2400,
+      "source_role_counts": {
+        "F": 1824,
+        "P": 188,
+        "R": 384,
+        "N": 4
+      },
+      "images": {
+        "isometric": "R01/iso-se.webp",
+        "atmosphere": "R01/atmosphere.webp",
+        "northwest": "R01/iso-nw.webp",
+        "north": "R01/north.webp",
+        "south": "R01/south.webp",
+        "east": "R01/east.webp",
+        "west": "R01/west.webp",
+        "roof": "R01/roof.webp",
+        "street": "R01/street.webp"
+      },
+      "thumbnail": "R01/thumbnail.webp",
+      "visible_faces": {
+        "SE": 636,
+        "NW": 636,
+        "street": 636
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "R02",
+      "title": "12 by 12 junction / unobstructed finish study",
+      "kind": "module",
+      "family": "civil-finish",
+      "sector": null,
+      "source_model_sha256": "536d5ee73d90770cf6daf17ccd52cd30f565e584002f731b42f0ca6fabf37675",
+      "source_positions": 624,
+      "source_role_counts": {
+        "F": 480,
+        "P": 16,
+        "R": 128
+      },
+      "images": {
+        "isometric": "R02/iso-se.webp",
+        "atmosphere": "R02/atmosphere.webp",
+        "northwest": "R02/iso-nw.webp",
+        "north": "R02/north.webp",
+        "south": "R02/south.webp",
+        "east": "R02/east.webp",
+        "west": "R02/west.webp",
+        "roof": "R02/roof.webp",
+        "street": "R02/street.webp"
+      },
+      "thumbnail": "R02/thumbnail.webp",
+      "visible_faces": {
+        "SE": 168,
+        "NW": 168,
+        "street": 168
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "R03",
+      "title": "Under-road service gallery / exact civil crop",
+      "kind": "module",
+      "family": "civil-source",
+      "sector": null,
+      "source_model_sha256": "94a3188639d224c9064a8676fff5a169aae0872c5c4eadd0b11eb3428832ed4c",
+      "source_positions": 1200,
+      "source_role_counts": {
+        "F": 1200
+      },
+      "images": {
+        "isometric": "R03/iso-se.webp",
+        "atmosphere": "R03/atmosphere.webp",
+        "northwest": "R03/iso-nw.webp",
+        "north": "R03/north.webp",
+        "south": "R03/south.webp",
+        "east": "R03/east.webp",
+        "west": "R03/west.webp",
+        "roof": "R03/roof.webp",
+        "street": "R03/street.webp"
+      },
+      "thumbnail": "R03/thumbnail.webp",
+      "visible_faces": {
+        "SE": 324,
+        "NW": 324,
+        "street": 324
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "R04",
+      "title": "M11 stair access / exact civil crop",
+      "kind": "module",
+      "family": "civil-source",
+      "sector": null,
+      "source_model_sha256": "56f8967a39ffc4ebc43a9515ce2706c95f158e1f6c104fb2f0b2b49690ca3709",
+      "source_positions": 2018,
+      "source_role_counts": {
+        "F": 1964,
+        "S": 27,
+        "s": 27
+      },
+      "images": {
+        "isometric": "R04/iso-se.webp",
+        "atmosphere": "R04/atmosphere.webp",
+        "northwest": "R04/iso-nw.webp",
+        "north": "R04/north.webp",
+        "south": "R04/south.webp",
+        "east": "R04/east.webp",
+        "west": "R04/west.webp",
+        "roof": "R04/roof.webp",
+        "street": "R04/street.webp"
+      },
+      "thumbnail": "R04/thumbnail.webp",
+      "visible_faces": {
+        "SE": 1018,
+        "NW": 981,
+        "street": 1018
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "A01",
+      "title": "Civic plaza / clear crossing",
+      "kind": "module",
+      "family": "landscape-furniture",
+      "sector": null,
+      "source_model_sha256": "47724ffd895e8bb9b6dc4a7a202f1953596861b490865bec72614f98aa62b90e",
+      "source_positions": 1372,
+      "source_role_counts": {
+        "F": 324,
+        "L": 332,
+        "K": 80,
+        "E": 64,
+        "V": 556,
+        "T": 16
+      },
+      "images": {
+        "isometric": "A01/iso-se.webp",
+        "atmosphere": "A01/atmosphere.webp",
+        "northwest": "A01/iso-nw.webp",
+        "north": "A01/north.webp",
+        "south": "A01/south.webp",
+        "east": "A01/east.webp",
+        "west": "A01/west.webp",
+        "roof": "A01/roof.webp",
+        "street": "A01/street.webp"
+      },
+      "thumbnail": "A01/thumbnail.webp",
+      "visible_faces": {
+        "SE": 2404,
+        "NW": 2404,
+        "street": 2404
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "A02",
+      "title": "Pocket garden",
+      "kind": "module",
+      "family": "landscape-furniture",
+      "sector": null,
+      "source_model_sha256": "b0311a38608d2b14801d4a058e0b49c76a46f6fb9d093cb5bb3437838ef09103",
+      "source_positions": 1548,
+      "source_role_counts": {
+        "F": 576,
+        "K": 108,
+        "E": 100,
+        "s": 24,
+        "L": 96,
+        "V": 628,
+        "T": 16
+      },
+      "images": {
+        "isometric": "A02/iso-se.webp",
+        "atmosphere": "A02/atmosphere.webp",
+        "northwest": "A02/iso-nw.webp",
+        "north": "A02/north.webp",
+        "south": "A02/south.webp",
+        "east": "A02/east.webp",
+        "west": "A02/west.webp",
+        "roof": "A02/roof.webp",
+        "street": "A02/street.webp"
+      },
+      "thumbnail": "A02/thumbnail.webp",
+      "visible_faces": {
+        "SE": 2670,
+        "NW": 2670,
+        "street": 2670
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "A03",
+      "title": "Entry forecourt and canopy",
+      "kind": "module",
+      "family": "landscape-furniture",
+      "sector": null,
+      "source_model_sha256": "55751b17468e947531043e159eec0d2959f07aac1d22f2f8d01551c320d3e346",
+      "source_positions": 762,
+      "source_role_counts": {
+        "F": 384,
+        "K": 100,
+        "E": 24,
+        "L": 190,
+        "V": 48,
+        "N": 16
+      },
+      "images": {
+        "isometric": "A03/iso-se.webp",
+        "atmosphere": "A03/atmosphere.webp",
+        "northwest": "A03/iso-nw.webp",
+        "north": "A03/north.webp",
+        "south": "A03/south.webp",
+        "east": "A03/east.webp",
+        "west": "A03/west.webp",
+        "roof": "A03/roof.webp",
+        "street": "A03/street.webp"
+      },
+      "thumbnail": "A03/thumbnail.webp",
+      "visible_faces": {
+        "SE": 868,
+        "NW": 868,
+        "street": 868
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "A04",
+      "title": "Garden promenade",
+      "kind": "module",
+      "family": "landscape-furniture",
+      "sector": null,
+      "source_model_sha256": "3b80855246ff5796b109d681bc1f7dc84f8c52c0951d3e8b1532790c8529883d",
+      "source_positions": 581,
+      "source_role_counts": {
+        "F": 384,
+        "K": 58,
+        "E": 27,
+        "L": 54,
+        "V": 54,
+        "N": 2,
+        "W": 2
+      },
+      "images": {
+        "isometric": "A04/iso-se.webp",
+        "atmosphere": "A04/atmosphere.webp",
+        "northwest": "A04/iso-nw.webp",
+        "north": "A04/north.webp",
+        "south": "A04/south.webp",
+        "east": "A04/east.webp",
+        "west": "A04/west.webp",
+        "roof": "A04/roof.webp",
+        "street": "A04/street.webp"
+      },
+      "thumbnail": "A04/thumbnail.webp",
+      "visible_faces": {
+        "SE": 690,
+        "NW": 690,
+        "street": 690
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "A05",
+      "title": "Lamp and bollard bay",
+      "kind": "module",
+      "family": "landscape-furniture",
+      "sector": null,
+      "source_model_sha256": "88467f18554a9c4079b8d3b0e0f88296af4d7be0c06002115ad4bae6088ec479",
+      "source_positions": 44,
+      "source_role_counts": {
+        "F": 32,
+        "K": 5,
+        "L": 4,
+        "N": 2,
+        "W": 1
+      },
+      "images": {
+        "isometric": "A05/iso-se.webp",
+        "atmosphere": "A05/atmosphere.webp",
+        "northwest": "A05/iso-nw.webp",
+        "north": "A05/north.webp",
+        "south": "A05/south.webp",
+        "east": "A05/east.webp",
+        "west": "A05/west.webp",
+        "roof": "A05/roof.webp",
+        "street": "A05/street.webp"
+      },
+      "thumbnail": "A05/thumbnail.webp",
+      "visible_faces": {
+        "SE": 68,
+        "NW": 68,
+        "street": 68
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "A06",
+      "title": "Bench and planter",
+      "kind": "module",
+      "family": "landscape-furniture",
+      "sector": null,
+      "source_model_sha256": "d315d3d1769ac34f1ff08c9fe6e44148851e465efb5f1e75139978070ddb44a8",
+      "source_positions": 180,
+      "source_role_counts": {
+        "F": 64,
+        "K": 28,
+        "E": 18,
+        "s": 12,
+        "L": 22,
+        "V": 36
+      },
+      "images": {
+        "isometric": "A06/iso-se.webp",
+        "atmosphere": "A06/atmosphere.webp",
+        "northwest": "A06/iso-nw.webp",
+        "north": "A06/north.webp",
+        "south": "A06/south.webp",
+        "east": "A06/east.webp",
+        "west": "A06/west.webp",
+        "roof": "A06/roof.webp",
+        "street": "A06/street.webp"
+      },
+      "thumbnail": "A06/thumbnail.webp",
+      "visible_faces": {
+        "SE": 235,
+        "NW": 235,
+        "street": 235
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "A07",
+      "title": "Valier monument",
+      "kind": "module",
+      "family": "landscape-furniture",
+      "sector": null,
+      "source_model_sha256": "3330b0313f7d6eb4e71e766b300c2161a63339c0ca58285ad412a09ef61095a3",
+      "source_positions": 256,
+      "source_role_counts": {
+        "F": 144,
+        "K": 60,
+        "L": 48,
+        "N": 4
+      },
+      "images": {
+        "isometric": "A07/iso-se.webp",
+        "atmosphere": "A07/atmosphere.webp",
+        "northwest": "A07/iso-nw.webp",
+        "north": "A07/north.webp",
+        "south": "A07/south.webp",
+        "east": "A07/east.webp",
+        "west": "A07/west.webp",
+        "roof": "A07/roof.webp",
+        "street": "A07/street.webp"
+      },
+      "thumbnail": "A07/thumbnail.webp",
+      "visible_faces": {
+        "SE": 240,
+        "NW": 240,
+        "street": 240
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "A08",
+      "title": "Wayfinding marker",
+      "kind": "module",
+      "family": "landscape-furniture",
+      "sector": null,
+      "source_model_sha256": "8b040823249181a7847e1b41c87661f77f81c0d07c2bbf293cde86797ab61206",
+      "source_positions": 108,
+      "source_role_counts": {
+        "F": 64,
+        "L": 28,
+        "N": 4,
+        "B": 12
+      },
+      "images": {
+        "isometric": "A08/iso-se.webp",
+        "atmosphere": "A08/atmosphere.webp",
+        "northwest": "A08/iso-nw.webp",
+        "north": "A08/north.webp",
+        "south": "A08/south.webp",
+        "east": "A08/east.webp",
+        "west": "A08/west.webp",
+        "roof": "A08/roof.webp",
+        "street": "A08/street.webp"
+      },
+      "thumbnail": "A08/thumbnail.webp",
+      "visible_faces": {
+        "SE": 128,
+        "NW": 128,
+        "street": 128
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "A09",
+      "title": "Service courtyard",
+      "kind": "module",
+      "family": "landscape-furniture",
+      "sector": null,
+      "source_model_sha256": "95d6efefeff780dced4782e33f78c4f4c1618e4f98d80b42dbe47287bc86e874",
+      "source_positions": 964,
+      "source_role_counts": {
+        "F": 576,
+        "K": 92,
+        "E": 64,
+        "s": 24,
+        "L": 80,
+        "V": 128
+      },
+      "images": {
+        "isometric": "A09/iso-se.webp",
+        "atmosphere": "A09/atmosphere.webp",
+        "northwest": "A09/iso-nw.webp",
+        "north": "A09/north.webp",
+        "south": "A09/south.webp",
+        "east": "A09/east.webp",
+        "west": "A09/west.webp",
+        "roof": "A09/roof.webp",
+        "street": "A09/street.webp"
+      },
+      "thumbnail": "A09/thumbnail.webp",
+      "visible_faces": {
+        "SE": 1146,
+        "NW": 1146,
+        "street": 1146
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "A10",
+      "title": "Open portal and entry gate",
+      "kind": "module",
+      "family": "landscape-furniture",
+      "sector": null,
+      "source_model_sha256": "79c1ebbaa1f28ad5c8151bf1dd0e356471047fa996e240d87868afef0e8755d7",
+      "source_positions": 374,
+      "source_role_counts": {
+        "F": 128,
+        "K": 162,
+        "L": 76,
+        "N": 8
+      },
+      "images": {
+        "isometric": "A10/iso-se.webp",
+        "atmosphere": "A10/atmosphere.webp",
+        "northwest": "A10/iso-nw.webp",
+        "north": "A10/north.webp",
+        "south": "A10/south.webp",
+        "east": "A10/east.webp",
+        "west": "A10/west.webp",
+        "roof": "A10/roof.webp",
+        "street": "A10/street.webp"
+      },
+      "thumbnail": "A10/thumbnail.webp",
+      "visible_faces": {
+        "SE": 318,
+        "NW": 318,
+        "street": 318
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    },
+    {
+      "id": "A11",
+      "title": "Boundary wall and planted edge",
+      "kind": "module",
+      "family": "landscape-furniture",
+      "sector": null,
+      "source_model_sha256": "576d192a58ca4253e71389b4cbc9848e4e22d0d35b34cfdb9aa3467e02961edb",
+      "source_positions": 709,
+      "source_role_counts": {
+        "F": 384,
+        "K": 176,
+        "E": 27,
+        "L": 68,
+        "V": 54
+      },
+      "images": {
+        "isometric": "A11/iso-se.webp",
+        "atmosphere": "A11/atmosphere.webp",
+        "northwest": "A11/iso-nw.webp",
+        "north": "A11/north.webp",
+        "south": "A11/south.webp",
+        "east": "A11/east.webp",
+        "west": "A11/west.webp",
+        "roof": "A11/roof.webp",
+        "street": "A11/street.webp"
+      },
+      "thumbnail": "A11/thumbnail.webp",
+      "visible_faces": {
+        "SE": 748,
+        "NW": 748,
+        "street": 748
+      },
+      "display_policy": "Above-ground Y>=-1 for standard isometrics; R03 gallery/R04 stair cutaways. Elevations and roofs composite actual source rays, including glass cutout. Schematics/layers retain every cell.",
+      "render_policy": "Exact installed16px albedo; cyan #00FFFF/fullbright; oak default inventory tint #48B518. Neutral directional shading. Low-angle atmosphere uses74% saturation, soft ground shadow and illustrative bloom; it is not a game or shader screenshot."
+    }
+  ],
+  "images": 864,
+  "coordinate_convention": "Local northwest origin; +X east, +Z south; civil Y0 = future walkable surface S. World origin, S and rotation unassigned.",
+  "game_screenshots": false
+}

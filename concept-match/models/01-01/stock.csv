@@ -1,0 +1,9 @@
+registry_name,inventory_metadata,items,stacks64,loose,roles
+ExtraUtilities:greenscreen,9,276,4,20,N
+ProjRed|Exploration:projectred.exploration.stone,4,7734,120,54,B
+chisel:nucrete,7,2455,38,23,K
+chisel:nucrete,15,4356,68,4,L
+minecraft:glowstone,0,65,1,1,W
+minecraft:stained_glass,7,760,11,56,G
+minecraft:stone_slab,0,174,2,46,S s
+minecraft:stonebrick,0,12946,202,18,F
