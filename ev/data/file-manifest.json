@@ -1557,7 +1557,7 @@
   },
   "data/browser-checks.json": {
     "bytes": 1005,
-    "sha256": "b095535ab3b4c021b05942dcf7168a5edf8db9fca98fe5b844a393f51fcd836a"
+    "sha256": "c8a848c1f87e284465f4ff56a754a2afbd71e5041f782611cbc70177706af38c"
   },
   "data/checks.json": {
     "bytes": 22223,
@@ -1640,8 +1640,8 @@
     "sha256": "677c403203204eb81a6e2091bbcf24ccbf8f4adc080e5f95fe30480dce4b2673"
   },
   "guide.js": {
-    "bytes": 12409,
-    "sha256": "00e780482a1f9c65ea3358294b2e2a2d3bba4b8ac51a44f797c42344cb465b8a"
+    "bytes": 12645,
+    "sha256": "e9eac1b6edc7e1a999fa3a3ddfb5bb380a7dec432d663a707d81108deaf34a18"
   },
   "images/01-02-EV.png": {
     "bytes": 85560,
