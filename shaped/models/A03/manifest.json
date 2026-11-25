@@ -1,0 +1,83 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "shaped-detail-v1",
+  "id": "A03",
+  "title": "Entry forecourt and canopy",
+  "bounds": [
+    0,
+    -1,
+    0,
+    23,
+    8,
+    15
+  ],
+  "dimensions_x_y_z": [
+    24,
+    10,
+    16
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": "design/concept-match-v1/models/A03.json.gz",
+  "source_model_sha256": "55751b17468e947531043e159eec0d2959f07aac1d22f2f8d01551c320d3e346",
+  "game_tested": false,
+  "occupied_host_positions": 762,
+  "cube_positions": 746,
+  "architecture_shapes": 0,
+  "multipart_hosts": 16,
+  "microparts": 16,
+  "tile_entities": 16,
+  "entities": 0,
+  "model_sha256": "fa0c8c90990061b10e631ca2a3da608e1a5b63db2ee20f01c10b989afeb00983",
+  "schematic": "models/A03/Valier_A03_Shaped_GTNH29.schematic",
+  "schematic_sha256": "26ae0130b78b93592535c86d29504b118a71bc02efae28849cbe3b9f8b2e3d94",
+  "registry_map": {
+    "minecraft:air": 0,
+    "minecraft:stonebrick": 1,
+    "Ztones:tile.bittBlock": 2,
+    "minecraft:dirt": 3,
+    "Ztones:tile.laveBlock": 4,
+    "minecraft:leaves": 5,
+    "ForgeMultipart:block": 6
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "cube",
+      "role": "E",
+      "shape_or_size": "0",
+      "count": 24
+    },
+    {
+      "kind": "cube",
+      "role": "F",
+      "shape_or_size": "0",
+      "count": 384
+    },
+    {
+      "kind": "cube",
+      "role": "K",
+      "shape_or_size": "0",
+      "count": 100
+    },
+    {
+      "kind": "cube",
+      "role": "L",
+      "shape_or_size": "12",
+      "count": 190
+    },
+    {
+      "kind": "cube",
+      "role": "V",
+      "shape_or_size": "4",
+      "count": 48
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 16
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims."
+}

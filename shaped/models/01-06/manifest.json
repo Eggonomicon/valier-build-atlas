@@ -1,0 +1,94 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "shaped-detail-v1",
+  "id": "01-06",
+  "title": "Polymer plant",
+  "bounds": [
+    0,
+    -1,
+    0,
+    63,
+    43,
+    63
+  ],
+  "dimensions_x_y_z": [
+    64,
+    45,
+    64
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": [
+    502,
+    22,
+    565,
+    85
+  ],
+  "source_model": "design/concept-match-v1/models/01-06.json.gz",
+  "source_model_sha256": "953e2a07edb80b12fd821812a1f219e59c6ab8e37306104b9273d6c7684778df",
+  "game_tested": false,
+  "occupied_host_positions": 21134,
+  "cube_positions": 19930,
+  "architecture_shapes": 0,
+  "multipart_hosts": 1204,
+  "microparts": 1204,
+  "tile_entities": 1204,
+  "entities": 0,
+  "model_sha256": "aba78251c7d35389d15097471167125c02e46003988f3e1747c98c3f4a5e861a",
+  "schematic": "models/01-06/Valier_01-06_Shaped_GTNH29.schematic",
+  "schematic_sha256": "a1c7b5509968b1c02097534cd6fc6dd6fe0a3f28e1714f911a203d5e439ece49",
+  "registry_map": {
+    "minecraft:air": 0,
+    "minecraft:stonebrick": 1,
+    "Ztones:tile.bittBlock": 2,
+    "Ztones:tile.laveBlock": 3,
+    "Ztones:tile.korpBlock": 4,
+    "minecraft:stained_glass": 5,
+    "ForgeMultipart:block": 6
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "cube",
+      "role": "B",
+      "shape_or_size": "2",
+      "count": 9186
+    },
+    {
+      "kind": "cube",
+      "role": "F",
+      "shape_or_size": "0",
+      "count": 4096
+    },
+    {
+      "kind": "cube",
+      "role": "G",
+      "shape_or_size": "3",
+      "count": 800
+    },
+    {
+      "kind": "cube",
+      "role": "K",
+      "shape_or_size": "0",
+      "count": 2322
+    },
+    {
+      "kind": "cube",
+      "role": "L",
+      "shape_or_size": "12",
+      "count": 3526
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 208
+    },
+    {
+      "kind": "mcr_face",
+      "role": "L",
+      "shape_or_size": "4",
+      "count": 996
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims."
+}

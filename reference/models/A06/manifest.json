@@ -1,0 +1,91 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "reference-architecture-v1",
+  "id": "A06",
+  "title": "Bench and planter",
+  "bounds": [
+    0,
+    -1,
+    0,
+    7,
+    1,
+    7
+  ],
+  "dimensions_x_y_z": [
+    8,
+    3,
+    8
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": "design/concept-match-v1/models/A06.json.gz",
+  "source_model_sha256": "d315d3d1769ac34f1ff08c9fe6e44148851e465efb5f1e75139978070ddb44a8",
+  "game_tested": false,
+  "occupied_host_positions": 130,
+  "cube_positions": 94,
+  "architecture_shapes": 0,
+  "multipart_hosts": 36,
+  "microparts": 40,
+  "tile_entities": 36,
+  "entities": 0,
+  "model_sha256": "34fd0d3e9dc028d72d21e214e3c0af2dc9c2d30946bbb8b30e7eeee339c9ad34",
+  "schematic": "models/A06/Valier_A06_Shaped_GTNH29.schematic",
+  "schematic_sha256": "c182140ccba30efce02087c250baca79adbcf75160b74b9f77077b5cca0f9366",
+  "registry_map": {
+    "minecraft:air": 0,
+    "chisel:nucrete": 1,
+    "minecraft:dirt": 2,
+    "ForgeMultipart:block": 3,
+    "minecraft:leaves": 4,
+    "minecraft:red_flower": 5
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "cube",
+      "role": "B",
+      "shape_or_size": "7",
+      "count": 18
+    },
+    {
+      "kind": "cube",
+      "role": "E",
+      "shape_or_size": "0",
+      "count": 6
+    },
+    {
+      "kind": "cube",
+      "role": "P",
+      "shape_or_size": "15",
+      "count": 64
+    },
+    {
+      "kind": "cube",
+      "role": "V",
+      "shape_or_size": "4",
+      "count": 4
+    },
+    {
+      "kind": "cube",
+      "role": "f",
+      "shape_or_size": "2",
+      "count": 2
+    },
+    {
+      "kind": "mcr_face",
+      "role": "K",
+      "shape_or_size": "6",
+      "count": 4
+    },
+    {
+      "kind": "mcr_face",
+      "role": "P",
+      "shape_or_size": "2",
+      "count": 36
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims.",
+  "family": "landscape-furniture",
+  "architectural_status": "Explicit reconstruction; static checks and game import pending",
+  "interior_scope": "Architectural floors, entrances and stated stairs; no functional machine/network certification"
+}

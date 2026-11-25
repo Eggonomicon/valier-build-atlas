@@ -1,0 +1,83 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "shaped-detail-v1",
+  "id": "A06",
+  "title": "Bench and planter",
+  "bounds": [
+    0,
+    -1,
+    0,
+    7,
+    2,
+    7
+  ],
+  "dimensions_x_y_z": [
+    8,
+    4,
+    8
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": "design/concept-match-v1/models/A06.json.gz",
+  "source_model_sha256": "d315d3d1769ac34f1ff08c9fe6e44148851e465efb5f1e75139978070ddb44a8",
+  "game_tested": false,
+  "occupied_host_positions": 180,
+  "cube_positions": 180,
+  "architecture_shapes": 0,
+  "multipart_hosts": 0,
+  "microparts": 0,
+  "tile_entities": 0,
+  "entities": 0,
+  "model_sha256": "16ec840e6bfa0ca6f7566a34762b5981236ab45edc2fbd653cb3dc932a48a833",
+  "schematic": "models/A06/Valier_A06_Shaped_GTNH29.schematic",
+  "schematic_sha256": "687b321baaa0a1398263dc11ff63e24c97450639d860b5dac51b08bdff57676a",
+  "registry_map": {
+    "minecraft:air": 0,
+    "minecraft:stonebrick": 1,
+    "Ztones:tile.bittBlock": 2,
+    "minecraft:dirt": 3,
+    "minecraft:stone_slab": 4,
+    "Ztones:tile.laveBlock": 5,
+    "minecraft:leaves": 6
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "cube",
+      "role": "E",
+      "shape_or_size": "0",
+      "count": 18
+    },
+    {
+      "kind": "cube",
+      "role": "F",
+      "shape_or_size": "0",
+      "count": 64
+    },
+    {
+      "kind": "cube",
+      "role": "K",
+      "shape_or_size": "0",
+      "count": 28
+    },
+    {
+      "kind": "cube",
+      "role": "L",
+      "shape_or_size": "12",
+      "count": 22
+    },
+    {
+      "kind": "cube",
+      "role": "V",
+      "shape_or_size": "4",
+      "count": 36
+    },
+    {
+      "kind": "cube",
+      "role": "s",
+      "shape_or_size": "0",
+      "count": 12
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims."
+}

@@ -1,0 +1,876 @@
+{
+  "title": "Installed FMP thin detail specification",
+  "revision": "shaped-detail-v1",
+  "game_tested": false,
+  "status": "Installed bytecode-derived geometry/NBT format specification; not an exported or game-tested structure",
+  "coordinates": "Unit cell X east,Y up,Z south; cell-local0..1. City world origin/surface remain unassigned.",
+  "host_block": {
+    "registry_name": "ForgeMultipart:block",
+    "metadata": 0,
+    "metadata_status": "Single host-block default state; native import/re-import remains untested"
+  },
+  "tile_entity": {
+    "id": "savedMultipart",
+    "fields": {
+      "x": "TAG_Int cell X",
+      "y": "TAG_Int cell Y",
+      "z": "TAG_Int cell Z",
+      "parts": "TAG_List<Compound>"
+    }
+  },
+  "part_nbt_fields": {
+    "id": "TAG_String e.g. mcr_face/mcr_edge/mcr_post",
+    "shape": "TAG_Byte (size_eighths << 4) | local_shape_index",
+    "material": "TAG_String registered micro_material_name, not numeric ID"
+  },
+  "inventory_nbt_fields": {
+    "item": "ForgeMicroblock microblock item; runtime item registry must be confirmed",
+    "tag.mat": "TAG_String micro_material_name",
+    "damage": "(common item class ID <<8) | size_eighths; do not substitute world shape byte"
+  },
+  "materials": [
+    {
+      "role": "B",
+      "title": "Basalt Brick",
+      "registry_name": "ProjRed|Exploration:projectred.exploration.stone",
+      "block_metadata": 4,
+      "micro_material_name": "ProjRed|Exploration:projectred.exploration.stone_4",
+      "emitted_light_static": 0,
+      "eligibility": "Explicit installed registration/integration code present; target runtime material registry and saw recipe not executed",
+      "material_class": "codechicken.microblock.BlockMicroMaterial",
+      "evidence": [
+        {
+          "file": "verification/shaped-detail-v1/mrtjp.projectred.exploration.ExplorationProxy_server$$anonfun$init$4.javap.txt",
+          "lines": [
+            5,
+            18
+          ],
+          "sha256": "2bff40ab407d28177ea4ff818d1b5fa3df3f6c062a16f36f9bf8d41ea2f15171"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.BlockMicroMaterial$.javap.txt",
+          "lines": [
+            24,
+            48
+          ],
+          "sha256": "a8740e6a73ee13ab846ad0754e2229bea25f4d1bf373c67446949f4c63923c2e"
+        }
+      ]
+    },
+    {
+      "role": "K",
+      "title": "Dark Concrete Tiles",
+      "registry_name": "chisel:nucrete",
+      "block_metadata": 7,
+      "micro_material_name": "chisel:nucrete_7",
+      "emitted_light_static": 0,
+      "eligibility": "Explicit installed registration/integration code present; target runtime material registry and saw recipe not executed",
+      "material_class": "codechicken.microblock.BlockMicroMaterial",
+      "evidence": [
+        {
+          "file": "verification/shaped-detail-v1/com.cricketcraft.chisel.api.FMPIMC.javap.txt",
+          "lines": [
+            31,
+            44
+          ],
+          "sha256": "1277e9d72f2f6745732753906db61eb3f6d28da12939dcf3738af38c63b24dc0"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.ConfigContent$$anonfun$handleIMC$1.javap.txt",
+          "lines": [
+            6,
+            39
+          ],
+          "sha256": "455403aa8e034346b0f817b92e7c19caad9d12e4f0caf540807ff6723d4b19b4"
+        },
+        {
+          "file": "verification/concept-match-v1/com.cricketcraft.chisel.api.carving.CarvableHelper.javap.txt",
+          "lines": [
+            454,
+            493
+          ],
+          "sha256": "b9626a9bf0cc83005fc42c3cbd031394913795b04adb41f094cd4bcffa366380"
+        }
+      ]
+    },
+    {
+      "role": "L",
+      "title": "Light Concrete Tiles",
+      "registry_name": "chisel:nucrete",
+      "block_metadata": 15,
+      "micro_material_name": "chisel:nucrete_15",
+      "emitted_light_static": 0,
+      "eligibility": "Explicit installed registration/integration code present; target runtime material registry and saw recipe not executed",
+      "material_class": "codechicken.microblock.BlockMicroMaterial",
+      "evidence": [
+        {
+          "file": "verification/shaped-detail-v1/com.cricketcraft.chisel.api.FMPIMC.javap.txt",
+          "lines": [
+            31,
+            44
+          ],
+          "sha256": "1277e9d72f2f6745732753906db61eb3f6d28da12939dcf3738af38c63b24dc0"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.ConfigContent$$anonfun$handleIMC$1.javap.txt",
+          "lines": [
+            6,
+            39
+          ],
+          "sha256": "455403aa8e034346b0f817b92e7c19caad9d12e4f0caf540807ff6723d4b19b4"
+        },
+        {
+          "file": "verification/concept-match-v1/com.cricketcraft.chisel.api.carving.CarvableHelper.javap.txt",
+          "lines": [
+            454,
+            493
+          ],
+          "sha256": "b9626a9bf0cc83005fc42c3cbd031394913795b04adb41f094cd4bcffa366380"
+        }
+      ]
+    },
+    {
+      "role": "N",
+      "title": "Cyan Lapis Caelestis",
+      "registry_name": "ExtraUtilities:greenscreen",
+      "block_metadata": 9,
+      "micro_material_name": "tile.extrautils:greenscreen_9",
+      "emitted_light_static": 10,
+      "eligibility": "Explicit installed registration/integration code present; target runtime material registry and saw recipe not executed",
+      "material_class": "com.rwtema.extrautils.multipart.FullBrightMicroMaterial",
+      "evidence": [
+        {
+          "file": "verification/shaped-detail-v1/com.rwtema.extrautils.ExtraUtils.javap.txt",
+          "lines": [
+            3891,
+            3897
+          ],
+          "sha256": "fcdbafbe6d8db86b6a1ce9ce783999e6126c2b8aa49f4990b017898f0b06a944"
+        },
+        {
+          "file": "verification/shaped-detail-v1/com.rwtema.extrautils.multipart.RegisterMicroMaterials.javap.txt",
+          "lines": [
+            18,
+            56
+          ],
+          "sha256": "4ebe04993e92b8267041c5d1b696d9d6bc5d88a1d9b1a0d33e0349b26f4ccb6e"
+        },
+        {
+          "file": "verification/shaped-detail-v1/com.rwtema.extrautils.multipart.FullBrightMicroMaterial.javap.txt",
+          "lines": [
+            24,
+            31
+          ],
+          "sha256": "ecbcc6708f8a3e5972506bbbbca960a72c142a981e768c41826282c49d9f2b56"
+        }
+      ]
+    },
+    {
+      "role": "W",
+      "title": "Glowstone",
+      "registry_name": "minecraft:glowstone",
+      "block_metadata": 0,
+      "micro_material_name": "minecraft:glowstone",
+      "emitted_light_static": 15,
+      "eligibility": "Explicit installed registration/integration code present; target runtime material registry and saw recipe not executed",
+      "material_class": "codechicken.microblock.BlockMicroMaterial",
+      "evidence": [
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.DefaultContent$.javap.txt",
+          "lines": [
+            185,
+            192
+          ],
+          "sha256": "8c3976bc50c3c6a8eed0725c03dda848518365dfbbf5c26a668986e0df850fe2"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.DefaultContent$.javap.txt",
+          "lines": [
+            248,
+            258
+          ],
+          "sha256": "8c3976bc50c3c6a8eed0725c03dda848518365dfbbf5c26a668986e0df850fe2"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.DefaultContent$.javap.txt",
+          "lines": [
+            97,
+            104
+          ],
+          "sha256": "8c3976bc50c3c6a8eed0725c03dda848518365dfbbf5c26a668986e0df850fe2"
+        }
+      ]
+    },
+    {
+      "role": "G",
+      "title": "Gray Stained Glass",
+      "registry_name": "minecraft:stained_glass",
+      "block_metadata": 7,
+      "micro_material_name": "minecraft:stained_glass_7",
+      "emitted_light_static": 0,
+      "eligibility": "Explicit installed registration/integration code present; target runtime material registry and saw recipe not executed",
+      "material_class": "codechicken.microblock.BlockMicroMaterial",
+      "evidence": [
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.DefaultContent$.javap.txt",
+          "lines": [
+            185,
+            192
+          ],
+          "sha256": "8c3976bc50c3c6a8eed0725c03dda848518365dfbbf5c26a668986e0df850fe2"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.DefaultContent$.javap.txt",
+          "lines": [
+            248,
+            258
+          ],
+          "sha256": "8c3976bc50c3c6a8eed0725c03dda848518365dfbbf5c26a668986e0df850fe2"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.DefaultContent$.javap.txt",
+          "lines": [
+            97,
+            104
+          ],
+          "sha256": "8c3976bc50c3c6a8eed0725c03dda848518365dfbbf5c26a668986e0df850fe2"
+        }
+      ]
+    },
+    {
+      "role": "D",
+      "title": "White Stained Glass",
+      "registry_name": "minecraft:stained_glass",
+      "block_metadata": 0,
+      "micro_material_name": "minecraft:stained_glass",
+      "emitted_light_static": 0,
+      "eligibility": "Explicit installed registration/integration code present; target runtime material registry and saw recipe not executed",
+      "material_class": "codechicken.microblock.BlockMicroMaterial",
+      "evidence": [
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.DefaultContent$.javap.txt",
+          "lines": [
+            185,
+            192
+          ],
+          "sha256": "8c3976bc50c3c6a8eed0725c03dda848518365dfbbf5c26a668986e0df850fe2"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.DefaultContent$.javap.txt",
+          "lines": [
+            248,
+            258
+          ],
+          "sha256": "8c3976bc50c3c6a8eed0725c03dda848518365dfbbf5c26a668986e0df850fe2"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.DefaultContent$.javap.txt",
+          "lines": [
+            97,
+            104
+          ],
+          "sha256": "8c3976bc50c3c6a8eed0725c03dda848518365dfbbf5c26a668986e0df850fe2"
+        }
+      ]
+    },
+    {
+      "role": "Q",
+      "title": "Clear Glass",
+      "registry_name": "minecraft:glass",
+      "block_metadata": 0,
+      "micro_material_name": "minecraft:glass",
+      "emitted_light_static": 0,
+      "eligibility": "Explicit installed registration/integration code present; target runtime material registry and saw recipe not executed",
+      "material_class": "codechicken.microblock.BlockMicroMaterial",
+      "evidence": [
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.DefaultContent$.javap.txt",
+          "lines": [
+            185,
+            192
+          ],
+          "sha256": "8c3976bc50c3c6a8eed0725c03dda848518365dfbbf5c26a668986e0df850fe2"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.DefaultContent$.javap.txt",
+          "lines": [
+            248,
+            258
+          ],
+          "sha256": "8c3976bc50c3c6a8eed0725c03dda848518365dfbbf5c26a668986e0df850fe2"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.DefaultContent$.javap.txt",
+          "lines": [
+            97,
+            104
+          ],
+          "sha256": "8c3976bc50c3c6a8eed0725c03dda848518365dfbbf5c26a668986e0df850fe2"
+        }
+      ]
+    },
+    {
+      "role": "B_smooth",
+      "title": "Korp2 smooth charcoal",
+      "registry_name": "Ztones:tile.korpBlock",
+      "block_metadata": 2,
+      "micro_material_name": "Ztones:tile.korpBlock_2",
+      "emitted_light_static": 0,
+      "eligibility": "Explicit installed registration/integration code present; target runtime material registry and saw recipe not executed",
+      "material_class": "codechicken.microblock.BlockMicroMaterial",
+      "evidence": [
+        {
+          "file": "verification/shaped-detail-v1/com.riciJak.Ztones.block.BlockZTNS.javap.txt",
+          "lines": [
+            1,
+            21
+          ],
+          "sha256": "6a1b54945e025ed491e7e57f3ded67d05a3b5e510277e08290e9d2217f36d8c9"
+        },
+        {
+          "file": "verification/shaped-detail-v1/com.riciJak.Ztones.block.MBlocks.BlockKorp.javap.txt",
+          "lines": [
+            8,
+            25
+          ],
+          "sha256": "40fa30ef2f6ef1089d8a33ceaeaa1f9679ee864e1e7ee9de2b3a8a15acce3526"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.ConfigContent$$anonfun$load$1.javap.txt",
+          "lines": [
+            5,
+            62
+          ],
+          "sha256": "98575540753c3ff0754644fcc8b000b9717424cffed275a112b0300f4200d424"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.BlockMicroMaterial$.javap.txt",
+          "lines": [
+            24,
+            48
+          ],
+          "sha256": "a8740e6a73ee13ab846ad0754e2229bea25f4d1bf373c67446949f4c63923c2e"
+        }
+      ]
+    },
+    {
+      "role": "K_smooth",
+      "title": "Bitt0 dark frame",
+      "registry_name": "Ztones:tile.bittBlock",
+      "block_metadata": 0,
+      "micro_material_name": "Ztones:tile.bittBlock",
+      "emitted_light_static": 0,
+      "eligibility": "Explicit installed registration/integration code present; target runtime material registry and saw recipe not executed",
+      "material_class": "codechicken.microblock.BlockMicroMaterial",
+      "evidence": [
+        {
+          "file": "verification/shaped-detail-v1/com.riciJak.Ztones.block.BlockZTNS.javap.txt",
+          "lines": [
+            1,
+            21
+          ],
+          "sha256": "6a1b54945e025ed491e7e57f3ded67d05a3b5e510277e08290e9d2217f36d8c9"
+        },
+        {
+          "file": "verification/shaped-detail-v1/com.riciJak.Ztones.block.MBlocks.BlockKorp.javap.txt",
+          "lines": [
+            8,
+            25
+          ],
+          "sha256": "40fa30ef2f6ef1089d8a33ceaeaa1f9679ee864e1e7ee9de2b3a8a15acce3526"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.ConfigContent$$anonfun$load$1.javap.txt",
+          "lines": [
+            5,
+            62
+          ],
+          "sha256": "98575540753c3ff0754644fcc8b000b9717424cffed275a112b0300f4200d424"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.BlockMicroMaterial$.javap.txt",
+          "lines": [
+            24,
+            48
+          ],
+          "sha256": "a8740e6a73ee13ab846ad0754e2229bea25f4d1bf373c67446949f4c63923c2e"
+        }
+      ]
+    },
+    {
+      "role": "L_smooth",
+      "title": "Lave12 pale frame",
+      "registry_name": "Ztones:tile.laveBlock",
+      "block_metadata": 12,
+      "micro_material_name": "Ztones:tile.laveBlock_12",
+      "emitted_light_static": 0,
+      "eligibility": "Explicit installed registration/integration code present; target runtime material registry and saw recipe not executed",
+      "material_class": "codechicken.microblock.BlockMicroMaterial",
+      "evidence": [
+        {
+          "file": "verification/shaped-detail-v1/com.riciJak.Ztones.block.BlockZTNS.javap.txt",
+          "lines": [
+            1,
+            21
+          ],
+          "sha256": "6a1b54945e025ed491e7e57f3ded67d05a3b5e510277e08290e9d2217f36d8c9"
+        },
+        {
+          "file": "verification/shaped-detail-v1/com.riciJak.Ztones.block.MBlocks.BlockKorp.javap.txt",
+          "lines": [
+            8,
+            25
+          ],
+          "sha256": "40fa30ef2f6ef1089d8a33ceaeaa1f9679ee864e1e7ee9de2b3a8a15acce3526"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.ConfigContent$$anonfun$load$1.javap.txt",
+          "lines": [
+            5,
+            62
+          ],
+          "sha256": "98575540753c3ff0754644fcc8b000b9717424cffed275a112b0300f4200d424"
+        },
+        {
+          "file": "verification/shaped-detail-v1/codechicken.microblock.BlockMicroMaterial$.javap.txt",
+          "lines": [
+            24,
+            48
+          ],
+          "sha256": "a8740e6a73ee13ab846ad0754e2229bea25f4d1bf373c67446949f4c63923c2e"
+        }
+      ]
+    },
+    {
+      "role": "white_emitter",
+      "title": "White Lapis Caelestis",
+      "registry_name": "ExtraUtilities:greenscreen",
+      "block_metadata": 0,
+      "micro_material_name": "tile.extrautils:greenscreen",
+      "emitted_light_static": 15,
+      "eligibility": "Explicit installed registration/integration code present; target runtime material registry and saw recipe not executed",
+      "material_class": "com.rwtema.extrautils.multipart.FullBrightMicroMaterial",
+      "evidence": [
+        {
+          "file": "verification/shaped-detail-v1/com.rwtema.extrautils.ExtraUtils.javap.txt",
+          "lines": [
+            3891,
+            3897
+          ],
+          "sha256": "fcdbafbe6d8db86b6a1ce9ce783999e6126c2b8aa49f4990b017898f0b06a944"
+        },
+        {
+          "file": "verification/shaped-detail-v1/com.rwtema.extrautils.multipart.RegisterMicroMaterials.javap.txt",
+          "lines": [
+            18,
+            56
+          ],
+          "sha256": "4ebe04993e92b8267041c5d1b696d9d6bc5d88a1d9b1a0d33e0349b26f4ccb6e"
+        },
+        {
+          "file": "verification/shaped-detail-v1/com.rwtema.extrautils.multipart.FullBrightMicroMaterial.javap.txt",
+          "lines": [
+            24,
+            31
+          ],
+          "sha256": "ecbcc6708f8a3e5972506bbbbca960a72c142a981e768c41826282c49d9f2b56"
+        }
+      ]
+    }
+  ],
+  "current_smooth_palette": {
+    "B": "Ztones:tile.korpBlock_2",
+    "K": "Ztones:tile.bittBlock",
+    "L": "Ztones:tile.laveBlock_12",
+    "P": "chisel:nucrete_15",
+    "N": "tile.extrautils:greenscreen_9",
+    "white_emitter_candidate": "tile.extrautils:greenscreen"
+  },
+  "selection_note": "Current smooth detail selection supersedes rough basalt/nucrete facade candidates. Earlier8 material observations remain as historical/options evidence; no old source model/export is changed.",
+  "covers_1_8": [
+    {
+      "face_index": 0,
+      "side": "bottom / down (-Y)",
+      "part_id": "mcr_face",
+      "size_eighths": 1,
+      "shape_byte": 16,
+      "slot": 0,
+      "bounds_unit_cell_xyz": [
+        0,
+        0,
+        0,
+        1,
+        0.125,
+        1
+      ]
+    },
+    {
+      "face_index": 1,
+      "side": "top / up (+Y)",
+      "part_id": "mcr_face",
+      "size_eighths": 1,
+      "shape_byte": 17,
+      "slot": 1,
+      "bounds_unit_cell_xyz": [
+        0,
+        0.875,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "face_index": 2,
+      "side": "north (-Z)",
+      "part_id": "mcr_face",
+      "size_eighths": 1,
+      "shape_byte": 18,
+      "slot": 2,
+      "bounds_unit_cell_xyz": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0.125
+      ]
+    },
+    {
+      "face_index": 3,
+      "side": "south (+Z)",
+      "part_id": "mcr_face",
+      "size_eighths": 1,
+      "shape_byte": 19,
+      "slot": 3,
+      "bounds_unit_cell_xyz": [
+        0,
+        0,
+        0.875,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "face_index": 4,
+      "side": "west (-X)",
+      "part_id": "mcr_face",
+      "size_eighths": 1,
+      "shape_byte": 20,
+      "slot": 4,
+      "bounds_unit_cell_xyz": [
+        0,
+        0,
+        0,
+        0.125,
+        1,
+        1
+      ]
+    },
+    {
+      "face_index": 5,
+      "side": "east (+X)",
+      "part_id": "mcr_face",
+      "size_eighths": 1,
+      "shape_byte": 21,
+      "slot": 5,
+      "bounds_unit_cell_xyz": [
+        0.875,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "edge_strips_1_8_square": [
+    {
+      "edge_index": 0,
+      "axes_code": "NYN",
+      "notation": "N=low eighth,P=high eighth,X/Y/Z=full length on that axis",
+      "part_id": "mcr_edge",
+      "size_eighths": 1,
+      "shape_byte": 16,
+      "slot": 15,
+      "bounds_unit_cell_xyz": [
+        0,
+        0,
+        0,
+        0.125,
+        1,
+        0.125
+      ]
+    },
+    {
+      "edge_index": 1,
+      "axes_code": "NYP",
+      "notation": "N=low eighth,P=high eighth,X/Y/Z=full length on that axis",
+      "part_id": "mcr_edge",
+      "size_eighths": 1,
+      "shape_byte": 17,
+      "slot": 16,
+      "bounds_unit_cell_xyz": [
+        0,
+        0,
+        0.875,
+        0.125,
+        1,
+        1
+      ]
+    },
+    {
+      "edge_index": 2,
+      "axes_code": "PYN",
+      "notation": "N=low eighth,P=high eighth,X/Y/Z=full length on that axis",
+      "part_id": "mcr_edge",
+      "size_eighths": 1,
+      "shape_byte": 18,
+      "slot": 17,
+      "bounds_unit_cell_xyz": [
+        0.875,
+        0,
+        0,
+        1,
+        1,
+        0.125
+      ]
+    },
+    {
+      "edge_index": 3,
+      "axes_code": "PYP",
+      "notation": "N=low eighth,P=high eighth,X/Y/Z=full length on that axis",
+      "part_id": "mcr_edge",
+      "size_eighths": 1,
+      "shape_byte": 19,
+      "slot": 18,
+      "bounds_unit_cell_xyz": [
+        0.875,
+        0,
+        0.875,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "edge_index": 4,
+      "axes_code": "NNZ",
+      "notation": "N=low eighth,P=high eighth,X/Y/Z=full length on that axis",
+      "part_id": "mcr_edge",
+      "size_eighths": 1,
+      "shape_byte": 20,
+      "slot": 19,
+      "bounds_unit_cell_xyz": [
+        0,
+        0,
+        0,
+        0.125,
+        0.125,
+        1
+      ]
+    },
+    {
+      "edge_index": 5,
+      "axes_code": "PNZ",
+      "notation": "N=low eighth,P=high eighth,X/Y/Z=full length on that axis",
+      "part_id": "mcr_edge",
+      "size_eighths": 1,
+      "shape_byte": 21,
+      "slot": 20,
+      "bounds_unit_cell_xyz": [
+        0.875,
+        0,
+        0,
+        1,
+        0.125,
+        1
+      ]
+    },
+    {
+      "edge_index": 6,
+      "axes_code": "NPZ",
+      "notation": "N=low eighth,P=high eighth,X/Y/Z=full length on that axis",
+      "part_id": "mcr_edge",
+      "size_eighths": 1,
+      "shape_byte": 22,
+      "slot": 21,
+      "bounds_unit_cell_xyz": [
+        0,
+        0.875,
+        0,
+        0.125,
+        1,
+        1
+      ]
+    },
+    {
+      "edge_index": 7,
+      "axes_code": "PPZ",
+      "notation": "N=low eighth,P=high eighth,X/Y/Z=full length on that axis",
+      "part_id": "mcr_edge",
+      "size_eighths": 1,
+      "shape_byte": 23,
+      "slot": 22,
+      "bounds_unit_cell_xyz": [
+        0.875,
+        0.875,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "edge_index": 8,
+      "axes_code": "XNN",
+      "notation": "N=low eighth,P=high eighth,X/Y/Z=full length on that axis",
+      "part_id": "mcr_edge",
+      "size_eighths": 1,
+      "shape_byte": 24,
+      "slot": 23,
+      "bounds_unit_cell_xyz": [
+        0,
+        0,
+        0,
+        1,
+        0.125,
+        0.125
+      ]
+    },
+    {
+      "edge_index": 9,
+      "axes_code": "XPN",
+      "notation": "N=low eighth,P=high eighth,X/Y/Z=full length on that axis",
+      "part_id": "mcr_edge",
+      "size_eighths": 1,
+      "shape_byte": 25,
+      "slot": 24,
+      "bounds_unit_cell_xyz": [
+        0,
+        0.875,
+        0,
+        1,
+        1,
+        0.125
+      ]
+    },
+    {
+      "edge_index": 10,
+      "axes_code": "XNP",
+      "notation": "N=low eighth,P=high eighth,X/Y/Z=full length on that axis",
+      "part_id": "mcr_edge",
+      "size_eighths": 1,
+      "shape_byte": 26,
+      "slot": 25,
+      "bounds_unit_cell_xyz": [
+        0,
+        0,
+        0.875,
+        1,
+        0.125,
+        1
+      ]
+    },
+    {
+      "edge_index": 11,
+      "axes_code": "XPP",
+      "notation": "N=low eighth,P=high eighth,X/Y/Z=full length on that axis",
+      "part_id": "mcr_edge",
+      "size_eighths": 1,
+      "shape_byte": 27,
+      "slot": 26,
+      "bounds_unit_cell_xyz": [
+        0,
+        0.875,
+        0.875,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "centered_posts_1_4_square": [
+    {
+      "axis": "Y",
+      "axis_index": 0,
+      "part_id": "mcr_post",
+      "size_eighths": 2,
+      "shape_byte": 32,
+      "bounds_unit_cell_xyz": [
+        0.375,
+        0,
+        0.375,
+        0.625,
+        1,
+        0.625
+      ]
+    },
+    {
+      "axis": "Z",
+      "axis_index": 1,
+      "part_id": "mcr_post",
+      "size_eighths": 2,
+      "shape_byte": 33,
+      "bounds_unit_cell_xyz": [
+        0.375,
+        0.375,
+        0,
+        0.625,
+        0.625,
+        1
+      ]
+    },
+    {
+      "axis": "X",
+      "axis_index": 2,
+      "part_id": "mcr_post",
+      "size_eighths": 2,
+      "shape_byte": 34,
+      "bounds_unit_cell_xyz": [
+        0,
+        0.375,
+        0.375,
+        1,
+        0.625,
+        0.625
+      ]
+    }
+  ],
+  "supported_sizes": {
+    "face_cover_and_edge": "integer size_eighths1..7; primary saw thinning produces4,2,1 and gluing handles combined sizes",
+    "centered_post": "2,4,6 eighths only, so minimum square width1/4; no1/8 centered post is established"
+  },
+  "post_join_rule": "Installed PostMicroblock.occlusionTest permits different-axis posts in one host cell and rejects same-axis duplicates. Rendering has separate recalcBounds clipping; test final visual/material joint in game.",
+  "cohost_rules": [
+    "One world cell is one ForgeMultipart host containing a parts list; count host cells and parts separately.",
+    "Do not superimpose a microblock host over an ordinary full block or ArchitectureCraft host at the same cell.",
+    "Face/edge slot occupancy and collision/occlusion tests still apply; arbitrary overlapping rectangles are not justified by this catalog.",
+    "Tile emitted light is maximum of part light values, not sum and not proportional to cut volume."
+  ],
+  "native_nbt_format_example": {
+    "id": "savedMultipart",
+    "x": 0,
+    "y": 0,
+    "z": 0,
+    "parts": [
+      {
+        "id": "mcr_post",
+        "shape": 32,
+        "material": "chisel:nucrete_7"
+      },
+      {
+        "id": "mcr_post",
+        "shape": 34,
+        "material": "chisel:nucrete_7"
+      }
+    ]
+  },
+  "portability": {
+    "material_names_saved": true,
+    "numeric_material_ids_required_in_saved_part_nbt": false,
+    "claim": "Name-based NBT schema is statically recoverable without a save. Runtime material registration, generated tile/container loading and editor support need a disposable-game import/re-import test.",
+    "cyan_exception": "Use tile.extrautils:greenscreen_9; registry-derived ExtraUtilities:greenscreen_9 is not the observed custom material registration key."
+  }
+}

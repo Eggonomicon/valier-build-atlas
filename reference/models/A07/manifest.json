@@ -1,0 +1,78 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "reference-architecture-v1",
+  "id": "A07",
+  "title": "Valier monument",
+  "bounds": [
+    0,
+    -1,
+    0,
+    11,
+    5,
+    11
+  ],
+  "dimensions_x_y_z": [
+    12,
+    7,
+    12
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": "design/concept-match-v1/models/A07.json.gz",
+  "source_model_sha256": "3330b0313f7d6eb4e71e766b300c2161a63339c0ca58285ad412a09ef61095a3",
+  "game_tested": false,
+  "occupied_host_positions": 266,
+  "cube_positions": 228,
+  "architecture_shapes": 32,
+  "multipart_hosts": 6,
+  "microparts": 6,
+  "tile_entities": 38,
+  "entities": 0,
+  "model_sha256": "a3753618fc01a0d5fef015c19ae1158ba208d9755c846662c9a3e9be865463ef",
+  "schematic": "models/A07/Valier_A07_Shaped_GTNH29.schematic",
+  "schematic_sha256": "00bb89f5effec9570b3d0d9545b71a4ae40763fbb4cc942118ffeae53f42ed0b",
+  "registry_map": {
+    "minecraft:air": 0,
+    "chisel:nucrete": 1,
+    "Ztones:tile.korpBlock": 2,
+    "ForgeMultipart:block": 3,
+    "ArchitectureCraft:shape": 4
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "architecture",
+      "role": "L",
+      "shape_or_size": "0",
+      "count": 32
+    },
+    {
+      "kind": "cube",
+      "role": "B",
+      "shape_or_size": "7",
+      "count": 60
+    },
+    {
+      "kind": "cube",
+      "role": "M",
+      "shape_or_size": "2",
+      "count": 24
+    },
+    {
+      "kind": "cube",
+      "role": "P",
+      "shape_or_size": "15",
+      "count": 144
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 6
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims.",
+  "family": "landscape-furniture",
+  "architectural_status": "Explicit reconstruction; static checks and game import pending",
+  "interior_scope": "Architectural floors, entrances and stated stairs; no functional machine/network certification"
+}

@@ -1,0 +1,4 @@
+inventory_registry,inventory_metadata,items,scope
+chisel:nucrete,15,16,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"
+chisel:stonebricksmooth,1,128,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"
+minecraft:stonebrick,0,480,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"

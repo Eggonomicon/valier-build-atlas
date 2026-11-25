@@ -1,0 +1,137 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "reference-architecture-v1",
+  "id": "SX02",
+  "title": "Quiet garden and Valier square appearance demonstration",
+  "bounds": [
+    0,
+    -2,
+    0,
+    63,
+    8,
+    63
+  ],
+  "dimensions_x_y_z": [
+    64,
+    11,
+    64
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": "design/concept-match-v1/models/SX02.json.gz",
+  "source_model_sha256": "5a25916fb1303bd528267e2912fc38e75e9e689cc94c94a4d6f112043e8a0226",
+  "game_tested": false,
+  "occupied_host_positions": 5764,
+  "cube_positions": 5499,
+  "architecture_shapes": 56,
+  "multipart_hosts": 209,
+  "microparts": 213,
+  "tile_entities": 265,
+  "entities": 0,
+  "model_sha256": "4cbe9c47ac41ec08381dfe6bfa29b98976f73f0c6166f0a4942dd2d0d783f7bb",
+  "schematic": "models/SX02/Valier_SX02_Shaped_GTNH29.schematic",
+  "schematic_sha256": "85f8702cfcdbaa7f3a1a0505855d5a1d953f69b8a3688dcc4db66386dfcf2155",
+  "registry_map": {
+    "minecraft:air": 0,
+    "Ztones:tile.korpBlock": 1,
+    "chisel:nucrete": 2,
+    "minecraft:water": 3,
+    "minecraft:dirt": 4,
+    "ForgeMultipart:block": 5,
+    "minecraft:red_flower": 6,
+    "minecraft:leaves": 7,
+    "minecraft:log": 8,
+    "ArchitectureCraft:shape": 9
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "architecture",
+      "role": "L",
+      "shape_or_size": "0",
+      "count": 56
+    },
+    {
+      "kind": "cube",
+      "role": "B",
+      "shape_or_size": "7",
+      "count": 96
+    },
+    {
+      "kind": "cube",
+      "role": "E",
+      "shape_or_size": "0",
+      "count": 100
+    },
+    {
+      "kind": "cube",
+      "role": "M",
+      "shape_or_size": "2",
+      "count": 1773
+    },
+    {
+      "kind": "cube",
+      "role": "P",
+      "shape_or_size": "15",
+      "count": 2668
+    },
+    {
+      "kind": "cube",
+      "role": "T",
+      "shape_or_size": "0",
+      "count": 24
+    },
+    {
+      "kind": "cube",
+      "role": "V",
+      "shape_or_size": "4",
+      "count": 328
+    },
+    {
+      "kind": "cube",
+      "role": "f",
+      "shape_or_size": "2",
+      "count": 32
+    },
+    {
+      "kind": "fluid",
+      "role": "a",
+      "shape_or_size": "0",
+      "count": 478
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 13
+    },
+    {
+      "kind": "mcr_face",
+      "role": "K",
+      "shape_or_size": "5",
+      "count": 4
+    },
+    {
+      "kind": "mcr_face",
+      "role": "L",
+      "shape_or_size": "2",
+      "count": 96
+    },
+    {
+      "kind": "mcr_face",
+      "role": "N",
+      "shape_or_size": "2",
+      "count": 4
+    },
+    {
+      "kind": "mcr_face",
+      "role": "P",
+      "shape_or_size": "2",
+      "count": 96
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims.",
+  "family": "concept-detail",
+  "architectural_status": "Explicit reconstruction; static checks and game import pending",
+  "interior_scope": "Architectural floors, entrances and stated stairs; no functional machine/network certification"
+}

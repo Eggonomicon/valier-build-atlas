@@ -1,0 +1,94 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "shaped-detail-v1",
+  "id": "02-03",
+  "title": "LV chemistry",
+  "bounds": [
+    0,
+    -1,
+    0,
+    63,
+    45,
+    63
+  ],
+  "dimensions_x_y_z": [
+    64,
+    47,
+    64
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": [
+    214,
+    118,
+    277,
+    181
+  ],
+  "source_model": "design/concept-match-v1/models/02-03.json.gz",
+  "source_model_sha256": "744ddb7fd198d42088bec6fc6b162dcf4d8c3ce5eecfaea252be99277e3c5031",
+  "game_tested": false,
+  "occupied_host_positions": 21230,
+  "cube_positions": 20026,
+  "architecture_shapes": 0,
+  "multipart_hosts": 1204,
+  "microparts": 1204,
+  "tile_entities": 1204,
+  "entities": 0,
+  "model_sha256": "6e72e624d6507c4538d9666397a6c1f633ad79529679c8bea086b2018ead7921",
+  "schematic": "models/02-03/Valier_02-03_Shaped_GTNH29.schematic",
+  "schematic_sha256": "88a335c79eb285c6a1e0d413c87fdc3993e075bedddfede0a154d0e504193959",
+  "registry_map": {
+    "minecraft:air": 0,
+    "minecraft:stonebrick": 1,
+    "Ztones:tile.bittBlock": 2,
+    "Ztones:tile.laveBlock": 3,
+    "Ztones:tile.korpBlock": 4,
+    "minecraft:stained_glass": 5,
+    "ForgeMultipart:block": 6
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "cube",
+      "role": "B",
+      "shape_or_size": "2",
+      "count": 9186
+    },
+    {
+      "kind": "cube",
+      "role": "F",
+      "shape_or_size": "0",
+      "count": 4096
+    },
+    {
+      "kind": "cube",
+      "role": "G",
+      "shape_or_size": "3",
+      "count": 800
+    },
+    {
+      "kind": "cube",
+      "role": "K",
+      "shape_or_size": "0",
+      "count": 2418
+    },
+    {
+      "kind": "cube",
+      "role": "L",
+      "shape_or_size": "12",
+      "count": 3526
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 208
+    },
+    {
+      "kind": "mcr_face",
+      "role": "L",
+      "shape_or_size": "4",
+      "count": 996
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims."
+}

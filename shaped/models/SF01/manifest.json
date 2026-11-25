@@ -1,0 +1,167 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "shaped-detail-v1",
+  "id": "SF01",
+  "title": "Smooth diagonal facade and thin light detail",
+  "bounds": [
+    0,
+    -1,
+    0,
+    31,
+    24,
+    15
+  ],
+  "dimensions_x_y_z": [
+    32,
+    26,
+    16
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": null,
+  "source_model_sha256": null,
+  "game_tested": false,
+  "occupied_host_positions": 3271,
+  "cube_positions": 2634,
+  "architecture_shapes": 95,
+  "multipart_hosts": 542,
+  "microparts": 542,
+  "tile_entities": 637,
+  "entities": 0,
+  "model_sha256": "db52adb244934449742ea872432d71e1a7010aa4b9f0a676a1fc03b3c37ccd32",
+  "schematic": "models/SF01/Valier_SF01_Shaped_GTNH29.schematic",
+  "schematic_sha256": "80b540fe4617299d00d2dcaa5e9dd0d82336b2c30ba35e8eedda69f0647e6571",
+  "registry_map": {
+    "minecraft:air": 0,
+    "chisel:nucrete": 1,
+    "minecraft:stonebrick": 2,
+    "Ztones:tile.korpBlock": 3,
+    "Ztones:tile.bittBlock": 4,
+    "minecraft:stained_glass": 5,
+    "ForgeMultipart:block": 6,
+    "Ztones:tile.laveBlock": 7,
+    "minecraft:stone_slab": 8,
+    "ArchitectureCraft:shape": 9,
+    "minecraft:dirt": 10,
+    "minecraft:leaves": 11,
+    "minecraft:red_flower": 12
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "architecture",
+      "role": "K",
+      "shape_or_size": "17",
+      "count": 7
+    },
+    {
+      "kind": "architecture",
+      "role": "L",
+      "shape_or_size": "94",
+      "count": 44
+    },
+    {
+      "kind": "architecture",
+      "role": "L",
+      "shape_or_size": "95",
+      "count": 44
+    },
+    {
+      "kind": "cube",
+      "role": "B",
+      "shape_or_size": "2",
+      "count": 1110
+    },
+    {
+      "kind": "cube",
+      "role": "E",
+      "shape_or_size": "0",
+      "count": 8
+    },
+    {
+      "kind": "cube",
+      "role": "F",
+      "shape_or_size": "0",
+      "count": 576
+    },
+    {
+      "kind": "cube",
+      "role": "G",
+      "shape_or_size": "3",
+      "count": 252
+    },
+    {
+      "kind": "cube",
+      "role": "K",
+      "shape_or_size": "0",
+      "count": 126
+    },
+    {
+      "kind": "cube",
+      "role": "L",
+      "shape_or_size": "12",
+      "count": 36
+    },
+    {
+      "kind": "cube",
+      "role": "P",
+      "shape_or_size": "15",
+      "count": 512
+    },
+    {
+      "kind": "cube",
+      "role": "V",
+      "shape_or_size": "4",
+      "count": 4
+    },
+    {
+      "kind": "cube",
+      "role": "f",
+      "shape_or_size": "2",
+      "count": 4
+    },
+    {
+      "kind": "cube",
+      "role": "s",
+      "shape_or_size": "0",
+      "count": 6
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "K",
+      "shape_or_size": "1",
+      "count": 135
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "L",
+      "shape_or_size": "4",
+      "count": 114
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 96
+    },
+    {
+      "kind": "mcr_face",
+      "role": "K",
+      "shape_or_size": "1",
+      "count": 3
+    },
+    {
+      "kind": "mcr_face",
+      "role": "K",
+      "shape_or_size": "2",
+      "count": 192
+    },
+    {
+      "kind": "mcr_face",
+      "role": "W",
+      "shape_or_size": "1",
+      "count": 2
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims."
+}

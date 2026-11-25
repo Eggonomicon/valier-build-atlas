@@ -1,0 +1,8 @@
+kind,role,block_registry,base_metadata,shape_id_or_size_eighths,placed_items_or_parts,quantity_type,source_inventory_metadata
+cube,B,chisel:nucrete,7,7,9,placed item,7
+cube,P,chisel:nucrete,15,15,64,placed item,15
+mcr_face,K,Ztones:tile.bittBlock,0,7,1,cut micropart; not one full block,0
+mcr_face,L,Ztones:tile.laveBlock,12,2,3,cut micropart; not one full block,12
+mcr_face,N,ExtraUtilities:greenscreen,9,1,1,cut micropart; not one full block,9
+mcr_face,W,ExtraUtilities:greenscreen,0,1,5,cut micropart; not one full block,0
+mcr_post,K,Ztones:tile.bittBlock,0,4,3,cut micropart; not one full block,0

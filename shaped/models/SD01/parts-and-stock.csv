@@ -1,0 +1,5 @@
+kind,role,block_registry,base_metadata,shape_id_or_size_eighths,placed_items_or_parts,quantity_type
+architecture,K,Ztones:tile.bittBlock,0,17,7,sawbench shape item
+cube,P,chisel:nucrete,15,15,16,placed item
+mcr_face,K,Ztones:tile.bittBlock,0,1,3,cut micropart; not one full block
+mcr_face,W,ExtraUtilities:greenscreen,0,1,2,cut micropart; not one full block

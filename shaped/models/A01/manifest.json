@@ -1,0 +1,83 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "shaped-detail-v1",
+  "id": "A01",
+  "title": "Civic plaza / clear crossing",
+  "bounds": [
+    0,
+    -1,
+    0,
+    23,
+    9,
+    23
+  ],
+  "dimensions_x_y_z": [
+    24,
+    11,
+    24
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": "design/concept-match-v1/models/A01.json.gz",
+  "source_model_sha256": "47724ffd895e8bb9b6dc4a7a202f1953596861b490865bec72614f98aa62b90e",
+  "game_tested": false,
+  "occupied_host_positions": 1372,
+  "cube_positions": 1372,
+  "architecture_shapes": 0,
+  "multipart_hosts": 0,
+  "microparts": 0,
+  "tile_entities": 0,
+  "entities": 0,
+  "model_sha256": "b4053423270ff849dc2259ebc74f66fdfcff229b2fde9e63b01787c331d1760c",
+  "schematic": "models/A01/Valier_A01_Shaped_GTNH29.schematic",
+  "schematic_sha256": "b53f12681b9725a5d1ce97900b5f6abdd49d87f445f6cf0736efdef44da30f85",
+  "registry_map": {
+    "minecraft:air": 0,
+    "minecraft:stonebrick": 1,
+    "Ztones:tile.laveBlock": 2,
+    "Ztones:tile.bittBlock": 3,
+    "minecraft:dirt": 4,
+    "minecraft:leaves": 5,
+    "minecraft:log": 6
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "cube",
+      "role": "E",
+      "shape_or_size": "0",
+      "count": 64
+    },
+    {
+      "kind": "cube",
+      "role": "F",
+      "shape_or_size": "0",
+      "count": 324
+    },
+    {
+      "kind": "cube",
+      "role": "K",
+      "shape_or_size": "0",
+      "count": 80
+    },
+    {
+      "kind": "cube",
+      "role": "L",
+      "shape_or_size": "12",
+      "count": 332
+    },
+    {
+      "kind": "cube",
+      "role": "T",
+      "shape_or_size": "0",
+      "count": 16
+    },
+    {
+      "kind": "cube",
+      "role": "V",
+      "shape_or_size": "4",
+      "count": 556
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims."
+}

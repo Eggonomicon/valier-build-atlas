@@ -1,0 +1,6 @@
+inventory_registry,inventory_metadata,items,scope
+chisel:nucrete,7,18,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"
+chisel:nucrete,15,64,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"
+minecraft:dirt,0,6,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"
+minecraft:leaves,0,4,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"
+minecraft:red_flower,2,2,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"

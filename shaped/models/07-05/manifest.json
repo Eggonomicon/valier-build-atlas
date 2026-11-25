@@ -1,0 +1,115 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "shaped-detail-v1",
+  "id": "07-05",
+  "title": "Public garden",
+  "bounds": [
+    0,
+    -1,
+    0,
+    63,
+    9,
+    63
+  ],
+  "dimensions_x_y_z": [
+    64,
+    11,
+    64
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": [
+    406,
+    598,
+    469,
+    661
+  ],
+  "source_model": "design/concept-match-v1/models/07-05.json.gz",
+  "source_model_sha256": "069b4d327c636e105fb08bfab1f23fd8031bd437a79ec98e1efdf2de49d60a2e",
+  "game_tested": false,
+  "occupied_host_positions": 5237,
+  "cube_positions": 5233,
+  "architecture_shapes": 0,
+  "multipart_hosts": 4,
+  "microparts": 4,
+  "tile_entities": 4,
+  "entities": 0,
+  "model_sha256": "c6a661d36eeed5afe0a8a848bf026737aea691372447ece8fbdf3e828ba32fc9",
+  "schematic": "models/07-05/Valier_07-05_Shaped_GTNH29.schematic",
+  "schematic_sha256": "a2faf54bad1cfae1f0dde842ca4ff6841251e486b57205b8bfff39b146c35a79",
+  "registry_map": {
+    "minecraft:air": 0,
+    "Ztones:tile.laveBlock": 1,
+    "minecraft:stonebrick": 2,
+    "Ztones:tile.bittBlock": 3,
+    "minecraft:dirt": 4,
+    "minecraft:glass": 5,
+    "minecraft:stone_slab": 6,
+    "minecraft:leaves": 7,
+    "minecraft:log": 8,
+    "ForgeMultipart:block": 9
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "cube",
+      "role": "E",
+      "shape_or_size": "0",
+      "count": 100
+    },
+    {
+      "kind": "cube",
+      "role": "F",
+      "shape_or_size": "0",
+      "count": 2601
+    },
+    {
+      "kind": "cube",
+      "role": "K",
+      "shape_or_size": "0",
+      "count": 162
+    },
+    {
+      "kind": "cube",
+      "role": "L",
+      "shape_or_size": "12",
+      "count": 1629
+    },
+    {
+      "kind": "cube",
+      "role": "Q",
+      "shape_or_size": "0",
+      "count": 49
+    },
+    {
+      "kind": "cube",
+      "role": "T",
+      "shape_or_size": "0",
+      "count": 16
+    },
+    {
+      "kind": "cube",
+      "role": "V",
+      "shape_or_size": "4",
+      "count": 628
+    },
+    {
+      "kind": "cube",
+      "role": "s",
+      "shape_or_size": "0",
+      "count": 48
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 2
+    },
+    {
+      "kind": "mcr_face",
+      "role": "W",
+      "shape_or_size": "1",
+      "count": 2
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims."
+}

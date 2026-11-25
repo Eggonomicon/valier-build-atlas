@@ -1,0 +1,4 @@
+kind,role,block_registry,base_metadata,shape_id_or_size_eighths,placed_items_or_parts,quantity_type,source_inventory_metadata
+cube,F,minecraft:stonebrick,0,0,480,placed item,0
+cube,P,chisel:nucrete,15,15,16,placed item,15
+cube,R,chisel:stonebricksmooth,1,1,128,placed item,1

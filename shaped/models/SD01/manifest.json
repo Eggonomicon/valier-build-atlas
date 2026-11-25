@@ -1,0 +1,68 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "shaped-detail-v1",
+  "id": "SD01",
+  "title": "Slim round-pole LED street lamp",
+  "bounds": [
+    0,
+    -1,
+    0,
+    3,
+    7,
+    3
+  ],
+  "dimensions_x_y_z": [
+    4,
+    9,
+    4
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": null,
+  "source_model_sha256": null,
+  "game_tested": false,
+  "occupied_host_positions": 28,
+  "cube_positions": 16,
+  "architecture_shapes": 7,
+  "multipart_hosts": 5,
+  "microparts": 5,
+  "tile_entities": 12,
+  "entities": 0,
+  "model_sha256": "08d4ead6d7e92c6ead2837fd5e9ac89bb8b67705c8b1477e95259b763610c17c",
+  "schematic": "models/SD01/Valier_SD01_Shaped_GTNH29.schematic",
+  "schematic_sha256": "a463b8126a5d5c0779abf1f5471ab25a4b7257bee96f7207e1ef630676518bfb",
+  "registry_map": {
+    "minecraft:air": 0,
+    "chisel:nucrete": 1,
+    "ArchitectureCraft:shape": 2,
+    "ForgeMultipart:block": 3
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "architecture",
+      "role": "K",
+      "shape_or_size": "17",
+      "count": 7
+    },
+    {
+      "kind": "cube",
+      "role": "P",
+      "shape_or_size": "15",
+      "count": 16
+    },
+    {
+      "kind": "mcr_face",
+      "role": "K",
+      "shape_or_size": "1",
+      "count": 3
+    },
+    {
+      "kind": "mcr_face",
+      "role": "W",
+      "shape_or_size": "1",
+      "count": 2
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims."
+}

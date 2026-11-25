@@ -1,0 +1,3 @@
+inventory_registry,inventory_metadata,items,scope
+minecraft:stone_slab,0,54,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"
+minecraft:stonebrick,0,1964,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"

@@ -1,0 +1,75 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "shaped-detail-v1",
+  "id": "A05",
+  "title": "Lamp and bollard bay",
+  "bounds": [
+    0,
+    -1,
+    0,
+    3,
+    6,
+    7
+  ],
+  "dimensions_x_y_z": [
+    4,
+    8,
+    8
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": "design/concept-match-v1/models/A05.json.gz",
+  "source_model_sha256": "88467f18554a9c4079b8d3b0e0f88296af4d7be0c06002115ad4bae6088ec479",
+  "game_tested": false,
+  "occupied_host_positions": 44,
+  "cube_positions": 41,
+  "architecture_shapes": 0,
+  "multipart_hosts": 3,
+  "microparts": 3,
+  "tile_entities": 3,
+  "entities": 0,
+  "model_sha256": "de5129397f69aa5f6fbf1dcb5121cc42f5d4cc6a123bb9195a2dd590f36bed03",
+  "schematic": "models/A05/Valier_A05_Shaped_GTNH29.schematic",
+  "schematic_sha256": "a6c83422bab9a5c3c64c9d2d404881bfce0308e1fabe3097d23b614a9a9bdb60",
+  "registry_map": {
+    "minecraft:air": 0,
+    "minecraft:stonebrick": 1,
+    "Ztones:tile.bittBlock": 2,
+    "Ztones:tile.laveBlock": 3,
+    "ForgeMultipart:block": 4
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "cube",
+      "role": "F",
+      "shape_or_size": "0",
+      "count": 32
+    },
+    {
+      "kind": "cube",
+      "role": "K",
+      "shape_or_size": "0",
+      "count": 5
+    },
+    {
+      "kind": "cube",
+      "role": "L",
+      "shape_or_size": "12",
+      "count": 4
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 2
+    },
+    {
+      "kind": "mcr_face",
+      "role": "W",
+      "shape_or_size": "1",
+      "count": 1
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims."
+}

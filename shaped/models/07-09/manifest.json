@@ -1,0 +1,107 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "shaped-detail-v1",
+  "id": "07-09",
+  "title": "ZPM generation",
+  "bounds": [
+    0,
+    -1,
+    0,
+    63,
+    51,
+    63
+  ],
+  "dimensions_x_y_z": [
+    64,
+    53,
+    64
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": [
+    790,
+    598,
+    853,
+    661
+  ],
+  "source_model": "design/concept-match-v1/models/07-09.json.gz",
+  "source_model_sha256": "bb9475430e8acf988e94d2a8d19a4c2e3bb3dce6f61f14399fbb7e79cfebc24d",
+  "game_tested": false,
+  "occupied_host_positions": 21430,
+  "cube_positions": 19130,
+  "architecture_shapes": 1136,
+  "multipart_hosts": 1164,
+  "microparts": 1164,
+  "tile_entities": 2300,
+  "entities": 0,
+  "model_sha256": "80fd8184a0b96f8648bd4bca9a40eb1bd69778878865ff93890fd080b2b395bf",
+  "schematic": "models/07-09/Valier_07-09_Shaped_GTNH29.schematic",
+  "schematic_sha256": "9db191ba50002af25af043a9858f287566faa17c36b25a0a71555309ef608ba1",
+  "registry_map": {
+    "minecraft:air": 0,
+    "minecraft:stonebrick": 1,
+    "Ztones:tile.bittBlock": 2,
+    "Ztones:tile.laveBlock": 3,
+    "Ztones:tile.korpBlock": 4,
+    "ArchitectureCraft:shape": 5,
+    "minecraft:stained_glass": 6,
+    "ForgeMultipart:block": 7
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "architecture",
+      "role": "L",
+      "shape_or_size": "94",
+      "count": 568
+    },
+    {
+      "kind": "architecture",
+      "role": "L",
+      "shape_or_size": "95",
+      "count": 568
+    },
+    {
+      "kind": "cube",
+      "role": "B",
+      "shape_or_size": "2",
+      "count": 10002
+    },
+    {
+      "kind": "cube",
+      "role": "F",
+      "shape_or_size": "0",
+      "count": 4096
+    },
+    {
+      "kind": "cube",
+      "role": "G",
+      "shape_or_size": "3",
+      "count": 800
+    },
+    {
+      "kind": "cube",
+      "role": "K",
+      "shape_or_size": "0",
+      "count": 2572
+    },
+    {
+      "kind": "cube",
+      "role": "L",
+      "shape_or_size": "12",
+      "count": 1660
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 248
+    },
+    {
+      "kind": "mcr_face",
+      "role": "L",
+      "shape_or_size": "4",
+      "count": 916
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims."
+}

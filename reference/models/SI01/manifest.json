@@ -1,0 +1,55 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "reference-architecture-v1",
+  "id": "SI01",
+  "title": "Gallery-to-basement six-half-step service interface",
+  "bounds": [
+    0,
+    -10,
+    0,
+    7,
+    -4,
+    9
+  ],
+  "dimensions_x_y_z": [
+    8,
+    7,
+    10
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": null,
+  "source_model_sha256": null,
+  "game_tested": false,
+  "occupied_host_positions": 404,
+  "cube_positions": 404,
+  "architecture_shapes": 0,
+  "multipart_hosts": 0,
+  "microparts": 0,
+  "tile_entities": 0,
+  "entities": 0,
+  "model_sha256": "b93d49c0cc63177d237d55ba3f351bf3a1430e56ee7dbd73049d79c606c2f922",
+  "schematic": "models/SI01/Valier_SI01_Shaped_GTNH29.schematic",
+  "schematic_sha256": "40112173cd80f0b4f2e837df2ceef722d056bbbaaffc546003732f574a6ec8da",
+  "registry_map": {
+    "minecraft:air": 0,
+    "minecraft:stonebrick": 1,
+    "minecraft:stone_slab": 2
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "cube",
+      "role": "F",
+      "shape_or_size": "0",
+      "count": 386
+    },
+    {
+      "kind": "cube",
+      "role": "s",
+      "shape_or_size": "0",
+      "count": 18
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims."
+}

@@ -1,0 +1,193 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "reference-architecture-v1",
+  "id": "03-06",
+  "title": "IV assembly",
+  "bounds": [
+    0,
+    -7,
+    0,
+    63,
+    27,
+    63
+  ],
+  "dimensions_x_y_z": [
+    64,
+    35,
+    64
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": [
+    502,
+    214,
+    565,
+    277
+  ],
+  "source_model": "design/concept-match-v1/models/03-06.json.gz",
+  "source_model_sha256": "6bfe9eac738fd66c1748d355763a5cb7945c34fd36da5fd2f33d1e176e5a4205",
+  "game_tested": false,
+  "occupied_host_positions": 25941,
+  "cube_positions": 23721,
+  "architecture_shapes": 80,
+  "multipart_hosts": 2140,
+  "microparts": 2142,
+  "tile_entities": 2220,
+  "entities": 0,
+  "model_sha256": "0af783b7cb5faa9c1476ce816cccdbc40cbb8c6cd97b711ed5b690ab3ffeeab8",
+  "schematic": "models/03-06/Valier_03-06_Shaped_GTNH29.schematic",
+  "schematic_sha256": "77fe944928ae628df9d06ba62df1eca345d9d0b7ee5bb70e61b079cdf0436238",
+  "registry_map": {
+    "minecraft:air": 0,
+    "chisel:nucrete": 1,
+    "ForgeMultipart:block": 2,
+    "minecraft:stonebrick": 3,
+    "chisel:glass2": 4,
+    "Ztones:tile.bittBlock": 5,
+    "minecraft:leaves": 6,
+    "minecraft:stone_slab": 7,
+    "minecraft:dirt": 8,
+    "minecraft:red_flower": 9,
+    "minecraft:log": 10,
+    "Ztones:tile.korpBlock": 11,
+    "ArchitectureCraft:shape": 12
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "architecture",
+      "role": "L",
+      "shape_or_size": "94",
+      "count": 40
+    },
+    {
+      "kind": "architecture",
+      "role": "L",
+      "shape_or_size": "95",
+      "count": 40
+    },
+    {
+      "kind": "cube",
+      "role": "B",
+      "shape_or_size": "7",
+      "count": 2000
+    },
+    {
+      "kind": "cube",
+      "role": "E",
+      "shape_or_size": "0",
+      "count": 138
+    },
+    {
+      "kind": "cube",
+      "role": "F",
+      "shape_or_size": "0",
+      "count": 4132
+    },
+    {
+      "kind": "cube",
+      "role": "G",
+      "shape_or_size": "1",
+      "count": 1953
+    },
+    {
+      "kind": "cube",
+      "role": "K",
+      "shape_or_size": "0",
+      "count": 7873
+    },
+    {
+      "kind": "cube",
+      "role": "M",
+      "shape_or_size": "2",
+      "count": 412
+    },
+    {
+      "kind": "cube",
+      "role": "P",
+      "shape_or_size": "15",
+      "count": 6578
+    },
+    {
+      "kind": "cube",
+      "role": "T",
+      "shape_or_size": "0",
+      "count": 36
+    },
+    {
+      "kind": "cube",
+      "role": "V",
+      "shape_or_size": "4",
+      "count": 473
+    },
+    {
+      "kind": "cube",
+      "role": "f",
+      "shape_or_size": "2",
+      "count": 36
+    },
+    {
+      "kind": "cube",
+      "role": "s",
+      "shape_or_size": "0",
+      "count": 90
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "K",
+      "shape_or_size": "1",
+      "count": 268
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 654
+    },
+    {
+      "kind": "mcr_face",
+      "role": "K",
+      "shape_or_size": "5",
+      "count": 2
+    },
+    {
+      "kind": "mcr_face",
+      "role": "L",
+      "shape_or_size": "2",
+      "count": 266
+    },
+    {
+      "kind": "mcr_face",
+      "role": "L",
+      "shape_or_size": "4",
+      "count": 654
+    },
+    {
+      "kind": "mcr_face",
+      "role": "N",
+      "shape_or_size": "2",
+      "count": 2
+    },
+    {
+      "kind": "mcr_face",
+      "role": "P",
+      "shape_or_size": "2",
+      "count": 215
+    },
+    {
+      "kind": "mcr_face",
+      "role": "W",
+      "shape_or_size": "1",
+      "count": 67
+    },
+    {
+      "kind": "mcr_post",
+      "role": "K",
+      "shape_or_size": "4",
+      "count": 14
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims.",
+  "family": "production",
+  "architectural_status": "Explicit reconstruction; static checks and game import pending",
+  "interior_scope": "Architectural floors, entrances and stated stairs; no functional machine/network certification"
+}

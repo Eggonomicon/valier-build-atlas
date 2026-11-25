@@ -1,0 +1,3 @@
+inventory_registry,inventory_metadata,items,scope
+chisel:nucrete,7,2,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"
+chisel:nucrete,15,128,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"

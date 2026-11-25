@@ -1,0 +1,6 @@
+quantity_type,role,shape,placed_count,base_blocks_or_volume,qualification
+micropart geometric volume,K,,,0.5625,"full-block equivalents; lower bound only, not recipe input"
+micropart geometric volume,L,,,14.0,"full-block equivalents; lower bound only, not recipe input"
+micropart geometric volume,N,,,0.3125,"full-block equivalents; lower bound only, not recipe input"
+micropart geometric volume,P,,,8.0,"full-block equivalents; lower bound only, not recipe input"
+micropart geometric volume,W,,,2.0,"full-block equivalents; lower bound only, not recipe input"

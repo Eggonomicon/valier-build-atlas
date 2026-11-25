@@ -1,0 +1,65 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "reference-architecture-v1",
+  "id": "R02",
+  "title": "12 by 12 junction / unobstructed finish study",
+  "bounds": [
+    0,
+    -10,
+    0,
+    11,
+    -1,
+    11
+  ],
+  "dimensions_x_y_z": [
+    12,
+    10,
+    12
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": "design/concept-match-v1/models/R02.json.gz",
+  "source_model_sha256": "536d5ee73d90770cf6daf17ccd52cd30f565e584002f731b42f0ca6fabf37675",
+  "game_tested": false,
+  "occupied_host_positions": 624,
+  "cube_positions": 624,
+  "architecture_shapes": 0,
+  "multipart_hosts": 0,
+  "microparts": 0,
+  "tile_entities": 0,
+  "entities": 0,
+  "model_sha256": "7e9597654cb12ceb59982e17c845a203b222952615651609e19947233d5ef60b",
+  "schematic": "models/R02/Valier_R02_Shaped_GTNH29.schematic",
+  "schematic_sha256": "ed5567bb35c88f6ef274d6dbc032bd6afd9a566e03ee2290675271f7d85e8d27",
+  "registry_map": {
+    "minecraft:air": 0,
+    "minecraft:stonebrick": 1,
+    "chisel:nucrete": 2,
+    "chisel:stonebricksmooth": 3
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "cube",
+      "role": "F",
+      "shape_or_size": "0",
+      "count": 480
+    },
+    {
+      "kind": "cube",
+      "role": "P",
+      "shape_or_size": "15",
+      "count": 16
+    },
+    {
+      "kind": "cube",
+      "role": "R",
+      "shape_or_size": "1",
+      "count": 128
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims.",
+  "family": "civil-finish",
+  "architectural_status": "Explicit reconstruction; static checks and game import pending",
+  "interior_scope": "Architectural floors, entrances and stated stairs; no functional machine/network certification"
+}

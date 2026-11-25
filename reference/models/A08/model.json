@@ -1,0 +1,290 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "reference-architecture-v1",
+  "id": "A08",
+  "title": "Wayfinding marker",
+  "bounds": [
+    0,
+    -1,
+    0,
+    7,
+    7,
+    7
+  ],
+  "dimensions_x_y_z": [
+    8,
+    9,
+    8
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": "design/concept-match-v1/models/A08.json.gz",
+  "source_model_sha256": "8b040823249181a7847e1b41c87661f77f81c0d07c2bbf293cde86797ab61206",
+  "cube_runs": [
+    [
+      -1,
+      0,
+      0,
+      7,
+      "P"
+    ],
+    [
+      -1,
+      1,
+      0,
+      7,
+      "P"
+    ],
+    [
+      -1,
+      2,
+      0,
+      7,
+      "P"
+    ],
+    [
+      -1,
+      3,
+      0,
+      7,
+      "P"
+    ],
+    [
+      -1,
+      4,
+      0,
+      7,
+      "P"
+    ],
+    [
+      -1,
+      5,
+      0,
+      7,
+      "P"
+    ],
+    [
+      -1,
+      6,
+      0,
+      7,
+      "P"
+    ],
+    [
+      -1,
+      7,
+      0,
+      7,
+      "P"
+    ],
+    [
+      4,
+      3,
+      2,
+      4,
+      "B"
+    ],
+    [
+      5,
+      3,
+      2,
+      4,
+      "B"
+    ],
+    [
+      6,
+      3,
+      2,
+      4,
+      "B"
+    ]
+  ],
+  "cells": [
+    [
+      3,
+      0,
+      3,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "K",
+            "id": "mcr_face",
+            "shape": 112
+          },
+          {
+            "role": "N",
+            "id": "mcr_face",
+            "shape": 17
+          }
+        ]
+      }
+    ],
+    [
+      3,
+      1,
+      3,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "K",
+            "id": "mcr_post",
+            "shape": 64
+          }
+        ]
+      }
+    ],
+    [
+      3,
+      2,
+      3,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "K",
+            "id": "mcr_post",
+            "shape": 64
+          }
+        ]
+      }
+    ],
+    [
+      3,
+      3,
+      3,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "K",
+            "id": "mcr_post",
+            "shape": 64
+          }
+        ]
+      }
+    ],
+    [
+      3,
+      4,
+      2,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "W",
+            "id": "mcr_face",
+            "shape": 19
+          }
+        ]
+      }
+    ],
+    [
+      2,
+      5,
+      2,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "W",
+            "id": "mcr_face",
+            "shape": 19
+          }
+        ]
+      }
+    ],
+    [
+      4,
+      5,
+      2,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "W",
+            "id": "mcr_face",
+            "shape": 19
+          }
+        ]
+      }
+    ],
+    [
+      2,
+      6,
+      2,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "W",
+            "id": "mcr_face",
+            "shape": 19
+          }
+        ]
+      }
+    ],
+    [
+      4,
+      6,
+      2,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "W",
+            "id": "mcr_face",
+            "shape": 19
+          }
+        ]
+      }
+    ],
+    [
+      2,
+      7,
+      3,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "L",
+            "id": "mcr_face",
+            "shape": 32
+          }
+        ]
+      }
+    ],
+    [
+      3,
+      7,
+      3,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "L",
+            "id": "mcr_face",
+            "shape": 32
+          }
+        ]
+      }
+    ],
+    [
+      4,
+      7,
+      3,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "L",
+            "id": "mcr_face",
+            "shape": 32
+          }
+        ]
+      }
+    ]
+  ],
+  "game_tested": false
+}

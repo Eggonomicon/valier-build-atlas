@@ -1,0 +1,94 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "shaped-detail-v1",
+  "id": "06-04",
+  "title": "Bee apiary",
+  "bounds": [
+    0,
+    -1,
+    0,
+    63,
+    21,
+    63
+  ],
+  "dimensions_x_y_z": [
+    64,
+    23,
+    64
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": [
+    310,
+    502,
+    373,
+    565
+  ],
+  "source_model": "design/concept-match-v1/models/06-04.json.gz",
+  "source_model_sha256": "2c42d7b0ed621035483013a8c1e1b32b5f81f898644b0033ee9096bed0215226",
+  "game_tested": false,
+  "occupied_host_positions": 16464,
+  "cube_positions": 15416,
+  "architecture_shapes": 0,
+  "multipart_hosts": 1048,
+  "microparts": 1048,
+  "tile_entities": 1048,
+  "entities": 0,
+  "model_sha256": "b93269f22d34f67a8908d98503a8d5de68d9d01cc33e87fc8515b13d6bf4d9b5",
+  "schematic": "models/06-04/Valier_06-04_Shaped_GTNH29.schematic",
+  "schematic_sha256": "6f6ada9f7636c9f8f7db98eed726458a7a6f1967ca18b77baa105faaed5ab8bb",
+  "registry_map": {
+    "minecraft:air": 0,
+    "minecraft:stonebrick": 1,
+    "Ztones:tile.bittBlock": 2,
+    "Ztones:tile.laveBlock": 3,
+    "Ztones:tile.korpBlock": 4,
+    "minecraft:stained_glass": 5,
+    "ForgeMultipart:block": 6
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "cube",
+      "role": "B",
+      "shape_or_size": "2",
+      "count": 645
+    },
+    {
+      "kind": "cube",
+      "role": "F",
+      "shape_or_size": "0",
+      "count": 4096
+    },
+    {
+      "kind": "cube",
+      "role": "G",
+      "shape_or_size": "3",
+      "count": 7141
+    },
+    {
+      "kind": "cube",
+      "role": "K",
+      "shape_or_size": "0",
+      "count": 700
+    },
+    {
+      "kind": "cube",
+      "role": "L",
+      "shape_or_size": "12",
+      "count": 2834
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 208
+    },
+    {
+      "kind": "mcr_face",
+      "role": "L",
+      "shape_or_size": "4",
+      "count": 840
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims."
+}

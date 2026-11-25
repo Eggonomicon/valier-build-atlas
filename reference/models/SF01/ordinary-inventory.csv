@@ -1,0 +1,11 @@
+inventory_registry,inventory_metadata,items,scope
+Ztones:tile.bittBlock,0,2833,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"
+Ztones:tile.korpBlock,2,179,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"
+chisel:glass2,1,1146,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"
+chisel:nucrete,7,1272,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"
+chisel:nucrete,15,1992,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"
+minecraft:dirt,0,78,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"
+minecraft:leaves,0,181,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"
+minecraft:log,0,12,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"
+minecraft:red_flower,2,27,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"
+minecraft:stone_slab,0,84,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"

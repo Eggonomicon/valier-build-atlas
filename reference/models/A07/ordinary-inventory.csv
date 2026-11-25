@@ -1,0 +1,4 @@
+inventory_registry,inventory_metadata,items,scope
+Ztones:tile.korpBlock,2,24,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"
+chisel:nucrete,7,60,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"
+chisel:nucrete,15,144,"Ordinary whole blocks/slabs/plants only; excludes AC shapes, microcuts and fluids"

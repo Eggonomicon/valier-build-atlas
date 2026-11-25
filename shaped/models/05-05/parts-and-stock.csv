@@ -1,0 +1,12 @@
+kind,role,block_registry,base_metadata,shape_id_or_size_eighths,placed_items_or_parts,quantity_type
+cube,B,Ztones:tile.korpBlock,2,2,8745,placed item
+cube,E,minecraft:dirt,0,0,50,placed item
+cube,F,minecraft:stonebrick,0,0,3803,placed item
+cube,G,minecraft:stained_glass,3,3,2251,placed item
+cube,K,Ztones:tile.bittBlock,0,0,194,placed item
+cube,L,Ztones:tile.laveBlock,12,12,4193,placed item
+cube,T,minecraft:log,0,0,8,placed item
+cube,V,minecraft:leaves,4,4,314,placed item
+cube,s,minecraft:stone_slab,0,0,12,placed item
+mcr_edge,N,ExtraUtilities:greenscreen,9,1,97,cut micropart; not one full block
+mcr_face,L,Ztones:tile.laveBlock,12,4,279,cut micropart; not one full block

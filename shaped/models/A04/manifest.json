@@ -1,0 +1,89 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "shaped-detail-v1",
+  "id": "A04",
+  "title": "Garden promenade",
+  "bounds": [
+    0,
+    -1,
+    0,
+    11,
+    6,
+    31
+  ],
+  "dimensions_x_y_z": [
+    12,
+    8,
+    32
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": "design/concept-match-v1/models/A04.json.gz",
+  "source_model_sha256": "3b80855246ff5796b109d681bc1f7dc84f8c52c0951d3e8b1532790c8529883d",
+  "game_tested": false,
+  "occupied_host_positions": 581,
+  "cube_positions": 577,
+  "architecture_shapes": 0,
+  "multipart_hosts": 4,
+  "microparts": 4,
+  "tile_entities": 4,
+  "entities": 0,
+  "model_sha256": "c52a725b74ae06d3dfb46fbd44ecccb652fe27d918593d30b97d4167d250fa2d",
+  "schematic": "models/A04/Valier_A04_Shaped_GTNH29.schematic",
+  "schematic_sha256": "cb0fa2a09d35f1652f0e64ec2d1dc03f86414a45ab10d6d3802f3155b3359ae6",
+  "registry_map": {
+    "minecraft:air": 0,
+    "minecraft:stonebrick": 1,
+    "Ztones:tile.bittBlock": 2,
+    "minecraft:dirt": 3,
+    "Ztones:tile.laveBlock": 4,
+    "minecraft:leaves": 5,
+    "ForgeMultipart:block": 6
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "cube",
+      "role": "E",
+      "shape_or_size": "0",
+      "count": 27
+    },
+    {
+      "kind": "cube",
+      "role": "F",
+      "shape_or_size": "0",
+      "count": 384
+    },
+    {
+      "kind": "cube",
+      "role": "K",
+      "shape_or_size": "0",
+      "count": 58
+    },
+    {
+      "kind": "cube",
+      "role": "L",
+      "shape_or_size": "12",
+      "count": 54
+    },
+    {
+      "kind": "cube",
+      "role": "V",
+      "shape_or_size": "4",
+      "count": 54
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 2
+    },
+    {
+      "kind": "mcr_face",
+      "role": "W",
+      "shape_or_size": "1",
+      "count": 2
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims."
+}

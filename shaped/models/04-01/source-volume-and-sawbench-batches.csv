@@ -1,0 +1,5 @@
+quantity_type,role,shape,placed_count,base_blocks_or_volume,qualification
+micropart geometric volume,L,,,458.0,"full-block equivalents; lower bound only, not recipe input"
+micropart geometric volume,N,,,3.25,"full-block equivalents; lower bound only, not recipe input"
+source enum sawbench batches,L,94,472,472,"separate shape batches, runtime cutting/eligibility not game-tested"
+source enum sawbench batches,L,95,472,158,"separate shape batches, runtime cutting/eligibility not game-tested"

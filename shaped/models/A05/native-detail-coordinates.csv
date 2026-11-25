@@ -1,0 +1,4 @@
+local_x,civil_y,local_z,kind,native_fields_json
+0,1,2,multipart,"{""kind"":""multipart"",""parts"":[{""role"":""N"",""id"":""mcr_edge"",""shape"":25}]}"
+0,1,6,multipart,"{""kind"":""multipart"",""parts"":[{""role"":""N"",""id"":""mcr_edge"",""shape"":27}]}"
+2,5,2,multipart,"{""kind"":""multipart"",""parts"":[{""role"":""W"",""id"":""mcr_face"",""shape"":17}]}"

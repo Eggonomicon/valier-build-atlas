@@ -1,0 +1,83 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "shaped-detail-v1",
+  "id": "A09",
+  "title": "Service courtyard",
+  "bounds": [
+    0,
+    -1,
+    0,
+    23,
+    2,
+    23
+  ],
+  "dimensions_x_y_z": [
+    24,
+    4,
+    24
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": "design/concept-match-v1/models/A09.json.gz",
+  "source_model_sha256": "95d6efefeff780dced4782e33f78c4f4c1618e4f98d80b42dbe47287bc86e874",
+  "game_tested": false,
+  "occupied_host_positions": 964,
+  "cube_positions": 964,
+  "architecture_shapes": 0,
+  "multipart_hosts": 0,
+  "microparts": 0,
+  "tile_entities": 0,
+  "entities": 0,
+  "model_sha256": "dd3f546debc77c323c0e7f0a435e2f5f83f8176ff7d3910a57cd3283a0f81f42",
+  "schematic": "models/A09/Valier_A09_Shaped_GTNH29.schematic",
+  "schematic_sha256": "0b6b1533a5bda7f40c29dc47083f4ffde5914581b064575622a83f4c13567eee",
+  "registry_map": {
+    "minecraft:air": 0,
+    "minecraft:stonebrick": 1,
+    "Ztones:tile.bittBlock": 2,
+    "minecraft:dirt": 3,
+    "minecraft:stone_slab": 4,
+    "Ztones:tile.laveBlock": 5,
+    "minecraft:leaves": 6
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "cube",
+      "role": "E",
+      "shape_or_size": "0",
+      "count": 64
+    },
+    {
+      "kind": "cube",
+      "role": "F",
+      "shape_or_size": "0",
+      "count": 576
+    },
+    {
+      "kind": "cube",
+      "role": "K",
+      "shape_or_size": "0",
+      "count": 92
+    },
+    {
+      "kind": "cube",
+      "role": "L",
+      "shape_or_size": "12",
+      "count": 80
+    },
+    {
+      "kind": "cube",
+      "role": "V",
+      "shape_or_size": "4",
+      "count": 128
+    },
+    {
+      "kind": "cube",
+      "role": "s",
+      "shape_or_size": "0",
+      "count": 24
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims."
+}

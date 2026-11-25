@@ -1,0 +1,20 @@
+kind,role,block_registry,base_metadata,shape_id_or_size_eighths,placed_items_or_parts,quantity_type
+architecture,K,Ztones:tile.bittBlock,0,17,7,sawbench shape item
+architecture,L,Ztones:tile.laveBlock,12,94,44,sawbench shape item
+architecture,L,Ztones:tile.laveBlock,12,95,44,sawbench shape item
+cube,B,Ztones:tile.korpBlock,2,2,1110,placed item
+cube,E,minecraft:dirt,0,0,8,placed item
+cube,F,minecraft:stonebrick,0,0,576,placed item
+cube,G,minecraft:stained_glass,3,3,252,placed item
+cube,K,Ztones:tile.bittBlock,0,0,126,placed item
+cube,L,Ztones:tile.laveBlock,12,12,36,placed item
+cube,P,chisel:nucrete,15,15,512,placed item
+cube,V,minecraft:leaves,4,4,4,placed item
+cube,f,minecraft:red_flower,2,2,4,placed item
+cube,s,minecraft:stone_slab,0,0,6,placed item
+mcr_edge,K,Ztones:tile.bittBlock,0,1,135,cut micropart; not one full block
+mcr_edge,L,Ztones:tile.laveBlock,12,4,114,cut micropart; not one full block
+mcr_edge,N,ExtraUtilities:greenscreen,9,1,96,cut micropart; not one full block
+mcr_face,K,Ztones:tile.bittBlock,0,1,3,cut micropart; not one full block
+mcr_face,K,Ztones:tile.bittBlock,0,2,192,cut micropart; not one full block
+mcr_face,W,ExtraUtilities:greenscreen,0,1,2,cut micropart; not one full block

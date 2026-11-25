@@ -1,0 +1,9 @@
+# FORMAT EXAMPLE ONLY - no world operation; shape is TAG_Byte, all coordinates TAG_Int.
+# Two quarter-square perpendicular posts in one multipart cell.
+{id:"savedMultipart",x:0,y:0,z:0,parts:[
+  {id:"mcr_post",shape:32b,material:"chisel:nucrete_7"},
+  {id:"mcr_post",shape:34b,material:"chisel:nucrete_7"}
+]}
+# Separate cyan eighth-square X edge strip at upper north edge: shape25b.
+# {id:"mcr_edge",shape:25b,material:"tile.extrautils:greenscreen_9"}
+# Host block: ForgeMultipart:block default metadata0. This is not a ready-to-import clipboard.

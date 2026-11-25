@@ -1,0 +1,69 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "shaped-detail-v1",
+  "id": "A08",
+  "title": "Wayfinding marker",
+  "bounds": [
+    0,
+    -1,
+    0,
+    7,
+    6,
+    7
+  ],
+  "dimensions_x_y_z": [
+    8,
+    8,
+    8
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": "design/concept-match-v1/models/A08.json.gz",
+  "source_model_sha256": "8b040823249181a7847e1b41c87661f77f81c0d07c2bbf293cde86797ab61206",
+  "game_tested": false,
+  "occupied_host_positions": 108,
+  "cube_positions": 104,
+  "architecture_shapes": 0,
+  "multipart_hosts": 4,
+  "microparts": 4,
+  "tile_entities": 4,
+  "entities": 0,
+  "model_sha256": "81965ff4a320e2bdfe9aeada60c59ef68331f37d6a5f6d75ff586978f4d1272d",
+  "schematic": "models/A08/Valier_A08_Shaped_GTNH29.schematic",
+  "schematic_sha256": "1a72d90386544c596fc94b167ed2bb03db70f756ae50c081dff704c1a410e3ad",
+  "registry_map": {
+    "minecraft:air": 0,
+    "minecraft:stonebrick": 1,
+    "Ztones:tile.laveBlock": 2,
+    "ForgeMultipart:block": 3,
+    "Ztones:tile.korpBlock": 4
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "cube",
+      "role": "B",
+      "shape_or_size": "2",
+      "count": 12
+    },
+    {
+      "kind": "cube",
+      "role": "F",
+      "shape_or_size": "0",
+      "count": 64
+    },
+    {
+      "kind": "cube",
+      "role": "L",
+      "shape_or_size": "12",
+      "count": 28
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 4
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims."
+}

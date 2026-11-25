@@ -1,0 +1,64 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "reference-architecture-v1",
+  "id": "R04",
+  "title": "M11 stair access / exact civil crop",
+  "bounds": [
+    0,
+    -10,
+    0,
+    17,
+    0,
+    25
+  ],
+  "dimensions_x_y_z": [
+    18,
+    11,
+    26
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": "design/concept-match-v1/models/R04.json.gz",
+  "source_model_sha256": "56f8967a39ffc4ebc43a9515ce2706c95f158e1f6c104fb2f0b2b49690ca3709",
+  "game_tested": false,
+  "occupied_host_positions": 2018,
+  "cube_positions": 2018,
+  "architecture_shapes": 0,
+  "multipart_hosts": 0,
+  "microparts": 0,
+  "tile_entities": 0,
+  "entities": 0,
+  "model_sha256": "cad8d4a6376c8159e2ebcd1cd1fd8e113cfb41170f62a8bd7551d378e3ea9731",
+  "schematic": "models/R04/Valier_R04_Shaped_GTNH29.schematic",
+  "schematic_sha256": "10d7d6539e9bfe85bd39de4f3e74ba288c8af42d6500ead788995e5ae52982a1",
+  "registry_map": {
+    "minecraft:air": 0,
+    "minecraft:stonebrick": 1,
+    "minecraft:stone_slab": 2
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "cube",
+      "role": "F",
+      "shape_or_size": "0",
+      "count": 1964
+    },
+    {
+      "kind": "cube",
+      "role": "S",
+      "shape_or_size": "8",
+      "count": 27
+    },
+    {
+      "kind": "cube",
+      "role": "s",
+      "shape_or_size": "0",
+      "count": 27
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims.",
+  "family": "civil-source",
+  "architectural_status": "Explicit reconstruction; static checks and game import pending",
+  "interior_scope": "Architectural floors, entrances and stated stairs; no functional machine/network certification"
+}

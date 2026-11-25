@@ -1,0 +1,5 @@
+local_x,civil_y,local_z,kind,native_fields_json
+5,2,5,multipart,"{""kind"":""multipart"",""parts"":[{""role"":""N"",""id"":""mcr_edge"",""shape"":25}]}"
+6,2,5,multipart,"{""kind"":""multipart"",""parts"":[{""role"":""N"",""id"":""mcr_edge"",""shape"":25}]}"
+5,2,6,multipart,"{""kind"":""multipart"",""parts"":[{""role"":""N"",""id"":""mcr_edge"",""shape"":27}]}"
+6,2,6,multipart,"{""kind"":""multipart"",""parts"":[{""role"":""N"",""id"":""mcr_edge"",""shape"":27}]}"

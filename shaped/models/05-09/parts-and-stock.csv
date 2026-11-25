@@ -1,0 +1,10 @@
+kind,role,block_registry,base_metadata,shape_id_or_size_eighths,placed_items_or_parts,quantity_type
+architecture,L,Ztones:tile.laveBlock,12,94,376,sawbench shape item
+architecture,L,Ztones:tile.laveBlock,12,95,376,sawbench shape item
+cube,B,Ztones:tile.korpBlock,2,2,7168,placed item
+cube,F,minecraft:stonebrick,0,0,4096,placed item
+cube,G,minecraft:stained_glass,3,3,800,placed item
+cube,K,Ztones:tile.bittBlock,0,0,2116,placed item
+cube,L,Ztones:tile.laveBlock,12,12,1096,placed item
+mcr_edge,N,ExtraUtilities:greenscreen,9,1,208,cut micropart; not one full block
+mcr_face,L,Ztones:tile.laveBlock,12,4,916,cut micropart; not one full block

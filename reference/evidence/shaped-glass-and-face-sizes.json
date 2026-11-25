@@ -1,0 +1,105 @@
+{
+  "game_tested": false,
+  "g": {
+    "registry_name": "chisel:glass",
+    "metadata": 6,
+    "unlocalized_name": "tile.chisel.glass",
+    "architecturecraft_sawbench_eligible": true,
+    "evidence": [
+      {
+        "file": "verification/reference-materials-v1/team.chisel.Features$34.javap.txt",
+        "sha256": "02dac09a3d923a869c5c1cdcd0d9054d75769aa1fe8396d24bdd9776bd8b3188",
+        "lines": [
+          63,
+          69
+        ]
+      },
+      {
+        "file": "verification/concept-match-v1/com.cricketcraft.chisel.api.carving.CarvableHelper.javap.txt",
+        "sha256": "b9626a9bf0cc83005fc42c3cbd031394913795b04adb41f094cd4bcffa366380",
+        "lines": [
+          402,
+          426
+        ]
+      },
+      {
+        "file": "verification/shaped-detail-v1/architecture/TileSawbench.javap.txt",
+        "sha256": "bf7c718229ac7b264ded2bdf1bff7c44f2281d749c68cdcc5c41ae9a7f4af8f5",
+        "lines": [
+          432,
+          465
+        ]
+      }
+    ],
+    "installed_config": {
+      "source": "instance/config/architecturecraft.cfg",
+      "sha256": "50de4fae19e8862ace10fd6ea5db7a53c70b7354dd339d1863e48ed49e946e91",
+      "selected_lines": [
+        {
+          "line": 4,
+          "text": "tile.chisel.glass"
+        }
+      ]
+    }
+  },
+  "G": {
+    "registry_name": "chisel:glass2",
+    "metadata": 1,
+    "architecturecraft_sawbench_eligible": false,
+    "reason": "unlocalized tile.chisel.glass2 absent from configured whitelist; BlockCarvableGlass.isOpaqueCube returnsfalse."
+  },
+  "fmp_faces": {
+    "legal_sizes_eighths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "lamp_bottom7_plus_top1": {
+      "shapes": [
+        112,
+        17
+      ],
+      "bounds": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0.875,
+          1
+        ],
+        [
+          0,
+          0.875,
+          0,
+          1,
+          1,
+          1
+        ]
+      ],
+      "positive_volume_overlap": false
+    },
+    "evidence": [
+      {
+        "file": "verification/shaped-detail-v1/codechicken.microblock.FaceMicroClass$$anonfun$1.javap.txt",
+        "sha256": "f4bb016c61ec85d3f6f0195a62d6667aa5137ad61ed7f67933d69b7249a567f4",
+        "lines": [
+          22,
+          33
+        ]
+      },
+      {
+        "file": "verification/shaped-detail-v1/codechicken.microblock.FaceMicroClass$$anonfun$1$$anonfun$apply$mcVI$sp$1.javap.txt",
+        "sha256": "d379dec0aa776ca6c3f875138d8a4da7da2160ea45823273342d6db746fbe235",
+        "lines": [
+          16,
+          55
+        ]
+      }
+    ]
+  }
+}

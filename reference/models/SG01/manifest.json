@@ -1,0 +1,196 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "reference-architecture-v1",
+  "id": "SG01",
+  "title": "Quiet garden and planted facade court",
+  "bounds": [
+    0,
+    -2,
+    0,
+    47,
+    32,
+    79
+  ],
+  "dimensions_x_y_z": [
+    48,
+    35,
+    80
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": null,
+  "source_model_sha256": null,
+  "game_tested": false,
+  "occupied_host_positions": 12854,
+  "cube_positions": 11291,
+  "architecture_shapes": 104,
+  "multipart_hosts": 1459,
+  "microparts": 1464,
+  "tile_entities": 1563,
+  "entities": 0,
+  "model_sha256": "7421ccacd3702bc052d1a0766115e9f186cc4ddfa2a87ef062e56156f185d2b1",
+  "schematic": "models/SG01/Valier_SG01_Shaped_GTNH29.schematic",
+  "schematic_sha256": "dd5ae44df0d530343316711cdd6fb25cec30f54d5045dbc5c15dbf9de81eb888",
+  "registry_map": {
+    "minecraft:air": 0,
+    "Ztones:tile.korpBlock": 1,
+    "chisel:nucrete": 2,
+    "minecraft:dirt": 3,
+    "ForgeMultipart:block": 4,
+    "minecraft:red_flower": 5,
+    "minecraft:leaves": 6,
+    "minecraft:log": 7,
+    "Ztones:tile.bittBlock": 8,
+    "chisel:glass2": 9,
+    "ArchitectureCraft:shape": 10,
+    "minecraft:stone_slab": 11
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "architecture",
+      "role": "L",
+      "shape_or_size": "94",
+      "count": 52
+    },
+    {
+      "kind": "architecture",
+      "role": "L",
+      "shape_or_size": "95",
+      "count": 52
+    },
+    {
+      "kind": "cube",
+      "role": "B",
+      "shape_or_size": "7",
+      "count": 1366
+    },
+    {
+      "kind": "cube",
+      "role": "E",
+      "shape_or_size": "0",
+      "count": 176
+    },
+    {
+      "kind": "cube",
+      "role": "G",
+      "shape_or_size": "1",
+      "count": 1146
+    },
+    {
+      "kind": "cube",
+      "role": "K",
+      "shape_or_size": "0",
+      "count": 2857
+    },
+    {
+      "kind": "cube",
+      "role": "M",
+      "shape_or_size": "2",
+      "count": 728
+    },
+    {
+      "kind": "cube",
+      "role": "P",
+      "shape_or_size": "15",
+      "count": 4332
+    },
+    {
+      "kind": "cube",
+      "role": "T",
+      "shape_or_size": "0",
+      "count": 36
+    },
+    {
+      "kind": "cube",
+      "role": "V",
+      "shape_or_size": "4",
+      "count": 507
+    },
+    {
+      "kind": "cube",
+      "role": "f",
+      "shape_or_size": "2",
+      "count": 59
+    },
+    {
+      "kind": "cube",
+      "role": "s",
+      "shape_or_size": "0",
+      "count": 84
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "K",
+      "shape_or_size": "1",
+      "count": 212
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 448
+    },
+    {
+      "kind": "mcr_face",
+      "role": "K",
+      "shape_or_size": "3",
+      "count": 4
+    },
+    {
+      "kind": "mcr_face",
+      "role": "K",
+      "shape_or_size": "5",
+      "count": 4
+    },
+    {
+      "kind": "mcr_face",
+      "role": "K",
+      "shape_or_size": "7",
+      "count": 1
+    },
+    {
+      "kind": "mcr_face",
+      "role": "L",
+      "shape_or_size": "2",
+      "count": 105
+    },
+    {
+      "kind": "mcr_face",
+      "role": "L",
+      "shape_or_size": "4",
+      "count": 398
+    },
+    {
+      "kind": "mcr_face",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 1
+    },
+    {
+      "kind": "mcr_face",
+      "role": "N",
+      "shape_or_size": "2",
+      "count": 4
+    },
+    {
+      "kind": "mcr_face",
+      "role": "P",
+      "shape_or_size": "2",
+      "count": 266
+    },
+    {
+      "kind": "mcr_face",
+      "role": "W",
+      "shape_or_size": "1",
+      "count": 16
+    },
+    {
+      "kind": "mcr_post",
+      "role": "K",
+      "shape_or_size": "4",
+      "count": 5
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims."
+}

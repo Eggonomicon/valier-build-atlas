@@ -1,0 +1,129 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "reference-architecture-v1",
+  "id": "A11",
+  "title": "Boundary wall and planted edge",
+  "bounds": [
+    0,
+    -1,
+    0,
+    11,
+    8,
+    31
+  ],
+  "dimensions_x_y_z": [
+    12,
+    10,
+    32
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": "design/concept-match-v1/models/A11.json.gz",
+  "source_model_sha256": "576d192a58ca4253e71389b4cbc9848e4e22d0d35b34cfdb9aa3467e02961edb",
+  "game_tested": false,
+  "occupied_host_positions": 734,
+  "cube_positions": 654,
+  "architecture_shapes": 0,
+  "multipart_hosts": 80,
+  "microparts": 88,
+  "tile_entities": 80,
+  "entities": 0,
+  "model_sha256": "e185b8a44dca2b40e5f37f2299904202855aa33aea7d02978f4ec63527aeadc9",
+  "schematic": "models/A11/Valier_A11_Shaped_GTNH29.schematic",
+  "schematic_sha256": "0eb784bcce4116482cc1d94b35e73bc3323f1f071c66ece0d94cb34dc4cd5816",
+  "registry_map": {
+    "minecraft:air": 0,
+    "chisel:nucrete": 1,
+    "ForgeMultipart:block": 2,
+    "Ztones:tile.korpBlock": 3,
+    "minecraft:dirt": 4,
+    "minecraft:leaves": 5,
+    "minecraft:red_flower": 6,
+    "minecraft:log": 7
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "cube",
+      "role": "B",
+      "shape_or_size": "7",
+      "count": 40
+    },
+    {
+      "kind": "cube",
+      "role": "E",
+      "shape_or_size": "0",
+      "count": 30
+    },
+    {
+      "kind": "cube",
+      "role": "M",
+      "shape_or_size": "2",
+      "count": 32
+    },
+    {
+      "kind": "cube",
+      "role": "P",
+      "shape_or_size": "15",
+      "count": 380
+    },
+    {
+      "kind": "cube",
+      "role": "T",
+      "shape_or_size": "0",
+      "count": 12
+    },
+    {
+      "kind": "cube",
+      "role": "V",
+      "shape_or_size": "4",
+      "count": 151
+    },
+    {
+      "kind": "cube",
+      "role": "f",
+      "shape_or_size": "2",
+      "count": 9
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 4
+    },
+    {
+      "kind": "mcr_face",
+      "role": "K",
+      "shape_or_size": "5",
+      "count": 4
+    },
+    {
+      "kind": "mcr_face",
+      "role": "L",
+      "shape_or_size": "4",
+      "count": 32
+    },
+    {
+      "kind": "mcr_face",
+      "role": "N",
+      "shape_or_size": "2",
+      "count": 4
+    },
+    {
+      "kind": "mcr_face",
+      "role": "P",
+      "shape_or_size": "2",
+      "count": 40
+    },
+    {
+      "kind": "mcr_face",
+      "role": "P",
+      "shape_or_size": "7",
+      "count": 4
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims.",
+  "family": "landscape-furniture",
+  "architectural_status": "Explicit reconstruction; static checks and game import pending",
+  "interior_scope": "Architectural floors, entrances and stated stairs; no functional machine/network certification"
+}

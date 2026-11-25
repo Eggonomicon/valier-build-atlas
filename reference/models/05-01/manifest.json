@@ -1,0 +1,187 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "reference-architecture-v1",
+  "id": "05-01",
+  "title": "Logistics hub",
+  "bounds": [
+    0,
+    -7,
+    0,
+    63,
+    27,
+    63
+  ],
+  "dimensions_x_y_z": [
+    64,
+    35,
+    64
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": [
+    22,
+    406,
+    85,
+    469
+  ],
+  "source_model": "design/concept-match-v1/models/05-01.json.gz",
+  "source_model_sha256": "d2ab38a8262168d74ee99d01dfeb3b0ba0353b2d90b43824bf8305069b2ff4fa",
+  "game_tested": false,
+  "occupied_host_positions": 23306,
+  "cube_positions": 21761,
+  "architecture_shapes": 0,
+  "multipart_hosts": 1545,
+  "microparts": 1547,
+  "tile_entities": 1545,
+  "entities": 0,
+  "model_sha256": "52dd10bbb7d27b4c088cd41d1fed18c4a643a816209424f67dce15a255826921",
+  "schematic": "models/05-01/Valier_05-01_Shaped_GTNH29.schematic",
+  "schematic_sha256": "342fe636bffe4746814a49b866a971241f6279a2ec0858786374293173710446",
+  "registry_map": {
+    "minecraft:air": 0,
+    "chisel:nucrete": 1,
+    "ForgeMultipart:block": 2,
+    "minecraft:stonebrick": 3,
+    "chisel:glass2": 4,
+    "Ztones:tile.bittBlock": 5,
+    "Ztones:tile.laveBlock": 6,
+    "minecraft:leaves": 7,
+    "minecraft:dirt": 8,
+    "minecraft:red_flower": 9,
+    "minecraft:log": 10,
+    "Ztones:tile.korpBlock": 11,
+    "minecraft:stone_slab": 12
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "cube",
+      "role": "B",
+      "shape_or_size": "7",
+      "count": 1672
+    },
+    {
+      "kind": "cube",
+      "role": "E",
+      "shape_or_size": "0",
+      "count": 102
+    },
+    {
+      "kind": "cube",
+      "role": "F",
+      "shape_or_size": "0",
+      "count": 4132
+    },
+    {
+      "kind": "cube",
+      "role": "G",
+      "shape_or_size": "1",
+      "count": 2335
+    },
+    {
+      "kind": "cube",
+      "role": "K",
+      "shape_or_size": "0",
+      "count": 8055
+    },
+    {
+      "kind": "cube",
+      "role": "L",
+      "shape_or_size": "12",
+      "count": 351
+    },
+    {
+      "kind": "cube",
+      "role": "M",
+      "shape_or_size": "2",
+      "count": 2
+    },
+    {
+      "kind": "cube",
+      "role": "P",
+      "shape_or_size": "15",
+      "count": 4524
+    },
+    {
+      "kind": "cube",
+      "role": "T",
+      "shape_or_size": "0",
+      "count": 36
+    },
+    {
+      "kind": "cube",
+      "role": "V",
+      "shape_or_size": "4",
+      "count": 460
+    },
+    {
+      "kind": "cube",
+      "role": "f",
+      "shape_or_size": "2",
+      "count": 32
+    },
+    {
+      "kind": "cube",
+      "role": "s",
+      "shape_or_size": "0",
+      "count": 60
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "K",
+      "shape_or_size": "1",
+      "count": 153
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 475
+    },
+    {
+      "kind": "mcr_face",
+      "role": "K",
+      "shape_or_size": "5",
+      "count": 2
+    },
+    {
+      "kind": "mcr_face",
+      "role": "L",
+      "shape_or_size": "2",
+      "count": 242
+    },
+    {
+      "kind": "mcr_face",
+      "role": "L",
+      "shape_or_size": "4",
+      "count": 475
+    },
+    {
+      "kind": "mcr_face",
+      "role": "N",
+      "shape_or_size": "2",
+      "count": 2
+    },
+    {
+      "kind": "mcr_face",
+      "role": "P",
+      "shape_or_size": "2",
+      "count": 128
+    },
+    {
+      "kind": "mcr_face",
+      "role": "W",
+      "shape_or_size": "1",
+      "count": 56
+    },
+    {
+      "kind": "mcr_post",
+      "role": "K",
+      "shape_or_size": "4",
+      "count": 14
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims.",
+  "family": "depot",
+  "architectural_status": "Explicit reconstruction; static checks and game import pending",
+  "interior_scope": "Architectural floors, entrances and stated stairs; no functional machine/network certification"
+}

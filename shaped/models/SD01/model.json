@@ -1,0 +1,222 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "shaped-detail-v1",
+  "id": "SD01",
+  "title": "Slim round-pole LED street lamp",
+  "bounds": [
+    0,
+    -1,
+    0,
+    3,
+    7,
+    3
+  ],
+  "dimensions_x_y_z": [
+    4,
+    9,
+    4
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": null,
+  "source_model_sha256": null,
+  "cube_runs": [
+    [
+      -1,
+      0,
+      0,
+      3,
+      "P"
+    ],
+    [
+      -1,
+      1,
+      0,
+      3,
+      "P"
+    ],
+    [
+      -1,
+      2,
+      0,
+      3,
+      "P"
+    ],
+    [
+      -1,
+      3,
+      0,
+      3,
+      "P"
+    ]
+  ],
+  "cells": [
+    [
+      0,
+      0,
+      1,
+      {
+        "kind": "architecture",
+        "role": "K",
+        "shape": 17,
+        "side": 0,
+        "turn": 0,
+        "offsetX": 0
+      }
+    ],
+    [
+      0,
+      1,
+      1,
+      {
+        "kind": "architecture",
+        "role": "K",
+        "shape": 17,
+        "side": 0,
+        "turn": 0,
+        "offsetX": 0
+      }
+    ],
+    [
+      0,
+      2,
+      1,
+      {
+        "kind": "architecture",
+        "role": "K",
+        "shape": 17,
+        "side": 0,
+        "turn": 0,
+        "offsetX": 0
+      }
+    ],
+    [
+      0,
+      3,
+      1,
+      {
+        "kind": "architecture",
+        "role": "K",
+        "shape": 17,
+        "side": 0,
+        "turn": 0,
+        "offsetX": 0
+      }
+    ],
+    [
+      0,
+      4,
+      1,
+      {
+        "kind": "architecture",
+        "role": "K",
+        "shape": 17,
+        "side": 0,
+        "turn": 0,
+        "offsetX": 0
+      }
+    ],
+    [
+      0,
+      5,
+      1,
+      {
+        "kind": "architecture",
+        "role": "K",
+        "shape": 17,
+        "side": 0,
+        "turn": 0,
+        "offsetX": 0
+      }
+    ],
+    [
+      0,
+      6,
+      1,
+      {
+        "kind": "architecture",
+        "role": "K",
+        "shape": 17,
+        "side": 0,
+        "turn": 0,
+        "offsetX": 0
+      }
+    ],
+    [
+      1,
+      6,
+      1,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "W",
+            "id": "mcr_face",
+            "shape": 17
+          }
+        ]
+      }
+    ],
+    [
+      2,
+      6,
+      1,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "W",
+            "id": "mcr_face",
+            "shape": 17
+          }
+        ]
+      }
+    ],
+    [
+      0,
+      7,
+      1,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "K",
+            "id": "mcr_face",
+            "shape": 16
+          }
+        ]
+      }
+    ],
+    [
+      1,
+      7,
+      1,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "K",
+            "id": "mcr_face",
+            "shape": 16
+          }
+        ]
+      }
+    ],
+    [
+      2,
+      7,
+      1,
+      {
+        "kind": "multipart",
+        "parts": [
+          {
+            "role": "K",
+            "id": "mcr_face",
+            "shape": 16
+          }
+        ]
+      }
+    ]
+  ],
+  "game_tested": false
+}

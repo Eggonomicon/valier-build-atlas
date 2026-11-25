@@ -1,0 +1,69 @@
+{
+  "schema": "valier-shaped-cells-v1",
+  "revision": "shaped-detail-v1",
+  "id": "A07",
+  "title": "Valier monument",
+  "bounds": [
+    0,
+    -1,
+    0,
+    11,
+    6,
+    11
+  ],
+  "dimensions_x_y_z": [
+    12,
+    8,
+    12
+  ],
+  "coordinate_convention": "Local NW origin; +X east,+Z south; civilY0=future surface S. World anchor/S/rotation unassigned.",
+  "site_bounds": null,
+  "source_model": "design/concept-match-v1/models/A07.json.gz",
+  "source_model_sha256": "3330b0313f7d6eb4e71e766b300c2161a63339c0ca58285ad412a09ef61095a3",
+  "game_tested": false,
+  "occupied_host_positions": 256,
+  "cube_positions": 252,
+  "architecture_shapes": 0,
+  "multipart_hosts": 4,
+  "microparts": 4,
+  "tile_entities": 4,
+  "entities": 0,
+  "model_sha256": "6ba96df4bfc9bedd44e4b5b86c393b8e911739a08e15b1bbc2b36d39f064daf2",
+  "schematic": "models/A07/Valier_A07_Shaped_GTNH29.schematic",
+  "schematic_sha256": "fb401a2b8ddddaa43a50cce985567db3cd8791de76dbee576591db1fd2d68ed2",
+  "registry_map": {
+    "minecraft:air": 0,
+    "minecraft:stonebrick": 1,
+    "Ztones:tile.bittBlock": 2,
+    "Ztones:tile.laveBlock": 3,
+    "ForgeMultipart:block": 4
+  },
+  "item_and_part_counts": [
+    {
+      "kind": "cube",
+      "role": "F",
+      "shape_or_size": "0",
+      "count": 144
+    },
+    {
+      "kind": "cube",
+      "role": "K",
+      "shape_or_size": "0",
+      "count": 60
+    },
+    {
+      "kind": "cube",
+      "role": "L",
+      "shape_or_size": "12",
+      "count": 48
+    },
+    {
+      "kind": "mcr_edge",
+      "role": "N",
+      "shape_or_size": "1",
+      "count": 4
+    }
+  ],
+  "anchor": "NW minimum at lowest civilY; worldY=S+source minimumY. Local TE Y is relative to clipboard minimum. WE offsets0.",
+  "scope": "Native geometry authored against installed schemas and meshes; not game import/re-import certified. No machines/networks or runtime recipe/capacity claims."
+}
