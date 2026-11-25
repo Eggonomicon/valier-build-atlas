@@ -15,6 +15,10 @@
     "bytes": 54850,
     "sha256": "c640e8ab3f3dd1d6321de7bbe6d538394f7c9e1f740001bdb0e4f4e97ec5b375"
   },
+  "data/image-viewer-checks.json": {
+    "bytes": 1721,
+    "sha256": "a0daf8653df8de2343b2bb61006685f1e1f361b7a500c1364108e3d5d3593245"
+  },
   "data/installed-evidence.json": {
     "bytes": 3589,
     "sha256": "2c10b86716cabe7f8f64ce8649a06a8eacb5c954ecf1114b5298e7203c19e40a"
@@ -52,8 +56,8 @@
     "sha256": "10d986accd151a1fdf9e74d6d53d4806c213756685d11fea3eb8a8c346b49b30"
   },
   "guide.css": {
-    "bytes": 3907,
-    "sha256": "4163cb5c294747337eb0b0503fd150db3ef5217993c593603eaad550446f13b8"
+    "bytes": 5959,
+    "sha256": "3d37aea7558644013a77e6adce019b6abab87c811743fb98d8d37bd8f92f8897"
   },
   "guide.js": {
     "bytes": 7745,
@@ -76,8 +80,8 @@
     "sha256": "34e2b6036e35e946f91bacf5db7711c1d4b551649ce8658f557f721c99215d4d"
   },
   "index.html": {
-    "bytes": 7502,
-    "sha256": "da17774afdae5cb34a702d5e5385377a242d248b3f5891c30c91ce0c0c10d8c2"
+    "bytes": 7551,
+    "sha256": "0fb248723d4289cb5176c51445e3ad340f1ae71f868c7b950c3d3f1bebf75fb7"
   },
   "layers/y+00.txt": {
     "bytes": 2641,
@@ -146,6 +150,10 @@
   "layers/y-10.txt": {
     "bytes": 2642,
     "sha256": "2489773a2cf1dd5c3c2eae012f74ca1fdcebc55317dfa702a8ba01e5d1c88caf"
+  },
+  "plan-viewer.js": {
+    "bytes": 9108,
+    "sha256": "a2e4c2d6887edd27ecc791e686a54447de4dad23ae1b95aeb8721b1fb90f6dd5"
   },
   "source/DESIGN_DECISIONS.md": {
     "bytes": 13065,

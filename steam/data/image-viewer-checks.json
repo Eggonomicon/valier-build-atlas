@@ -1,0 +1,79 @@
+{
+  "status": "pass",
+  "reports": [
+    {
+      "status": "pass",
+      "checks": 67,
+      "window": [
+        1440,
+        1200
+      ],
+      "viewers": [
+        {
+          "image": "images/ground-plan.png",
+          "viewport": [
+            590,
+            620
+          ],
+          "fit_percent": 43
+        },
+        {
+          "image": "images/basement-plan.png",
+          "viewport": [
+            590,
+            620
+          ],
+          "fit_percent": 43
+        },
+        {
+          "image": "images/interface-section.png",
+          "viewport": [
+            1308,
+            620
+          ],
+          "fit_percent": 73
+        }
+      ],
+      "errors": [],
+      "method": "Isolated headless Chrome, actual DOM gesture handlers at desktop/mobile viewport sizes; no desktop/game capture",
+      "native_fullscreen_permission_tested": false
+    },
+    {
+      "status": "pass",
+      "checks": 67,
+      "window": [
+        430,
+        1100
+      ],
+      "viewers": [
+        {
+          "image": "images/ground-plan.png",
+          "viewport": [
+            342,
+            440
+          ],
+          "fit_percent": 28
+        },
+        {
+          "image": "images/basement-plan.png",
+          "viewport": [
+            342,
+            440
+          ],
+          "fit_percent": 28
+        },
+        {
+          "image": "images/interface-section.png",
+          "viewport": [
+            394,
+            440
+          ],
+          "fit_percent": 27
+        }
+      ],
+      "errors": [],
+      "method": "Isolated headless Chrome, actual DOM gesture handlers at desktop/mobile viewport sizes; no desktop/game capture",
+      "native_fullscreen_permission_tested": false
+    }
+  ]
+}
