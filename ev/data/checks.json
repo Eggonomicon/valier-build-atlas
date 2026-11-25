@@ -552,7 +552,7 @@
     "EV_full_generator_envelope_L_t": 148.8742
   },
   "errors": [],
-  "authoritative_model_sha256": "fa6ac86f9f5fa0ec1ff6aa0e83c0fdebd04966528df73ea1bd53d6fd01f8bffa",
+  "authoritative_model_sha256": "5c48d3eb9acb66e3de7eca05fda7464b6ad49d63aa33a03e2e28ac45962f5d1a",
   "game_tested": false,
   "crafting_ingredients_verified": false,
   "schematic_policy": "Architecture only, functional equipment remains in coordinate guides."

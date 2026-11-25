@@ -1337,7 +1337,7 @@
   },
   "data/04-03/EV-placements.csv": {
     "bytes": 109950,
-    "sha256": "6a831cea8b1d84cff5126e0ff9ae872765f8d6e2c787746b29681b8222d49472"
+    "sha256": "b00c1dd8064cf785675bc15e38fbec4e19ffb0c387b0479d58c0ac433750f41d"
   },
   "data/04-03/EV-stock.csv": {
     "bytes": 1001,
@@ -1557,11 +1557,11 @@
   },
   "data/browser-checks.json": {
     "bytes": 1005,
-    "sha256": "6f6d3a36123b62127c1fe84b9dd01078b3bc63847ee6e69b87f2b71c45dfe4e8"
+    "sha256": "56c3368e8baf4dd1febf2969bf61efe520645cb583e2e8ea6dc095b645d4878d"
   },
   "data/checks.json": {
     "bytes": 22223,
-    "sha256": "9f17c17be58938f416e5cac1fe5a621380b527b633c528361bdfd6894dde6fe4"
+    "sha256": "bffd07f3dd028aaed2ce205e71eeb139bed934e01a545afbd0d6252f39e73fad"
   },
   "data/commissioning-log.csv": {
     "bytes": 635,
@@ -1569,7 +1569,7 @@
   },
   "data/connection-faces.csv": {
     "bytes": 4131042,
-    "sha256": "9690edc171beb2242be35ae8b069fe705fa43c27947a2f9e69aa0b386cc8d684"
+    "sha256": "8430dbe456a89dd9a60cb6d68826171b8b762b231c8baf4a52e21be177ae0edc"
   },
   "data/export-checks.json": {
     "bytes": 166,
@@ -1617,15 +1617,15 @@
   },
   "data/model.js": {
     "bytes": 2953774,
-    "sha256": "1c32a4dfd0a03e0ec13678ac01856c25ef197a667eb8cc1d3ac4f40802f0cc55"
+    "sha256": "608a1b95ca7e738e24735ce0cda5547a390d5d2f0bcedd154be5b7fde8dafa96"
   },
   "data/model.json": {
     "bytes": 1890166,
-    "sha256": "b355a9ed298e89169914053fdcb10511e33d468b97bc43935de303344e0a82f7"
+    "sha256": "44093d948e03bfb997c5a91ec22616cda08d9eac8eebc80c8f58e1de5b3cb010"
   },
   "data/power-checks.json": {
     "bytes": 61011,
-    "sha256": "9c306450037239a9ec5a872ae79cc2e5e8f1b30398b07cdb719dfe38a19ea804"
+    "sha256": "214607d123b530a541608649aee99226249bba482bea83f2d0af575d2368c99c"
   },
   "data/presentation.json": {
     "bytes": 318,
@@ -1633,7 +1633,7 @@
   },
   "data/stage-changes.csv": {
     "bytes": 584574,
-    "sha256": "c55c4ea703d6806188ce5db61ea56f7bdb130988650b9fa052aae84033983027"
+    "sha256": "59f9c6075857bde57ad5dc185cfc411ef3b1d839becaf65bfff1f931d6ca15e7"
   },
   "guide.css": {
     "bytes": 7744,
@@ -1948,8 +1948,8 @@
     "sha256": "f7aa27ef67b08d3be79a64f5d4bf108690fc746d4a0bdbfde0fd58339688bc72"
   },
   "images/04-03-EV.png": {
-    "bytes": 93417,
-    "sha256": "a4e9a5df2552489a8cd487a5198058aac46a3f43104c0470364b0f03818f8d49"
+    "bytes": 93435,
+    "sha256": "77013edefc9d466163c6d39ff4bd6f105e955889a9506cf7b7e17637aae4b0b6"
   },
   "images/04-03-HV.png": {
     "bytes": 90696,
@@ -6913,7 +6913,7 @@
   },
   "layers/04-03/EV/y+00.txt": {
     "bytes": 23852,
-    "sha256": "9ad01a014562f206d86f0dd6b25b0c15d5cdc5a8920a42f643f84943958c7c5f"
+    "sha256": "074cc06c228081555e29b1cb74a0b0bf35635e11283a3ab21b4b734c8d08b94e"
   },
   "layers/04-03/EV/y+01.txt": {
     "bytes": 23852,
@@ -8573,14 +8573,14 @@
   },
   "source/model.json": {
     "bytes": 4023338,
-    "sha256": "fa6ac86f9f5fa0ec1ff6aa0e83c0fdebd04966528df73ea1bd53d6fd01f8bffa"
+    "sha256": "5c48d3eb9acb66e3de7eca05fda7464b6ad49d63aa33a03e2e28ac45962f5d1a"
   },
   "Valier_Through_EV_Architecture_ONLY.zip": {
     "bytes": 1702439,
     "sha256": "e3ef85f8f6dd1b51091442a92c2752f1546829cb910df95528988aaf5796d58e"
   },
   "Valier_Through_EV_Fieldbook.pdf": {
-    "bytes": 2979643,
-    "sha256": "54c16d40d5183134cbbaa985ac210cd3f19ed9aa26fba1d4cc9e6797ac6810da"
+    "bytes": 2979662,
+    "sha256": "12a11be8b39c045439679638157c9d9d318a23c22a02bc5d0ac37306b71f59f3"
   }
 }

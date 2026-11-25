@@ -3040,9 +3040,9 @@
     {
       "stage": "EV",
       "hall": "04-03",
-      "load": "Laser Engraver",
+      "load": "Assembler",
       "position": [
-        242,
+        236,
         0,
         332
       ],
@@ -3076,7 +3076,7 @@
     {
       "stage": "EV",
       "hall": "04-03",
-      "load": "ASSEMBLER EV cleanroom",
+      "load": "LASER_ENGRAVER EV cleanroom",
       "position": [
         245,
         0,

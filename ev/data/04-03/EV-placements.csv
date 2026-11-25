@@ -1095,8 +1095,8 @@ x,y,z,part,title,registry,item_damage,placed_metadata,group,configuration
 247,0,331,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV external cleanroom support pod load bus,{}
 248,0,331,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,EV external cleanroom support pod load bus,{}
 230,0,335,CHEST,Manual process stock chest / south-facing,minecraft:chest,0,3,manual process stock,{}
+236,0,332,ASSEMBLER_EV,Assembler Ev,gregtech:gt.blockmachines,214,,EV external cleanroom support pod,"{""facing"": ""south"", ""energy_input"": ""north"", ""handling"": ""Manual batch items and fluid cells; one station at full EV reference load per pod""}"
 236,0,335,CHEST,Manual process stock chest / south-facing,minecraft:chest,0,3,manual process stock,{}
-242,0,332,LASER_ENGRAVER_EV,Laser Engraver Ev,gregtech:gt.blockmachines,594,,EV external cleanroom support pod,"{""facing"": ""south"", ""energy_input"": ""north"", ""handling"": ""Manual batch items and fluid cells; one station at full EV reference load per pod""}"
 242,0,335,CHEST,Manual process stock chest / south-facing,minecraft:chest,0,3,manual process stock,{}
 248,0,332,FORMING_PRESS_EV,Forming Press Ev,gregtech:gt.blockmachines,604,,EV external cleanroom support pod,"{""facing"": ""south"", ""energy_input"": ""north"", ""handling"": ""Manual batch items and fluid cells; one station at full EV reference load per pod""}"
 248,0,335,CHEST,Manual process stock chest / south-facing,minecraft:chest,0,3,manual process stock,{}
@@ -1133,7 +1133,7 @@ x,y,z,part,title,registry,item_damage,placed_metadata,group,configuration
 248,1,348,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,cleanroom external EV lead,{}
 248,0,348,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,cleanroom external EV lead,{}
 247,0,352,HULL_EV,Hull Ev,gregtech:gt.blockmachines,14,,cleanroom EV feedthrough,"{""facing"": ""west""}"
-245,0,352,ASSEMBLER_EV,Assembler Ev,gregtech:gt.blockmachines,214,,cleanroom EV process,"{""facing"": ""south"", ""energy_input"": ""east""}"
+245,0,352,LASER_ENGRAVER_EV,Laser Engraver Ev,gregtech:gt.blockmachines,594,,cleanroom EV process,"{""facing"": ""south"", ""energy_input"": ""east""}"
 246,0,352,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,cleanroom EV power,{}
 252,2,349,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,cleanroom external EV lead,{}
 252,2,350,C_EV,1x Aluminium Cable,gregtech:gt.blockmachines,1586,,cleanroom external EV lead,{}

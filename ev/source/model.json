@@ -103993,21 +103993,21 @@
         {
           "x": 236,
           "y": 0,
-          "z": 335,
-          "part": "CHEST",
-          "stage": "EV",
-          "group": "manual process stock"
-        },
-        {
-          "x": 242,
-          "y": 0,
           "z": 332,
-          "part": "LASER_ENGRAVER_EV",
+          "part": "ASSEMBLER_EV",
           "stage": "EV",
           "group": "EV external cleanroom support pod",
           "facing": "south",
           "energy_input": "north",
           "handling": "Manual batch items and fluid cells; one station at full EV reference load per pod"
+        },
+        {
+          "x": 236,
+          "y": 0,
+          "z": 335,
+          "part": "CHEST",
+          "stage": "EV",
+          "group": "manual process stock"
         },
         {
           "x": 242,
@@ -104308,7 +104308,7 @@
           "x": 245,
           "y": 0,
           "z": 352,
-          "part": "ASSEMBLER_EV",
+          "part": "LASER_ENGRAVER_EV",
           "stage": "EV",
           "group": "cleanroom EV process",
           "facing": "south",
@@ -106183,17 +106183,17 @@
           ]
         },
         {
-          "name": "Laser Engraver",
+          "name": "Assembler",
           "kind": "station",
           "tier": "EV",
           "stage": "EV",
           "position": [
-            242,
+            236,
             0,
             332
           ],
           "operator": [
-            242,
+            236,
             0,
             333
           ],
@@ -106259,7 +106259,7 @@
           "peak_recipe_reference_EU_t": 1920
         },
         {
-          "name": "ASSEMBLER EV cleanroom",
+          "name": "LASER_ENGRAVER EV cleanroom",
           "kind": "station",
           "tier": "EV",
           "stage": "EV",
