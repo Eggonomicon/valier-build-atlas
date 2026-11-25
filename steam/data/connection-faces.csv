@@ -1,0 +1,551 @@
+city_x,civil_y,city_z,symbol,network,pipe_neighbors,machine_terminal_faces,default_closed_terminals,unused_faces
+64,-6,4,W,water,west,,,disconnect all faces not listed; external port east closed initially
+63,-6,4,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+62,-6,4,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+61,-6,4,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+60,-6,4,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+59,-6,4,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+58,-6,4,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+57,-6,4,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+56,-6,4,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+55,-6,4,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+54,-6,4,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+53,-6,4,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+52,-6,4,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+51,-6,4,W,water,south east,,,disconnect all faces not listed; external port east closed initially
+51,-6,5,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+51,-6,6,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+51,-6,7,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+51,-6,8,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+51,-6,9,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+51,-6,10,W,water,north east,,,disconnect all faces not listed; external port east closed initially
+52,-6,10,W,water,down west,,,disconnect all faces not listed; external port east closed initially
+52,-7,10,W,water,down up,,,disconnect all faces not listed; external port east closed initially
+52,-8,10,W,water,up south,,,disconnect all faces not listed; external port east closed initially
+52,-8,11,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+52,-8,12,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+52,-8,13,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+52,-8,14,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+52,-8,15,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+52,-8,16,W,water,north west,,,disconnect all faces not listed; external port east closed initially
+51,-8,16,W,water,south east,,,disconnect all faces not listed; external port east closed initially
+51,-8,17,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+51,-8,18,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+51,-8,19,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+64,-5,3,T,steam,west,,,disconnect all faces not listed; external port east closed initially
+63,-5,3,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+62,-5,3,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+61,-5,3,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+60,-5,3,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+59,-5,3,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+58,-5,3,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+57,-5,3,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+56,-5,3,T,steam,south east,,,disconnect all faces not listed; external port east closed initially
+56,-5,4,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+56,-5,5,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+56,-5,6,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+56,-5,7,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+56,-5,8,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+56,-5,9,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+56,-5,10,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+56,-5,11,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+56,-5,12,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+56,-5,13,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+56,-5,14,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+56,-5,15,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+56,-5,16,T,steam,down north,,,disconnect all faces not listed; external port east closed initially
+64,-7,3,T,steam,west,,,disconnect all faces not listed; external port east closed initially
+63,-7,3,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+62,-7,3,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+61,-7,3,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+60,-7,3,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+59,-7,3,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+58,-7,3,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+57,-7,3,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+56,-7,3,T,steam,south east,,,disconnect all faces not listed; external port east closed initially
+56,-7,4,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+56,-7,5,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+56,-7,6,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+56,-7,7,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+56,-7,8,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+56,-7,9,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+56,-7,10,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+56,-7,11,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+56,-7,12,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+56,-7,13,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+56,-7,14,T,steam,down north,,,disconnect all faces not listed; external port east closed initially
+56,-8,14,T,steam,up south,,,disconnect all faces not listed; external port east closed initially
+56,-8,15,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+56,-8,16,T,steam,up north south,,,disconnect all faces not listed; external port east closed initially
+56,-8,17,T,steam,up north south,,,disconnect all faces not listed; external port east closed initially
+56,-8,18,T,steam,up north south,,,disconnect all faces not listed; external port east closed initially
+56,-8,19,T,steam,up north south,,,disconnect all faces not listed; external port east closed initially
+56,-6,16,T,steam,down up,,,disconnect all faces not listed; external port east closed initially
+56,-7,16,T,steam,down up south,,,disconnect all faces not listed; external port east closed initially
+56,-7,17,T,steam,down north south,,,disconnect all faces not listed; external port east closed initially
+56,-7,18,T,steam,down north south,,,disconnect all faces not listed; external port east closed initially
+56,-7,19,T,steam,down up north south,,,disconnect all faces not listed; external port east closed initially
+64,-7,8,I,fuel,west,,,disconnect all faces not listed; external port east closed initially
+63,-7,8,I,fuel,west east,,,disconnect all faces not listed; external port east closed initially
+62,-7,8,I,fuel,west east,,,disconnect all faces not listed; external port east closed initially
+61,-7,8,I,fuel,west east,,,disconnect all faces not listed; external port east closed initially
+60,-7,8,I,fuel,west east,,,disconnect all faces not listed; external port east closed initially
+59,-7,8,I,fuel,west east,,,disconnect all faces not listed; external port east closed initially
+58,-7,8,I,fuel,up east,,,disconnect all faces not listed; external port east closed initially
+58,-6,8,I,fuel,down west,,,disconnect all faces not listed; external port east closed initially
+57,-6,8,I,fuel,west east,,,disconnect all faces not listed; external port east closed initially
+56,-6,8,I,fuel,west east,,,disconnect all faces not listed; external port east closed initially
+55,-6,8,I,fuel,down east,,,disconnect all faces not listed; external port east closed initially
+55,-7,8,I,fuel,up west,,,disconnect all faces not listed; external port east closed initially
+54,-7,8,I,fuel,west east,,,disconnect all faces not listed; external port east closed initially
+53,-7,8,I,fuel,west east,,,disconnect all faces not listed; external port east closed initially
+52,-7,8,I,fuel,west east,,,disconnect all faces not listed; external port east closed initially
+51,-7,8,I,fuel,south east,,,disconnect all faces not listed; external port east closed initially
+51,-7,9,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+51,-7,10,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+51,-7,11,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+51,-7,12,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+51,-7,13,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+51,-7,14,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+51,-7,15,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+51,-7,16,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+51,-7,17,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+51,-7,18,I,fuel,north east,,,disconnect all faces not listed; external port east closed initially
+52,-7,18,I,fuel,down west,,,disconnect all faces not listed; external port east closed initially
+52,-8,18,I,fuel,up south,,,disconnect all faces not listed; external port east closed initially
+52,-8,19,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+64,-5,7,C,hv_out,west,,,disconnect all faces not listed; external port east closed initially
+63,-5,7,C,hv_out,west east,,,disconnect all faces not listed; external port east closed initially
+62,-5,7,C,hv_out,west east,,,disconnect all faces not listed; external port east closed initially
+61,-5,7,C,hv_out,west east,,,disconnect all faces not listed; external port east closed initially
+60,-5,7,C,hv_out,west east,,,disconnect all faces not listed; external port east closed initially
+59,-5,7,C,hv_out,west east,,,disconnect all faces not listed; external port east closed initially
+58,-5,7,C,hv_out,down east,,,disconnect all faces not listed; external port east closed initially
+58,-6,7,C,hv_out,up west,,,disconnect all faces not listed; external port east closed initially
+57,-6,7,C,hv_out,west east,,,disconnect all faces not listed; external port east closed initially
+56,-6,7,C,hv_out,west east,,,disconnect all faces not listed; external port east closed initially
+55,-6,7,C,hv_out,up east,,,disconnect all faces not listed; external port east closed initially
+55,-5,7,C,hv_out,down south,,,disconnect all faces not listed; external port east closed initially
+55,-5,8,C,hv_out,north south,,,disconnect all faces not listed; external port east closed initially
+55,-5,9,C,hv_out,north south,,,disconnect all faces not listed; external port east closed initially
+55,-5,10,C,hv_out,north south,,,disconnect all faces not listed; external port east closed initially
+55,-5,11,C,hv_out,north south,,,disconnect all faces not listed; external port east closed initially
+55,-5,12,C,hv_out,north south,,,disconnect all faces not listed; external port east closed initially
+55,-5,13,C,hv_out,north south,,,disconnect all faces not listed; external port east closed initially
+55,-5,14,C,hv_out,north south,,,disconnect all faces not listed; external port east closed initially
+55,-5,15,C,hv_out,north south,,,disconnect all faces not listed; external port east closed initially
+55,-5,16,C,hv_out,north south,,,disconnect all faces not listed; external port east closed initially
+55,-5,17,C,hv_out,down north,,,disconnect all faces not listed; external port east closed initially
+55,-6,17,C,hv_out,down up,,,disconnect all faces not listed; external port east closed initially
+55,-7,17,C,hv_out,down up,,,disconnect all faces not listed; external port east closed initially
+55,-8,17,C,hv_out,up south,,,disconnect all faces not listed; external port east closed initially
+55,-8,18,C,hv_out,north south,,,disconnect all faces not listed; external port east closed initially
+55,-8,19,C,hv_out,north south,,,disconnect all faces not listed; external port east closed initially
+51,-8,20,W,water,up north,,,disconnect all faces not listed; external port east closed initially
+51,-7,20,W,water,down south,,,disconnect all faces not listed; external port east closed initially
+51,-7,21,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+51,-7,22,W,water,up north,,,disconnect all faces not listed; external port east closed initially
+51,-6,22,W,water,down south,,,disconnect all faces not listed; external port east closed initially
+51,-6,23,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+51,-6,24,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+51,-6,25,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+51,-6,26,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+51,-6,27,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+51,-6,28,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+56,-8,20,T,steam,up north,,,disconnect all faces not listed; external port east closed initially
+56,-7,20,T,steam,down up north south,,,disconnect all faces not listed; external port east closed initially
+56,-7,21,T,steam,up north south,,,disconnect all faces not listed; external port east closed initially
+56,-7,22,T,steam,up north,,,disconnect all faces not listed; external port east closed initially
+56,-6,22,T,steam,down up north south,,,disconnect all faces not listed; external port east closed initially
+56,-6,23,T,steam,up north south,,,disconnect all faces not listed; external port east closed initially
+56,-6,24,T,steam,up north south,,,disconnect all faces not listed; external port east closed initially
+56,-6,25,T,steam,up north south,,,disconnect all faces not listed; external port east closed initially
+56,-6,26,T,steam,up north south,,,disconnect all faces not listed; external port east closed initially
+56,-6,27,T,steam,up north south,,,disconnect all faces not listed; external port east closed initially
+56,-6,28,T,steam,up north south,,,disconnect all faces not listed; external port east closed initially
+56,-6,19,T,steam,down south,,,disconnect all faces not listed; external port east closed initially
+56,-6,20,T,steam,down north south,,,disconnect all faces not listed; external port east closed initially
+56,-6,21,T,steam,down up north south,,,disconnect all faces not listed; external port east closed initially
+56,-5,21,T,steam,down south,,,disconnect all faces not listed; external port east closed initially
+56,-5,22,T,steam,down north south,,,disconnect all faces not listed; external port east closed initially
+56,-5,23,T,steam,down north south,,,disconnect all faces not listed; external port east closed initially
+56,-5,24,T,steam,down north south,,,disconnect all faces not listed; external port east closed initially
+56,-5,25,T,steam,down north south,,,disconnect all faces not listed; external port east closed initially
+56,-5,26,T,steam,down north south,,,disconnect all faces not listed; external port east closed initially
+56,-5,27,T,steam,down north south,,,disconnect all faces not listed; external port east closed initially
+56,-5,28,T,steam,down north south,,,disconnect all faces not listed; external port east closed initially
+55,-8,20,C,hv_out,up north,,,disconnect all faces not listed; external port east closed initially
+55,-7,20,C,hv_out,down south,,,disconnect all faces not listed; external port east closed initially
+55,-7,21,C,hv_out,north south,,,disconnect all faces not listed; external port east closed initially
+55,-7,22,C,hv_out,up north,,,disconnect all faces not listed; external port east closed initially
+55,-6,22,C,hv_out,down south,,,disconnect all faces not listed; external port east closed initially
+55,-6,23,C,hv_out,north south,,,disconnect all faces not listed; external port east closed initially
+55,-6,24,C,hv_out,north south,,,disconnect all faces not listed; external port east closed initially
+55,-6,25,C,hv_out,north south,,,disconnect all faces not listed; external port east closed initially
+55,-6,26,C,hv_out,north south,,,disconnect all faces not listed; external port east closed initially
+55,-6,27,C,hv_out,north south,,,disconnect all faces not listed; external port east closed initially
+55,-6,28,C,hv_out,north south,,,disconnect all faces not listed; external port east closed initially
+52,-8,20,I,fuel,up north,,,disconnect all faces not listed; external port east closed initially
+52,-7,20,I,fuel,down south,,,disconnect all faces not listed; external port east closed initially
+52,-7,21,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+52,-7,22,I,fuel,up north,,,disconnect all faces not listed; external port east closed initially
+52,-6,22,I,fuel,down south,,,disconnect all faces not listed; external port east closed initially
+52,-6,23,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+52,-6,24,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+52,-6,25,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+52,-6,26,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+52,-6,27,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+52,-6,28,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+51,-6,29,W,water,up north,,,disconnect all faces not listed; external port east closed initially
+51,-5,29,W,water,down up,,,disconnect all faces not listed; external port east closed initially
+51,-4,29,W,water,down west,,,disconnect all faces not listed; external port east closed initially
+50,-4,29,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+49,-4,29,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+48,-4,29,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+47,-4,29,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+46,-4,29,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+45,-4,29,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+44,-4,29,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+43,-4,29,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+42,-4,29,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+41,-4,29,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+40,-4,29,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+39,-4,29,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+38,-4,29,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+37,-4,29,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+36,-4,29,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+35,-4,29,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+34,-4,29,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+33,-4,29,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+32,-4,29,W,water,south east,,,disconnect all faces not listed; external port east closed initially
+32,-4,30,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+32,-4,31,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+32,-4,32,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+32,-4,33,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+32,-4,34,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+32,-4,35,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+32,-4,36,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+32,-4,37,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+32,-4,38,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+32,-4,39,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+32,-4,40,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+32,-4,41,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+32,-4,42,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+32,-4,43,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+32,-4,44,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+32,-4,45,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+32,-4,46,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+32,-4,47,W,water,up north,,,disconnect all faces not listed; external port east closed initially
+32,-3,47,W,water,down up,,,disconnect all faces not listed; external port east closed initially
+32,-2,47,W,water,down up,,,disconnect all faces not listed; external port east closed initially
+32,-1,47,W,water,down up,,,disconnect all faces not listed; external port east closed initially
+32,0,47,W,water,down up,,,disconnect all faces not listed; external port east closed initially
+32,1,47,W,water,down east,,,disconnect all faces not listed; external port east closed initially
+33,1,47,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+34,1,47,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+35,1,47,W,water,west,south,,disconnect all faces not listed; external port east closed initially
+35,-1,49,W,water,down,up,,disconnect all faces not listed; external port east closed initially
+35,-2,49,W,water,down up,,,disconnect all faces not listed; external port east closed initially
+35,-3,49,W,water,up north,,,disconnect all faces not listed; external port east closed initially
+35,-3,48,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+35,-3,47,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+35,-3,46,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+35,-3,45,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+35,-3,44,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+35,-3,43,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+35,-3,42,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+35,-3,41,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+35,-3,40,W,water,north south,,,disconnect all faces not listed; external port east closed initially
+35,-3,39,W,water,south west east,,,disconnect all faces not listed; external port east closed initially
+34,-3,39,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+33,-3,39,W,water,up east,,,disconnect all faces not listed; external port east closed initially
+33,-2,39,W,water,down up,,,disconnect all faces not listed; external port east closed initially
+33,-1,39,W,water,down up,,,disconnect all faces not listed; external port east closed initially
+33,0,39,W,water,down,east,,disconnect all faces not listed; external port east closed initially
+36,-3,39,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+37,-3,39,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+38,-3,39,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+39,-3,39,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+40,-3,39,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+41,-3,39,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+42,-3,39,W,water,west east,,,disconnect all faces not listed; external port east closed initially
+43,-3,39,W,water,up west,,,disconnect all faces not listed; external port east closed initially
+43,-2,39,W,water,down up,,,disconnect all faces not listed; external port east closed initially
+43,-1,39,W,water,down up,,,disconnect all faces not listed; external port east closed initially
+43,0,39,W,water,down,east,,disconnect all faces not listed; external port east closed initially
+56,-6,29,T,steam,up north south,,,disconnect all faces not listed; external port east closed initially
+56,-6,30,T,steam,up north,,,disconnect all faces not listed; external port east closed initially
+56,-5,30,T,steam,down up north,,,disconnect all faces not listed; external port east closed initially
+56,-4,30,T,steam,down up north,,,disconnect all faces not listed; external port east closed initially
+56,-3,30,T,steam,down up north west east,,,disconnect all faces not listed; external port east closed initially
+55,-3,30,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+54,-3,30,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+53,-3,30,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+52,-3,30,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+51,-3,30,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+50,-3,30,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+49,-3,30,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+48,-3,30,T,steam,south east,,,disconnect all faces not listed; external port east closed initially
+48,-3,31,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+48,-3,32,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+48,-3,33,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+48,-3,34,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+48,-3,35,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+48,-3,36,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+48,-3,37,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+48,-3,38,T,steam,up north,,,disconnect all faces not listed; external port east closed initially
+48,-2,38,T,steam,down up,,,disconnect all faces not listed; external port east closed initially
+48,-1,38,T,steam,down up,,,disconnect all faces not listed; external port east closed initially
+48,0,38,T,steam,down up,,,disconnect all faces not listed; external port east closed initially
+48,1,38,T,steam,down up,,,disconnect all faces not listed; external port east closed initially
+48,2,38,T,steam,down up,,,disconnect all faces not listed; external port east closed initially
+48,3,38,T,steam,down up,,,disconnect all faces not listed; external port east closed initially
+48,4,38,T,steam,down up,,,disconnect all faces not listed; external port east closed initially
+48,5,38,T,steam,down south west,,,disconnect all faces not listed; external port east closed initially
+56,-5,29,T,steam,down up north south,,,disconnect all faces not listed; external port east closed initially
+56,-4,29,T,steam,down up south,,,disconnect all faces not listed; external port east closed initially
+56,-3,29,T,steam,down up south,,,disconnect all faces not listed; external port east closed initially
+56,-2,29,T,steam,down south,,,disconnect all faces not listed; external port east closed initially
+56,-2,30,T,steam,down north south,,,disconnect all faces not listed; external port east closed initially
+56,-2,31,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+56,-2,32,T,steam,north west east,,,disconnect all faces not listed; external port east closed initially
+55,-2,32,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+54,-2,32,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+53,-2,32,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+52,-2,32,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+51,-2,32,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+50,-2,32,T,steam,south east,,,disconnect all faces not listed; external port east closed initially
+50,-2,33,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+50,-2,34,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+50,-2,35,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+50,-2,36,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+50,-2,37,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+50,-2,38,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+50,-2,39,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+50,-2,40,T,steam,up north,,,disconnect all faces not listed; external port east closed initially
+50,-1,40,T,steam,down up,,,disconnect all faces not listed; external port east closed initially
+50,0,40,T,steam,down up,,,disconnect all faces not listed; external port east closed initially
+50,1,40,T,steam,down up,,,disconnect all faces not listed; external port east closed initially
+50,2,40,T,steam,down up,,,disconnect all faces not listed; external port east closed initially
+50,3,40,T,steam,down up,,,disconnect all faces not listed; external port east closed initially
+50,4,40,T,steam,down up,,,disconnect all faces not listed; external port east closed initially
+50,5,40,T,steam,down up,,,disconnect all faces not listed; external port east closed initially
+50,6,40,T,steam,down south west,,,disconnect all faces not listed; external port east closed initially
+34,5,38,T,steam,east,down,,disconnect all faces not listed; external port east closed initially
+35,5,38,T,steam,west east,down,,disconnect all faces not listed; external port east closed initially
+36,5,38,T,steam,west east,down,,disconnect all faces not listed; external port east closed initially
+37,5,38,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+38,5,38,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+39,5,38,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+40,5,38,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+41,5,38,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+42,5,38,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+43,5,38,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+44,5,38,T,steam,west east,down,,disconnect all faces not listed; external port east closed initially
+45,5,38,T,steam,west east,down,,disconnect all faces not listed; external port east closed initially
+46,5,38,T,steam,west east,down,,disconnect all faces not listed; external port east closed initially
+47,5,38,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+44,5,40,T,steam,east,down,,disconnect all faces not listed; external port east closed initially
+45,5,40,T,steam,west east,down,,disconnect all faces not listed; external port east closed initially
+46,5,40,T,steam,up west,down,,disconnect all faces not listed; external port east closed initially
+46,6,40,T,steam,down east,,,disconnect all faces not listed; external port east closed initially
+47,6,40,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+48,6,40,T,steam,down west east,,,disconnect all faces not listed; external port east closed initially
+49,6,40,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+43,4,58,T,steam,north south west east,,,disconnect all faces not listed; external port east closed initially
+42,4,58,t,steam,west east,,,disconnect all faces not listed; external port east closed initially
+41,4,58,t,steam,west east,,,disconnect all faces not listed; external port east closed initially
+40,4,58,t,steam,down east,,,disconnect all faces not listed; external port east closed initially
+40,3,58,t,steam,down up,,,disconnect all faces not listed; external port east closed initially
+40,2,58,t,steam,down up,,,disconnect all faces not listed; external port east closed initially
+40,1,58,t,steam,up,down,,disconnect all faces not listed; external port east closed initially
+44,4,58,t,steam,west east,,,disconnect all faces not listed; external port east closed initially
+45,4,58,t,steam,west east,,,disconnect all faces not listed; external port east closed initially
+46,4,58,t,steam,down west,,,disconnect all faces not listed; external port east closed initially
+46,3,58,t,steam,down up,,,disconnect all faces not listed; external port east closed initially
+46,2,58,t,steam,down up,,,disconnect all faces not listed; external port east closed initially
+46,1,58,t,steam,up,down,,disconnect all faces not listed; external port east closed initially
+43,4,66,T,steam,north south west east,,,disconnect all faces not listed; external port east closed initially
+42,4,66,t,steam,west east,,,disconnect all faces not listed; external port east closed initially
+41,4,66,t,steam,west east,,,disconnect all faces not listed; external port east closed initially
+40,4,66,t,steam,down east,,,disconnect all faces not listed; external port east closed initially
+40,3,66,t,steam,down up,,,disconnect all faces not listed; external port east closed initially
+40,2,66,t,steam,down up,,,disconnect all faces not listed; external port east closed initially
+40,1,66,t,steam,up,down,,disconnect all faces not listed; external port east closed initially
+44,4,66,t,steam,west east,,,disconnect all faces not listed; external port east closed initially
+45,4,66,t,steam,west east,,,disconnect all faces not listed; external port east closed initially
+46,4,66,t,steam,down west,,,disconnect all faces not listed; external port east closed initially
+46,3,66,t,steam,down up,,,disconnect all faces not listed; external port east closed initially
+46,2,66,t,steam,down up,,,disconnect all faces not listed; external port east closed initially
+46,1,66,t,steam,up,down,,disconnect all faces not listed; external port east closed initially
+43,4,70,T,steam,north south west east,,,disconnect all faces not listed; external port east closed initially
+42,4,70,t,steam,west east,,,disconnect all faces not listed; external port east closed initially
+41,4,70,t,steam,west east,,,disconnect all faces not listed; external port east closed initially
+40,4,70,t,steam,down east,,,disconnect all faces not listed; external port east closed initially
+40,3,70,t,steam,down up,,,disconnect all faces not listed; external port east closed initially
+40,2,70,t,steam,down up,,,disconnect all faces not listed; external port east closed initially
+40,1,70,t,steam,up,down,,disconnect all faces not listed; external port east closed initially
+44,4,70,t,steam,west east,,,disconnect all faces not listed; external port east closed initially
+45,4,70,t,steam,west east,,,disconnect all faces not listed; external port east closed initially
+46,4,70,t,steam,down west,,,disconnect all faces not listed; external port east closed initially
+46,3,70,t,steam,down up,,,disconnect all faces not listed; external port east closed initially
+46,2,70,t,steam,down up,,,disconnect all faces not listed; external port east closed initially
+46,1,70,t,steam,up,down,,disconnect all faces not listed; external port east closed initially
+43,4,54,T,steam,up south,,,disconnect all faces not listed; external port east closed initially
+43,4,55,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+43,4,56,T,steam,up north south,,,disconnect all faces not listed; external port east closed initially
+43,4,57,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+43,4,59,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+43,4,60,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+43,4,61,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+43,4,62,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+43,4,63,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+43,4,64,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+43,4,65,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+43,4,67,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+43,4,68,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+43,4,69,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+43,4,71,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+43,4,72,T,steam,north,,,disconnect all faces not listed; external port east closed initially
+48,5,39,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+48,5,40,T,steam,up north south,,,disconnect all faces not listed; external port east closed initially
+48,5,41,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+48,5,42,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+48,5,43,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+48,5,44,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+48,5,45,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+48,5,46,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+48,5,47,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+48,5,48,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+48,5,49,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+48,5,50,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+48,5,51,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+48,5,52,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+48,5,53,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+48,5,54,T,steam,north west,,,disconnect all faces not listed; external port east closed initially
+47,5,54,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+46,5,54,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+45,5,54,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+44,5,54,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+43,5,54,T,steam,down east,,,disconnect all faces not listed; external port east closed initially
+50,6,41,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+50,6,42,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+50,6,43,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+50,6,44,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+50,6,45,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+50,6,46,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+50,6,47,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+50,6,48,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+50,6,49,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+50,6,50,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+50,6,51,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+50,6,52,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+50,6,53,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+50,6,54,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+50,6,55,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+50,6,56,T,steam,north west,,,disconnect all faces not listed; external port east closed initially
+49,6,56,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+48,6,56,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+47,6,56,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+46,6,56,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+45,6,56,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+44,6,56,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+43,6,56,T,steam,down east,,,disconnect all faces not listed; external port east closed initially
+43,5,56,T,steam,down up,,,disconnect all faces not listed; external port east closed initially
+57,-3,30,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+58,-3,30,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+59,-3,30,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+60,-3,30,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+61,-3,30,T,steam,south west,,,disconnect all faces not listed; external port east closed initially
+61,-3,31,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+61,-3,32,T,steam,up north south,,,disconnect all faces not listed; external port east closed initially
+61,-3,33,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+61,-3,34,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+61,-3,35,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+61,-3,36,T,steam,down north,,,disconnect all faces not listed; external port east closed initially
+61,-4,36,T,steam,down up,,,disconnect all faces not listed; external port east closed initially
+61,-5,36,T,steam,down up,,,disconnect all faces not listed; external port east closed initially
+61,-6,36,T,steam,up,east,east,disconnect all faces not listed; external port east closed initially
+57,-2,32,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+58,-2,32,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+59,-2,32,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+60,-2,32,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+61,-2,32,T,steam,down west east,,,disconnect all faces not listed; external port east closed initially
+62,-2,32,T,steam,west east,,,disconnect all faces not listed; external port east closed initially
+63,-2,32,T,steam,south west,,,disconnect all faces not listed; external port east closed initially
+63,-2,33,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+63,-2,34,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+63,-2,35,T,steam,north south,,,disconnect all faces not listed; external port east closed initially
+63,-2,36,T,steam,down north,,,disconnect all faces not listed; external port east closed initially
+63,-3,36,T,steam,down up,,,disconnect all faces not listed; external port east closed initially
+63,-4,36,T,steam,down up,,,disconnect all faces not listed; external port east closed initially
+63,-5,36,T,steam,down up,,,disconnect all faces not listed; external port east closed initially
+63,-6,36,T,steam,up,west,west,disconnect all faces not listed; external port east closed initially
+62,-6,35,c,hv_source,north,south,,disconnect all faces not listed; external port east closed initially
+62,-6,34,c,hv_source,north south,,,disconnect all faces not listed; external port east closed initially
+62,-6,33,c,hv_source,south,north,,disconnect all faces not listed; external port east closed initially
+61,-6,32,C,hv_out,west,east,,disconnect all faces not listed; external port east closed initially
+60,-6,32,C,hv_out,west east,,,disconnect all faces not listed; external port east closed initially
+59,-6,32,C,hv_out,west east,,,disconnect all faces not listed; external port east closed initially
+58,-6,32,C,hv_out,west east,,,disconnect all faces not listed; external port east closed initially
+57,-6,32,C,hv_out,west east,,,disconnect all faces not listed; external port east closed initially
+56,-6,32,C,hv_out,west east,,,disconnect all faces not listed; external port east closed initially
+55,-6,32,C,hv_out,north east,,,disconnect all faces not listed; external port east closed initially
+55,-6,31,C,hv_out,north south,,,disconnect all faces not listed; external port east closed initially
+55,-6,30,C,hv_out,north south,,,disconnect all faces not listed; external port east closed initially
+55,-6,29,C,hv_out,north south,,,disconnect all faces not listed; external port east closed initially
+52,-6,29,I,fuel,up north,,,disconnect all faces not listed; external port east closed initially
+52,-5,29,I,fuel,down up,,,disconnect all faces not listed; external port east closed initially
+52,-4,29,I,fuel,down up,,,disconnect all faces not listed; external port east closed initially
+52,-3,29,I,fuel,down up,,,disconnect all faces not listed; external port east closed initially
+52,-2,29,I,fuel,down west,,,disconnect all faces not listed; external port east closed initially
+51,-2,29,I,fuel,west east,,,disconnect all faces not listed; external port east closed initially
+50,-2,29,I,fuel,west east,,,disconnect all faces not listed; external port east closed initially
+49,-2,29,I,fuel,west east,,,disconnect all faces not listed; external port east closed initially
+48,-2,29,I,fuel,west east,,,disconnect all faces not listed; external port east closed initially
+47,-2,29,I,fuel,west east,,,disconnect all faces not listed; external port east closed initially
+46,-2,29,I,fuel,west east,,,disconnect all faces not listed; external port east closed initially
+45,-2,29,I,fuel,west east,,,disconnect all faces not listed; external port east closed initially
+44,-2,29,I,fuel,west east,,,disconnect all faces not listed; external port east closed initially
+43,-2,29,I,fuel,west east,,,disconnect all faces not listed; external port east closed initially
+42,-2,29,I,fuel,west east,,,disconnect all faces not listed; external port east closed initially
+41,-2,29,I,fuel,west east,,,disconnect all faces not listed; external port east closed initially
+40,-2,29,I,fuel,south east,,,disconnect all faces not listed; external port east closed initially
+40,-2,30,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+40,-2,31,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+40,-2,32,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+40,-2,33,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+40,-2,34,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+40,-2,35,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+40,-2,36,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+40,-2,37,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+40,-2,38,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+40,-2,39,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+40,-2,40,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+40,-2,41,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+40,-2,42,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+40,-2,43,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+40,-2,44,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+40,-2,45,I,fuel,up north,,,disconnect all faces not listed; external port east closed initially
+40,-1,45,I,fuel,down up,,,disconnect all faces not listed; external port east closed initially
+40,0,45,I,fuel,down up,,,disconnect all faces not listed; external port east closed initially
+40,1,45,I,fuel,down up,,,disconnect all faces not listed; external port east closed initially
+40,2,45,I,fuel,down west east,,,disconnect all faces not listed; external port east closed initially
+39,2,45,I,fuel,west east,,,disconnect all faces not listed; external port east closed initially
+38,2,45,I,fuel,west east,,,disconnect all faces not listed; external port east closed initially
+37,2,45,I,fuel,west east,,,disconnect all faces not listed; external port east closed initially
+36,2,45,I,fuel,west east,,,disconnect all faces not listed; external port east closed initially
+35,2,45,I,fuel,north east,,,disconnect all faces not listed; external port east closed initially
+41,2,45,I,fuel,west east,,,disconnect all faces not listed; external port east closed initially
+42,2,45,I,fuel,west east,,,disconnect all faces not listed; external port east closed initially
+43,2,45,I,fuel,west east,,,disconnect all faces not listed; external port east closed initially
+44,2,45,I,fuel,west east,,,disconnect all faces not listed; external port east closed initially
+45,2,45,I,fuel,north west,,,disconnect all faces not listed; external port east closed initially
+35,2,44,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+35,2,43,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+35,2,42,I,fuel,down south,,,disconnect all faces not listed; external port east closed initially
+35,1,42,I,fuel,up,north,,disconnect all faces not listed; external port east closed initially
+45,2,44,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+45,2,43,I,fuel,north south,,,disconnect all faces not listed; external port east closed initially
+45,2,42,I,fuel,down south,,,disconnect all faces not listed; external port east closed initially
+45,1,42,I,fuel,up,north,,disconnect all faces not listed; external port east closed initially

@@ -1,0 +1,116 @@
+{
+  "status": "pass",
+  "pack": "GTNH2.9.2",
+  "method": "Installed ZIP/class inspection + javap data decoding, Java25 effective class variant (latest present; runtime Java26). No game capture, world access, mod initialization, source compilation or recovered-code execution.",
+  "artifacts": [
+    {
+      "file": "gregtech-5.09.54.277.jar",
+      "sha256": "1d65fd14b71becbf9a2b65b955d7f451c9782258aa13f24516f8912679c78803"
+    },
+    {
+      "file": "Railcraft-9.17.37.jar",
+      "sha256": "72bb750d6a44b4231c0492bf4126accfa036142278728b8e5bc20c69bc0f0c71"
+    }
+  ],
+  "config_observations": {
+    "gt6Pipe": true,
+    "gt6Cable": true,
+    "railcraft_fuelPerSteamMultiplier": 1.0
+  },
+  "theoretical_boiler": {
+    "hp_tanks": 36,
+    "solid_fireboxes": 9,
+    "shape_xyz": [
+      3,
+      5,
+      3
+    ],
+    "max_heat": 1000,
+    "heat_level_at_max": 2,
+    "ticks_per_cycle": 8,
+    "water_per_cycle_L": 72,
+    "steam_per_water": 160,
+    "steam_per_cycle_L": 11520,
+    "max_average_steam_L_t": 1440,
+    "max_average_water_L_t": 9,
+    "two_boiler_steam_L_t": 2880,
+    "two_boiler_water_L_t": 18,
+    "water_buffer_per_boiler_L": 144000,
+    "steam_buffer_per_boiler_L": 1152000,
+    "per_output_target_auto_push_L_t": 1000,
+    "qualification": "Source-derived at maximum temperature with water/fuel and valid structure; not measured in game. More than one tank outlet needed to collect the full rate."
+  },
+  "selected_components": {
+    "steam_header": {
+      "registry": "gregtech:gt.blockmachines",
+      "item_damage": 5144,
+      "name": "Huge Stainless Steel Fluid Pipe",
+      "capacity_parameter_L_t": 1440,
+      "tooltip_capacity_L_s": 28800,
+      "temperature_limit_K": 3000,
+      "gas_proof": true
+    },
+    "water_pipe": {
+      "registry": "gregtech:gt.blockmachines",
+      "item_damage": 5131,
+      "name": "Small Steel Fluid Pipe",
+      "capacity_parameter_L_t": 80,
+      "tooltip_capacity_L_s": 1600,
+      "temperature_limit_K": 2500,
+      "gas_proof": true
+    },
+    "workshop_steam_pipe": {
+      "registry": "gregtech:gt.blockmachines",
+      "item_damage": 5132,
+      "name": "Steel Fluid Pipe",
+      "capacity_parameter_L_t": 240,
+      "tooltip_capacity_L_s": 4800,
+      "gas_proof": true
+    },
+    "hv_cable": {
+      "registry": "gregtech:gt.blockmachines",
+      "item_damage": 1448,
+      "name": "4x Electrum Cable",
+      "voltage": 512,
+      "amperes": 8,
+      "loss_EU_per_packet_per_cable": 1
+    },
+    "hv_turbine": {
+      "registry": "gregtech:gt.blockmachines",
+      "item_damage": 1122,
+      "name": "Advanced Steam Turbine",
+      "nominal_voltage": 512,
+      "steam_L_per_3EU": 9,
+      "steam_L_t_for_512_EU_t": 1536
+    },
+    "rc_hp_tank": {
+      "registry": "Railcraft:machine.beta",
+      "metadata": 4
+    },
+    "rc_solid_firebox": {
+      "registry": "Railcraft:machine.beta",
+      "metadata": 5
+    },
+    "iron_tank_wall": {
+      "registry": "Railcraft:machine.beta",
+      "metadata": 0
+    },
+    "iron_tank_gauge": {
+      "registry": "Railcraft:machine.beta",
+      "metadata": 1
+    },
+    "iron_tank_valve": {
+      "registry": "Railcraft:machine.beta",
+      "metadata": 2
+    }
+  },
+  "open": [
+    "actual recipes and progression",
+    "block placement/TE metadata in a real world",
+    "end-to-end pipe transfer and chunk behavior",
+    "live automation/control test",
+    "remote water/fuel source commissioning"
+  ],
+  "game_tested": false,
+  "class_evidence_count": 24
+}

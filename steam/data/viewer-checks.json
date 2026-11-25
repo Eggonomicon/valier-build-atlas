@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "checks": 3221,
+  "all1052positions_inspected": true,
+  "all49removals_inspected": true,
+  "budget_presets_and_single_boiler_HV_shortfall_checked": true,
+  "method": "Node VM with DOM/canvas stand-in; no browser/game capture",
+  "browser_layout_verified": false
+}

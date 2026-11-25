@@ -1,0 +1,162 @@
+{
+  "BUILD_GUIDE.md": {
+    "bytes": 13065,
+    "sha256": "c18955a0bd18f83ec0982335fe04f506aa8fe0109c4e5f2bd9e25cbb08986a55"
+  },
+  "data/checks.json": {
+    "bytes": 36708,
+    "sha256": "01be7450d0296f6afd8a3fdcf569289a50af684c37b52e7f58bec6913960f0f1"
+  },
+  "data/commissioning-log.csv": {
+    "bytes": 526,
+    "sha256": "ddc5a1c23c842ed095551ff7b1f7ea3d8bd005212981923fa63de284354c885e"
+  },
+  "data/connection-faces.csv": {
+    "bytes": 54850,
+    "sha256": "c640e8ab3f3dd1d6321de7bbe6d538394f7c9e1f740001bdb0e4f4e97ec5b375"
+  },
+  "data/installed-evidence.json": {
+    "bytes": 3589,
+    "sha256": "2c10b86716cabe7f8f64ce8649a06a8eacb5c954ecf1114b5298e7203c19e40a"
+  },
+  "data/manual.js": {
+    "bytes": 13196,
+    "sha256": "be61d4cc59bfe862decacf2159b9ffacb78d360310829e436d93390e60271846"
+  },
+  "data/model.js": {
+    "bytes": 380305,
+    "sha256": "cd82335d1350d70a584889a20cd42857aa09eced4727993ae32a34b799fc156e"
+  },
+  "data/model.json": {
+    "bytes": 392013,
+    "sha256": "ef0993f9ec484269d9a16ecbd29d6aa61271036cd45f0c3c5502b07eb6f72a77"
+  },
+  "data/placements.csv": {
+    "bytes": 80658,
+    "sha256": "e965089372d3b00f335c9e6e1a88e1077b1282a6ca568bbeb39fb1c792b5fd04"
+  },
+  "data/presentation.json": {
+    "bytes": 344,
+    "sha256": "41df1fa6a7df556177380f7a6efda61fadb7b3b4ab549a48cd4147c8a7060a48"
+  },
+  "data/remove-exact-cells.csv": {
+    "bytes": 4973,
+    "sha256": "3c4a81f7a79128f7ff56314abd947759935fa1cef2334d9301d1a016a20dcea7"
+  },
+  "data/stock.csv": {
+    "bytes": 848,
+    "sha256": "ce04a9d1d78ee87e448bc780499c2852835d18f7105f1e10d2749385e5216537"
+  },
+  "data/viewer-checks.json": {
+    "bytes": 287,
+    "sha256": "10d986accd151a1fdf9e74d6d53d4806c213756685d11fea3eb8a8c346b49b30"
+  },
+  "guide.css": {
+    "bytes": 3907,
+    "sha256": "4163cb5c294747337eb0b0503fd150db3ef5217993c593603eaad550446f13b8"
+  },
+  "guide.js": {
+    "bytes": 7745,
+    "sha256": "53f97b1f74a4f846ede9be1c49da7a3a057100d159b084a6b8beeb821691a07d"
+  },
+  "images/basement-plan.png": {
+    "bytes": 87490,
+    "sha256": "7ec06d33337520abc0fc5574e96fdb10a79ae772923bd5ee09b538b1ca04ae89"
+  },
+  "images/ground-plan.png": {
+    "bytes": 92266,
+    "sha256": "a2b4be4c36b1854ef28f9d547fcf984bac6e32dcee33048d91dff5da11733ec8"
+  },
+  "images/interface-section.png": {
+    "bytes": 58390,
+    "sha256": "1db9f11558f633f68cc8ce82db2c7ee754e63338ba678ee19729ad7349aa65d5"
+  },
+  "images/steam-hall-shell-reference.webp": {
+    "bytes": 70222,
+    "sha256": "34e2b6036e35e946f91bacf5db7711c1d4b551649ce8658f557f721c99215d4d"
+  },
+  "index.html": {
+    "bytes": 7502,
+    "sha256": "da17774afdae5cb34a702d5e5385377a242d248b3f5891c30c91ce0c0c10d8c2"
+  },
+  "layers/y+00.txt": {
+    "bytes": 2641,
+    "sha256": "07d4f05357a774f6da27d092a7117b2199b627a3f777e2dd18005ffbe30f40c6"
+  },
+  "layers/y+01.txt": {
+    "bytes": 2641,
+    "sha256": "49968ac2b70afab052281e15a61357407ee77f01715876767d6112ad20d74eba"
+  },
+  "layers/y+02.txt": {
+    "bytes": 2641,
+    "sha256": "000df3c167949dfe3876015b864dab9dae7a8adf5b78a7fdccf1b83ab585ce76"
+  },
+  "layers/y+03.txt": {
+    "bytes": 2641,
+    "sha256": "bf2de28060401b23a0026aa7d952808b6202b721d1a0776a5d9cde2fd7aa65ca"
+  },
+  "layers/y+04.txt": {
+    "bytes": 2641,
+    "sha256": "00b9fa82ff2dcd3285c84cae6f2ea7d9767523a79034cce48a7689ed87237bcf"
+  },
+  "layers/y+05.txt": {
+    "bytes": 2641,
+    "sha256": "9c0625efeb0aca72a6cc01faa8a6e7e4295ee4feb9d052abd06620bc8d524a33"
+  },
+  "layers/y+06.txt": {
+    "bytes": 2641,
+    "sha256": "08b7d7276bcef297218a5282f0fbe58b31770741f92cdc8624c43f1d9d172fb0"
+  },
+  "layers/y-01.txt": {
+    "bytes": 2641,
+    "sha256": "936ae9b02be75e8f48bfc722e43627d1fb1eda42c315dfcaab2459af27fb9f84"
+  },
+  "layers/y-02.txt": {
+    "bytes": 2641,
+    "sha256": "56a666e586f5a473444cbc0db4dd78cab323d6104f38591096df66ab4a35c1b9"
+  },
+  "layers/y-03.txt": {
+    "bytes": 2641,
+    "sha256": "bdcad838a9146756cb2a15064f1e9f7abe692d5ceab27d8918538e444b1d29b9"
+  },
+  "layers/y-04.txt": {
+    "bytes": 2641,
+    "sha256": "7f4c41ac335b260de1c4ab2b47e3b080436ea1f50d735035348fae501843ae09"
+  },
+  "layers/y-05.txt": {
+    "bytes": 2641,
+    "sha256": "05546d7a7c921f3b02c05a9f071dec8bf8e3be3559628f2414d87d56d8d52f20"
+  },
+  "layers/y-06.txt": {
+    "bytes": 2641,
+    "sha256": "fd27c107409c7d50ec31c2e10f9dc0146fc2d3dd941cc36a76d43be707cca1e0"
+  },
+  "layers/y-07.txt": {
+    "bytes": 2641,
+    "sha256": "78749ea0464771db71b5c1719d11aa33a9f42a4dcf87f1ae3067b1ce941dd174"
+  },
+  "layers/y-08.txt": {
+    "bytes": 2641,
+    "sha256": "a8dcbb3c412e5be022086fccae9ad1fa00e69e9c59549e2e77416bceb5c4b74b"
+  },
+  "layers/y-09.txt": {
+    "bytes": 2641,
+    "sha256": "444975a1d78ea8c6f0cc00ebe9dfe06fe93e6cb7a16e2c281683abe5d05db469"
+  },
+  "layers/y-10.txt": {
+    "bytes": 2642,
+    "sha256": "2489773a2cf1dd5c3c2eae012f74ca1fdcebc55317dfa702a8ba01e5d1c88caf"
+  },
+  "source/DESIGN_DECISIONS.md": {
+    "bytes": 13065,
+    "sha256": "c18955a0bd18f83ec0982335fe04f506aa8fe0109c4e5f2bd9e25cbb08986a55"
+  },
+  "source/model.json": {
+    "bytes": 392013,
+    "sha256": "ef0993f9ec484269d9a16ecbd29d6aa61271036cd45f0c3c5502b07eb6f72a77"
+  },
+  "Steam_Works_Utilities_Fieldbook.pdf": {
+    "bytes": 342780,
+    "sha256": "08cdf83f19e5585fd708ade941596e5aa495c8b702388b85aed2238a30a26082"
+  }
+}

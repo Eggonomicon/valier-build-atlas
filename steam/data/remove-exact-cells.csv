@@ -1,0 +1,50 @@
+city_x,civil_y,city_z,source,source_symbol,instruction
+51,-7,22,refined projected basement entrance landing,F,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified
+51,-7,23,refined projected basement entrance landing,F,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified
+52,-7,22,refined projected basement entrance landing,F,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified
+52,-7,23,refined projected basement entrance landing,F,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified
+53,-7,22,refined projected basement entrance landing,F,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified
+53,-7,23,refined projected basement entrance landing,F,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified
+54,-7,22,refined projected basement entrance landing,F,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified
+54,-7,23,refined projected basement entrance landing,F,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified
+55,-7,22,refined projected basement entrance landing,F,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified
+55,-7,23,refined projected basement entrance landing,F,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified
+56,-7,22,refined projected basement entrance landing,F,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified
+56,-7,23,refined projected basement entrance landing,F,remove exactly this landing block for the six-half-step SI01 profile; replace with listed slab only where specified
+51,-9,18,civil branch cap,B,remove only after U01 enclosed and checked
+51,-8,18,civil branch cap,B,remove only after U01 enclosed and checked
+51,-7,18,civil branch cap,B,remove only after U01 enclosed and checked
+51,-6,18,civil branch cap,B,remove only after U01 enclosed and checked
+51,-5,18,civil branch cap,B,remove only after U01 enclosed and checked
+52,-9,18,civil branch cap,B,remove only after U01 enclosed and checked
+52,-8,18,civil branch cap,B,remove only after U01 enclosed and checked
+52,-7,18,civil branch cap,B,remove only after U01 enclosed and checked
+52,-6,18,civil branch cap,B,remove only after U01 enclosed and checked
+52,-5,18,civil branch cap,B,remove only after U01 enclosed and checked
+53,-9,18,civil branch cap,B,remove only after U01 enclosed and checked
+53,-8,18,civil branch cap,B,remove only after U01 enclosed and checked
+53,-7,18,civil branch cap,B,remove only after U01 enclosed and checked
+53,-6,18,civil branch cap,B,remove only after U01 enclosed and checked
+53,-5,18,civil branch cap,B,remove only after U01 enclosed and checked
+54,-9,18,civil branch cap,B,remove only after U01 enclosed and checked
+54,-8,18,civil branch cap,B,remove only after U01 enclosed and checked
+54,-7,18,civil branch cap,B,remove only after U01 enclosed and checked
+54,-6,18,civil branch cap,B,remove only after U01 enclosed and checked
+54,-5,18,civil branch cap,B,remove only after U01 enclosed and checked
+55,-9,18,civil branch cap,B,remove only after U01 enclosed and checked
+55,-8,18,civil branch cap,B,remove only after U01 enclosed and checked
+55,-7,18,civil branch cap,B,remove only after U01 enclosed and checked
+55,-6,18,civil branch cap,B,remove only after U01 enclosed and checked
+55,-5,18,civil branch cap,B,remove only after U01 enclosed and checked
+56,-9,18,civil branch cap,B,remove only after U01 enclosed and checked
+56,-8,18,civil branch cap,B,remove only after U01 enclosed and checked
+56,-7,18,civil branch cap,B,remove only after U01 enclosed and checked
+56,-6,18,civil branch cap,B,remove only after U01 enclosed and checked
+56,-5,18,civil branch cap,B,remove only after U01 enclosed and checked
+32,-1,47,refined Steam Works floor,P,remove exactly this paver; replace with listed utility riser
+35,-1,49,refined Steam Works floor,P,remove exactly this paver; replace with listed utility riser
+33,-1,39,refined Steam Works floor,P,remove exactly this paver; replace with listed utility riser
+43,-1,39,refined Steam Works floor,P,remove exactly this paver; replace with listed utility riser
+48,-1,38,refined Steam Works floor,P,remove exactly this paver; replace with listed utility riser
+50,-1,40,refined Steam Works floor,P,remove exactly this paver; replace with listed utility riser
+40,-1,45,refined Steam Works floor,P,remove exactly this paver; replace with listed utility riser

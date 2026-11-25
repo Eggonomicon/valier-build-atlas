@@ -1,0 +1,9 @@
+{
+  "pdf_pages": 15,
+  "images": 3,
+  "manual_sections": 11,
+  "geometry_model": "design/steamworks-utilities-v1/model.json",
+  "visual_qa_pending": false,
+  "visual_review": "All15 page thumbnails and representative full-size pages inspected, including final page11; no clipping or overlap found.",
+  "browser_layout_verified": false
+}
