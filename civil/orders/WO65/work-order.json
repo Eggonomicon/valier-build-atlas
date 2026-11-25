@@ -1,0 +1,125 @@
+{
+  "id": "WO65",
+  "name": "Chemical reactors civil block",
+  "bounds": [
+    576,
+    288,
+    683,
+    395
+  ],
+  "purpose": "Build assigned civil blocks, approaches and sited road details; keep the building reservation empty.",
+  "phase": "P3",
+  "plot_id": "04-07",
+  "sequence": 65,
+  "occupied_hosts": 5172,
+  "ordinary_blocks": 5120,
+  "native_hosts": 52,
+  "role_counts": {
+    "G": 728,
+    "B": 940,
+    "C": 728,
+    "F": 1364,
+    "d": 36,
+    "P": 320,
+    "W": 328,
+    "c": 8,
+    "R": 672,
+    "l": 4,
+    "n": 44
+  },
+  "stock": [
+    {
+      "registry_name": "Ztones:tile.agonBlock",
+      "inventory_metadata": 13,
+      "items": 676,
+      "stacks_64": 10,
+      "remainder": 36
+    },
+    {
+      "registry_name": "Ztones:tile.agonBlock",
+      "inventory_metadata": 15,
+      "items": 684,
+      "stacks_64": 10,
+      "remainder": 44
+    },
+    {
+      "registry_name": "minecraft:stonebrick",
+      "inventory_metadata": 0,
+      "items": 3760,
+      "stacks_64": 58,
+      "remainder": 48
+    }
+  ],
+  "parts": [
+    {
+      "material_role": "K",
+      "registry_name": "Ztones:tile.agonBlock",
+      "inventory_metadata": 13,
+      "kind": "architecture",
+      "size_eighths_or_AC_shape": 56,
+      "pieces": 16
+    },
+    {
+      "material_role": "K",
+      "registry_name": "Ztones:tile.agonBlock",
+      "inventory_metadata": 13,
+      "kind": "mcr_face",
+      "size_eighths_or_AC_shape": 3,
+      "pieces": 4
+    },
+    {
+      "material_role": "K",
+      "registry_name": "Ztones:tile.agonBlock",
+      "inventory_metadata": 13,
+      "kind": "mcr_face",
+      "size_eighths_or_AC_shape": 7,
+      "pieces": 4
+    },
+    {
+      "material_role": "K",
+      "registry_name": "Ztones:tile.agonBlock",
+      "inventory_metadata": 13,
+      "kind": "mcr_post",
+      "size_eighths_or_AC_shape": 4,
+      "pieces": 20
+    },
+    {
+      "material_role": "N",
+      "registry_name": "ExtraUtilities:greenscreen",
+      "inventory_metadata": 9,
+      "kind": "mcr_edge",
+      "size_eighths_or_AC_shape": 1,
+      "pieces": 8
+    },
+    {
+      "material_role": "N",
+      "registry_name": "ExtraUtilities:greenscreen",
+      "inventory_metadata": 9,
+      "kind": "mcr_face",
+      "size_eighths_or_AC_shape": 1,
+      "pieces": 4
+    },
+    {
+      "material_role": "P",
+      "registry_name": "Ztones:tile.agonBlock",
+      "inventory_metadata": 15,
+      "kind": "mcr_face",
+      "size_eighths_or_AC_shape": 7,
+      "pieces": 8
+    },
+    {
+      "material_role": "W",
+      "registry_name": "ExtraUtilities:greenscreen",
+      "inventory_metadata": 0,
+      "kind": "mcr_edge",
+      "size_eighths_or_AC_shape": 1,
+      "pieces": 8
+    }
+  ],
+  "required_clear_cells": 2700,
+  "temporary_caps_add": 0,
+  "temporary_caps_remove": 90,
+  "temporary_caps_remaining": 710,
+  "cap_handover_peak": 800,
+  "status": "planned; no construction recorded"
+}

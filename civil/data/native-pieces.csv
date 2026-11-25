@@ -1,0 +1,9 @@
+material_role,registry_name,inventory_metadata,kind,size_eighths_or_AC_shape,pieces
+K,Ztones:tile.agonBlock,13,architecture,56,1404
+K,Ztones:tile.agonBlock,13,mcr_face,3,351
+K,Ztones:tile.agonBlock,13,mcr_face,7,351
+K,Ztones:tile.agonBlock,13,mcr_post,4,1755
+N,ExtraUtilities:greenscreen,9,mcr_edge,1,1440
+N,ExtraUtilities:greenscreen,9,mcr_face,1,351
+P,Ztones:tile.agonBlock,15,mcr_face,7,1440
+W,ExtraUtilities:greenscreen,0,mcr_edge,1,702

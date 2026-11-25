@@ -1,0 +1,7106 @@
+{
+  "revision": "civil-fieldguide-v2",
+  "coordinates": "City-local NW origin; +X east,+Z south,+Y up. Bounds inclusive. Civil Y0=future walkable surface S; world anchor/S/rotation unassigned.",
+  "bounds": [
+    0,
+    -10,
+    0,
+    875,
+    7,
+    875
+  ],
+  "core_bounds": [
+    0,
+    0,
+    863,
+    863
+  ],
+  "hq_bounds": [
+    405,
+    405,
+    469,
+    469
+  ],
+  "source_voxels": "generated/pdim-masterplan-v1/data/civil-layers.npz",
+  "source_sha256": "d93da4155c12b131a6eb422309be775bace178b634955be7e396c97feccb4b98",
+  "source_model_sha256": "8f380a2ef255e8c9023065007dfb041559b0bdf5821c6d72b5a2d9a5ee2c93e2",
+  "previous_p1_sha256": "9f6a8d2e5e72a056f7cec8d0ff706e56a0e8be07b7adc8fafb060bd1584551fe",
+  "lamp_source_sha256": "77a2df5ba80615bc47bf9d9b0fe16b603b811e80c57dfd06f0c3db8f1b135131",
+  "palette_source_sha256": "88b9cdbcdfd014d5754524b8a50a15c0d0968278ee15269fc1967af965b71d8f",
+  "palette": {
+    "F": {
+      "role": "road/path foundation",
+      "registry_name": "minecraft:stonebrick",
+      "metadata": 0,
+      "inventory_metadata": 0
+    },
+    "R": {
+      "role": "running surface; civil base finish",
+      "registry_name": "Ztones:tile.agonBlock",
+      "metadata": 13,
+      "inventory_metadata": 13,
+      "display_name": "Agon13 charcoal square road pavers",
+      "texture_role": "R"
+    },
+    "W": {
+      "role": "sidewalk surface; civil base finish",
+      "registry_name": "Ztones:tile.agonBlock",
+      "metadata": 15,
+      "inventory_metadata": 15,
+      "display_name": "Agon gray paving",
+      "texture_role": "P"
+    },
+    "P": {
+      "role": "parcel path/landing surface",
+      "registry_name": "Ztones:tile.agonBlock",
+      "metadata": 15,
+      "inventory_metadata": 15,
+      "display_name": "Agon gray paving",
+      "texture_role": "P"
+    },
+    "G": {
+      "role": "gallery floor",
+      "registry_name": "minecraft:stonebrick",
+      "metadata": 0,
+      "inventory_metadata": 0
+    },
+    "C": {
+      "role": "gallery roof",
+      "registry_name": "minecraft:stonebrick",
+      "metadata": 0,
+      "inventory_metadata": 0
+    },
+    "B": {
+      "role": "gallery retaining wall/cap",
+      "registry_name": "minecraft:stonebrick",
+      "metadata": 0,
+      "inventory_metadata": 0
+    },
+    "K": {
+      "role": "open stairwell curb/step support",
+      "registry_name": "minecraft:stonebrick",
+      "metadata": 0,
+      "inventory_metadata": 0
+    },
+    "s": {
+      "role": "bottom half-step",
+      "registry_name": "minecraft:stone_slab",
+      "metadata": 0,
+      "inventory_metadata": 0
+    },
+    "S": {
+      "role": "top half-step",
+      "registry_name": "minecraft:stone_slab",
+      "metadata": 8,
+      "inventory_metadata": 0
+    },
+    "l": {
+      "role": "lamp plinth",
+      "registry_name": "Ztones:tile.agonBlock",
+      "metadata": 13,
+      "inventory_metadata": 13,
+      "display_name": "Agon dark square panel",
+      "texture_role": "K"
+    },
+    "d": {
+      "role": "lamp apron",
+      "registry_name": "Ztones:tile.agonBlock",
+      "metadata": 15,
+      "inventory_metadata": 15,
+      "display_name": "Agon gray paving",
+      "texture_role": "P"
+    },
+    "c": {
+      "role": "two-part cyan curb inset",
+      "kind": "multipart",
+      "inventory_metadata": 0
+    },
+    "n": {
+      "role": "native smooth lamp detail",
+      "kind": "native",
+      "inventory_metadata": 0
+    }
+  },
+  "native_palette": {
+    "K": {
+      "role": "K",
+      "title": "Agon dark square panel",
+      "display_name": "Agon dark square panel",
+      "basename": "agon13",
+      "registry_name": "Ztones:tile.agonBlock",
+      "placed_metadata": 13,
+      "inventory_metadata": 13,
+      "faces": {
+        "side": {
+          "file": "textures/refined-agon13.png",
+          "display_file": "textures/refined-agon13.png",
+          "member": "assets/ztones/textures/blocks/sets/agon/agon_ (13).png",
+          "member_sha256": "0ea5815d8c9a0f14c8dc1669da535102fff15a4248830aa41ac1d675bb769431",
+          "effective_texture_sha256": "0ea5815d8c9a0f14c8dc1669da535102fff15a4248830aa41ac1d675bb769431",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            255,
+            255
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 256
+        },
+        "top": {
+          "file": "textures/refined-agon13.png",
+          "display_file": "textures/refined-agon13.png",
+          "member": "assets/ztones/textures/blocks/sets/agon/agon_ (13).png",
+          "member_sha256": "0ea5815d8c9a0f14c8dc1669da535102fff15a4248830aa41ac1d675bb769431",
+          "effective_texture_sha256": "0ea5815d8c9a0f14c8dc1669da535102fff15a4248830aa41ac1d675bb769431",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            255,
+            255
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 256
+        }
+      },
+      "texture_file": "generated/reference-refinement-v1/evidence/agon13.png",
+      "display_file": "generated/reference-refinement-v1/evidence/agon13.png",
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "geometry": "full cube",
+      "fullbright": false,
+      "emitted_light": 0,
+      "micro_material": "Ztones:tile.agonBlock_13",
+      "micro_scope": "Installed microblocks.cfg explicitly includes0..15 for this exact block; ordinary block metadata selects icons. Static registration evidence only; no saw/game execution.",
+      "architecturecraft_material_eligible_static": true,
+      "evidence": "verification/reference-refinement-v1/PALETTE_EVIDENCE.md"
+    },
+    "P": {
+      "role": "P",
+      "title": "Agon gray paving",
+      "display_name": "Agon gray paving",
+      "basename": "agon15",
+      "registry_name": "Ztones:tile.agonBlock",
+      "placed_metadata": 15,
+      "inventory_metadata": 15,
+      "faces": {
+        "side": {
+          "file": "textures/refined-agon15.png",
+          "display_file": "textures/refined-agon15.png",
+          "member": "assets/ztones/textures/blocks/sets/agon/agon_ (15).png",
+          "member_sha256": "aeecafe43dfbe0c495f366ca180b2d757bfeeda3448051534e00384faf874641",
+          "effective_texture_sha256": "aeecafe43dfbe0c495f366ca180b2d757bfeeda3448051534e00384faf874641",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            255,
+            255
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 256
+        },
+        "top": {
+          "file": "textures/refined-agon15.png",
+          "display_file": "textures/refined-agon15.png",
+          "member": "assets/ztones/textures/blocks/sets/agon/agon_ (15).png",
+          "member_sha256": "aeecafe43dfbe0c495f366ca180b2d757bfeeda3448051534e00384faf874641",
+          "effective_texture_sha256": "aeecafe43dfbe0c495f366ca180b2d757bfeeda3448051534e00384faf874641",
+          "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+          "source_artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+          "dimensions": [
+            16,
+            16
+          ],
+          "tint_rgb": [
+            255,
+            255,
+            255
+          ],
+          "active_albedo_overrides": [],
+          "alpha_extrema": [
+            255,
+            255
+          ],
+          "fully_transparent_pixels": 0,
+          "fully_opaque_pixels": 256
+        }
+      },
+      "texture_file": "generated/reference-refinement-v1/evidence/agon15.png",
+      "display_file": "generated/reference-refinement-v1/evidence/agon15.png",
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "geometry": "full cube",
+      "fullbright": false,
+      "emitted_light": 0,
+      "micro_material": "Ztones:tile.agonBlock_15",
+      "micro_scope": "Installed microblocks.cfg explicitly includes0..15 for this exact block; ordinary block metadata selects icons. Static registration evidence only; no saw/game execution.",
+      "architecturecraft_material_eligible_static": true,
+      "evidence": "verification/reference-refinement-v1/PALETTE_EVIDENCE.md"
+    },
+    "N": {
+      "role": "N",
+      "display_name": "Cyan Lapis Caelestis",
+      "registry_name": "ExtraUtilities:greenscreen",
+      "placed_metadata": 9,
+      "inventory_metadata": 9,
+      "faces": {
+        "side": {
+          "file": "textures/N-side.png",
+          "source_artifact": "extrautilities-1.2.12.jar",
+          "source_artifact_sha256": "a1941ee4d4b965c4d2ddc6ec0e0b1eb3f3ff8c8b492a18a25b5fcf27c67ba58b",
+          "member": "assets/extrautils/textures/blocks/greenscreen.png",
+          "member_sha256": "b38d08009310843632aba1768eaab876a9fffd07b0c53bc2647a4c228233c5c2",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/N-top-display.png"
+        },
+        "top": {
+          "file": "textures/N-side.png",
+          "source_artifact": "extrautilities-1.2.12.jar",
+          "source_artifact_sha256": "a1941ee4d4b965c4d2ddc6ec0e0b1eb3f3ff8c8b492a18a25b5fcf27c67ba58b",
+          "member": "assets/extrautils/textures/blocks/greenscreen.png",
+          "member_sha256": "b38d08009310843632aba1768eaab876a9fffd07b0c53bc2647a4c228233c5c2",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/N-top-display.png"
+        }
+      },
+      "tint_rgb": [
+        0,
+        255,
+        255
+      ],
+      "tint_evidence": "Installed BlockGreenScreen.cols[9]=(0,1,1)",
+      "fullbright": true,
+      "geometry": "full cube",
+      "binding_status": "Inherited installed palette identity; target runtime recipe/game behavior not checked",
+      "emitted_light": 10,
+      "micro_material": "tile.extrautils:greenscreen_9"
+    },
+    "W": {
+      "role": "W",
+      "display_name": "White Lapis Caelestis",
+      "registry_name": "ExtraUtilities:greenscreen",
+      "placed_metadata": 0,
+      "inventory_metadata": 0,
+      "faces": {
+        "side": {
+          "file": "textures/W-side.png",
+          "source_artifact": "extrautilities-1.2.12.jar",
+          "source_artifact_sha256": "a1941ee4d4b965c4d2ddc6ec0e0b1eb3f3ff8c8b492a18a25b5fcf27c67ba58b",
+          "member": "assets/extrautils/textures/blocks/greenscreen.png",
+          "member_sha256": "b38d08009310843632aba1768eaab876a9fffd07b0c53bc2647a4c228233c5c2",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/W-top-display.png"
+        },
+        "top": {
+          "file": "textures/W-side.png",
+          "source_artifact": "extrautilities-1.2.12.jar",
+          "source_artifact_sha256": "a1941ee4d4b965c4d2ddc6ec0e0b1eb3f3ff8c8b492a18a25b5fcf27c67ba58b",
+          "member": "assets/extrautils/textures/blocks/greenscreen.png",
+          "member_sha256": "b38d08009310843632aba1768eaab876a9fffd07b0c53bc2647a4c228233c5c2",
+          "dimensions": [
+            16,
+            16
+          ],
+          "active_albedo_overrides": [],
+          "display_file": "textures/W-top-display.png"
+        }
+      },
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "tint_evidence": "No color multiplier",
+      "fullbright": true,
+      "geometry": "full cube",
+      "binding_status": "Inherited installed palette identity; target runtime recipe/game behavior not checked",
+      "emitted_light": 15,
+      "micro_material": "tile.extrautils:greenscreen"
+    }
+  },
+  "lamp_instances": [
+    {
+      "id": "L-01-01-N24",
+      "plot": "01-01",
+      "side": "N",
+      "base_x": 24,
+      "base_z": 13,
+      "model_offset": [
+        23,
+        0,
+        12
+      ],
+      "apron_bounds": [
+        23,
+        12,
+        25,
+        14
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-01-N72",
+      "plot": "01-01",
+      "side": "N",
+      "base_x": 72,
+      "base_z": 13,
+      "model_offset": [
+        71,
+        0,
+        12
+      ],
+      "apron_bounds": [
+        71,
+        12,
+        73,
+        14
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-01-W24",
+      "plot": "01-01",
+      "side": "W",
+      "base_x": 13,
+      "base_z": 24,
+      "model_offset": [
+        12,
+        0,
+        23
+      ],
+      "apron_bounds": [
+        12,
+        23,
+        14,
+        25
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-01-W72",
+      "plot": "01-01",
+      "side": "W",
+      "base_x": 13,
+      "base_z": 72,
+      "model_offset": [
+        12,
+        0,
+        71
+      ],
+      "apron_bounds": [
+        12,
+        71,
+        14,
+        73
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-02-N24",
+      "plot": "01-02",
+      "side": "N",
+      "base_x": 120,
+      "base_z": 13,
+      "model_offset": [
+        119,
+        0,
+        12
+      ],
+      "apron_bounds": [
+        119,
+        12,
+        121,
+        14
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-02-N72",
+      "plot": "01-02",
+      "side": "N",
+      "base_x": 168,
+      "base_z": 13,
+      "model_offset": [
+        167,
+        0,
+        12
+      ],
+      "apron_bounds": [
+        167,
+        12,
+        169,
+        14
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-02-W24",
+      "plot": "01-02",
+      "side": "W",
+      "base_x": 109,
+      "base_z": 24,
+      "model_offset": [
+        108,
+        0,
+        23
+      ],
+      "apron_bounds": [
+        108,
+        23,
+        110,
+        25
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-02-W72",
+      "plot": "01-02",
+      "side": "W",
+      "base_x": 109,
+      "base_z": 72,
+      "model_offset": [
+        108,
+        0,
+        71
+      ],
+      "apron_bounds": [
+        108,
+        71,
+        110,
+        73
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-03-N24",
+      "plot": "01-03",
+      "side": "N",
+      "base_x": 216,
+      "base_z": 13,
+      "model_offset": [
+        215,
+        0,
+        12
+      ],
+      "apron_bounds": [
+        215,
+        12,
+        217,
+        14
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-03-N72",
+      "plot": "01-03",
+      "side": "N",
+      "base_x": 264,
+      "base_z": 13,
+      "model_offset": [
+        263,
+        0,
+        12
+      ],
+      "apron_bounds": [
+        263,
+        12,
+        265,
+        14
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-03-W24",
+      "plot": "01-03",
+      "side": "W",
+      "base_x": 205,
+      "base_z": 24,
+      "model_offset": [
+        204,
+        0,
+        23
+      ],
+      "apron_bounds": [
+        204,
+        23,
+        206,
+        25
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-03-W72",
+      "plot": "01-03",
+      "side": "W",
+      "base_x": 205,
+      "base_z": 72,
+      "model_offset": [
+        204,
+        0,
+        71
+      ],
+      "apron_bounds": [
+        204,
+        71,
+        206,
+        73
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-04-N24",
+      "plot": "01-04",
+      "side": "N",
+      "base_x": 312,
+      "base_z": 13,
+      "model_offset": [
+        311,
+        0,
+        12
+      ],
+      "apron_bounds": [
+        311,
+        12,
+        313,
+        14
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-04-N72",
+      "plot": "01-04",
+      "side": "N",
+      "base_x": 360,
+      "base_z": 13,
+      "model_offset": [
+        359,
+        0,
+        12
+      ],
+      "apron_bounds": [
+        359,
+        12,
+        361,
+        14
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-04-W24",
+      "plot": "01-04",
+      "side": "W",
+      "base_x": 301,
+      "base_z": 24,
+      "model_offset": [
+        300,
+        0,
+        23
+      ],
+      "apron_bounds": [
+        300,
+        23,
+        302,
+        25
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-04-W72",
+      "plot": "01-04",
+      "side": "W",
+      "base_x": 301,
+      "base_z": 72,
+      "model_offset": [
+        300,
+        0,
+        71
+      ],
+      "apron_bounds": [
+        300,
+        71,
+        302,
+        73
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-05-N24",
+      "plot": "01-05",
+      "side": "N",
+      "base_x": 408,
+      "base_z": 13,
+      "model_offset": [
+        407,
+        0,
+        12
+      ],
+      "apron_bounds": [
+        407,
+        12,
+        409,
+        14
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-05-N72",
+      "plot": "01-05",
+      "side": "N",
+      "base_x": 456,
+      "base_z": 13,
+      "model_offset": [
+        455,
+        0,
+        12
+      ],
+      "apron_bounds": [
+        455,
+        12,
+        457,
+        14
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-05-W24",
+      "plot": "01-05",
+      "side": "W",
+      "base_x": 397,
+      "base_z": 24,
+      "model_offset": [
+        396,
+        0,
+        23
+      ],
+      "apron_bounds": [
+        396,
+        23,
+        398,
+        25
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-05-W72",
+      "plot": "01-05",
+      "side": "W",
+      "base_x": 397,
+      "base_z": 72,
+      "model_offset": [
+        396,
+        0,
+        71
+      ],
+      "apron_bounds": [
+        396,
+        71,
+        398,
+        73
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-06-N24",
+      "plot": "01-06",
+      "side": "N",
+      "base_x": 504,
+      "base_z": 13,
+      "model_offset": [
+        503,
+        0,
+        12
+      ],
+      "apron_bounds": [
+        503,
+        12,
+        505,
+        14
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-06-N72",
+      "plot": "01-06",
+      "side": "N",
+      "base_x": 552,
+      "base_z": 13,
+      "model_offset": [
+        551,
+        0,
+        12
+      ],
+      "apron_bounds": [
+        551,
+        12,
+        553,
+        14
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-06-W24",
+      "plot": "01-06",
+      "side": "W",
+      "base_x": 493,
+      "base_z": 24,
+      "model_offset": [
+        492,
+        0,
+        23
+      ],
+      "apron_bounds": [
+        492,
+        23,
+        494,
+        25
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-06-W72",
+      "plot": "01-06",
+      "side": "W",
+      "base_x": 493,
+      "base_z": 72,
+      "model_offset": [
+        492,
+        0,
+        71
+      ],
+      "apron_bounds": [
+        492,
+        71,
+        494,
+        73
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-07-N24",
+      "plot": "01-07",
+      "side": "N",
+      "base_x": 600,
+      "base_z": 13,
+      "model_offset": [
+        599,
+        0,
+        12
+      ],
+      "apron_bounds": [
+        599,
+        12,
+        601,
+        14
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-07-N72",
+      "plot": "01-07",
+      "side": "N",
+      "base_x": 648,
+      "base_z": 13,
+      "model_offset": [
+        647,
+        0,
+        12
+      ],
+      "apron_bounds": [
+        647,
+        12,
+        649,
+        14
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-07-W24",
+      "plot": "01-07",
+      "side": "W",
+      "base_x": 589,
+      "base_z": 24,
+      "model_offset": [
+        588,
+        0,
+        23
+      ],
+      "apron_bounds": [
+        588,
+        23,
+        590,
+        25
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-07-W72",
+      "plot": "01-07",
+      "side": "W",
+      "base_x": 589,
+      "base_z": 72,
+      "model_offset": [
+        588,
+        0,
+        71
+      ],
+      "apron_bounds": [
+        588,
+        71,
+        590,
+        73
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-08-N24",
+      "plot": "01-08",
+      "side": "N",
+      "base_x": 696,
+      "base_z": 13,
+      "model_offset": [
+        695,
+        0,
+        12
+      ],
+      "apron_bounds": [
+        695,
+        12,
+        697,
+        14
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-08-N72",
+      "plot": "01-08",
+      "side": "N",
+      "base_x": 744,
+      "base_z": 13,
+      "model_offset": [
+        743,
+        0,
+        12
+      ],
+      "apron_bounds": [
+        743,
+        12,
+        745,
+        14
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-08-W24",
+      "plot": "01-08",
+      "side": "W",
+      "base_x": 685,
+      "base_z": 24,
+      "model_offset": [
+        684,
+        0,
+        23
+      ],
+      "apron_bounds": [
+        684,
+        23,
+        686,
+        25
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-08-W72",
+      "plot": "01-08",
+      "side": "W",
+      "base_x": 685,
+      "base_z": 72,
+      "model_offset": [
+        684,
+        0,
+        71
+      ],
+      "apron_bounds": [
+        684,
+        71,
+        686,
+        73
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-09-N24",
+      "plot": "01-09",
+      "side": "N",
+      "base_x": 792,
+      "base_z": 13,
+      "model_offset": [
+        791,
+        0,
+        12
+      ],
+      "apron_bounds": [
+        791,
+        12,
+        793,
+        14
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-09-N72",
+      "plot": "01-09",
+      "side": "N",
+      "base_x": 840,
+      "base_z": 13,
+      "model_offset": [
+        839,
+        0,
+        12
+      ],
+      "apron_bounds": [
+        839,
+        12,
+        841,
+        14
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-09-W24",
+      "plot": "01-09",
+      "side": "W",
+      "base_x": 781,
+      "base_z": 24,
+      "model_offset": [
+        780,
+        0,
+        23
+      ],
+      "apron_bounds": [
+        780,
+        23,
+        782,
+        25
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-09-W72",
+      "plot": "01-09",
+      "side": "W",
+      "base_x": 781,
+      "base_z": 72,
+      "model_offset": [
+        780,
+        0,
+        71
+      ],
+      "apron_bounds": [
+        780,
+        71,
+        782,
+        73
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-09-E24",
+      "plot": "01-09",
+      "side": "E",
+      "base_x": 862,
+      "base_z": 24,
+      "model_offset": [
+        861,
+        0,
+        23
+      ],
+      "apron_bounds": [
+        861,
+        23,
+        863,
+        25
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-01-09-E72",
+      "plot": "01-09",
+      "side": "E",
+      "base_x": 862,
+      "base_z": 72,
+      "model_offset": [
+        861,
+        0,
+        71
+      ],
+      "apron_bounds": [
+        861,
+        71,
+        863,
+        73
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-01-N24",
+      "plot": "02-01",
+      "side": "N",
+      "base_x": 24,
+      "base_z": 109,
+      "model_offset": [
+        23,
+        0,
+        108
+      ],
+      "apron_bounds": [
+        23,
+        108,
+        25,
+        110
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-01-N72",
+      "plot": "02-01",
+      "side": "N",
+      "base_x": 72,
+      "base_z": 109,
+      "model_offset": [
+        71,
+        0,
+        108
+      ],
+      "apron_bounds": [
+        71,
+        108,
+        73,
+        110
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-01-W24",
+      "plot": "02-01",
+      "side": "W",
+      "base_x": 13,
+      "base_z": 120,
+      "model_offset": [
+        12,
+        0,
+        119
+      ],
+      "apron_bounds": [
+        12,
+        119,
+        14,
+        121
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-01-W72",
+      "plot": "02-01",
+      "side": "W",
+      "base_x": 13,
+      "base_z": 168,
+      "model_offset": [
+        12,
+        0,
+        167
+      ],
+      "apron_bounds": [
+        12,
+        167,
+        14,
+        169
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-02-N24",
+      "plot": "02-02",
+      "side": "N",
+      "base_x": 120,
+      "base_z": 109,
+      "model_offset": [
+        119,
+        0,
+        108
+      ],
+      "apron_bounds": [
+        119,
+        108,
+        121,
+        110
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-02-N72",
+      "plot": "02-02",
+      "side": "N",
+      "base_x": 168,
+      "base_z": 109,
+      "model_offset": [
+        167,
+        0,
+        108
+      ],
+      "apron_bounds": [
+        167,
+        108,
+        169,
+        110
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-02-W72",
+      "plot": "02-02",
+      "side": "W",
+      "base_x": 109,
+      "base_z": 168,
+      "model_offset": [
+        108,
+        0,
+        167
+      ],
+      "apron_bounds": [
+        108,
+        167,
+        110,
+        169
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-03-N24",
+      "plot": "02-03",
+      "side": "N",
+      "base_x": 216,
+      "base_z": 109,
+      "model_offset": [
+        215,
+        0,
+        108
+      ],
+      "apron_bounds": [
+        215,
+        108,
+        217,
+        110
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-03-N72",
+      "plot": "02-03",
+      "side": "N",
+      "base_x": 264,
+      "base_z": 109,
+      "model_offset": [
+        263,
+        0,
+        108
+      ],
+      "apron_bounds": [
+        263,
+        108,
+        265,
+        110
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-03-W24",
+      "plot": "02-03",
+      "side": "W",
+      "base_x": 205,
+      "base_z": 120,
+      "model_offset": [
+        204,
+        0,
+        119
+      ],
+      "apron_bounds": [
+        204,
+        119,
+        206,
+        121
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-03-W72",
+      "plot": "02-03",
+      "side": "W",
+      "base_x": 205,
+      "base_z": 168,
+      "model_offset": [
+        204,
+        0,
+        167
+      ],
+      "apron_bounds": [
+        204,
+        167,
+        206,
+        169
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-04-N24",
+      "plot": "02-04",
+      "side": "N",
+      "base_x": 312,
+      "base_z": 109,
+      "model_offset": [
+        311,
+        0,
+        108
+      ],
+      "apron_bounds": [
+        311,
+        108,
+        313,
+        110
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-04-N72",
+      "plot": "02-04",
+      "side": "N",
+      "base_x": 360,
+      "base_z": 109,
+      "model_offset": [
+        359,
+        0,
+        108
+      ],
+      "apron_bounds": [
+        359,
+        108,
+        361,
+        110
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-04-W24",
+      "plot": "02-04",
+      "side": "W",
+      "base_x": 301,
+      "base_z": 120,
+      "model_offset": [
+        300,
+        0,
+        119
+      ],
+      "apron_bounds": [
+        300,
+        119,
+        302,
+        121
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-04-W72",
+      "plot": "02-04",
+      "side": "W",
+      "base_x": 301,
+      "base_z": 168,
+      "model_offset": [
+        300,
+        0,
+        167
+      ],
+      "apron_bounds": [
+        300,
+        167,
+        302,
+        169
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-05-N24",
+      "plot": "02-05",
+      "side": "N",
+      "base_x": 408,
+      "base_z": 109,
+      "model_offset": [
+        407,
+        0,
+        108
+      ],
+      "apron_bounds": [
+        407,
+        108,
+        409,
+        110
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-05-N72",
+      "plot": "02-05",
+      "side": "N",
+      "base_x": 456,
+      "base_z": 109,
+      "model_offset": [
+        455,
+        0,
+        108
+      ],
+      "apron_bounds": [
+        455,
+        108,
+        457,
+        110
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-05-W72",
+      "plot": "02-05",
+      "side": "W",
+      "base_x": 397,
+      "base_z": 168,
+      "model_offset": [
+        396,
+        0,
+        167
+      ],
+      "apron_bounds": [
+        396,
+        167,
+        398,
+        169
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-06-N24",
+      "plot": "02-06",
+      "side": "N",
+      "base_x": 504,
+      "base_z": 109,
+      "model_offset": [
+        503,
+        0,
+        108
+      ],
+      "apron_bounds": [
+        503,
+        108,
+        505,
+        110
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-06-N72",
+      "plot": "02-06",
+      "side": "N",
+      "base_x": 552,
+      "base_z": 109,
+      "model_offset": [
+        551,
+        0,
+        108
+      ],
+      "apron_bounds": [
+        551,
+        108,
+        553,
+        110
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-06-W24",
+      "plot": "02-06",
+      "side": "W",
+      "base_x": 493,
+      "base_z": 120,
+      "model_offset": [
+        492,
+        0,
+        119
+      ],
+      "apron_bounds": [
+        492,
+        119,
+        494,
+        121
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-06-W72",
+      "plot": "02-06",
+      "side": "W",
+      "base_x": 493,
+      "base_z": 168,
+      "model_offset": [
+        492,
+        0,
+        167
+      ],
+      "apron_bounds": [
+        492,
+        167,
+        494,
+        169
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-07-N24",
+      "plot": "02-07",
+      "side": "N",
+      "base_x": 600,
+      "base_z": 109,
+      "model_offset": [
+        599,
+        0,
+        108
+      ],
+      "apron_bounds": [
+        599,
+        108,
+        601,
+        110
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-07-N72",
+      "plot": "02-07",
+      "side": "N",
+      "base_x": 648,
+      "base_z": 109,
+      "model_offset": [
+        647,
+        0,
+        108
+      ],
+      "apron_bounds": [
+        647,
+        108,
+        649,
+        110
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-07-W24",
+      "plot": "02-07",
+      "side": "W",
+      "base_x": 589,
+      "base_z": 120,
+      "model_offset": [
+        588,
+        0,
+        119
+      ],
+      "apron_bounds": [
+        588,
+        119,
+        590,
+        121
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-07-W72",
+      "plot": "02-07",
+      "side": "W",
+      "base_x": 589,
+      "base_z": 168,
+      "model_offset": [
+        588,
+        0,
+        167
+      ],
+      "apron_bounds": [
+        588,
+        167,
+        590,
+        169
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-08-N24",
+      "plot": "02-08",
+      "side": "N",
+      "base_x": 696,
+      "base_z": 109,
+      "model_offset": [
+        695,
+        0,
+        108
+      ],
+      "apron_bounds": [
+        695,
+        108,
+        697,
+        110
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-08-N72",
+      "plot": "02-08",
+      "side": "N",
+      "base_x": 744,
+      "base_z": 109,
+      "model_offset": [
+        743,
+        0,
+        108
+      ],
+      "apron_bounds": [
+        743,
+        108,
+        745,
+        110
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-08-W72",
+      "plot": "02-08",
+      "side": "W",
+      "base_x": 685,
+      "base_z": 168,
+      "model_offset": [
+        684,
+        0,
+        167
+      ],
+      "apron_bounds": [
+        684,
+        167,
+        686,
+        169
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-09-N24",
+      "plot": "02-09",
+      "side": "N",
+      "base_x": 792,
+      "base_z": 109,
+      "model_offset": [
+        791,
+        0,
+        108
+      ],
+      "apron_bounds": [
+        791,
+        108,
+        793,
+        110
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-09-N72",
+      "plot": "02-09",
+      "side": "N",
+      "base_x": 840,
+      "base_z": 109,
+      "model_offset": [
+        839,
+        0,
+        108
+      ],
+      "apron_bounds": [
+        839,
+        108,
+        841,
+        110
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-09-W24",
+      "plot": "02-09",
+      "side": "W",
+      "base_x": 781,
+      "base_z": 120,
+      "model_offset": [
+        780,
+        0,
+        119
+      ],
+      "apron_bounds": [
+        780,
+        119,
+        782,
+        121
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-09-W72",
+      "plot": "02-09",
+      "side": "W",
+      "base_x": 781,
+      "base_z": 168,
+      "model_offset": [
+        780,
+        0,
+        167
+      ],
+      "apron_bounds": [
+        780,
+        167,
+        782,
+        169
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-09-E24",
+      "plot": "02-09",
+      "side": "E",
+      "base_x": 862,
+      "base_z": 120,
+      "model_offset": [
+        861,
+        0,
+        119
+      ],
+      "apron_bounds": [
+        861,
+        119,
+        863,
+        121
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-02-09-E72",
+      "plot": "02-09",
+      "side": "E",
+      "base_x": 862,
+      "base_z": 168,
+      "model_offset": [
+        861,
+        0,
+        167
+      ],
+      "apron_bounds": [
+        861,
+        167,
+        863,
+        169
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-01-N24",
+      "plot": "03-01",
+      "side": "N",
+      "base_x": 24,
+      "base_z": 205,
+      "model_offset": [
+        23,
+        0,
+        204
+      ],
+      "apron_bounds": [
+        23,
+        204,
+        25,
+        206
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-01-N72",
+      "plot": "03-01",
+      "side": "N",
+      "base_x": 72,
+      "base_z": 205,
+      "model_offset": [
+        71,
+        0,
+        204
+      ],
+      "apron_bounds": [
+        71,
+        204,
+        73,
+        206
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-01-W24",
+      "plot": "03-01",
+      "side": "W",
+      "base_x": 13,
+      "base_z": 216,
+      "model_offset": [
+        12,
+        0,
+        215
+      ],
+      "apron_bounds": [
+        12,
+        215,
+        14,
+        217
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-01-W72",
+      "plot": "03-01",
+      "side": "W",
+      "base_x": 13,
+      "base_z": 264,
+      "model_offset": [
+        12,
+        0,
+        263
+      ],
+      "apron_bounds": [
+        12,
+        263,
+        14,
+        265
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-02-N24",
+      "plot": "03-02",
+      "side": "N",
+      "base_x": 120,
+      "base_z": 205,
+      "model_offset": [
+        119,
+        0,
+        204
+      ],
+      "apron_bounds": [
+        119,
+        204,
+        121,
+        206
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-02-N72",
+      "plot": "03-02",
+      "side": "N",
+      "base_x": 168,
+      "base_z": 205,
+      "model_offset": [
+        167,
+        0,
+        204
+      ],
+      "apron_bounds": [
+        167,
+        204,
+        169,
+        206
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-02-W24",
+      "plot": "03-02",
+      "side": "W",
+      "base_x": 109,
+      "base_z": 216,
+      "model_offset": [
+        108,
+        0,
+        215
+      ],
+      "apron_bounds": [
+        108,
+        215,
+        110,
+        217
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-02-W72",
+      "plot": "03-02",
+      "side": "W",
+      "base_x": 109,
+      "base_z": 264,
+      "model_offset": [
+        108,
+        0,
+        263
+      ],
+      "apron_bounds": [
+        108,
+        263,
+        110,
+        265
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-03-N24",
+      "plot": "03-03",
+      "side": "N",
+      "base_x": 216,
+      "base_z": 205,
+      "model_offset": [
+        215,
+        0,
+        204
+      ],
+      "apron_bounds": [
+        215,
+        204,
+        217,
+        206
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-03-N72",
+      "plot": "03-03",
+      "side": "N",
+      "base_x": 264,
+      "base_z": 205,
+      "model_offset": [
+        263,
+        0,
+        204
+      ],
+      "apron_bounds": [
+        263,
+        204,
+        265,
+        206
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-03-W24",
+      "plot": "03-03",
+      "side": "W",
+      "base_x": 205,
+      "base_z": 216,
+      "model_offset": [
+        204,
+        0,
+        215
+      ],
+      "apron_bounds": [
+        204,
+        215,
+        206,
+        217
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-03-W72",
+      "plot": "03-03",
+      "side": "W",
+      "base_x": 205,
+      "base_z": 264,
+      "model_offset": [
+        204,
+        0,
+        263
+      ],
+      "apron_bounds": [
+        204,
+        263,
+        206,
+        265
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-04-N24",
+      "plot": "03-04",
+      "side": "N",
+      "base_x": 312,
+      "base_z": 205,
+      "model_offset": [
+        311,
+        0,
+        204
+      ],
+      "apron_bounds": [
+        311,
+        204,
+        313,
+        206
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-04-N72",
+      "plot": "03-04",
+      "side": "N",
+      "base_x": 360,
+      "base_z": 205,
+      "model_offset": [
+        359,
+        0,
+        204
+      ],
+      "apron_bounds": [
+        359,
+        204,
+        361,
+        206
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-04-W24",
+      "plot": "03-04",
+      "side": "W",
+      "base_x": 301,
+      "base_z": 216,
+      "model_offset": [
+        300,
+        0,
+        215
+      ],
+      "apron_bounds": [
+        300,
+        215,
+        302,
+        217
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-04-W72",
+      "plot": "03-04",
+      "side": "W",
+      "base_x": 301,
+      "base_z": 264,
+      "model_offset": [
+        300,
+        0,
+        263
+      ],
+      "apron_bounds": [
+        300,
+        263,
+        302,
+        265
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-05-N24",
+      "plot": "03-05",
+      "side": "N",
+      "base_x": 408,
+      "base_z": 205,
+      "model_offset": [
+        407,
+        0,
+        204
+      ],
+      "apron_bounds": [
+        407,
+        204,
+        409,
+        206
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-05-N72",
+      "plot": "03-05",
+      "side": "N",
+      "base_x": 456,
+      "base_z": 205,
+      "model_offset": [
+        455,
+        0,
+        204
+      ],
+      "apron_bounds": [
+        455,
+        204,
+        457,
+        206
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-05-W24",
+      "plot": "03-05",
+      "side": "W",
+      "base_x": 397,
+      "base_z": 216,
+      "model_offset": [
+        396,
+        0,
+        215
+      ],
+      "apron_bounds": [
+        396,
+        215,
+        398,
+        217
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-05-W72",
+      "plot": "03-05",
+      "side": "W",
+      "base_x": 397,
+      "base_z": 264,
+      "model_offset": [
+        396,
+        0,
+        263
+      ],
+      "apron_bounds": [
+        396,
+        263,
+        398,
+        265
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-06-N24",
+      "plot": "03-06",
+      "side": "N",
+      "base_x": 504,
+      "base_z": 205,
+      "model_offset": [
+        503,
+        0,
+        204
+      ],
+      "apron_bounds": [
+        503,
+        204,
+        505,
+        206
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-06-N72",
+      "plot": "03-06",
+      "side": "N",
+      "base_x": 552,
+      "base_z": 205,
+      "model_offset": [
+        551,
+        0,
+        204
+      ],
+      "apron_bounds": [
+        551,
+        204,
+        553,
+        206
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-06-W24",
+      "plot": "03-06",
+      "side": "W",
+      "base_x": 493,
+      "base_z": 216,
+      "model_offset": [
+        492,
+        0,
+        215
+      ],
+      "apron_bounds": [
+        492,
+        215,
+        494,
+        217
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-06-W72",
+      "plot": "03-06",
+      "side": "W",
+      "base_x": 493,
+      "base_z": 264,
+      "model_offset": [
+        492,
+        0,
+        263
+      ],
+      "apron_bounds": [
+        492,
+        263,
+        494,
+        265
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-07-N24",
+      "plot": "03-07",
+      "side": "N",
+      "base_x": 600,
+      "base_z": 205,
+      "model_offset": [
+        599,
+        0,
+        204
+      ],
+      "apron_bounds": [
+        599,
+        204,
+        601,
+        206
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-07-N72",
+      "plot": "03-07",
+      "side": "N",
+      "base_x": 648,
+      "base_z": 205,
+      "model_offset": [
+        647,
+        0,
+        204
+      ],
+      "apron_bounds": [
+        647,
+        204,
+        649,
+        206
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-07-W24",
+      "plot": "03-07",
+      "side": "W",
+      "base_x": 589,
+      "base_z": 216,
+      "model_offset": [
+        588,
+        0,
+        215
+      ],
+      "apron_bounds": [
+        588,
+        215,
+        590,
+        217
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-07-W72",
+      "plot": "03-07",
+      "side": "W",
+      "base_x": 589,
+      "base_z": 264,
+      "model_offset": [
+        588,
+        0,
+        263
+      ],
+      "apron_bounds": [
+        588,
+        263,
+        590,
+        265
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-08-N24",
+      "plot": "03-08",
+      "side": "N",
+      "base_x": 696,
+      "base_z": 205,
+      "model_offset": [
+        695,
+        0,
+        204
+      ],
+      "apron_bounds": [
+        695,
+        204,
+        697,
+        206
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-08-N72",
+      "plot": "03-08",
+      "side": "N",
+      "base_x": 744,
+      "base_z": 205,
+      "model_offset": [
+        743,
+        0,
+        204
+      ],
+      "apron_bounds": [
+        743,
+        204,
+        745,
+        206
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-08-W24",
+      "plot": "03-08",
+      "side": "W",
+      "base_x": 685,
+      "base_z": 216,
+      "model_offset": [
+        684,
+        0,
+        215
+      ],
+      "apron_bounds": [
+        684,
+        215,
+        686,
+        217
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-08-W72",
+      "plot": "03-08",
+      "side": "W",
+      "base_x": 685,
+      "base_z": 264,
+      "model_offset": [
+        684,
+        0,
+        263
+      ],
+      "apron_bounds": [
+        684,
+        263,
+        686,
+        265
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-09-N24",
+      "plot": "03-09",
+      "side": "N",
+      "base_x": 792,
+      "base_z": 205,
+      "model_offset": [
+        791,
+        0,
+        204
+      ],
+      "apron_bounds": [
+        791,
+        204,
+        793,
+        206
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-09-N72",
+      "plot": "03-09",
+      "side": "N",
+      "base_x": 840,
+      "base_z": 205,
+      "model_offset": [
+        839,
+        0,
+        204
+      ],
+      "apron_bounds": [
+        839,
+        204,
+        841,
+        206
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-09-W24",
+      "plot": "03-09",
+      "side": "W",
+      "base_x": 781,
+      "base_z": 216,
+      "model_offset": [
+        780,
+        0,
+        215
+      ],
+      "apron_bounds": [
+        780,
+        215,
+        782,
+        217
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-09-W72",
+      "plot": "03-09",
+      "side": "W",
+      "base_x": 781,
+      "base_z": 264,
+      "model_offset": [
+        780,
+        0,
+        263
+      ],
+      "apron_bounds": [
+        780,
+        263,
+        782,
+        265
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-09-E24",
+      "plot": "03-09",
+      "side": "E",
+      "base_x": 862,
+      "base_z": 216,
+      "model_offset": [
+        861,
+        0,
+        215
+      ],
+      "apron_bounds": [
+        861,
+        215,
+        863,
+        217
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-03-09-E72",
+      "plot": "03-09",
+      "side": "E",
+      "base_x": 862,
+      "base_z": 264,
+      "model_offset": [
+        861,
+        0,
+        263
+      ],
+      "apron_bounds": [
+        861,
+        263,
+        863,
+        265
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-01-N24",
+      "plot": "04-01",
+      "side": "N",
+      "base_x": 24,
+      "base_z": 301,
+      "model_offset": [
+        23,
+        0,
+        300
+      ],
+      "apron_bounds": [
+        23,
+        300,
+        25,
+        302
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-01-N72",
+      "plot": "04-01",
+      "side": "N",
+      "base_x": 72,
+      "base_z": 301,
+      "model_offset": [
+        71,
+        0,
+        300
+      ],
+      "apron_bounds": [
+        71,
+        300,
+        73,
+        302
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-01-W24",
+      "plot": "04-01",
+      "side": "W",
+      "base_x": 13,
+      "base_z": 312,
+      "model_offset": [
+        12,
+        0,
+        311
+      ],
+      "apron_bounds": [
+        12,
+        311,
+        14,
+        313
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-01-W72",
+      "plot": "04-01",
+      "side": "W",
+      "base_x": 13,
+      "base_z": 360,
+      "model_offset": [
+        12,
+        0,
+        359
+      ],
+      "apron_bounds": [
+        12,
+        359,
+        14,
+        361
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-02-N24",
+      "plot": "04-02",
+      "side": "N",
+      "base_x": 120,
+      "base_z": 301,
+      "model_offset": [
+        119,
+        0,
+        300
+      ],
+      "apron_bounds": [
+        119,
+        300,
+        121,
+        302
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-02-N72",
+      "plot": "04-02",
+      "side": "N",
+      "base_x": 168,
+      "base_z": 301,
+      "model_offset": [
+        167,
+        0,
+        300
+      ],
+      "apron_bounds": [
+        167,
+        300,
+        169,
+        302
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-02-W24",
+      "plot": "04-02",
+      "side": "W",
+      "base_x": 109,
+      "base_z": 312,
+      "model_offset": [
+        108,
+        0,
+        311
+      ],
+      "apron_bounds": [
+        108,
+        311,
+        110,
+        313
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-02-W72",
+      "plot": "04-02",
+      "side": "W",
+      "base_x": 109,
+      "base_z": 360,
+      "model_offset": [
+        108,
+        0,
+        359
+      ],
+      "apron_bounds": [
+        108,
+        359,
+        110,
+        361
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-03-N24",
+      "plot": "04-03",
+      "side": "N",
+      "base_x": 216,
+      "base_z": 301,
+      "model_offset": [
+        215,
+        0,
+        300
+      ],
+      "apron_bounds": [
+        215,
+        300,
+        217,
+        302
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-03-N72",
+      "plot": "04-03",
+      "side": "N",
+      "base_x": 264,
+      "base_z": 301,
+      "model_offset": [
+        263,
+        0,
+        300
+      ],
+      "apron_bounds": [
+        263,
+        300,
+        265,
+        302
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-03-W24",
+      "plot": "04-03",
+      "side": "W",
+      "base_x": 205,
+      "base_z": 312,
+      "model_offset": [
+        204,
+        0,
+        311
+      ],
+      "apron_bounds": [
+        204,
+        311,
+        206,
+        313
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-03-W72",
+      "plot": "04-03",
+      "side": "W",
+      "base_x": 205,
+      "base_z": 360,
+      "model_offset": [
+        204,
+        0,
+        359
+      ],
+      "apron_bounds": [
+        204,
+        359,
+        206,
+        361
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-04-N24",
+      "plot": "04-04",
+      "side": "N",
+      "base_x": 312,
+      "base_z": 301,
+      "model_offset": [
+        311,
+        0,
+        300
+      ],
+      "apron_bounds": [
+        311,
+        300,
+        313,
+        302
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-04-N72",
+      "plot": "04-04",
+      "side": "N",
+      "base_x": 360,
+      "base_z": 301,
+      "model_offset": [
+        359,
+        0,
+        300
+      ],
+      "apron_bounds": [
+        359,
+        300,
+        361,
+        302
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-04-W24",
+      "plot": "04-04",
+      "side": "W",
+      "base_x": 301,
+      "base_z": 312,
+      "model_offset": [
+        300,
+        0,
+        311
+      ],
+      "apron_bounds": [
+        300,
+        311,
+        302,
+        313
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-04-W72",
+      "plot": "04-04",
+      "side": "W",
+      "base_x": 301,
+      "base_z": 360,
+      "model_offset": [
+        300,
+        0,
+        359
+      ],
+      "apron_bounds": [
+        300,
+        359,
+        302,
+        361
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-05-N24",
+      "plot": "04-05",
+      "side": "N",
+      "base_x": 408,
+      "base_z": 301,
+      "model_offset": [
+        407,
+        0,
+        300
+      ],
+      "apron_bounds": [
+        407,
+        300,
+        409,
+        302
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-05-N72",
+      "plot": "04-05",
+      "side": "N",
+      "base_x": 456,
+      "base_z": 301,
+      "model_offset": [
+        455,
+        0,
+        300
+      ],
+      "apron_bounds": [
+        455,
+        300,
+        457,
+        302
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-05-W24",
+      "plot": "04-05",
+      "side": "W",
+      "base_x": 397,
+      "base_z": 312,
+      "model_offset": [
+        396,
+        0,
+        311
+      ],
+      "apron_bounds": [
+        396,
+        311,
+        398,
+        313
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-05-W72",
+      "plot": "04-05",
+      "side": "W",
+      "base_x": 397,
+      "base_z": 360,
+      "model_offset": [
+        396,
+        0,
+        359
+      ],
+      "apron_bounds": [
+        396,
+        359,
+        398,
+        361
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-06-N24",
+      "plot": "04-06",
+      "side": "N",
+      "base_x": 504,
+      "base_z": 301,
+      "model_offset": [
+        503,
+        0,
+        300
+      ],
+      "apron_bounds": [
+        503,
+        300,
+        505,
+        302
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-06-N72",
+      "plot": "04-06",
+      "side": "N",
+      "base_x": 552,
+      "base_z": 301,
+      "model_offset": [
+        551,
+        0,
+        300
+      ],
+      "apron_bounds": [
+        551,
+        300,
+        553,
+        302
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-06-W24",
+      "plot": "04-06",
+      "side": "W",
+      "base_x": 493,
+      "base_z": 312,
+      "model_offset": [
+        492,
+        0,
+        311
+      ],
+      "apron_bounds": [
+        492,
+        311,
+        494,
+        313
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-06-W72",
+      "plot": "04-06",
+      "side": "W",
+      "base_x": 493,
+      "base_z": 360,
+      "model_offset": [
+        492,
+        0,
+        359
+      ],
+      "apron_bounds": [
+        492,
+        359,
+        494,
+        361
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-07-N24",
+      "plot": "04-07",
+      "side": "N",
+      "base_x": 600,
+      "base_z": 301,
+      "model_offset": [
+        599,
+        0,
+        300
+      ],
+      "apron_bounds": [
+        599,
+        300,
+        601,
+        302
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-07-N72",
+      "plot": "04-07",
+      "side": "N",
+      "base_x": 648,
+      "base_z": 301,
+      "model_offset": [
+        647,
+        0,
+        300
+      ],
+      "apron_bounds": [
+        647,
+        300,
+        649,
+        302
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-07-W24",
+      "plot": "04-07",
+      "side": "W",
+      "base_x": 589,
+      "base_z": 312,
+      "model_offset": [
+        588,
+        0,
+        311
+      ],
+      "apron_bounds": [
+        588,
+        311,
+        590,
+        313
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-07-W72",
+      "plot": "04-07",
+      "side": "W",
+      "base_x": 589,
+      "base_z": 360,
+      "model_offset": [
+        588,
+        0,
+        359
+      ],
+      "apron_bounds": [
+        588,
+        359,
+        590,
+        361
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-08-N24",
+      "plot": "04-08",
+      "side": "N",
+      "base_x": 696,
+      "base_z": 301,
+      "model_offset": [
+        695,
+        0,
+        300
+      ],
+      "apron_bounds": [
+        695,
+        300,
+        697,
+        302
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-08-N72",
+      "plot": "04-08",
+      "side": "N",
+      "base_x": 744,
+      "base_z": 301,
+      "model_offset": [
+        743,
+        0,
+        300
+      ],
+      "apron_bounds": [
+        743,
+        300,
+        745,
+        302
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-08-W24",
+      "plot": "04-08",
+      "side": "W",
+      "base_x": 685,
+      "base_z": 312,
+      "model_offset": [
+        684,
+        0,
+        311
+      ],
+      "apron_bounds": [
+        684,
+        311,
+        686,
+        313
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-08-W72",
+      "plot": "04-08",
+      "side": "W",
+      "base_x": 685,
+      "base_z": 360,
+      "model_offset": [
+        684,
+        0,
+        359
+      ],
+      "apron_bounds": [
+        684,
+        359,
+        686,
+        361
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-09-N24",
+      "plot": "04-09",
+      "side": "N",
+      "base_x": 792,
+      "base_z": 301,
+      "model_offset": [
+        791,
+        0,
+        300
+      ],
+      "apron_bounds": [
+        791,
+        300,
+        793,
+        302
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-09-N72",
+      "plot": "04-09",
+      "side": "N",
+      "base_x": 840,
+      "base_z": 301,
+      "model_offset": [
+        839,
+        0,
+        300
+      ],
+      "apron_bounds": [
+        839,
+        300,
+        841,
+        302
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-09-W24",
+      "plot": "04-09",
+      "side": "W",
+      "base_x": 781,
+      "base_z": 312,
+      "model_offset": [
+        780,
+        0,
+        311
+      ],
+      "apron_bounds": [
+        780,
+        311,
+        782,
+        313
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-09-W72",
+      "plot": "04-09",
+      "side": "W",
+      "base_x": 781,
+      "base_z": 360,
+      "model_offset": [
+        780,
+        0,
+        359
+      ],
+      "apron_bounds": [
+        780,
+        359,
+        782,
+        361
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-09-E24",
+      "plot": "04-09",
+      "side": "E",
+      "base_x": 862,
+      "base_z": 312,
+      "model_offset": [
+        861,
+        0,
+        311
+      ],
+      "apron_bounds": [
+        861,
+        311,
+        863,
+        313
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-04-09-E72",
+      "plot": "04-09",
+      "side": "E",
+      "base_x": 862,
+      "base_z": 360,
+      "model_offset": [
+        861,
+        0,
+        359
+      ],
+      "apron_bounds": [
+        861,
+        359,
+        863,
+        361
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-01-N24",
+      "plot": "05-01",
+      "side": "N",
+      "base_x": 24,
+      "base_z": 397,
+      "model_offset": [
+        23,
+        0,
+        396
+      ],
+      "apron_bounds": [
+        23,
+        396,
+        25,
+        398
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-01-N72",
+      "plot": "05-01",
+      "side": "N",
+      "base_x": 72,
+      "base_z": 397,
+      "model_offset": [
+        71,
+        0,
+        396
+      ],
+      "apron_bounds": [
+        71,
+        396,
+        73,
+        398
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-01-W24",
+      "plot": "05-01",
+      "side": "W",
+      "base_x": 13,
+      "base_z": 408,
+      "model_offset": [
+        12,
+        0,
+        407
+      ],
+      "apron_bounds": [
+        12,
+        407,
+        14,
+        409
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-01-W72",
+      "plot": "05-01",
+      "side": "W",
+      "base_x": 13,
+      "base_z": 456,
+      "model_offset": [
+        12,
+        0,
+        455
+      ],
+      "apron_bounds": [
+        12,
+        455,
+        14,
+        457
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-02-N24",
+      "plot": "05-02",
+      "side": "N",
+      "base_x": 120,
+      "base_z": 397,
+      "model_offset": [
+        119,
+        0,
+        396
+      ],
+      "apron_bounds": [
+        119,
+        396,
+        121,
+        398
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-02-N72",
+      "plot": "05-02",
+      "side": "N",
+      "base_x": 168,
+      "base_z": 397,
+      "model_offset": [
+        167,
+        0,
+        396
+      ],
+      "apron_bounds": [
+        167,
+        396,
+        169,
+        398
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-02-W72",
+      "plot": "05-02",
+      "side": "W",
+      "base_x": 109,
+      "base_z": 456,
+      "model_offset": [
+        108,
+        0,
+        455
+      ],
+      "apron_bounds": [
+        108,
+        455,
+        110,
+        457
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-03-N24",
+      "plot": "05-03",
+      "side": "N",
+      "base_x": 216,
+      "base_z": 397,
+      "model_offset": [
+        215,
+        0,
+        396
+      ],
+      "apron_bounds": [
+        215,
+        396,
+        217,
+        398
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-03-N72",
+      "plot": "05-03",
+      "side": "N",
+      "base_x": 264,
+      "base_z": 397,
+      "model_offset": [
+        263,
+        0,
+        396
+      ],
+      "apron_bounds": [
+        263,
+        396,
+        265,
+        398
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-03-W24",
+      "plot": "05-03",
+      "side": "W",
+      "base_x": 205,
+      "base_z": 408,
+      "model_offset": [
+        204,
+        0,
+        407
+      ],
+      "apron_bounds": [
+        204,
+        407,
+        206,
+        409
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-03-W72",
+      "plot": "05-03",
+      "side": "W",
+      "base_x": 205,
+      "base_z": 456,
+      "model_offset": [
+        204,
+        0,
+        455
+      ],
+      "apron_bounds": [
+        204,
+        455,
+        206,
+        457
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-04-N24",
+      "plot": "05-04",
+      "side": "N",
+      "base_x": 312,
+      "base_z": 397,
+      "model_offset": [
+        311,
+        0,
+        396
+      ],
+      "apron_bounds": [
+        311,
+        396,
+        313,
+        398
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-04-N72",
+      "plot": "05-04",
+      "side": "N",
+      "base_x": 360,
+      "base_z": 397,
+      "model_offset": [
+        359,
+        0,
+        396
+      ],
+      "apron_bounds": [
+        359,
+        396,
+        361,
+        398
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-04-W24",
+      "plot": "05-04",
+      "side": "W",
+      "base_x": 301,
+      "base_z": 408,
+      "model_offset": [
+        300,
+        0,
+        407
+      ],
+      "apron_bounds": [
+        300,
+        407,
+        302,
+        409
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-04-W72",
+      "plot": "05-04",
+      "side": "W",
+      "base_x": 301,
+      "base_z": 456,
+      "model_offset": [
+        300,
+        0,
+        455
+      ],
+      "apron_bounds": [
+        300,
+        455,
+        302,
+        457
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-05-N24",
+      "plot": "05-05",
+      "side": "N",
+      "base_x": 408,
+      "base_z": 397,
+      "model_offset": [
+        407,
+        0,
+        396
+      ],
+      "apron_bounds": [
+        407,
+        396,
+        409,
+        398
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-05-N72",
+      "plot": "05-05",
+      "side": "N",
+      "base_x": 456,
+      "base_z": 397,
+      "model_offset": [
+        455,
+        0,
+        396
+      ],
+      "apron_bounds": [
+        455,
+        396,
+        457,
+        398
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-05-W72",
+      "plot": "05-05",
+      "side": "W",
+      "base_x": 397,
+      "base_z": 456,
+      "model_offset": [
+        396,
+        0,
+        455
+      ],
+      "apron_bounds": [
+        396,
+        455,
+        398,
+        457
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-06-N24",
+      "plot": "05-06",
+      "side": "N",
+      "base_x": 504,
+      "base_z": 397,
+      "model_offset": [
+        503,
+        0,
+        396
+      ],
+      "apron_bounds": [
+        503,
+        396,
+        505,
+        398
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-06-N72",
+      "plot": "05-06",
+      "side": "N",
+      "base_x": 552,
+      "base_z": 397,
+      "model_offset": [
+        551,
+        0,
+        396
+      ],
+      "apron_bounds": [
+        551,
+        396,
+        553,
+        398
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-06-W24",
+      "plot": "05-06",
+      "side": "W",
+      "base_x": 493,
+      "base_z": 408,
+      "model_offset": [
+        492,
+        0,
+        407
+      ],
+      "apron_bounds": [
+        492,
+        407,
+        494,
+        409
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-06-W72",
+      "plot": "05-06",
+      "side": "W",
+      "base_x": 493,
+      "base_z": 456,
+      "model_offset": [
+        492,
+        0,
+        455
+      ],
+      "apron_bounds": [
+        492,
+        455,
+        494,
+        457
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-07-N24",
+      "plot": "05-07",
+      "side": "N",
+      "base_x": 600,
+      "base_z": 397,
+      "model_offset": [
+        599,
+        0,
+        396
+      ],
+      "apron_bounds": [
+        599,
+        396,
+        601,
+        398
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-07-N72",
+      "plot": "05-07",
+      "side": "N",
+      "base_x": 648,
+      "base_z": 397,
+      "model_offset": [
+        647,
+        0,
+        396
+      ],
+      "apron_bounds": [
+        647,
+        396,
+        649,
+        398
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-07-W24",
+      "plot": "05-07",
+      "side": "W",
+      "base_x": 589,
+      "base_z": 408,
+      "model_offset": [
+        588,
+        0,
+        407
+      ],
+      "apron_bounds": [
+        588,
+        407,
+        590,
+        409
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-07-W72",
+      "plot": "05-07",
+      "side": "W",
+      "base_x": 589,
+      "base_z": 456,
+      "model_offset": [
+        588,
+        0,
+        455
+      ],
+      "apron_bounds": [
+        588,
+        455,
+        590,
+        457
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-08-N24",
+      "plot": "05-08",
+      "side": "N",
+      "base_x": 696,
+      "base_z": 397,
+      "model_offset": [
+        695,
+        0,
+        396
+      ],
+      "apron_bounds": [
+        695,
+        396,
+        697,
+        398
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-08-N72",
+      "plot": "05-08",
+      "side": "N",
+      "base_x": 744,
+      "base_z": 397,
+      "model_offset": [
+        743,
+        0,
+        396
+      ],
+      "apron_bounds": [
+        743,
+        396,
+        745,
+        398
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-08-W72",
+      "plot": "05-08",
+      "side": "W",
+      "base_x": 685,
+      "base_z": 456,
+      "model_offset": [
+        684,
+        0,
+        455
+      ],
+      "apron_bounds": [
+        684,
+        455,
+        686,
+        457
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-09-N24",
+      "plot": "05-09",
+      "side": "N",
+      "base_x": 792,
+      "base_z": 397,
+      "model_offset": [
+        791,
+        0,
+        396
+      ],
+      "apron_bounds": [
+        791,
+        396,
+        793,
+        398
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-09-N72",
+      "plot": "05-09",
+      "side": "N",
+      "base_x": 840,
+      "base_z": 397,
+      "model_offset": [
+        839,
+        0,
+        396
+      ],
+      "apron_bounds": [
+        839,
+        396,
+        841,
+        398
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-09-W24",
+      "plot": "05-09",
+      "side": "W",
+      "base_x": 781,
+      "base_z": 408,
+      "model_offset": [
+        780,
+        0,
+        407
+      ],
+      "apron_bounds": [
+        780,
+        407,
+        782,
+        409
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-09-W72",
+      "plot": "05-09",
+      "side": "W",
+      "base_x": 781,
+      "base_z": 456,
+      "model_offset": [
+        780,
+        0,
+        455
+      ],
+      "apron_bounds": [
+        780,
+        455,
+        782,
+        457
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-09-E24",
+      "plot": "05-09",
+      "side": "E",
+      "base_x": 862,
+      "base_z": 408,
+      "model_offset": [
+        861,
+        0,
+        407
+      ],
+      "apron_bounds": [
+        861,
+        407,
+        863,
+        409
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-05-09-E72",
+      "plot": "05-09",
+      "side": "E",
+      "base_x": 862,
+      "base_z": 456,
+      "model_offset": [
+        861,
+        0,
+        455
+      ],
+      "apron_bounds": [
+        861,
+        455,
+        863,
+        457
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-01-N24",
+      "plot": "06-01",
+      "side": "N",
+      "base_x": 24,
+      "base_z": 493,
+      "model_offset": [
+        23,
+        0,
+        492
+      ],
+      "apron_bounds": [
+        23,
+        492,
+        25,
+        494
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-01-N72",
+      "plot": "06-01",
+      "side": "N",
+      "base_x": 72,
+      "base_z": 493,
+      "model_offset": [
+        71,
+        0,
+        492
+      ],
+      "apron_bounds": [
+        71,
+        492,
+        73,
+        494
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-01-W24",
+      "plot": "06-01",
+      "side": "W",
+      "base_x": 13,
+      "base_z": 504,
+      "model_offset": [
+        12,
+        0,
+        503
+      ],
+      "apron_bounds": [
+        12,
+        503,
+        14,
+        505
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-01-W72",
+      "plot": "06-01",
+      "side": "W",
+      "base_x": 13,
+      "base_z": 552,
+      "model_offset": [
+        12,
+        0,
+        551
+      ],
+      "apron_bounds": [
+        12,
+        551,
+        14,
+        553
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-02-N24",
+      "plot": "06-02",
+      "side": "N",
+      "base_x": 120,
+      "base_z": 493,
+      "model_offset": [
+        119,
+        0,
+        492
+      ],
+      "apron_bounds": [
+        119,
+        492,
+        121,
+        494
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-02-N72",
+      "plot": "06-02",
+      "side": "N",
+      "base_x": 168,
+      "base_z": 493,
+      "model_offset": [
+        167,
+        0,
+        492
+      ],
+      "apron_bounds": [
+        167,
+        492,
+        169,
+        494
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-02-W24",
+      "plot": "06-02",
+      "side": "W",
+      "base_x": 109,
+      "base_z": 504,
+      "model_offset": [
+        108,
+        0,
+        503
+      ],
+      "apron_bounds": [
+        108,
+        503,
+        110,
+        505
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-02-W72",
+      "plot": "06-02",
+      "side": "W",
+      "base_x": 109,
+      "base_z": 552,
+      "model_offset": [
+        108,
+        0,
+        551
+      ],
+      "apron_bounds": [
+        108,
+        551,
+        110,
+        553
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-03-N24",
+      "plot": "06-03",
+      "side": "N",
+      "base_x": 216,
+      "base_z": 493,
+      "model_offset": [
+        215,
+        0,
+        492
+      ],
+      "apron_bounds": [
+        215,
+        492,
+        217,
+        494
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-03-N72",
+      "plot": "06-03",
+      "side": "N",
+      "base_x": 264,
+      "base_z": 493,
+      "model_offset": [
+        263,
+        0,
+        492
+      ],
+      "apron_bounds": [
+        263,
+        492,
+        265,
+        494
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-03-W24",
+      "plot": "06-03",
+      "side": "W",
+      "base_x": 205,
+      "base_z": 504,
+      "model_offset": [
+        204,
+        0,
+        503
+      ],
+      "apron_bounds": [
+        204,
+        503,
+        206,
+        505
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-03-W72",
+      "plot": "06-03",
+      "side": "W",
+      "base_x": 205,
+      "base_z": 552,
+      "model_offset": [
+        204,
+        0,
+        551
+      ],
+      "apron_bounds": [
+        204,
+        551,
+        206,
+        553
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-04-N24",
+      "plot": "06-04",
+      "side": "N",
+      "base_x": 312,
+      "base_z": 493,
+      "model_offset": [
+        311,
+        0,
+        492
+      ],
+      "apron_bounds": [
+        311,
+        492,
+        313,
+        494
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-04-N72",
+      "plot": "06-04",
+      "side": "N",
+      "base_x": 360,
+      "base_z": 493,
+      "model_offset": [
+        359,
+        0,
+        492
+      ],
+      "apron_bounds": [
+        359,
+        492,
+        361,
+        494
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-04-W24",
+      "plot": "06-04",
+      "side": "W",
+      "base_x": 301,
+      "base_z": 504,
+      "model_offset": [
+        300,
+        0,
+        503
+      ],
+      "apron_bounds": [
+        300,
+        503,
+        302,
+        505
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-04-W72",
+      "plot": "06-04",
+      "side": "W",
+      "base_x": 301,
+      "base_z": 552,
+      "model_offset": [
+        300,
+        0,
+        551
+      ],
+      "apron_bounds": [
+        300,
+        551,
+        302,
+        553
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-05-N24",
+      "plot": "06-05",
+      "side": "N",
+      "base_x": 408,
+      "base_z": 493,
+      "model_offset": [
+        407,
+        0,
+        492
+      ],
+      "apron_bounds": [
+        407,
+        492,
+        409,
+        494
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-05-N72",
+      "plot": "06-05",
+      "side": "N",
+      "base_x": 456,
+      "base_z": 493,
+      "model_offset": [
+        455,
+        0,
+        492
+      ],
+      "apron_bounds": [
+        455,
+        492,
+        457,
+        494
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-05-W24",
+      "plot": "06-05",
+      "side": "W",
+      "base_x": 397,
+      "base_z": 504,
+      "model_offset": [
+        396,
+        0,
+        503
+      ],
+      "apron_bounds": [
+        396,
+        503,
+        398,
+        505
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-05-W72",
+      "plot": "06-05",
+      "side": "W",
+      "base_x": 397,
+      "base_z": 552,
+      "model_offset": [
+        396,
+        0,
+        551
+      ],
+      "apron_bounds": [
+        396,
+        551,
+        398,
+        553
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-06-N24",
+      "plot": "06-06",
+      "side": "N",
+      "base_x": 504,
+      "base_z": 493,
+      "model_offset": [
+        503,
+        0,
+        492
+      ],
+      "apron_bounds": [
+        503,
+        492,
+        505,
+        494
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-06-N72",
+      "plot": "06-06",
+      "side": "N",
+      "base_x": 552,
+      "base_z": 493,
+      "model_offset": [
+        551,
+        0,
+        492
+      ],
+      "apron_bounds": [
+        551,
+        492,
+        553,
+        494
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-06-W24",
+      "plot": "06-06",
+      "side": "W",
+      "base_x": 493,
+      "base_z": 504,
+      "model_offset": [
+        492,
+        0,
+        503
+      ],
+      "apron_bounds": [
+        492,
+        503,
+        494,
+        505
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-06-W72",
+      "plot": "06-06",
+      "side": "W",
+      "base_x": 493,
+      "base_z": 552,
+      "model_offset": [
+        492,
+        0,
+        551
+      ],
+      "apron_bounds": [
+        492,
+        551,
+        494,
+        553
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-07-N24",
+      "plot": "06-07",
+      "side": "N",
+      "base_x": 600,
+      "base_z": 493,
+      "model_offset": [
+        599,
+        0,
+        492
+      ],
+      "apron_bounds": [
+        599,
+        492,
+        601,
+        494
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-07-N72",
+      "plot": "06-07",
+      "side": "N",
+      "base_x": 648,
+      "base_z": 493,
+      "model_offset": [
+        647,
+        0,
+        492
+      ],
+      "apron_bounds": [
+        647,
+        492,
+        649,
+        494
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-07-W24",
+      "plot": "06-07",
+      "side": "W",
+      "base_x": 589,
+      "base_z": 504,
+      "model_offset": [
+        588,
+        0,
+        503
+      ],
+      "apron_bounds": [
+        588,
+        503,
+        590,
+        505
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-07-W72",
+      "plot": "06-07",
+      "side": "W",
+      "base_x": 589,
+      "base_z": 552,
+      "model_offset": [
+        588,
+        0,
+        551
+      ],
+      "apron_bounds": [
+        588,
+        551,
+        590,
+        553
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-08-N24",
+      "plot": "06-08",
+      "side": "N",
+      "base_x": 696,
+      "base_z": 493,
+      "model_offset": [
+        695,
+        0,
+        492
+      ],
+      "apron_bounds": [
+        695,
+        492,
+        697,
+        494
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-08-N72",
+      "plot": "06-08",
+      "side": "N",
+      "base_x": 744,
+      "base_z": 493,
+      "model_offset": [
+        743,
+        0,
+        492
+      ],
+      "apron_bounds": [
+        743,
+        492,
+        745,
+        494
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-08-W24",
+      "plot": "06-08",
+      "side": "W",
+      "base_x": 685,
+      "base_z": 504,
+      "model_offset": [
+        684,
+        0,
+        503
+      ],
+      "apron_bounds": [
+        684,
+        503,
+        686,
+        505
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-08-W72",
+      "plot": "06-08",
+      "side": "W",
+      "base_x": 685,
+      "base_z": 552,
+      "model_offset": [
+        684,
+        0,
+        551
+      ],
+      "apron_bounds": [
+        684,
+        551,
+        686,
+        553
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-09-N24",
+      "plot": "06-09",
+      "side": "N",
+      "base_x": 792,
+      "base_z": 493,
+      "model_offset": [
+        791,
+        0,
+        492
+      ],
+      "apron_bounds": [
+        791,
+        492,
+        793,
+        494
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-09-N72",
+      "plot": "06-09",
+      "side": "N",
+      "base_x": 840,
+      "base_z": 493,
+      "model_offset": [
+        839,
+        0,
+        492
+      ],
+      "apron_bounds": [
+        839,
+        492,
+        841,
+        494
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-09-W24",
+      "plot": "06-09",
+      "side": "W",
+      "base_x": 781,
+      "base_z": 504,
+      "model_offset": [
+        780,
+        0,
+        503
+      ],
+      "apron_bounds": [
+        780,
+        503,
+        782,
+        505
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-09-W72",
+      "plot": "06-09",
+      "side": "W",
+      "base_x": 781,
+      "base_z": 552,
+      "model_offset": [
+        780,
+        0,
+        551
+      ],
+      "apron_bounds": [
+        780,
+        551,
+        782,
+        553
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-09-E24",
+      "plot": "06-09",
+      "side": "E",
+      "base_x": 862,
+      "base_z": 504,
+      "model_offset": [
+        861,
+        0,
+        503
+      ],
+      "apron_bounds": [
+        861,
+        503,
+        863,
+        505
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-06-09-E72",
+      "plot": "06-09",
+      "side": "E",
+      "base_x": 862,
+      "base_z": 552,
+      "model_offset": [
+        861,
+        0,
+        551
+      ],
+      "apron_bounds": [
+        861,
+        551,
+        863,
+        553
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-01-N24",
+      "plot": "07-01",
+      "side": "N",
+      "base_x": 24,
+      "base_z": 589,
+      "model_offset": [
+        23,
+        0,
+        588
+      ],
+      "apron_bounds": [
+        23,
+        588,
+        25,
+        590
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-01-N72",
+      "plot": "07-01",
+      "side": "N",
+      "base_x": 72,
+      "base_z": 589,
+      "model_offset": [
+        71,
+        0,
+        588
+      ],
+      "apron_bounds": [
+        71,
+        588,
+        73,
+        590
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-01-W24",
+      "plot": "07-01",
+      "side": "W",
+      "base_x": 13,
+      "base_z": 600,
+      "model_offset": [
+        12,
+        0,
+        599
+      ],
+      "apron_bounds": [
+        12,
+        599,
+        14,
+        601
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-01-W72",
+      "plot": "07-01",
+      "side": "W",
+      "base_x": 13,
+      "base_z": 648,
+      "model_offset": [
+        12,
+        0,
+        647
+      ],
+      "apron_bounds": [
+        12,
+        647,
+        14,
+        649
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-02-N24",
+      "plot": "07-02",
+      "side": "N",
+      "base_x": 120,
+      "base_z": 589,
+      "model_offset": [
+        119,
+        0,
+        588
+      ],
+      "apron_bounds": [
+        119,
+        588,
+        121,
+        590
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-02-N72",
+      "plot": "07-02",
+      "side": "N",
+      "base_x": 168,
+      "base_z": 589,
+      "model_offset": [
+        167,
+        0,
+        588
+      ],
+      "apron_bounds": [
+        167,
+        588,
+        169,
+        590
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-02-W24",
+      "plot": "07-02",
+      "side": "W",
+      "base_x": 109,
+      "base_z": 600,
+      "model_offset": [
+        108,
+        0,
+        599
+      ],
+      "apron_bounds": [
+        108,
+        599,
+        110,
+        601
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-02-W72",
+      "plot": "07-02",
+      "side": "W",
+      "base_x": 109,
+      "base_z": 648,
+      "model_offset": [
+        108,
+        0,
+        647
+      ],
+      "apron_bounds": [
+        108,
+        647,
+        110,
+        649
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-03-N24",
+      "plot": "07-03",
+      "side": "N",
+      "base_x": 216,
+      "base_z": 589,
+      "model_offset": [
+        215,
+        0,
+        588
+      ],
+      "apron_bounds": [
+        215,
+        588,
+        217,
+        590
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-03-N72",
+      "plot": "07-03",
+      "side": "N",
+      "base_x": 264,
+      "base_z": 589,
+      "model_offset": [
+        263,
+        0,
+        588
+      ],
+      "apron_bounds": [
+        263,
+        588,
+        265,
+        590
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-03-W24",
+      "plot": "07-03",
+      "side": "W",
+      "base_x": 205,
+      "base_z": 600,
+      "model_offset": [
+        204,
+        0,
+        599
+      ],
+      "apron_bounds": [
+        204,
+        599,
+        206,
+        601
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-03-W72",
+      "plot": "07-03",
+      "side": "W",
+      "base_x": 205,
+      "base_z": 648,
+      "model_offset": [
+        204,
+        0,
+        647
+      ],
+      "apron_bounds": [
+        204,
+        647,
+        206,
+        649
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-04-N24",
+      "plot": "07-04",
+      "side": "N",
+      "base_x": 312,
+      "base_z": 589,
+      "model_offset": [
+        311,
+        0,
+        588
+      ],
+      "apron_bounds": [
+        311,
+        588,
+        313,
+        590
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-04-N72",
+      "plot": "07-04",
+      "side": "N",
+      "base_x": 360,
+      "base_z": 589,
+      "model_offset": [
+        359,
+        0,
+        588
+      ],
+      "apron_bounds": [
+        359,
+        588,
+        361,
+        590
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-04-W24",
+      "plot": "07-04",
+      "side": "W",
+      "base_x": 301,
+      "base_z": 600,
+      "model_offset": [
+        300,
+        0,
+        599
+      ],
+      "apron_bounds": [
+        300,
+        599,
+        302,
+        601
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-04-W72",
+      "plot": "07-04",
+      "side": "W",
+      "base_x": 301,
+      "base_z": 648,
+      "model_offset": [
+        300,
+        0,
+        647
+      ],
+      "apron_bounds": [
+        300,
+        647,
+        302,
+        649
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-05-N24",
+      "plot": "07-05",
+      "side": "N",
+      "base_x": 408,
+      "base_z": 589,
+      "model_offset": [
+        407,
+        0,
+        588
+      ],
+      "apron_bounds": [
+        407,
+        588,
+        409,
+        590
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-05-N72",
+      "plot": "07-05",
+      "side": "N",
+      "base_x": 456,
+      "base_z": 589,
+      "model_offset": [
+        455,
+        0,
+        588
+      ],
+      "apron_bounds": [
+        455,
+        588,
+        457,
+        590
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-05-W24",
+      "plot": "07-05",
+      "side": "W",
+      "base_x": 397,
+      "base_z": 600,
+      "model_offset": [
+        396,
+        0,
+        599
+      ],
+      "apron_bounds": [
+        396,
+        599,
+        398,
+        601
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-05-W72",
+      "plot": "07-05",
+      "side": "W",
+      "base_x": 397,
+      "base_z": 648,
+      "model_offset": [
+        396,
+        0,
+        647
+      ],
+      "apron_bounds": [
+        396,
+        647,
+        398,
+        649
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-06-N24",
+      "plot": "07-06",
+      "side": "N",
+      "base_x": 504,
+      "base_z": 589,
+      "model_offset": [
+        503,
+        0,
+        588
+      ],
+      "apron_bounds": [
+        503,
+        588,
+        505,
+        590
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-06-N72",
+      "plot": "07-06",
+      "side": "N",
+      "base_x": 552,
+      "base_z": 589,
+      "model_offset": [
+        551,
+        0,
+        588
+      ],
+      "apron_bounds": [
+        551,
+        588,
+        553,
+        590
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-06-W24",
+      "plot": "07-06",
+      "side": "W",
+      "base_x": 493,
+      "base_z": 600,
+      "model_offset": [
+        492,
+        0,
+        599
+      ],
+      "apron_bounds": [
+        492,
+        599,
+        494,
+        601
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-06-W72",
+      "plot": "07-06",
+      "side": "W",
+      "base_x": 493,
+      "base_z": 648,
+      "model_offset": [
+        492,
+        0,
+        647
+      ],
+      "apron_bounds": [
+        492,
+        647,
+        494,
+        649
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-07-N24",
+      "plot": "07-07",
+      "side": "N",
+      "base_x": 600,
+      "base_z": 589,
+      "model_offset": [
+        599,
+        0,
+        588
+      ],
+      "apron_bounds": [
+        599,
+        588,
+        601,
+        590
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-07-N72",
+      "plot": "07-07",
+      "side": "N",
+      "base_x": 648,
+      "base_z": 589,
+      "model_offset": [
+        647,
+        0,
+        588
+      ],
+      "apron_bounds": [
+        647,
+        588,
+        649,
+        590
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-07-W24",
+      "plot": "07-07",
+      "side": "W",
+      "base_x": 589,
+      "base_z": 600,
+      "model_offset": [
+        588,
+        0,
+        599
+      ],
+      "apron_bounds": [
+        588,
+        599,
+        590,
+        601
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-07-W72",
+      "plot": "07-07",
+      "side": "W",
+      "base_x": 589,
+      "base_z": 648,
+      "model_offset": [
+        588,
+        0,
+        647
+      ],
+      "apron_bounds": [
+        588,
+        647,
+        590,
+        649
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-08-N24",
+      "plot": "07-08",
+      "side": "N",
+      "base_x": 696,
+      "base_z": 589,
+      "model_offset": [
+        695,
+        0,
+        588
+      ],
+      "apron_bounds": [
+        695,
+        588,
+        697,
+        590
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-08-N72",
+      "plot": "07-08",
+      "side": "N",
+      "base_x": 744,
+      "base_z": 589,
+      "model_offset": [
+        743,
+        0,
+        588
+      ],
+      "apron_bounds": [
+        743,
+        588,
+        745,
+        590
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-08-W24",
+      "plot": "07-08",
+      "side": "W",
+      "base_x": 685,
+      "base_z": 600,
+      "model_offset": [
+        684,
+        0,
+        599
+      ],
+      "apron_bounds": [
+        684,
+        599,
+        686,
+        601
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-08-W72",
+      "plot": "07-08",
+      "side": "W",
+      "base_x": 685,
+      "base_z": 648,
+      "model_offset": [
+        684,
+        0,
+        647
+      ],
+      "apron_bounds": [
+        684,
+        647,
+        686,
+        649
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-09-N24",
+      "plot": "07-09",
+      "side": "N",
+      "base_x": 792,
+      "base_z": 589,
+      "model_offset": [
+        791,
+        0,
+        588
+      ],
+      "apron_bounds": [
+        791,
+        588,
+        793,
+        590
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-09-N72",
+      "plot": "07-09",
+      "side": "N",
+      "base_x": 840,
+      "base_z": 589,
+      "model_offset": [
+        839,
+        0,
+        588
+      ],
+      "apron_bounds": [
+        839,
+        588,
+        841,
+        590
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-09-W24",
+      "plot": "07-09",
+      "side": "W",
+      "base_x": 781,
+      "base_z": 600,
+      "model_offset": [
+        780,
+        0,
+        599
+      ],
+      "apron_bounds": [
+        780,
+        599,
+        782,
+        601
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-09-W72",
+      "plot": "07-09",
+      "side": "W",
+      "base_x": 781,
+      "base_z": 648,
+      "model_offset": [
+        780,
+        0,
+        647
+      ],
+      "apron_bounds": [
+        780,
+        647,
+        782,
+        649
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-09-E24",
+      "plot": "07-09",
+      "side": "E",
+      "base_x": 862,
+      "base_z": 600,
+      "model_offset": [
+        861,
+        0,
+        599
+      ],
+      "apron_bounds": [
+        861,
+        599,
+        863,
+        601
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-07-09-E72",
+      "plot": "07-09",
+      "side": "E",
+      "base_x": 862,
+      "base_z": 648,
+      "model_offset": [
+        861,
+        0,
+        647
+      ],
+      "apron_bounds": [
+        861,
+        647,
+        863,
+        649
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-01-N24",
+      "plot": "08-01",
+      "side": "N",
+      "base_x": 24,
+      "base_z": 685,
+      "model_offset": [
+        23,
+        0,
+        684
+      ],
+      "apron_bounds": [
+        23,
+        684,
+        25,
+        686
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-01-N72",
+      "plot": "08-01",
+      "side": "N",
+      "base_x": 72,
+      "base_z": 685,
+      "model_offset": [
+        71,
+        0,
+        684
+      ],
+      "apron_bounds": [
+        71,
+        684,
+        73,
+        686
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-01-W24",
+      "plot": "08-01",
+      "side": "W",
+      "base_x": 13,
+      "base_z": 696,
+      "model_offset": [
+        12,
+        0,
+        695
+      ],
+      "apron_bounds": [
+        12,
+        695,
+        14,
+        697
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-01-W72",
+      "plot": "08-01",
+      "side": "W",
+      "base_x": 13,
+      "base_z": 744,
+      "model_offset": [
+        12,
+        0,
+        743
+      ],
+      "apron_bounds": [
+        12,
+        743,
+        14,
+        745
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-02-N24",
+      "plot": "08-02",
+      "side": "N",
+      "base_x": 120,
+      "base_z": 685,
+      "model_offset": [
+        119,
+        0,
+        684
+      ],
+      "apron_bounds": [
+        119,
+        684,
+        121,
+        686
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-02-N72",
+      "plot": "08-02",
+      "side": "N",
+      "base_x": 168,
+      "base_z": 685,
+      "model_offset": [
+        167,
+        0,
+        684
+      ],
+      "apron_bounds": [
+        167,
+        684,
+        169,
+        686
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-02-W72",
+      "plot": "08-02",
+      "side": "W",
+      "base_x": 109,
+      "base_z": 744,
+      "model_offset": [
+        108,
+        0,
+        743
+      ],
+      "apron_bounds": [
+        108,
+        743,
+        110,
+        745
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-03-N24",
+      "plot": "08-03",
+      "side": "N",
+      "base_x": 216,
+      "base_z": 685,
+      "model_offset": [
+        215,
+        0,
+        684
+      ],
+      "apron_bounds": [
+        215,
+        684,
+        217,
+        686
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-03-N72",
+      "plot": "08-03",
+      "side": "N",
+      "base_x": 264,
+      "base_z": 685,
+      "model_offset": [
+        263,
+        0,
+        684
+      ],
+      "apron_bounds": [
+        263,
+        684,
+        265,
+        686
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-03-W24",
+      "plot": "08-03",
+      "side": "W",
+      "base_x": 205,
+      "base_z": 696,
+      "model_offset": [
+        204,
+        0,
+        695
+      ],
+      "apron_bounds": [
+        204,
+        695,
+        206,
+        697
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-03-W72",
+      "plot": "08-03",
+      "side": "W",
+      "base_x": 205,
+      "base_z": 744,
+      "model_offset": [
+        204,
+        0,
+        743
+      ],
+      "apron_bounds": [
+        204,
+        743,
+        206,
+        745
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-04-N24",
+      "plot": "08-04",
+      "side": "N",
+      "base_x": 312,
+      "base_z": 685,
+      "model_offset": [
+        311,
+        0,
+        684
+      ],
+      "apron_bounds": [
+        311,
+        684,
+        313,
+        686
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-04-N72",
+      "plot": "08-04",
+      "side": "N",
+      "base_x": 360,
+      "base_z": 685,
+      "model_offset": [
+        359,
+        0,
+        684
+      ],
+      "apron_bounds": [
+        359,
+        684,
+        361,
+        686
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-04-W24",
+      "plot": "08-04",
+      "side": "W",
+      "base_x": 301,
+      "base_z": 696,
+      "model_offset": [
+        300,
+        0,
+        695
+      ],
+      "apron_bounds": [
+        300,
+        695,
+        302,
+        697
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-04-W72",
+      "plot": "08-04",
+      "side": "W",
+      "base_x": 301,
+      "base_z": 744,
+      "model_offset": [
+        300,
+        0,
+        743
+      ],
+      "apron_bounds": [
+        300,
+        743,
+        302,
+        745
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-05-N24",
+      "plot": "08-05",
+      "side": "N",
+      "base_x": 408,
+      "base_z": 685,
+      "model_offset": [
+        407,
+        0,
+        684
+      ],
+      "apron_bounds": [
+        407,
+        684,
+        409,
+        686
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-05-N72",
+      "plot": "08-05",
+      "side": "N",
+      "base_x": 456,
+      "base_z": 685,
+      "model_offset": [
+        455,
+        0,
+        684
+      ],
+      "apron_bounds": [
+        455,
+        684,
+        457,
+        686
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-05-W72",
+      "plot": "08-05",
+      "side": "W",
+      "base_x": 397,
+      "base_z": 744,
+      "model_offset": [
+        396,
+        0,
+        743
+      ],
+      "apron_bounds": [
+        396,
+        743,
+        398,
+        745
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-06-N24",
+      "plot": "08-06",
+      "side": "N",
+      "base_x": 504,
+      "base_z": 685,
+      "model_offset": [
+        503,
+        0,
+        684
+      ],
+      "apron_bounds": [
+        503,
+        684,
+        505,
+        686
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-06-N72",
+      "plot": "08-06",
+      "side": "N",
+      "base_x": 552,
+      "base_z": 685,
+      "model_offset": [
+        551,
+        0,
+        684
+      ],
+      "apron_bounds": [
+        551,
+        684,
+        553,
+        686
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-06-W24",
+      "plot": "08-06",
+      "side": "W",
+      "base_x": 493,
+      "base_z": 696,
+      "model_offset": [
+        492,
+        0,
+        695
+      ],
+      "apron_bounds": [
+        492,
+        695,
+        494,
+        697
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-06-W72",
+      "plot": "08-06",
+      "side": "W",
+      "base_x": 493,
+      "base_z": 744,
+      "model_offset": [
+        492,
+        0,
+        743
+      ],
+      "apron_bounds": [
+        492,
+        743,
+        494,
+        745
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-07-N24",
+      "plot": "08-07",
+      "side": "N",
+      "base_x": 600,
+      "base_z": 685,
+      "model_offset": [
+        599,
+        0,
+        684
+      ],
+      "apron_bounds": [
+        599,
+        684,
+        601,
+        686
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-07-N72",
+      "plot": "08-07",
+      "side": "N",
+      "base_x": 648,
+      "base_z": 685,
+      "model_offset": [
+        647,
+        0,
+        684
+      ],
+      "apron_bounds": [
+        647,
+        684,
+        649,
+        686
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-07-W24",
+      "plot": "08-07",
+      "side": "W",
+      "base_x": 589,
+      "base_z": 696,
+      "model_offset": [
+        588,
+        0,
+        695
+      ],
+      "apron_bounds": [
+        588,
+        695,
+        590,
+        697
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-07-W72",
+      "plot": "08-07",
+      "side": "W",
+      "base_x": 589,
+      "base_z": 744,
+      "model_offset": [
+        588,
+        0,
+        743
+      ],
+      "apron_bounds": [
+        588,
+        743,
+        590,
+        745
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-08-N24",
+      "plot": "08-08",
+      "side": "N",
+      "base_x": 696,
+      "base_z": 685,
+      "model_offset": [
+        695,
+        0,
+        684
+      ],
+      "apron_bounds": [
+        695,
+        684,
+        697,
+        686
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-08-N72",
+      "plot": "08-08",
+      "side": "N",
+      "base_x": 744,
+      "base_z": 685,
+      "model_offset": [
+        743,
+        0,
+        684
+      ],
+      "apron_bounds": [
+        743,
+        684,
+        745,
+        686
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-08-W72",
+      "plot": "08-08",
+      "side": "W",
+      "base_x": 685,
+      "base_z": 744,
+      "model_offset": [
+        684,
+        0,
+        743
+      ],
+      "apron_bounds": [
+        684,
+        743,
+        686,
+        745
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-09-N24",
+      "plot": "08-09",
+      "side": "N",
+      "base_x": 792,
+      "base_z": 685,
+      "model_offset": [
+        791,
+        0,
+        684
+      ],
+      "apron_bounds": [
+        791,
+        684,
+        793,
+        686
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-09-N72",
+      "plot": "08-09",
+      "side": "N",
+      "base_x": 840,
+      "base_z": 685,
+      "model_offset": [
+        839,
+        0,
+        684
+      ],
+      "apron_bounds": [
+        839,
+        684,
+        841,
+        686
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-09-W24",
+      "plot": "08-09",
+      "side": "W",
+      "base_x": 781,
+      "base_z": 696,
+      "model_offset": [
+        780,
+        0,
+        695
+      ],
+      "apron_bounds": [
+        780,
+        695,
+        782,
+        697
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-09-W72",
+      "plot": "08-09",
+      "side": "W",
+      "base_x": 781,
+      "base_z": 744,
+      "model_offset": [
+        780,
+        0,
+        743
+      ],
+      "apron_bounds": [
+        780,
+        743,
+        782,
+        745
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-09-E24",
+      "plot": "08-09",
+      "side": "E",
+      "base_x": 862,
+      "base_z": 696,
+      "model_offset": [
+        861,
+        0,
+        695
+      ],
+      "apron_bounds": [
+        861,
+        695,
+        863,
+        697
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-08-09-E72",
+      "plot": "08-09",
+      "side": "E",
+      "base_x": 862,
+      "base_z": 744,
+      "model_offset": [
+        861,
+        0,
+        743
+      ],
+      "apron_bounds": [
+        861,
+        743,
+        863,
+        745
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-01-N24",
+      "plot": "09-01",
+      "side": "N",
+      "base_x": 24,
+      "base_z": 781,
+      "model_offset": [
+        23,
+        0,
+        780
+      ],
+      "apron_bounds": [
+        23,
+        780,
+        25,
+        782
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-01-N72",
+      "plot": "09-01",
+      "side": "N",
+      "base_x": 72,
+      "base_z": 781,
+      "model_offset": [
+        71,
+        0,
+        780
+      ],
+      "apron_bounds": [
+        71,
+        780,
+        73,
+        782
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-01-W24",
+      "plot": "09-01",
+      "side": "W",
+      "base_x": 13,
+      "base_z": 792,
+      "model_offset": [
+        12,
+        0,
+        791
+      ],
+      "apron_bounds": [
+        12,
+        791,
+        14,
+        793
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-01-W72",
+      "plot": "09-01",
+      "side": "W",
+      "base_x": 13,
+      "base_z": 840,
+      "model_offset": [
+        12,
+        0,
+        839
+      ],
+      "apron_bounds": [
+        12,
+        839,
+        14,
+        841
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-01-S24",
+      "plot": "09-01",
+      "side": "S",
+      "base_x": 24,
+      "base_z": 862,
+      "model_offset": [
+        23,
+        0,
+        861
+      ],
+      "apron_bounds": [
+        23,
+        861,
+        25,
+        863
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-01-S72",
+      "plot": "09-01",
+      "side": "S",
+      "base_x": 72,
+      "base_z": 862,
+      "model_offset": [
+        71,
+        0,
+        861
+      ],
+      "apron_bounds": [
+        71,
+        861,
+        73,
+        863
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-02-N24",
+      "plot": "09-02",
+      "side": "N",
+      "base_x": 120,
+      "base_z": 781,
+      "model_offset": [
+        119,
+        0,
+        780
+      ],
+      "apron_bounds": [
+        119,
+        780,
+        121,
+        782
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-02-N72",
+      "plot": "09-02",
+      "side": "N",
+      "base_x": 168,
+      "base_z": 781,
+      "model_offset": [
+        167,
+        0,
+        780
+      ],
+      "apron_bounds": [
+        167,
+        780,
+        169,
+        782
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-02-W24",
+      "plot": "09-02",
+      "side": "W",
+      "base_x": 109,
+      "base_z": 792,
+      "model_offset": [
+        108,
+        0,
+        791
+      ],
+      "apron_bounds": [
+        108,
+        791,
+        110,
+        793
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-02-W72",
+      "plot": "09-02",
+      "side": "W",
+      "base_x": 109,
+      "base_z": 840,
+      "model_offset": [
+        108,
+        0,
+        839
+      ],
+      "apron_bounds": [
+        108,
+        839,
+        110,
+        841
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-02-S24",
+      "plot": "09-02",
+      "side": "S",
+      "base_x": 120,
+      "base_z": 862,
+      "model_offset": [
+        119,
+        0,
+        861
+      ],
+      "apron_bounds": [
+        119,
+        861,
+        121,
+        863
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-02-S72",
+      "plot": "09-02",
+      "side": "S",
+      "base_x": 168,
+      "base_z": 862,
+      "model_offset": [
+        167,
+        0,
+        861
+      ],
+      "apron_bounds": [
+        167,
+        861,
+        169,
+        863
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-03-N24",
+      "plot": "09-03",
+      "side": "N",
+      "base_x": 216,
+      "base_z": 781,
+      "model_offset": [
+        215,
+        0,
+        780
+      ],
+      "apron_bounds": [
+        215,
+        780,
+        217,
+        782
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-03-N72",
+      "plot": "09-03",
+      "side": "N",
+      "base_x": 264,
+      "base_z": 781,
+      "model_offset": [
+        263,
+        0,
+        780
+      ],
+      "apron_bounds": [
+        263,
+        780,
+        265,
+        782
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-03-W24",
+      "plot": "09-03",
+      "side": "W",
+      "base_x": 205,
+      "base_z": 792,
+      "model_offset": [
+        204,
+        0,
+        791
+      ],
+      "apron_bounds": [
+        204,
+        791,
+        206,
+        793
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-03-W72",
+      "plot": "09-03",
+      "side": "W",
+      "base_x": 205,
+      "base_z": 840,
+      "model_offset": [
+        204,
+        0,
+        839
+      ],
+      "apron_bounds": [
+        204,
+        839,
+        206,
+        841
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-03-S24",
+      "plot": "09-03",
+      "side": "S",
+      "base_x": 216,
+      "base_z": 862,
+      "model_offset": [
+        215,
+        0,
+        861
+      ],
+      "apron_bounds": [
+        215,
+        861,
+        217,
+        863
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-03-S72",
+      "plot": "09-03",
+      "side": "S",
+      "base_x": 264,
+      "base_z": 862,
+      "model_offset": [
+        263,
+        0,
+        861
+      ],
+      "apron_bounds": [
+        263,
+        861,
+        265,
+        863
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-04-N24",
+      "plot": "09-04",
+      "side": "N",
+      "base_x": 312,
+      "base_z": 781,
+      "model_offset": [
+        311,
+        0,
+        780
+      ],
+      "apron_bounds": [
+        311,
+        780,
+        313,
+        782
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-04-N72",
+      "plot": "09-04",
+      "side": "N",
+      "base_x": 360,
+      "base_z": 781,
+      "model_offset": [
+        359,
+        0,
+        780
+      ],
+      "apron_bounds": [
+        359,
+        780,
+        361,
+        782
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-04-W24",
+      "plot": "09-04",
+      "side": "W",
+      "base_x": 301,
+      "base_z": 792,
+      "model_offset": [
+        300,
+        0,
+        791
+      ],
+      "apron_bounds": [
+        300,
+        791,
+        302,
+        793
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-04-W72",
+      "plot": "09-04",
+      "side": "W",
+      "base_x": 301,
+      "base_z": 840,
+      "model_offset": [
+        300,
+        0,
+        839
+      ],
+      "apron_bounds": [
+        300,
+        839,
+        302,
+        841
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-04-S24",
+      "plot": "09-04",
+      "side": "S",
+      "base_x": 312,
+      "base_z": 862,
+      "model_offset": [
+        311,
+        0,
+        861
+      ],
+      "apron_bounds": [
+        311,
+        861,
+        313,
+        863
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-04-S72",
+      "plot": "09-04",
+      "side": "S",
+      "base_x": 360,
+      "base_z": 862,
+      "model_offset": [
+        359,
+        0,
+        861
+      ],
+      "apron_bounds": [
+        359,
+        861,
+        361,
+        863
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-05-N24",
+      "plot": "09-05",
+      "side": "N",
+      "base_x": 408,
+      "base_z": 781,
+      "model_offset": [
+        407,
+        0,
+        780
+      ],
+      "apron_bounds": [
+        407,
+        780,
+        409,
+        782
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-05-N72",
+      "plot": "09-05",
+      "side": "N",
+      "base_x": 456,
+      "base_z": 781,
+      "model_offset": [
+        455,
+        0,
+        780
+      ],
+      "apron_bounds": [
+        455,
+        780,
+        457,
+        782
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-05-W24",
+      "plot": "09-05",
+      "side": "W",
+      "base_x": 397,
+      "base_z": 792,
+      "model_offset": [
+        396,
+        0,
+        791
+      ],
+      "apron_bounds": [
+        396,
+        791,
+        398,
+        793
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-05-W72",
+      "plot": "09-05",
+      "side": "W",
+      "base_x": 397,
+      "base_z": 840,
+      "model_offset": [
+        396,
+        0,
+        839
+      ],
+      "apron_bounds": [
+        396,
+        839,
+        398,
+        841
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-05-S24",
+      "plot": "09-05",
+      "side": "S",
+      "base_x": 408,
+      "base_z": 862,
+      "model_offset": [
+        407,
+        0,
+        861
+      ],
+      "apron_bounds": [
+        407,
+        861,
+        409,
+        863
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-05-S72",
+      "plot": "09-05",
+      "side": "S",
+      "base_x": 456,
+      "base_z": 862,
+      "model_offset": [
+        455,
+        0,
+        861
+      ],
+      "apron_bounds": [
+        455,
+        861,
+        457,
+        863
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-06-N24",
+      "plot": "09-06",
+      "side": "N",
+      "base_x": 504,
+      "base_z": 781,
+      "model_offset": [
+        503,
+        0,
+        780
+      ],
+      "apron_bounds": [
+        503,
+        780,
+        505,
+        782
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-06-N72",
+      "plot": "09-06",
+      "side": "N",
+      "base_x": 552,
+      "base_z": 781,
+      "model_offset": [
+        551,
+        0,
+        780
+      ],
+      "apron_bounds": [
+        551,
+        780,
+        553,
+        782
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-06-W24",
+      "plot": "09-06",
+      "side": "W",
+      "base_x": 493,
+      "base_z": 792,
+      "model_offset": [
+        492,
+        0,
+        791
+      ],
+      "apron_bounds": [
+        492,
+        791,
+        494,
+        793
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-06-W72",
+      "plot": "09-06",
+      "side": "W",
+      "base_x": 493,
+      "base_z": 840,
+      "model_offset": [
+        492,
+        0,
+        839
+      ],
+      "apron_bounds": [
+        492,
+        839,
+        494,
+        841
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-06-S24",
+      "plot": "09-06",
+      "side": "S",
+      "base_x": 504,
+      "base_z": 862,
+      "model_offset": [
+        503,
+        0,
+        861
+      ],
+      "apron_bounds": [
+        503,
+        861,
+        505,
+        863
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-06-S72",
+      "plot": "09-06",
+      "side": "S",
+      "base_x": 552,
+      "base_z": 862,
+      "model_offset": [
+        551,
+        0,
+        861
+      ],
+      "apron_bounds": [
+        551,
+        861,
+        553,
+        863
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-07-N24",
+      "plot": "09-07",
+      "side": "N",
+      "base_x": 600,
+      "base_z": 781,
+      "model_offset": [
+        599,
+        0,
+        780
+      ],
+      "apron_bounds": [
+        599,
+        780,
+        601,
+        782
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-07-N72",
+      "plot": "09-07",
+      "side": "N",
+      "base_x": 648,
+      "base_z": 781,
+      "model_offset": [
+        647,
+        0,
+        780
+      ],
+      "apron_bounds": [
+        647,
+        780,
+        649,
+        782
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-07-W24",
+      "plot": "09-07",
+      "side": "W",
+      "base_x": 589,
+      "base_z": 792,
+      "model_offset": [
+        588,
+        0,
+        791
+      ],
+      "apron_bounds": [
+        588,
+        791,
+        590,
+        793
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-07-W72",
+      "plot": "09-07",
+      "side": "W",
+      "base_x": 589,
+      "base_z": 840,
+      "model_offset": [
+        588,
+        0,
+        839
+      ],
+      "apron_bounds": [
+        588,
+        839,
+        590,
+        841
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-07-S24",
+      "plot": "09-07",
+      "side": "S",
+      "base_x": 600,
+      "base_z": 862,
+      "model_offset": [
+        599,
+        0,
+        861
+      ],
+      "apron_bounds": [
+        599,
+        861,
+        601,
+        863
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-07-S72",
+      "plot": "09-07",
+      "side": "S",
+      "base_x": 648,
+      "base_z": 862,
+      "model_offset": [
+        647,
+        0,
+        861
+      ],
+      "apron_bounds": [
+        647,
+        861,
+        649,
+        863
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-08-N24",
+      "plot": "09-08",
+      "side": "N",
+      "base_x": 696,
+      "base_z": 781,
+      "model_offset": [
+        695,
+        0,
+        780
+      ],
+      "apron_bounds": [
+        695,
+        780,
+        697,
+        782
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-08-N72",
+      "plot": "09-08",
+      "side": "N",
+      "base_x": 744,
+      "base_z": 781,
+      "model_offset": [
+        743,
+        0,
+        780
+      ],
+      "apron_bounds": [
+        743,
+        780,
+        745,
+        782
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-08-W24",
+      "plot": "09-08",
+      "side": "W",
+      "base_x": 685,
+      "base_z": 792,
+      "model_offset": [
+        684,
+        0,
+        791
+      ],
+      "apron_bounds": [
+        684,
+        791,
+        686,
+        793
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-08-W72",
+      "plot": "09-08",
+      "side": "W",
+      "base_x": 685,
+      "base_z": 840,
+      "model_offset": [
+        684,
+        0,
+        839
+      ],
+      "apron_bounds": [
+        684,
+        839,
+        686,
+        841
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-08-S24",
+      "plot": "09-08",
+      "side": "S",
+      "base_x": 696,
+      "base_z": 862,
+      "model_offset": [
+        695,
+        0,
+        861
+      ],
+      "apron_bounds": [
+        695,
+        861,
+        697,
+        863
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-08-S72",
+      "plot": "09-08",
+      "side": "S",
+      "base_x": 744,
+      "base_z": 862,
+      "model_offset": [
+        743,
+        0,
+        861
+      ],
+      "apron_bounds": [
+        743,
+        861,
+        745,
+        863
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-09-N24",
+      "plot": "09-09",
+      "side": "N",
+      "base_x": 792,
+      "base_z": 781,
+      "model_offset": [
+        791,
+        0,
+        780
+      ],
+      "apron_bounds": [
+        791,
+        780,
+        793,
+        782
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-09-N72",
+      "plot": "09-09",
+      "side": "N",
+      "base_x": 840,
+      "base_z": 781,
+      "model_offset": [
+        839,
+        0,
+        780
+      ],
+      "apron_bounds": [
+        839,
+        780,
+        841,
+        782
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-09-W24",
+      "plot": "09-09",
+      "side": "W",
+      "base_x": 781,
+      "base_z": 792,
+      "model_offset": [
+        780,
+        0,
+        791
+      ],
+      "apron_bounds": [
+        780,
+        791,
+        782,
+        793
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-09-W72",
+      "plot": "09-09",
+      "side": "W",
+      "base_x": 781,
+      "base_z": 840,
+      "model_offset": [
+        780,
+        0,
+        839
+      ],
+      "apron_bounds": [
+        780,
+        839,
+        782,
+        841
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-09-E24",
+      "plot": "09-09",
+      "side": "E",
+      "base_x": 862,
+      "base_z": 792,
+      "model_offset": [
+        861,
+        0,
+        791
+      ],
+      "apron_bounds": [
+        861,
+        791,
+        863,
+        793
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-09-E72",
+      "plot": "09-09",
+      "side": "E",
+      "base_x": 862,
+      "base_z": 840,
+      "model_offset": [
+        861,
+        0,
+        839
+      ],
+      "apron_bounds": [
+        861,
+        839,
+        863,
+        841
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-09-S24",
+      "plot": "09-09",
+      "side": "S",
+      "base_x": 792,
+      "base_z": 862,
+      "model_offset": [
+        791,
+        0,
+        861
+      ],
+      "apron_bounds": [
+        791,
+        861,
+        793,
+        863
+      ],
+      "added_hosts": 30
+    },
+    {
+      "id": "L-09-09-S72",
+      "plot": "09-09",
+      "side": "S",
+      "base_x": 840,
+      "base_z": 862,
+      "model_offset": [
+        839,
+        0,
+        861
+      ],
+      "apron_bounds": [
+        839,
+        861,
+        841,
+        863
+      ],
+      "added_hosts": 30
+    }
+  ],
+  "excluded_lamp_candidates": [
+    {
+      "plot": "02-02",
+      "side": "W",
+      "offset": 24,
+      "reason": "existing civil/stair or required-clear volume; no lamp placed"
+    },
+    {
+      "plot": "02-05",
+      "side": "W",
+      "offset": 24,
+      "reason": "existing civil/stair or required-clear volume; no lamp placed"
+    },
+    {
+      "plot": "02-08",
+      "side": "W",
+      "offset": 24,
+      "reason": "existing civil/stair or required-clear volume; no lamp placed"
+    },
+    {
+      "plot": "05-02",
+      "side": "W",
+      "offset": 24,
+      "reason": "existing civil/stair or required-clear volume; no lamp placed"
+    },
+    {
+      "plot": "05-05",
+      "side": "W",
+      "offset": 24,
+      "reason": "existing civil/stair or required-clear volume; no lamp placed"
+    },
+    {
+      "plot": "05-08",
+      "side": "W",
+      "offset": 24,
+      "reason": "existing civil/stair or required-clear volume; no lamp placed"
+    },
+    {
+      "plot": "08-02",
+      "side": "W",
+      "offset": 24,
+      "reason": "existing civil/stair or required-clear volume; no lamp placed"
+    },
+    {
+      "plot": "08-05",
+      "side": "W",
+      "offset": 24,
+      "reason": "existing civil/stair or required-clear volume; no lamp placed"
+    },
+    {
+      "plot": "08-08",
+      "side": "W",
+      "offset": 24,
+      "reason": "existing civil/stair or required-clear volume; no lamp placed"
+    }
+  ],
+  "curb_insets": 1440,
+  "source_occupied_cells_preserved": true,
+  "surface_finish": "R=Agon13; W/P=Agon15. Structural F/G/C/B/K stay stonebrick. Source curb hosts replaced by exact two-part native R01 assemblies.",
+  "exclusions": [
+    "functional pipes/cables/machines",
+    "landscaping/building facades",
+    "terrain-specific extra supports",
+    "recipe-derived ingredient bill",
+    "game import or collision/light/spawn certification"
+  ],
+  "game_tested": false
+}

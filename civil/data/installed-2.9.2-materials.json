@@ -1,0 +1,133 @@
+{
+  "status": "pass",
+  "client_release": "2.9.2",
+  "observation": "Read only JAR members and configuration; no initialization, game window capture or world access.",
+  "palette_source": "generated/reference-refinement-v1/palette.json",
+  "roles": [
+    {
+      "role": "F",
+      "registry_name": "minecraft:stonebrick",
+      "placed_metadata": 0,
+      "inventory_metadata": 0,
+      "source_artifact": "minecraft-1.7.10-client.jar",
+      "artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/stonebrick.png",
+      "member_sha256": "4b35ff37f7b028265ec20bb4540e655cc5b355f399fcec202bd7b277742c9536",
+      "matches_preserved_palette_source": true,
+      "emitted_light_source_value": 0
+    },
+    {
+      "role": "s",
+      "registry_name": "minecraft:stone_slab",
+      "placed_metadata": 0,
+      "inventory_metadata": 0,
+      "source_artifact": "minecraft-1.7.10-client.jar",
+      "artifact_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/stone_slab_top.png",
+      "member_sha256": "65e8a0b1b2df9baa0ed6b34381d7298e60b4d6ff6fdf39bb612edf1ec565c597",
+      "matches_preserved_palette_source": true,
+      "emitted_light_source_value": 0
+    },
+    {
+      "role": "K",
+      "registry_name": "Ztones:tile.agonBlock",
+      "placed_metadata": 13,
+      "inventory_metadata": 13,
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/agon/agon_ (13).png",
+      "member_sha256": "0ea5815d8c9a0f14c8dc1669da535102fff15a4248830aa41ac1d675bb769431",
+      "matches_preserved_palette_source": true,
+      "emitted_light_source_value": 0
+    },
+    {
+      "role": "P",
+      "registry_name": "Ztones:tile.agonBlock",
+      "placed_metadata": 15,
+      "inventory_metadata": 15,
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/agon/agon_ (15).png",
+      "member_sha256": "aeecafe43dfbe0c495f366ca180b2d757bfeeda3448051534e00384faf874641",
+      "matches_preserved_palette_source": true,
+      "emitted_light_source_value": 0
+    },
+    {
+      "role": "R",
+      "registry_name": "Ztones:tile.agonBlock",
+      "placed_metadata": 13,
+      "inventory_metadata": 13,
+      "source_artifact": "Ztones-1.7.10-2.2.2.jar",
+      "artifact_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/agon/agon_ (13).png",
+      "member_sha256": "0ea5815d8c9a0f14c8dc1669da535102fff15a4248830aa41ac1d675bb769431",
+      "matches_preserved_palette_source": true,
+      "emitted_light_source_value": 0
+    },
+    {
+      "role": "N",
+      "registry_name": "ExtraUtilities:greenscreen",
+      "placed_metadata": 9,
+      "inventory_metadata": 9,
+      "source_artifact": "extrautilities-1.2.12.jar",
+      "artifact_sha256": "a1941ee4d4b965c4d2ddc6ec0e0b1eb3f3ff8c8b492a18a25b5fcf27c67ba58b",
+      "member": "assets/extrautils/textures/blocks/greenscreen.png",
+      "member_sha256": "b38d08009310843632aba1768eaab876a9fffd07b0c53bc2647a4c228233c5c2",
+      "matches_preserved_palette_source": true,
+      "emitted_light_source_value": 10
+    },
+    {
+      "role": "W",
+      "registry_name": "ExtraUtilities:greenscreen",
+      "placed_metadata": 0,
+      "inventory_metadata": 0,
+      "source_artifact": "extrautilities-1.2.12.jar",
+      "artifact_sha256": "a1941ee4d4b965c4d2ddc6ec0e0b1eb3f3ff8c8b492a18a25b5fcf27c67ba58b",
+      "member": "assets/extrautils/textures/blocks/greenscreen.png",
+      "member_sha256": "b38d08009310843632aba1768eaab876a9fffd07b0c53bc2647a4c228233c5c2",
+      "matches_preserved_palette_source": true,
+      "emitted_light_source_value": 15
+    }
+  ],
+  "native_support_artifacts": [
+    {
+      "artifact": "Ztones-1.7.10-2.2.2.jar",
+      "sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "byte_identical_to_original_static_evidence_instance": true
+    },
+    {
+      "artifact": "extrautilities-1.2.12.jar",
+      "sha256": "a1941ee4d4b965c4d2ddc6ec0e0b1eb3f3ff8c8b492a18a25b5fcf27c67ba58b",
+      "byte_identical_to_original_static_evidence_instance": true
+    },
+    {
+      "artifact": "ForgeMultipart-1.7.18.jar",
+      "sha256": "5e57550b5e81062fdf3100c0f404d010d06da1e603c60f159c4f4519f1b44c94",
+      "byte_identical_to_original_static_evidence_instance": true
+    },
+    {
+      "artifact": "ArchitectureCraft-1.12.19.jar",
+      "sha256": "ba4e3d5b19321f1acc3209acde320f4ec0b3a144bd56ec3503199384241e4aa9",
+      "byte_identical_to_original_static_evidence_instance": true
+    }
+  ],
+  "configuration_observations": [
+    {
+      "config": "microblocks.cfg",
+      "sha256": "71482deb31252bc6ff4f731f0349015352573a6bf5fe5ec1c758b0eebb618963",
+      "byte_identical_to_original": false,
+      "selected_Agon_metadata_registration": "\"Ztones:tile.agonBlock\":0-15",
+      "note": "Current pack adds other registrations; selected Agon0..15 entry is present. Full file is not claimed identical."
+    },
+    {
+      "config": "multipart.cfg",
+      "sha256": "7cbe89ea0dde73cb1355c1996696fc02530b33f3b9ded4161ef72ba0a82aa9b6",
+      "byte_identical_to_original": true
+    }
+  ],
+  "source_evidence": [
+    "verification/reference-refinement-v1/PALETTE_EVIDENCE.md",
+    "generated/reference-refinement-v1/evidence/MICROBLOCK_DETAIL_GUIDE.md"
+  ],
+  "note": "The earlier palette evidence table called R Korp14. The final refined palette JSON binds R to Agon13; this civil revision explicitly adopts Agon13. No recipe, live material registry, cutting, collision or spawn-light test is inferred."
+}

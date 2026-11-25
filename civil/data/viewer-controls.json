@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "checks": 934,
+  "workorders": 84,
+  "method": "Node VM with DOM/canvas stand-in; no browser or screen capture",
+  "tested": [
+    "all84 work-order loads",
+    "permanent/clear/cap sampling",
+    "native inspector",
+    "rotated and unassigned world coordinates",
+    "integer survey values",
+    "stage selection",
+    "local-only progress",
+    "next-order control"
+  ],
+  "not_claimed": [
+    "browser layout",
+    "native fullscreen rendering",
+    "game results"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "WO02",
+  "name": "V01 north service link",
+  "bounds": [
+    96,
+    0,
+    107,
+    143
+  ],
+  "purpose": "Connect M11 toward the north road, including the V01/H00 and V01/H01 junction pieces. Previously owned WO01 cells are excluded.",
+  "phase": "P1",
+  "sequence": 2,
+  "occupied_hosts": 6082,
+  "ordinary_blocks": 6071,
+  "native_hosts": 11,
+  "role_counts": {
+    "G": 1008,
+    "B": 1130,
+    "C": 1008,
+    "F": 1468,
+    "W": 449,
+    "R": 1008,
+    "c": 11
+  },
+  "stock": [
+    {
+      "registry_name": "Ztones:tile.agonBlock",
+      "inventory_metadata": 13,
+      "items": 1008,
+      "stacks_64": 15,
+      "remainder": 48
+    },
+    {
+      "registry_name": "Ztones:tile.agonBlock",
+      "inventory_metadata": 15,
+      "items": 449,
+      "stacks_64": 7,
+      "remainder": 1
+    },
+    {
+      "registry_name": "minecraft:stonebrick",
+      "inventory_metadata": 0,
+      "items": 4614,
+      "stacks_64": 72,
+      "remainder": 6
+    }
+  ],
+  "parts": [
+    {
+      "material_role": "N",
+      "registry_name": "ExtraUtilities:greenscreen",
+      "inventory_metadata": 9,
+      "kind": "mcr_edge",
+      "size_eighths_or_AC_shape": 1,
+      "pieces": 11
+    },
+    {
+      "material_role": "P",
+      "registry_name": "Ztones:tile.agonBlock",
+      "inventory_metadata": 15,
+      "kind": "mcr_face",
+      "size_eighths_or_AC_shape": 7,
+      "pieces": 11
+    }
+  ],
+  "required_clear_cells": 3910,
+  "temporary_caps_add": 120,
+  "temporary_caps_remove": 30,
+  "temporary_caps_remaining": 150,
+  "cap_handover_peak": 180,
+  "status": "planned; no construction recorded"
+}

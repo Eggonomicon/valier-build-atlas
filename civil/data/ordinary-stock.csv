@@ -1,0 +1,5 @@
+registry_name,inventory_metadata,items,stacks_64,remainder
+Ztones:tile.agonBlock,13,134111,2095,31
+Ztones:tile.agonBlock,15,89919,1404,63
+minecraft:stone_slab,0,486,7,38
+minecraft:stonebrick,0,677663,10588,31

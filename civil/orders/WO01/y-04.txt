@@ -1,0 +1,28 @@
+WO01 civil Y-4; city X98..115, Z118..143. NW: columns +X east; rows +Z south. Y0=S; world anchor/S unassigned.
+NEW permanent hosts only. Dot = no new placement, NEVER excavation. c/n require detail list. Required-clear and temporary caps are separate.
+CCCCCCCC..........
+CCCCCCCC..........
+CCCCCCCC...CCCCC..
+CCCCCCCC...CKKKC..
+CCCCCCCC...CKKKC..
+CCCCCCCC...CKKKC..
+CCCCCCCC...CKKKC..
+CCCCCCCC...CKKKC..
+CCCCCCCC...CKKKC..
+CCCCCCCC...CSSSC..
+CCCCCCCC...CsssC..
+CCCCCCCC...C...C..
+CCCCCCCC...C...C..
+CCCCCCCC...C...C..
+CCCCCCCC...C...C..
+CCCCCCCC...C...C..
+CCCCCCCC...C...C..
+CCCCCCCC...C...C..
+CCCCCCCC...C...C..
+CCCCCCCCCCCC...CC.
+CCCCCCCCCCCC...CC.
+CCCCCCCCCCCC...CC.
+CCCCCCCCCCCCCCCCC.
+CCCCCCCCCCCCCCCCC.
+CCCCCCCCCCCCCCCCC.
+CCCCCCCC..........

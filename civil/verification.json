@@ -1,0 +1,477 @@
+{
+  "status": "pass",
+  "revision": "civil-fieldguide-v2",
+  "source_hashes_unchanged": true,
+  "complete_host_reconstruction": true,
+  "complete_clear_reconstruction": true,
+  "orders": 84,
+  "grids": 1512,
+  "occupied_hosts": 907480,
+  "original_civil_hosts_preserved": 896950,
+  "native_hosts": 5301,
+  "native_piece_bounds_and_nonoverlap": "pass",
+  "cut_pieces": 6390,
+  "architecturecraft_shape56_hosts": 1404,
+  "sited_lamps": 351,
+  "lamp_stair_conflicts_excluded": 9,
+  "curb_insets": 1440,
+  "road_headroom_and_hall_reservations": "pass",
+  "each_native_host_owned_once": true,
+  "all_workorder_gallery_routes": "pass",
+  "cap_end_state_peak": 1250,
+  "cap_handover_peak": 1340,
+  "final_temporary_caps": 0,
+  "world_anchor_assigned": false,
+  "recipes_verified_in_game": false,
+  "game_import_or_collision_verified": false,
+  "actual_light_or_spawn_coverage_verified": false,
+  "functional_utilities_included": false,
+  "route_states": [
+    {
+      "order": "WO01",
+      "connected_main_gallery_cells": 158,
+      "temporary_caps": 60
+    },
+    {
+      "order": "WO02",
+      "connected_main_gallery_cells": 922,
+      "temporary_caps": 150
+    },
+    {
+      "order": "WO03",
+      "connected_main_gallery_cells": 1540,
+      "temporary_caps": 180
+    },
+    {
+      "order": "WO04",
+      "connected_main_gallery_cells": 2680,
+      "temporary_caps": 150
+    },
+    {
+      "order": "WO05",
+      "connected_main_gallery_cells": 4438,
+      "temporary_caps": 210
+    },
+    {
+      "order": "WO06",
+      "connected_main_gallery_cells": 6196,
+      "temporary_caps": 270
+    },
+    {
+      "order": "WO07",
+      "connected_main_gallery_cells": 7954,
+      "temporary_caps": 330
+    },
+    {
+      "order": "WO08",
+      "connected_main_gallery_cells": 9482,
+      "temporary_caps": 360
+    },
+    {
+      "order": "WO09",
+      "connected_main_gallery_cells": 10622,
+      "temporary_caps": 360
+    },
+    {
+      "order": "WO10",
+      "connected_main_gallery_cells": 11762,
+      "temporary_caps": 360
+    },
+    {
+      "order": "WO11",
+      "connected_main_gallery_cells": 12912,
+      "temporary_caps": 380
+    },
+    {
+      "order": "WO12",
+      "connected_main_gallery_cells": 14656,
+      "temporary_caps": 410
+    },
+    {
+      "order": "WO13",
+      "connected_main_gallery_cells": 15796,
+      "temporary_caps": 410
+    },
+    {
+      "order": "WO14",
+      "connected_main_gallery_cells": 16936,
+      "temporary_caps": 410
+    },
+    {
+      "order": "WO15",
+      "connected_main_gallery_cells": 18076,
+      "temporary_caps": 410
+    },
+    {
+      "order": "WO16",
+      "connected_main_gallery_cells": 19820,
+      "temporary_caps": 440
+    },
+    {
+      "order": "WO17",
+      "connected_main_gallery_cells": 20960,
+      "temporary_caps": 440
+    },
+    {
+      "order": "WO18",
+      "connected_main_gallery_cells": 22100,
+      "temporary_caps": 440
+    },
+    {
+      "order": "WO19",
+      "connected_main_gallery_cells": 23240,
+      "temporary_caps": 440
+    },
+    {
+      "order": "WO20",
+      "connected_main_gallery_cells": 25616,
+      "temporary_caps": 590
+    },
+    {
+      "order": "WO21",
+      "connected_main_gallery_cells": 27374,
+      "temporary_caps": 650
+    },
+    {
+      "order": "WO22",
+      "connected_main_gallery_cells": 28518,
+      "temporary_caps": 630
+    },
+    {
+      "order": "WO23",
+      "connected_main_gallery_cells": 29658,
+      "temporary_caps": 630
+    },
+    {
+      "order": "WO24",
+      "connected_main_gallery_cells": 30180,
+      "temporary_caps": 540
+    },
+    {
+      "order": "WO25",
+      "connected_main_gallery_cells": 31934,
+      "temporary_caps": 590
+    },
+    {
+      "order": "WO26",
+      "connected_main_gallery_cells": 33078,
+      "temporary_caps": 570
+    },
+    {
+      "order": "WO27",
+      "connected_main_gallery_cells": 34218,
+      "temporary_caps": 570
+    },
+    {
+      "order": "WO28",
+      "connected_main_gallery_cells": 34754,
+      "temporary_caps": 510
+    },
+    {
+      "order": "WO29",
+      "connected_main_gallery_cells": 36512,
+      "temporary_caps": 600
+    },
+    {
+      "order": "WO30",
+      "connected_main_gallery_cells": 38280,
+      "temporary_caps": 710
+    },
+    {
+      "order": "WO31",
+      "connected_main_gallery_cells": 40042,
+      "temporary_caps": 780
+    },
+    {
+      "order": "WO32",
+      "connected_main_gallery_cells": 41800,
+      "temporary_caps": 810
+    },
+    {
+      "order": "WO33",
+      "connected_main_gallery_cells": 43544,
+      "temporary_caps": 870
+    },
+    {
+      "order": "WO34",
+      "connected_main_gallery_cells": 45288,
+      "temporary_caps": 930
+    },
+    {
+      "order": "WO35",
+      "connected_main_gallery_cells": 47046,
+      "temporary_caps": 990
+    },
+    {
+      "order": "WO36",
+      "connected_main_gallery_cells": 48776,
+      "temporary_caps": 960
+    },
+    {
+      "order": "WO37",
+      "connected_main_gallery_cells": 50534,
+      "temporary_caps": 1020
+    },
+    {
+      "order": "WO38",
+      "connected_main_gallery_cells": 52292,
+      "temporary_caps": 1080
+    },
+    {
+      "order": "WO39",
+      "connected_main_gallery_cells": 54050,
+      "temporary_caps": 1140
+    },
+    {
+      "order": "WO40",
+      "connected_main_gallery_cells": 55808,
+      "temporary_caps": 1140
+    },
+    {
+      "order": "WO41",
+      "connected_main_gallery_cells": 57552,
+      "temporary_caps": 1170
+    },
+    {
+      "order": "WO42",
+      "connected_main_gallery_cells": 59296,
+      "temporary_caps": 1200
+    },
+    {
+      "order": "WO43",
+      "connected_main_gallery_cells": 60334,
+      "temporary_caps": 1050
+    },
+    {
+      "order": "WO44",
+      "connected_main_gallery_cells": 62078,
+      "temporary_caps": 1080
+    },
+    {
+      "order": "WO45",
+      "connected_main_gallery_cells": 63822,
+      "temporary_caps": 1110
+    },
+    {
+      "order": "WO46",
+      "connected_main_gallery_cells": 65566,
+      "temporary_caps": 1140
+    },
+    {
+      "order": "WO47",
+      "connected_main_gallery_cells": 67310,
+      "temporary_caps": 1170
+    },
+    {
+      "order": "WO48",
+      "connected_main_gallery_cells": 69064,
+      "temporary_caps": 1220
+    },
+    {
+      "order": "WO49",
+      "connected_main_gallery_cells": 70808,
+      "temporary_caps": 1250
+    },
+    {
+      "order": "WO50",
+      "connected_main_gallery_cells": 72538,
+      "temporary_caps": 1190
+    },
+    {
+      "order": "WO51",
+      "connected_main_gallery_cells": 74282,
+      "temporary_caps": 1220
+    },
+    {
+      "order": "WO52",
+      "connected_main_gallery_cells": 76026,
+      "temporary_caps": 1250
+    },
+    {
+      "order": "WO53",
+      "connected_main_gallery_cells": 77078,
+      "temporary_caps": 1130
+    },
+    {
+      "order": "WO54",
+      "connected_main_gallery_cells": 78822,
+      "temporary_caps": 1160
+    },
+    {
+      "order": "WO55",
+      "connected_main_gallery_cells": 80566,
+      "temporary_caps": 1190
+    },
+    {
+      "order": "WO56",
+      "connected_main_gallery_cells": 82222,
+      "temporary_caps": 1100
+    },
+    {
+      "order": "WO57",
+      "connected_main_gallery_cells": 83348,
+      "temporary_caps": 1010
+    },
+    {
+      "order": "WO58",
+      "connected_main_gallery_cells": 84488,
+      "temporary_caps": 1010
+    },
+    {
+      "order": "WO59",
+      "connected_main_gallery_cells": 85638,
+      "temporary_caps": 1030
+    },
+    {
+      "order": "WO60",
+      "connected_main_gallery_cells": 86178,
+      "temporary_caps": 950
+    },
+    {
+      "order": "WO61",
+      "connected_main_gallery_cells": 87318,
+      "temporary_caps": 950
+    },
+    {
+      "order": "WO62",
+      "connected_main_gallery_cells": 88458,
+      "temporary_caps": 950
+    },
+    {
+      "order": "WO63",
+      "connected_main_gallery_cells": 88994,
+      "temporary_caps": 890
+    },
+    {
+      "order": "WO64",
+      "connected_main_gallery_cells": 89516,
+      "temporary_caps": 800
+    },
+    {
+      "order": "WO65",
+      "connected_main_gallery_cells": 90038,
+      "temporary_caps": 710
+    },
+    {
+      "order": "WO66",
+      "connected_main_gallery_cells": 90044,
+      "temporary_caps": 680
+    },
+    {
+      "order": "WO67",
+      "connected_main_gallery_cells": 91184,
+      "temporary_caps": 680
+    },
+    {
+      "order": "WO68",
+      "connected_main_gallery_cells": 92324,
+      "temporary_caps": 680
+    },
+    {
+      "order": "WO69",
+      "connected_main_gallery_cells": 92860,
+      "temporary_caps": 620
+    },
+    {
+      "order": "WO70",
+      "connected_main_gallery_cells": 94000,
+      "temporary_caps": 620
+    },
+    {
+      "order": "WO71",
+      "connected_main_gallery_cells": 95140,
+      "temporary_caps": 620
+    },
+    {
+      "order": "WO72",
+      "connected_main_gallery_cells": 95676,
+      "temporary_caps": 560
+    },
+    {
+      "order": "WO73",
+      "connected_main_gallery_cells": 96816,
+      "temporary_caps": 560
+    },
+    {
+      "order": "WO74",
+      "connected_main_gallery_cells": 97956,
+      "temporary_caps": 560
+    },
+    {
+      "order": "WO75",
+      "connected_main_gallery_cells": 98492,
+      "temporary_caps": 500
+    },
+    {
+      "order": "WO76",
+      "connected_main_gallery_cells": 99632,
+      "temporary_caps": 500
+    },
+    {
+      "order": "WO77",
+      "connected_main_gallery_cells": 100772,
+      "temporary_caps": 500
+    },
+    {
+      "order": "WO78",
+      "connected_main_gallery_cells": 101308,
+      "temporary_caps": 440
+    },
+    {
+      "order": "WO79",
+      "connected_main_gallery_cells": 101834,
+      "temporary_caps": 330
+    },
+    {
+      "order": "WO80",
+      "connected_main_gallery_cells": 102356,
+      "temporary_caps": 240
+    },
+    {
+      "order": "WO81",
+      "connected_main_gallery_cells": 102362,
+      "temporary_caps": 210
+    },
+    {
+      "order": "WO82",
+      "connected_main_gallery_cells": 102884,
+      "temporary_caps": 120
+    },
+    {
+      "order": "WO83",
+      "connected_main_gallery_cells": 103416,
+      "temporary_caps": 50
+    },
+    {
+      "order": "WO84",
+      "connected_main_gallery_cells": 103426,
+      "temporary_caps": 0
+    }
+  ],
+  "viewer_controls": {
+    "status": "pass",
+    "checks": 934,
+    "workorders": 84,
+    "method": "Node VM with DOM/canvas stand-in; no browser or screen capture",
+    "tested": [
+      "all84 work-order loads",
+      "permanent/clear/cap sampling",
+      "native inspector",
+      "rotated and unassigned world coordinates",
+      "integer survey values",
+      "stage selection",
+      "local-only progress",
+      "next-order control"
+    ],
+    "not_claimed": [
+      "browser layout",
+      "native fullscreen rendering",
+      "game results"
+    ]
+  },
+  "pdf_pages": 104,
+  "pdf_visual_review": "All104 page thumbnails and selected full-size narrative/work-card/stair pages inspected; no clipping/overlap found.",
+  "installed_material_evidence": "data/installed-2.9.2-materials.json",
+  "cap_handover_stock_note": "1340 is the peak while adding new caps before removing old; maximum end-state stock1250. Working lights/scaffolding/field supports separate.",
+  "browser_layout_verified": false
+}

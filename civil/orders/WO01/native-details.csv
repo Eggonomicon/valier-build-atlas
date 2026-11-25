@@ -1,0 +1,2 @@
+city_x,civil_y,city_z,kind,assembly,native_fields_json
+106,-1,132,multipart,curb,"{""x"":106,""y"":-1,""z"":132,""kind"":""multipart"",""parts"":[{""role"":""P"",""id"":""mcr_face"",""shape"":117},{""role"":""N"",""id"":""mcr_edge"",""shape"":22}],""assembly"":""curb"",""id"":""C-V01-132-10""}"

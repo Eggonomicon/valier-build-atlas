@@ -1,0 +1,120 @@
+{
+  "revision": "civil-fieldguide-v2",
+  "orders": 84,
+  "layers_per_order": 18,
+  "layer_grids": 1512,
+  "occupied_hosts": 907480,
+  "ordinary_blocks": 902179,
+  "native_hosts": 5301,
+  "multipart_hosts": 3897,
+  "architecturecraft_hosts": 1404,
+  "cut_pieces": 6390,
+  "original_civil_hosts": 896950,
+  "new_apron_and_lamp_hosts": 10530,
+  "sited_lamps": 351,
+  "excluded_lamps": 9,
+  "curb_insets": 1440,
+  "required_clear_cells": 535310,
+  "peak_end_state_caps": 1250,
+  "final_temporary_caps": 0,
+  "game_tested": false,
+  "world_anchor_assigned": false,
+  "crafting_ingredients_verified": false,
+  "lighting_coverage_verified": false,
+  "ordinary_stock": [
+    {
+      "registry_name": "Ztones:tile.agonBlock",
+      "inventory_metadata": 13,
+      "items": 134111,
+      "stacks_64": 2095,
+      "remainder": 31
+    },
+    {
+      "registry_name": "Ztones:tile.agonBlock",
+      "inventory_metadata": 15,
+      "items": 89919,
+      "stacks_64": 1404,
+      "remainder": 63
+    },
+    {
+      "registry_name": "minecraft:stone_slab",
+      "inventory_metadata": 0,
+      "items": 486,
+      "stacks_64": 7,
+      "remainder": 38
+    },
+    {
+      "registry_name": "minecraft:stonebrick",
+      "inventory_metadata": 0,
+      "items": 677663,
+      "stacks_64": 10588,
+      "remainder": 31
+    }
+  ],
+  "native_pieces": [
+    {
+      "material_role": "K",
+      "registry_name": "Ztones:tile.agonBlock",
+      "inventory_metadata": 13,
+      "kind": "architecture",
+      "size_eighths_or_AC_shape": 56,
+      "pieces": 1404
+    },
+    {
+      "material_role": "K",
+      "registry_name": "Ztones:tile.agonBlock",
+      "inventory_metadata": 13,
+      "kind": "mcr_face",
+      "size_eighths_or_AC_shape": 3,
+      "pieces": 351
+    },
+    {
+      "material_role": "K",
+      "registry_name": "Ztones:tile.agonBlock",
+      "inventory_metadata": 13,
+      "kind": "mcr_face",
+      "size_eighths_or_AC_shape": 7,
+      "pieces": 351
+    },
+    {
+      "material_role": "K",
+      "registry_name": "Ztones:tile.agonBlock",
+      "inventory_metadata": 13,
+      "kind": "mcr_post",
+      "size_eighths_or_AC_shape": 4,
+      "pieces": 1755
+    },
+    {
+      "material_role": "N",
+      "registry_name": "ExtraUtilities:greenscreen",
+      "inventory_metadata": 9,
+      "kind": "mcr_edge",
+      "size_eighths_or_AC_shape": 1,
+      "pieces": 1440
+    },
+    {
+      "material_role": "N",
+      "registry_name": "ExtraUtilities:greenscreen",
+      "inventory_metadata": 9,
+      "kind": "mcr_face",
+      "size_eighths_or_AC_shape": 1,
+      "pieces": 351
+    },
+    {
+      "material_role": "P",
+      "registry_name": "Ztones:tile.agonBlock",
+      "inventory_metadata": 15,
+      "kind": "mcr_face",
+      "size_eighths_or_AC_shape": 7,
+      "pieces": 1440
+    },
+    {
+      "material_role": "W",
+      "registry_name": "ExtraUtilities:greenscreen",
+      "inventory_metadata": 0,
+      "kind": "mcr_edge",
+      "size_eighths_or_AC_shape": 1,
+      "pieces": 702
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+material_role,registry_name,inventory_metadata,kind,size_eighths_or_AC_shape,pieces
+N,ExtraUtilities:greenscreen,9,mcr_edge,1,1
+P,Ztones:tile.agonBlock,15,mcr_face,7,1

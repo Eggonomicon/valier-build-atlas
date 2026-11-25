@@ -1,0 +1,72 @@
+{
+  "id": "WO03",
+  "name": "H00 west feeder",
+  "bounds": [
+    0,
+    0,
+    95,
+    11
+  ],
+  "purpose": "Extend the north road and gallery west to the V00 corner, while keeping branch entrances and continuation faces clear.",
+  "phase": "P1",
+  "sequence": 3,
+  "occupied_hosts": 4896,
+  "ordinary_blocks": 4888,
+  "native_hosts": 8,
+  "role_counts": {
+    "G": 816,
+    "B": 960,
+    "C": 816,
+    "F": 1152,
+    "W": 344,
+    "R": 800,
+    "c": 8
+  },
+  "stock": [
+    {
+      "registry_name": "Ztones:tile.agonBlock",
+      "inventory_metadata": 13,
+      "items": 800,
+      "stacks_64": 12,
+      "remainder": 32
+    },
+    {
+      "registry_name": "Ztones:tile.agonBlock",
+      "inventory_metadata": 15,
+      "items": 344,
+      "stacks_64": 5,
+      "remainder": 24
+    },
+    {
+      "registry_name": "minecraft:stonebrick",
+      "inventory_metadata": 0,
+      "items": 3744,
+      "stacks_64": 58,
+      "remainder": 32
+    }
+  ],
+  "parts": [
+    {
+      "material_role": "N",
+      "registry_name": "ExtraUtilities:greenscreen",
+      "inventory_metadata": 9,
+      "kind": "mcr_edge",
+      "size_eighths_or_AC_shape": 1,
+      "pieces": 8
+    },
+    {
+      "material_role": "P",
+      "registry_name": "Ztones:tile.agonBlock",
+      "inventory_metadata": 15,
+      "kind": "mcr_face",
+      "size_eighths_or_AC_shape": 7,
+      "pieces": 8
+    }
+  ],
+  "required_clear_cells": 3120,
+  "temporary_caps_add": 60,
+  "temporary_caps_remove": 30,
+  "temporary_caps_remaining": 180,
+  "cap_handover_peak": 210,
+  "status": "planned; no construction recorded"
+}

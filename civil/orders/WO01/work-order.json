@@ -1,0 +1,83 @@
+{
+  "id": "WO01",
+  "name": "M11 maintenance stair and gallery connection",
+  "bounds": [
+    98,
+    118,
+    115,
+    143
+  ],
+  "purpose": "Establish the first access module, its landing and the west-gallery connection. Follow exact slab/support layers; the open well is not a trapdoor.",
+  "phase": "P1",
+  "sequence": 1,
+  "occupied_hosts": 2018,
+  "ordinary_blocks": 2017,
+  "native_hosts": 1,
+  "role_counts": {
+    "G": 347,
+    "B": 500,
+    "K": 259,
+    "S": 27,
+    "s": 27,
+    "C": 290,
+    "F": 284,
+    "R": 208,
+    "W": 51,
+    "P": 24,
+    "c": 1
+  },
+  "stock": [
+    {
+      "registry_name": "Ztones:tile.agonBlock",
+      "inventory_metadata": 13,
+      "items": 208,
+      "stacks_64": 3,
+      "remainder": 16
+    },
+    {
+      "registry_name": "Ztones:tile.agonBlock",
+      "inventory_metadata": 15,
+      "items": 75,
+      "stacks_64": 1,
+      "remainder": 11
+    },
+    {
+      "registry_name": "minecraft:stone_slab",
+      "inventory_metadata": 0,
+      "items": 54,
+      "stacks_64": 0,
+      "remainder": 54
+    },
+    {
+      "registry_name": "minecraft:stonebrick",
+      "inventory_metadata": 0,
+      "items": 1680,
+      "stacks_64": 26,
+      "remainder": 16
+    }
+  ],
+  "parts": [
+    {
+      "material_role": "N",
+      "registry_name": "ExtraUtilities:greenscreen",
+      "inventory_metadata": 9,
+      "kind": "mcr_edge",
+      "size_eighths_or_AC_shape": 1,
+      "pieces": 1
+    },
+    {
+      "material_role": "P",
+      "registry_name": "Ztones:tile.agonBlock",
+      "inventory_metadata": 15,
+      "kind": "mcr_face",
+      "size_eighths_or_AC_shape": 7,
+      "pieces": 1
+    }
+  ],
+  "required_clear_cells": 1250,
+  "temporary_caps_add": 60,
+  "temporary_caps_remove": 0,
+  "temporary_caps_remaining": 60,
+  "cap_handover_peak": 60,
+  "status": "planned; no construction recorded"
+}
