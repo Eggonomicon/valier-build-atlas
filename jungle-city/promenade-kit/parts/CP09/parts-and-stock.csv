@@ -1,0 +1,8 @@
+kind,role,block_registry,base_metadata,shape_id_or_size_eighths,placed_items_or_parts,quantity_type
+architecture,L,Ztones:tile.agonBlock,0,56,16,sawbench shape item
+cube,B,Ztones:tile.korpBlock,14,14,48,placed item
+cube,C,minecraft:stained_hardened_clay,0,0,56,placed item
+cube,F,minecraft:stonebrick,0,0,176,placed item
+cube,H,minecraft:grass,0,0,21,placed item
+cube,f,minecraft:red_flower,2,2,5,placed item
+cube,v,minecraft:leaves,7,7,6,placed item

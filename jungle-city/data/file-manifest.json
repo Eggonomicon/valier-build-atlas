@@ -8,16 +8,16 @@
     "sha256": "e7f72d11191a54130b70f10612f23bb3d1dcad00bb6a21a39ff6ca131059e93b"
   },
   "guide.js": {
-    "bytes": 24349,
-    "sha256": "45eb25a712da6876622e95d7e6558e13f30e8a7928dc2b52d1cf40f1aa3b8740"
+    "bytes": 24452,
+    "sha256": "b0b63ab1285e41d3e80463e4f86a9eeb834372910226262687650217369056c3"
   },
   "image-viewer.css": {
     "bytes": 2050,
     "sha256": "4b46d3118be54149f2f87d91f517e98c93b6ecf422f86b06816ab320ff4151ad"
   },
   "index.html": {
-    "bytes": 18892,
-    "sha256": "b2b1778db002d2bcba22cf14477a8f5fd6e7de18ef309e9d69602a9c5d38a9a7"
+    "bytes": 19088,
+    "sha256": "ee482bd4a6ac309b442a7c991e486dfa3dbce6e2c0380ec423319ba3383367de"
   },
   "palette.json": {
     "bytes": 69037,
@@ -8496,8 +8496,8 @@
     "sha256": "78ac27e746ffa3bc78a6ce7655f459a01218e66a76eb1272c33471c4c23b040f"
   },
   "confluence/index.html": {
-    "bytes": 9408,
-    "sha256": "124eaf273602c3ebbbfee3848662065113fe7294b80b760e71fae75adccdfc29"
+    "bytes": 9650,
+    "sha256": "3e7f6cbe72e99edf9f86436527b989daaf9e89d7a22993bf0afc421b226ec259"
   },
   "confluence/inspector-models.js": {
     "bytes": 608,
@@ -8594,5 +8594,481 @@
   "confluence/WC01.json.gz": {
     "bytes": 69608,
     "sha256": "f5fa71f2c856a3958137829872813991959b215c04cabb8c049632761bb28a65"
+  },
+  "promenade-kit/assembly.json": {
+    "bytes": 5072,
+    "sha256": "fbaa9631f23953a3b98814df94718675aed5af09cc3a60a0ec3c39b4cd44402b"
+  },
+  "promenade-kit/catalog.js": {
+    "bytes": 2808,
+    "sha256": "69e099b51907a45a0d739a79855169b817406f9b7caae34cd8d42f74efd08527"
+  },
+  "promenade-kit/checks.json": {
+    "bytes": 4662,
+    "sha256": "05fdd3b8a2f1a48ad0d9d8ddbba35b3ab9f36cdd2cb2037effa705326cc9c044"
+  },
+  "promenade-kit/index.html": {
+    "bytes": 17518,
+    "sha256": "f407b0610924b4bfb15513cf3971154e85bf5ef1a729d2170ffce20152bd2d8b"
+  },
+  "promenade-kit/inspector.js": {
+    "bytes": 3906,
+    "sha256": "b0f40940e23a0e23087b2ffa262da67a6f344b31d9e438d5ee2b66508a8bafbb"
+  },
+  "promenade-kit/kit.css": {
+    "bytes": 1381,
+    "sha256": "ba4bfef0794566e7a1a7e910310cdf6bdc17900966838d6a498bbfdc76b882aa"
+  },
+  "promenade-kit/kit.js": {
+    "bytes": 1429,
+    "sha256": "9b43c97ae6696782456554a9569dfd6e00422b6729760bef04ec6c1c3aeb7ef8"
+  },
+  "promenade-kit/render-checks.json": {
+    "bytes": 5588,
+    "sha256": "b4124fda24af3889fea100853ea6e54c3fc8c39976dec7161695c32d68fc7909"
+  },
+  "promenade-kit/Valier_Cliff_Promenade_Modular_Kit.zip": {
+    "bytes": 4388056,
+    "sha256": "a9fa742d3056a6e4c32ee1c053bb2d33d25416961db19fd5f24e4f0bd7b010bc"
+  },
+  "promenade-kit/models/CP01.js": {
+    "bytes": 3215,
+    "sha256": "81805fc2963c0b7b38371c85ea40d9900f652a6033b79b34b9057e7668547b00"
+  },
+  "promenade-kit/models/CP01.json.gz": {
+    "bytes": 2359,
+    "sha256": "e32d2bb1da3297f97fabf9d8c9cf2b104abadc4e0e3cecab1491b76db5c5d2fa"
+  },
+  "promenade-kit/models/CP02.js": {
+    "bytes": 643,
+    "sha256": "33bc096ba1ee4aeb34121d152539fa3f5e4c8fc85852fc617f7bd27e5a00ca2b"
+  },
+  "promenade-kit/models/CP02.json.gz": {
+    "bytes": 430,
+    "sha256": "3408a6878166f7ef82fc8db5aa5e2f51a37ea8012ab84d284f50bcc2efe9b550"
+  },
+  "promenade-kit/models/CP03.js": {
+    "bytes": 2811,
+    "sha256": "b37c92c42863cf8aa9d9523e76d9ddcd75f5399b0c0e99bc7e3a113d3ba13b22"
+  },
+  "promenade-kit/models/CP03.json.gz": {
+    "bytes": 2058,
+    "sha256": "47875ddca0aa2209dbfcc9b666f14dfb7165defc1ad840ae7a8c95279b2fc0cd"
+  },
+  "promenade-kit/models/CP04.js": {
+    "bytes": 1483,
+    "sha256": "d76ed3cf43e72c3533c4c492ecbd7a16ffd794d7344aeae662c3f6b27384c98a"
+  },
+  "promenade-kit/models/CP04.json.gz": {
+    "bytes": 1060,
+    "sha256": "594bc57036cd5fbcc90980aa15856e342532c054526b6f8110e989ddcbcf8a47"
+  },
+  "promenade-kit/models/CP05.js": {
+    "bytes": 795,
+    "sha256": "45975100ac4924d85a4b088d42d222320a287fc7529789141d730b7deac6b4ae"
+  },
+  "promenade-kit/models/CP05.json.gz": {
+    "bytes": 546,
+    "sha256": "86d9ed8787d0c65b1d94f0ca3ab2d9a2451166b4a5d11e5dd811c87b273b725a"
+  },
+  "promenade-kit/models/CP06.js": {
+    "bytes": 979,
+    "sha256": "f9840b216163feb624f265c18330ad81c0af1ffc7e441fa152a7a670604453da"
+  },
+  "promenade-kit/models/CP06.json.gz": {
+    "bytes": 682,
+    "sha256": "84491412991d83a743658963e86cb5c16785ff33d06f23fa156b12e57f6ee43b"
+  },
+  "promenade-kit/models/CP07.js": {
+    "bytes": 1031,
+    "sha256": "7affb48a4c2b31afe4c6f764572c969ea0012c9c356a49fefee900aad893e7d7"
+  },
+  "promenade-kit/models/CP07.json.gz": {
+    "bytes": 722,
+    "sha256": "a77eaf2723db0b4b0d8a00892b92ef17b7d30bd93bcd9e4810c8193adf42a0c5"
+  },
+  "promenade-kit/models/CP08.js": {
+    "bytes": 1839,
+    "sha256": "a6adba866b8b4f569d0e5b0155d148f14f18f9d1d8d917ee2c82bb3839a7e737"
+  },
+  "promenade-kit/models/CP08.json.gz": {
+    "bytes": 1329,
+    "sha256": "4863034e3b1d2119e5f2e9e4e53c2ee01b0c6e6375db3de2c20924d968a53ab8"
+  },
+  "promenade-kit/models/CP09.js": {
+    "bytes": 1211,
+    "sha256": "2cd501fa28563349bc9e724f0e6e369221cf076fdf3c3a00a34cd8847a2ff897"
+  },
+  "promenade-kit/models/CP09.json.gz": {
+    "bytes": 858,
+    "sha256": "7d2ce3c2b6031e481ec8b8e6d028348f9233650897cabde86f1c4dec6c263063"
+  },
+  "promenade-kit/models/CP10.js": {
+    "bytes": 1307,
+    "sha256": "08b42f1be38fc3903c6e0b791e846ab56f19d037a3e0ef95fa489f46e626bdf9"
+  },
+  "promenade-kit/models/CP10.json.gz": {
+    "bytes": 928,
+    "sha256": "1f6723d4cdc97e11e4e5102b50afe9dbb6072da14f2c02ffe42b1d923eec4b7a"
+  },
+  "promenade-kit/models/CP11.js": {
+    "bytes": 1263,
+    "sha256": "dae490cf1f16616495c470b78cd84024c1876c87acca5fa09bcabf106a6abd99"
+  },
+  "promenade-kit/models/CP11.json.gz": {
+    "bytes": 895,
+    "sha256": "53a3b6e2078affbe777a876be9206cd0758fe19141fe0cc78a4069a15b271b9e"
+  },
+  "promenade-kit/models/CP12.js": {
+    "bytes": 1451,
+    "sha256": "7bdc20dbfae375f2f1e6c604165755ac6c2f68b225e39ccafbc72a76d17530ad"
+  },
+  "promenade-kit/models/CP12.json.gz": {
+    "bytes": 1038,
+    "sha256": "3b07a99ca8076652936115bc88c80ad705f0f1659c3b502498f740f26e10c208"
+  },
+  "promenade-kit/renders/CP00.webp": {
+    "bytes": 187718,
+    "sha256": "2ffe0f2fe360274d98c398077fc5e2c92ab58ee915ecb5d3b9882a41fab75ef7"
+  },
+  "promenade-kit/renders/CP01.webp": {
+    "bytes": 52338,
+    "sha256": "6ff49bdbd5ad2ab51b81de7bb40b79ff550d785a3a670bc2d1018560b28dda67"
+  },
+  "promenade-kit/renders/CP02.webp": {
+    "bytes": 309734,
+    "sha256": "2052dfa96201bb55a8decf73f716f7ba0f885a5d0088f3cf182f0c218e169634"
+  },
+  "promenade-kit/renders/CP03.webp": {
+    "bytes": 373874,
+    "sha256": "1cf6a69c4ac89c823cd6db8f535babb0fe25f2decb76d78a34133a4808b9fc2b"
+  },
+  "promenade-kit/renders/CP04.webp": {
+    "bytes": 374272,
+    "sha256": "f83306a59a1ca1c4746ad9a73894b75684028edb07659f1d20e9ab25625975c6"
+  },
+  "promenade-kit/renders/CP05.webp": {
+    "bytes": 335006,
+    "sha256": "9d4b44cd513f318988a0086ff75d3e1349af88278eaa27c532f4858e524a6765"
+  },
+  "promenade-kit/renders/CP06.webp": {
+    "bytes": 325462,
+    "sha256": "9517ebd05bbc0a13c5ceb126aaa4060a5096dc4f451227c5e616bf10f48f7af9"
+  },
+  "promenade-kit/renders/CP07.webp": {
+    "bytes": 336708,
+    "sha256": "19c3c96868868cb35c08ca443cdc18b4cc31c7dd18f98cf4bed8d1513402334a"
+  },
+  "promenade-kit/renders/CP08.webp": {
+    "bytes": 443932,
+    "sha256": "8cf8f96414ac2c96ac7c68f4e02e5c91563aef89de754faad23395969362329f"
+  },
+  "promenade-kit/renders/CP09.webp": {
+    "bytes": 81410,
+    "sha256": "a2539347b7e926f824a9bfb0e635db3ebeb1e39808524bbe5367d302de87fde7"
+  },
+  "promenade-kit/renders/CP10.webp": {
+    "bytes": 322040,
+    "sha256": "26540a1dfff8aa242e3eeb8741cf68c3266140db4a72b32f472a25656545b791"
+  },
+  "promenade-kit/renders/CP11.webp": {
+    "bytes": 338864,
+    "sha256": "a8c56567e2bdaaca8035508e6797f3765cabb68a8cd549088ac97e3c07e0f540"
+  },
+  "promenade-kit/renders/CP12.webp": {
+    "bytes": 356956,
+    "sha256": "9b709d214498f3c76c1e8bbdf6a60315d1085a11bd5cbdad8b79d6b1b3f83c8f"
+  },
+  "promenade-kit/parts/CP01/BUILD.md": {
+    "bytes": 1263,
+    "sha256": "7722c58c6dd42a1cd1adcaaf9460583d973e0c68cc190c6a8e0c50c31f142d9a"
+  },
+  "promenade-kit/parts/CP01/coordinates.csv.gz": {
+    "bytes": 4869,
+    "sha256": "4b2c695587c000c45cd75463b45e303dddddb413cdd5789a03bd78c34b4a47c0"
+  },
+  "promenade-kit/parts/CP01/CP01-Architecture_ONLY.schematic": {
+    "bytes": 1490,
+    "sha256": "bc1e2d55198d4ec308b5d45bb0aa0eabf3eb5dced2dd891d9acb2037af80286c"
+  },
+  "promenade-kit/parts/CP01/layer-blueprints.zip": {
+    "bytes": 66898,
+    "sha256": "266e4627418c5313e6f8fd0e8e3792d1c59adab015a45b330a80488989530c40"
+  },
+  "promenade-kit/parts/CP01/parts-and-stock.csv": {
+    "bytes": 1193,
+    "sha256": "ced62eabff43e774df8c506dce66e2b5be7999003a1f7d2d7fae96d82a2318f8"
+  },
+  "promenade-kit/parts/CP01/placement.json": {
+    "bytes": 954,
+    "sha256": "57cbd7259b9340415a06522d973495b026bc73d486632c83581d3dd1f9d0b80d"
+  },
+  "promenade-kit/parts/CP02/BUILD.md": {
+    "bytes": 1207,
+    "sha256": "ff7ecb41764a809aca56a22c6a486bf87fd720ef44adc39be0fe472784b1dde6"
+  },
+  "promenade-kit/parts/CP02/coordinates.csv.gz": {
+    "bytes": 468,
+    "sha256": "0180e2bd46a41584d31b63af163d0f4e9ef940b4da608b6e564f2d1b81319421"
+  },
+  "promenade-kit/parts/CP02/CP02-Architecture_ONLY.schematic": {
+    "bytes": 464,
+    "sha256": "21dbfa2bbdf92f2cbacf5e541f5ac8a2e1b3609690302fd2c497eb1b8e3a28f0"
+  },
+  "promenade-kit/parts/CP02/layer-blueprints.zip": {
+    "bytes": 13987,
+    "sha256": "47dfb01ae1e9ff793f12d6373c0510b5440d7cb67f3a3452f184d4c8a1b24b94"
+  },
+  "promenade-kit/parts/CP02/parts-and-stock.csv": {
+    "bytes": 599,
+    "sha256": "bb0ceb71f9d89d694aa005bfc379fd338f58e35591fb6de799445d60b953468d"
+  },
+  "promenade-kit/parts/CP02/placement.json": {
+    "bytes": 802,
+    "sha256": "a484d3485029a44991dd197ecc44f4ca6f92337bac6502007962f7af1e296f65"
+  },
+  "promenade-kit/parts/CP03/BUILD.md": {
+    "bytes": 1254,
+    "sha256": "e4931dc9114f90676cc8806df62677c0823d06b8af59c7ca514b88966ee44fe8"
+  },
+  "promenade-kit/parts/CP03/coordinates.csv.gz": {
+    "bytes": 6227,
+    "sha256": "6f91e30ac37fb19d253b2a8844f7e311871b726723d7f5d1d4ffa9eb10d569c6"
+  },
+  "promenade-kit/parts/CP03/CP03-Architecture_ONLY.schematic": {
+    "bytes": 1089,
+    "sha256": "4ecb7f00508e346ecea36f3ee5fa90446304f5ac719bfb9fdfc12cad13f7e24a"
+  },
+  "promenade-kit/parts/CP03/layer-blueprints.zip": {
+    "bytes": 48608,
+    "sha256": "48d64b531057892773aa265c063fe7d3e18047d12ef810886ebdb635041ea6e4"
+  },
+  "promenade-kit/parts/CP03/parts-and-stock.csv": {
+    "bytes": 822,
+    "sha256": "bccdc291873faaa74e3545a1d613157450ddd53ce90b277d3050a901f06163f2"
+  },
+  "promenade-kit/parts/CP03/placement.json": {
+    "bytes": 946,
+    "sha256": "88d9a50846d7df3aebd6bf79ae656e9375c6ec2f3af370b8526a9736fbd921dc"
+  },
+  "promenade-kit/parts/CP04/BUILD.md": {
+    "bytes": 1282,
+    "sha256": "ae725afdec96d5f55e5d452f3b57dc538c148b0b3aa5437fca355abbb5b9481c"
+  },
+  "promenade-kit/parts/CP04/coordinates.csv.gz": {
+    "bytes": 2846,
+    "sha256": "ea085e9cbaca30224e819ffe35814fb97577c622742859c7b5e84e4ae9ef28e1"
+  },
+  "promenade-kit/parts/CP04/CP04-Architecture_ONLY.schematic": {
+    "bytes": 774,
+    "sha256": "2454ef1b64c1f8becb132b4cf26ebbd7d21302c6acf9bd349fb35825476bcbc8"
+  },
+  "promenade-kit/parts/CP04/layer-blueprints.zip": {
+    "bytes": 24713,
+    "sha256": "de484a2acd4c174aef00208974aeb19b17ac91ee66ee4c9fe6abe03df5eab948"
+  },
+  "promenade-kit/parts/CP04/parts-and-stock.csv": {
+    "bytes": 759,
+    "sha256": "993f39b644f86ddd194981edabd6868d2eab8ccd76accf412433307eeb14a8c8"
+  },
+  "promenade-kit/parts/CP04/placement.json": {
+    "bytes": 963,
+    "sha256": "8b784e37b977ced1d982a7a05d12dcdaeac4d4f9649371363b9c5e2081a86299"
+  },
+  "promenade-kit/parts/CP05/BUILD.md": {
+    "bytes": 1161,
+    "sha256": "72b4cec7bc6be227d836ad173b5d5f3dbdf2f7cf6fef4a5176e9ca6d29d2983e"
+  },
+  "promenade-kit/parts/CP05/coordinates.csv.gz": {
+    "bytes": 1220,
+    "sha256": "8b945dc37c3b5103772b05c9dc2a60283fe5825afb64f8744421bd56944bbe62"
+  },
+  "promenade-kit/parts/CP05/CP05-Architecture_ONLY.schematic": {
+    "bytes": 239,
+    "sha256": "3d62192a61b2e6d5c3c263618a6f6cca18555935865310e8871483abe1376f1e"
+  },
+  "promenade-kit/parts/CP05/layer-blueprints.zip": {
+    "bytes": 10526,
+    "sha256": "438541d7c36177b8c79433423762dbc4869c45a690743361ad37b79ae5e63f8c"
+  },
+  "promenade-kit/parts/CP05/parts-and-stock.csv": {
+    "bytes": 301,
+    "sha256": "92b57dd3a223f56c68330a17788eb217b98ce93c0aab5a61885e77d476061df0"
+  },
+  "promenade-kit/parts/CP05/placement.json": {
+    "bytes": 974,
+    "sha256": "61f49777109a4de0c05312121d2bc46c6fc8b83f051a06eed5968f8c7037ec27"
+  },
+  "promenade-kit/parts/CP06/BUILD.md": {
+    "bytes": 1065,
+    "sha256": "c6748938a059b4eef0a9edcaf54d37a87e4962bc907ef451a178e7acf029a272"
+  },
+  "promenade-kit/parts/CP06/coordinates.csv.gz": {
+    "bytes": 1471,
+    "sha256": "1cde4ef4c93967fe375fb4faee5126b10ced73cd73f5349d557e003b9a5e4f13"
+  },
+  "promenade-kit/parts/CP06/CP06-Architecture_ONLY.schematic": {
+    "bytes": 268,
+    "sha256": "6f1f23e47ec697c5e9aa6937f9e844f267cdb6013bfcb3bf4208ba6cb1d6b081"
+  },
+  "promenade-kit/parts/CP06/layer-blueprints.zip": {
+    "bytes": 11397,
+    "sha256": "05adec98845028567893daeb286689d1a7b18504a02c1e9da796ad17d8f9909c"
+  },
+  "promenade-kit/parts/CP06/parts-and-stock.csv": {
+    "bytes": 302,
+    "sha256": "5b9062f5364393d733b7dd5cecc423c5a5081402a0b0b0d9447e60fd3d4a78e0"
+  },
+  "promenade-kit/parts/CP06/placement.json": {
+    "bytes": 854,
+    "sha256": "d8180a2c0f57f57ea740ea1b023c3c2a73d884a9681547a17ba811209a5e9356"
+  },
+  "promenade-kit/parts/CP07/BUILD.md": {
+    "bytes": 1163,
+    "sha256": "0ac7220db45d393652015bbc2fa6e7ca862a4ff36efcb0da79b6a449760cd7e9"
+  },
+  "promenade-kit/parts/CP07/coordinates.csv.gz": {
+    "bytes": 1345,
+    "sha256": "64a986cb3f56f049a9c9bfd49bd35e035bdfb5650c3c4243089c0f174db5931a"
+  },
+  "promenade-kit/parts/CP07/CP07-Architecture_ONLY.schematic": {
+    "bytes": 646,
+    "sha256": "27689fbdffaa3fe8d2b8a614ba6e286d38cbe636f862c6c54ba82d6c6df704a6"
+  },
+  "promenade-kit/parts/CP07/layer-blueprints.zip": {
+    "bytes": 14979,
+    "sha256": "17b2a88e4dbb307f2500337f6f9b8119a5a2bfb93a61e40f0f74f7959ef91b46"
+  },
+  "promenade-kit/parts/CP07/parts-and-stock.csv": {
+    "bytes": 821,
+    "sha256": "3705ed8cdddc032e1b22c238e551529ad579bbcdbc04d546e22d8ab48c4a54c3"
+  },
+  "promenade-kit/parts/CP07/placement.json": {
+    "bytes": 929,
+    "sha256": "d7456c2c0a70645eeb16f87181a80333c7754848d81c353b7b5063903a7b6d8f"
+  },
+  "promenade-kit/parts/CP08/BUILD.md": {
+    "bytes": 1164,
+    "sha256": "4984a6591c15327fba4ee13a0950de224296412464304a876136b9e166f20b3f"
+  },
+  "promenade-kit/parts/CP08/coordinates.csv.gz": {
+    "bytes": 3381,
+    "sha256": "329dbb219ff56e3712e36ea6f6bffd2c8b46ec17a0e2a2a5e006d82ce6d38e21"
+  },
+  "promenade-kit/parts/CP08/CP08-Architecture_ONLY.schematic": {
+    "bytes": 1249,
+    "sha256": "b564c382793ff4954d9696733cae2f505410a61d1beb0a61f2801c2fcfd7000f"
+  },
+  "promenade-kit/parts/CP08/layer-blueprints.zip": {
+    "bytes": 33328,
+    "sha256": "319a15bb0bd5e1411fbc282e10600360d6647098c14202b0c740b8af13ed60b3"
+  },
+  "promenade-kit/parts/CP08/parts-and-stock.csv": {
+    "bytes": 1149,
+    "sha256": "afb7b916e1ad73eca8b9a0dc38c2677e8c2a682a4469b48b849498690be4874f"
+  },
+  "promenade-kit/parts/CP08/placement.json": {
+    "bytes": 939,
+    "sha256": "7d5a69d9832218fc69a8b3aed149c39af693d5b7f4450cc2e281d251a5cd1d0c"
+  },
+  "promenade-kit/parts/CP09/BUILD.md": {
+    "bytes": 1113,
+    "sha256": "c28a80b585b4af0b1b7dcb7947b0cc24d3c6cd0cb8ab23f75202989144abfe29"
+  },
+  "promenade-kit/parts/CP09/coordinates.csv.gz": {
+    "bytes": 1325,
+    "sha256": "72a2166a58823df7670f8675f598b131892fa9819e8d46cb6299537a901957e5"
+  },
+  "promenade-kit/parts/CP09/CP09-Architecture_ONLY.schematic": {
+    "bytes": 502,
+    "sha256": "ea68e6ac6360688247f661530289f7e11ec17202d496353361517e39af3f25d3"
+  },
+  "promenade-kit/parts/CP09/layer-blueprints.zip": {
+    "bytes": 26867,
+    "sha256": "88c08d8c171135e9ea65c0586dd1cb2a182ab7b76ceb54e37e4ae8f7babc946d"
+  },
+  "promenade-kit/parts/CP09/manual-water.csv": {
+    "bytes": 493,
+    "sha256": "d62ca00183387733c0f565dc9ccccc44ae8ff5af2fdd2b4f891a6a4808a4927a"
+  },
+  "promenade-kit/parts/CP09/parts-and-stock.csv": {
+    "bytes": 459,
+    "sha256": "5b13cada9843f70109cb8d154c3effa2dfdf2313d36faed8101dbbabbb08a7e4"
+  },
+  "promenade-kit/parts/CP09/placement.json": {
+    "bytes": 1466,
+    "sha256": "300bc0201173d331a8eaf9160a4f0c710c01c9b9d6de0e7a7f0d976d28685098"
+  },
+  "promenade-kit/parts/CP10/BUILD.md": {
+    "bytes": 1197,
+    "sha256": "237e219aae162658f832e1026db84df424b5727e3c497dd32470d8c75fb2505c"
+  },
+  "promenade-kit/parts/CP10/coordinates.csv.gz": {
+    "bytes": 1975,
+    "sha256": "0caa977e7a81b38815fcca561f7ba5a13dfbe1e9ecb264376727b53af9d599e9"
+  },
+  "promenade-kit/parts/CP10/CP10-Architecture_ONLY.schematic": {
+    "bytes": 842,
+    "sha256": "3a93bb38cfd7ed5b36b545980b61bea87ce83d363e300ddbfa9d670b2c2556cf"
+  },
+  "promenade-kit/parts/CP10/layer-blueprints.zip": {
+    "bytes": 32981,
+    "sha256": "a5d1ad39a84acbb95b59d7ba488c758c6d040287765c81d4bf8ff3384e1c73e6"
+  },
+  "promenade-kit/parts/CP10/parts-and-stock.csv": {
+    "bytes": 653,
+    "sha256": "3595f5f8eb065c9a5c471426b4bafeff932ad0098a5598f044cd3d1d1379c98c"
+  },
+  "promenade-kit/parts/CP10/placement.json": {
+    "bytes": 806,
+    "sha256": "d1d636d4cf8a72f05f4576a9693941844b2e8dd67420514bf694b7d2394cd1da"
+  },
+  "promenade-kit/parts/CP11/BUILD.md": {
+    "bytes": 1102,
+    "sha256": "b773a3b4c1c51da08cac9055bd9e9487524ccd741121380654ccecc5615e5a83"
+  },
+  "promenade-kit/parts/CP11/coordinates.csv.gz": {
+    "bytes": 1622,
+    "sha256": "f2a353e67f377b3452d9c75230ad2ba1aa1311104e8cf3f63fa1479ac0fe2558"
+  },
+  "promenade-kit/parts/CP11/CP11-Architecture_ONLY.schematic": {
+    "bytes": 795,
+    "sha256": "f9d9251bc6fc65b4bb9be92f548293d1c4378afdd055bb179ef9e8d437c7f98e"
+  },
+  "promenade-kit/parts/CP11/layer-blueprints.zip": {
+    "bytes": 16240,
+    "sha256": "cf4f9d8ed4c504a6790a62881e4e54b22df54f62f167c7f574668cec9085b6d4"
+  },
+  "promenade-kit/parts/CP11/parts-and-stock.csv": {
+    "bytes": 824,
+    "sha256": "cb6c3f6f1ef40b70820cf568a5d1ef3791951fc92c61c4cc616f88b9b144e6e8"
+  },
+  "promenade-kit/parts/CP11/placement.json": {
+    "bytes": 895,
+    "sha256": "79ec337dbd89652ddd09769a6eb28a5aa30b2db4f91c305d17946219940bcae1"
+  },
+  "promenade-kit/parts/CP12/BUILD.md": {
+    "bytes": 1254,
+    "sha256": "572f71aee8e768689848c045273b3dffc479d626c02592013e7f16b538866255"
+  },
+  "promenade-kit/parts/CP12/coordinates.csv.gz": {
+    "bytes": 2617,
+    "sha256": "69a27790d62d07755f5970ffdc0a2b0014e556d55d33ed8b76e27f608e0ed038"
+  },
+  "promenade-kit/parts/CP12/CP12-Architecture_ONLY.schematic": {
+    "bytes": 746,
+    "sha256": "8387ece60f2e569eca18b149af46a1fb295c74c5b80a7aec5b3478247ed1cde5"
+  },
+  "promenade-kit/parts/CP12/layer-blueprints.zip": {
+    "bytes": 36058,
+    "sha256": "7fbd2f6c43d2c9a7952deb83d4b8bd2c7bdd31038be08026dd2c5e77811e3452"
+  },
+  "promenade-kit/parts/CP12/parts-and-stock.csv": {
+    "bytes": 607,
+    "sha256": "a925b822fc81cdad3903bd0c5751c6666a12c1e9dbed514de878cadf11ecd1c6"
+  },
+  "promenade-kit/parts/CP12/placement.json": {
+    "bytes": 968,
+    "sha256": "6e04b3a7942e71e6e74e4c2fb67195a82dbfcf7f408fa944f81678172fcd8d02"
   }
 }

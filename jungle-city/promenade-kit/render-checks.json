@@ -1,0 +1,152 @@
+{
+  "status": "pass",
+  "images": {
+    "CP00": {
+      "png_sha256": "c91010f55de0ae8afc9e4bc7f9b860df83f4086eeffb5e6ac6f836d3a4c48625",
+      "webp_sha256": "2ffe0f2fe360274d98c398077fc5e2c92ab58ee915ecb5d3b9882a41fab75ef7",
+      "model_sha256": "f26c433ddd4d5501e48cdfa847123719d228d134f2daa2342fba093dee6c5b90",
+      "encoding": "WebP quality 94",
+      "width_height": [
+        1600,
+        1067
+      ],
+      "bytes": 187718
+    },
+    "CP01": {
+      "png_sha256": "cf1440fa2f38e66b847856dbcf2bc5cfe30bd3697f307054b88750b20ab89038",
+      "webp_sha256": "6ff49bdbd5ad2ab51b81de7bb40b79ff550d785a3a670bc2d1018560b28dda67",
+      "model_sha256": "c549578453e919f95e9d89f7b6c16389413d3a70baeca721455bc075dd8530e4",
+      "encoding": "WebP quality 94",
+      "width_height": [
+        1000,
+        830
+      ],
+      "bytes": 52338
+    },
+    "CP02": {
+      "png_sha256": "ac843b9d2d1fedf1a43023ac46c8831885986ad8d66242d05befac9aa2e8e692",
+      "webp_sha256": "2052dfa96201bb55a8decf73f716f7ba0f885a5d0088f3cf182f0c218e169634",
+      "model_sha256": "57b731f1e2c11a48ccb28bab7834420a934557131163f411a319814ee676ffbe",
+      "encoding": "lossless",
+      "width_height": [
+        1000,
+        800
+      ],
+      "bytes": 309734
+    },
+    "CP03": {
+      "png_sha256": "9b5eba7636b1764da7c2cc32fd4016fefc02998199da90b253f284d34a9df535",
+      "webp_sha256": "1cf6a69c4ac89c823cd6db8f535babb0fe25f2decb76d78a34133a4808b9fc2b",
+      "model_sha256": "b231731403d271128481ef35935b0e75af4e9f23f6fd9b511f542c07697229f1",
+      "encoding": "lossless",
+      "width_height": [
+        1000,
+        680
+      ],
+      "bytes": 373874
+    },
+    "CP04": {
+      "png_sha256": "4b7505ed2a68b04341c5b953b70fcf0901741bc1feda9bbee6e1a1cbcc9b7984",
+      "webp_sha256": "f83306a59a1ca1c4746ad9a73894b75684028edb07659f1d20e9ab25625975c6",
+      "model_sha256": "02f2b0b822d7bfe04ff7affc12eeb866f60a20639809c0d045102f481aeb419f",
+      "encoding": "lossless",
+      "width_height": [
+        1000,
+        680
+      ],
+      "bytes": 374272
+    },
+    "CP05": {
+      "png_sha256": "fd8e48c5abbc7d1323fd7ecfe7fcfc08fb392d1a231c207e48664d1e59950055",
+      "webp_sha256": "9d4b44cd513f318988a0086ff75d3e1349af88278eaa27c532f4858e524a6765",
+      "model_sha256": "4019f856207050d224bfb09e9f3688675a235ddcb5f927e5c67f051078562d41",
+      "encoding": "lossless",
+      "width_height": [
+        1000,
+        650
+      ],
+      "bytes": 335006
+    },
+    "CP06": {
+      "png_sha256": "d1ed68738318f28897975354ba451dd83fc0e1cb695a7f04dff2fabb8cae12ed",
+      "webp_sha256": "9517ebd05bbc0a13c5ceb126aaa4060a5096dc4f451227c5e616bf10f48f7af9",
+      "model_sha256": "8ab349bbe3b749c32a39218635d0522393c448b8edc82b1c54a9d8a3271a845c",
+      "encoding": "lossless",
+      "width_height": [
+        1000,
+        650
+      ],
+      "bytes": 325462
+    },
+    "CP07": {
+      "png_sha256": "a35b559fe0b3c409597da5b13e8582305a44e0fdfaaf065e02d44020a9328d5f",
+      "webp_sha256": "19c3c96868868cb35c08ca443cdc18b4cc31c7dd18f98cf4bed8d1513402334a",
+      "model_sha256": "735e8543ced73d89efe2991bbbade90ce114eebb0d5637587395516d0829d3a8",
+      "encoding": "lossless",
+      "width_height": [
+        1000,
+        650
+      ],
+      "bytes": 336708
+    },
+    "CP08": {
+      "png_sha256": "1caf519745a887b014c295a4294cf7788af8c9d50400ec339281d3ca27875e0a",
+      "webp_sha256": "8cf8f96414ac2c96ac7c68f4e02e5c91563aef89de754faad23395969362329f",
+      "model_sha256": "b1562c7e5cd4e583bcbfb8fe3cecf357dd5092bff184603b4b0286e91ad7faf6",
+      "encoding": "lossless",
+      "width_height": [
+        1000,
+        650
+      ],
+      "bytes": 443932
+    },
+    "CP09": {
+      "png_sha256": "1dcfc1de064cd757ef7fd94e68acd116ca5276092bade1972c25ca6c752b3116",
+      "webp_sha256": "a2539347b7e926f824a9bfb0e635db3ebeb1e39808524bbe5367d302de87fde7",
+      "model_sha256": "688b6210b12050fcebe6f9a7747ab0ac5b2369c28cb4f5cfe4bef1486d848c82",
+      "encoding": "WebP quality 94",
+      "width_height": [
+        1000,
+        650
+      ],
+      "bytes": 81410
+    },
+    "CP10": {
+      "png_sha256": "f1107f3c951979e3ba05ae6cfd3559af295e727846fb7d6ceb0621e324e47585",
+      "webp_sha256": "26540a1dfff8aa242e3eeb8741cf68c3266140db4a72b32f472a25656545b791",
+      "model_sha256": "7d054cb2079987a8f11a3a6dafd524173f5651823b56cc63a8dcc15e7be374fa",
+      "encoding": "lossless",
+      "width_height": [
+        1000,
+        650
+      ],
+      "bytes": 322040
+    },
+    "CP11": {
+      "png_sha256": "7baab67dd296f6817df397d2ebdbc7b22b37de86b76fd249ef08e7f5382741e8",
+      "webp_sha256": "a8c56567e2bdaaca8035508e6797f3765cabb68a8cd549088ac97e3c07e0f540",
+      "model_sha256": "6dcad4a56872fd66caa1074da6e3d16b73fb6b2f905cb7f229abb14c4656aae5",
+      "encoding": "lossless",
+      "width_height": [
+        1000,
+        650
+      ],
+      "bytes": 338864
+    },
+    "CP12": {
+      "png_sha256": "9bb50665498e7d2f825af7684d10c4e9768bebceded463d6036c41966cd72ab8",
+      "webp_sha256": "9b709d214498f3c76c1e8bbdf6a60315d1085a11bd5cbdad8b79d6b1b3f83c8f",
+      "model_sha256": "7c1f06c38b9a3290c5a0d851ed9d74aa9e522d51073660a9addef2fe3924ee81",
+      "encoding": "lossless",
+      "width_height": [
+        1000,
+        650
+      ],
+      "bytes": 356956
+    }
+  },
+  "total_bytes": 3838314,
+  "installed_texture_audit_sha256": "c7815a99ab362983d04212312b26154a8b52823fd0087add71c877204986e070",
+  "game_screenshot": false,
+  "game_runtime_test": false
+}
