@@ -1,0 +1,24 @@
+{
+  "status": "pass",
+  "source_models": 4,
+  "source_rotations": 0,
+  "ordinary_hosts": 151728,
+  "native_hosts": 11643,
+  "occupied_hosts": 163371,
+  "conflicting_hosts": 0,
+  "terrain_columns": 147456,
+  "unknown_columns": 0,
+  "functional_equipment_added": 0,
+  "source_models_preserved": true,
+  "game_build_test": false,
+  "limits": [
+    "Surface summary excludes caves/overhang geometry",
+    "Terrain excavation envelopes are proposals, not dig bills",
+    "Air and game collision/lighting are not tested",
+    "B is a four-building sample, not a fully rerouted81-department city"
+  ],
+  "independent_reconciliation": "pass",
+  "independent_checks": 42,
+  "air_envelopes_clear": true,
+  "csv_unique_and_exact": true
+}

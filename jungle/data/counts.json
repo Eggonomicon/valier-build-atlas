@@ -1,0 +1,38 @@
+{
+  "ordinary_blocks_by_role": {
+    "F": 63972,
+    "s": 396,
+    "P": 29025,
+    "K": 27551,
+    "B": 8905,
+    "E": 867,
+    "M": 3204,
+    "G": 8009,
+    "V": 3061,
+    "f": 276,
+    "T": 132,
+    "L": 1530,
+    "a": 424,
+    "R": 4024,
+    "k": 120,
+    "l": 184,
+    "m": 48
+  },
+  "ordinary_hosts": 151728,
+  "native_hosts": 11643,
+  "occupied_hosts": 163371,
+  "native_parts_and_shapes": {
+    "FMP mcr_edge": 3601,
+    "FMP mcr_face": 5004,
+    "FMP mcr_post": 56,
+    "ArchitectureCraft shape 94": 56,
+    "ArchitectureCraft shape 95": 56,
+    "ArchitectureCraft shape 56": 658,
+    "ArchitectureCraft shape 0": 2456
+  },
+  "foundation_blocks": 36317,
+  "crafting_bill": null,
+  "air_in_counts": false,
+  "terrain_in_counts": false,
+  "treatment": "One occupied coordinate is one host. FMP can contain multiple cuts; cuts are counted separately. Doors/openings are explicit source geometry; air is in separate envelopes. No machines, tanks, pipes/cables/conduits or functional equipment are added."
+}

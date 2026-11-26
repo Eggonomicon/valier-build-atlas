@@ -1,0 +1,454 @@
+{
+  "name": "White Canopy / Sample2",
+  "status": "Measured creative-preview terrain with an exact architectural placement sample. Not the future PDIM survey or game-certified blueprint.",
+  "coordinates": "Sample B local NW origin; +X east,+Z south; y=worldPreviewY−64. Preview origin X1472 Z192 only. Future PDIM anchor and height unassigned; A core864/HQ405..469 unchanged.",
+  "size": [
+    384,
+    384
+  ],
+  "surface_datum_world_preview": 64,
+  "placements": [
+    {
+      "id": "C01",
+      "source_id": "01-01",
+      "name": "Steam Works / west cliff",
+      "origin": [
+        32,
+        16,
+        64
+      ],
+      "walk_world_y": 80,
+      "bounds": [
+        32,
+        9,
+        64,
+        95,
+        43,
+        127
+      ],
+      "source_model_sha256": "311aa46e6acf62cdbd11055f47dafe24aeb7168ea542b5f7a5d1530d59adcdb1",
+      "source_model": "design/reference-refinement-v1/models/01-01.json.gz",
+      "rotation": 0,
+      "purpose": "Recess the rear and east edge into the white-clay ridge. Two-boiler/HV workshop program retained; equipment and utility commissioning are separate manual work.",
+      "status": "Exact translation of preserved refined architectural cells; terrain adaptation is a planning sample, not an in-game import test.",
+      "measured_ground_world_y_range": [
+        63,
+        112
+      ],
+      "terrain_envelope": {
+        "cut_world_y_min": 73,
+        "cut_world_y_max": 108,
+        "horizontal_bounds": [
+          32,
+          64,
+          95,
+          127
+        ],
+        "instruction": "Clear the source hall bounding volume plus1 above its roof; keep rock above that ceiling except C03, which must remain an open light court. This is a proposed excavation envelope, not an exact dig bill."
+      },
+      "architecture_hosts": 26507
+    },
+    {
+      "id": "C02",
+      "source_id": "01-04",
+      "name": "Terrace workshop",
+      "origin": [
+        16,
+        26,
+        224
+      ],
+      "walk_world_y": 90,
+      "bounds": [
+        16,
+        19,
+        224,
+        79,
+        53,
+        287
+      ],
+      "source_model_sha256": "32891491d400a9a3c504835fa6d0b4e580f2e421d554673d2a452cbab3839597",
+      "source_model": "design/reference-refinement-v1/models/01-04.json.gz",
+      "rotation": 0,
+      "purpose": "Raised lower factory terrace with a north forecourt; a ten-rise public stair returns to the shared west avenue.",
+      "status": "Exact translation of preserved refined architectural cells; terrain adaptation is a planning sample, not an in-game import test.",
+      "measured_ground_world_y_range": [
+        61,
+        91
+      ],
+      "terrain_envelope": {
+        "cut_world_y_min": 83,
+        "cut_world_y_max": 118,
+        "horizontal_bounds": [
+          16,
+          224,
+          79,
+          287
+        ],
+        "instruction": "Clear the source hall bounding volume plus1 above its roof; keep rock above that ceiling except C03, which must remain an open light court. This is a proposed excavation envelope, not an exact dig bill."
+      },
+      "architecture_hosts": 26507
+    },
+    {
+      "id": "C03",
+      "source_id": "07-02",
+      "name": "Sunken conservatory",
+      "origin": [
+        256,
+        50,
+        304
+      ],
+      "walk_world_y": 114,
+      "bounds": [
+        256,
+        43,
+        304,
+        319,
+        81,
+        367
+      ],
+      "source_model_sha256": "328855300ed2e5befc9ff36a77e61b10640df3b1cb9756c5adbf437b31134607",
+      "source_model": "design/reference-refinement-v1/models/07-02.json.gz",
+      "rotation": 0,
+      "purpose": "Open light court cut into the eastern shoulder. Keep all glass roof area open to sky; no rock cap over the greenhouse.",
+      "status": "Exact translation of preserved refined architectural cells; terrain adaptation is a planning sample, not an in-game import test.",
+      "measured_ground_world_y_range": [
+        103,
+        133
+      ],
+      "terrain_envelope": {
+        "cut_world_y_min": 107,
+        "cut_world_y_max": 146,
+        "horizontal_bounds": [
+          256,
+          304,
+          319,
+          367
+        ],
+        "instruction": "Clear the source hall bounding volume plus1 above its roof; keep rock above that ceiling except C03, which must remain an open light court. This is a proposed excavation envelope, not an exact dig bill."
+      },
+      "architecture_hosts": 24737
+    },
+    {
+      "id": "C04",
+      "source_id": "05-05",
+      "name": "Civic crown",
+      "origin": [
+        280,
+        62,
+        224
+      ],
+      "walk_world_y": 126,
+      "bounds": [
+        280,
+        55,
+        224,
+        344,
+        113,
+        288
+      ],
+      "source_model_sha256": "87c0980955148225361e3ff1f58eb2a61b0fb876b106149cce9013bedf868b12",
+      "source_model": "design/reference-refinement-v1/models/05-05.json.gz",
+      "rotation": 0,
+      "purpose": "65-square civic architectural family on the high east shoulder. This alternate sample does not move the protected A-plan HQ at405..469.",
+      "status": "Exact translation of preserved refined architectural cells; terrain adaptation is a planning sample, not an in-game import test.",
+      "measured_ground_world_y_range": [
+        113,
+        124
+      ],
+      "terrain_envelope": {
+        "cut_world_y_min": 119,
+        "cut_world_y_max": 178,
+        "horizontal_bounds": [
+          280,
+          224,
+          344,
+          288
+        ],
+        "instruction": "Clear the source hall bounding volume plus1 above its roof; keep rock above that ceiling except C03, which must remain an open light court. This is a proposed excavation envelope, not an exact dig bill."
+      },
+      "architecture_hosts": 28479
+    }
+  ],
+  "routes": [
+    {
+      "id": "R01",
+      "name": "12-wide west avenue; tunnel through the northern ridge",
+      "bounds_xz": [
+        112,
+        52,
+        123,
+        223
+      ],
+      "walk_world_y": 80,
+      "walk_local_y": 16,
+      "widths_xz": [
+        12,
+        172
+      ]
+    },
+    {
+      "id": "P01",
+      "name": "Steam forecourt",
+      "bounds_xz": [
+        32,
+        52,
+        111,
+        63
+      ],
+      "walk_world_y": 80,
+      "walk_local_y": 16,
+      "widths_xz": [
+        80,
+        12
+      ]
+    },
+    {
+      "id": "P02",
+      "name": "Workshop forecourt",
+      "bounds_xz": [
+        16,
+        212,
+        95,
+        223
+      ],
+      "walk_world_y": 90,
+      "walk_local_y": 26,
+      "widths_xz": [
+        80,
+        12
+      ]
+    },
+    {
+      "id": "ST01",
+      "name": "Pedestrian stairs; one rise per block, two half steps",
+      "bounds_xz": [
+        96,
+        212,
+        105,
+        223
+      ],
+      "walk_world_y_start": 90,
+      "walk_world_y_end": 80,
+      "axis": "x",
+      "ascending_positive_axis": false,
+      "width": 12
+    },
+    {
+      "id": "P03",
+      "name": "Workshop lower landing",
+      "bounds_xz": [
+        106,
+        212,
+        123,
+        223
+      ],
+      "walk_world_y": 80,
+      "walk_local_y": 16,
+      "widths_xz": [
+        18,
+        12
+      ]
+    },
+    {
+      "id": "P04",
+      "name": "Bridge stair lower landing",
+      "bounds_xz": [
+        112,
+        140,
+        127,
+        143
+      ],
+      "walk_world_y": 80,
+      "walk_local_y": 16,
+      "widths_xz": [
+        16,
+        4
+      ]
+    },
+    {
+      "id": "ST02",
+      "name": "Pedestrian stairs; one rise per block, two half steps",
+      "bounds_xz": [
+        124,
+        144,
+        127,
+        171
+      ],
+      "walk_world_y_start": 80,
+      "walk_world_y_end": 108,
+      "axis": "z",
+      "ascending_positive_axis": true,
+      "width": 4
+    },
+    {
+      "id": "P05",
+      "name": "Bridge west landing",
+      "bounds_xz": [
+        124,
+        172,
+        135,
+        187
+      ],
+      "walk_world_y": 108,
+      "walk_local_y": 44,
+      "widths_xz": [
+        12,
+        16
+      ]
+    },
+    {
+      "id": "BR01",
+      "name": "12-wide high bridge and east rock portal",
+      "bounds_xz": [
+        136,
+        176,
+        291,
+        187
+      ],
+      "walk_world_y": 108,
+      "walk_local_y": 44,
+      "widths_xz": [
+        156,
+        12
+      ]
+    },
+    {
+      "id": "ST03",
+      "name": "Pedestrian stairs; one rise per block, two half steps",
+      "bounds_xz": [
+        280,
+        188,
+        283,
+        205
+      ],
+      "walk_world_y_start": 108,
+      "walk_world_y_end": 126,
+      "axis": "z",
+      "ascending_positive_axis": true,
+      "width": 4
+    },
+    {
+      "id": "P06",
+      "name": "Civic stair upper landing",
+      "bounds_xz": [
+        280,
+        206,
+        291,
+        223
+      ],
+      "walk_world_y": 126,
+      "walk_local_y": 62,
+      "widths_xz": [
+        12,
+        18
+      ]
+    },
+    {
+      "id": "P07",
+      "name": "Civic north forecourt",
+      "bounds_xz": [
+        292,
+        212,
+        344,
+        223
+      ],
+      "walk_world_y": 126,
+      "walk_local_y": 62,
+      "widths_xz": [
+        53,
+        12
+      ]
+    },
+    {
+      "id": "P08",
+      "name": "Civic west terrace",
+      "bounds_xz": [
+        268,
+        212,
+        279,
+        279
+      ],
+      "walk_world_y": 126,
+      "walk_local_y": 62,
+      "widths_xz": [
+        12,
+        68
+      ]
+    },
+    {
+      "id": "ST04",
+      "name": "Pedestrian stairs; one rise per block, two half steps",
+      "bounds_xz": [
+        268,
+        280,
+        271,
+        291
+      ],
+      "walk_world_y_start": 126,
+      "walk_world_y_end": 114,
+      "axis": "z",
+      "ascending_positive_axis": false,
+      "width": 4
+    },
+    {
+      "id": "P09",
+      "name": "Conservatory light court",
+      "bounds_xz": [
+        256,
+        292,
+        319,
+        303
+      ],
+      "walk_world_y": 114,
+      "walk_local_y": 50,
+      "widths_xz": [
+        64,
+        12
+      ]
+    }
+  ],
+  "air_envelopes": [
+    {
+      "id": "GA01",
+      "bounds": [
+        115,
+        10,
+        64,
+        119,
+        13,
+        207
+      ],
+      "meaning": "5-wide,4-high gallery clear space; walk Y74, under avenue. Ends capped; open only after inspection."
+    },
+    {
+      "id": "R01",
+      "bounds": [
+        113,
+        16,
+        52,
+        122,
+        21,
+        223
+      ],
+      "meaning": "10-wide by6-high road clear envelope at worldY80..85; retain rock above86 where present; open cut elsewhere."
+    },
+    {
+      "id": "BR01",
+      "bounds": [
+        136,
+        44,
+        177,
+        291,
+        48,
+        186
+      ],
+      "meaning": "10-wide by5-high bridge/portal clear envelope at worldY108..112."
+    }
+  ],
+  "palette": "data/palette.json",
+  "baseline_A_preserved": true,
+  "functional_equipment_included": false,
+  "schematic_exported": false,
+  "retained_programs": "These four are architectural examples. The81-department A register, age progression and EV utility plans remain preserved; their pipes/machines have not been relocated to B.",
+  "foundation_blocks_separate": 36317
+}

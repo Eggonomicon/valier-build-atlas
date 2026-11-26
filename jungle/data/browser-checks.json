@@ -1,0 +1,25 @@
+{
+  "status": "pass",
+  "reports": [
+    {
+      "status": "pass",
+      "checks": 75,
+      "errors": [],
+      "window": [
+        1440,
+        1200
+      ],
+      "method": "Isolated headless Chrome, actual DOM gesture handlers at desktop/mobile viewport sizes; no desktop/game capture"
+    },
+    {
+      "status": "pass",
+      "checks": 75,
+      "errors": [],
+      "window": [
+        430,
+        1100
+      ],
+      "method": "Isolated headless Chrome, actual DOM gesture handlers at desktop/mobile viewport sizes; no desktop/game capture"
+    }
+  ]
+}
