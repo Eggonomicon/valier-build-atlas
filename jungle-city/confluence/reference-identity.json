@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-26",
+  "classification": "User-selected AI concept artwork; visual target",
+  "method": "Compare the Pillow-decoded 8-bit RGBA dimensions and the complete pixel buffers. Compare the project copy with the Pages checkout byte for byte.",
+  "references": [
+    {
+      "title": "Alternate Layout",
+      "submitted_filename": "codex-clipboard-0d695e2f-56e6-41b5-993d-60ecedc3c5b7.png",
+      "submitted_png_sha256": "f3e1a4b4136d024f461555d306f5dac28c7f1d19dec10d1070dbaa3895143d9c",
+      "stored_file": "generated/jungle-canyon-v1/images/concept-aerial.png",
+      "published_path": "jungle/images/concept-aerial.png",
+      "stored_png_sha256": "75d10e387fbec4972b9233d8f057d539ee8a15d89a6253eed6d7f8486d528fff",
+      "pixel_dimensions": [
+        1536,
+        1024
+      ],
+      "rgba8_row_major_sha256": "13e1296e1bec556aa32d9bf5942c38c71e23a966ede82fe9c541f9b745902212",
+      "differing_pixels": 0
+    },
+    {
+      "title": "Cliff Promenade",
+      "submitted_filename": "codex-clipboard-98e46fd5-3f75-4302-96d7-d1abb3128aa6.png",
+      "submitted_png_sha256": "6c7520b8d6cf6524df6c86ae15e27435c1c048acd0e49d16f1ceef7f0571e73a",
+      "stored_file": "generated/jungle-canyon-v1/images/concept-street.png",
+      "published_path": "jungle/images/concept-street.png",
+      "stored_png_sha256": "90144e36fe4b780395919e76cc7d44118563eb0cfc8ab276925485153dc2379e",
+      "pixel_dimensions": [
+        1536,
+        1024
+      ],
+      "rgba8_row_major_sha256": "77e82de7fcf96a60830ad9bdcc396ed8a2945d823a06e509a26b107ecbf545ee",
+      "differing_pixels": 0
+    }
+  ]
+}

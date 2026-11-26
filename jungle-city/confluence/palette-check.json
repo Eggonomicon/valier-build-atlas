@@ -1,0 +1,388 @@
+{
+  "version": "GTNH 2.9.2",
+  "verified_member_faces": [
+    {
+      "role": "B",
+      "face": "side",
+      "jar": "Ztones-1.7.10-2.2.2.jar",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (14).png",
+      "member_sha256": "c9b79010c88874087d225ad5c7e59e321c2aad18543369f6bbf3ef344caa81a9"
+    },
+    {
+      "role": "B",
+      "face": "top",
+      "jar": "Ztones-1.7.10-2.2.2.jar",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (14).png",
+      "member_sha256": "c9b79010c88874087d225ad5c7e59e321c2aad18543369f6bbf3ef344caa81a9"
+    },
+    {
+      "role": "K",
+      "face": "side",
+      "jar": "Ztones-1.7.10-2.2.2.jar",
+      "member": "assets/ztones/textures/blocks/sets/agon/agon_ (13).png",
+      "member_sha256": "0ea5815d8c9a0f14c8dc1669da535102fff15a4248830aa41ac1d675bb769431"
+    },
+    {
+      "role": "K",
+      "face": "top",
+      "jar": "Ztones-1.7.10-2.2.2.jar",
+      "member": "assets/ztones/textures/blocks/sets/agon/agon_ (13).png",
+      "member_sha256": "0ea5815d8c9a0f14c8dc1669da535102fff15a4248830aa41ac1d675bb769431"
+    },
+    {
+      "role": "L",
+      "face": "side",
+      "jar": "Ztones-1.7.10-2.2.2.jar",
+      "member": "assets/ztones/textures/blocks/sets/agon/agon_ (0).png",
+      "member_sha256": "14bd7f04a892268ccc09cd369e22cc63468b765f55be8ce1a75fd8633ed04493"
+    },
+    {
+      "role": "L",
+      "face": "top",
+      "jar": "Ztones-1.7.10-2.2.2.jar",
+      "member": "assets/ztones/textures/blocks/sets/agon/agon_ (0).png",
+      "member_sha256": "14bd7f04a892268ccc09cd369e22cc63468b765f55be8ce1a75fd8633ed04493"
+    },
+    {
+      "role": "N",
+      "face": "side",
+      "jar": "extrautilities-1.2.12.jar",
+      "member": "assets/extrautils/textures/blocks/greenscreen.png",
+      "member_sha256": "b38d08009310843632aba1768eaab876a9fffd07b0c53bc2647a4c228233c5c2"
+    },
+    {
+      "role": "N",
+      "face": "top",
+      "jar": "extrautilities-1.2.12.jar",
+      "member": "assets/extrautils/textures/blocks/greenscreen.png",
+      "member_sha256": "b38d08009310843632aba1768eaab876a9fffd07b0c53bc2647a4c228233c5c2"
+    },
+    {
+      "role": "W",
+      "face": "side",
+      "jar": "extrautilities-1.2.12.jar",
+      "member": "assets/extrautils/textures/blocks/greenscreen.png",
+      "member_sha256": "b38d08009310843632aba1768eaab876a9fffd07b0c53bc2647a4c228233c5c2"
+    },
+    {
+      "role": "W",
+      "face": "top",
+      "jar": "extrautilities-1.2.12.jar",
+      "member": "assets/extrautils/textures/blocks/greenscreen.png",
+      "member_sha256": "b38d08009310843632aba1768eaab876a9fffd07b0c53bc2647a4c228233c5c2"
+    },
+    {
+      "role": "G",
+      "face": "side",
+      "jar": "TConstruct-1.14.124-GTNH.jar",
+      "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass.png",
+      "member_sha256": "497e1bcb8e96c39506d7b9d24b2873c74f99ab74f5889d660645e8941945e049"
+    },
+    {
+      "role": "G",
+      "face": "top",
+      "jar": "TConstruct-1.14.124-GTNH.jar",
+      "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass.png",
+      "member_sha256": "497e1bcb8e96c39506d7b9d24b2873c74f99ab74f5889d660645e8941945e049"
+    },
+    {
+      "role": "F",
+      "face": "side",
+      "jar": "minecraft-1.7.10-client.jar",
+      "member": "assets/minecraft/textures/blocks/stonebrick.png",
+      "member_sha256": "4b35ff37f7b028265ec20bb4540e655cc5b355f399fcec202bd7b277742c9536"
+    },
+    {
+      "role": "F",
+      "face": "top",
+      "jar": "minecraft-1.7.10-client.jar",
+      "member": "assets/minecraft/textures/blocks/stonebrick.png",
+      "member_sha256": "4b35ff37f7b028265ec20bb4540e655cc5b355f399fcec202bd7b277742c9536"
+    },
+    {
+      "role": "s",
+      "face": "side",
+      "jar": "minecraft-1.7.10-client.jar",
+      "member": "assets/minecraft/textures/blocks/stone_slab_side.png",
+      "member_sha256": "5e701b44f2a06fd324be2e4ec56f8b3b1b30fd7e243a032ebb3db5998d402357"
+    },
+    {
+      "role": "s",
+      "face": "top",
+      "jar": "minecraft-1.7.10-client.jar",
+      "member": "assets/minecraft/textures/blocks/stone_slab_top.png",
+      "member_sha256": "65e8a0b1b2df9baa0ed6b34381d7298e60b4d6ff6fdf39bb612edf1ec565c597"
+    },
+    {
+      "role": "S",
+      "face": "side",
+      "jar": "minecraft-1.7.10-client.jar",
+      "member": "assets/minecraft/textures/blocks/stone_slab_side.png",
+      "member_sha256": "5e701b44f2a06fd324be2e4ec56f8b3b1b30fd7e243a032ebb3db5998d402357"
+    },
+    {
+      "role": "S",
+      "face": "top",
+      "jar": "minecraft-1.7.10-client.jar",
+      "member": "assets/minecraft/textures/blocks/stone_slab_top.png",
+      "member_sha256": "65e8a0b1b2df9baa0ed6b34381d7298e60b4d6ff6fdf39bb612edf1ec565c597"
+    },
+    {
+      "role": "E",
+      "face": "side",
+      "jar": "minecraft-1.7.10-client.jar",
+      "member": "assets/minecraft/textures/blocks/dirt.png",
+      "member_sha256": "fb0450253248276e0b8d653d5a4d21c59763cbf775c0e048469ff500afaaef68"
+    },
+    {
+      "role": "E",
+      "face": "top",
+      "jar": "minecraft-1.7.10-client.jar",
+      "member": "assets/minecraft/textures/blocks/dirt.png",
+      "member_sha256": "fb0450253248276e0b8d653d5a4d21c59763cbf775c0e048469ff500afaaef68"
+    },
+    {
+      "role": "T",
+      "face": "side",
+      "jar": "minecraft-1.7.10-client.jar",
+      "member": "assets/minecraft/textures/blocks/log_oak.png",
+      "member_sha256": "6f24bf4e31b5f91d63da2e1543c1beafe8086d6a594d82abd834148c62670c21"
+    },
+    {
+      "role": "T",
+      "face": "top",
+      "jar": "minecraft-1.7.10-client.jar",
+      "member": "assets/minecraft/textures/blocks/log_oak_top.png",
+      "member_sha256": "f9045998a74062efaa5dbc3da828378198749b97163aef468ee63743c28229b4"
+    },
+    {
+      "role": "V",
+      "face": "side",
+      "jar": "minecraft-1.7.10-client.jar",
+      "member": "assets/minecraft/textures/blocks/leaves_oak.png",
+      "member_sha256": "50cc5b0dc5f0f361391ce3891ae8d601f330e86f03433bc51933b14a8f4af4be"
+    },
+    {
+      "role": "V",
+      "face": "top",
+      "jar": "minecraft-1.7.10-client.jar",
+      "member": "assets/minecraft/textures/blocks/leaves_oak.png",
+      "member_sha256": "50cc5b0dc5f0f361391ce3891ae8d601f330e86f03433bc51933b14a8f4af4be"
+    },
+    {
+      "role": "Q",
+      "face": "side",
+      "jar": "minecraft-1.7.10-client.jar",
+      "member": "assets/minecraft/textures/blocks/glass.png",
+      "member_sha256": "47e6c40346af11ed7d973e5c0b581d3ac40ebc88c9b304f0e903477055d3dc09"
+    },
+    {
+      "role": "Q",
+      "face": "top",
+      "jar": "minecraft-1.7.10-client.jar",
+      "member": "assets/minecraft/textures/blocks/glass.png",
+      "member_sha256": "47e6c40346af11ed7d973e5c0b581d3ac40ebc88c9b304f0e903477055d3dc09"
+    },
+    {
+      "role": "P",
+      "face": "side",
+      "jar": "Ztones-1.7.10-2.2.2.jar",
+      "member": "assets/ztones/textures/blocks/sets/agon/agon_ (15).png",
+      "member_sha256": "aeecafe43dfbe0c495f366ca180b2d757bfeeda3448051534e00384faf874641"
+    },
+    {
+      "role": "P",
+      "face": "top",
+      "jar": "Ztones-1.7.10-2.2.2.jar",
+      "member": "assets/ztones/textures/blocks/sets/agon/agon_ (15).png",
+      "member_sha256": "aeecafe43dfbe0c495f366ca180b2d757bfeeda3448051534e00384faf874641"
+    },
+    {
+      "role": "R",
+      "face": "side",
+      "jar": "Ztones-1.7.10-2.2.2.jar",
+      "member": "assets/ztones/textures/blocks/sets/agon/agon_ (13).png",
+      "member_sha256": "0ea5815d8c9a0f14c8dc1669da535102fff15a4248830aa41ac1d675bb769431"
+    },
+    {
+      "role": "R",
+      "face": "top",
+      "jar": "Ztones-1.7.10-2.2.2.jar",
+      "member": "assets/ztones/textures/blocks/sets/agon/agon_ (13).png",
+      "member_sha256": "0ea5815d8c9a0f14c8dc1669da535102fff15a4248830aa41ac1d675bb769431"
+    },
+    {
+      "role": "D",
+      "face": "side",
+      "jar": "minecraft-1.7.10-client.jar",
+      "member": "assets/minecraft/textures/blocks/glass_white.png",
+      "member_sha256": "bc5cb68b4642513582ea40650038db0f0e0a84284fff26ee115bc21a132a9e8e"
+    },
+    {
+      "role": "D",
+      "face": "top",
+      "jar": "minecraft-1.7.10-client.jar",
+      "member": "assets/minecraft/textures/blocks/glass_white.png",
+      "member_sha256": "bc5cb68b4642513582ea40650038db0f0e0a84284fff26ee115bc21a132a9e8e"
+    },
+    {
+      "role": "f",
+      "face": "side",
+      "jar": "minecraft-1.7.10-client.jar",
+      "member": "assets/minecraft/textures/blocks/flower_allium.png",
+      "member_sha256": "68316f7f69fc3245e53f437289eb66e5e8cd6a4540086fee4ba13ff1323ffac0"
+    },
+    {
+      "role": "f",
+      "face": "top",
+      "jar": "minecraft-1.7.10-client.jar",
+      "member": "assets/minecraft/textures/blocks/flower_allium.png",
+      "member_sha256": "68316f7f69fc3245e53f437289eb66e5e8cd6a4540086fee4ba13ff1323ffac0"
+    },
+    {
+      "role": "M",
+      "face": "side",
+      "jar": "Ztones-1.7.10-2.2.2.jar",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (2).png",
+      "member_sha256": "326e9fc3b7760f4ebc2e7d245dd2d1ad346e55a8b93949f9fbafc2b79ffbe5e8"
+    },
+    {
+      "role": "M",
+      "face": "top",
+      "jar": "Ztones-1.7.10-2.2.2.jar",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (2).png",
+      "member_sha256": "326e9fc3b7760f4ebc2e7d245dd2d1ad346e55a8b93949f9fbafc2b79ffbe5e8"
+    },
+    {
+      "role": "g",
+      "face": "side",
+      "jar": "chisel-2.17.38-GTNH.jar",
+      "member": "assets/chisel/textures/blocks/glass/terrain-glassnoborder.png",
+      "member_sha256": "dd0220f9e7774a13c899ac3878ebb9ebfe88db0791ec079528d914e1a2d212c3"
+    },
+    {
+      "role": "g",
+      "face": "top",
+      "jar": "chisel-2.17.38-GTNH.jar",
+      "member": "assets/chisel/textures/blocks/glass/terrain-glassnoborder.png",
+      "member_sha256": "dd0220f9e7774a13c899ac3878ebb9ebfe88db0791ec079528d914e1a2d212c3"
+    },
+    {
+      "role": "a",
+      "face": "side",
+      "jar": "minecraft-1.7.10-client.jar",
+      "member": "assets/minecraft/textures/blocks/water_still.png",
+      "member_sha256": "f4a5a43c2fe921ed80331cff62f1d5c635dae06e580e52b237b1090ce242ee4e"
+    },
+    {
+      "role": "a",
+      "face": "top",
+      "jar": "minecraft-1.7.10-client.jar",
+      "member": "assets/minecraft/textures/blocks/water_still.png",
+      "member_sha256": "f4a5a43c2fe921ed80331cff62f1d5c635dae06e580e52b237b1090ce242ee4e"
+    },
+    {
+      "role": "C",
+      "face": "side",
+      "jar": "minecraft-1.7.10-client.jar",
+      "member": "assets/minecraft/textures/blocks/hardened_clay_stained_white.png",
+      "member_sha256": "d674ab2e23b49617589fb8ec2904870c429253518a8835eb9cececf69c13b6d2"
+    },
+    {
+      "role": "C",
+      "face": "top",
+      "jar": "minecraft-1.7.10-client.jar",
+      "member": "assets/minecraft/textures/blocks/hardened_clay_stained_white.png",
+      "member_sha256": "d674ab2e23b49617589fb8ec2904870c429253518a8835eb9cececf69c13b6d2"
+    },
+    {
+      "role": "H",
+      "face": "side",
+      "jar": "minecraft-1.7.10-client.jar",
+      "member": "assets/minecraft/textures/blocks/grass_side.png",
+      "member_sha256": "1f5d4845b34eeaf96a9fed2196cb01ba3cd4c5673873a5b721f106b0c8164ed9"
+    },
+    {
+      "role": "H",
+      "face": "top",
+      "jar": "minecraft-1.7.10-client.jar",
+      "member": "assets/minecraft/textures/blocks/grass_top.png",
+      "member_sha256": "b2aa2204118c7323c0f8d263eb30dee99b6b69cb1f6df3115272a69fd188e507"
+    },
+    {
+      "role": "J",
+      "face": "side",
+      "jar": "minecraft-1.7.10-client.jar",
+      "member": "assets/minecraft/textures/blocks/log_jungle.png",
+      "member_sha256": "92e0c520e63811b551b5994fd133f74803ec11722c17cd62159da10ec461e24f"
+    },
+    {
+      "role": "J",
+      "face": "top",
+      "jar": "minecraft-1.7.10-client.jar",
+      "member": "assets/minecraft/textures/blocks/log_jungle_top.png",
+      "member_sha256": "d8049db8ef1bde2dbc816cfbf285e6958ba14c79709e9869039b7667268ea782"
+    },
+    {
+      "role": "v",
+      "face": "side",
+      "jar": "minecraft-1.7.10-client.jar",
+      "member": "assets/minecraft/textures/blocks/leaves_jungle.png",
+      "member_sha256": "d42f54766253553c8f852b562a28d5c07f9e071b7b8c73c62f29fdb5797c46a4"
+    },
+    {
+      "role": "v",
+      "face": "top",
+      "jar": "minecraft-1.7.10-client.jar",
+      "member": "assets/minecraft/textures/blocks/leaves_jungle.png",
+      "member_sha256": "d42f54766253553c8f852b562a28d5c07f9e071b7b8c73c62f29fdb5797c46a4"
+    },
+    {
+      "role": "u",
+      "face": "side",
+      "jar": "minecraft-1.7.10-client.jar",
+      "member": "assets/minecraft/textures/blocks/stonebrick.png",
+      "member_sha256": "4b35ff37f7b028265ec20bb4540e655cc5b355f399fcec202bd7b277742c9536"
+    },
+    {
+      "role": "u",
+      "face": "top",
+      "jar": "minecraft-1.7.10-client.jar",
+      "member": "assets/minecraft/textures/blocks/stonebrick.png",
+      "member_sha256": "4b35ff37f7b028265ec20bb4540e655cc5b355f399fcec202bd7b277742c9536"
+    },
+    {
+      "role": "n",
+      "face": "side",
+      "jar": "minecraft-1.7.10-client.jar",
+      "member": "assets/minecraft/textures/blocks/stonebrick.png",
+      "member_sha256": "4b35ff37f7b028265ec20bb4540e655cc5b355f399fcec202bd7b277742c9536"
+    },
+    {
+      "role": "n",
+      "face": "top",
+      "jar": "minecraft-1.7.10-client.jar",
+      "member": "assets/minecraft/textures/blocks/stonebrick.png",
+      "member_sha256": "4b35ff37f7b028265ec20bb4540e655cc5b355f399fcec202bd7b277742c9536"
+    }
+  ],
+  "board_roles": [
+    "C",
+    "B",
+    "M",
+    "L",
+    "R",
+    "P",
+    "G",
+    "g",
+    "N",
+    "W",
+    "J",
+    "v",
+    "H",
+    "f",
+    "a",
+    "F"
+  ],
+  "board_sha256": "73fb8981a7637f56ce8750945889b3bde343a0ec56ac470e6fa6caa983f389a0"
+}

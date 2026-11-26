@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#14221d">
+  <title>Cliff Promenade · White Canopy · Valier Atlas</title>
+  <link rel="stylesheet" href="promenade.css">
+  <link rel="stylesheet" href="../image-viewer.css">
+</head>
+<body>
+<header><a class="wordmark" href="../index.html">Valier <span>/ White Canopy</span></a>
+  <nav aria-label="Page sections"><a href="#views">Image references</a><a href="#build">Build the frontage</a><a href="#materials">Materials</a><a href="#sectors">Sectors</a></nav>
+</header>
+<main>
+  <div class="heading">
+    <p class="breadcrumb"><a href="../index.html">Jungle Canyon</a> &nbsp;/&nbsp; Architectural style</p>
+    <h1>Cliff Promenade</h1>
+    <p>Cut the hall into the white mesa. Carry its paving through the doorway, step the garden down to the river, and leave daylight under the glazed crossing.</p>
+  </div>
+  <section id="views" aria-label="Compare the two references and their block translations">
+    <div class="tabs">
+      <div role="group" aria-label="Viewpoint"><button data-view="aerial" aria-pressed="true">Canyon overview</button><button data-view="promenade" aria-pressed="false">Street level</button></div>
+      <div role="group" aria-label="Image source"><button data-mode="original" aria-pressed="false">Original art</button><button data-mode="palette" aria-pressed="true">Palette edit</button><button data-mode="model" aria-pressed="false">Exact block model</button></div>
+    </div>
+    <figure><img id="study" class="section-image" src="aerial-palette-art.webp" alt="Palette-guided canyon overview with a high glazed bridge, pale cliff halls and a river garden">
+      <figcaption aria-live="polite"><div><strong id="view-title">Canyon overview · palette edit</strong><p id="view-note">ImageGen redrew the supplied aerial using the installed 2.9.2 swatches. The cliff tower and greenhouse belong to the concept composition.</p></div><a id="view-file" href="aerial-palette-art.webp" download>Save image ↓</a></figcaption>
+    </figure>
+    <noscript><p><a href="promenade-palette-art.webp">Street-level palette edit</a> · <a href="panorama.webp">Exact canyon panorama</a> · <a href="promenade.webp">Exact street-level render</a> · <a href="../../jungle/images/concept-aerial.png">Original aerial</a> · <a href="../../jungle/images/concept-street.png">Original promenade</a></p></noscript>
+    <p class="small">The modeled skyline seats 05-05 HQ on the higher mesa and 07-02 Greenhouses on a lower terrace, with a second glazed hall frontage across the water. <a href="WC01-vista-guide.json.gz">Panorama placements</a> · <a href="WC01-vista.json.gz">Panorama block model</a></p>
+  </section>
+  <section id="build" class="section">
+    <div class="split"><div><p class="kicker">WC01 / Worked frontage</p><h2>From hall door<br>to riverbank.</h2></div>
+      <div><p>Start with the road through the north portal. It gives the hall, the park stairs and the upper crossing a common height to build from. This is a detachable district study for a ledge you choose in your own canyon.</p>
+      <p class="small">Local northwest origin · +X east · +Z south · Y0 is the road surface. Survey your river and bearing rock before translating these heights into the PDIM.</p></div></div>
+    <div class="height-strip">
+      <span><b>+14</b>Glazed crossing</span><span><b>0</b>Avenue &amp; hall</span><span><b>−3</b>Park walk</span><span><b>−6</b>Water level</span>
+    </div>
+    <figure><img class="section-image" src="river.webp" alt="WC01 in installed textures from the low riverbank, looking across the planting toward the hall and glazed crossing"><figcaption><div><strong>The riverside approach</strong><p>Offline render of the saved blocks. The clay and trees beyond the construction area illustrate a possible canyon.</p></div><a href="./river.webp" download>Save image ↓</a></figcaption></figure>
+    <details><summary>Look across the park toward the hall and upper crossing</summary><img class="section-image" src="district.webp" alt="Oblique view from the lower court toward the cliff hall, avenue and glazed crossing"></details>
+    <div class="build-columns">
+      <div><h3>Set out the joins</h3><ol class="steps">
+        <li><b>Stake the avenue.</b> The 12-block road occupies X31–42. Its north end passes through the molded MK14 portal. At Z55 the paving runs from the hall doorway through the sidewalk to the crossing.</li>
+        <li><b>Set the park below the curb.</b> Take the descent near Z50. Follow the lower walk through the four-way garden to the overlook. Keep the turn into the park and the bench approach open.</li>
+        <li><b>Join both bridge landings.</b> From the road, turn toward the stair at X19 and climb north. Three MK36 glazed spans cross on the upper level. Seat the piers on surveyed solid ground.</li>
+        <li><b>Finish the wet edge.</b> Complete the bed, bank and end stops before adding water. Each marked source occupies Y−7. The dry ghost gives you the retaining work, trees, planters and lights.</li>
+      </ol></div>
+      <aside><h3>Block-by-block drawings</h3><p>Choose the dry construction layers to see exactly what goes into the schematic. The full scene also shows the example terrain and water.</p>
+        <a class="action" href="../index.html?model=WC01-A#layers">Inspect the dry layers ↗</a>
+        <a href="../index.html?model=WC01#layers">Inspect the full scene ↗</a>
+        <hr><a href="export/WC01-A-Architecture_ONLY.schematic" download>WorldEdit schematic ↓</a>
+        <a href="export/WC01-A-blueprints.zip" download>Printable layer blueprints ↓</a>
+        <a href="export/BUILD.md">Build order and clipboard anchor</a><a href="export/parts-and-stock.csv">Blocks, shapes and cut parts</a>
+        <a href="export/manual-water.csv">Manual water positions</a><a href="export/WC01-A-coordinates.csv.gz">All construction coordinates</a>
+        <p class="small">The ghost contains 21,748 architectural positions across 41 levels. Its minimum is (+3, −8, 0) from the scene origin. Use a Schematica ghost with Printer OFF for manual placement. Native import, movement, water updates and lighting still need an in-game check.</p>
+        <a href="export/checks.json">Schematic and layer checks</a>
+      </aside>
+    </div>
+  </section>
+  <section id="materials" class="section">
+    <div class="split"><div><p class="kicker">GTNH 2.9.2 / Materials</p><h2>The cliff and its frame.</h2></div><p>Leave warm white terracotta exposed between bays. Use Korp for the recessed charcoal walls, Agon 0 for the pale molded ribs, and light-blue TConstruct glass between them. Carry Agon 15 from the sidewalk to the door. Keep the cyan Caelestis in the narrow cuts and the white diffuser under the lamp cap.</p></div>
+    <details><summary>See the 16 installed material swatches</summary><img class="section-image" src="installed-swatches.png" alt="Sixteen verified palette samples labeled with the block and its architectural role"><p class="small">Each swatch repeats an extracted block face. Leaves and grass use the sample climate tint. The water tile shows one frame of the animation.</p></details>
+    <div class="links"><a href="../palette.json">Block IDs, metadata and textures</a><a href="palette-check.json">Installed texture checks</a><a href="model-provenance.md">Model sources and scenery</a><a href="art-direction.txt">Image edit prompts</a></div>
+  </section>
+  <section id="sectors" class="section">
+    <div class="split"><div><p class="kicker">Sample 2 / Architecture</p><h2>Carry the frontage<br>into each sector.</h2></div><p>Choose a ledge for the department first, then connect its public entrance to the next walk. Match the height of a sill, a planter cap or a cornice across each join. Keep a strip of visible white clay between large cuts.</p></div>
+    <dl class="sectors">
+      <dt>NW · Steam Works</dt><dd>Turn the thermal hall’s glazed bays toward the lower street. Run the pale knee into a planter cap beside the entrance. Keep the north service approach clear.</dd>
+      <dt>NE · Materials Laboratory</dt><dd>Bring the upper hall cornice into the bridge landing at the same height. Keep rock between the tunnel mouth and the glazing.</dd>
+      <dt>SW · Greenhouses &amp; Public Park</dt><dd>Face the glasshouse toward the valley. Let its entry walk descend into the four-way garden. Use the stream as the water feature on a narrow bank.</dd>
+      <dt>SE · HV Generation</dt><dd>Set the back of the hall into the service ledge and open the braced bays toward the canyon. Give the crew walk a level overlook with access to the gallery.</dd>
+      <dt>Central · HQ &amp; Public Garden</dt><dd>Step planted terraces up the protected 65-square civic plot. Place one overlook where the tower, upper crossing and river path share the same view.</dd>
+    </dl><div class="links"><a href="style.md">Full architectural style guide</a><a href="../index.html#sectors">81-department register</a><a href="../index.html#modules">50 modular components</a></div>
+  </section>
+</main>
+<footer><a href="../index.html">← White Canopy city plan</a><a href="../../index.html#references">Valier image references ↗</a></footer>
+<script src="compare.js"></script>
+<script src="../plan-viewer.js"></script>
+</body></html>

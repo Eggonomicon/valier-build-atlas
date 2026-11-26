@@ -1,0 +1,230 @@
+{
+  "status": "pass",
+  "model": "WC01",
+  "model_sha256": "e442246c340d6cee1309fd868a42ed743b22c446c9021be93e34c6392b029478",
+  "cameras": {
+    "district": {
+      "png_sha256": "6038fc848a9f718697dfcb5c4dcc209d3d29ba56449989bc8a20bcb71e81986b",
+      "webp_sha256": "f4030975b556ecb3338dd7e1ce1abf999ef6fb629d8f2906755fa2860f0745b8",
+      "pixels": [
+        1900,
+        1188
+      ],
+      "file_bytes": 2469008
+    },
+    "promenade": {
+      "png_sha256": "6340887f73d8495246ba289011b6da6da21aeec9e488a07e808cf041bec8d4d2",
+      "webp_sha256": "e6859dfbb07756b4d8a649d8087b80c270c250c5704196d9a7d79167171ca601",
+      "pixels": [
+        1900,
+        1188
+      ],
+      "file_bytes": 1706848
+    },
+    "river": {
+      "png_sha256": "dcae47553688440c48a84223e7c3c09a18dac0deefa28795d2c93108c326d76c",
+      "webp_sha256": "c81cde2d432fc44ca6baf8c8d302d62df1fb68fce9b40b312e0608db657f4f52",
+      "pixels": [
+        1900,
+        1188
+      ],
+      "file_bytes": 2061798
+    }
+  },
+  "game_screenshot": false,
+  "checked_palette_receipt_sha256": "c7815a99ab362983d04212312b26154a8b52823fd0087add71c877204986e070",
+  "ctm_installed_jar": "TConstruct-1.14.124-GTNH.jar",
+  "ctm_icons": {
+    "assets/tinker/textures/blocks/glass/stained/light_blue/glass.png": "497e1bcb8e96c39506d7b9d24b2873c74f99ab74f5889d660645e8941945e049",
+    "assets/tinker/textures/blocks/glass/stained/light_blue/glass_1_d.png": "3a19fc192bfda02a052ee646ae838d6bb42eeefd7196a474e8a5b905b5df16e9",
+    "assets/tinker/textures/blocks/glass/stained/light_blue/glass_1_u.png": "bf5defe34e89e4bd7836b68336970d789a06b7e1e6c28e15588054ebfc486320",
+    "assets/tinker/textures/blocks/glass/stained/light_blue/glass_1_l.png": "b07959dbbd55314c63363e5fe8389a8487bfc6ccfc374f14a33c7cd0fe61c1e9",
+    "assets/tinker/textures/blocks/glass/stained/light_blue/glass_1_r.png": "17a6b99e3f67d998e11ff15d75665707babb9cf9bf0d342ad6a69c0c003b8bfc",
+    "assets/tinker/textures/blocks/glass/stained/light_blue/glass_2_h.png": "908774cb7973b4f7a6d9a47eec8cb1589b3f4854640ca88709eab19403e7a9f4",
+    "assets/tinker/textures/blocks/glass/stained/light_blue/glass_2_v.png": "c0efa6fbb55a54fcc5acbfa63b2d0d5a3744b5ed3f7b0214d3e454929454475b",
+    "assets/tinker/textures/blocks/glass/stained/light_blue/glass_2_dl.png": "50987545705cea070c46be3556e7b4744615a8f772a917ee9bc2a6f60e9c7b3b",
+    "assets/tinker/textures/blocks/glass/stained/light_blue/glass_2_dr.png": "a9a2ab09a285549520294f22501b8f4766f2a6813a54f306b4d228a2e9dd1b56",
+    "assets/tinker/textures/blocks/glass/stained/light_blue/glass_2_ul.png": "84c82654314b7433bdc3a57190d4469d99b02bf8da837f527c8bb4dfd16a27ea",
+    "assets/tinker/textures/blocks/glass/stained/light_blue/glass_2_ur.png": "b410961261283ac0ae6b66ec8a5f45da9d70d38eced32c70a36701bb60116062",
+    "assets/tinker/textures/blocks/glass/stained/light_blue/glass_3_d.png": "f494aa7bc5e16010f2be01ab492142f967707f53ab352bf47953376b84d32ba4",
+    "assets/tinker/textures/blocks/glass/stained/light_blue/glass_3_u.png": "221c45ba1ef1ec2d257cbadaa20c1c7676b3391a6952050acfcde665134f461a",
+    "assets/tinker/textures/blocks/glass/stained/light_blue/glass_3_l.png": "1989472c1f52bb7c38e9ba58a1c5dda080c4c3ca78a518883b2a6d670a5dcc2d",
+    "assets/tinker/textures/blocks/glass/stained/light_blue/glass_3_r.png": "5442e702f497c0a02ce245fd5d44f337e785dbb59705f6ef117da0de0c57dfb0",
+    "assets/tinker/textures/blocks/glass/stained/light_blue/glass_4.png": "286e36416666e564cce39a8aabd9aa63685a640b0dad31b1bc5f08db36675764"
+  },
+  "display_pixel_transforms": {
+    "textures/N-top-display.png": {
+      "installed_face": "textures/N-side.png",
+      "tint_rgb": [
+        0,
+        255,
+        255
+      ],
+      "crop": null
+    },
+    "textures/W-top-display.png": {
+      "installed_face": "textures/W-side.png",
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "crop": null
+    },
+    "textures/F-top-display.png": {
+      "installed_face": "textures/F-side.png",
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "crop": null
+    },
+    "textures/slab-bottom-side-display.png": {
+      "installed_face": "textures/slab-bottom-side-wall.png",
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "crop": null
+    },
+    "textures/slab-bottom-top-display.png": {
+      "installed_face": "textures/slab-bottom-side.png",
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "crop": null
+    },
+    "textures/slab-top-side-display.png": {
+      "installed_face": "textures/slab-top-side-wall.png",
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "crop": null
+    },
+    "textures/slab-top-top-display.png": {
+      "installed_face": "textures/slab-top-side.png",
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "crop": null
+    },
+    "textures/E-top-display.png": {
+      "installed_face": "textures/E-side.png",
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "crop": null
+    },
+    "textures/T-side-display.png": {
+      "installed_face": "textures/T-side.png",
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "crop": null
+    },
+    "textures/T-top-display.png": {
+      "installed_face": "textures/T-end-grain.png",
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "crop": null
+    },
+    "textures/V-top-display.png": {
+      "installed_face": "textures/V-side.png",
+      "tint_rgb": [
+        72,
+        181,
+        24
+      ],
+      "crop": null
+    },
+    "textures/Q-top-display.png": {
+      "installed_face": "textures/Q-side.png",
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "crop": null
+    },
+    "textures/D-display.png": {
+      "installed_face": "textures/D-raw.png",
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "crop": null
+    },
+    "textures/f-display.png": {
+      "installed_face": "textures/f-raw.png",
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "crop": null
+    },
+    "textures/refined-glass6-display.png": {
+      "installed_face": "textures/refined-glass6-source.png",
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "crop": null
+    },
+    "textures/audit-a-water0-display.png": {
+      "installed_face": "textures/audit-a-water0-source.png",
+      "tint_rgb": [
+        255,
+        255,
+        255
+      ],
+      "crop": [
+        0,
+        0,
+        16,
+        16
+      ]
+    }
+  },
+  "geometry_installed_jar": "ArchitectureCraft-1.12.19.jar",
+  "native_mesh_checks": {
+    "17": {
+      "member": "assets/architecturecraft/models/shape/cylinder_r2h16.objson",
+      "installed_sha256": "b99bab8485acbe258674cc32ebb56e17a66ef8fc6856715406b3a55221f75a96",
+      "parsed_snapshot_sha256": "5665b32644fffbbd44ff68708b193b937a2cdafe89aaea39ed5f7382ee425f1d"
+    },
+    "18": {
+      "member": "assets/architecturecraft/models/shape/bevelled_outer_corner.objson",
+      "installed_sha256": "bff2a3ad1ce09255ba9e56f229db3d183ef7c2ca6c895bbe81dceea1efccc662",
+      "parsed_snapshot_sha256": "a3b1aa8817c96a568baf1d3f72808f89b69bcc0a4aa1b40fa4179d9f436dbd07"
+    },
+    "27": {
+      "member": "assets/architecturecraft/models/shape/architrave.objson",
+      "installed_sha256": "a8afc081a2d730338fea5a1f519eed086bad65c4a1ae86d1e04f5203ed359488",
+      "parsed_snapshot_sha256": "0331c579ffe7e5f26fe02075276baf8fe1bf67d5c32994322f8f5605914f113c"
+    },
+    "56": {
+      "member": "assets/architecturecraft/models/shape/cornice_bottom.objson",
+      "installed_sha256": "c4bf8c09844c9f726ed2593cef03610571d1cfada1c5caaf38e39958fed9262f",
+      "parsed_snapshot_sha256": "63e251970f117fd16a6591b44cb4e284f2528ab4c177cec2dc46eb9fda9560ab"
+    }
+  },
+  "native_shape_scope": "Installed baked shape meshes checked by decoded geometry equality. Slopes are rendered from native 0/94/95 profiles and exact saved side/turn."
+}

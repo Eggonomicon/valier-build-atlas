@@ -8,16 +8,16 @@
     "sha256": "e7f72d11191a54130b70f10612f23bb3d1dcad00bb6a21a39ff6ca131059e93b"
   },
   "guide.js": {
-    "bytes": 23726,
-    "sha256": "bcc95b98ed2552973bdc8bc49de5b1856d1607f246c6428ad3a2075b82bab6a8"
+    "bytes": 24349,
+    "sha256": "45eb25a712da6876622e95d7e6558e13f30e8a7928dc2b52d1cf40f1aa3b8740"
   },
   "image-viewer.css": {
     "bytes": 2050,
     "sha256": "4b46d3118be54149f2f87d91f517e98c93b6ecf422f86b06816ab320ff4151ad"
   },
   "index.html": {
-    "bytes": 18224,
-    "sha256": "a8cd5d4ca148f6873dabf3d1890c550614ad35e80b9fb7848f7a4f86c0e7399f"
+    "bytes": 18892,
+    "sha256": "b2b1778db002d2bcba22cf14477a8f5fd6e7de18ef309e9d69602a9c5d38a9a7"
   },
   "palette.json": {
     "bytes": 69037,
@@ -8446,5 +8446,153 @@
   "textures/ctm/G-99.png": {
     "bytes": 204,
     "sha256": "17b896c844508db117dd084d7ffaa8a3f06d54c88d2b6881590c408870e67796"
+  },
+  "confluence/aerial-palette-art.webp": {
+    "bytes": 2589576,
+    "sha256": "be2d7da9cc0fdd508759093ad9611f1300a573e78134f30cde73222b84765fbd"
+  },
+  "confluence/art-direction.txt": {
+    "bytes": 2162,
+    "sha256": "1978613313bd2a01840f4526bdfa2f6e6ae96ef2e5e67d5ef2ef61acd2aaf1c5"
+  },
+  "confluence/compare.js": {
+    "bytes": 3406,
+    "sha256": "ff13b4426a6d4426ea9fdd6dd396d0b3fd92332046c0f18559a894a96103a6f8"
+  },
+  "confluence/district-record.json": {
+    "bytes": 5763,
+    "sha256": "1468438da2583412631631dd26b5c9a362d9c3faeff33f88189bd41a9913a9a5"
+  },
+  "confluence/district.webp": {
+    "bytes": 2469008,
+    "sha256": "f4030975b556ecb3338dd7e1ce1abf999ef6fb629d8f2906755fa2860f0745b8"
+  },
+  "confluence/export/BUILD.md": {
+    "bytes": 3453,
+    "sha256": "c67fac185f1d87dfa4b75564fdd6163d679c763b064975f77d7daa7dfcdbb0df"
+  },
+  "confluence/export/checks.json": {
+    "bytes": 1816,
+    "sha256": "af5b26fa7c1f19b4234e5ec2bd8ca005acf0b1b40c24eb9c81baf09dfed1a2cf"
+  },
+  "confluence/export/manual-water.csv": {
+    "bytes": 19108,
+    "sha256": "de6e92e8704c63e3e4dd23e6e7ae7798b1abcc0297eb6b9ed5d83689c3cde272"
+  },
+  "confluence/export/parts-and-stock.csv": {
+    "bytes": 2587,
+    "sha256": "a82630abfab0e3ff57d1e36e1fd595585d0493b7050eef51f9e60e3356256cc1"
+  },
+  "confluence/export/WC01-A-Architecture_ONLY.schematic": {
+    "bytes": 20236,
+    "sha256": "c54ba8d7fe4c5ddebb6e460485e3f5a64c2236e6af9780168d1aa8e9998d7fa4"
+  },
+  "confluence/export/WC01-A-blueprints.zip": {
+    "bytes": 384307,
+    "sha256": "d3a9fc79a17dd45297b50279b01f1ebdbe8d935b24314352e81e1c0ac7d69504"
+  },
+  "confluence/export/WC01-A-coordinates.csv.gz": {
+    "bytes": 78018,
+    "sha256": "78ac27e746ffa3bc78a6ce7655f459a01218e66a76eb1272c33471c4c23b040f"
+  },
+  "confluence/index.html": {
+    "bytes": 9408,
+    "sha256": "124eaf273602c3ebbbfee3848662065113fe7294b80b760e71fae75adccdfc29"
+  },
+  "confluence/inspector-models.js": {
+    "bytes": 608,
+    "sha256": "a0295f23b3d812d35664719947963b1acb46c83c486335f0b08d12ca07e9831a"
+  },
+  "confluence/installed-swatches.png": {
+    "bytes": 68988,
+    "sha256": "73fb8981a7637f56ce8750945889b3bde343a0ec56ac470e6fa6caa983f389a0"
+  },
+  "confluence/model-provenance.md": {
+    "bytes": 1336,
+    "sha256": "2037af47a3773f709b8e119928e714f1e6a289747302e4ce24ae919395ff6135"
+  },
+  "confluence/palette-check.json": {
+    "bytes": 14071,
+    "sha256": "9a8223165d7e36e1bc2f64da6073e87222fbce5c560a467d5ff7d5508addb3c5"
+  },
+  "confluence/panorama-checks.json": {
+    "bytes": 7605,
+    "sha256": "344ee7c9a549603328d861908380eaf3566380faed543aed7adf601a20b61ff3"
+  },
+  "confluence/panorama-record.json": {
+    "bytes": 6214,
+    "sha256": "c5d0124965de99bafd24a1ebe5b28ab735392547d8d861f69040e86eb2024095"
+  },
+  "confluence/panorama.webp": {
+    "bytes": 3654556,
+    "sha256": "6f6cbe50c98e201906564b6bfdb4b545428b09c77a7744943739446f799c52db"
+  },
+  "confluence/promenade-palette-art.webp": {
+    "bytes": 2301474,
+    "sha256": "de0e04f05d7622c097e18ee1114b1d1e7cae8b90f41e1b3ca0f0115447a1a5f0"
+  },
+  "confluence/promenade-record.json": {
+    "bytes": 5746,
+    "sha256": "5742c433b29498dbbace647731bafebd58647dfb1269016970838eee230e3e19"
+  },
+  "confluence/promenade.css": {
+    "bytes": 4434,
+    "sha256": "6fbd7e46f07e8c4f5278170ca4e086bd4f398027c160ded5d09c0dabf6f8c729"
+  },
+  "confluence/promenade.webp": {
+    "bytes": 1706848,
+    "sha256": "e6859dfbb07756b4d8a649d8087b80c270c250c5704196d9a7d79167171ca601"
+  },
+  "confluence/reference-identity.json": {
+    "bytes": 1630,
+    "sha256": "6997d30c178e4b4989eca846986e9a83eb16cb76f66f6131b7ce1f3200aa5191"
+  },
+  "confluence/render-checks.json": {
+    "bytes": 8187,
+    "sha256": "93230e4be9b0bdeb397a6d1afc4a3f02feb6fcc71e6d3fa946f3fb1ccc1155f9"
+  },
+  "confluence/river-record.json": {
+    "bytes": 5759,
+    "sha256": "9473a83bf4405ccee95d40ebdf4518e1628d310181828e84b8c8b5bf5f1eed10"
+  },
+  "confluence/river.webp": {
+    "bytes": 2061798,
+    "sha256": "c81cde2d432fc44ca6baf8c8d302d62df1fb68fce9b40b312e0608db657f4f52"
+  },
+  "confluence/style.md": {
+    "bytes": 8093,
+    "sha256": "abf0ff76f88036a9c64982031a10d53ad6b65d895359a38770ab63bf9b026763"
+  },
+  "confluence/WC01-A.js": {
+    "bytes": 36512,
+    "sha256": "5d507b246ed9c50655a0b83c890593c49d62deee9dc1d938bbee130471e67f27"
+  },
+  "confluence/WC01-A.json.gz": {
+    "bytes": 27317,
+    "sha256": "4e452829513f09f4821ee3e9f81371122a3678a07878e55461ff54476b509bfe"
+  },
+  "confluence/WC01-clearance.json": {
+    "bytes": 7450,
+    "sha256": "48a4f9cf4e67edd8f520438bfed802557f875938131f3bb6e3d44c5d97abf3a6"
+  },
+  "confluence/WC01-guide.json": {
+    "bytes": 15917,
+    "sha256": "78adbeb941920f4b7aed6d1e0999baa80d99fea3b4866fc3b46cf4d7b5babba4"
+  },
+  "confluence/WC01-vista-guide.json.gz": {
+    "bytes": 779,
+    "sha256": "bc05615e57698159d4e5ab3126b6c75579ccec3281bf60a7397833ea19a2ae09"
+  },
+  "confluence/WC01-vista.json.gz": {
+    "bytes": 423466,
+    "sha256": "e5e94681108fa9ded22612ac9d0907a82e501a331f0e9926180c37aee67ba5cc"
+  },
+  "confluence/WC01.js": {
+    "bytes": 92898,
+    "sha256": "4a54842db52b16576079fd786fe914ab6060e82ae4278072476838bc1cdb09e9"
+  },
+  "confluence/WC01.json.gz": {
+    "bytes": 69608,
+    "sha256": "f5fa71f2c856a3958137829872813991959b215c04cabb8c049632761bb28a65"
   }
 }

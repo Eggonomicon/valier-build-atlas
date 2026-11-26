@@ -1,0 +1,59 @@
+{
+  "status": "pass",
+  "scene_sha256": "e442246c340d6cee1309fd868a42ed743b22c446c9021be93e34c6392b029478",
+  "architecture_source_sha256": "ddb4c5b9f446007f524c02ad4c076ef76316e662d9878acdb339af41590af571",
+  "source_minimum_xyz": [
+    3,
+    -8,
+    0
+  ],
+  "source_maximum_xyz": [
+    109,
+    32,
+    75
+  ],
+  "clipboard_dimensions_xyz": [
+    107,
+    41,
+    76
+  ],
+  "WE_origin_xyz": [
+    0,
+    0,
+    0
+  ],
+  "WE_offset_xyz": [
+    0,
+    0,
+    0
+  ],
+  "occupied_hosts": 21748,
+  "architecture_host_counts": {
+    "cube": 19102,
+    "multipart": 1914,
+    "individual_microparts": 2035,
+    "architecture": 732
+  },
+  "tile_entities": 2646,
+  "entities": 0,
+  "functional_equipment": 0,
+  "matched_parts_stock_rows": 39,
+  "matched_coordinates": 21748,
+  "matched_vector_layer_sheets": 41,
+  "matched_vector_host_glyphs": 21748,
+  "reserved_empty_hosts": 6818,
+  "separately_counted_water_sources": 684,
+  "masked_scenic_terrain_hosts": 157772,
+  "containment_check": "Verified floor and four lateral neighbors for every manual water source.",
+  "game_import_tested": false,
+  "recipes_cutting_yield_checked": false,
+  "crafting_bill": null,
+  "sha256": {
+    "BUILD.md": "c67fac185f1d87dfa4b75564fdd6163d679c763b064975f77d7daa7dfcdbb0df",
+    "manual-water.csv": "de6e92e8704c63e3e4dd23e6e7ae7798b1abcc0297eb6b9ed5d83689c3cde272",
+    "parts-and-stock.csv": "a82630abfab0e3ff57d1e36e1fd595585d0493b7050eef51f9e60e3356256cc1",
+    "WC01-A-Architecture_ONLY.schematic": "c54ba8d7fe4c5ddebb6e460485e3f5a64c2236e6af9780168d1aa8e9998d7fa4",
+    "WC01-A-blueprints.zip": "d3a9fc79a17dd45297b50279b01f1ebdbe8d935b24314352e81e1c0ac7d69504",
+    "WC01-A-coordinates.csv.gz": "78ac27e746ffa3bc78a6ce7655f459a01218e66a76eb1272c33471c4c23b040f"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "model": "WC01",
+  "model_sha256": "e442246c340d6cee1309fd868a42ed743b22c446c9021be93e34c6392b029478",
+  "palette_sha256": "9bb7ca636c6b8404def19492431f8eac7340548d339d4058a6bf1dffb97511eb",
+  "renderer_sha256": "c9348f2996395e34d65f7a3abadcc2165c4bf66e5935a93f736740ea5442464c",
+  "fmp_geometry_sha256": "abbeb2a05cb79dee290b62c454897c037260cdd0c5fceace786c369f5e7daee0",
+  "ctm_spec_sha256": "2f13b6628c39b15cf7faaf250faa2da744f7077d7312873380002c58dea927a8",
+  "source_mesh_sha256": {
+    "17": "5665b32644fffbbd44ff68708b193b937a2cdafe89aaea39ed5f7382ee425f1d",
+    "18": "a3b1aa8817c96a568baf1d3f72808f89b69bcc0a4aa1b40fa4179d9f436dbd07",
+    "27": "0331c579ffe7e5f26fe02075276baf8fe1bf67d5c32994322f8f5605914f113c",
+    "56": "63e251970f117fd16a6591b44cb4e284f2528ab4c177cec2dc46eb9fda9560ab"
+  },
+  "textures_sha256": {
+    "textures/canyon-clay.png": "df173b43cbff5d10d27084d1329e5385297455b57f8230eb5f2e0bf6d1855c45",
+    "textures/F-top-display.png": "581e1df8d3ae4158e8c75ae504fa0f4b6a4bfd6c95802c18bcea02444158236a",
+    "textures/canyon-grass-top.png": "73872373d58821c625f45f3a197200e4fe0bc9ccfa50cc5cdfa3f34beecc99db",
+    "textures/audit-a-water0-display.png": "be42a57230a978bf850b5adb2252d859731e7fef3f2f3662c7c93302f6dcfedc",
+    "textures/canyon-grass-side.png": "df2f5d2a330d199365c7bdac97c42a17e2dcd6587b6cb2b731c58ec81fc61747",
+    "textures/canyon-jungle-leaves.png": "57ebdbcf666ee0f2d6cb0a5dd5c6feac770c465ec52a9d93f3e8d9a66839b50e",
+    "textures/f-display.png": "23107e3bdba38482e5faefacdb22483753fb9a05bb86be07042b4044acbb2a43",
+    "textures/refined-korp14.png": "c9b79010c88874087d225ad5c7e59e321c2aad18543369f6bbf3ef344caa81a9",
+    "textures/E-top-display.png": "3003f7590e172b9afd61ced4ae3a512044c1be2a51482be85d971760578bf481",
+    "textures/refined-agon13.png": "0ea5815d8c9a0f14c8dc1669da535102fff15a4248830aa41ac1d675bb769431",
+    "textures/refined-agon15.png": "aeecafe43dfbe0c495f366ca180b2d757bfeeda3448051534e00384faf874641",
+    "textures/canyon-jungle-log.png": "4081d103171dc4f62712e55d79581cf718059a2a11db8728de31fb49c8887daf",
+    "textures/ctm/G-0.png": "497e1bcb8e96c39506d7b9d24b2873c74f99ab74f5889d660645e8941945e049",
+    "textures/refined-agon0.png": "14bd7f04a892268ccc09cd369e22cc63468b765f55be8ce1a75fd8633ed04493",
+    "textures/ctm/G-1.png": "3a19fc192bfda02a052ee646ae838d6bb42eeefd7196a474e8a5b905b5df16e9",
+    "textures/ctm/G-4.png": "17a6b99e3f67d998e11ff15d75665707babb9cf9bf0d342ad6a69c0c003b8bfc",
+    "textures/ctm/G-3.png": "b07959dbbd55314c63363e5fe8389a8487bfc6ccfc374f14a33c7cd0fe61c1e9",
+    "textures/ctm/G-6.png": "c0efa6fbb55a54fcc5acbfa63b2d0d5a3744b5ed3f7b0214d3e454929454475b",
+    "textures/ctm/G-5.png": "908774cb7973b4f7a6d9a47eec8cb1589b3f4854640ca88709eab19403e7a9f4",
+    "textures/ctm/G-2.png": "bf5defe34e89e4bd7836b68336970d789a06b7e1e6c28e15588054ebfc486320",
+    "textures/V-top-display.png": "086b13778c8222a194d1797a777f3ab8dc822f919fb8f351757c50eb11d1f059",
+    "textures/canyon-jungle-log-top.png": "6c17c9cefec53bf87e6d603fccc2e0d65e23698e75e587d545b4878d06442a35",
+    "textures/slab-bottom-top-display.png": "d9ef4876bf3a0c707b6de7ee62caa501830e95fc8b906bb89f6ebf425b36e140",
+    "textures/slab-bottom-side-display.png": "eb9e9cc1f1692a95eb1c7006619b2dfb7147d2ff3290f513b80a2172c322590d",
+    "textures/ctm/G-8.png": "a9a2ab09a285549520294f22501b8f4766f2a6813a54f306b4d228a2e9dd1b56",
+    "textures/ctm/G-7.png": "50987545705cea070c46be3556e7b4744615a8f772a917ee9bc2a6f60e9c7b3b",
+    "textures/ctm/G-11.png": "f494aa7bc5e16010f2be01ab492142f967707f53ab352bf47953376b84d32ba4",
+    "textures/T-side-display.png": "bd78c5d3fbfd0548ceef61769ac10930b1a95c69bf0e46ff1a220333c788fedd",
+    "textures/ctm/G-14.png": "5442e702f497c0a02ce245fd5d44f337e785dbb59705f6ef117da0de0c57dfb0",
+    "textures/ctm/G-13.png": "1989472c1f52bb7c38e9ba58a1c5dda080c4c3ca78a518883b2a6d670a5dcc2d",
+    "textures/ctm/G-15.png": "286e36416666e564cce39a8aabd9aa63685a640b0dad31b1bc5f08db36675764",
+    "textures/T-top-display.png": "513aa7439410ecc108da975acd6fde923525e5216d42df1f80cb38543a52c8a1",
+    "textures/ctm/G-10.png": "b410961261283ac0ae6b66ec8a5f45da9d70d38eced32c70a36701bb60116062",
+    "textures/ctm/G-9.png": "84c82654314b7433bdc3a57190d4469d99b02bf8da837f527c8bb4dfd16a27ea",
+    "textures/ctm/G-12.png": "221c45ba1ef1ec2d257cbadaa20c1c7676b3391a6952050acfcde665134f461a",
+    "textures/refined-korp2.png": "326e9fc3b7760f4ebc2e7d245dd2d1ad346e55a8b93949f9fbafc2b79ffbe5e8",
+    "textures/N-top-display.png": "bdb9d74534c68b454deb8f2345c00055351e02e7a96508a0b78a192a7812c9b3",
+    "textures/W-top-display.png": "b1053f89bb82a79f8d33fe961fb79364943688d6fa733b1de98be88f04359cbb"
+  },
+  "geometry_counts": {
+    "ordinary_hosts": 177558,
+    "native_hosts": 2646,
+    "display_faces": 133492
+  },
+  "camera": {
+    "position": [
+      84,
+      1,
+      71
+    ],
+    "target": [
+      69,
+      1,
+      35
+    ],
+    "lens": 24,
+    "ratio": 0.625,
+    "description": "Looking north-northwest along the channel past the lower court and retaining edge toward the glazed bridge."
+  },
+  "blender": "5.1.2",
+  "cycles": "OPTIX",
+  "samples": 42,
+  "pixels": [
+    1900,
+    1188
+  ],
+  "lighting": "Illustrative morning sunlight and sky, AgX; thin-sheet reflective glazing, still-water first-frame albedo, installed sample-climate foliage. No image repainting.",
+  "scope": "Complete local coordinate model, including proposed terrain. Section display uses a neutral matte studio floor below the model when enabled in camera settings. Offline architectural rendering.",
+  "game_screenshot": false,
+  "image_sha256": "dcae47553688440c48a84223e7c3c09a18dac0deefa28795d2c93108c326d76c"
+}
