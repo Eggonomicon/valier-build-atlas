@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "counts": {
+    "surface": 40,
+    "crew_thresholds": 41,
+    "known_room_hosts": 152264,
+    "terrace_landings": 41,
+    "dry_cover_screens": 41,
+    "mesa": 41,
+    "parallel_candidates": 18
+  },
+  "scope": "Source and coordinate reconciliation in the measured preview. No cave, game or fit-out test."
+}

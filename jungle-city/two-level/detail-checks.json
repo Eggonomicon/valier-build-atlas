@@ -1,0 +1,33 @@
+{
+  "status": "pass",
+  "images": {
+    "detail-frontage": {
+      "png_sha256": "53d883f0d13fce0f2ec720b1012cf561b12556514d174363d115bfb286dc230f",
+      "webp_sha256": "86dd5b215d71ae24e1b1cd10ea154760de808ea519536a8e9bb64931c4333e2f",
+      "model_sha256": "bd154f817eafa33b90b000a21cda1dbb15ca4a4add940d7b1a252206687877de",
+      "encoding": "WebP quality 94",
+      "width_height": [
+        1250,
+        833
+      ],
+      "bytes": 128608
+    },
+    "detail-arcade": {
+      "png_sha256": "3a78bfae0eacb463865e0984191cb43acfd37217300db2b74a7aebfa83ce8ca9",
+      "webp_sha256": "f48a6d5ea1182c17bf597f385a8a680dd1f81ec014a169d4f3706ddfd5befbe1",
+      "model_sha256": "bd154f817eafa33b90b000a21cda1dbb15ca4a4add940d7b1a252206687877de",
+      "encoding": "WebP quality 94",
+      "width_height": [
+        1250,
+        833
+      ],
+      "bytes": 102088
+    }
+  },
+  "installed_texture_audit_sha256": "c7815a99ab362983d04212312b26154a8b52823fd0087add71c877204986e070",
+  "frontage_pack_sha256": "1828ee1a6a684bda3d040a609b11f43c333079030812e97512c1bba0702ddc6b",
+  "frontage_facings": 4,
+  "scene_hosts": 113640,
+  "game_screenshot": false,
+  "game_runtime_test": false
+}
