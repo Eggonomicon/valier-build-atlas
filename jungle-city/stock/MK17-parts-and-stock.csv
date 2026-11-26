@@ -1,0 +1,3 @@
+kind,role,block_registry,base_metadata,shape_id_or_size_eighths,placed_items_or_parts,quantity_type
+cube,K,Ztones:tile.agonBlock,13,13,63,placed item
+cube,L,Ztones:tile.agonBlock,0,0,9,placed item

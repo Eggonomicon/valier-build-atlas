@@ -1,0 +1,10 @@
+kind,role,block_registry,base_metadata,shape_id_or_size_eighths,placed_items_or_parts,quantity_type
+architecture,L,Ztones:tile.agonBlock,0,56,32,sawbench shape item
+cube,F,minecraft:stonebrick,0,0,128,placed item
+cube,G,TConstruct:GlassBlock.StainedClear,3,3,32,placed item
+cube,P,Ztones:tile.agonBlock,15,15,68,placed item
+cube,R,Ztones:tile.agonBlock,13,13,24,placed item
+mcr_edge,N,ExtraUtilities:greenscreen,9,1,4,cut micropart; not one full block
+mcr_face,P,Ztones:tile.agonBlock,15,4,24,cut micropart; not one full block
+mcr_face,P,Ztones:tile.agonBlock,15,7,4,cut micropart; not one full block
+mcr_face,R,Ztones:tile.agonBlock,13,4,8,cut micropart; not one full block

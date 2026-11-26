@@ -1,0 +1,9732 @@
+[
+  {
+    "plot": "01-01",
+    "city": [
+      52,
+      15,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-01",
+    "city": [
+      53,
+      15,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-01",
+    "city": [
+      54,
+      15,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-01",
+    "city": [
+      55,
+      15,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-01",
+    "city": [
+      56,
+      15,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-01",
+    "city": [
+      52,
+      15,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-01",
+    "city": [
+      53,
+      15,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-01",
+    "city": [
+      54,
+      15,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-01",
+    "city": [
+      55,
+      15,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-01",
+    "city": [
+      56,
+      15,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-01",
+    "city": [
+      52,
+      15,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-01",
+    "city": [
+      53,
+      15,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-01",
+    "city": [
+      54,
+      15,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-01",
+    "city": [
+      55,
+      15,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-02",
+    "city": [
+      148,
+      13,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-02",
+    "city": [
+      149,
+      13,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-02",
+    "city": [
+      150,
+      13,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-02",
+    "city": [
+      151,
+      13,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-02",
+    "city": [
+      152,
+      13,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-02",
+    "city": [
+      148,
+      13,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-02",
+    "city": [
+      149,
+      13,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-02",
+    "city": [
+      150,
+      13,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-02",
+    "city": [
+      151,
+      13,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-02",
+    "city": [
+      152,
+      13,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-02",
+    "city": [
+      148,
+      13,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-02",
+    "city": [
+      149,
+      13,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-02",
+    "city": [
+      150,
+      13,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-02",
+    "city": [
+      151,
+      13,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-03",
+    "city": [
+      244,
+      11,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-03",
+    "city": [
+      245,
+      11,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-03",
+    "city": [
+      246,
+      11,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-03",
+    "city": [
+      247,
+      11,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-03",
+    "city": [
+      248,
+      11,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-03",
+    "city": [
+      244,
+      11,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-03",
+    "city": [
+      245,
+      11,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-03",
+    "city": [
+      246,
+      11,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-03",
+    "city": [
+      247,
+      11,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-03",
+    "city": [
+      248,
+      11,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-03",
+    "city": [
+      244,
+      11,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-03",
+    "city": [
+      245,
+      11,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-03",
+    "city": [
+      246,
+      11,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-03",
+    "city": [
+      247,
+      11,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-04",
+    "city": [
+      340,
+      9,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-04",
+    "city": [
+      341,
+      9,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-04",
+    "city": [
+      342,
+      9,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-04",
+    "city": [
+      343,
+      9,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-04",
+    "city": [
+      344,
+      9,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-04",
+    "city": [
+      340,
+      9,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-04",
+    "city": [
+      341,
+      9,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-04",
+    "city": [
+      342,
+      9,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-04",
+    "city": [
+      343,
+      9,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-04",
+    "city": [
+      344,
+      9,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-04",
+    "city": [
+      340,
+      9,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-04",
+    "city": [
+      341,
+      9,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-04",
+    "city": [
+      342,
+      9,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-04",
+    "city": [
+      343,
+      9,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-05",
+    "city": [
+      436,
+      0,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-05",
+    "city": [
+      437,
+      0,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-05",
+    "city": [
+      438,
+      0,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-05",
+    "city": [
+      439,
+      0,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-05",
+    "city": [
+      440,
+      0,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-05",
+    "city": [
+      436,
+      0,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-05",
+    "city": [
+      437,
+      0,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-05",
+    "city": [
+      438,
+      0,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-05",
+    "city": [
+      439,
+      0,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-05",
+    "city": [
+      440,
+      0,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-05",
+    "city": [
+      436,
+      0,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-05",
+    "city": [
+      437,
+      0,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-05",
+    "city": [
+      438,
+      0,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-05",
+    "city": [
+      439,
+      0,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-06",
+    "city": [
+      532,
+      0,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-06",
+    "city": [
+      533,
+      0,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-06",
+    "city": [
+      534,
+      0,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-06",
+    "city": [
+      535,
+      0,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-06",
+    "city": [
+      536,
+      0,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-06",
+    "city": [
+      532,
+      0,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-06",
+    "city": [
+      533,
+      0,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-06",
+    "city": [
+      534,
+      0,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-06",
+    "city": [
+      535,
+      0,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-06",
+    "city": [
+      536,
+      0,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-06",
+    "city": [
+      532,
+      0,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-06",
+    "city": [
+      533,
+      0,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-06",
+    "city": [
+      534,
+      0,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-06",
+    "city": [
+      535,
+      0,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-07",
+    "city": [
+      628,
+      7,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-07",
+    "city": [
+      629,
+      7,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-07",
+    "city": [
+      630,
+      7,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-07",
+    "city": [
+      631,
+      7,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-07",
+    "city": [
+      632,
+      7,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-07",
+    "city": [
+      628,
+      7,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-07",
+    "city": [
+      629,
+      7,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-07",
+    "city": [
+      630,
+      7,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-07",
+    "city": [
+      631,
+      7,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-07",
+    "city": [
+      632,
+      7,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-07",
+    "city": [
+      628,
+      7,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-07",
+    "city": [
+      629,
+      7,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-07",
+    "city": [
+      630,
+      7,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-07",
+    "city": [
+      631,
+      7,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-08",
+    "city": [
+      724,
+      9,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-08",
+    "city": [
+      725,
+      9,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-08",
+    "city": [
+      726,
+      9,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-08",
+    "city": [
+      727,
+      9,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-08",
+    "city": [
+      728,
+      9,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-08",
+    "city": [
+      724,
+      9,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-08",
+    "city": [
+      725,
+      9,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-08",
+    "city": [
+      726,
+      9,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-08",
+    "city": [
+      727,
+      9,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-08",
+    "city": [
+      728,
+      9,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-08",
+    "city": [
+      724,
+      9,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-08",
+    "city": [
+      725,
+      9,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-08",
+    "city": [
+      726,
+      9,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-08",
+    "city": [
+      727,
+      9,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-09",
+    "city": [
+      820,
+      13,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-09",
+    "city": [
+      821,
+      13,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-09",
+    "city": [
+      822,
+      13,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-09",
+    "city": [
+      823,
+      13,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-09",
+    "city": [
+      824,
+      13,
+      24
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-09",
+    "city": [
+      820,
+      13,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-09",
+    "city": [
+      821,
+      13,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-09",
+    "city": [
+      822,
+      13,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-09",
+    "city": [
+      823,
+      13,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-09",
+    "city": [
+      824,
+      13,
+      25
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-09",
+    "city": [
+      820,
+      13,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-09",
+    "city": [
+      821,
+      13,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-09",
+    "city": [
+      822,
+      13,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "01-09",
+    "city": [
+      823,
+      13,
+      26
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-01",
+    "city": [
+      52,
+      12,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-01",
+    "city": [
+      53,
+      12,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-01",
+    "city": [
+      54,
+      12,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-01",
+    "city": [
+      55,
+      12,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-01",
+    "city": [
+      56,
+      12,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-01",
+    "city": [
+      52,
+      12,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-01",
+    "city": [
+      53,
+      12,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-01",
+    "city": [
+      54,
+      12,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-01",
+    "city": [
+      55,
+      12,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-01",
+    "city": [
+      56,
+      12,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-01",
+    "city": [
+      52,
+      12,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-01",
+    "city": [
+      53,
+      12,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-01",
+    "city": [
+      54,
+      12,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-01",
+    "city": [
+      55,
+      12,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-02",
+    "city": [
+      148,
+      12,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-02",
+    "city": [
+      149,
+      12,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-02",
+    "city": [
+      150,
+      12,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-02",
+    "city": [
+      151,
+      12,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-02",
+    "city": [
+      152,
+      12,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-02",
+    "city": [
+      148,
+      12,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-02",
+    "city": [
+      149,
+      12,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-02",
+    "city": [
+      150,
+      12,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-02",
+    "city": [
+      151,
+      12,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-02",
+    "city": [
+      152,
+      12,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-02",
+    "city": [
+      148,
+      12,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-02",
+    "city": [
+      149,
+      12,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-02",
+    "city": [
+      150,
+      12,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-02",
+    "city": [
+      151,
+      12,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-03",
+    "city": [
+      244,
+      9,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-03",
+    "city": [
+      245,
+      9,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-03",
+    "city": [
+      246,
+      9,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-03",
+    "city": [
+      247,
+      9,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-03",
+    "city": [
+      248,
+      9,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-03",
+    "city": [
+      244,
+      9,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-03",
+    "city": [
+      245,
+      9,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-03",
+    "city": [
+      246,
+      9,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-03",
+    "city": [
+      247,
+      9,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-03",
+    "city": [
+      248,
+      9,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-03",
+    "city": [
+      244,
+      9,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-03",
+    "city": [
+      245,
+      9,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-03",
+    "city": [
+      246,
+      9,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-03",
+    "city": [
+      247,
+      9,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-04",
+    "city": [
+      340,
+      7,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-04",
+    "city": [
+      341,
+      7,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-04",
+    "city": [
+      342,
+      7,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-04",
+    "city": [
+      343,
+      7,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-04",
+    "city": [
+      344,
+      7,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-04",
+    "city": [
+      340,
+      7,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-04",
+    "city": [
+      341,
+      7,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-04",
+    "city": [
+      342,
+      7,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-04",
+    "city": [
+      343,
+      7,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-04",
+    "city": [
+      344,
+      7,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-04",
+    "city": [
+      340,
+      7,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-04",
+    "city": [
+      341,
+      7,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-04",
+    "city": [
+      342,
+      7,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-04",
+    "city": [
+      343,
+      7,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-05",
+    "city": [
+      436,
+      8,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-05",
+    "city": [
+      437,
+      8,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-05",
+    "city": [
+      438,
+      8,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-05",
+    "city": [
+      439,
+      8,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-05",
+    "city": [
+      440,
+      8,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-05",
+    "city": [
+      436,
+      8,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-05",
+    "city": [
+      437,
+      8,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-05",
+    "city": [
+      438,
+      8,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-05",
+    "city": [
+      439,
+      8,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-05",
+    "city": [
+      440,
+      8,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-05",
+    "city": [
+      436,
+      8,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-05",
+    "city": [
+      437,
+      8,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-05",
+    "city": [
+      438,
+      8,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-05",
+    "city": [
+      439,
+      8,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-06",
+    "city": [
+      532,
+      11,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-06",
+    "city": [
+      533,
+      11,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-06",
+    "city": [
+      534,
+      11,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-06",
+    "city": [
+      535,
+      11,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-06",
+    "city": [
+      536,
+      11,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-06",
+    "city": [
+      532,
+      11,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-06",
+    "city": [
+      533,
+      11,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-06",
+    "city": [
+      534,
+      11,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-06",
+    "city": [
+      535,
+      11,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-06",
+    "city": [
+      536,
+      11,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-06",
+    "city": [
+      532,
+      11,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-06",
+    "city": [
+      533,
+      11,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-06",
+    "city": [
+      534,
+      11,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-06",
+    "city": [
+      535,
+      11,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-07",
+    "city": [
+      628,
+      7,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-07",
+    "city": [
+      629,
+      7,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-07",
+    "city": [
+      630,
+      7,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-07",
+    "city": [
+      631,
+      7,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-07",
+    "city": [
+      632,
+      7,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-07",
+    "city": [
+      628,
+      7,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-07",
+    "city": [
+      629,
+      7,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-07",
+    "city": [
+      630,
+      7,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-07",
+    "city": [
+      631,
+      7,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-07",
+    "city": [
+      632,
+      7,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-07",
+    "city": [
+      628,
+      7,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-07",
+    "city": [
+      629,
+      7,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-07",
+    "city": [
+      630,
+      7,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-07",
+    "city": [
+      631,
+      7,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-08",
+    "city": [
+      724,
+      7,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-08",
+    "city": [
+      725,
+      7,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-08",
+    "city": [
+      726,
+      7,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-08",
+    "city": [
+      727,
+      7,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-08",
+    "city": [
+      728,
+      7,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-08",
+    "city": [
+      724,
+      7,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-08",
+    "city": [
+      725,
+      7,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-08",
+    "city": [
+      726,
+      7,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-08",
+    "city": [
+      727,
+      7,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-08",
+    "city": [
+      728,
+      7,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-08",
+    "city": [
+      724,
+      7,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-08",
+    "city": [
+      725,
+      7,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-08",
+    "city": [
+      726,
+      7,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-08",
+    "city": [
+      727,
+      7,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-09",
+    "city": [
+      820,
+      19,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-09",
+    "city": [
+      821,
+      19,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-09",
+    "city": [
+      822,
+      19,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-09",
+    "city": [
+      823,
+      19,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-09",
+    "city": [
+      824,
+      19,
+      120
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-09",
+    "city": [
+      820,
+      19,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-09",
+    "city": [
+      821,
+      19,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-09",
+    "city": [
+      822,
+      19,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-09",
+    "city": [
+      823,
+      19,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-09",
+    "city": [
+      824,
+      19,
+      121
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-09",
+    "city": [
+      820,
+      19,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-09",
+    "city": [
+      821,
+      19,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-09",
+    "city": [
+      822,
+      19,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "02-09",
+    "city": [
+      823,
+      19,
+      122
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-01",
+    "city": [
+      52,
+      11,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-01",
+    "city": [
+      53,
+      11,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-01",
+    "city": [
+      54,
+      11,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-01",
+    "city": [
+      55,
+      11,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-01",
+    "city": [
+      56,
+      11,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-01",
+    "city": [
+      52,
+      11,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-01",
+    "city": [
+      53,
+      11,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-01",
+    "city": [
+      54,
+      11,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-01",
+    "city": [
+      55,
+      11,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-01",
+    "city": [
+      56,
+      11,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-01",
+    "city": [
+      52,
+      11,
+      218
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-01",
+    "city": [
+      53,
+      11,
+      218
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-01",
+    "city": [
+      54,
+      11,
+      218
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-01",
+    "city": [
+      55,
+      11,
+      218
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-02",
+    "city": [
+      148,
+      10,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-02",
+    "city": [
+      149,
+      10,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-02",
+    "city": [
+      150,
+      10,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-02",
+    "city": [
+      151,
+      10,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-02",
+    "city": [
+      152,
+      10,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-02",
+    "city": [
+      148,
+      10,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-02",
+    "city": [
+      149,
+      10,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-02",
+    "city": [
+      150,
+      10,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-02",
+    "city": [
+      151,
+      10,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-02",
+    "city": [
+      152,
+      10,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-02",
+    "city": [
+      148,
+      10,
+      218
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-02",
+    "city": [
+      149,
+      10,
+      218
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-02",
+    "city": [
+      150,
+      10,
+      218
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-02",
+    "city": [
+      151,
+      10,
+      218
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-03",
+    "city": [
+      244,
+      6,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-03",
+    "city": [
+      245,
+      6,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-03",
+    "city": [
+      246,
+      6,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-03",
+    "city": [
+      247,
+      6,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-03",
+    "city": [
+      248,
+      6,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-03",
+    "city": [
+      244,
+      6,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-03",
+    "city": [
+      245,
+      6,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-03",
+    "city": [
+      246,
+      6,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-03",
+    "city": [
+      247,
+      6,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-03",
+    "city": [
+      248,
+      6,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-03",
+    "city": [
+      244,
+      6,
+      218
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-03",
+    "city": [
+      245,
+      6,
+      218
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-03",
+    "city": [
+      246,
+      6,
+      218
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-03",
+    "city": [
+      247,
+      6,
+      218
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-04",
+    "city": [
+      340,
+      2,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-04",
+    "city": [
+      341,
+      2,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-04",
+    "city": [
+      342,
+      2,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-04",
+    "city": [
+      343,
+      2,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-04",
+    "city": [
+      344,
+      2,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-04",
+    "city": [
+      340,
+      2,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-04",
+    "city": [
+      341,
+      2,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-04",
+    "city": [
+      342,
+      2,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-04",
+    "city": [
+      343,
+      2,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-04",
+    "city": [
+      344,
+      2,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-04",
+    "city": [
+      340,
+      2,
+      218
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-04",
+    "city": [
+      341,
+      2,
+      218
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-04",
+    "city": [
+      342,
+      2,
+      218
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-04",
+    "city": [
+      343,
+      2,
+      218
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-05",
+    "city": [
+      436,
+      7,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-05",
+    "city": [
+      437,
+      7,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-05",
+    "city": [
+      438,
+      7,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-05",
+    "city": [
+      439,
+      7,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-05",
+    "city": [
+      440,
+      7,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-05",
+    "city": [
+      436,
+      7,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-05",
+    "city": [
+      437,
+      7,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-05",
+    "city": [
+      438,
+      7,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-05",
+    "city": [
+      439,
+      7,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-05",
+    "city": [
+      440,
+      7,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-05",
+    "city": [
+      436,
+      7,
+      218
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-05",
+    "city": [
+      437,
+      7,
+      218
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-05",
+    "city": [
+      438,
+      7,
+      218
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-05",
+    "city": [
+      439,
+      7,
+      218
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-06",
+    "city": [
+      532,
+      12,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-06",
+    "city": [
+      533,
+      12,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-06",
+    "city": [
+      534,
+      12,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-06",
+    "city": [
+      535,
+      12,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-06",
+    "city": [
+      536,
+      12,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-06",
+    "city": [
+      532,
+      12,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-06",
+    "city": [
+      533,
+      12,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-06",
+    "city": [
+      534,
+      12,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-06",
+    "city": [
+      535,
+      12,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-06",
+    "city": [
+      536,
+      12,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-06",
+    "city": [
+      532,
+      12,
+      218
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-06",
+    "city": [
+      533,
+      12,
+      218
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-06",
+    "city": [
+      534,
+      12,
+      218
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-06",
+    "city": [
+      535,
+      12,
+      218
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-07",
+    "city": [
+      628,
+      10,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-07",
+    "city": [
+      629,
+      10,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-07",
+    "city": [
+      630,
+      10,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-07",
+    "city": [
+      631,
+      10,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-07",
+    "city": [
+      632,
+      10,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-07",
+    "city": [
+      628,
+      10,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-07",
+    "city": [
+      629,
+      10,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-07",
+    "city": [
+      630,
+      10,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-07",
+    "city": [
+      631,
+      10,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-07",
+    "city": [
+      632,
+      10,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-07",
+    "city": [
+      628,
+      10,
+      218
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-07",
+    "city": [
+      629,
+      10,
+      218
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-07",
+    "city": [
+      630,
+      10,
+      218
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-07",
+    "city": [
+      631,
+      10,
+      218
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-08",
+    "city": [
+      724,
+      6,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-08",
+    "city": [
+      725,
+      6,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-08",
+    "city": [
+      726,
+      6,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-08",
+    "city": [
+      727,
+      6,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-08",
+    "city": [
+      728,
+      6,
+      216
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-08",
+    "city": [
+      724,
+      6,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-08",
+    "city": [
+      725,
+      6,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-08",
+    "city": [
+      726,
+      6,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-08",
+    "city": [
+      727,
+      6,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-08",
+    "city": [
+      728,
+      6,
+      217
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-08",
+    "city": [
+      724,
+      6,
+      218
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-08",
+    "city": [
+      725,
+      6,
+      218
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-08",
+    "city": [
+      726,
+      6,
+      218
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "03-08",
+    "city": [
+      727,
+      6,
+      218
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-01",
+    "city": [
+      52,
+      1,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-01",
+    "city": [
+      53,
+      1,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-01",
+    "city": [
+      54,
+      1,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-01",
+    "city": [
+      55,
+      1,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-01",
+    "city": [
+      56,
+      1,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-01",
+    "city": [
+      52,
+      1,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-01",
+    "city": [
+      53,
+      1,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-01",
+    "city": [
+      54,
+      1,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-01",
+    "city": [
+      55,
+      1,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-01",
+    "city": [
+      56,
+      1,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-01",
+    "city": [
+      52,
+      1,
+      314
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-01",
+    "city": [
+      53,
+      1,
+      314
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-01",
+    "city": [
+      54,
+      1,
+      314
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-01",
+    "city": [
+      55,
+      1,
+      314
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-02",
+    "city": [
+      148,
+      -2,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-02",
+    "city": [
+      149,
+      -2,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-02",
+    "city": [
+      150,
+      -2,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-02",
+    "city": [
+      151,
+      -2,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-02",
+    "city": [
+      152,
+      -2,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-02",
+    "city": [
+      148,
+      -2,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-02",
+    "city": [
+      149,
+      -2,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-02",
+    "city": [
+      150,
+      -2,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-02",
+    "city": [
+      151,
+      -2,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-02",
+    "city": [
+      152,
+      -2,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-02",
+    "city": [
+      148,
+      -2,
+      314
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-02",
+    "city": [
+      149,
+      -2,
+      314
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-02",
+    "city": [
+      150,
+      -2,
+      314
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-02",
+    "city": [
+      151,
+      -2,
+      314
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-03",
+    "city": [
+      244,
+      3,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-03",
+    "city": [
+      245,
+      3,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-03",
+    "city": [
+      246,
+      3,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-03",
+    "city": [
+      247,
+      3,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-03",
+    "city": [
+      248,
+      3,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-03",
+    "city": [
+      244,
+      3,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-03",
+    "city": [
+      245,
+      3,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-03",
+    "city": [
+      246,
+      3,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-03",
+    "city": [
+      247,
+      3,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-03",
+    "city": [
+      248,
+      3,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-03",
+    "city": [
+      244,
+      3,
+      314
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-03",
+    "city": [
+      245,
+      3,
+      314
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-03",
+    "city": [
+      246,
+      3,
+      314
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-03",
+    "city": [
+      247,
+      3,
+      314
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-05",
+    "city": [
+      436,
+      8,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-05",
+    "city": [
+      437,
+      8,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-05",
+    "city": [
+      438,
+      8,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-05",
+    "city": [
+      439,
+      8,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-05",
+    "city": [
+      440,
+      8,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-05",
+    "city": [
+      436,
+      8,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-05",
+    "city": [
+      437,
+      8,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-05",
+    "city": [
+      438,
+      8,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-05",
+    "city": [
+      439,
+      8,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-05",
+    "city": [
+      440,
+      8,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-05",
+    "city": [
+      436,
+      8,
+      314
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-05",
+    "city": [
+      437,
+      8,
+      314
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-05",
+    "city": [
+      438,
+      8,
+      314
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-05",
+    "city": [
+      439,
+      8,
+      314
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-06",
+    "city": [
+      532,
+      1,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-06",
+    "city": [
+      533,
+      1,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-06",
+    "city": [
+      534,
+      1,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-06",
+    "city": [
+      535,
+      1,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-06",
+    "city": [
+      536,
+      1,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-06",
+    "city": [
+      532,
+      1,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-06",
+    "city": [
+      533,
+      1,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-06",
+    "city": [
+      534,
+      1,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-06",
+    "city": [
+      535,
+      1,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-06",
+    "city": [
+      536,
+      1,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-06",
+    "city": [
+      532,
+      1,
+      314
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-06",
+    "city": [
+      533,
+      1,
+      314
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-06",
+    "city": [
+      534,
+      1,
+      314
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-06",
+    "city": [
+      535,
+      1,
+      314
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-07",
+    "city": [
+      628,
+      -2,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-07",
+    "city": [
+      629,
+      -2,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-07",
+    "city": [
+      630,
+      -2,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-07",
+    "city": [
+      631,
+      -2,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-07",
+    "city": [
+      632,
+      -2,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-07",
+    "city": [
+      628,
+      -2,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-07",
+    "city": [
+      629,
+      -2,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-07",
+    "city": [
+      630,
+      -2,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-07",
+    "city": [
+      631,
+      -2,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-07",
+    "city": [
+      632,
+      -2,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-07",
+    "city": [
+      628,
+      -2,
+      314
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-07",
+    "city": [
+      629,
+      -2,
+      314
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-07",
+    "city": [
+      630,
+      -2,
+      314
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-07",
+    "city": [
+      631,
+      -2,
+      314
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-08",
+    "city": [
+      724,
+      -4,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-08",
+    "city": [
+      725,
+      -4,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-08",
+    "city": [
+      726,
+      -4,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-08",
+    "city": [
+      727,
+      -4,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-08",
+    "city": [
+      728,
+      -4,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-08",
+    "city": [
+      724,
+      -4,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-08",
+    "city": [
+      725,
+      -4,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-08",
+    "city": [
+      726,
+      -4,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-08",
+    "city": [
+      727,
+      -4,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-08",
+    "city": [
+      728,
+      -4,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-08",
+    "city": [
+      724,
+      -4,
+      314
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-08",
+    "city": [
+      725,
+      -4,
+      314
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-08",
+    "city": [
+      726,
+      -4,
+      314
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-08",
+    "city": [
+      727,
+      -4,
+      314
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-09",
+    "city": [
+      820,
+      1,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-09",
+    "city": [
+      821,
+      1,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-09",
+    "city": [
+      822,
+      1,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-09",
+    "city": [
+      823,
+      1,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-09",
+    "city": [
+      824,
+      1,
+      312
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-09",
+    "city": [
+      820,
+      1,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-09",
+    "city": [
+      821,
+      1,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-09",
+    "city": [
+      822,
+      1,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-09",
+    "city": [
+      823,
+      1,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-09",
+    "city": [
+      824,
+      1,
+      313
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-09",
+    "city": [
+      820,
+      1,
+      314
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-09",
+    "city": [
+      821,
+      1,
+      314
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-09",
+    "city": [
+      822,
+      1,
+      314
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "04-09",
+    "city": [
+      823,
+      1,
+      314
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-01",
+    "city": [
+      52,
+      13,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-01",
+    "city": [
+      53,
+      13,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-01",
+    "city": [
+      54,
+      13,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-01",
+    "city": [
+      55,
+      13,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-01",
+    "city": [
+      56,
+      13,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-01",
+    "city": [
+      52,
+      13,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-01",
+    "city": [
+      53,
+      13,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-01",
+    "city": [
+      54,
+      13,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-01",
+    "city": [
+      55,
+      13,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-01",
+    "city": [
+      56,
+      13,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-01",
+    "city": [
+      52,
+      13,
+      410
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-01",
+    "city": [
+      53,
+      13,
+      410
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-01",
+    "city": [
+      54,
+      13,
+      410
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-01",
+    "city": [
+      55,
+      13,
+      410
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-02",
+    "city": [
+      148,
+      10,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-02",
+    "city": [
+      149,
+      10,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-02",
+    "city": [
+      150,
+      10,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-02",
+    "city": [
+      151,
+      10,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-02",
+    "city": [
+      152,
+      10,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-02",
+    "city": [
+      148,
+      10,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-02",
+    "city": [
+      149,
+      10,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-02",
+    "city": [
+      150,
+      10,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-02",
+    "city": [
+      151,
+      10,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-02",
+    "city": [
+      152,
+      10,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-02",
+    "city": [
+      148,
+      10,
+      410
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-02",
+    "city": [
+      149,
+      10,
+      410
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-02",
+    "city": [
+      150,
+      10,
+      410
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-02",
+    "city": [
+      151,
+      10,
+      410
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-03",
+    "city": [
+      244,
+      15,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-03",
+    "city": [
+      245,
+      15,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-03",
+    "city": [
+      246,
+      15,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-03",
+    "city": [
+      247,
+      15,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-03",
+    "city": [
+      248,
+      15,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-03",
+    "city": [
+      244,
+      15,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-03",
+    "city": [
+      245,
+      15,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-03",
+    "city": [
+      246,
+      15,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-03",
+    "city": [
+      247,
+      15,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-03",
+    "city": [
+      248,
+      15,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-03",
+    "city": [
+      244,
+      15,
+      410
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-03",
+    "city": [
+      245,
+      15,
+      410
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-03",
+    "city": [
+      246,
+      15,
+      410
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-03",
+    "city": [
+      247,
+      15,
+      410
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-04",
+    "city": [
+      340,
+      19,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-04",
+    "city": [
+      341,
+      19,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-04",
+    "city": [
+      342,
+      19,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-04",
+    "city": [
+      343,
+      19,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-04",
+    "city": [
+      344,
+      19,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-04",
+    "city": [
+      340,
+      19,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-04",
+    "city": [
+      341,
+      19,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-04",
+    "city": [
+      342,
+      19,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-04",
+    "city": [
+      343,
+      19,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-04",
+    "city": [
+      344,
+      19,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-04",
+    "city": [
+      340,
+      19,
+      410
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-04",
+    "city": [
+      341,
+      19,
+      410
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-04",
+    "city": [
+      342,
+      19,
+      410
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-04",
+    "city": [
+      343,
+      19,
+      410
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      435,
+      16,
+      407
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      436,
+      16,
+      407
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      437,
+      16,
+      407
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      438,
+      16,
+      407
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      439,
+      16,
+      407
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      435,
+      16,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      436,
+      16,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      437,
+      16,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      438,
+      16,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      439,
+      16,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      435,
+      16,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      436,
+      16,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      437,
+      16,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      438,
+      16,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      435,
+      21,
+      408
+    ],
+    "kept_source": "M",
+    "omitted_civil_finish": "F"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      436,
+      21,
+      408
+    ],
+    "kept_source": "M",
+    "omitted_civil_finish": "F"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      437,
+      21,
+      408
+    ],
+    "kept_source": "M",
+    "omitted_civil_finish": "F"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      438,
+      21,
+      408
+    ],
+    "kept_source": "M",
+    "omitted_civil_finish": "F"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      439,
+      21,
+      408
+    ],
+    "kept_source": "M",
+    "omitted_civil_finish": "F"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      440,
+      21,
+      408
+    ],
+    "kept_source": "M",
+    "omitted_civil_finish": "F"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      441,
+      21,
+      408
+    ],
+    "kept_source": "M",
+    "omitted_civil_finish": "F"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      442,
+      21,
+      408
+    ],
+    "kept_source": "M",
+    "omitted_civil_finish": "F"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      443,
+      21,
+      408
+    ],
+    "kept_source": "M",
+    "omitted_civil_finish": "F"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      444,
+      21,
+      408
+    ],
+    "kept_source": "M",
+    "omitted_civil_finish": "F"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      445,
+      21,
+      408
+    ],
+    "kept_source": "M",
+    "omitted_civil_finish": "F"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      446,
+      21,
+      408
+    ],
+    "kept_source": "M",
+    "omitted_civil_finish": "F"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      447,
+      21,
+      408
+    ],
+    "kept_source": "M",
+    "omitted_civil_finish": "F"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      448,
+      21,
+      408
+    ],
+    "kept_source": "M",
+    "omitted_civil_finish": "F"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      449,
+      21,
+      408
+    ],
+    "kept_source": "M",
+    "omitted_civil_finish": "F"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      450,
+      21,
+      408
+    ],
+    "kept_source": "M",
+    "omitted_civil_finish": "F"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      451,
+      21,
+      408
+    ],
+    "kept_source": "M",
+    "omitted_civil_finish": "F"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      435,
+      21,
+      409
+    ],
+    "kept_source": "M",
+    "omitted_civil_finish": "F"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      436,
+      21,
+      409
+    ],
+    "kept_source": "M",
+    "omitted_civil_finish": "F"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      437,
+      21,
+      409
+    ],
+    "kept_source": "M",
+    "omitted_civil_finish": "F"
+  },
+  {
+    "plot": "05-05",
+    "city": [
+      438,
+      21,
+      409
+    ],
+    "kept_source": "M",
+    "omitted_civil_finish": "F"
+  },
+  {
+    "plot": "05-06",
+    "city": [
+      532,
+      9,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-06",
+    "city": [
+      533,
+      9,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-06",
+    "city": [
+      534,
+      9,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-06",
+    "city": [
+      535,
+      9,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-06",
+    "city": [
+      536,
+      9,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-06",
+    "city": [
+      532,
+      9,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-06",
+    "city": [
+      533,
+      9,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-06",
+    "city": [
+      534,
+      9,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-06",
+    "city": [
+      535,
+      9,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-06",
+    "city": [
+      536,
+      9,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-06",
+    "city": [
+      532,
+      9,
+      410
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-06",
+    "city": [
+      533,
+      9,
+      410
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-06",
+    "city": [
+      534,
+      9,
+      410
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-06",
+    "city": [
+      535,
+      9,
+      410
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-09",
+    "city": [
+      820,
+      9,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-09",
+    "city": [
+      821,
+      9,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-09",
+    "city": [
+      822,
+      9,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-09",
+    "city": [
+      823,
+      9,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-09",
+    "city": [
+      824,
+      9,
+      408
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-09",
+    "city": [
+      820,
+      9,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-09",
+    "city": [
+      821,
+      9,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-09",
+    "city": [
+      822,
+      9,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-09",
+    "city": [
+      823,
+      9,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-09",
+    "city": [
+      824,
+      9,
+      409
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-09",
+    "city": [
+      820,
+      9,
+      410
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-09",
+    "city": [
+      821,
+      9,
+      410
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-09",
+    "city": [
+      822,
+      9,
+      410
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "05-09",
+    "city": [
+      823,
+      9,
+      410
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-01",
+    "city": [
+      52,
+      9,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-01",
+    "city": [
+      53,
+      9,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-01",
+    "city": [
+      54,
+      9,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-01",
+    "city": [
+      55,
+      9,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-01",
+    "city": [
+      56,
+      9,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-01",
+    "city": [
+      52,
+      9,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-01",
+    "city": [
+      53,
+      9,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-01",
+    "city": [
+      54,
+      9,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-01",
+    "city": [
+      55,
+      9,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-01",
+    "city": [
+      56,
+      9,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-01",
+    "city": [
+      52,
+      9,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-01",
+    "city": [
+      53,
+      9,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-01",
+    "city": [
+      54,
+      9,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-01",
+    "city": [
+      55,
+      9,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-02",
+    "city": [
+      148,
+      15,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-02",
+    "city": [
+      149,
+      15,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-02",
+    "city": [
+      150,
+      15,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-02",
+    "city": [
+      151,
+      15,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-02",
+    "city": [
+      152,
+      15,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-02",
+    "city": [
+      148,
+      15,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-02",
+    "city": [
+      149,
+      15,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-02",
+    "city": [
+      150,
+      15,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-02",
+    "city": [
+      151,
+      15,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-02",
+    "city": [
+      152,
+      15,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-02",
+    "city": [
+      148,
+      15,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-02",
+    "city": [
+      149,
+      15,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-02",
+    "city": [
+      150,
+      15,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-02",
+    "city": [
+      151,
+      15,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-03",
+    "city": [
+      244,
+      13,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-03",
+    "city": [
+      245,
+      13,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-03",
+    "city": [
+      246,
+      13,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-03",
+    "city": [
+      247,
+      13,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-03",
+    "city": [
+      248,
+      13,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-03",
+    "city": [
+      244,
+      13,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-03",
+    "city": [
+      245,
+      13,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-03",
+    "city": [
+      246,
+      13,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-03",
+    "city": [
+      247,
+      13,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-03",
+    "city": [
+      248,
+      13,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-03",
+    "city": [
+      244,
+      13,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-03",
+    "city": [
+      245,
+      13,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-03",
+    "city": [
+      246,
+      13,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-03",
+    "city": [
+      247,
+      13,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-04",
+    "city": [
+      340,
+      8,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-04",
+    "city": [
+      341,
+      8,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-04",
+    "city": [
+      342,
+      8,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-04",
+    "city": [
+      343,
+      8,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-04",
+    "city": [
+      344,
+      8,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-04",
+    "city": [
+      340,
+      8,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-04",
+    "city": [
+      341,
+      8,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-04",
+    "city": [
+      342,
+      8,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-04",
+    "city": [
+      343,
+      8,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-04",
+    "city": [
+      344,
+      8,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-04",
+    "city": [
+      340,
+      8,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-04",
+    "city": [
+      341,
+      8,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-04",
+    "city": [
+      342,
+      8,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-04",
+    "city": [
+      343,
+      8,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-05",
+    "city": [
+      436,
+      6,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-05",
+    "city": [
+      437,
+      6,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-05",
+    "city": [
+      438,
+      6,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-05",
+    "city": [
+      439,
+      6,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-05",
+    "city": [
+      440,
+      6,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-05",
+    "city": [
+      436,
+      6,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-05",
+    "city": [
+      437,
+      6,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-05",
+    "city": [
+      438,
+      6,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-05",
+    "city": [
+      439,
+      6,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-05",
+    "city": [
+      440,
+      6,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-05",
+    "city": [
+      436,
+      6,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-05",
+    "city": [
+      437,
+      6,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-05",
+    "city": [
+      438,
+      6,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-05",
+    "city": [
+      439,
+      6,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-06",
+    "city": [
+      532,
+      1,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-06",
+    "city": [
+      533,
+      1,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-06",
+    "city": [
+      534,
+      1,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-06",
+    "city": [
+      535,
+      1,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-06",
+    "city": [
+      536,
+      1,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-06",
+    "city": [
+      532,
+      1,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-06",
+    "city": [
+      533,
+      1,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-06",
+    "city": [
+      534,
+      1,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-06",
+    "city": [
+      535,
+      1,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-06",
+    "city": [
+      536,
+      1,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-06",
+    "city": [
+      532,
+      1,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-06",
+    "city": [
+      533,
+      1,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-06",
+    "city": [
+      534,
+      1,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-06",
+    "city": [
+      535,
+      1,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-07",
+    "city": [
+      628,
+      -1,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-07",
+    "city": [
+      629,
+      -1,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-07",
+    "city": [
+      630,
+      -1,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-07",
+    "city": [
+      631,
+      -1,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-07",
+    "city": [
+      632,
+      -1,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-07",
+    "city": [
+      628,
+      -1,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-07",
+    "city": [
+      629,
+      -1,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-07",
+    "city": [
+      630,
+      -1,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-07",
+    "city": [
+      631,
+      -1,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-07",
+    "city": [
+      632,
+      -1,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-07",
+    "city": [
+      628,
+      -1,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-07",
+    "city": [
+      629,
+      -1,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-07",
+    "city": [
+      630,
+      -1,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-07",
+    "city": [
+      631,
+      -1,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-08",
+    "city": [
+      724,
+      6,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-08",
+    "city": [
+      725,
+      6,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-08",
+    "city": [
+      726,
+      6,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-08",
+    "city": [
+      727,
+      6,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-08",
+    "city": [
+      728,
+      6,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-08",
+    "city": [
+      724,
+      6,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-08",
+    "city": [
+      725,
+      6,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-08",
+    "city": [
+      726,
+      6,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-08",
+    "city": [
+      727,
+      6,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-08",
+    "city": [
+      728,
+      6,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-08",
+    "city": [
+      724,
+      6,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-08",
+    "city": [
+      725,
+      6,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-08",
+    "city": [
+      726,
+      6,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-08",
+    "city": [
+      727,
+      6,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-09",
+    "city": [
+      820,
+      10,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-09",
+    "city": [
+      821,
+      10,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-09",
+    "city": [
+      822,
+      10,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-09",
+    "city": [
+      823,
+      10,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-09",
+    "city": [
+      824,
+      10,
+      504
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-09",
+    "city": [
+      820,
+      10,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-09",
+    "city": [
+      821,
+      10,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-09",
+    "city": [
+      822,
+      10,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-09",
+    "city": [
+      823,
+      10,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-09",
+    "city": [
+      824,
+      10,
+      505
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-09",
+    "city": [
+      820,
+      10,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-09",
+    "city": [
+      821,
+      10,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-09",
+    "city": [
+      822,
+      10,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "06-09",
+    "city": [
+      823,
+      10,
+      506
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-01",
+    "city": [
+      52,
+      15,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-01",
+    "city": [
+      53,
+      15,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-01",
+    "city": [
+      54,
+      15,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-01",
+    "city": [
+      55,
+      15,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-01",
+    "city": [
+      56,
+      15,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-01",
+    "city": [
+      52,
+      15,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-01",
+    "city": [
+      53,
+      15,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-01",
+    "city": [
+      54,
+      15,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-01",
+    "city": [
+      55,
+      15,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-01",
+    "city": [
+      56,
+      15,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-01",
+    "city": [
+      52,
+      15,
+      602
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-01",
+    "city": [
+      53,
+      15,
+      602
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-01",
+    "city": [
+      54,
+      15,
+      602
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-01",
+    "city": [
+      55,
+      15,
+      602
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-02",
+    "city": [
+      148,
+      9,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-02",
+    "city": [
+      149,
+      9,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-02",
+    "city": [
+      150,
+      9,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-02",
+    "city": [
+      151,
+      9,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-02",
+    "city": [
+      152,
+      9,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-02",
+    "city": [
+      148,
+      9,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-02",
+    "city": [
+      149,
+      9,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-02",
+    "city": [
+      150,
+      9,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-02",
+    "city": [
+      151,
+      9,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-02",
+    "city": [
+      152,
+      9,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-02",
+    "city": [
+      148,
+      9,
+      602
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-02",
+    "city": [
+      149,
+      9,
+      602
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-02",
+    "city": [
+      150,
+      9,
+      602
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-02",
+    "city": [
+      151,
+      9,
+      602
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-03",
+    "city": [
+      244,
+      1,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-03",
+    "city": [
+      245,
+      1,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-03",
+    "city": [
+      246,
+      1,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-03",
+    "city": [
+      247,
+      1,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-03",
+    "city": [
+      248,
+      1,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-03",
+    "city": [
+      244,
+      1,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-03",
+    "city": [
+      245,
+      1,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-03",
+    "city": [
+      246,
+      1,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-03",
+    "city": [
+      247,
+      1,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-03",
+    "city": [
+      248,
+      1,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-03",
+    "city": [
+      244,
+      1,
+      602
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-03",
+    "city": [
+      245,
+      1,
+      602
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-03",
+    "city": [
+      246,
+      1,
+      602
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-03",
+    "city": [
+      247,
+      1,
+      602
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-04",
+    "city": [
+      340,
+      5,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-04",
+    "city": [
+      341,
+      5,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-04",
+    "city": [
+      342,
+      5,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-04",
+    "city": [
+      343,
+      5,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-04",
+    "city": [
+      344,
+      5,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-04",
+    "city": [
+      340,
+      5,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-04",
+    "city": [
+      341,
+      5,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-04",
+    "city": [
+      342,
+      5,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-04",
+    "city": [
+      343,
+      5,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-04",
+    "city": [
+      344,
+      5,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-04",
+    "city": [
+      340,
+      5,
+      602
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-04",
+    "city": [
+      341,
+      5,
+      602
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-04",
+    "city": [
+      342,
+      5,
+      602
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-04",
+    "city": [
+      343,
+      5,
+      602
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-06",
+    "city": [
+      532,
+      7,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-06",
+    "city": [
+      533,
+      7,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-06",
+    "city": [
+      534,
+      7,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-06",
+    "city": [
+      535,
+      7,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-06",
+    "city": [
+      536,
+      7,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-06",
+    "city": [
+      532,
+      7,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-06",
+    "city": [
+      533,
+      7,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-06",
+    "city": [
+      534,
+      7,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-06",
+    "city": [
+      535,
+      7,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-06",
+    "city": [
+      536,
+      7,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-06",
+    "city": [
+      532,
+      7,
+      602
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-06",
+    "city": [
+      533,
+      7,
+      602
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-06",
+    "city": [
+      534,
+      7,
+      602
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-06",
+    "city": [
+      535,
+      7,
+      602
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-07",
+    "city": [
+      628,
+      11,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-07",
+    "city": [
+      629,
+      11,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-07",
+    "city": [
+      630,
+      11,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-07",
+    "city": [
+      631,
+      11,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-07",
+    "city": [
+      632,
+      11,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-07",
+    "city": [
+      628,
+      11,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-07",
+    "city": [
+      629,
+      11,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-07",
+    "city": [
+      630,
+      11,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-07",
+    "city": [
+      631,
+      11,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-07",
+    "city": [
+      632,
+      11,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-07",
+    "city": [
+      628,
+      11,
+      602
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-07",
+    "city": [
+      629,
+      11,
+      602
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-07",
+    "city": [
+      630,
+      11,
+      602
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-07",
+    "city": [
+      631,
+      11,
+      602
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-09",
+    "city": [
+      820,
+      22,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-09",
+    "city": [
+      821,
+      22,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-09",
+    "city": [
+      822,
+      22,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-09",
+    "city": [
+      823,
+      22,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-09",
+    "city": [
+      824,
+      22,
+      600
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-09",
+    "city": [
+      820,
+      22,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-09",
+    "city": [
+      821,
+      22,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-09",
+    "city": [
+      822,
+      22,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-09",
+    "city": [
+      823,
+      22,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-09",
+    "city": [
+      824,
+      22,
+      601
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-09",
+    "city": [
+      820,
+      22,
+      602
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-09",
+    "city": [
+      821,
+      22,
+      602
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-09",
+    "city": [
+      822,
+      22,
+      602
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "07-09",
+    "city": [
+      823,
+      22,
+      602
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-01",
+    "city": [
+      52,
+      25,
+      696
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-01",
+    "city": [
+      53,
+      25,
+      696
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-01",
+    "city": [
+      54,
+      25,
+      696
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-01",
+    "city": [
+      55,
+      25,
+      696
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-01",
+    "city": [
+      56,
+      25,
+      696
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-01",
+    "city": [
+      52,
+      25,
+      697
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-01",
+    "city": [
+      53,
+      25,
+      697
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-01",
+    "city": [
+      54,
+      25,
+      697
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-01",
+    "city": [
+      55,
+      25,
+      697
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-01",
+    "city": [
+      56,
+      25,
+      697
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-01",
+    "city": [
+      52,
+      25,
+      698
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-01",
+    "city": [
+      53,
+      25,
+      698
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-01",
+    "city": [
+      54,
+      25,
+      698
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-01",
+    "city": [
+      55,
+      25,
+      698
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-02",
+    "city": [
+      148,
+      17,
+      696
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-02",
+    "city": [
+      149,
+      17,
+      696
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-02",
+    "city": [
+      150,
+      17,
+      696
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-02",
+    "city": [
+      151,
+      17,
+      696
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-02",
+    "city": [
+      152,
+      17,
+      696
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-02",
+    "city": [
+      148,
+      17,
+      697
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-02",
+    "city": [
+      149,
+      17,
+      697
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-02",
+    "city": [
+      150,
+      17,
+      697
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-02",
+    "city": [
+      151,
+      17,
+      697
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-02",
+    "city": [
+      152,
+      17,
+      697
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-02",
+    "city": [
+      148,
+      17,
+      698
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-02",
+    "city": [
+      149,
+      17,
+      698
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-02",
+    "city": [
+      150,
+      17,
+      698
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-02",
+    "city": [
+      151,
+      17,
+      698
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-03",
+    "city": [
+      244,
+      5,
+      696
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-03",
+    "city": [
+      245,
+      5,
+      696
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-03",
+    "city": [
+      246,
+      5,
+      696
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-03",
+    "city": [
+      247,
+      5,
+      696
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-03",
+    "city": [
+      248,
+      5,
+      696
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-03",
+    "city": [
+      244,
+      5,
+      697
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-03",
+    "city": [
+      245,
+      5,
+      697
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-03",
+    "city": [
+      246,
+      5,
+      697
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-03",
+    "city": [
+      247,
+      5,
+      697
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-03",
+    "city": [
+      248,
+      5,
+      697
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-03",
+    "city": [
+      244,
+      5,
+      698
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-03",
+    "city": [
+      245,
+      5,
+      698
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-03",
+    "city": [
+      246,
+      5,
+      698
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-03",
+    "city": [
+      247,
+      5,
+      698
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-06",
+    "city": [
+      532,
+      9,
+      696
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-06",
+    "city": [
+      533,
+      9,
+      696
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-06",
+    "city": [
+      534,
+      9,
+      696
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-06",
+    "city": [
+      535,
+      9,
+      696
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-06",
+    "city": [
+      536,
+      9,
+      696
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-06",
+    "city": [
+      532,
+      9,
+      697
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-06",
+    "city": [
+      533,
+      9,
+      697
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-06",
+    "city": [
+      534,
+      9,
+      697
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-06",
+    "city": [
+      535,
+      9,
+      697
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-06",
+    "city": [
+      536,
+      9,
+      697
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-06",
+    "city": [
+      532,
+      9,
+      698
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-06",
+    "city": [
+      533,
+      9,
+      698
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-06",
+    "city": [
+      534,
+      9,
+      698
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-06",
+    "city": [
+      535,
+      9,
+      698
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-07",
+    "city": [
+      628,
+      21,
+      696
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-07",
+    "city": [
+      629,
+      21,
+      696
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-07",
+    "city": [
+      630,
+      21,
+      696
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-07",
+    "city": [
+      631,
+      21,
+      696
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-07",
+    "city": [
+      632,
+      21,
+      696
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-07",
+    "city": [
+      628,
+      21,
+      697
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-07",
+    "city": [
+      629,
+      21,
+      697
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-07",
+    "city": [
+      630,
+      21,
+      697
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-07",
+    "city": [
+      631,
+      21,
+      697
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-07",
+    "city": [
+      632,
+      21,
+      697
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-07",
+    "city": [
+      628,
+      21,
+      698
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-07",
+    "city": [
+      629,
+      21,
+      698
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-07",
+    "city": [
+      630,
+      21,
+      698
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "08-07",
+    "city": [
+      631,
+      21,
+      698
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-01",
+    "city": [
+      52,
+      23,
+      792
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-01",
+    "city": [
+      53,
+      23,
+      792
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-01",
+    "city": [
+      54,
+      23,
+      792
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-01",
+    "city": [
+      55,
+      23,
+      792
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-01",
+    "city": [
+      56,
+      23,
+      792
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-01",
+    "city": [
+      52,
+      23,
+      793
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-01",
+    "city": [
+      53,
+      23,
+      793
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-01",
+    "city": [
+      54,
+      23,
+      793
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-01",
+    "city": [
+      55,
+      23,
+      793
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-01",
+    "city": [
+      56,
+      23,
+      793
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-01",
+    "city": [
+      52,
+      23,
+      794
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-01",
+    "city": [
+      53,
+      23,
+      794
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-01",
+    "city": [
+      54,
+      23,
+      794
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-01",
+    "city": [
+      55,
+      23,
+      794
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-05",
+    "city": [
+      436,
+      1,
+      792
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-05",
+    "city": [
+      437,
+      1,
+      792
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-05",
+    "city": [
+      438,
+      1,
+      792
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-05",
+    "city": [
+      439,
+      1,
+      792
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-05",
+    "city": [
+      440,
+      1,
+      792
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-05",
+    "city": [
+      436,
+      1,
+      793
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-05",
+    "city": [
+      437,
+      1,
+      793
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-05",
+    "city": [
+      438,
+      1,
+      793
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-05",
+    "city": [
+      439,
+      1,
+      793
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-05",
+    "city": [
+      440,
+      1,
+      793
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-05",
+    "city": [
+      436,
+      1,
+      794
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-05",
+    "city": [
+      437,
+      1,
+      794
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-05",
+    "city": [
+      438,
+      1,
+      794
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-05",
+    "city": [
+      439,
+      1,
+      794
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-06",
+    "city": [
+      532,
+      13,
+      792
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-06",
+    "city": [
+      533,
+      13,
+      792
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-06",
+    "city": [
+      534,
+      13,
+      792
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-06",
+    "city": [
+      535,
+      13,
+      792
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-06",
+    "city": [
+      536,
+      13,
+      792
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-06",
+    "city": [
+      532,
+      13,
+      793
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-06",
+    "city": [
+      533,
+      13,
+      793
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-06",
+    "city": [
+      534,
+      13,
+      793
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-06",
+    "city": [
+      535,
+      13,
+      793
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-06",
+    "city": [
+      536,
+      13,
+      793
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-06",
+    "city": [
+      532,
+      13,
+      794
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-06",
+    "city": [
+      533,
+      13,
+      794
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-06",
+    "city": [
+      534,
+      13,
+      794
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-06",
+    "city": [
+      535,
+      13,
+      794
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-07",
+    "city": [
+      628,
+      21,
+      792
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-07",
+    "city": [
+      629,
+      21,
+      792
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-07",
+    "city": [
+      630,
+      21,
+      792
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-07",
+    "city": [
+      631,
+      21,
+      792
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-07",
+    "city": [
+      632,
+      21,
+      792
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-07",
+    "city": [
+      628,
+      21,
+      793
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-07",
+    "city": [
+      629,
+      21,
+      793
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-07",
+    "city": [
+      630,
+      21,
+      793
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-07",
+    "city": [
+      631,
+      21,
+      793
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-07",
+    "city": [
+      632,
+      21,
+      793
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-07",
+    "city": [
+      628,
+      21,
+      794
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-07",
+    "city": [
+      629,
+      21,
+      794
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-07",
+    "city": [
+      630,
+      21,
+      794
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-07",
+    "city": [
+      631,
+      21,
+      794
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-08",
+    "city": [
+      724,
+      23,
+      792
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-08",
+    "city": [
+      725,
+      23,
+      792
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-08",
+    "city": [
+      726,
+      23,
+      792
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-08",
+    "city": [
+      727,
+      23,
+      792
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-08",
+    "city": [
+      728,
+      23,
+      792
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-08",
+    "city": [
+      724,
+      23,
+      793
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-08",
+    "city": [
+      725,
+      23,
+      793
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-08",
+    "city": [
+      726,
+      23,
+      793
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-08",
+    "city": [
+      727,
+      23,
+      793
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-08",
+    "city": [
+      728,
+      23,
+      793
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-08",
+    "city": [
+      724,
+      23,
+      794
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-08",
+    "city": [
+      725,
+      23,
+      794
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-08",
+    "city": [
+      726,
+      23,
+      794
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-08",
+    "city": [
+      727,
+      23,
+      794
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-09",
+    "city": [
+      820,
+      29,
+      792
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-09",
+    "city": [
+      821,
+      29,
+      792
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-09",
+    "city": [
+      822,
+      29,
+      792
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-09",
+    "city": [
+      823,
+      29,
+      792
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-09",
+    "city": [
+      824,
+      29,
+      792
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-09",
+    "city": [
+      820,
+      29,
+      793
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-09",
+    "city": [
+      821,
+      29,
+      793
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-09",
+    "city": [
+      822,
+      29,
+      793
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-09",
+    "city": [
+      823,
+      29,
+      793
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-09",
+    "city": [
+      824,
+      29,
+      793
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-09",
+    "city": [
+      820,
+      29,
+      794
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-09",
+    "city": [
+      821,
+      29,
+      794
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-09",
+    "city": [
+      822,
+      29,
+      794
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  },
+  {
+    "plot": "09-09",
+    "city": [
+      823,
+      29,
+      794
+    ],
+    "kept_source": "F",
+    "omitted_civil_finish": "P"
+  }
+]

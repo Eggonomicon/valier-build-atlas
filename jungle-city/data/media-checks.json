@@ -1,0 +1,68 @@
+{
+  "status": "pass",
+  "samples": [
+    {
+      "id": "JW01",
+      "source_png_sha256": "415926be519aeca091e414de4aac5f4396bf5aaa15d72978e8312320076fbdcd",
+      "webp_sha256": "a95161048d3f935800469f07ce12597357bed5c041d6f10e0e4e4b6e5c557746",
+      "decoded_RGBA_identical": true,
+      "model_sha256": "bfb4fa1592e031843adbcba3ec1ccb66ca4cfa3032dccc1a575b70b8713ad4aa",
+      "lighting_illustrative": true,
+      "game_screenshot": false
+    },
+    {
+      "id": "JW02",
+      "source_png_sha256": "999c67e15c23d9a3d24942161a8dc7883b7a0588e23cb7d0a86fa790bdff9136",
+      "webp_sha256": "a30a7764eecfa39b1e8d8923fafb40cada7b0ab052a992bbde58b8b87b6c29c3",
+      "decoded_RGBA_identical": true,
+      "model_sha256": "b859d35d97e7202664bcbe1474f21b548e82ee420448a097acc601d97304a703",
+      "lighting_illustrative": true,
+      "game_screenshot": false
+    },
+    {
+      "id": "JW03",
+      "source_png_sha256": "0592190c8a8bc29c847492134965f2cf6a1c2911b87f20aae18caa872b1a9c22",
+      "webp_sha256": "7749bbd1d82dcfc5c0d2218b1819a85c977a5885a906bf674b4ca83cceb8ab2b",
+      "decoded_RGBA_identical": true,
+      "model_sha256": "2cf9a7c09ca0b66eb7004e6679c131d41e215f2b2f94b15d1d307da350fbe1d1",
+      "lighting_illustrative": true,
+      "game_screenshot": false
+    },
+    {
+      "id": "JW04",
+      "source_png_sha256": "424efc10d250e85b156b90c89d9ac7291229a937fe80fa1b71e447df80774b97",
+      "webp_sha256": "05526087dd7f8a255cd5c8a934fb94c5f70c25b30d6e9c224d57623cd7c09cb2",
+      "decoded_RGBA_identical": true,
+      "model_sha256": "a89a66c659bba8a9de9eebe017a8e4614b2fcc769fda13ea6dde2a2052dd5dc0",
+      "lighting_illustrative": true,
+      "game_screenshot": false
+    },
+    {
+      "id": "JW05",
+      "source_png_sha256": "3a05b5bdf63233935c219b3a2c8178b81259de5157c36991d19863eed44e24e4",
+      "webp_sha256": "927720783e6da682c935190d8496626c68affa4a6a36016b3a31beeb757062b3",
+      "decoded_RGBA_identical": true,
+      "model_sha256": "842df373c56488cd7ba06e84279c89b2ef7929e87d3cb07fe4f01a10ce6ebc06",
+      "lighting_illustrative": true,
+      "game_screenshot": false
+    },
+    {
+      "id": "JW06",
+      "source_png_sha256": "9cc1d780b796843295410a37ab04425e4e98203e7ef65831aaef8dc3143ba6a1",
+      "webp_sha256": "4ac37064896341e4dfe26357d237e5da26095489082d7d0f6959f59180a202ca",
+      "decoded_RGBA_identical": true,
+      "model_sha256": "c4ee646286a9f08dacffeabbcf2798f0be31b74577ae9927d9adbaef38711b05",
+      "lighting_illustrative": true,
+      "game_screenshot": false
+    },
+    {
+      "id": "JW07",
+      "source_png_sha256": "a4ce7a36524cdd81a51725bb4673811688d0c9e1087cd018d22c93687814c89e",
+      "webp_sha256": "6c45ddc773947ebec7e5f3794211ad2b269c3449bf4b914e8c1c91594b28a40a",
+      "decoded_RGBA_identical": true,
+      "model_sha256": "a6d4889c606ef8b5850c680479c6f960ea34941091cc0f4fa709d41f660d6288",
+      "lighting_illustrative": true,
+      "game_screenshot": false
+    }
+  ]
+}

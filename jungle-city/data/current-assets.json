@@ -1,0 +1,839 @@
+{
+  "status": "pass",
+  "instance_version": "GTNH2.9.2",
+  "faces": [
+    {
+      "role": "B",
+      "face": "side",
+      "jar": "Ztones-1.7.10-2.2.2.jar",
+      "jar_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (14).png",
+      "member_sha256": "c9b79010c88874087d225ad5c7e59e321c2aad18543369f6bbf3ef344caa81a9",
+      "display_file": "textures/refined-korp14.png",
+      "display_sha256": "c9b79010c88874087d225ad5c7e59e321c2aad18543369f6bbf3ef344caa81a9",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "B",
+      "face": "top",
+      "jar": "Ztones-1.7.10-2.2.2.jar",
+      "jar_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (14).png",
+      "member_sha256": "c9b79010c88874087d225ad5c7e59e321c2aad18543369f6bbf3ef344caa81a9",
+      "display_file": "textures/refined-korp14.png",
+      "display_sha256": "c9b79010c88874087d225ad5c7e59e321c2aad18543369f6bbf3ef344caa81a9",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "K",
+      "face": "side",
+      "jar": "Ztones-1.7.10-2.2.2.jar",
+      "jar_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/agon/agon_ (13).png",
+      "member_sha256": "0ea5815d8c9a0f14c8dc1669da535102fff15a4248830aa41ac1d675bb769431",
+      "display_file": "textures/refined-agon13.png",
+      "display_sha256": "0ea5815d8c9a0f14c8dc1669da535102fff15a4248830aa41ac1d675bb769431",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "K",
+      "face": "top",
+      "jar": "Ztones-1.7.10-2.2.2.jar",
+      "jar_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/agon/agon_ (13).png",
+      "member_sha256": "0ea5815d8c9a0f14c8dc1669da535102fff15a4248830aa41ac1d675bb769431",
+      "display_file": "textures/refined-agon13.png",
+      "display_sha256": "0ea5815d8c9a0f14c8dc1669da535102fff15a4248830aa41ac1d675bb769431",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "L",
+      "face": "side",
+      "jar": "Ztones-1.7.10-2.2.2.jar",
+      "jar_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/agon/agon_ (0).png",
+      "member_sha256": "14bd7f04a892268ccc09cd369e22cc63468b765f55be8ce1a75fd8633ed04493",
+      "display_file": "textures/refined-agon0.png",
+      "display_sha256": "14bd7f04a892268ccc09cd369e22cc63468b765f55be8ce1a75fd8633ed04493",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "L",
+      "face": "top",
+      "jar": "Ztones-1.7.10-2.2.2.jar",
+      "jar_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/agon/agon_ (0).png",
+      "member_sha256": "14bd7f04a892268ccc09cd369e22cc63468b765f55be8ce1a75fd8633ed04493",
+      "display_file": "textures/refined-agon0.png",
+      "display_sha256": "14bd7f04a892268ccc09cd369e22cc63468b765f55be8ce1a75fd8633ed04493",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "N",
+      "face": "side",
+      "jar": "extrautilities-1.2.12.jar",
+      "jar_sha256": "a1941ee4d4b965c4d2ddc6ec0e0b1eb3f3ff8c8b492a18a25b5fcf27c67ba58b",
+      "member": "assets/extrautils/textures/blocks/greenscreen.png",
+      "member_sha256": "b38d08009310843632aba1768eaab876a9fffd07b0c53bc2647a4c228233c5c2",
+      "display_file": "textures/N-side.png",
+      "display_sha256": "b38d08009310843632aba1768eaab876a9fffd07b0c53bc2647a4c228233c5c2",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "N",
+      "face": "top",
+      "jar": "extrautilities-1.2.12.jar",
+      "jar_sha256": "a1941ee4d4b965c4d2ddc6ec0e0b1eb3f3ff8c8b492a18a25b5fcf27c67ba58b",
+      "member": "assets/extrautils/textures/blocks/greenscreen.png",
+      "member_sha256": "b38d08009310843632aba1768eaab876a9fffd07b0c53bc2647a4c228233c5c2",
+      "display_file": "textures/N-side.png",
+      "display_sha256": "b38d08009310843632aba1768eaab876a9fffd07b0c53bc2647a4c228233c5c2",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "W",
+      "face": "side",
+      "jar": "extrautilities-1.2.12.jar",
+      "jar_sha256": "a1941ee4d4b965c4d2ddc6ec0e0b1eb3f3ff8c8b492a18a25b5fcf27c67ba58b",
+      "member": "assets/extrautils/textures/blocks/greenscreen.png",
+      "member_sha256": "b38d08009310843632aba1768eaab876a9fffd07b0c53bc2647a4c228233c5c2",
+      "display_file": "textures/W-side.png",
+      "display_sha256": "b38d08009310843632aba1768eaab876a9fffd07b0c53bc2647a4c228233c5c2",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "W",
+      "face": "top",
+      "jar": "extrautilities-1.2.12.jar",
+      "jar_sha256": "a1941ee4d4b965c4d2ddc6ec0e0b1eb3f3ff8c8b492a18a25b5fcf27c67ba58b",
+      "member": "assets/extrautils/textures/blocks/greenscreen.png",
+      "member_sha256": "b38d08009310843632aba1768eaab876a9fffd07b0c53bc2647a4c228233c5c2",
+      "display_file": "textures/W-side.png",
+      "display_sha256": "b38d08009310843632aba1768eaab876a9fffd07b0c53bc2647a4c228233c5c2",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "G",
+      "face": "side",
+      "jar": "TConstruct-1.14.124-GTNH.jar",
+      "jar_sha256": "b0bc14d2b5fec783c2743e1a39184b13d1da4a6c09a96a202258a6abb9751f1d",
+      "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass.png",
+      "member_sha256": "497e1bcb8e96c39506d7b9d24b2873c74f99ab74f5889d660645e8941945e049",
+      "display_file": "textures/refined-tinker-light_blue-0.png",
+      "display_sha256": "497e1bcb8e96c39506d7b9d24b2873c74f99ab74f5889d660645e8941945e049",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "G",
+      "face": "top",
+      "jar": "TConstruct-1.14.124-GTNH.jar",
+      "jar_sha256": "b0bc14d2b5fec783c2743e1a39184b13d1da4a6c09a96a202258a6abb9751f1d",
+      "member": "assets/tinker/textures/blocks/glass/stained/light_blue/glass.png",
+      "member_sha256": "497e1bcb8e96c39506d7b9d24b2873c74f99ab74f5889d660645e8941945e049",
+      "display_file": "textures/refined-tinker-light_blue-0.png",
+      "display_sha256": "497e1bcb8e96c39506d7b9d24b2873c74f99ab74f5889d660645e8941945e049",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "F",
+      "face": "side",
+      "jar": "minecraft-1.7.10-client.jar",
+      "jar_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/stonebrick.png",
+      "member_sha256": "4b35ff37f7b028265ec20bb4540e655cc5b355f399fcec202bd7b277742c9536",
+      "display_file": "textures/F-side.png",
+      "display_sha256": "4b35ff37f7b028265ec20bb4540e655cc5b355f399fcec202bd7b277742c9536",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "F",
+      "face": "top",
+      "jar": "minecraft-1.7.10-client.jar",
+      "jar_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/stonebrick.png",
+      "member_sha256": "4b35ff37f7b028265ec20bb4540e655cc5b355f399fcec202bd7b277742c9536",
+      "display_file": "textures/F-side.png",
+      "display_sha256": "4b35ff37f7b028265ec20bb4540e655cc5b355f399fcec202bd7b277742c9536",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "s",
+      "face": "side",
+      "jar": "minecraft-1.7.10-client.jar",
+      "jar_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/stone_slab_side.png",
+      "member_sha256": "5e701b44f2a06fd324be2e4ec56f8b3b1b30fd7e243a032ebb3db5998d402357",
+      "display_file": "textures/slab-bottom-side-wall.png",
+      "display_sha256": "5e701b44f2a06fd324be2e4ec56f8b3b1b30fd7e243a032ebb3db5998d402357",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "s",
+      "face": "top",
+      "jar": "minecraft-1.7.10-client.jar",
+      "jar_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/stone_slab_top.png",
+      "member_sha256": "65e8a0b1b2df9baa0ed6b34381d7298e60b4d6ff6fdf39bb612edf1ec565c597",
+      "display_file": "textures/slab-bottom-side.png",
+      "display_sha256": "65e8a0b1b2df9baa0ed6b34381d7298e60b4d6ff6fdf39bb612edf1ec565c597",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "S",
+      "face": "side",
+      "jar": "minecraft-1.7.10-client.jar",
+      "jar_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/stone_slab_side.png",
+      "member_sha256": "5e701b44f2a06fd324be2e4ec56f8b3b1b30fd7e243a032ebb3db5998d402357",
+      "display_file": "textures/slab-top-side-wall.png",
+      "display_sha256": "5e701b44f2a06fd324be2e4ec56f8b3b1b30fd7e243a032ebb3db5998d402357",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "S",
+      "face": "top",
+      "jar": "minecraft-1.7.10-client.jar",
+      "jar_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/stone_slab_top.png",
+      "member_sha256": "65e8a0b1b2df9baa0ed6b34381d7298e60b4d6ff6fdf39bb612edf1ec565c597",
+      "display_file": "textures/slab-top-side.png",
+      "display_sha256": "65e8a0b1b2df9baa0ed6b34381d7298e60b4d6ff6fdf39bb612edf1ec565c597",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "E",
+      "face": "side",
+      "jar": "minecraft-1.7.10-client.jar",
+      "jar_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/dirt.png",
+      "member_sha256": "fb0450253248276e0b8d653d5a4d21c59763cbf775c0e048469ff500afaaef68",
+      "display_file": "textures/E-side.png",
+      "display_sha256": "fb0450253248276e0b8d653d5a4d21c59763cbf775c0e048469ff500afaaef68",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "E",
+      "face": "top",
+      "jar": "minecraft-1.7.10-client.jar",
+      "jar_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/dirt.png",
+      "member_sha256": "fb0450253248276e0b8d653d5a4d21c59763cbf775c0e048469ff500afaaef68",
+      "display_file": "textures/E-side.png",
+      "display_sha256": "fb0450253248276e0b8d653d5a4d21c59763cbf775c0e048469ff500afaaef68",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "T",
+      "face": "side",
+      "jar": "minecraft-1.7.10-client.jar",
+      "jar_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/log_oak.png",
+      "member_sha256": "6f24bf4e31b5f91d63da2e1543c1beafe8086d6a594d82abd834148c62670c21",
+      "display_file": "textures/T-side.png",
+      "display_sha256": "6f24bf4e31b5f91d63da2e1543c1beafe8086d6a594d82abd834148c62670c21",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "T",
+      "face": "top",
+      "jar": "minecraft-1.7.10-client.jar",
+      "jar_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/log_oak_top.png",
+      "member_sha256": "f9045998a74062efaa5dbc3da828378198749b97163aef468ee63743c28229b4",
+      "display_file": "textures/T-end-grain.png",
+      "display_sha256": "f9045998a74062efaa5dbc3da828378198749b97163aef468ee63743c28229b4",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "V",
+      "face": "side",
+      "jar": "minecraft-1.7.10-client.jar",
+      "jar_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/leaves_oak.png",
+      "member_sha256": "50cc5b0dc5f0f361391ce3891ae8d601f330e86f03433bc51933b14a8f4af4be",
+      "display_file": "textures/V-side.png",
+      "display_sha256": "50cc5b0dc5f0f361391ce3891ae8d601f330e86f03433bc51933b14a8f4af4be",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "V",
+      "face": "top",
+      "jar": "minecraft-1.7.10-client.jar",
+      "jar_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/leaves_oak.png",
+      "member_sha256": "50cc5b0dc5f0f361391ce3891ae8d601f330e86f03433bc51933b14a8f4af4be",
+      "display_file": "textures/V-side.png",
+      "display_sha256": "50cc5b0dc5f0f361391ce3891ae8d601f330e86f03433bc51933b14a8f4af4be",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "Q",
+      "face": "side",
+      "jar": "minecraft-1.7.10-client.jar",
+      "jar_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/glass.png",
+      "member_sha256": "47e6c40346af11ed7d973e5c0b581d3ac40ebc88c9b304f0e903477055d3dc09",
+      "display_file": "textures/Q-side.png",
+      "display_sha256": "47e6c40346af11ed7d973e5c0b581d3ac40ebc88c9b304f0e903477055d3dc09",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "Q",
+      "face": "top",
+      "jar": "minecraft-1.7.10-client.jar",
+      "jar_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/glass.png",
+      "member_sha256": "47e6c40346af11ed7d973e5c0b581d3ac40ebc88c9b304f0e903477055d3dc09",
+      "display_file": "textures/Q-side.png",
+      "display_sha256": "47e6c40346af11ed7d973e5c0b581d3ac40ebc88c9b304f0e903477055d3dc09",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "P",
+      "face": "side",
+      "jar": "Ztones-1.7.10-2.2.2.jar",
+      "jar_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/agon/agon_ (15).png",
+      "member_sha256": "aeecafe43dfbe0c495f366ca180b2d757bfeeda3448051534e00384faf874641",
+      "display_file": "textures/refined-agon15.png",
+      "display_sha256": "aeecafe43dfbe0c495f366ca180b2d757bfeeda3448051534e00384faf874641",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "P",
+      "face": "top",
+      "jar": "Ztones-1.7.10-2.2.2.jar",
+      "jar_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/agon/agon_ (15).png",
+      "member_sha256": "aeecafe43dfbe0c495f366ca180b2d757bfeeda3448051534e00384faf874641",
+      "display_file": "textures/refined-agon15.png",
+      "display_sha256": "aeecafe43dfbe0c495f366ca180b2d757bfeeda3448051534e00384faf874641",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "R",
+      "face": "side",
+      "jar": "Ztones-1.7.10-2.2.2.jar",
+      "jar_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/agon/agon_ (13).png",
+      "member_sha256": "0ea5815d8c9a0f14c8dc1669da535102fff15a4248830aa41ac1d675bb769431",
+      "display_file": "textures/refined-agon13.png",
+      "display_sha256": "0ea5815d8c9a0f14c8dc1669da535102fff15a4248830aa41ac1d675bb769431",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "R",
+      "face": "top",
+      "jar": "Ztones-1.7.10-2.2.2.jar",
+      "jar_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/agon/agon_ (13).png",
+      "member_sha256": "0ea5815d8c9a0f14c8dc1669da535102fff15a4248830aa41ac1d675bb769431",
+      "display_file": "textures/refined-agon13.png",
+      "display_sha256": "0ea5815d8c9a0f14c8dc1669da535102fff15a4248830aa41ac1d675bb769431",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "D",
+      "face": "side",
+      "jar": "minecraft-1.7.10-client.jar",
+      "jar_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/glass_white.png",
+      "member_sha256": "bc5cb68b4642513582ea40650038db0f0e0a84284fff26ee115bc21a132a9e8e",
+      "display_file": "textures/D-raw.png",
+      "display_sha256": "bc5cb68b4642513582ea40650038db0f0e0a84284fff26ee115bc21a132a9e8e",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "D",
+      "face": "top",
+      "jar": "minecraft-1.7.10-client.jar",
+      "jar_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/glass_white.png",
+      "member_sha256": "bc5cb68b4642513582ea40650038db0f0e0a84284fff26ee115bc21a132a9e8e",
+      "display_file": "textures/D-raw.png",
+      "display_sha256": "bc5cb68b4642513582ea40650038db0f0e0a84284fff26ee115bc21a132a9e8e",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "f",
+      "face": "side",
+      "jar": "minecraft-1.7.10-client.jar",
+      "jar_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/flower_allium.png",
+      "member_sha256": "68316f7f69fc3245e53f437289eb66e5e8cd6a4540086fee4ba13ff1323ffac0",
+      "display_file": "textures/f-raw.png",
+      "display_sha256": "68316f7f69fc3245e53f437289eb66e5e8cd6a4540086fee4ba13ff1323ffac0",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "f",
+      "face": "top",
+      "jar": "minecraft-1.7.10-client.jar",
+      "jar_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/flower_allium.png",
+      "member_sha256": "68316f7f69fc3245e53f437289eb66e5e8cd6a4540086fee4ba13ff1323ffac0",
+      "display_file": "textures/f-raw.png",
+      "display_sha256": "68316f7f69fc3245e53f437289eb66e5e8cd6a4540086fee4ba13ff1323ffac0",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "M",
+      "face": "side",
+      "jar": "Ztones-1.7.10-2.2.2.jar",
+      "jar_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (2).png",
+      "member_sha256": "326e9fc3b7760f4ebc2e7d245dd2d1ad346e55a8b93949f9fbafc2b79ffbe5e8",
+      "display_file": "textures/refined-korp2.png",
+      "display_sha256": "326e9fc3b7760f4ebc2e7d245dd2d1ad346e55a8b93949f9fbafc2b79ffbe5e8",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "M",
+      "face": "top",
+      "jar": "Ztones-1.7.10-2.2.2.jar",
+      "jar_sha256": "6420fda33493eaadf8a695333fbe5f016935c91d68713c918941a1f7856a0e27",
+      "member": "assets/ztones/textures/blocks/sets/korp/korp_ (2).png",
+      "member_sha256": "326e9fc3b7760f4ebc2e7d245dd2d1ad346e55a8b93949f9fbafc2b79ffbe5e8",
+      "display_file": "textures/refined-korp2.png",
+      "display_sha256": "326e9fc3b7760f4ebc2e7d245dd2d1ad346e55a8b93949f9fbafc2b79ffbe5e8",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "g",
+      "face": "side",
+      "jar": "chisel-2.17.38-GTNH.jar",
+      "jar_sha256": "7fd12d3f2ded1033412b4c1b84f8cc168d8c04a7fe2e94fd6bcbd36b7a2bc8d7",
+      "member": "assets/chisel/textures/blocks/glass/terrain-glassnoborder.png",
+      "member_sha256": "dd0220f9e7774a13c899ac3878ebb9ebfe88db0791ec079528d914e1a2d212c3",
+      "display_file": "textures/refined-glass6-source.png",
+      "display_sha256": "dd0220f9e7774a13c899ac3878ebb9ebfe88db0791ec079528d914e1a2d212c3",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "g",
+      "face": "top",
+      "jar": "chisel-2.17.38-GTNH.jar",
+      "jar_sha256": "7fd12d3f2ded1033412b4c1b84f8cc168d8c04a7fe2e94fd6bcbd36b7a2bc8d7",
+      "member": "assets/chisel/textures/blocks/glass/terrain-glassnoborder.png",
+      "member_sha256": "dd0220f9e7774a13c899ac3878ebb9ebfe88db0791ec079528d914e1a2d212c3",
+      "display_file": "textures/refined-glass6-source.png",
+      "display_sha256": "dd0220f9e7774a13c899ac3878ebb9ebfe88db0791ec079528d914e1a2d212c3",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "a",
+      "face": "side",
+      "jar": "minecraft-1.7.10-client.jar",
+      "jar_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/water_still.png",
+      "member_sha256": "f4a5a43c2fe921ed80331cff62f1d5c635dae06e580e52b237b1090ce242ee4e",
+      "display_file": "textures/audit-a-water0-source.png",
+      "display_sha256": "f4a5a43c2fe921ed80331cff62f1d5c635dae06e580e52b237b1090ce242ee4e",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "a",
+      "face": "top",
+      "jar": "minecraft-1.7.10-client.jar",
+      "jar_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/water_still.png",
+      "member_sha256": "f4a5a43c2fe921ed80331cff62f1d5c635dae06e580e52b237b1090ce242ee4e",
+      "display_file": "textures/audit-a-water0-source.png",
+      "display_sha256": "f4a5a43c2fe921ed80331cff62f1d5c635dae06e580e52b237b1090ce242ee4e",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "C",
+      "face": "side",
+      "jar": "minecraft-1.7.10-client.jar",
+      "jar_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/hardened_clay_stained_white.png",
+      "member_sha256": "d674ab2e23b49617589fb8ec2904870c429253518a8835eb9cececf69c13b6d2",
+      "display_file": "textures/canyon-clay.png",
+      "display_sha256": "df173b43cbff5d10d27084d1329e5385297455b57f8230eb5f2e0bf6d1855c45",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "C",
+      "face": "top",
+      "jar": "minecraft-1.7.10-client.jar",
+      "jar_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/hardened_clay_stained_white.png",
+      "member_sha256": "d674ab2e23b49617589fb8ec2904870c429253518a8835eb9cececf69c13b6d2",
+      "display_file": "textures/canyon-clay.png",
+      "display_sha256": "df173b43cbff5d10d27084d1329e5385297455b57f8230eb5f2e0bf6d1855c45",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "H",
+      "face": "side",
+      "jar": "minecraft-1.7.10-client.jar",
+      "jar_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/grass_side.png",
+      "member_sha256": "1f5d4845b34eeaf96a9fed2196cb01ba3cd4c5673873a5b721f106b0c8164ed9",
+      "display_file": "textures/canyon-grass-side.png",
+      "display_sha256": "df2f5d2a330d199365c7bdac97c42a17e2dcd6587b6cb2b731c58ec81fc61747",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "H",
+      "face": "top",
+      "jar": "minecraft-1.7.10-client.jar",
+      "jar_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/grass_top.png",
+      "member_sha256": "b2aa2204118c7323c0f8d263eb30dee99b6b69cb1f6df3115272a69fd188e507",
+      "display_file": "textures/canyon-grass-top.png",
+      "display_sha256": "73872373d58821c625f45f3a197200e4fe0bc9ccfa50cc5cdfa3f34beecc99db",
+      "display_tint": [
+        95,
+        200,
+        66
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "J",
+      "face": "side",
+      "jar": "minecraft-1.7.10-client.jar",
+      "jar_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/log_jungle.png",
+      "member_sha256": "92e0c520e63811b551b5994fd133f74803ec11722c17cd62159da10ec461e24f",
+      "display_file": "textures/canyon-jungle-log.png",
+      "display_sha256": "4081d103171dc4f62712e55d79581cf718059a2a11db8728de31fb49c8887daf",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "J",
+      "face": "top",
+      "jar": "minecraft-1.7.10-client.jar",
+      "jar_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/log_jungle_top.png",
+      "member_sha256": "d8049db8ef1bde2dbc816cfbf285e6958ba14c79709e9869039b7667268ea782",
+      "display_file": "textures/canyon-jungle-log-top.png",
+      "display_sha256": "6c17c9cefec53bf87e6d603fccc2e0d65e23698e75e587d545b4878d06442a35",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "v",
+      "face": "side",
+      "jar": "minecraft-1.7.10-client.jar",
+      "jar_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/leaves_jungle.png",
+      "member_sha256": "d42f54766253553c8f852b562a28d5c07f9e071b7b8c73c62f29fdb5797c46a4",
+      "display_file": "textures/canyon-jungle-leaves.png",
+      "display_sha256": "57ebdbcf666ee0f2d6cb0a5dd5c6feac770c465ec52a9d93f3e8d9a66839b50e",
+      "display_tint": [
+        55,
+        184,
+        18
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "v",
+      "face": "top",
+      "jar": "minecraft-1.7.10-client.jar",
+      "jar_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/leaves_jungle.png",
+      "member_sha256": "d42f54766253553c8f852b562a28d5c07f9e071b7b8c73c62f29fdb5797c46a4",
+      "display_file": "textures/canyon-jungle-leaves.png",
+      "display_sha256": "57ebdbcf666ee0f2d6cb0a5dd5c6feac770c465ec52a9d93f3e8d9a66839b50e",
+      "display_tint": [
+        55,
+        184,
+        18
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "u",
+      "face": "side",
+      "jar": "minecraft-1.7.10-client.jar",
+      "jar_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/stonebrick.png",
+      "member_sha256": "4b35ff37f7b028265ec20bb4540e655cc5b355f399fcec202bd7b277742c9536",
+      "display_file": "textures/F-side.png",
+      "display_sha256": "4b35ff37f7b028265ec20bb4540e655cc5b355f399fcec202bd7b277742c9536",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "u",
+      "face": "top",
+      "jar": "minecraft-1.7.10-client.jar",
+      "jar_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/stonebrick.png",
+      "member_sha256": "4b35ff37f7b028265ec20bb4540e655cc5b355f399fcec202bd7b277742c9536",
+      "display_file": "textures/F-side.png",
+      "display_sha256": "4b35ff37f7b028265ec20bb4540e655cc5b355f399fcec202bd7b277742c9536",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "n",
+      "face": "side",
+      "jar": "minecraft-1.7.10-client.jar",
+      "jar_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/stonebrick.png",
+      "member_sha256": "4b35ff37f7b028265ec20bb4540e655cc5b355f399fcec202bd7b277742c9536",
+      "display_file": "textures/F-side.png",
+      "display_sha256": "4b35ff37f7b028265ec20bb4540e655cc5b355f399fcec202bd7b277742c9536",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    },
+    {
+      "role": "n",
+      "face": "top",
+      "jar": "minecraft-1.7.10-client.jar",
+      "jar_sha256": "a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf9780cce",
+      "member": "assets/minecraft/textures/blocks/stonebrick.png",
+      "member_sha256": "4b35ff37f7b028265ec20bb4540e655cc5b355f399fcec202bd7b277742c9536",
+      "display_file": "textures/F-side.png",
+      "display_sha256": "4b35ff37f7b028265ec20bb4540e655cc5b355f399fcec202bd7b277742c9536",
+      "display_tint": [
+        255,
+        255,
+        255
+      ],
+      "raw_source_member_verified": true
+    }
+  ],
+  "sample_climate": "New grass/leaf display tint uses vanilla colormaps at temperature0.9 rainfall0.9; target mixed-biome tint not asserted."
+}

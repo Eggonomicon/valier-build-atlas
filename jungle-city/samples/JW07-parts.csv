@@ -1,0 +1,11 @@
+kind,role,shape,count
+architecture,K,17,4
+architecture,K,56,4
+cube,K,,1
+cube,P,,48
+mcr_edge,W,25,1
+mcr_edge,W,27,1
+mcr_face,K,112,1
+mcr_face,K,48,1
+mcr_face,N,17,1
+mcr_post,K,32,1

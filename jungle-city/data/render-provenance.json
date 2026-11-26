@@ -1,0 +1,291 @@
+{
+  "status": "pass",
+  "renders": [
+    {
+      "id": "JW01",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "JW02",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "JW03",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "JW04",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "JW05",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "JW06",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "JW07",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK01",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK02",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK03",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK04-R1",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK04-R2",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK04-R3",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK04",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK05-R1",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK05-R2",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK05-R3",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK05",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK06",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK07",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK08",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK09",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK10",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK11-R1",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK11-R2",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK11-R3",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK11",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK12-R1",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK12-R2",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK12-R3",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK12",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK13",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK14",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK15",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK16",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK17",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK18",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK19",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK20",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK21",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK22",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK23",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK24",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK25",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK26",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK27",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK28",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK29",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK30",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK31",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK32",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK33",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK34",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK35",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK36",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK37",
+      "palette_match": true,
+      "renderer_snapshot": true
+    },
+    {
+      "id": "MK38",
+      "palette_match": true,
+      "renderer_snapshot": true
+    }
+  ],
+  "palette_sha256": "9bb7ca636c6b8404def19492431f8eac7340548d339d4058a6bf1dffb97511eb"
+}

@@ -1,0 +1,2036 @@
+{
+  "status": "pass",
+  "checks": 593,
+  "groups": [
+    "01-01 source hash",
+    "01-01 exact source geometry retained",
+    "01-01 saved count",
+    "01-02 source hash",
+    "01-02 exact source geometry retained",
+    "01-02 saved count",
+    "01-03 source hash",
+    "01-03 exact source geometry retained",
+    "01-03 saved count",
+    "01-04 source hash",
+    "01-04 exact source geometry retained",
+    "01-04 saved count",
+    "01-05 source hash",
+    "01-05 exact source geometry retained",
+    "01-05 saved count",
+    "01-06 source hash",
+    "01-06 exact source geometry retained",
+    "01-06 saved count",
+    "01-07 source hash",
+    "01-07 exact source geometry retained",
+    "01-07 saved count",
+    "01-08 source hash",
+    "01-08 exact source geometry retained",
+    "01-08 saved count",
+    "01-09 source hash",
+    "01-09 exact source geometry retained",
+    "01-09 saved count",
+    "02-01 source hash",
+    "02-01 exact source geometry retained",
+    "02-01 saved count",
+    "02-02 source hash",
+    "02-02 exact source geometry retained",
+    "02-02 saved count",
+    "02-03 source hash",
+    "02-03 exact source geometry retained",
+    "02-03 saved count",
+    "02-04 source hash",
+    "02-04 exact source geometry retained",
+    "02-04 saved count",
+    "02-05 source hash",
+    "02-05 exact source geometry retained",
+    "02-05 saved count",
+    "02-06 source hash",
+    "02-06 exact source geometry retained",
+    "02-06 saved count",
+    "02-07 source hash",
+    "02-07 exact source geometry retained",
+    "02-07 saved count",
+    "02-08 source hash",
+    "02-08 exact source geometry retained",
+    "02-08 saved count",
+    "02-09 source hash",
+    "02-09 exact source geometry retained",
+    "02-09 saved count",
+    "03-01 source hash",
+    "03-01 exact source geometry retained",
+    "03-01 saved count",
+    "03-02 source hash",
+    "03-02 exact source geometry retained",
+    "03-02 saved count",
+    "03-03 source hash",
+    "03-03 exact source geometry retained",
+    "03-03 saved count",
+    "03-04 source hash",
+    "03-04 exact source geometry retained",
+    "03-04 saved count",
+    "03-05 source hash",
+    "03-05 exact source geometry retained",
+    "03-05 saved count",
+    "03-06 source hash",
+    "03-06 exact source geometry retained",
+    "03-06 saved count",
+    "03-07 source hash",
+    "03-07 exact source geometry retained",
+    "03-07 saved count",
+    "03-08 source hash",
+    "03-08 exact source geometry retained",
+    "03-08 saved count",
+    "03-09 source hash",
+    "03-09 exact source geometry retained",
+    "03-09 saved count",
+    "04-01 source hash",
+    "04-01 exact source geometry retained",
+    "04-01 saved count",
+    "04-02 source hash",
+    "04-02 exact source geometry retained",
+    "04-02 saved count",
+    "04-03 source hash",
+    "04-03 exact source geometry retained",
+    "04-03 saved count",
+    "04-04 source hash",
+    "04-04 exact source geometry retained",
+    "04-04 saved count",
+    "04-05 source hash",
+    "04-05 exact source geometry retained",
+    "04-05 saved count",
+    "04-06 source hash",
+    "04-06 exact source geometry retained",
+    "04-06 saved count",
+    "04-07 source hash",
+    "04-07 exact source geometry retained",
+    "04-07 saved count",
+    "04-08 source hash",
+    "04-08 exact source geometry retained",
+    "04-08 saved count",
+    "04-09 source hash",
+    "04-09 exact source geometry retained",
+    "04-09 saved count",
+    "05-01 source hash",
+    "05-01 exact source geometry retained",
+    "05-01 saved count",
+    "05-02 source hash",
+    "05-02 exact source geometry retained",
+    "05-02 saved count",
+    "05-03 source hash",
+    "05-03 exact source geometry retained",
+    "05-03 saved count",
+    "05-04 source hash",
+    "05-04 exact source geometry retained",
+    "05-04 saved count",
+    "05-05 source hash",
+    "05-05 exact source geometry retained",
+    "05-05 saved count",
+    "05-06 source hash",
+    "05-06 exact source geometry retained",
+    "05-06 saved count",
+    "05-07 source hash",
+    "05-07 exact source geometry retained",
+    "05-07 saved count",
+    "05-08 source hash",
+    "05-08 exact source geometry retained",
+    "05-08 saved count",
+    "05-09 source hash",
+    "05-09 exact source geometry retained",
+    "05-09 saved count",
+    "06-01 source hash",
+    "06-01 exact source geometry retained",
+    "06-01 saved count",
+    "06-02 source hash",
+    "06-02 exact source geometry retained",
+    "06-02 saved count",
+    "06-03 source hash",
+    "06-03 exact source geometry retained",
+    "06-03 saved count",
+    "06-04 source hash",
+    "06-04 exact source geometry retained",
+    "06-04 saved count",
+    "06-05 source hash",
+    "06-05 exact source geometry retained",
+    "06-05 saved count",
+    "06-06 source hash",
+    "06-06 exact source geometry retained",
+    "06-06 saved count",
+    "06-07 source hash",
+    "06-07 exact source geometry retained",
+    "06-07 saved count",
+    "06-08 source hash",
+    "06-08 exact source geometry retained",
+    "06-08 saved count",
+    "06-09 source hash",
+    "06-09 exact source geometry retained",
+    "06-09 saved count",
+    "07-01 source hash",
+    "07-01 exact source geometry retained",
+    "07-01 saved count",
+    "07-02 source hash",
+    "07-02 exact source geometry retained",
+    "07-02 saved count",
+    "07-03 source hash",
+    "07-03 exact source geometry retained",
+    "07-03 saved count",
+    "07-04 source hash",
+    "07-04 exact source geometry retained",
+    "07-04 saved count",
+    "07-05 source hash",
+    "07-05 exact source geometry retained",
+    "07-05 saved count",
+    "07-06 source hash",
+    "07-06 exact source geometry retained",
+    "07-06 saved count",
+    "07-07 source hash",
+    "07-07 exact source geometry retained",
+    "07-07 saved count",
+    "07-08 source hash",
+    "07-08 exact source geometry retained",
+    "07-08 saved count",
+    "07-09 source hash",
+    "07-09 exact source geometry retained",
+    "07-09 saved count",
+    "08-01 source hash",
+    "08-01 exact source geometry retained",
+    "08-01 saved count",
+    "08-02 source hash",
+    "08-02 exact source geometry retained",
+    "08-02 saved count",
+    "08-03 source hash",
+    "08-03 exact source geometry retained",
+    "08-03 saved count",
+    "08-04 source hash",
+    "08-04 exact source geometry retained",
+    "08-04 saved count",
+    "08-05 source hash",
+    "08-05 exact source geometry retained",
+    "08-05 saved count",
+    "08-06 source hash",
+    "08-06 exact source geometry retained",
+    "08-06 saved count",
+    "08-07 source hash",
+    "08-07 exact source geometry retained",
+    "08-07 saved count",
+    "08-08 source hash",
+    "08-08 exact source geometry retained",
+    "08-08 saved count",
+    "08-09 source hash",
+    "08-09 exact source geometry retained",
+    "08-09 saved count",
+    "09-01 source hash",
+    "09-01 exact source geometry retained",
+    "09-01 saved count",
+    "09-02 source hash",
+    "09-02 exact source geometry retained",
+    "09-02 saved count",
+    "09-03 source hash",
+    "09-03 exact source geometry retained",
+    "09-03 saved count",
+    "09-04 source hash",
+    "09-04 exact source geometry retained",
+    "09-04 saved count",
+    "09-05 source hash",
+    "09-05 exact source geometry retained",
+    "09-05 saved count",
+    "09-06 source hash",
+    "09-06 exact source geometry retained",
+    "09-06 saved count",
+    "09-07 source hash",
+    "09-07 exact source geometry retained",
+    "09-07 saved count",
+    "09-08 source hash",
+    "09-08 exact source geometry retained",
+    "09-08 saved count",
+    "09-09 source hash",
+    "09-09 exact source geometry retained",
+    "09-09 saved count",
+    "CV-01-01 saved count",
+    "CV-02-01 saved count",
+    "CV-03-01 saved count",
+    "CV-04-01 saved count",
+    "CV-05-01 saved count",
+    "CV-06-01 saved count",
+    "CV-07-01 saved count",
+    "CV-08-01 saved count",
+    "CV-09-01 saved count",
+    "CV-10-01 saved count",
+    "CV-01-02 saved count",
+    "CV-02-02 saved count",
+    "CV-03-02 saved count",
+    "CV-04-02 saved count",
+    "CV-05-02 saved count",
+    "CV-06-02 saved count",
+    "CV-07-02 saved count",
+    "CV-08-02 saved count",
+    "CV-09-02 saved count",
+    "CV-10-02 saved count",
+    "CV-01-03 saved count",
+    "CV-02-03 saved count",
+    "CV-03-03 saved count",
+    "CV-04-03 saved count",
+    "CV-05-03 saved count",
+    "CV-06-03 saved count",
+    "CV-07-03 saved count",
+    "CV-08-03 saved count",
+    "CV-09-03 saved count",
+    "CV-10-03 saved count",
+    "CV-01-04 saved count",
+    "CV-02-04 saved count",
+    "CV-03-04 saved count",
+    "CV-04-04 saved count",
+    "CV-05-04 saved count",
+    "CV-06-04 saved count",
+    "CV-07-04 saved count",
+    "CV-08-04 saved count",
+    "CV-09-04 saved count",
+    "CV-10-04 saved count",
+    "CV-01-05 saved count",
+    "CV-02-05 saved count",
+    "CV-03-05 saved count",
+    "CV-04-05 saved count",
+    "CV-05-05 saved count",
+    "CV-06-05 saved count",
+    "CV-07-05 saved count",
+    "CV-08-05 saved count",
+    "CV-09-05 saved count",
+    "CV-10-05 saved count",
+    "CV-01-06 saved count",
+    "CV-02-06 saved count",
+    "CV-03-06 saved count",
+    "CV-04-06 saved count",
+    "CV-05-06 saved count",
+    "CV-06-06 saved count",
+    "CV-07-06 saved count",
+    "CV-08-06 saved count",
+    "CV-09-06 saved count",
+    "CV-10-06 saved count",
+    "CV-01-07 saved count",
+    "CV-02-07 saved count",
+    "CV-03-07 saved count",
+    "CV-04-07 saved count",
+    "CV-05-07 saved count",
+    "CV-06-07 saved count",
+    "CV-07-07 saved count",
+    "CV-08-07 saved count",
+    "CV-09-07 saved count",
+    "CV-10-07 saved count",
+    "CV-01-08 saved count",
+    "CV-02-08 saved count",
+    "CV-03-08 saved count",
+    "CV-04-08 saved count",
+    "CV-05-08 saved count",
+    "CV-06-08 saved count",
+    "CV-07-08 saved count",
+    "CV-08-08 saved count",
+    "CV-09-08 saved count",
+    "CV-10-08 saved count",
+    "CV-01-09 saved count",
+    "CV-02-09 saved count",
+    "CV-03-09 saved count",
+    "CV-04-09 saved count",
+    "CV-05-09 saved count",
+    "CV-06-09 saved count",
+    "CV-07-09 saved count",
+    "CV-08-09 saved count",
+    "CV-09-09 saved count",
+    "CV-10-09 saved count",
+    "CV-01-10 saved count",
+    "CV-02-10 saved count",
+    "CV-03-10 saved count",
+    "CV-04-10 saved count",
+    "CV-05-10 saved count",
+    "CV-06-10 saved count",
+    "CV-07-10 saved count",
+    "CV-08-10 saved count",
+    "CV-09-10 saved count",
+    "CV-10-10 saved count",
+    "city unique occupied hosts 2795520",
+    "HQ protected 65-square bounds",
+    "81 departments and 100 worktiles",
+    "397704 gallery air cells unoccupied",
+    "basement open ports and public approach clear cells unoccupied",
+    "gallery union enclosed except explicit open source-room apertures",
+    "connected 100-node 180-edge roads, half-step maximum grade",
+    "68 basement branches and 13 capped vaults",
+    "sampled route headroom collision free",
+    "sampled routes supported at exact walking elevation",
+    "01-01 export dimensions/count",
+    "01-02 export dimensions/count",
+    "01-03 export dimensions/count",
+    "01-04 export dimensions/count",
+    "01-05 export dimensions/count",
+    "01-06 export dimensions/count",
+    "01-07 export dimensions/count",
+    "01-08 export dimensions/count",
+    "01-09 export dimensions/count",
+    "02-01 export dimensions/count",
+    "02-02 export dimensions/count",
+    "02-03 export dimensions/count",
+    "02-04 export dimensions/count",
+    "02-05 export dimensions/count",
+    "02-06 export dimensions/count",
+    "02-07 export dimensions/count",
+    "02-08 export dimensions/count",
+    "02-09 export dimensions/count",
+    "03-01 export dimensions/count",
+    "03-02 export dimensions/count",
+    "03-03 export dimensions/count",
+    "03-04 export dimensions/count",
+    "03-05 export dimensions/count",
+    "03-06 export dimensions/count",
+    "03-07 export dimensions/count",
+    "03-08 export dimensions/count",
+    "03-09 export dimensions/count",
+    "04-01 export dimensions/count",
+    "04-02 export dimensions/count",
+    "04-03 export dimensions/count",
+    "04-04 export dimensions/count",
+    "04-05 export dimensions/count",
+    "04-06 export dimensions/count",
+    "04-07 export dimensions/count",
+    "04-08 export dimensions/count",
+    "04-09 export dimensions/count",
+    "05-01 export dimensions/count",
+    "05-02 export dimensions/count",
+    "05-03 export dimensions/count",
+    "05-04 export dimensions/count",
+    "05-05 export dimensions/count",
+    "05-06 export dimensions/count",
+    "05-07 export dimensions/count",
+    "05-08 export dimensions/count",
+    "05-09 export dimensions/count",
+    "06-01 export dimensions/count",
+    "06-02 export dimensions/count",
+    "06-03 export dimensions/count",
+    "06-04 export dimensions/count",
+    "06-05 export dimensions/count",
+    "06-06 export dimensions/count",
+    "06-07 export dimensions/count",
+    "06-08 export dimensions/count",
+    "06-09 export dimensions/count",
+    "07-01 export dimensions/count",
+    "07-02 export dimensions/count",
+    "07-03 export dimensions/count",
+    "07-04 export dimensions/count",
+    "07-05 export dimensions/count",
+    "07-06 export dimensions/count",
+    "07-07 export dimensions/count",
+    "07-08 export dimensions/count",
+    "07-09 export dimensions/count",
+    "08-01 export dimensions/count",
+    "08-02 export dimensions/count",
+    "08-03 export dimensions/count",
+    "08-04 export dimensions/count",
+    "08-05 export dimensions/count",
+    "08-06 export dimensions/count",
+    "08-07 export dimensions/count",
+    "08-08 export dimensions/count",
+    "08-09 export dimensions/count",
+    "09-01 export dimensions/count",
+    "09-02 export dimensions/count",
+    "09-03 export dimensions/count",
+    "09-04 export dimensions/count",
+    "09-05 export dimensions/count",
+    "09-06 export dimensions/count",
+    "09-07 export dimensions/count",
+    "09-08 export dimensions/count",
+    "09-09 export dimensions/count",
+    "CV-01-01 export dimensions/count",
+    "CV-02-01 export dimensions/count",
+    "CV-03-01 export dimensions/count",
+    "CV-04-01 export dimensions/count",
+    "CV-05-01 export dimensions/count",
+    "CV-06-01 export dimensions/count",
+    "CV-07-01 export dimensions/count",
+    "CV-08-01 export dimensions/count",
+    "CV-09-01 export dimensions/count",
+    "CV-10-01 export dimensions/count",
+    "CV-01-02 export dimensions/count",
+    "CV-02-02 export dimensions/count",
+    "CV-03-02 export dimensions/count",
+    "CV-04-02 export dimensions/count",
+    "CV-05-02 export dimensions/count",
+    "CV-06-02 export dimensions/count",
+    "CV-07-02 export dimensions/count",
+    "CV-08-02 export dimensions/count",
+    "CV-09-02 export dimensions/count",
+    "CV-10-02 export dimensions/count",
+    "CV-01-03 export dimensions/count",
+    "CV-02-03 export dimensions/count",
+    "CV-03-03 export dimensions/count",
+    "CV-04-03 export dimensions/count",
+    "CV-05-03 export dimensions/count",
+    "CV-06-03 export dimensions/count",
+    "CV-07-03 export dimensions/count",
+    "CV-08-03 export dimensions/count",
+    "CV-09-03 export dimensions/count",
+    "CV-10-03 export dimensions/count",
+    "CV-01-04 export dimensions/count",
+    "CV-02-04 export dimensions/count",
+    "CV-03-04 export dimensions/count",
+    "CV-04-04 export dimensions/count",
+    "CV-05-04 export dimensions/count",
+    "CV-06-04 export dimensions/count",
+    "CV-07-04 export dimensions/count",
+    "CV-08-04 export dimensions/count",
+    "CV-09-04 export dimensions/count",
+    "CV-10-04 export dimensions/count",
+    "CV-01-05 export dimensions/count",
+    "CV-02-05 export dimensions/count",
+    "CV-03-05 export dimensions/count",
+    "CV-04-05 export dimensions/count",
+    "CV-05-05 export dimensions/count",
+    "CV-06-05 export dimensions/count",
+    "CV-07-05 export dimensions/count",
+    "CV-08-05 export dimensions/count",
+    "CV-09-05 export dimensions/count",
+    "CV-10-05 export dimensions/count",
+    "CV-01-06 export dimensions/count",
+    "CV-02-06 export dimensions/count",
+    "CV-03-06 export dimensions/count",
+    "CV-04-06 export dimensions/count",
+    "CV-05-06 export dimensions/count",
+    "CV-06-06 export dimensions/count",
+    "CV-07-06 export dimensions/count",
+    "CV-08-06 export dimensions/count",
+    "CV-09-06 export dimensions/count",
+    "CV-10-06 export dimensions/count",
+    "CV-01-07 export dimensions/count",
+    "CV-02-07 export dimensions/count",
+    "CV-03-07 export dimensions/count",
+    "CV-04-07 export dimensions/count",
+    "CV-05-07 export dimensions/count",
+    "CV-06-07 export dimensions/count",
+    "CV-07-07 export dimensions/count",
+    "CV-08-07 export dimensions/count",
+    "CV-09-07 export dimensions/count",
+    "CV-10-07 export dimensions/count",
+    "CV-01-08 export dimensions/count",
+    "CV-02-08 export dimensions/count",
+    "CV-03-08 export dimensions/count",
+    "CV-04-08 export dimensions/count",
+    "CV-05-08 export dimensions/count",
+    "CV-06-08 export dimensions/count",
+    "CV-07-08 export dimensions/count",
+    "CV-08-08 export dimensions/count",
+    "CV-09-08 export dimensions/count",
+    "CV-10-08 export dimensions/count",
+    "CV-01-09 export dimensions/count",
+    "CV-02-09 export dimensions/count",
+    "CV-03-09 export dimensions/count",
+    "CV-04-09 export dimensions/count",
+    "CV-05-09 export dimensions/count",
+    "CV-06-09 export dimensions/count",
+    "CV-07-09 export dimensions/count",
+    "CV-08-09 export dimensions/count",
+    "CV-09-09 export dimensions/count",
+    "CV-10-09 export dimensions/count",
+    "CV-01-10 export dimensions/count",
+    "CV-02-10 export dimensions/count",
+    "CV-03-10 export dimensions/count",
+    "CV-04-10 export dimensions/count",
+    "CV-05-10 export dimensions/count",
+    "CV-06-10 export dimensions/count",
+    "CV-07-10 export dimensions/count",
+    "CV-08-10 export dimensions/count",
+    "CV-09-10 export dimensions/count",
+    "CV-10-10 export dimensions/count",
+    "JW01-A export dimensions/count",
+    "JW02-A export dimensions/count",
+    "JW03-A export dimensions/count",
+    "JW04-A export dimensions/count",
+    "JW05-A export dimensions/count",
+    "JW06-A export dimensions/count",
+    "JW07-A export dimensions/count",
+    "MK01 export dimensions/count",
+    "MK02 export dimensions/count",
+    "MK03 export dimensions/count",
+    "MK04 export dimensions/count",
+    "MK05 export dimensions/count",
+    "MK06 export dimensions/count",
+    "MK07 export dimensions/count",
+    "MK08 export dimensions/count",
+    "MK09 export dimensions/count",
+    "MK10 export dimensions/count",
+    "MK11 export dimensions/count",
+    "MK12 export dimensions/count",
+    "MK13 export dimensions/count",
+    "MK14 export dimensions/count",
+    "MK15 export dimensions/count",
+    "MK16 export dimensions/count",
+    "MK17 export dimensions/count",
+    "MK18 export dimensions/count",
+    "MK19 export dimensions/count",
+    "MK20 export dimensions/count",
+    "MK21 export dimensions/count",
+    "MK22 export dimensions/count",
+    "MK23 export dimensions/count",
+    "MK24 export dimensions/count",
+    "MK04-R1 export dimensions/count",
+    "MK04-R2 export dimensions/count",
+    "MK04-R3 export dimensions/count",
+    "MK05-R1 export dimensions/count",
+    "MK05-R2 export dimensions/count",
+    "MK05-R3 export dimensions/count",
+    "MK11-R1 export dimensions/count",
+    "MK11-R2 export dimensions/count",
+    "MK11-R3 export dimensions/count",
+    "MK12-R1 export dimensions/count",
+    "MK12-R2 export dimensions/count",
+    "MK12-R3 export dimensions/count",
+    "MK25 export dimensions/count",
+    "MK26 export dimensions/count",
+    "MK27 export dimensions/count",
+    "MK28 export dimensions/count",
+    "MK29 export dimensions/count",
+    "MK30 export dimensions/count",
+    "MK31 export dimensions/count",
+    "MK32 export dimensions/count",
+    "MK33 export dimensions/count",
+    "MK34 export dimensions/count",
+    "MK35 export dimensions/count",
+    "MK36 export dimensions/count",
+    "MK37 export dimensions/count",
+    "MK38 export dimensions/count",
+    "238 architecture-only exports decoded:181 city +7 detached samples +50 modules",
+    "city exports reconcile exact occupied bill"
+  ],
+  "unique_native_geometry_patterns": 99,
+  "walk_samples": 37432,
+  "player_route_limit": "Exact supported center foot/headroom samples; stairs sampled per half-step. Actual game collision and movement remain untested.",
+  "city_hosts": 2795520,
+  "gallery_air": 397704,
+  "exports": [
+    {
+      "id": "01-01",
+      "hosts": 26507,
+      "native_tile_entities": 2452,
+      "schematic_sha256": "735e3c0e2245feec5d74a1fb456bfc007816806354af6cdb17b87d952a20957f"
+    },
+    {
+      "id": "01-02",
+      "hosts": 21660,
+      "native_tile_entities": 2124,
+      "schematic_sha256": "0b56bf74fcc2ad1a89561c914ba7dfe6e2002c9d3a49ca2cc950bd91320dc067"
+    },
+    {
+      "id": "01-03",
+      "hosts": 26507,
+      "native_tile_entities": 2452,
+      "schematic_sha256": "735e3c0e2245feec5d74a1fb456bfc007816806354af6cdb17b87d952a20957f"
+    },
+    {
+      "id": "01-04",
+      "hosts": 26507,
+      "native_tile_entities": 2452,
+      "schematic_sha256": "735e3c0e2245feec5d74a1fb456bfc007816806354af6cdb17b87d952a20957f"
+    },
+    {
+      "id": "01-05",
+      "hosts": 23753,
+      "native_tile_entities": 1702,
+      "schematic_sha256": "0e096a29c997e43947877766c92587c3597e35201a45b4e36f6064da7f839c34"
+    },
+    {
+      "id": "01-06",
+      "hosts": 23903,
+      "native_tile_entities": 4185,
+      "schematic_sha256": "2b27bda9afa69db505bfc2c790bbf0f6c616f024fd204e4fb6ea46fe23475286"
+    },
+    {
+      "id": "01-07",
+      "hosts": 23903,
+      "native_tile_entities": 4185,
+      "schematic_sha256": "2b27bda9afa69db505bfc2c790bbf0f6c616f024fd204e4fb6ea46fe23475286"
+    },
+    {
+      "id": "01-08",
+      "hosts": 26507,
+      "native_tile_entities": 2452,
+      "schematic_sha256": "735e3c0e2245feec5d74a1fb456bfc007816806354af6cdb17b87d952a20957f"
+    },
+    {
+      "id": "01-09",
+      "hosts": 26507,
+      "native_tile_entities": 2452,
+      "schematic_sha256": "735e3c0e2245feec5d74a1fb456bfc007816806354af6cdb17b87d952a20957f"
+    },
+    {
+      "id": "02-01",
+      "hosts": 26507,
+      "native_tile_entities": 2452,
+      "schematic_sha256": "735e3c0e2245feec5d74a1fb456bfc007816806354af6cdb17b87d952a20957f"
+    },
+    {
+      "id": "02-02",
+      "hosts": 21660,
+      "native_tile_entities": 2124,
+      "schematic_sha256": "0b56bf74fcc2ad1a89561c914ba7dfe6e2002c9d3a49ca2cc950bd91320dc067"
+    },
+    {
+      "id": "02-03",
+      "hosts": 23903,
+      "native_tile_entities": 4185,
+      "schematic_sha256": "2b27bda9afa69db505bfc2c790bbf0f6c616f024fd204e4fb6ea46fe23475286"
+    },
+    {
+      "id": "02-04",
+      "hosts": 26507,
+      "native_tile_entities": 2452,
+      "schematic_sha256": "735e3c0e2245feec5d74a1fb456bfc007816806354af6cdb17b87d952a20957f"
+    },
+    {
+      "id": "02-05",
+      "hosts": 23753,
+      "native_tile_entities": 1702,
+      "schematic_sha256": "0e096a29c997e43947877766c92587c3597e35201a45b4e36f6064da7f839c34"
+    },
+    {
+      "id": "02-06",
+      "hosts": 23903,
+      "native_tile_entities": 4185,
+      "schematic_sha256": "2b27bda9afa69db505bfc2c790bbf0f6c616f024fd204e4fb6ea46fe23475286"
+    },
+    {
+      "id": "02-07",
+      "hosts": 26507,
+      "native_tile_entities": 2452,
+      "schematic_sha256": "735e3c0e2245feec5d74a1fb456bfc007816806354af6cdb17b87d952a20957f"
+    },
+    {
+      "id": "02-08",
+      "hosts": 23903,
+      "native_tile_entities": 4185,
+      "schematic_sha256": "2b27bda9afa69db505bfc2c790bbf0f6c616f024fd204e4fb6ea46fe23475286"
+    },
+    {
+      "id": "02-09",
+      "hosts": 23903,
+      "native_tile_entities": 4185,
+      "schematic_sha256": "2b27bda9afa69db505bfc2c790bbf0f6c616f024fd204e4fb6ea46fe23475286"
+    },
+    {
+      "id": "03-01",
+      "hosts": 26507,
+      "native_tile_entities": 2452,
+      "schematic_sha256": "735e3c0e2245feec5d74a1fb456bfc007816806354af6cdb17b87d952a20957f"
+    },
+    {
+      "id": "03-02",
+      "hosts": 23903,
+      "native_tile_entities": 4185,
+      "schematic_sha256": "2b27bda9afa69db505bfc2c790bbf0f6c616f024fd204e4fb6ea46fe23475286"
+    },
+    {
+      "id": "03-03",
+      "hosts": 21660,
+      "native_tile_entities": 2124,
+      "schematic_sha256": "0b56bf74fcc2ad1a89561c914ba7dfe6e2002c9d3a49ca2cc950bd91320dc067"
+    },
+    {
+      "id": "03-04",
+      "hosts": 26507,
+      "native_tile_entities": 2452,
+      "schematic_sha256": "735e3c0e2245feec5d74a1fb456bfc007816806354af6cdb17b87d952a20957f"
+    },
+    {
+      "id": "03-05",
+      "hosts": 26507,
+      "native_tile_entities": 2452,
+      "schematic_sha256": "735e3c0e2245feec5d74a1fb456bfc007816806354af6cdb17b87d952a20957f"
+    },
+    {
+      "id": "03-06",
+      "hosts": 26507,
+      "native_tile_entities": 2452,
+      "schematic_sha256": "735e3c0e2245feec5d74a1fb456bfc007816806354af6cdb17b87d952a20957f"
+    },
+    {
+      "id": "03-07",
+      "hosts": 23903,
+      "native_tile_entities": 4185,
+      "schematic_sha256": "2b27bda9afa69db505bfc2c790bbf0f6c616f024fd204e4fb6ea46fe23475286"
+    },
+    {
+      "id": "03-08",
+      "hosts": 23903,
+      "native_tile_entities": 4185,
+      "schematic_sha256": "2b27bda9afa69db505bfc2c790bbf0f6c616f024fd204e4fb6ea46fe23475286"
+    },
+    {
+      "id": "03-09",
+      "hosts": 5050,
+      "native_tile_entities": 114,
+      "schematic_sha256": "8aa0147f2b406b9ece6f96a4562a0d7f0ca2b190fd728f75fa53b90236839c9f"
+    },
+    {
+      "id": "04-01",
+      "hosts": 21660,
+      "native_tile_entities": 2124,
+      "schematic_sha256": "0b56bf74fcc2ad1a89561c914ba7dfe6e2002c9d3a49ca2cc950bd91320dc067"
+    },
+    {
+      "id": "04-02",
+      "hosts": 23903,
+      "native_tile_entities": 4185,
+      "schematic_sha256": "2b27bda9afa69db505bfc2c790bbf0f6c616f024fd204e4fb6ea46fe23475286"
+    },
+    {
+      "id": "04-03",
+      "hosts": 26507,
+      "native_tile_entities": 2452,
+      "schematic_sha256": "735e3c0e2245feec5d74a1fb456bfc007816806354af6cdb17b87d952a20957f"
+    },
+    {
+      "id": "04-04",
+      "hosts": 5050,
+      "native_tile_entities": 114,
+      "schematic_sha256": "8aa0147f2b406b9ece6f96a4562a0d7f0ca2b190fd728f75fa53b90236839c9f"
+    },
+    {
+      "id": "04-05",
+      "hosts": 26507,
+      "native_tile_entities": 2452,
+      "schematic_sha256": "735e3c0e2245feec5d74a1fb456bfc007816806354af6cdb17b87d952a20957f"
+    },
+    {
+      "id": "04-06",
+      "hosts": 23903,
+      "native_tile_entities": 4185,
+      "schematic_sha256": "2b27bda9afa69db505bfc2c790bbf0f6c616f024fd204e4fb6ea46fe23475286"
+    },
+    {
+      "id": "04-07",
+      "hosts": 23903,
+      "native_tile_entities": 4185,
+      "schematic_sha256": "2b27bda9afa69db505bfc2c790bbf0f6c616f024fd204e4fb6ea46fe23475286"
+    },
+    {
+      "id": "04-08",
+      "hosts": 23903,
+      "native_tile_entities": 4185,
+      "schematic_sha256": "2b27bda9afa69db505bfc2c790bbf0f6c616f024fd204e4fb6ea46fe23475286"
+    },
+    {
+      "id": "04-09",
+      "hosts": 23903,
+      "native_tile_entities": 4185,
+      "schematic_sha256": "2b27bda9afa69db505bfc2c790bbf0f6c616f024fd204e4fb6ea46fe23475286"
+    },
+    {
+      "id": "05-01",
+      "hosts": 23753,
+      "native_tile_entities": 1702,
+      "schematic_sha256": "0e096a29c997e43947877766c92587c3597e35201a45b4e36f6064da7f839c34"
+    },
+    {
+      "id": "05-02",
+      "hosts": 23753,
+      "native_tile_entities": 1702,
+      "schematic_sha256": "0e096a29c997e43947877766c92587c3597e35201a45b4e36f6064da7f839c34"
+    },
+    {
+      "id": "05-03",
+      "hosts": 26507,
+      "native_tile_entities": 2452,
+      "schematic_sha256": "735e3c0e2245feec5d74a1fb456bfc007816806354af6cdb17b87d952a20957f"
+    },
+    {
+      "id": "05-04",
+      "hosts": 26507,
+      "native_tile_entities": 2452,
+      "schematic_sha256": "735e3c0e2245feec5d74a1fb456bfc007816806354af6cdb17b87d952a20957f"
+    },
+    {
+      "id": "05-05",
+      "hosts": 28479,
+      "native_tile_entities": 2167,
+      "schematic_sha256": "ce848109557e07bf938ea9a6e66f52d6040180463aa0794547d41ea63a88add6"
+    },
+    {
+      "id": "05-06",
+      "hosts": 23753,
+      "native_tile_entities": 1702,
+      "schematic_sha256": "0e096a29c997e43947877766c92587c3597e35201a45b4e36f6064da7f839c34"
+    },
+    {
+      "id": "05-07",
+      "hosts": 5050,
+      "native_tile_entities": 114,
+      "schematic_sha256": "8aa0147f2b406b9ece6f96a4562a0d7f0ca2b190fd728f75fa53b90236839c9f"
+    },
+    {
+      "id": "05-08",
+      "hosts": 5050,
+      "native_tile_entities": 114,
+      "schematic_sha256": "8aa0147f2b406b9ece6f96a4562a0d7f0ca2b190fd728f75fa53b90236839c9f"
+    },
+    {
+      "id": "05-09",
+      "hosts": 23753,
+      "native_tile_entities": 1702,
+      "schematic_sha256": "0e096a29c997e43947877766c92587c3597e35201a45b4e36f6064da7f839c34"
+    },
+    {
+      "id": "06-01",
+      "hosts": 24737,
+      "native_tile_entities": 4572,
+      "schematic_sha256": "1641d3d14d08b31693950ae33a6df6fb20d95535f5baa396d57128d49d3b3ba7"
+    },
+    {
+      "id": "06-02",
+      "hosts": 21660,
+      "native_tile_entities": 2124,
+      "schematic_sha256": "0b56bf74fcc2ad1a89561c914ba7dfe6e2002c9d3a49ca2cc950bd91320dc067"
+    },
+    {
+      "id": "06-03",
+      "hosts": 24737,
+      "native_tile_entities": 4572,
+      "schematic_sha256": "1641d3d14d08b31693950ae33a6df6fb20d95535f5baa396d57128d49d3b3ba7"
+    },
+    {
+      "id": "06-04",
+      "hosts": 24737,
+      "native_tile_entities": 4572,
+      "schematic_sha256": "1641d3d14d08b31693950ae33a6df6fb20d95535f5baa396d57128d49d3b3ba7"
+    },
+    {
+      "id": "06-05",
+      "hosts": 23753,
+      "native_tile_entities": 1702,
+      "schematic_sha256": "0e096a29c997e43947877766c92587c3597e35201a45b4e36f6064da7f839c34"
+    },
+    {
+      "id": "06-06",
+      "hosts": 21660,
+      "native_tile_entities": 2124,
+      "schematic_sha256": "0b56bf74fcc2ad1a89561c914ba7dfe6e2002c9d3a49ca2cc950bd91320dc067"
+    },
+    {
+      "id": "06-07",
+      "hosts": 21660,
+      "native_tile_entities": 2124,
+      "schematic_sha256": "0b56bf74fcc2ad1a89561c914ba7dfe6e2002c9d3a49ca2cc950bd91320dc067"
+    },
+    {
+      "id": "06-08",
+      "hosts": 21660,
+      "native_tile_entities": 2124,
+      "schematic_sha256": "0b56bf74fcc2ad1a89561c914ba7dfe6e2002c9d3a49ca2cc950bd91320dc067"
+    },
+    {
+      "id": "06-09",
+      "hosts": 26507,
+      "native_tile_entities": 2452,
+      "schematic_sha256": "735e3c0e2245feec5d74a1fb456bfc007816806354af6cdb17b87d952a20957f"
+    },
+    {
+      "id": "07-01",
+      "hosts": 26507,
+      "native_tile_entities": 2452,
+      "schematic_sha256": "735e3c0e2245feec5d74a1fb456bfc007816806354af6cdb17b87d952a20957f"
+    },
+    {
+      "id": "07-02",
+      "hosts": 24737,
+      "native_tile_entities": 4572,
+      "schematic_sha256": "1641d3d14d08b31693950ae33a6df6fb20d95535f5baa396d57128d49d3b3ba7"
+    },
+    {
+      "id": "07-03",
+      "hosts": 24737,
+      "native_tile_entities": 4572,
+      "schematic_sha256": "1641d3d14d08b31693950ae33a6df6fb20d95535f5baa396d57128d49d3b3ba7"
+    },
+    {
+      "id": "07-04",
+      "hosts": 23753,
+      "native_tile_entities": 1702,
+      "schematic_sha256": "0e096a29c997e43947877766c92587c3597e35201a45b4e36f6064da7f839c34"
+    },
+    {
+      "id": "07-05",
+      "hosts": 5050,
+      "native_tile_entities": 114,
+      "schematic_sha256": "8aa0147f2b406b9ece6f96a4562a0d7f0ca2b190fd728f75fa53b90236839c9f"
+    },
+    {
+      "id": "07-06",
+      "hosts": 21660,
+      "native_tile_entities": 2124,
+      "schematic_sha256": "0b56bf74fcc2ad1a89561c914ba7dfe6e2002c9d3a49ca2cc950bd91320dc067"
+    },
+    {
+      "id": "07-07",
+      "hosts": 21660,
+      "native_tile_entities": 2124,
+      "schematic_sha256": "0b56bf74fcc2ad1a89561c914ba7dfe6e2002c9d3a49ca2cc950bd91320dc067"
+    },
+    {
+      "id": "07-08",
+      "hosts": 5050,
+      "native_tile_entities": 114,
+      "schematic_sha256": "8aa0147f2b406b9ece6f96a4562a0d7f0ca2b190fd728f75fa53b90236839c9f"
+    },
+    {
+      "id": "07-09",
+      "hosts": 21660,
+      "native_tile_entities": 2124,
+      "schematic_sha256": "0b56bf74fcc2ad1a89561c914ba7dfe6e2002c9d3a49ca2cc950bd91320dc067"
+    },
+    {
+      "id": "08-01",
+      "hosts": 24737,
+      "native_tile_entities": 4572,
+      "schematic_sha256": "1641d3d14d08b31693950ae33a6df6fb20d95535f5baa396d57128d49d3b3ba7"
+    },
+    {
+      "id": "08-02",
+      "hosts": 26507,
+      "native_tile_entities": 2452,
+      "schematic_sha256": "735e3c0e2245feec5d74a1fb456bfc007816806354af6cdb17b87d952a20957f"
+    },
+    {
+      "id": "08-03",
+      "hosts": 24737,
+      "native_tile_entities": 4572,
+      "schematic_sha256": "1641d3d14d08b31693950ae33a6df6fb20d95535f5baa396d57128d49d3b3ba7"
+    },
+    {
+      "id": "08-04",
+      "hosts": 5050,
+      "native_tile_entities": 114,
+      "schematic_sha256": "8aa0147f2b406b9ece6f96a4562a0d7f0ca2b190fd728f75fa53b90236839c9f"
+    },
+    {
+      "id": "08-05",
+      "hosts": 5050,
+      "native_tile_entities": 114,
+      "schematic_sha256": "8aa0147f2b406b9ece6f96a4562a0d7f0ca2b190fd728f75fa53b90236839c9f"
+    },
+    {
+      "id": "08-06",
+      "hosts": 21660,
+      "native_tile_entities": 2124,
+      "schematic_sha256": "0b56bf74fcc2ad1a89561c914ba7dfe6e2002c9d3a49ca2cc950bd91320dc067"
+    },
+    {
+      "id": "08-07",
+      "hosts": 26507,
+      "native_tile_entities": 2452,
+      "schematic_sha256": "735e3c0e2245feec5d74a1fb456bfc007816806354af6cdb17b87d952a20957f"
+    },
+    {
+      "id": "08-08",
+      "hosts": 5050,
+      "native_tile_entities": 114,
+      "schematic_sha256": "8aa0147f2b406b9ece6f96a4562a0d7f0ca2b190fd728f75fa53b90236839c9f"
+    },
+    {
+      "id": "08-09",
+      "hosts": 5050,
+      "native_tile_entities": 114,
+      "schematic_sha256": "8aa0147f2b406b9ece6f96a4562a0d7f0ca2b190fd728f75fa53b90236839c9f"
+    },
+    {
+      "id": "09-01",
+      "hosts": 26507,
+      "native_tile_entities": 2452,
+      "schematic_sha256": "735e3c0e2245feec5d74a1fb456bfc007816806354af6cdb17b87d952a20957f"
+    },
+    {
+      "id": "09-02",
+      "hosts": 5050,
+      "native_tile_entities": 114,
+      "schematic_sha256": "8aa0147f2b406b9ece6f96a4562a0d7f0ca2b190fd728f75fa53b90236839c9f"
+    },
+    {
+      "id": "09-03",
+      "hosts": 5050,
+      "native_tile_entities": 114,
+      "schematic_sha256": "8aa0147f2b406b9ece6f96a4562a0d7f0ca2b190fd728f75fa53b90236839c9f"
+    },
+    {
+      "id": "09-04",
+      "hosts": 5050,
+      "native_tile_entities": 114,
+      "schematic_sha256": "8aa0147f2b406b9ece6f96a4562a0d7f0ca2b190fd728f75fa53b90236839c9f"
+    },
+    {
+      "id": "09-05",
+      "hosts": 23753,
+      "native_tile_entities": 1702,
+      "schematic_sha256": "0e096a29c997e43947877766c92587c3597e35201a45b4e36f6064da7f839c34"
+    },
+    {
+      "id": "09-06",
+      "hosts": 21660,
+      "native_tile_entities": 2124,
+      "schematic_sha256": "0b56bf74fcc2ad1a89561c914ba7dfe6e2002c9d3a49ca2cc950bd91320dc067"
+    },
+    {
+      "id": "09-07",
+      "hosts": 21660,
+      "native_tile_entities": 2124,
+      "schematic_sha256": "0b56bf74fcc2ad1a89561c914ba7dfe6e2002c9d3a49ca2cc950bd91320dc067"
+    },
+    {
+      "id": "09-08",
+      "hosts": 21660,
+      "native_tile_entities": 2124,
+      "schematic_sha256": "0b56bf74fcc2ad1a89561c914ba7dfe6e2002c9d3a49ca2cc950bd91320dc067"
+    },
+    {
+      "id": "09-09",
+      "hosts": 21660,
+      "native_tile_entities": 2124,
+      "schematic_sha256": "0b56bf74fcc2ad1a89561c914ba7dfe6e2002c9d3a49ca2cc950bd91320dc067"
+    },
+    {
+      "id": "CV-01-01",
+      "hosts": 12692,
+      "native_tile_entities": 1041,
+      "schematic_sha256": "c81c2a7d3593714d5ab00a5b25c983e09b8f2e7c9013d9261d5396faae14df95"
+    },
+    {
+      "id": "CV-02-01",
+      "hosts": 12463,
+      "native_tile_entities": 998,
+      "schematic_sha256": "ddc7ba10004c4a2b6b82738fbc1deb4c2b7eaacdd65019ed4b6c9ac9724bf985"
+    },
+    {
+      "id": "CV-03-01",
+      "hosts": 13321,
+      "native_tile_entities": 1161,
+      "schematic_sha256": "bd2a3c1f89bb12db7fb52583abac20305bccf3de7caae91285b35cd73f665482"
+    },
+    {
+      "id": "CV-04-01",
+      "hosts": 12022,
+      "native_tile_entities": 1581,
+      "schematic_sha256": "a435bf89db020b90682c261e1442528935b5ba953017499899e86650fb40ce2c"
+    },
+    {
+      "id": "CV-05-01",
+      "hosts": 12336,
+      "native_tile_entities": 1662,
+      "schematic_sha256": "16bcce572ca63548b7b5a15309027224931e166878f7e1a33cfac89d0120f9e6"
+    },
+    {
+      "id": "CV-06-01",
+      "hosts": 12336,
+      "native_tile_entities": 1679,
+      "schematic_sha256": "9ed9731ac713d4456a71283a1bd501ef0fd08c1aab7d74bbb0a708716830e9b9"
+    },
+    {
+      "id": "CV-07-01",
+      "hosts": 11868,
+      "native_tile_entities": 789,
+      "schematic_sha256": "7f63a22067f86b9aadfbd5134d58c3d887857bbe379c162afa5d69829b8cf693"
+    },
+    {
+      "id": "CV-08-01",
+      "hosts": 12278,
+      "native_tile_entities": 913,
+      "schematic_sha256": "2cfe24c1b859b548a08bea651d22a3733cf4140add39e0d903fd2cac39549773"
+    },
+    {
+      "id": "CV-09-01",
+      "hosts": 12032,
+      "native_tile_entities": 1572,
+      "schematic_sha256": "3a192a84797a4d16e7f1c24c3590bd747ac8965f8387f93baa5cdc1799917659"
+    },
+    {
+      "id": "CV-10-01",
+      "hosts": 4568,
+      "native_tile_entities": 755,
+      "schematic_sha256": "c79a738bfdefac471d45f3af5fde5a3781f26e4619145c2cac9cfc8852bfa635"
+    },
+    {
+      "id": "CV-01-02",
+      "hosts": 12077,
+      "native_tile_entities": 1602,
+      "schematic_sha256": "eb245df51e0cf649090baf87653a5a279e36775c630c45c336b2d1d69d0e897f"
+    },
+    {
+      "id": "CV-02-02",
+      "hosts": 12042,
+      "native_tile_entities": 1551,
+      "schematic_sha256": "edcae18b3c5c643454d381adf8e79c62f39d729773586f7b8d1df0c96bbae19a"
+    },
+    {
+      "id": "CV-03-02",
+      "hosts": 12833,
+      "native_tile_entities": 1726,
+      "schematic_sha256": "1d83027560747cf0657ca3a40ce5f887af2bc901a84fb27a5a461761d4622024"
+    },
+    {
+      "id": "CV-04-02",
+      "hosts": 12345,
+      "native_tile_entities": 1699,
+      "schematic_sha256": "682954d3e8fc66318d7ca9837954d6bddc83c9e9bf0836d44dff30db6823bd27"
+    },
+    {
+      "id": "CV-05-02",
+      "hosts": 11932,
+      "native_tile_entities": 1503,
+      "schematic_sha256": "f44fa3944d2086b7b72714b2524206458f179e7ca0a389f756ce1bba1a6bdfb8"
+    },
+    {
+      "id": "CV-06-02",
+      "hosts": 12484,
+      "native_tile_entities": 287,
+      "schematic_sha256": "cb2403b9ef7417b377613abd2499c391a5a12f7e1716af2bcdc48d42eaaada61"
+    },
+    {
+      "id": "CV-07-02",
+      "hosts": 12204,
+      "native_tile_entities": 1595,
+      "schematic_sha256": "6f805d2bad32bd4ab8174dfcbf4d504e1ae7aaa06271b1304489f8f83152c9b1"
+    },
+    {
+      "id": "CV-08-02",
+      "hosts": 11998,
+      "native_tile_entities": 1535,
+      "schematic_sha256": "4a55c6decbf9d9504c64f4d78f0745f3ba2c0edadaf86ff010d9399d7c5fc93f"
+    },
+    {
+      "id": "CV-09-02",
+      "hosts": 11206,
+      "native_tile_entities": 1505,
+      "schematic_sha256": "dcd98b148705b3c8710a61464ebe7abfc8c93da8e0ba76f1e76ba078ec3eda79"
+    },
+    {
+      "id": "CV-10-02",
+      "hosts": 4636,
+      "native_tile_entities": 755,
+      "schematic_sha256": "82e3349405e7b64fe2e65483563848821d6eef6365117bae897ab255ae1d554f"
+    },
+    {
+      "id": "CV-01-03",
+      "hosts": 12604,
+      "native_tile_entities": 1701,
+      "schematic_sha256": "f496a823c2df55972637dd939c6228090c95ac969a235e209971276b5de40dd9"
+    },
+    {
+      "id": "CV-02-03",
+      "hosts": 12539,
+      "native_tile_entities": 1720,
+      "schematic_sha256": "b80ff91bdfe9655381899c9de8325fffafa734d99c2fca52639646d6cfcc1e4c"
+    },
+    {
+      "id": "CV-03-03",
+      "hosts": 12294,
+      "native_tile_entities": 1644,
+      "schematic_sha256": "ba0b3c21b8ed250fb476066ff119a7e7c9fd6254e2630d2c38ad6d5defefdeec"
+    },
+    {
+      "id": "CV-04-03",
+      "hosts": 12231,
+      "native_tile_entities": 1629,
+      "schematic_sha256": "03f14394093f4d1b92354127e7b129dd9dee0dffb250dc9ae08f8b101a5f970d"
+    },
+    {
+      "id": "CV-05-03",
+      "hosts": 11933,
+      "native_tile_entities": 1505,
+      "schematic_sha256": "663642242606b0f6c657a8594d912934c1e189c116e661165a1dd8c4ec79dc7f"
+    },
+    {
+      "id": "CV-06-03",
+      "hosts": 12750,
+      "native_tile_entities": 1752,
+      "schematic_sha256": "82255a6d4370f7adda9211a4e3462f372aeb1f5253d5386e461ea693bcb88926"
+    },
+    {
+      "id": "CV-07-03",
+      "hosts": 13028,
+      "native_tile_entities": 1920,
+      "schematic_sha256": "e90eebd4ed199c5a134555ac39bce341fef01f9990a65dada910fc6865f8c8af"
+    },
+    {
+      "id": "CV-08-03",
+      "hosts": 13111,
+      "native_tile_entities": 1857,
+      "schematic_sha256": "2222cd5dd712e9f81195ac2b2ec79866c0f847fa0de4a0459dde1cf8c9bf33c8"
+    },
+    {
+      "id": "CV-09-03",
+      "hosts": 11697,
+      "native_tile_entities": 1693,
+      "schematic_sha256": "9d84f4fd2c7b14792909f6a4d87efd340e12d952094439c6be869a310c6e15ab"
+    },
+    {
+      "id": "CV-10-03",
+      "hosts": 4636,
+      "native_tile_entities": 755,
+      "schematic_sha256": "6e1c9b048f6be15a8ee3755e540d64fcef960064c840b5f7b7c1441f2f61cb2f"
+    },
+    {
+      "id": "CV-01-04",
+      "hosts": 12105,
+      "native_tile_entities": 1612,
+      "schematic_sha256": "230bc4ca3f5550ebb1de68f773b5a109bb0b57d932ebb4182b76909b31ff698e"
+    },
+    {
+      "id": "CV-02-04",
+      "hosts": 13105,
+      "native_tile_entities": 1113,
+      "schematic_sha256": "7d9a769e59c12a264d627859755db0ed7ec47862e175724100a5ceaa0d09dd49"
+    },
+    {
+      "id": "CV-03-04",
+      "hosts": 12127,
+      "native_tile_entities": 1586,
+      "schematic_sha256": "60e426a5f9225b8400c113220b165bfa107b38ee544fa852d9cd73fd7f9580c6"
+    },
+    {
+      "id": "CV-04-04",
+      "hosts": 11301,
+      "native_tile_entities": 1553,
+      "schematic_sha256": "7506f3e40643ceb29084e56a91118f713488a765d6d53eb2a7e39d082d721950"
+    },
+    {
+      "id": "CV-05-04",
+      "hosts": 12269,
+      "native_tile_entities": 1609,
+      "schematic_sha256": "dba73e6da9cd2336dca69c61d4dcbd3e5818aad0d93981b11eeed753fc8b3889"
+    },
+    {
+      "id": "CV-06-04",
+      "hosts": 12888,
+      "native_tile_entities": 1772,
+      "schematic_sha256": "e991aaeeba9da47ad4f60c7bd234283707fa90510600bcf573eb41febd6a0749"
+    },
+    {
+      "id": "CV-07-04",
+      "hosts": 12428,
+      "native_tile_entities": 991,
+      "schematic_sha256": "81b7c659ae0e243fe6dd3073b9b9c48aac58b37b3e56f279e16b90f29bfa15fb"
+    },
+    {
+      "id": "CV-08-04",
+      "hosts": 12231,
+      "native_tile_entities": 1814,
+      "schematic_sha256": "8ef477d0da8647b0cd8a62d3ff6f9b8f4f3c96291a43426a76c6b87e72b25495"
+    },
+    {
+      "id": "CV-09-04",
+      "hosts": 11907,
+      "native_tile_entities": 1082,
+      "schematic_sha256": "92df485d75d224fb9303032a4bdddf0fe614bbed9fb1b0766066bbb9a39eb5e1"
+    },
+    {
+      "id": "CV-10-04",
+      "hosts": 4796,
+      "native_tile_entities": 805,
+      "schematic_sha256": "59797ffad51c2e324bf6e99b27dd5d416655eb5b9cc4917fc74999e41dc420e8"
+    },
+    {
+      "id": "CV-01-05",
+      "hosts": 12172,
+      "native_tile_entities": 1633,
+      "schematic_sha256": "757da2e3192143ba3206f4c1acd9d372a51523d71d07e4a44faa80d5e3ad583b"
+    },
+    {
+      "id": "CV-02-05",
+      "hosts": 12256,
+      "native_tile_entities": 1626,
+      "schematic_sha256": "96e7a1794e4a95bc040a5dc23833113919d5d936d80e6f3ed7ba5bd7f9454fa3"
+    },
+    {
+      "id": "CV-03-05",
+      "hosts": 12445,
+      "native_tile_entities": 1698,
+      "schematic_sha256": "0b01e64ac2679c7d8090b6b3800abd41557bc9cd3bfbcfa18831b43e37e3860a"
+    },
+    {
+      "id": "CV-04-05",
+      "hosts": 12171,
+      "native_tile_entities": 1596,
+      "schematic_sha256": "bf9e1cd8ce885498943f0c07a6a27489922ec042c9fff5963fd02a24cca8eb35"
+    },
+    {
+      "id": "CV-05-05",
+      "hosts": 12222,
+      "native_tile_entities": 1612,
+      "schematic_sha256": "4f679147d749d57a1455715a179ad12b6f3b601acc716dea9f67d81534cace4a"
+    },
+    {
+      "id": "CV-06-05",
+      "hosts": 12092,
+      "native_tile_entities": 1579,
+      "schematic_sha256": "4714a9ade1c6d4f2cd8e14bf0f4ea755b5e32affa81bd835e0a3218e8ee408f6"
+    },
+    {
+      "id": "CV-07-05",
+      "hosts": 11897,
+      "native_tile_entities": 1708,
+      "schematic_sha256": "a1b54160f711f8b5cb04378714c6d47f41797d7ff993d5ddc0f16c7cd8e91fb0"
+    },
+    {
+      "id": "CV-08-05",
+      "hosts": 12158,
+      "native_tile_entities": 1777,
+      "schematic_sha256": "91aec4ed66ddb30ef3e8290720dd21ee3ee9f75e350651fdfe9c79a5333a5bbe"
+    },
+    {
+      "id": "CV-09-05",
+      "hosts": 12275,
+      "native_tile_entities": 1663,
+      "schematic_sha256": "68d245065f7c78a68dd4ef23989f51162eb4510bf2b8f9e302001c5c9d9c3c33"
+    },
+    {
+      "id": "CV-10-05",
+      "hosts": 4636,
+      "native_tile_entities": 755,
+      "schematic_sha256": "eaf3ec879f419f630070b6eabd1a54d727853607c779cd585583745949627ad5"
+    },
+    {
+      "id": "CV-01-06",
+      "hosts": 12312,
+      "native_tile_entities": 1670,
+      "schematic_sha256": "37849229edf8dac4592dba77521f126a50c3f37336588a9fdadb91a5d54604dd"
+    },
+    {
+      "id": "CV-02-06",
+      "hosts": 11932,
+      "native_tile_entities": 1503,
+      "schematic_sha256": "743871ec2d8ddf32cecc1fcd8b777b6f83f4d196590d8e69fafa0543e3c832ae"
+    },
+    {
+      "id": "CV-03-06",
+      "hosts": 12408,
+      "native_tile_entities": 1673,
+      "schematic_sha256": "c282f93b592d611f1ebbaf6f0b624201372eb7730e3f72efc10090fffe3c5c72"
+    },
+    {
+      "id": "CV-04-06",
+      "hosts": 12136,
+      "native_tile_entities": 1591,
+      "schematic_sha256": "f7f0afbfdb8ce4e7f710a18a2a172805979ae98af17e6231e9b0e66f9bf4c8a4"
+    },
+    {
+      "id": "CV-05-06",
+      "hosts": 12316,
+      "native_tile_entities": 1670,
+      "schematic_sha256": "93ed70faec9c882bbd2f5a19084b5cfe0994359d68271e13364455a452114c26"
+    },
+    {
+      "id": "CV-06-06",
+      "hosts": 12371,
+      "native_tile_entities": 960,
+      "schematic_sha256": "3888a11cd4e29415cfa864738e848bf00bb3572948ed0402982201652f1be288"
+    },
+    {
+      "id": "CV-07-06",
+      "hosts": 12720,
+      "native_tile_entities": 1009,
+      "schematic_sha256": "fd1955431b685780f742f64530fdb4e5672b95059ebb6bcc9c0fb4ed2836c49e"
+    },
+    {
+      "id": "CV-08-06",
+      "hosts": 12229,
+      "native_tile_entities": 1609,
+      "schematic_sha256": "cdfee0f62e091e2295f8ba601d7e76e92e6b6c6f093ba00f81e2e5d2eece9022"
+    },
+    {
+      "id": "CV-09-06",
+      "hosts": 11933,
+      "native_tile_entities": 1507,
+      "schematic_sha256": "4550452a26469d36660433de84e13892b198eb6c7c70c89227058819edd2ed4e"
+    },
+    {
+      "id": "CV-10-06",
+      "hosts": 4636,
+      "native_tile_entities": 753,
+      "schematic_sha256": "409fdd3dea478c843bfe4e8db5574148d76003f0509ca9dfe05e7bdb31f33ed4"
+    },
+    {
+      "id": "CV-01-07",
+      "hosts": 12848,
+      "native_tile_entities": 1772,
+      "schematic_sha256": "0dd935fe20fd7d53cd19124c7f8167a7d4596298ce6b5a45109e538993ce401f"
+    },
+    {
+      "id": "CV-02-07",
+      "hosts": 12066,
+      "native_tile_entities": 1567,
+      "schematic_sha256": "ddd5b48254da3ca1de998fbe646de1b467500922048e0333007ad592f7c5c8fd"
+    },
+    {
+      "id": "CV-03-07",
+      "hosts": 12733,
+      "native_tile_entities": 1771,
+      "schematic_sha256": "10f9320fcc963cc71a7df26ef46342f5bcf548ce35de74383b004109b705df7d"
+    },
+    {
+      "id": "CV-04-07",
+      "hosts": 12326,
+      "native_tile_entities": 1656,
+      "schematic_sha256": "18ad3bf21b2887ec961731b8c2b7bc2fe6d342206620254de8ed3d700733b34c"
+    },
+    {
+      "id": "CV-05-07",
+      "hosts": 12396,
+      "native_tile_entities": 1878,
+      "schematic_sha256": "605f9a599ef4748769cd6ab6e793541f64cb9e54913dbbf4a3d71a6fbd430b25"
+    },
+    {
+      "id": "CV-06-07",
+      "hosts": 12046,
+      "native_tile_entities": 1559,
+      "schematic_sha256": "abd5287f663ab959bc3a9e34717bd2535893f35f82572fe74ceef0fd3a71ac9d"
+    },
+    {
+      "id": "CV-07-07",
+      "hosts": 11986,
+      "native_tile_entities": 1529,
+      "schematic_sha256": "634726033a5f98d9966d911062a4640b7fd2a0c3196c15784f195b0c6a7951de"
+    },
+    {
+      "id": "CV-08-07",
+      "hosts": 11933,
+      "native_tile_entities": 1505,
+      "schematic_sha256": "e3818512edfbd38bbafc11a6d4bc88ee947b985ebfc2192bac3745276563b2d0"
+    },
+    {
+      "id": "CV-09-07",
+      "hosts": 12085,
+      "native_tile_entities": 1566,
+      "schematic_sha256": "ec92b932c1e09afb506fc498bc328f1e05981bca0071c5f4aac3c7a992600c35"
+    },
+    {
+      "id": "CV-10-07",
+      "hosts": 4636,
+      "native_tile_entities": 755,
+      "schematic_sha256": "d25fc40c1ab349f7349ac4c6162de727a0ce3768d748ceedfd39eb767109d1c1"
+    },
+    {
+      "id": "CV-01-08",
+      "hosts": 12968,
+      "native_tile_entities": 1828,
+      "schematic_sha256": "683023aab7b5402f621bfe678a4af4422fff88d8d31259fbfb819f15f34dd476"
+    },
+    {
+      "id": "CV-02-08",
+      "hosts": 12581,
+      "native_tile_entities": 1702,
+      "schematic_sha256": "c7f5a59b98f644f66fc99921e3f29ca2808c9038101a443eff1ffacd48c6f08b"
+    },
+    {
+      "id": "CV-03-08",
+      "hosts": 12722,
+      "native_tile_entities": 1760,
+      "schematic_sha256": "a6690d351f2ba20e28bbd88508306a0f3d4b0f9ce45b3a4beaf72acdc1ec79e2"
+    },
+    {
+      "id": "CV-04-08",
+      "hosts": 12900,
+      "native_tile_entities": 1956,
+      "schematic_sha256": "b236a68951d62473b6eebf5e6d28ee1ab9e4e61b9189ae88c6bb40d12a74289c"
+    },
+    {
+      "id": "CV-05-08",
+      "hosts": 11936,
+      "native_tile_entities": 1748,
+      "schematic_sha256": "e371b271d65c3f6ba5a15f20af040f490aa944335c31cd2a2ab8c9321578676c"
+    },
+    {
+      "id": "CV-06-08",
+      "hosts": 12246,
+      "native_tile_entities": 1623,
+      "schematic_sha256": "b963482736727735c57e8fdad738ee06e252dcbf58d33698f669828b9979f298"
+    },
+    {
+      "id": "CV-07-08",
+      "hosts": 11254,
+      "native_tile_entities": 1529,
+      "schematic_sha256": "5724f8853f5b2079ee8a5670dd2a613e6f5860d563cdd5a73613f3e0a9009bb5"
+    },
+    {
+      "id": "CV-08-08",
+      "hosts": 11238,
+      "native_tile_entities": 1518,
+      "schematic_sha256": "ab46b16ac752bb87f06d556c7a0b363de9613635454e3eb307332ffeba40e071"
+    },
+    {
+      "id": "CV-09-08",
+      "hosts": 13240,
+      "native_tile_entities": 1069,
+      "schematic_sha256": "35f95eb6100eb70a81ea10639ae508ecb6d4fe725a5619589592a42c56f666a7"
+    },
+    {
+      "id": "CV-10-08",
+      "hosts": 4588,
+      "native_tile_entities": 21,
+      "schematic_sha256": "b13579295c42fe32910f0e98893944fa31982db604419896357187536da32e81"
+    },
+    {
+      "id": "CV-01-09",
+      "hosts": 12074,
+      "native_tile_entities": 1584,
+      "schematic_sha256": "acb18662b35007915a98f08488f82019381d1aa10c91ed176d968227ea5f182e"
+    },
+    {
+      "id": "CV-02-09",
+      "hosts": 11933,
+      "native_tile_entities": 1503,
+      "schematic_sha256": "9f6d95803c6e4c961a27ae3b904335e6f9f1c24f7cd5bf5b4a2cfcbcb20a86d3"
+    },
+    {
+      "id": "CV-03-09",
+      "hosts": 11618,
+      "native_tile_entities": 1666,
+      "schematic_sha256": "ef27e79e0aebdb726942e1f48beb1455a4e830825d7fe9dc32cc9a45e53c4d65"
+    },
+    {
+      "id": "CV-04-09",
+      "hosts": 12000,
+      "native_tile_entities": 1536,
+      "schematic_sha256": "9f1591b5b47c9cc8b4b1438375c43a6320646151abe1d3bf0c145d211ff6dc79"
+    },
+    {
+      "id": "CV-05-09",
+      "hosts": 12519,
+      "native_tile_entities": 1714,
+      "schematic_sha256": "3b98087e040d03986ce6d4ff9e60c1ce1ab8c12d5d2ba8e4bf6077b3b0336a3a"
+    },
+    {
+      "id": "CV-06-09",
+      "hosts": 11968,
+      "native_tile_entities": 1517,
+      "schematic_sha256": "c00bd46045b897cb3a48f65b4f2e991805d4baec15392bb3b06a5826be85f7ee"
+    },
+    {
+      "id": "CV-07-09",
+      "hosts": 11932,
+      "native_tile_entities": 1505,
+      "schematic_sha256": "427d9d5464f3c13e6edec2265e1b65f13ec6f5dc8042a8a4c5c3abc08e7d57ae"
+    },
+    {
+      "id": "CV-08-09",
+      "hosts": 11229,
+      "native_tile_entities": 1512,
+      "schematic_sha256": "94c08a89b2ad88d3c5adffba8b88e5f208ca6da6e5faaf9e5b28b321491d8528"
+    },
+    {
+      "id": "CV-09-09",
+      "hosts": 12782,
+      "native_tile_entities": 1768,
+      "schematic_sha256": "2c5a141ac9005d88d7e6312ace74e3d197c3d447496ea5df0c561f63f0830e4a"
+    },
+    {
+      "id": "CV-10-09",
+      "hosts": 4588,
+      "native_tile_entities": 731,
+      "schematic_sha256": "4802ca9812f12d9e8a65bbafe6831a31dbf10c8159ab8854067a57bb65524424"
+    },
+    {
+      "id": "CV-01-10",
+      "hosts": 4568,
+      "native_tile_entities": 753,
+      "schematic_sha256": "0d586fabc4c50af3ed88670e92e7e10df26d7b3f9c17e393e08e0f9235d7800e"
+    },
+    {
+      "id": "CV-02-10",
+      "hosts": 4636,
+      "native_tile_entities": 751,
+      "schematic_sha256": "82866135d8cc987e87121326844275d6aa14dcfd1300a1ebc1871bd5cfed9c7c"
+    },
+    {
+      "id": "CV-03-10",
+      "hosts": 4636,
+      "native_tile_entities": 753,
+      "schematic_sha256": "d53c68f2a940ebe2701e60a0ab53238d3f599496eff9581b8cfe4b6cc186b758"
+    },
+    {
+      "id": "CV-04-10",
+      "hosts": 4636,
+      "native_tile_entities": 753,
+      "schematic_sha256": "1b8a43d63ec35755094efb3e0e19aeb4cb49a17e380635e5f7e3d78855fb0e72"
+    },
+    {
+      "id": "CV-05-10",
+      "hosts": 4656,
+      "native_tile_entities": 757,
+      "schematic_sha256": "aa401213bc0019eb3c1d9190022ec80cb56bcb71479bf8b2bb6ab284dcf6c710"
+    },
+    {
+      "id": "CV-06-10",
+      "hosts": 4630,
+      "native_tile_entities": 745,
+      "schematic_sha256": "c60937047a104b961c6da2bcd3a2a76f09b4f6853b14d4350bf4dafab8a57084"
+    },
+    {
+      "id": "CV-07-10",
+      "hosts": 4636,
+      "native_tile_entities": 755,
+      "schematic_sha256": "314aec651ca8322e803d3d34abbd9c42e4bfd3fb34398347907524a6e8667bbd"
+    },
+    {
+      "id": "CV-08-10",
+      "hosts": 4636,
+      "native_tile_entities": 45,
+      "schematic_sha256": "a42c578d55b4cd64fec588a72d9954cc93e875932234c740ef6506ff8315c238"
+    },
+    {
+      "id": "CV-09-10",
+      "hosts": 4636,
+      "native_tile_entities": 755,
+      "schematic_sha256": "9efc95ba320e249144b4f7fd54ceef83caa7f909e89f497a2dc8f52d9ddfa2bf"
+    },
+    {
+      "id": "CV-10-10",
+      "hosts": 595,
+      "native_tile_entities": 11,
+      "schematic_sha256": "984016b96511a406c17d565744c4dff8e611745320e8ef04885fd220f5e5dcd6"
+    },
+    {
+      "id": "JW01-A",
+      "hosts": 43816,
+      "native_tile_entities": 6994,
+      "schematic_sha256": "dd0d28653da604b70e7a1e1282bbeb9127b4028461959da4a7c4f827d99247e6"
+    },
+    {
+      "id": "JW02-A",
+      "hosts": 4288,
+      "native_tile_entities": 472,
+      "schematic_sha256": "4fc537cafd1594a9eb081aa20a47188bc66342afe8a8cd1e9a11eedb3f383416"
+    },
+    {
+      "id": "JW03-A",
+      "hosts": 29283,
+      "native_tile_entities": 2476,
+      "schematic_sha256": "2b70bcb4626c2edf2378ab0c7a519844cd7e1c6e558244899e63ee55e9137e71"
+    },
+    {
+      "id": "JW04-A",
+      "hosts": 16389,
+      "native_tile_entities": 1841,
+      "schematic_sha256": "3c9ac65b5676a9bbb725140989b37c446dc3e3c168cb14ff0f6ea2b46d05e38c"
+    },
+    {
+      "id": "JW05-A",
+      "hosts": 1674,
+      "native_tile_entities": 38,
+      "schematic_sha256": "6f31b94aec4058e706e01b455a2a6b272e164da1ce78894c8f8bef6af67b351f"
+    },
+    {
+      "id": "JW06-A",
+      "hosts": 11143,
+      "native_tile_entities": 1742,
+      "schematic_sha256": "b4be51feda8fe38d793386513e3e7224f40cead327eb715a9c7abae6f568f77d"
+    },
+    {
+      "id": "JW07-A",
+      "hosts": 60,
+      "native_tile_entities": 11,
+      "schematic_sha256": "11333a6a5734a02ed6b7abf2c1de2671cba0bb27f60089dca188dfdcf8579cfe"
+    },
+    {
+      "id": "MK01",
+      "hosts": 768,
+      "native_tile_entities": 8,
+      "schematic_sha256": "5aa1ac27d35457c1ff4c31a5ec5c183afc358e6a50a1a11b18750a2ee61ad068"
+    },
+    {
+      "id": "MK02",
+      "hosts": 768,
+      "native_tile_entities": 8,
+      "schematic_sha256": "ae69d7ebc86f5a4922e0a285f321600ea3e2feef0561be1437e77aff29481a19"
+    },
+    {
+      "id": "MK03",
+      "hosts": 1440,
+      "native_tile_entities": 4,
+      "schematic_sha256": "41c61991838b1828e6c701b575eee93f14b96b5e16917a3e7f675fe2be141efa"
+    },
+    {
+      "id": "MK04",
+      "hosts": 1152,
+      "native_tile_entities": 4,
+      "schematic_sha256": "6cb3445f4fa0e2aff84caffbb4e62bbeb53828d4035583eaf875b4fb9788121a"
+    },
+    {
+      "id": "MK05",
+      "hosts": 864,
+      "native_tile_entities": 4,
+      "schematic_sha256": "e40dcf7ceec5d7aa32e50992d4b78100f74c56b41a5332e80d394dd873f59bb1"
+    },
+    {
+      "id": "MK06",
+      "hosts": 10648,
+      "native_tile_entities": 0,
+      "schematic_sha256": "4f6293cdb6aa9cf787f8973e7d68b060ed4dfe9e95b85ee40c15fa8685611eb4"
+    },
+    {
+      "id": "MK07",
+      "hosts": 10946,
+      "native_tile_entities": 0,
+      "schematic_sha256": "c0e9a1bb194d067a69d3349929f79f85ea5efe3aac2f09f83a8ff8c78d03f1dc"
+    },
+    {
+      "id": "MK08",
+      "hosts": 736,
+      "native_tile_entities": 64,
+      "schematic_sha256": "efa484781c3f24085175b3263e0e286ec6b093809b7e81c1936f72e52e35db2d"
+    },
+    {
+      "id": "MK09",
+      "hosts": 736,
+      "native_tile_entities": 64,
+      "schematic_sha256": "87d02395bcecf971083c9e62f0770a0d025a80514fa1f80d7ba8828e2f61d73c"
+    },
+    {
+      "id": "MK10",
+      "hosts": 795,
+      "native_tile_entities": 0,
+      "schematic_sha256": "cd6d9eabc78618d47fd5d43f7e6976bff04c68c699d4a72811054c179c86c42a"
+    },
+    {
+      "id": "MK11",
+      "hosts": 639,
+      "native_tile_entities": 0,
+      "schematic_sha256": "c25e684fae43e2721a11f07926844df115cc4e5c698ca5d27313f0e750946fb5"
+    },
+    {
+      "id": "MK12",
+      "hosts": 479,
+      "native_tile_entities": 0,
+      "schematic_sha256": "2db590fcd2b1490ae3cf59e549ee3f823a461a796ffc78ce7530bc11310a5c11"
+    },
+    {
+      "id": "MK13",
+      "hosts": 89,
+      "native_tile_entities": 4,
+      "schematic_sha256": "abdb4f735a982e50460693633a16300826335ef3e4b2c0efe76db9f1f4fe7c6c"
+    },
+    {
+      "id": "MK14",
+      "hosts": 392,
+      "native_tile_entities": 60,
+      "schematic_sha256": "476877298eabe668c00524609a056d0410443525bea14ef70b66b3b3adad8719"
+    },
+    {
+      "id": "MK15",
+      "hosts": 392,
+      "native_tile_entities": 60,
+      "schematic_sha256": "5f83261845c658ff5cd79f950f7276bda010c9e855e8de5ed865d550cd868041"
+    },
+    {
+      "id": "MK16",
+      "hosts": 920,
+      "native_tile_entities": 72,
+      "schematic_sha256": "2b34daa7734add43bf378d7bd22297299636c4252a171b2255b44b6275b5c860"
+    },
+    {
+      "id": "MK17",
+      "hosts": 72,
+      "native_tile_entities": 0,
+      "schematic_sha256": "174f95ed6e8c9c7a88e069d58561c5ce1c2734f55b921f9aeba39b5d296c81b3"
+    },
+    {
+      "id": "MK18",
+      "hosts": 230,
+      "native_tile_entities": 35,
+      "schematic_sha256": "6183f0d925f845b5f369baeb3c1c9f2712e1d495a3022aa9d23a254991f7de80"
+    },
+    {
+      "id": "MK19",
+      "hosts": 384,
+      "native_tile_entities": 50,
+      "schematic_sha256": "83011bf22d8af227a7702f0da2def0e75b3c901af9ed9d5ef8314c08119e4563"
+    },
+    {
+      "id": "MK20",
+      "hosts": 384,
+      "native_tile_entities": 50,
+      "schematic_sha256": "f81cb53df4f3c78b127e8e713ad79493c58810d65f6a8eb7252607235c3c87d1"
+    },
+    {
+      "id": "MK21",
+      "hosts": 368,
+      "native_tile_entities": 52,
+      "schematic_sha256": "6b3098fe654e8360fc1449478ee2eeec7a16c992f256b893f8b0eb55397cf647"
+    },
+    {
+      "id": "MK22",
+      "hosts": 920,
+      "native_tile_entities": 72,
+      "schematic_sha256": "f6078672cb454bf6d0edfe6f1ca6ad2e47c1a4df8b39f3c4674623822f48ba92"
+    },
+    {
+      "id": "MK23",
+      "hosts": 230,
+      "native_tile_entities": 35,
+      "schematic_sha256": "9fdc9f677ce072c39252a4cc644320e3f5bf4742bc7aeea32c42de3196fec594"
+    },
+    {
+      "id": "MK24",
+      "hosts": 368,
+      "native_tile_entities": 52,
+      "schematic_sha256": "d7f732a62c11446447198e4e84c31f21a10b03917f46bd63b19cd4c3f5f5d1a6"
+    },
+    {
+      "id": "MK04-R1",
+      "hosts": 1152,
+      "native_tile_entities": 4,
+      "schematic_sha256": "3cace82ec1b22d14693580545d348cc7cab145e33189f7b434d4e00247242afa"
+    },
+    {
+      "id": "MK04-R2",
+      "hosts": 1152,
+      "native_tile_entities": 4,
+      "schematic_sha256": "4d9de297fc2f3442dce43bb313595b625c96ae5d42ecc1d294eac04edf17aebd"
+    },
+    {
+      "id": "MK04-R3",
+      "hosts": 1152,
+      "native_tile_entities": 4,
+      "schematic_sha256": "b672bdba2dc4c7c4699e50ea9b19030736af831eee55b3b756b3146914cadd60"
+    },
+    {
+      "id": "MK05-R1",
+      "hosts": 864,
+      "native_tile_entities": 4,
+      "schematic_sha256": "dbb2bf423533a3f817a90ea4f784378be48fba8557e2ded7ab2c45c904bfdb92"
+    },
+    {
+      "id": "MK05-R2",
+      "hosts": 864,
+      "native_tile_entities": 4,
+      "schematic_sha256": "7debdcb59854cdd96d8f46265df3011c54d954d5c93f7d6b6009f339ea0f6cbc"
+    },
+    {
+      "id": "MK05-R3",
+      "hosts": 864,
+      "native_tile_entities": 4,
+      "schematic_sha256": "b4fa2debec7dea8d73a665c86e166b63664499e5b83a4df4670767e97ffc81ba"
+    },
+    {
+      "id": "MK11-R1",
+      "hosts": 639,
+      "native_tile_entities": 0,
+      "schematic_sha256": "4fad2fbc05c856525d26342c1ea0f695c03790fb9934be159a87ec4d4a50a2b1"
+    },
+    {
+      "id": "MK11-R2",
+      "hosts": 639,
+      "native_tile_entities": 0,
+      "schematic_sha256": "f76e1e2b5121f870e5f36f9769957dfe364590c9045d6bd8ab7c2e36cb89c57d"
+    },
+    {
+      "id": "MK11-R3",
+      "hosts": 639,
+      "native_tile_entities": 0,
+      "schematic_sha256": "8106419e075d7fedea821ea6680df768fd24ca586062c1b25dc8869ff5ad1d9e"
+    },
+    {
+      "id": "MK12-R1",
+      "hosts": 479,
+      "native_tile_entities": 0,
+      "schematic_sha256": "51909ed194793ad237ebdfa3d33ee33e8291b02a264b0ef0dbba2f605534ea8d"
+    },
+    {
+      "id": "MK12-R2",
+      "hosts": 479,
+      "native_tile_entities": 0,
+      "schematic_sha256": "3000c2484702e3bd33af36d722abc9ef8a1720c38d6f3fd1c4a3d2e7113359aa"
+    },
+    {
+      "id": "MK12-R3",
+      "hosts": 479,
+      "native_tile_entities": 0,
+      "schematic_sha256": "4b7028ba11a4cf20f2d73d047dd8ff2716b42522373b620c8d1fc782f4f754fc"
+    },
+    {
+      "id": "MK25",
+      "hosts": 9479,
+      "native_tile_entities": 1718,
+      "schematic_sha256": "e4009cfd82361a92f18fccd74fa699d6332f361e65c0b9287a0c5e4ab1799b9c"
+    },
+    {
+      "id": "MK26",
+      "hosts": 640,
+      "native_tile_entities": 72,
+      "schematic_sha256": "95a065a1252e36bc6f2261098259b7766c4634425c5d7da33e20ba00af3b3eaf"
+    },
+    {
+      "id": "MK27",
+      "hosts": 640,
+      "native_tile_entities": 72,
+      "schematic_sha256": "906458ef79b8bd688d7a9f5a75e0b1ca5a3a3f13382c5ef3815e2ebd0d88b520"
+    },
+    {
+      "id": "MK28",
+      "hosts": 504,
+      "native_tile_entities": 54,
+      "schematic_sha256": "a8861308b79bf2ac4019e2ad2754b282b15cd8ffa86b97a52bcd9241c32e1da1"
+    },
+    {
+      "id": "MK29",
+      "hosts": 504,
+      "native_tile_entities": 54,
+      "schematic_sha256": "5f8b28ac2e46f3e4ee23cdaa746087348970d17af971064c3ccfc06200e11569"
+    },
+    {
+      "id": "MK30",
+      "hosts": 54,
+      "native_tile_entities": 0,
+      "schematic_sha256": "19bceb8c101d0e8f92e6a5424f3ba8f79f5198329cc652b986e9be1ba44edeaf"
+    },
+    {
+      "id": "MK31",
+      "hosts": 211,
+      "native_tile_entities": 0,
+      "schematic_sha256": "7a084d29ca8a80190a821ac7ad90fde5d285917279326830822e2ebd15af5187"
+    },
+    {
+      "id": "MK32",
+      "hosts": 1740,
+      "native_tile_entities": 0,
+      "schematic_sha256": "de29bb3b181926acc859815865f6d8314773c93d7d05a44a953e2a4ac97e7c47"
+    },
+    {
+      "id": "MK33",
+      "hosts": 332,
+      "native_tile_entities": 4,
+      "schematic_sha256": "766b1935f851383a74a5b635179618cce873ec966b42ae90e99dbc6e08c633b3"
+    },
+    {
+      "id": "MK34",
+      "hosts": 46,
+      "native_tile_entities": 13,
+      "schematic_sha256": "763a980ee75e6ad58e12942ebc8e832f8f192922b2d104758ec69c1315a19975"
+    },
+    {
+      "id": "MK35",
+      "hosts": 792,
+      "native_tile_entities": 54,
+      "schematic_sha256": "d5a3fa945dfc67a9407bc47151e38131476fa5bd411788c36e060e57b633b92c"
+    },
+    {
+      "id": "MK36",
+      "hosts": 792,
+      "native_tile_entities": 54,
+      "schematic_sha256": "0ea4f7d6f5f9edef6ad603722f97ae9b1018d71686c88b6d40ff7285884a7e39"
+    },
+    {
+      "id": "MK37",
+      "hosts": 320,
+      "native_tile_entities": 68,
+      "schematic_sha256": "e536426fbb7624fdab333c7765b55c10c3547dc48c73267c0c44a5929fb2ca6e"
+    },
+    {
+      "id": "MK38",
+      "hosts": 320,
+      "native_tile_entities": 68,
+      "schematic_sha256": "e59c27124d95018cf82c08d2d0ff9899dc63c158dc67f14f249cb2ff37a0e563"
+    }
+  ],
+  "game_import_tested": false,
+  "functional_networks_tested": false
+}

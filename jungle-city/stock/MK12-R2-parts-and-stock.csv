@@ -1,0 +1,4 @@
+kind,role,block_registry,base_metadata,shape_id_or_size_eighths,placed_items_or_parts,quantity_type
+cube,F,minecraft:stonebrick,0,0,105,placed item
+cube,K,Ztones:tile.agonBlock,13,13,269,placed item
+cube,P,Ztones:tile.agonBlock,15,15,105,placed item

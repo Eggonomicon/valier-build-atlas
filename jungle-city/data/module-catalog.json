@@ -1,0 +1,5449 @@
+[
+  {
+    "id": "MK01",
+    "occupied_hosts": 768,
+    "host_kinds": {
+      "cube": 760,
+      "multipart": 8
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 384
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 184
+      },
+      {
+        "kind": "cube",
+        "role": "R",
+        "shape": "",
+        "count": 192
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "22",
+        "count": 4
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "23",
+        "count": 4
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "116",
+        "count": 4
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "117",
+        "count": 4
+      }
+    ],
+    "title": "Road / north\u2013south 32 \u00d7 12",
+    "notes": "Walk0. Three-wide P sidewalks, six-wide R lane, 1/8 cyan curb cuts. No terrain fill or foundation depth is assumed.",
+    "ports": [
+      {
+        "face": "N",
+        "along_range": [
+          0,
+          11
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      },
+      {
+        "face": "S",
+        "along_range": [
+          0,
+          11
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      11,
+      -1,
+      31
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        16.200000000000003,
+        12,
+        -28.8
+      ],
+      "target": [
+        6.0,
+        -1.5,
+        16.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK01.json.gz",
+    "model_sha256": "5655566322c6cb5c797b89b70f1a8ed6114b086e1ab20d6b51820ad707ffe65f",
+    "grid_zip": "modules/MK01-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK01-BUILD_GUIDE.md",
+    "layers": 2,
+    "image": "images/MK01.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK02",
+    "occupied_hosts": 768,
+    "host_kinds": {
+      "cube": 760,
+      "multipart": 8
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 384
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 184
+      },
+      {
+        "kind": "cube",
+        "role": "R",
+        "shape": "",
+        "count": 192
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "25",
+        "count": 4
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "27",
+        "count": 4
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "114",
+        "count": 4
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "115",
+        "count": 4
+      }
+    ],
+    "title": "Road / east\u2013west 32 \u00d7 12",
+    "notes": "Exact native quarter-turn of MK01; shaped/multipart orientations are rotated, not just the footprint.",
+    "ports": [
+      {
+        "face": "W",
+        "along_range": [
+          0,
+          11
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      },
+      {
+        "face": "E",
+        "along_range": [
+          0,
+          11
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      31,
+      -1,
+      11
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        43.2,
+        12,
+        -10.8
+      ],
+      "target": [
+        16.0,
+        -1.5,
+        6.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK02.json.gz",
+    "model_sha256": "6e12d16ffe2fe5a1996f7d8d787dabc9e0927973fb3784a3ed790315ead4e849",
+    "grid_zip": "modules/MK02-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK02-BUILD_GUIDE.md",
+    "layers": 2,
+    "image": "images/MK02.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK03",
+    "occupied_hosts": 1440,
+    "host_kinds": {
+      "cube": 1436,
+      "multipart": 4
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 720
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 288
+      },
+      {
+        "kind": "cube",
+        "role": "R",
+        "shape": "",
+        "count": 428
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "23",
+        "count": 4
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "116",
+        "count": 4
+      }
+    ],
+    "title": "Road / four-way junction",
+    "notes": "36-square envelope; only the road arms are occupied. Leave unused corners as natural terrain or add separate planters. All ports walk0.",
+    "ports": [
+      {
+        "face": "N",
+        "along_range": [
+          12,
+          23
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      },
+      {
+        "face": "S",
+        "along_range": [
+          12,
+          23
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      },
+      {
+        "face": "E",
+        "along_range": [
+          12,
+          23
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      },
+      {
+        "face": "W",
+        "along_range": [
+          12,
+          23
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      35,
+      -1,
+      35
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        48.6,
+        12,
+        -32.4
+      ],
+      "target": [
+        18.0,
+        -1.5,
+        18.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK03.json.gz",
+    "model_sha256": "f2d6dd2e8f08b6fae2c525e8260e0b8ab7c7fad2807c4c0a22db887797cc9d53",
+    "grid_zip": "modules/MK03-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK03-BUILD_GUIDE.md",
+    "layers": 2,
+    "image": "images/MK03.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK04",
+    "occupied_hosts": 1152,
+    "host_kinds": {
+      "cube": 1148,
+      "multipart": 4
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 576
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 216
+      },
+      {
+        "kind": "cube",
+        "role": "R",
+        "shape": "",
+        "count": 356
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "23",
+        "count": 4
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "116",
+        "count": 4
+      }
+    ],
+    "title": "Road / T junction",
+    "notes": "36-square envelope; only the road arms are occupied. Leave unused corners as natural terrain or add separate planters. All ports walk0.",
+    "ports": [
+      {
+        "face": "N",
+        "along_range": [
+          12,
+          23
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      },
+      {
+        "face": "E",
+        "along_range": [
+          12,
+          23
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      },
+      {
+        "face": "W",
+        "along_range": [
+          12,
+          23
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      35,
+      -1,
+      35
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        48.6,
+        12,
+        -32.4
+      ],
+      "target": [
+        18.0,
+        -1.5,
+        18.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK04.json.gz",
+    "model_sha256": "8414fd58e0b7dc3a31ce4573171a03b70ff504f9f18e639d33b5d1582a0d13a1",
+    "grid_zip": "modules/MK04-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK04-BUILD_GUIDE.md",
+    "layers": 2,
+    "image": "images/MK04.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK05",
+    "occupied_hosts": 864,
+    "host_kinds": {
+      "cube": 860,
+      "multipart": 4
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 432
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 144
+      },
+      {
+        "kind": "cube",
+        "role": "R",
+        "shape": "",
+        "count": 284
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "23",
+        "count": 4
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "116",
+        "count": 4
+      }
+    ],
+    "title": "Road / corner",
+    "notes": "36-square envelope; only the road arms are occupied. Leave unused corners as natural terrain or add separate planters. All ports walk0.",
+    "ports": [
+      {
+        "face": "N",
+        "along_range": [
+          12,
+          23
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      },
+      {
+        "face": "E",
+        "along_range": [
+          12,
+          23
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      35,
+      -1,
+      35
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        48.6,
+        12,
+        -32.4
+      ],
+      "target": [
+        18.0,
+        -1.5,
+        18.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK05.json.gz",
+    "model_sha256": "b92d6335181a4868fe3f617cec31f8f54869def0e6770f69f3dac00ad61c6173",
+    "grid_zip": "modules/MK05-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK05-BUILD_GUIDE.md",
+    "layers": 2,
+    "image": "images/MK05.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK06",
+    "occupied_hosts": 10648,
+    "host_kinds": {
+      "cube": 10648
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 8192
+      },
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 1496
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 960
+      }
+    ],
+    "title": "Basement-ready building pad / 64 square",
+    "notes": "Finished hall datum0; foundation floor\u22128, bearing course\u22129, open cavity. North utility opening walks\u22126 after the source hall floor is installed. This is a retaining/pad component, not a complete building. Reconcile overlapping ordinary foundation/landscape hosts once when combining with a source hall; do not sum both stock bills blindly.",
+    "ports": [
+      {
+        "face": "N / utility opening",
+        "along_range": [
+          30,
+          33
+        ],
+        "walk_y": -6,
+        "clear_width": 4
+      }
+    ],
+    "bounds": [
+      0,
+      -9,
+      0,
+      63,
+      -1,
+      63
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        80.0,
+        54.4,
+        -51.2
+      ],
+      "target": [
+        32.0,
+        -3,
+        32.0
+      ],
+      "lens": 42,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK06.json.gz",
+    "model_sha256": "a0a3fdac7d7923d292f9fb6895e1f947037827f33489a0652f59bfee24adf20e",
+    "grid_zip": "modules/MK06-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK06-BUILD_GUIDE.md",
+    "layers": 9,
+    "image": "images/MK06.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK07",
+    "occupied_hosts": 10946,
+    "host_kinds": {
+      "cube": 10946
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 8450
+      },
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 1520
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 976
+      }
+    ],
+    "title": "Basement-ready building pad / 65 square",
+    "notes": "Finished hall datum0; foundation floor\u22128, bearing course\u22129, open cavity. North utility opening walks\u22126 after the source hall floor is installed. This is a retaining/pad component, not a complete building. Reconcile overlapping ordinary foundation/landscape hosts once when combining with a source hall; do not sum both stock bills blindly.",
+    "ports": [
+      {
+        "face": "N / utility opening",
+        "along_range": [
+          30,
+          33
+        ],
+        "walk_y": -6,
+        "clear_width": 4
+      }
+    ],
+    "bounds": [
+      0,
+      -9,
+      0,
+      64,
+      -1,
+      64
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        81.25,
+        55.25,
+        -52.0
+      ],
+      "target": [
+        32.5,
+        -3,
+        32.5
+      ],
+      "lens": 42,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK07.json.gz",
+    "model_sha256": "5c73692799c868aeb31b51be7d1b4102569aced037556433c4c9216fd85511d3",
+    "grid_zip": "modules/MK07-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK07-BUILD_GUIDE.md",
+    "layers": 9,
+    "image": "images/MK07.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK08",
+    "occupied_hosts": 736,
+    "host_kinds": {
+      "cube": 672,
+      "multipart": 64
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 160
+      },
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 352
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 160
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "22",
+        "count": 32
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "23",
+        "count": 32
+      },
+      {
+        "kind": "mcr_face",
+        "role": "K",
+        "shape": "116",
+        "count": 32
+      },
+      {
+        "kind": "mcr_face",
+        "role": "K",
+        "shape": "117",
+        "count": 32
+      }
+    ],
+    "title": "Access gallery / north\u2013south",
+    "notes": "32long \u00d77 outer width. Clear5wide \u00d74high. Open ends; add MK13 cap while isolated. Cyan is a fractional wall insert, outside the maintenance lane.",
+    "ports": [
+      {
+        "face": "N",
+        "along_range": [
+          1,
+          5
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      },
+      {
+        "face": "S",
+        "along_range": [
+          1,
+          5
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      6,
+      4,
+      31
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        9.450000000000001,
+        12,
+        -28.8
+      ],
+      "target": [
+        3.5,
+        1.0,
+        16.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK08.json.gz",
+    "model_sha256": "432b9368819834c4d4dd367935ec2895660f545974dc1a000b5b09364bce0a31",
+    "grid_zip": "modules/MK08-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK08-BUILD_GUIDE.md",
+    "layers": 7,
+    "image": "images/MK08.webp",
+    "render_cutaway": true
+  },
+  {
+    "id": "MK09",
+    "occupied_hosts": 736,
+    "host_kinds": {
+      "cube": 672,
+      "multipart": 64
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 160
+      },
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 352
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 160
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "25",
+        "count": 32
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "27",
+        "count": 32
+      },
+      {
+        "kind": "mcr_face",
+        "role": "K",
+        "shape": "114",
+        "count": 32
+      },
+      {
+        "kind": "mcr_face",
+        "role": "K",
+        "shape": "115",
+        "count": 32
+      }
+    ],
+    "title": "Access gallery / east\u2013west",
+    "notes": "Exact native rotation of MK08. Five-wide clear maintenance lane and four-high headroom; ends are intentionally open.",
+    "ports": [
+      {
+        "face": "W",
+        "along_range": [
+          1,
+          5
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      },
+      {
+        "face": "E",
+        "along_range": [
+          1,
+          5
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      31,
+      4,
+      6
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        43.2,
+        12,
+        -6.3
+      ],
+      "target": [
+        16.0,
+        1.0,
+        3.5
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK09.json.gz",
+    "model_sha256": "b49b4bb9dc05ca5f8e138c636cf22b17bddb0c65291fe4c1df55f7a705b06103",
+    "grid_zip": "modules/MK09-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK09-BUILD_GUIDE.md",
+    "layers": 7,
+    "image": "images/MK09.webp",
+    "render_cutaway": true
+  },
+  {
+    "id": "MK10",
+    "occupied_hosts": 795,
+    "host_kinds": {
+      "cube": 795
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 185
+      },
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 425
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 185
+      }
+    ],
+    "title": "Access gallery / four-way junction",
+    "notes": "21-square envelope,5wide clear arms,4high. Model-derived lining opens at each declared port. Cap unused open ends separately.",
+    "ports": [
+      {
+        "face": "N",
+        "along_range": [
+          8,
+          12
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      },
+      {
+        "face": "S",
+        "along_range": [
+          8,
+          12
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      },
+      {
+        "face": "E",
+        "along_range": [
+          8,
+          12
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      },
+      {
+        "face": "W",
+        "along_range": [
+          8,
+          12
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      20,
+      4,
+      20
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        28.35,
+        12,
+        -18.900000000000002
+      ],
+      "target": [
+        10.5,
+        1.0,
+        10.5
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK10.json.gz",
+    "model_sha256": "c98f9e57b02fa0927419f2fb333c9fde40697f6dda3f0da62f36609a286022d2",
+    "grid_zip": "modules/MK10-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK10-BUILD_GUIDE.md",
+    "layers": 7,
+    "image": "images/MK10.webp",
+    "render_cutaway": true
+  },
+  {
+    "id": "MK11",
+    "occupied_hosts": 639,
+    "host_kinds": {
+      "cube": 639
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 145
+      },
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 349
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 145
+      }
+    ],
+    "title": "Access gallery / T junction",
+    "notes": "21-square envelope,5wide clear arms,4high. Model-derived lining opens at each declared port. Cap unused open ends separately.",
+    "ports": [
+      {
+        "face": "N",
+        "along_range": [
+          8,
+          12
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      },
+      {
+        "face": "E",
+        "along_range": [
+          8,
+          12
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      },
+      {
+        "face": "W",
+        "along_range": [
+          8,
+          12
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      20,
+      4,
+      20
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        28.35,
+        12,
+        -18.900000000000002
+      ],
+      "target": [
+        10.5,
+        1.0,
+        10.5
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK11.json.gz",
+    "model_sha256": "7d9464692528874d566e38c2b0faa7da0a8a5d12f35234e57039fa1ae1c450af",
+    "grid_zip": "modules/MK11-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK11-BUILD_GUIDE.md",
+    "layers": 7,
+    "image": "images/MK11.webp",
+    "render_cutaway": true
+  },
+  {
+    "id": "MK12",
+    "occupied_hosts": 479,
+    "host_kinds": {
+      "cube": 479
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 105
+      },
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 269
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 105
+      }
+    ],
+    "title": "Access gallery / corner",
+    "notes": "21-square envelope,5wide clear arms,4high. Model-derived lining opens at each declared port. Cap unused open ends separately.",
+    "ports": [
+      {
+        "face": "N",
+        "along_range": [
+          8,
+          12
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      },
+      {
+        "face": "E",
+        "along_range": [
+          8,
+          12
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      20,
+      4,
+      20
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        28.35,
+        12,
+        -18.900000000000002
+      ],
+      "target": [
+        10.5,
+        1.0,
+        10.5
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK12.json.gz",
+    "model_sha256": "4f88207d590908e2b186616e9a9833bc31e30304a0018470d8768fd74e179b5a",
+    "grid_zip": "modules/MK12-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK12-BUILD_GUIDE.md",
+    "layers": 7,
+    "image": "images/MK12.webp",
+    "render_cutaway": true
+  },
+  {
+    "id": "MK13",
+    "occupied_hosts": 89,
+    "host_kinds": {
+      "cube": 85,
+      "multipart": 4
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 15
+      },
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 55
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 15
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "22",
+        "count": 2
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "23",
+        "count": 2
+      },
+      {
+        "kind": "mcr_face",
+        "role": "K",
+        "shape": "116",
+        "count": 2
+      },
+      {
+        "kind": "mcr_face",
+        "role": "K",
+        "shape": "117",
+        "count": 2
+      }
+    ],
+    "title": "Access gallery / removable end cap",
+    "notes": "Three-long plug. Only the north end is open; the south wall is deliberately closed. Remove this temporary cap before extending a gallery, retaining the permanent floor/roof as needed.",
+    "ports": [
+      {
+        "face": "N",
+        "along_range": [
+          1,
+          5
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      6,
+      4,
+      2
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        9.450000000000001,
+        12,
+        -2.7
+      ],
+      "target": [
+        3.5,
+        1.0,
+        1.5
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK13.json.gz",
+    "model_sha256": "ecca996a765e7b4c9046780d53cb8edc0b27535fdee07de4467cc2b9d56d926c",
+    "grid_zip": "modules/MK13-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK13-BUILD_GUIDE.md",
+    "layers": 7,
+    "image": "images/MK13.webp",
+    "render_cutaway": true
+  },
+  {
+    "id": "MK14",
+    "occupied_hosts": 392,
+    "host_kinds": {
+      "cube": 332,
+      "multipart": 30,
+      "architecture": 30
+    },
+    "parts": [
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": "18",
+        "count": 2
+      },
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": "56",
+        "count": 28
+      },
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 144
+      },
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 46
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 70
+      },
+      {
+        "kind": "cube",
+        "role": "R",
+        "shape": "",
+        "count": 72
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "22",
+        "count": 1
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "23",
+        "count": 1
+      },
+      {
+        "kind": "mcr_face",
+        "role": "L",
+        "shape": "48",
+        "count": 28
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "116",
+        "count": 1
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "117",
+        "count": 1
+      }
+    ],
+    "title": "Cliff portal / north\u2013south road",
+    "notes": "14wide molded portal around a12wide road, with six-high clear lane. Retain natural clay beyond the lining. Excavation and abutments depend on your actual mesa.",
+    "ports": [
+      {
+        "face": "N",
+        "along_range": [
+          1,
+          12
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      },
+      {
+        "face": "S",
+        "along_range": [
+          1,
+          12
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      13,
+      6,
+      11
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        18.900000000000002,
+        12.6,
+        -10.8
+      ],
+      "target": [
+        7.0,
+        2.0,
+        6.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK14.json.gz",
+    "model_sha256": "a6cc15da610c5e9dc3ff01a37ba189b479958c6f6bfc3c5516459615053715fd",
+    "grid_zip": "modules/MK14-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK14-BUILD_GUIDE.md",
+    "layers": 9,
+    "image": "images/MK14.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK15",
+    "occupied_hosts": 392,
+    "host_kinds": {
+      "cube": 332,
+      "multipart": 30,
+      "architecture": 30
+    },
+    "parts": [
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": "18",
+        "count": 2
+      },
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": "56",
+        "count": 28
+      },
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 144
+      },
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 46
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 70
+      },
+      {
+        "kind": "cube",
+        "role": "R",
+        "shape": "",
+        "count": 72
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "25",
+        "count": 1
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "27",
+        "count": 1
+      },
+      {
+        "kind": "mcr_face",
+        "role": "L",
+        "shape": "48",
+        "count": 28
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "114",
+        "count": 1
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "115",
+        "count": 1
+      }
+    ],
+    "title": "Cliff portal / east\u2013west road",
+    "notes": "Exact native quarter-turn of MK14. Place only after surveying the natural cliff and safe tunnel cover.",
+    "ports": [
+      {
+        "face": "W",
+        "along_range": [
+          1,
+          12
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      },
+      {
+        "face": "E",
+        "along_range": [
+          1,
+          12
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      11,
+      6,
+      13
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        16.200000000000003,
+        12.6,
+        -12.6
+      ],
+      "target": [
+        6.0,
+        2.0,
+        7.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK15.json.gz",
+    "model_sha256": "9d020d329d58c7c17be75e76a12fc8dd0cc72d6dce7b61fb02199414ec90cc87",
+    "grid_zip": "modules/MK15-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK15-BUILD_GUIDE.md",
+    "layers": 9,
+    "image": "images/MK15.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK16",
+    "occupied_hosts": 920,
+    "host_kinds": {
+      "cube": 848,
+      "multipart": 8,
+      "architecture": 64
+    },
+    "parts": [
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": "56",
+        "count": 64
+      },
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 384
+      },
+      {
+        "kind": "cube",
+        "role": "G",
+        "shape": "",
+        "count": 64
+      },
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 24
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 184
+      },
+      {
+        "kind": "cube",
+        "role": "R",
+        "shape": "",
+        "count": 192
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "22",
+        "count": 4
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "23",
+        "count": 4
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "116",
+        "count": 4
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "117",
+        "count": 4
+      }
+    ],
+    "title": "Bridge / guarded north\u2013south span",
+    "notes": "32long,12wide deck with glass guards and molded caps. Four short illustrative bearing legs are included; extend/trim to real solid rock using MK17. No structural load or terrain support claim. Add a separate gallery at a chosen safe elevation.",
+    "ports": [
+      {
+        "face": "N",
+        "along_range": [
+          1,
+          10
+        ],
+        "walk_y": 0,
+        "clear_width": 10
+      },
+      {
+        "face": "S",
+        "along_range": [
+          1,
+          10
+        ],
+        "walk_y": 0,
+        "clear_width": 10
+      }
+    ],
+    "bounds": [
+      0,
+      -8,
+      0,
+      11,
+      1,
+      31
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        16.200000000000003,
+        14.0,
+        -28.8
+      ],
+      "target": [
+        6.0,
+        -3.5,
+        16.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK16.json.gz",
+    "model_sha256": "fc7f895e73c1d5d21beb4bf3f89d3822533b54741bd531e1383901f1e4652bf2",
+    "grid_zip": "modules/MK16-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK16-BUILD_GUIDE.md",
+    "layers": 10,
+    "image": "images/MK16.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK17",
+    "occupied_hosts": 72,
+    "host_kinds": {
+      "cube": 72
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 63
+      },
+      {
+        "kind": "cube",
+        "role": "L",
+        "shape": "",
+        "count": 9
+      }
+    ],
+    "title": "Bearing pier / 3 \u00d7 3 \u00d7 8 extension",
+    "notes": "Detached bearing extension. Stack below the deck only after checking solid ground/caves. Local top face0; connect face-to-face, avoiding duplicate cap layers.",
+    "ports": [],
+    "bounds": [
+      0,
+      -8,
+      0,
+      2,
+      -1,
+      2
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        4.050000000000001,
+        12,
+        -2.7
+      ],
+      "target": [
+        1.5,
+        -4.5,
+        1.5
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK17.json.gz",
+    "model_sha256": "d05bec78fedfd84d9ff3c7cf5cf1badbdf9f10e3ad45e5d08ccc3a8b089ce3e6",
+    "grid_zip": "modules/MK17-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK17-BUILD_GUIDE.md",
+    "layers": 8,
+    "image": "images/MK17.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK18",
+    "occupied_hosts": 230,
+    "host_kinds": {
+      "cube": 195,
+      "multipart": 35
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 50
+      },
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 110
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 35
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "22",
+        "count": 10
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "23",
+        "count": 10
+      },
+      {
+        "kind": "mcr_face",
+        "role": "K",
+        "shape": "116",
+        "count": 10
+      },
+      {
+        "kind": "mcr_face",
+        "role": "K",
+        "shape": "117",
+        "count": 10
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "64",
+        "count": 15
+      }
+    ],
+    "title": "Access gallery / three-block transition",
+    "notes": "Ten-long, three-block rise using six half-height cover/full-block treads, four-high clear headroom. y0 north, y3 south. Useful for gallery-to-basement changes; actual hall connection still needs a surveyed landing.",
+    "ports": [
+      {
+        "face": "N",
+        "along_range": [
+          1,
+          5
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      },
+      {
+        "face": "S",
+        "along_range": [
+          1,
+          5
+        ],
+        "walk_y": 3,
+        "clear_width": 5
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      6,
+      7,
+      9
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        9.450000000000001,
+        14.0,
+        -9.0
+      ],
+      "target": [
+        3.5,
+        2.5,
+        5.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK18.json.gz",
+    "model_sha256": "003474563468c9b5dc240abad2cc5568e3f7516e1f473223cccfc4b69689453a",
+    "grid_zip": "modules/MK18-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK18-BUILD_GUIDE.md",
+    "layers": 10,
+    "image": "images/MK18.webp",
+    "render_cutaway": true
+  },
+  {
+    "id": "MK19",
+    "occupied_hosts": 384,
+    "host_kinds": {
+      "cube": 334,
+      "multipart": 50
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 192
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 70
+      },
+      {
+        "kind": "cube",
+        "role": "R",
+        "shape": "",
+        "count": 72
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "22",
+        "count": 1
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "23",
+        "count": 1
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "116",
+        "count": 1
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "117",
+        "count": 1
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "64",
+        "count": 24
+      },
+      {
+        "kind": "mcr_face",
+        "role": "R",
+        "shape": "64",
+        "count": 24
+      }
+    ],
+    "title": "Road / north\u2013south four-block grade",
+    "notes": "16long with eight half-step rises and level end landings. North walks0; south walks4. Repeat with elevation offset4; do not join unequal-height ports.",
+    "ports": [
+      {
+        "face": "N",
+        "along_range": [
+          0,
+          11
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      },
+      {
+        "face": "S",
+        "along_range": [
+          0,
+          11
+        ],
+        "walk_y": 4,
+        "clear_width": 12
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      11,
+      3,
+      15
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        16.200000000000003,
+        12,
+        -14.4
+      ],
+      "target": [
+        6.0,
+        0.5,
+        8.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK19.json.gz",
+    "model_sha256": "7aff07a25575e8380991f097f037da47397fc71de81e69c3074bf7f656415786",
+    "grid_zip": "modules/MK19-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK19-BUILD_GUIDE.md",
+    "layers": 6,
+    "image": "images/MK19.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK20",
+    "occupied_hosts": 384,
+    "host_kinds": {
+      "cube": 334,
+      "multipart": 50
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 192
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 70
+      },
+      {
+        "kind": "cube",
+        "role": "R",
+        "shape": "",
+        "count": 72
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "25",
+        "count": 1
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "27",
+        "count": 1
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "114",
+        "count": 1
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "115",
+        "count": 1
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "64",
+        "count": 24
+      },
+      {
+        "kind": "mcr_face",
+        "role": "R",
+        "shape": "64",
+        "count": 24
+      }
+    ],
+    "title": "Road / east\u2013west four-block grade",
+    "notes": "Quarter-turn of MK19. West port walks0; east walks4. Read port heights before joining. Native curb part orientation is transformed.",
+    "ports": [
+      {
+        "face": "W",
+        "along_range": [
+          0,
+          11
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      },
+      {
+        "face": "E",
+        "along_range": [
+          0,
+          11
+        ],
+        "walk_y": 4,
+        "clear_width": 12
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      15,
+      3,
+      11
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        21.6,
+        12,
+        -10.8
+      ],
+      "target": [
+        8.0,
+        0.5,
+        6.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK20.json.gz",
+    "model_sha256": "b0a4bec7bebf67bea64e080236ca94a58af2e3682a7754fbdb673e00b0a9680c",
+    "grid_zip": "modules/MK20-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK20-BUILD_GUIDE.md",
+    "layers": 6,
+    "image": "images/MK20.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK21",
+    "occupied_hosts": 368,
+    "host_kinds": {
+      "cube": 316,
+      "multipart": 52
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 80
+      },
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 176
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 60
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "22",
+        "count": 16
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "23",
+        "count": 16
+      },
+      {
+        "kind": "mcr_face",
+        "role": "K",
+        "shape": "116",
+        "count": 16
+      },
+      {
+        "kind": "mcr_face",
+        "role": "K",
+        "shape": "117",
+        "count": 16
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "64",
+        "count": 20
+      }
+    ],
+    "title": "Access gallery / four-block grade",
+    "notes": "16long graded gallery with four-high clear passage, thin cyan inserts, north0/south4. Use explicit clear cells for excavation; open ends require temporary caps.",
+    "ports": [
+      {
+        "face": "N",
+        "along_range": [
+          1,
+          5
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      },
+      {
+        "face": "S",
+        "along_range": [
+          1,
+          5
+        ],
+        "walk_y": 4,
+        "clear_width": 5
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      6,
+      8,
+      15
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        9.450000000000001,
+        15.399999999999999,
+        -14.4
+      ],
+      "target": [
+        3.5,
+        3.0,
+        8.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK21.json.gz",
+    "model_sha256": "b2ea69bb33c7dbc77df62f6a6ece32c536e1c72e28e1ee57da869ab2fe714ba9",
+    "grid_zip": "modules/MK21-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK21-BUILD_GUIDE.md",
+    "layers": 11,
+    "image": "images/MK21.webp",
+    "render_cutaway": true
+  },
+  {
+    "id": "MK22",
+    "occupied_hosts": 920,
+    "host_kinds": {
+      "cube": 848,
+      "multipart": 8,
+      "architecture": 64
+    },
+    "parts": [
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": "56",
+        "count": 64
+      },
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 384
+      },
+      {
+        "kind": "cube",
+        "role": "G",
+        "shape": "",
+        "count": 64
+      },
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 24
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 184
+      },
+      {
+        "kind": "cube",
+        "role": "R",
+        "shape": "",
+        "count": 192
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "25",
+        "count": 4
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "27",
+        "count": 4
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "114",
+        "count": 4
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "115",
+        "count": 4
+      }
+    ],
+    "title": "Bridge / guarded east\u2013west span",
+    "notes": "Pre-rotated MK16, including cornice/cut orientations. Survey and adapt its short bearing legs; support is not game-tested.",
+    "ports": [
+      {
+        "face": "W",
+        "along_range": [
+          1,
+          10
+        ],
+        "walk_y": 0,
+        "clear_width": 10
+      },
+      {
+        "face": "E",
+        "along_range": [
+          1,
+          10
+        ],
+        "walk_y": 0,
+        "clear_width": 10
+      }
+    ],
+    "bounds": [
+      0,
+      -8,
+      0,
+      31,
+      1,
+      11
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        43.2,
+        14.0,
+        -10.8
+      ],
+      "target": [
+        16.0,
+        -3.5,
+        6.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK22.json.gz",
+    "model_sha256": "69534984e01555edd27bdc5dfe33fbdaeb6d8d471f5267960818df8abbdaee12",
+    "grid_zip": "modules/MK22-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK22-BUILD_GUIDE.md",
+    "layers": 10,
+    "image": "images/MK22.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK23",
+    "occupied_hosts": 230,
+    "host_kinds": {
+      "cube": 195,
+      "multipart": 35
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 50
+      },
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 110
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 35
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "25",
+        "count": 10
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "27",
+        "count": 10
+      },
+      {
+        "kind": "mcr_face",
+        "role": "K",
+        "shape": "114",
+        "count": 10
+      },
+      {
+        "kind": "mcr_face",
+        "role": "K",
+        "shape": "115",
+        "count": 10
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "64",
+        "count": 15
+      }
+    ],
+    "title": "Access gallery / east\u2013west 3-block transition",
+    "notes": "Pre-rotatedMK18; west walks0, east3. Native cut orientations are transformed. Use equal-height ports and the explicit clear-cell file.",
+    "ports": [
+      {
+        "face": "W",
+        "along_range": [
+          1,
+          5
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      },
+      {
+        "face": "E",
+        "along_range": [
+          1,
+          5
+        ],
+        "walk_y": 3,
+        "clear_width": 5
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      9,
+      7,
+      6
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        13.5,
+        14.0,
+        -6.3
+      ],
+      "target": [
+        5.0,
+        2.5,
+        3.5
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK23.json.gz",
+    "model_sha256": "8829c2b38d4f35b4bd0942bd2fbc292112939c8158f8fec7cdd4a6d7b2294452",
+    "grid_zip": "modules/MK23-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK23-BUILD_GUIDE.md",
+    "layers": 10,
+    "image": "images/MK23.webp",
+    "render_cutaway": true
+  },
+  {
+    "id": "MK24",
+    "occupied_hosts": 368,
+    "host_kinds": {
+      "cube": 316,
+      "multipart": 52
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 80
+      },
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 176
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 60
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "25",
+        "count": 16
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "27",
+        "count": 16
+      },
+      {
+        "kind": "mcr_face",
+        "role": "K",
+        "shape": "114",
+        "count": 16
+      },
+      {
+        "kind": "mcr_face",
+        "role": "K",
+        "shape": "115",
+        "count": 16
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "64",
+        "count": 20
+      }
+    ],
+    "title": "Access gallery / east\u2013west 4-block transition",
+    "notes": "Pre-rotatedMK21; west walks0, east4. Native cut orientations are transformed. Use equal-height ports and the explicit clear-cell file.",
+    "ports": [
+      {
+        "face": "W",
+        "along_range": [
+          1,
+          5
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      },
+      {
+        "face": "E",
+        "along_range": [
+          1,
+          5
+        ],
+        "walk_y": 4,
+        "clear_width": 5
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      15,
+      8,
+      6
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        21.6,
+        15.399999999999999,
+        -6.3
+      ],
+      "target": [
+        8.0,
+        3.0,
+        3.5
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK24.json.gz",
+    "model_sha256": "d0079b384f73ee5cb694ae6bfa3032c6c64655213d69a329fbc3b20211b4d798",
+    "grid_zip": "modules/MK24-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK24-BUILD_GUIDE.md",
+    "layers": 11,
+    "image": "images/MK24.webp",
+    "render_cutaway": true
+  },
+  {
+    "id": "MK04-R1",
+    "occupied_hosts": 1152,
+    "host_kinds": {
+      "cube": 1148,
+      "multipart": 4
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 576
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 216
+      },
+      {
+        "kind": "cube",
+        "role": "R",
+        "shape": "",
+        "count": 356
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "25",
+        "count": 4
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "115",
+        "count": 4
+      }
+    ],
+    "title": "Road / T junction / turn1",
+    "notes": "Pre-authored native quarter-turn variant. Choose the supplied orientation rather than assuming legacy WorldEdit rotates AC/FMP tile data correctly.",
+    "ports": [
+      {
+        "face": "W",
+        "along_range": [
+          12,
+          23
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      },
+      {
+        "face": "N",
+        "along_range": [
+          12,
+          23
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      },
+      {
+        "face": "S",
+        "along_range": [
+          12,
+          23
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      35,
+      -1,
+      35
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        48.6,
+        12,
+        -32.4
+      ],
+      "target": [
+        18.0,
+        -1.5,
+        18.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK04-R1.json.gz",
+    "model_sha256": "be8b465a1012eeeeeb43a15df0857c9ce4b608e23b19a8d3434c0b2e6a74280f",
+    "grid_zip": "modules/MK04-R1-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK04-R1-BUILD_GUIDE.md",
+    "layers": 2,
+    "image": "images/MK04-R1.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK04-R2",
+    "occupied_hosts": 1152,
+    "host_kinds": {
+      "cube": 1148,
+      "multipart": 4
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 576
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 216
+      },
+      {
+        "kind": "cube",
+        "role": "R",
+        "shape": "",
+        "count": 356
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "22",
+        "count": 4
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "117",
+        "count": 4
+      }
+    ],
+    "title": "Road / T junction / turn2",
+    "notes": "Pre-authored native quarter-turn variant. Choose the supplied orientation rather than assuming legacy WorldEdit rotates AC/FMP tile data correctly.",
+    "ports": [
+      {
+        "face": "S",
+        "along_range": [
+          12,
+          23
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      },
+      {
+        "face": "W",
+        "along_range": [
+          12,
+          23
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      },
+      {
+        "face": "E",
+        "along_range": [
+          12,
+          23
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      35,
+      -1,
+      35
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        48.6,
+        12,
+        -32.4
+      ],
+      "target": [
+        18.0,
+        -1.5,
+        18.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK04-R2.json.gz",
+    "model_sha256": "4db14d86839ce823aaaaa857424176bd41139afb1d062a7ed10ddd7d4fc4db38",
+    "grid_zip": "modules/MK04-R2-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK04-R2-BUILD_GUIDE.md",
+    "layers": 2,
+    "image": "images/MK04-R2.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK04-R3",
+    "occupied_hosts": 1152,
+    "host_kinds": {
+      "cube": 1148,
+      "multipart": 4
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 576
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 216
+      },
+      {
+        "kind": "cube",
+        "role": "R",
+        "shape": "",
+        "count": 356
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "27",
+        "count": 4
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "114",
+        "count": 4
+      }
+    ],
+    "title": "Road / T junction / turn3",
+    "notes": "Pre-authored native quarter-turn variant. Choose the supplied orientation rather than assuming legacy WorldEdit rotates AC/FMP tile data correctly.",
+    "ports": [
+      {
+        "face": "E",
+        "along_range": [
+          12,
+          23
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      },
+      {
+        "face": "S",
+        "along_range": [
+          12,
+          23
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      },
+      {
+        "face": "N",
+        "along_range": [
+          12,
+          23
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      35,
+      -1,
+      35
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        48.6,
+        12,
+        -32.4
+      ],
+      "target": [
+        18.0,
+        -1.5,
+        18.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK04-R3.json.gz",
+    "model_sha256": "52f566fc73a09b737f7347948e3284d5de450a1ed816140fd499bb0f4dcf82fa",
+    "grid_zip": "modules/MK04-R3-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK04-R3-BUILD_GUIDE.md",
+    "layers": 2,
+    "image": "images/MK04-R3.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK05-R1",
+    "occupied_hosts": 864,
+    "host_kinds": {
+      "cube": 860,
+      "multipart": 4
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 432
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 144
+      },
+      {
+        "kind": "cube",
+        "role": "R",
+        "shape": "",
+        "count": 284
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "25",
+        "count": 4
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "115",
+        "count": 4
+      }
+    ],
+    "title": "Road / corner / turn1",
+    "notes": "Pre-authored native quarter-turn variant. Choose the supplied orientation rather than assuming legacy WorldEdit rotates AC/FMP tile data correctly.",
+    "ports": [
+      {
+        "face": "W",
+        "along_range": [
+          12,
+          23
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      },
+      {
+        "face": "N",
+        "along_range": [
+          12,
+          23
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      35,
+      -1,
+      35
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        48.6,
+        12,
+        -32.4
+      ],
+      "target": [
+        18.0,
+        -1.5,
+        18.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK05-R1.json.gz",
+    "model_sha256": "01ecafbad6c4daafa2b2ef4f3b96e07242c99f93c9d530ed5cf378ee11f32f95",
+    "grid_zip": "modules/MK05-R1-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK05-R1-BUILD_GUIDE.md",
+    "layers": 2,
+    "image": "images/MK05-R1.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK05-R2",
+    "occupied_hosts": 864,
+    "host_kinds": {
+      "cube": 860,
+      "multipart": 4
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 432
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 144
+      },
+      {
+        "kind": "cube",
+        "role": "R",
+        "shape": "",
+        "count": 284
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "22",
+        "count": 4
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "117",
+        "count": 4
+      }
+    ],
+    "title": "Road / corner / turn2",
+    "notes": "Pre-authored native quarter-turn variant. Choose the supplied orientation rather than assuming legacy WorldEdit rotates AC/FMP tile data correctly.",
+    "ports": [
+      {
+        "face": "S",
+        "along_range": [
+          12,
+          23
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      },
+      {
+        "face": "W",
+        "along_range": [
+          12,
+          23
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      35,
+      -1,
+      35
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        48.6,
+        12,
+        -32.4
+      ],
+      "target": [
+        18.0,
+        -1.5,
+        18.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK05-R2.json.gz",
+    "model_sha256": "7107c150be0b697ef69c82c34c6e9daf678885f2289f253d0d15ab5f97507757",
+    "grid_zip": "modules/MK05-R2-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK05-R2-BUILD_GUIDE.md",
+    "layers": 2,
+    "image": "images/MK05-R2.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK05-R3",
+    "occupied_hosts": 864,
+    "host_kinds": {
+      "cube": 860,
+      "multipart": 4
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 432
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 144
+      },
+      {
+        "kind": "cube",
+        "role": "R",
+        "shape": "",
+        "count": 284
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "27",
+        "count": 4
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "114",
+        "count": 4
+      }
+    ],
+    "title": "Road / corner / turn3",
+    "notes": "Pre-authored native quarter-turn variant. Choose the supplied orientation rather than assuming legacy WorldEdit rotates AC/FMP tile data correctly.",
+    "ports": [
+      {
+        "face": "E",
+        "along_range": [
+          12,
+          23
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      },
+      {
+        "face": "S",
+        "along_range": [
+          12,
+          23
+        ],
+        "walk_y": 0,
+        "clear_width": 12
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      35,
+      -1,
+      35
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        48.6,
+        12,
+        -32.4
+      ],
+      "target": [
+        18.0,
+        -1.5,
+        18.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK05-R3.json.gz",
+    "model_sha256": "55ccbcef5f66ecdde192fd446da254c6baf287d817a0b86176c4ca96a395fa12",
+    "grid_zip": "modules/MK05-R3-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK05-R3-BUILD_GUIDE.md",
+    "layers": 2,
+    "image": "images/MK05-R3.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK11-R1",
+    "occupied_hosts": 639,
+    "host_kinds": {
+      "cube": 639
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 145
+      },
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 349
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 145
+      }
+    ],
+    "title": "Access gallery / T junction / turn1",
+    "notes": "Pre-authored native quarter-turn variant. Choose the supplied orientation rather than assuming legacy WorldEdit rotates AC/FMP tile data correctly.",
+    "ports": [
+      {
+        "face": "W",
+        "along_range": [
+          8,
+          12
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      },
+      {
+        "face": "N",
+        "along_range": [
+          8,
+          12
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      },
+      {
+        "face": "S",
+        "along_range": [
+          8,
+          12
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      20,
+      4,
+      20
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        28.35,
+        12,
+        -18.900000000000002
+      ],
+      "target": [
+        10.5,
+        1.0,
+        10.5
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK11-R1.json.gz",
+    "model_sha256": "84a543495d0f4574a889d0d113f2d5de6fd1f688e945857c52e489163050958f",
+    "grid_zip": "modules/MK11-R1-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK11-R1-BUILD_GUIDE.md",
+    "layers": 7,
+    "image": "images/MK11-R1.webp",
+    "render_cutaway": true
+  },
+  {
+    "id": "MK11-R2",
+    "occupied_hosts": 639,
+    "host_kinds": {
+      "cube": 639
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 145
+      },
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 349
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 145
+      }
+    ],
+    "title": "Access gallery / T junction / turn2",
+    "notes": "Pre-authored native quarter-turn variant. Choose the supplied orientation rather than assuming legacy WorldEdit rotates AC/FMP tile data correctly.",
+    "ports": [
+      {
+        "face": "S",
+        "along_range": [
+          8,
+          12
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      },
+      {
+        "face": "W",
+        "along_range": [
+          8,
+          12
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      },
+      {
+        "face": "E",
+        "along_range": [
+          8,
+          12
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      20,
+      4,
+      20
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        28.35,
+        12,
+        -18.900000000000002
+      ],
+      "target": [
+        10.5,
+        1.0,
+        10.5
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK11-R2.json.gz",
+    "model_sha256": "6114dc6278f6d2534c0d1959a30c2a78453c107d45544907351c40f7637d527d",
+    "grid_zip": "modules/MK11-R2-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK11-R2-BUILD_GUIDE.md",
+    "layers": 7,
+    "image": "images/MK11-R2.webp",
+    "render_cutaway": true
+  },
+  {
+    "id": "MK11-R3",
+    "occupied_hosts": 639,
+    "host_kinds": {
+      "cube": 639
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 145
+      },
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 349
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 145
+      }
+    ],
+    "title": "Access gallery / T junction / turn3",
+    "notes": "Pre-authored native quarter-turn variant. Choose the supplied orientation rather than assuming legacy WorldEdit rotates AC/FMP tile data correctly.",
+    "ports": [
+      {
+        "face": "E",
+        "along_range": [
+          8,
+          12
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      },
+      {
+        "face": "S",
+        "along_range": [
+          8,
+          12
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      },
+      {
+        "face": "N",
+        "along_range": [
+          8,
+          12
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      20,
+      4,
+      20
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        28.35,
+        12,
+        -18.900000000000002
+      ],
+      "target": [
+        10.5,
+        1.0,
+        10.5
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK11-R3.json.gz",
+    "model_sha256": "c778d98dba559ea4af240edf6981957cd7f6b664cf1ed8caa4bb24efb23e57e6",
+    "grid_zip": "modules/MK11-R3-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK11-R3-BUILD_GUIDE.md",
+    "layers": 7,
+    "image": "images/MK11-R3.webp",
+    "render_cutaway": true
+  },
+  {
+    "id": "MK12-R1",
+    "occupied_hosts": 479,
+    "host_kinds": {
+      "cube": 479
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 105
+      },
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 269
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 105
+      }
+    ],
+    "title": "Access gallery / corner / turn1",
+    "notes": "Pre-authored native quarter-turn variant. Choose the supplied orientation rather than assuming legacy WorldEdit rotates AC/FMP tile data correctly.",
+    "ports": [
+      {
+        "face": "W",
+        "along_range": [
+          8,
+          12
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      },
+      {
+        "face": "N",
+        "along_range": [
+          8,
+          12
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      20,
+      4,
+      20
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        28.35,
+        12,
+        -18.900000000000002
+      ],
+      "target": [
+        10.5,
+        1.0,
+        10.5
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK12-R1.json.gz",
+    "model_sha256": "f65473f8456f091a8130ee45b3620259d4bc6783e46bf659db46e942673e5f21",
+    "grid_zip": "modules/MK12-R1-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK12-R1-BUILD_GUIDE.md",
+    "layers": 7,
+    "image": "images/MK12-R1.webp",
+    "render_cutaway": true
+  },
+  {
+    "id": "MK12-R2",
+    "occupied_hosts": 479,
+    "host_kinds": {
+      "cube": 479
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 105
+      },
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 269
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 105
+      }
+    ],
+    "title": "Access gallery / corner / turn2",
+    "notes": "Pre-authored native quarter-turn variant. Choose the supplied orientation rather than assuming legacy WorldEdit rotates AC/FMP tile data correctly.",
+    "ports": [
+      {
+        "face": "S",
+        "along_range": [
+          8,
+          12
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      },
+      {
+        "face": "W",
+        "along_range": [
+          8,
+          12
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      20,
+      4,
+      20
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        28.35,
+        12,
+        -18.900000000000002
+      ],
+      "target": [
+        10.5,
+        1.0,
+        10.5
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK12-R2.json.gz",
+    "model_sha256": "fed1ab51f1fa724f831b9eb07de7a86d89ab17c4ddb91433cd8869647471b118",
+    "grid_zip": "modules/MK12-R2-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK12-R2-BUILD_GUIDE.md",
+    "layers": 7,
+    "image": "images/MK12-R2.webp",
+    "render_cutaway": true
+  },
+  {
+    "id": "MK12-R3",
+    "occupied_hosts": 479,
+    "host_kinds": {
+      "cube": 479
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 105
+      },
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 269
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 105
+      }
+    ],
+    "title": "Access gallery / corner / turn3",
+    "notes": "Pre-authored native quarter-turn variant. Choose the supplied orientation rather than assuming legacy WorldEdit rotates AC/FMP tile data correctly.",
+    "ports": [
+      {
+        "face": "E",
+        "along_range": [
+          8,
+          12
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      },
+      {
+        "face": "S",
+        "along_range": [
+          8,
+          12
+        ],
+        "walk_y": 0,
+        "clear_width": 5
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      20,
+      4,
+      20
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        28.35,
+        12,
+        -18.900000000000002
+      ],
+      "target": [
+        10.5,
+        1.0,
+        10.5
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK12-R3.json.gz",
+    "model_sha256": "39e3c5522c9f60125d25b0641e8bac5b4a55fecb97a8f3236f3504db18bfd310",
+    "grid_zip": "modules/MK12-R3-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK12-R3-BUILD_GUIDE.md",
+    "layers": 7,
+    "image": "images/MK12-R3.webp",
+    "render_cutaway": true
+  },
+  {
+    "id": "MK25",
+    "occupied_hosts": 9479,
+    "host_kinds": {
+      "cube": 7761,
+      "multipart": 1544,
+      "architecture": 174
+    },
+    "parts": [
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": "56",
+        "count": 114
+      },
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": "94",
+        "count": 30
+      },
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": "95",
+        "count": 30
+      },
+      {
+        "kind": "cube",
+        "role": "B",
+        "shape": "",
+        "count": 1117
+      },
+      {
+        "kind": "cube",
+        "role": "E",
+        "shape": "",
+        "count": 84
+      },
+      {
+        "kind": "cube",
+        "role": "G",
+        "shape": "",
+        "count": 1405
+      },
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 2600
+      },
+      {
+        "kind": "cube",
+        "role": "L",
+        "shape": "",
+        "count": 36
+      },
+      {
+        "kind": "cube",
+        "role": "M",
+        "shape": "",
+        "count": 179
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 1888
+      },
+      {
+        "kind": "cube",
+        "role": "T",
+        "shape": "",
+        "count": 12
+      },
+      {
+        "kind": "cube",
+        "role": "V",
+        "shape": "",
+        "count": 335
+      },
+      {
+        "kind": "cube",
+        "role": "f",
+        "shape": "",
+        "count": 21
+      },
+      {
+        "kind": "cube",
+        "role": "s",
+        "shape": "",
+        "count": 84
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "K",
+        "shape": "17",
+        "count": 265
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "K",
+        "shape": "25",
+        "count": 174
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "22",
+        "count": 58
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "23",
+        "count": 58
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "25",
+        "count": 184
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "27",
+        "count": 48
+      },
+      {
+        "kind": "mcr_face",
+        "role": "L",
+        "shape": "36",
+        "count": 21
+      },
+      {
+        "kind": "mcr_face",
+        "role": "L",
+        "shape": "37",
+        "count": 21
+      },
+      {
+        "kind": "mcr_face",
+        "role": "L",
+        "shape": "64",
+        "count": 438
+      },
+      {
+        "kind": "mcr_face",
+        "role": "L",
+        "shape": "67",
+        "count": 99
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "32",
+        "count": 220
+      },
+      {
+        "kind": "mcr_face",
+        "role": "W",
+        "shape": "17",
+        "count": 13
+      },
+      {
+        "kind": "mcr_post",
+        "role": "K",
+        "shape": "64",
+        "count": 12
+      }
+    ],
+    "title": "Facade / molded diagonal architectural bay",
+    "notes": "Exact preserved SF01 facade component: native continuous slopes94/95, molded56 cornices, clear glass, thin cyan strips and source landscaping. Join at the model bounds; review shared columns/planting once rather than double-counting overlaps. Not a functional building shell.",
+    "ports": [],
+    "bounds": [
+      0,
+      -2,
+      0,
+      39,
+      32,
+      23
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        54.0,
+        49.0,
+        -21.6
+      ],
+      "target": [
+        20.0,
+        15.0,
+        12.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK25.json.gz",
+    "model_sha256": "ae2b3d82559a5fbf175c41eb9d114345823e7fedf97eed5cc537ea157955d213",
+    "grid_zip": "modules/MK25-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK25-BUILD_GUIDE.md",
+    "layers": 35,
+    "image": "images/MK25.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK26",
+    "occupied_hosts": 640,
+    "host_kinds": {
+      "cube": 568,
+      "architecture": 64,
+      "multipart": 8
+    },
+    "parts": [
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": "56",
+        "count": 64
+      },
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 256
+      },
+      {
+        "kind": "cube",
+        "role": "G",
+        "shape": "",
+        "count": 64
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 184
+      },
+      {
+        "kind": "cube",
+        "role": "R",
+        "shape": "",
+        "count": 64
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "22",
+        "count": 4
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "23",
+        "count": 4
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "116",
+        "count": 4
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "117",
+        "count": 4
+      }
+    ],
+    "title": "Terraced walkway / north\u2013south",
+    "notes": "Eight-wide outer deck, six-wide clear pedestrian lane, fine cyan paving inserts, glass/molded guards. Place or cut into the contour; add surveyed retaining/bearings rather than filling a valley blindly.",
+    "ports": [
+      {
+        "face": "N",
+        "along_range": [
+          1,
+          6
+        ],
+        "walk_y": 0,
+        "clear_width": 6
+      },
+      {
+        "face": "S",
+        "along_range": [
+          1,
+          6
+        ],
+        "walk_y": 0,
+        "clear_width": 6
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      7,
+      1,
+      31
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        10.8,
+        12,
+        -28.8
+      ],
+      "target": [
+        4.0,
+        -0.5,
+        16.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK26.json.gz",
+    "model_sha256": "923feef4c2b2a433a2e6f5010fa63df68c919c52425d509fc0aaa192c776341e",
+    "grid_zip": "modules/MK26-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK26-BUILD_GUIDE.md",
+    "layers": 4,
+    "image": "images/MK26.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK27",
+    "occupied_hosts": 640,
+    "host_kinds": {
+      "cube": 568,
+      "architecture": 64,
+      "multipart": 8
+    },
+    "parts": [
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": "56",
+        "count": 64
+      },
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 256
+      },
+      {
+        "kind": "cube",
+        "role": "G",
+        "shape": "",
+        "count": 64
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 184
+      },
+      {
+        "kind": "cube",
+        "role": "R",
+        "shape": "",
+        "count": 64
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "25",
+        "count": 4
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "27",
+        "count": 4
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "114",
+        "count": 4
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "115",
+        "count": 4
+      }
+    ],
+    "title": "Terraced walkway / east\u2013west",
+    "notes": "Eight-wide outer deck, six-wide clear pedestrian lane, fine cyan paving inserts, glass/molded guards. Place or cut into the contour; add surveyed retaining/bearings rather than filling a valley blindly.",
+    "ports": [
+      {
+        "face": "W",
+        "along_range": [
+          1,
+          6
+        ],
+        "walk_y": 0,
+        "clear_width": 6
+      },
+      {
+        "face": "E",
+        "along_range": [
+          1,
+          6
+        ],
+        "walk_y": 0,
+        "clear_width": 6
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      31,
+      1,
+      7
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        43.2,
+        12,
+        -7.2
+      ],
+      "target": [
+        16.0,
+        -0.5,
+        4.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK27.json.gz",
+    "model_sha256": "464ab6a26c88ad3da49e66040c2b00c80277e63c465cec74630db92ca86cd060",
+    "grid_zip": "modules/MK27-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK27-BUILD_GUIDE.md",
+    "layers": 4,
+    "image": "images/MK27.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK28",
+    "occupied_hosts": 504,
+    "host_kinds": {
+      "cube": 450,
+      "architecture": 48,
+      "multipart": 6
+    },
+    "parts": [
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": "56",
+        "count": 48
+      },
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 192
+      },
+      {
+        "kind": "cube",
+        "role": "G",
+        "shape": "",
+        "count": 48
+      },
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 24
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 138
+      },
+      {
+        "kind": "cube",
+        "role": "R",
+        "shape": "",
+        "count": 48
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "22",
+        "count": 3
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "23",
+        "count": 3
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "116",
+        "count": 3
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "117",
+        "count": 3
+      }
+    ],
+    "title": "Pedestrian bridge / north\u2013south",
+    "notes": "24long \u00d78 outer width,6clear. Native guard/cornice and thin cyan insets; short bearings require real terrain adjustment. Separate component, not added to city counts.",
+    "ports": [
+      {
+        "face": "N",
+        "along_range": [
+          1,
+          6
+        ],
+        "walk_y": 0,
+        "clear_width": 6
+      },
+      {
+        "face": "S",
+        "along_range": [
+          1,
+          6
+        ],
+        "walk_y": 0,
+        "clear_width": 6
+      }
+    ],
+    "bounds": [
+      0,
+      -8,
+      0,
+      7,
+      1,
+      23
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        10.8,
+        14.0,
+        -21.6
+      ],
+      "target": [
+        4.0,
+        -3.5,
+        12.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK28.json.gz",
+    "model_sha256": "ecb6c257a5d43d94c0cbf950c08a49ced802b890902b39629307253692df9ae4",
+    "grid_zip": "modules/MK28-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK28-BUILD_GUIDE.md",
+    "layers": 10,
+    "image": "images/MK28.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK29",
+    "occupied_hosts": 504,
+    "host_kinds": {
+      "cube": 450,
+      "architecture": 48,
+      "multipart": 6
+    },
+    "parts": [
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": "56",
+        "count": 48
+      },
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 192
+      },
+      {
+        "kind": "cube",
+        "role": "G",
+        "shape": "",
+        "count": 48
+      },
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 24
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 138
+      },
+      {
+        "kind": "cube",
+        "role": "R",
+        "shape": "",
+        "count": 48
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "25",
+        "count": 3
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "27",
+        "count": 3
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "114",
+        "count": 3
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "115",
+        "count": 3
+      }
+    ],
+    "title": "Pedestrian bridge / east\u2013west",
+    "notes": "24long \u00d78 outer width,6clear. Native guard/cornice and thin cyan insets; short bearings require real terrain adjustment. Separate component, not added to city counts.",
+    "ports": [
+      {
+        "face": "W",
+        "along_range": [
+          1,
+          6
+        ],
+        "walk_y": 0,
+        "clear_width": 6
+      },
+      {
+        "face": "E",
+        "along_range": [
+          1,
+          6
+        ],
+        "walk_y": 0,
+        "clear_width": 6
+      }
+    ],
+    "bounds": [
+      0,
+      -8,
+      0,
+      23,
+      1,
+      7
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        32.400000000000006,
+        14.0,
+        -7.2
+      ],
+      "target": [
+        12.0,
+        -3.5,
+        4.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK29.json.gz",
+    "model_sha256": "5cb3eaef3ea50f15e0a1354c2611b8662613d5d4d2a0a2850573fb65161f8803",
+    "grid_zip": "modules/MK29-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK29-BUILD_GUIDE.md",
+    "layers": 10,
+    "image": "images/MK29.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK30",
+    "occupied_hosts": 54,
+    "host_kinds": {
+      "cube": 54
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "E",
+        "shape": "",
+        "count": 6
+      },
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 18
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 24
+      },
+      {
+        "kind": "cube",
+        "role": "V",
+        "shape": "",
+        "count": 4
+      },
+      {
+        "kind": "cube",
+        "role": "f",
+        "shape": "",
+        "count": 2
+      }
+    ],
+    "title": "Raised planter / eight-block strip",
+    "notes": "8 \u00d73 planter with real soil, native source leaves and flowers. Soil is below plants; the rim is ordinary charcoal. Pair with thin light bollards rather than a solid neon wall.",
+    "ports": [],
+    "bounds": [
+      0,
+      -1,
+      0,
+      7,
+      1,
+      2
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        10.8,
+        12,
+        -2.7
+      ],
+      "target": [
+        4.0,
+        0.0,
+        1.5
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK30.json.gz",
+    "model_sha256": "be1dd9fcfeb92a5aaa3871614a1db1163ba915d2ed5b5fc4b6976df88b483899",
+    "grid_zip": "modules/MK30-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK30-BUILD_GUIDE.md",
+    "layers": 3,
+    "image": "images/MK30.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK31",
+    "occupied_hosts": 211,
+    "host_kinds": {
+      "cube": 211
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "E",
+        "shape": "",
+        "count": 16
+      },
+      {
+        "kind": "cube",
+        "role": "J",
+        "shape": "",
+        "count": 5
+      },
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 20
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 64
+      },
+      {
+        "kind": "cube",
+        "role": "v",
+        "shape": "",
+        "count": 106
+      }
+    ],
+    "title": "Jungle tree planter / eight square",
+    "notes": "Persistent jungle leaves metadata7, jungle log3, soil and charcoal rim. Canopy height8 from walk0. Leave room above and between neighboring canopies; game leaf tint and lighting depend on your biome.",
+    "ports": [],
+    "bounds": [
+      0,
+      -1,
+      0,
+      7,
+      7,
+      7
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        10.8,
+        12.6,
+        -7.2
+      ],
+      "target": [
+        4.0,
+        3.0,
+        4.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK31.json.gz",
+    "model_sha256": "58a20ae29dfc752b6bfe87d5fc79156b5fca2f5c4b96dc146ad8c090251b7228",
+    "grid_zip": "modules/MK31-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK31-BUILD_GUIDE.md",
+    "layers": 9,
+    "image": "images/MK31.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK32",
+    "occupied_hosts": 1740,
+    "host_kinds": {
+      "cube": 1740
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "E",
+        "shape": "",
+        "count": 64
+      },
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 576
+      },
+      {
+        "kind": "cube",
+        "role": "J",
+        "shape": "",
+        "count": 20
+      },
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 80
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 484
+      },
+      {
+        "kind": "cube",
+        "role": "R",
+        "shape": "",
+        "count": 92
+      },
+      {
+        "kind": "cube",
+        "role": "v",
+        "shape": "",
+        "count": 424
+      }
+    ],
+    "title": "Pocket park / four-tree court",
+    "notes": "24square landscaped court with four real-block tree planters, four-wide central cross paths and paved border. Complete coordinate model, not an AI garden sketch. Add independent bench/bollard modules where they preserve walking access.",
+    "ports": [
+      {
+        "face": "N",
+        "along_range": [
+          10,
+          13
+        ],
+        "walk_y": 0,
+        "clear_width": 4
+      },
+      {
+        "face": "S",
+        "along_range": [
+          10,
+          13
+        ],
+        "walk_y": 0,
+        "clear_width": 4
+      },
+      {
+        "face": "W",
+        "along_range": [
+          10,
+          13
+        ],
+        "walk_y": 0,
+        "clear_width": 4
+      },
+      {
+        "face": "E",
+        "along_range": [
+          10,
+          13
+        ],
+        "walk_y": 0,
+        "clear_width": 4
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      23,
+      7,
+      23
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        32.400000000000006,
+        14.0,
+        -21.6
+      ],
+      "target": [
+        12.0,
+        2.5,
+        12.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK32.json.gz",
+    "model_sha256": "abf89eb5d68a7aa9d6556699b030f6da46fa84e9b8edf2a11b6b32fe7e777bfe",
+    "grid_zip": "modules/MK32-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK32-BUILD_GUIDE.md",
+    "layers": 10,
+    "image": "images/MK32.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK33",
+    "occupied_hosts": 392,
+    "host_kinds": {
+      "cube": 388,
+      "multipart": 4
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 144
+      },
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 40
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 144
+      },
+      {
+        "kind": "cube",
+        "role": "a",
+        "shape": "",
+        "count": 60
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "23",
+        "count": 4
+      },
+      {
+        "kind": "mcr_face",
+        "role": "K",
+        "shape": "116",
+        "count": 4
+      }
+    ],
+    "title": "Garden fountain / low square basin",
+    "notes": "12square basin. Full display model shows60 water-source positions; water is excluded from the architecture-only ghost and stock bill. Fill manually after testing containment in game. No pumps or pipes are included.",
+    "ports": [],
+    "bounds": [
+      0,
+      -2,
+      0,
+      11,
+      1,
+      11
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        16.200000000000003,
+        12,
+        -10.8
+      ],
+      "target": [
+        6.0,
+        -0.5,
+        6.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK33.json.gz",
+    "model_sha256": "3a77a5d934c7801ac886b736088cbdc4b592e650b413efedbfdca1d9d990ad15",
+    "grid_zip": "modules/MK33-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK33-BUILD_GUIDE.md",
+    "layers": 4,
+    "image": "images/MK33.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK34",
+    "occupied_hosts": 46,
+    "host_kinds": {
+      "cube": 33,
+      "multipart": 13
+    },
+    "parts": [
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 1
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 32
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "23",
+        "count": 1
+      },
+      {
+        "kind": "mcr_face",
+        "role": "K",
+        "shape": "116",
+        "count": 1
+      },
+      {
+        "kind": "mcr_face",
+        "role": "K",
+        "shape": "34",
+        "count": 5
+      },
+      {
+        "kind": "mcr_face",
+        "role": "L",
+        "shape": "32",
+        "count": 5
+      },
+      {
+        "kind": "mcr_post",
+        "role": "K",
+        "shape": "32",
+        "count": 2
+      }
+    ],
+    "title": "Garden furniture / microblock bench and light",
+    "notes": "Fine-cut legs, quarter-block seat, thin back and a restrained cyan bollard. Detached8 \u00d74 display footprint. Check actual seat/collision appearance in a material mock-up; no custom interaction is assumed.",
+    "ports": [],
+    "bounds": [
+      0,
+      -1,
+      0,
+      7,
+      1,
+      3
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        10.8,
+        12,
+        -3.6
+      ],
+      "target": [
+        4.0,
+        0.0,
+        2.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK34.json.gz",
+    "model_sha256": "12a80ce63dda294a34825b88001f58df0a3d30d51b5fa8eb6b2fd11089f87663",
+    "grid_zip": "modules/MK34-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK34-BUILD_GUIDE.md",
+    "layers": 3,
+    "image": "images/MK34.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK35",
+    "occupied_hosts": 792,
+    "host_kinds": {
+      "cube": 738,
+      "architecture": 48,
+      "multipart": 6
+    },
+    "parts": [
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": "56",
+        "count": 48
+      },
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 192
+      },
+      {
+        "kind": "cube",
+        "role": "G",
+        "shape": "",
+        "count": 336
+      },
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 24
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 138
+      },
+      {
+        "kind": "cube",
+        "role": "R",
+        "shape": "",
+        "count": 48
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "22",
+        "count": 3
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "23",
+        "count": 3
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "116",
+        "count": 3
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "117",
+        "count": 3
+      }
+    ],
+    "title": "Glazed pedestrian bridge / north\u2013south",
+    "notes": "24long enclosed glass bridge, six-wide/four-high interior, molded pale roof edges and cyan paving insets. Source connected-glass textures; actual neighbor patterns/shader transparency vary. Survey bearings before building.",
+    "ports": [
+      {
+        "face": "N",
+        "along_range": [
+          1,
+          6
+        ],
+        "walk_y": 0,
+        "clear_width": 6
+      },
+      {
+        "face": "S",
+        "along_range": [
+          1,
+          6
+        ],
+        "walk_y": 0,
+        "clear_width": 6
+      }
+    ],
+    "bounds": [
+      0,
+      -8,
+      0,
+      7,
+      4,
+      23
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        10.8,
+        18.2,
+        -21.6
+      ],
+      "target": [
+        4.0,
+        -2.0,
+        12.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK35.json.gz",
+    "model_sha256": "52d9560b2cc9aa291057d291a46def35f917201dd4913f0d5f2b4ab86c3310bc",
+    "grid_zip": "modules/MK35-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK35-BUILD_GUIDE.md",
+    "layers": 13,
+    "image": "images/MK35.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK36",
+    "occupied_hosts": 792,
+    "host_kinds": {
+      "cube": 738,
+      "architecture": 48,
+      "multipart": 6
+    },
+    "parts": [
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": "56",
+        "count": 48
+      },
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 192
+      },
+      {
+        "kind": "cube",
+        "role": "G",
+        "shape": "",
+        "count": 336
+      },
+      {
+        "kind": "cube",
+        "role": "K",
+        "shape": "",
+        "count": 24
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 138
+      },
+      {
+        "kind": "cube",
+        "role": "R",
+        "shape": "",
+        "count": 48
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "25",
+        "count": 3
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "27",
+        "count": 3
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "114",
+        "count": 3
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "115",
+        "count": 3
+      }
+    ],
+    "title": "Glazed pedestrian bridge / east\u2013west",
+    "notes": "24long enclosed glass bridge, six-wide/four-high interior, molded pale roof edges and cyan paving insets. Source connected-glass textures; actual neighbor patterns/shader transparency vary. Survey bearings before building.",
+    "ports": [
+      {
+        "face": "W",
+        "along_range": [
+          1,
+          6
+        ],
+        "walk_y": 0,
+        "clear_width": 6
+      },
+      {
+        "face": "E",
+        "along_range": [
+          1,
+          6
+        ],
+        "walk_y": 0,
+        "clear_width": 6
+      }
+    ],
+    "bounds": [
+      0,
+      -8,
+      0,
+      23,
+      4,
+      7
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        32.400000000000006,
+        18.2,
+        -7.2
+      ],
+      "target": [
+        12.0,
+        -2.0,
+        4.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK36.json.gz",
+    "model_sha256": "ae12df3a196d08639e75624779efe57bc44e42158e90cf34ae4ee752e0d4390f",
+    "grid_zip": "modules/MK36-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK36-BUILD_GUIDE.md",
+    "layers": 13,
+    "image": "images/MK36.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK37",
+    "occupied_hosts": 320,
+    "host_kinds": {
+      "cube": 252,
+      "architecture": 32,
+      "multipart": 36
+    },
+    "parts": [
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": "56",
+        "count": 32
+      },
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 128
+      },
+      {
+        "kind": "cube",
+        "role": "G",
+        "shape": "",
+        "count": 32
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 68
+      },
+      {
+        "kind": "cube",
+        "role": "R",
+        "shape": "",
+        "count": 24
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "22",
+        "count": 2
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "23",
+        "count": 2
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "116",
+        "count": 2
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "117",
+        "count": 2
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "64",
+        "count": 24
+      },
+      {
+        "kind": "mcr_face",
+        "role": "R",
+        "shape": "64",
+        "count": 8
+      }
+    ],
+    "title": "Terraced pedestrian grade / north\u2013south",
+    "notes": "Eight half-step rises across16cells, eight-wide exterior/six-clear walk, native glass/cornice guards. Match port heights; arrange separate level landings for sharp changes of direction.",
+    "ports": [
+      {
+        "face": "N",
+        "along_range": [
+          1,
+          6
+        ],
+        "walk_y": 0,
+        "clear_width": 6
+      },
+      {
+        "face": "S",
+        "along_range": [
+          1,
+          6
+        ],
+        "walk_y": 4,
+        "clear_width": 6
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      7,
+      5,
+      15
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        10.8,
+        12,
+        -14.4
+      ],
+      "target": [
+        4.0,
+        1.5,
+        8.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK37.json.gz",
+    "model_sha256": "a4214729ba04c3fbde1a0df84be98d504048fff2d93445594481790326568c0c",
+    "grid_zip": "modules/MK37-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK37-BUILD_GUIDE.md",
+    "layers": 8,
+    "image": "images/MK37.webp",
+    "render_cutaway": false
+  },
+  {
+    "id": "MK38",
+    "occupied_hosts": 320,
+    "host_kinds": {
+      "cube": 252,
+      "architecture": 32,
+      "multipart": 36
+    },
+    "parts": [
+      {
+        "kind": "architecture",
+        "role": "L",
+        "shape": "56",
+        "count": 32
+      },
+      {
+        "kind": "cube",
+        "role": "F",
+        "shape": "",
+        "count": 128
+      },
+      {
+        "kind": "cube",
+        "role": "G",
+        "shape": "",
+        "count": 32
+      },
+      {
+        "kind": "cube",
+        "role": "P",
+        "shape": "",
+        "count": 68
+      },
+      {
+        "kind": "cube",
+        "role": "R",
+        "shape": "",
+        "count": 24
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "25",
+        "count": 2
+      },
+      {
+        "kind": "mcr_edge",
+        "role": "N",
+        "shape": "27",
+        "count": 2
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "114",
+        "count": 2
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "115",
+        "count": 2
+      },
+      {
+        "kind": "mcr_face",
+        "role": "P",
+        "shape": "64",
+        "count": 24
+      },
+      {
+        "kind": "mcr_face",
+        "role": "R",
+        "shape": "64",
+        "count": 8
+      }
+    ],
+    "title": "Terraced pedestrian grade / east\u2013west",
+    "notes": "Eight half-step rises across16cells, eight-wide exterior/six-clear walk, native glass/cornice guards. Match port heights; arrange separate level landings for sharp changes of direction.",
+    "ports": [
+      {
+        "face": "W",
+        "along_range": [
+          1,
+          6
+        ],
+        "walk_y": 0,
+        "clear_width": 6
+      },
+      {
+        "face": "E",
+        "along_range": [
+          1,
+          6
+        ],
+        "walk_y": 4,
+        "clear_width": 6
+      }
+    ],
+    "bounds": [
+      0,
+      -2,
+      0,
+      15,
+      5,
+      7
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "position": [
+        21.6,
+        12,
+        -7.2
+      ],
+      "target": [
+        8.0,
+        1.5,
+        4.0
+      ],
+      "lens": 45,
+      "coordinate_order": "X,Y,Z"
+    },
+    "detached": true,
+    "game_tested": false,
+    "source": "modules/MK38.json.gz",
+    "model_sha256": "859a3f93b5ba352751370a3ff778f978ef18995851f4aa77a750c8225682b419",
+    "grid_zip": "modules/MK38-all-host-layer-blueprints.zip",
+    "build_guide": "modules/MK38-BUILD_GUIDE.md",
+    "layers": 8,
+    "image": "images/MK38.webp",
+    "render_cutaway": false
+  }
+]

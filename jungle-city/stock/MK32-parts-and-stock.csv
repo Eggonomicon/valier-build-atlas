@@ -1,0 +1,8 @@
+kind,role,block_registry,base_metadata,shape_id_or_size_eighths,placed_items_or_parts,quantity_type
+cube,E,minecraft:dirt,0,0,64,placed item
+cube,F,minecraft:stonebrick,0,0,576,placed item
+cube,J,minecraft:log,3,3,20,placed item
+cube,K,Ztones:tile.agonBlock,13,13,80,placed item
+cube,P,Ztones:tile.agonBlock,15,15,484,placed item
+cube,R,Ztones:tile.agonBlock,13,13,92,placed item
+cube,v,minecraft:leaves,7,7,424,placed item

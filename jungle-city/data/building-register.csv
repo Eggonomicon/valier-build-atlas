@@ -1,0 +1,82 @@
+id,sector,purpose,age_label,origin_x,origin_y_local,origin_z,walk_preview_Y,basement,source_patch_hosts,architecture_hosts
+01-01,NW,Steam works,Steam/LV,22,22,22,86,True,0,26507
+01-02,NW,Coke ovens,Steam/LV,118,20,22,84,True,0,21660
+01-03,NW,Water works,Steam/LV,214,18,22,82,True,0,26507
+01-04,NW,LV factory,Steam/LV,310,16,22,80,True,0,26507
+01-05,C,Logistics hub,All,406,7,22,71,True,0,23753
+01-06,NE,Polymer plant,Steam/LV,502,7,22,71,True,0,23903
+01-07,NE,Oil processing,Steam/LV,598,14,22,78,True,0,23903
+01-08,NE,Materials laboratory,Steam/LV,694,16,22,80,True,0,26507
+01-09,NE,Electronics lab,Steam/LV,790,20,22,84,True,0,26507
+02-01,NW,LV ore processing,Steam/LV,22,19,118,83,True,0,26507
+02-02,NW,EBF hall,Steam/LV,118,19,118,83,True,0,21660
+02-03,NW,LV chemistry,Steam/LV,214,16,118,80,True,0,23903
+02-04,NW,LV circuits,Steam/LV,310,14,118,78,True,0,26507
+02-05,C,Logistics hub,All,406,15,118,79,True,0,23753
+02-06,NE,EV chemistry,MV/HV,502,18,118,82,True,0,23903
+02-07,NE,EV processing,MV/HV,598,14,118,78,True,0,26507
+02-08,NE,IV chemistry,MV/HV,694,14,118,78,True,0,23903
+02-09,NE,Platinum line,MV/HV,790,26,118,90,True,0,23903
+03-01,NW,MV fabrication,MV/HV,22,18,214,82,True,0,26507
+03-02,NW,MV fuel,MV/HV,118,17,214,81,True,0,23903
+03-03,NW,MV power,MV/HV,214,13,214,77,True,0,21660
+03-04,NW,HV fabrication,MV/HV,310,9,214,73,True,0,26507
+03-05,C,Research gallery,All,406,14,214,78,True,0,26507
+03-06,NE,IV assembly,EV+,502,19,214,83,True,0,26507
+03-07,NE,LuV chemistry,EV+,598,17,214,81,True,0,23903
+03-08,NE,ZPM chemistry,EV+,694,13,214,77,True,0,23903
+03-09,NE,UV reserve,EV+,790,16,214,80,False,0,5050
+04-01,NW,HV metallurgy,EV+,22,8,310,72,True,0,21660
+04-02,NW,HV chemistry,EV+,118,5,310,69,True,0,23903
+04-03,NW,Cleanroom,EV+,214,10,310,74,True,0,26507
+04-04,NW,HV reserves,EV+,310,18,310,82,False,0,5050
+04-05,C,Research gallery,All,406,15,310,79,True,0,26507
+04-06,NE,Chemistry intake,EV+,502,8,310,72,True,0,23903
+04-07,NE,Chemical reactors,EV+,598,5,310,69,True,0,23903
+04-08,NE,Distillation,EV+,694,3,310,67,True,0,23903
+04-09,NE,Fluid storage,EV+,790,8,310,72,True,0,23903
+05-01,C,Logistics hub,All,22,20,406,84,True,0,23753
+05-02,C,Logistics hub,All,118,17,406,81,True,0,23753
+05-03,C,Research gallery,All,214,22,406,86,True,0,26507
+05-04,C,Research gallery,All,310,26,406,90,True,0,26507
+05-05,C,HQ + ceremonial plaza,Steam onward,405,23,405,87,True,0,28479
+05-06,C,Transit station,All,502,16,406,80,True,0,23753
+05-07,C,Public garden,All,598,8,406,72,False,0,5050
+05-08,C,Public garden,All,694,8,406,72,False,0,5050
+05-09,C,Logistics hub,All,790,16,406,80,True,0,23753
+06-01,SW,Tree farm,EV+,22,16,502,80,True,0,24737
+06-02,SW,Charcoal production,EV+,118,22,502,86,True,0,21660
+06-03,SW,CropsNH,EV+,214,20,502,84,True,0,24737
+06-04,SW,Bee apiary,EV+,310,15,502,79,True,0,24737
+06-05,C,Transit station,All,406,13,502,77,True,0,23753
+06-06,SE,HV generation,EV+,502,8,502,72,True,0,21660
+06-07,SE,EV generation,EV+,598,6,502,70,True,0,21660
+06-08,SE,Battery buffers,EV+,694,13,502,77,True,0,21660
+06-09,SE,Control center,EV+,790,17,502,81,True,0,26507
+07-01,SW,Crop processing,EV+,22,22,598,86,True,0,26507
+07-02,SW,Greenhouses,EV+,118,16,598,80,True,0,24737
+07-03,SW,Bio feedstocks,EV+,214,8,598,72,True,0,24737
+07-04,SW,Food storage,EV+,310,12,598,76,True,0,23753
+07-05,C,Public garden,All,406,16,598,80,False,0,5050
+07-06,SE,IV generation,EV+,502,14,598,78,True,0,21660
+07-07,SE,LuV energy,EV+,598,18,598,82,True,0,21660
+07-08,SE,Fusion reserve,EV+,694,25,598,89,False,0,5050
+07-09,SE,ZPM generation,EV+,790,29,598,93,True,0,21660
+08-01,SW,Advanced bees,EV+,22,32,694,96,True,0,24737
+08-02,SW,Renewables,EV+,118,24,694,88,True,0,26507
+08-03,SW,Botanical lab,EV+,214,12,694,76,True,0,24737
+08-04,SW,Research gardens,EV+,310,10,694,74,False,0,5050
+08-05,C,Public garden,All,406,12,694,76,False,0,5050
+08-06,SE,UV generation,EV+,502,16,694,80,True,0,21660
+08-07,SE,Space materials,EV+,598,28,694,92,True,0,26507
+08-08,SE,UHV reserve,EV+,694,37,694,101,False,0,5050
+08-09,SE,Future power,EV+,790,41,694,105,False,0,5050
+09-01,SW,Water recycling,EV+,22,30,790,94,True,0,26507
+09-02,SW,Bio reserves,EV+,118,20,790,84,False,0,5050
+09-03,SW,Public park,EV+,214,8,790,72,False,0,5050
+09-04,SW,Future bio,EV+,310,2,790,66,False,0,5050
+09-05,C,Logistics hub,All,406,8,790,72,True,0,23753
+09-06,SE,Power switchyard,EV+,502,20,790,84,True,0,21660
+09-07,SE,Steam turbine hall,EV+,598,28,790,92,True,0,21660
+09-08,SE,LV generation,EV+,694,30,790,94,True,0,21660
+09-09,SE,MV generation,EV+,790,36,790,100,True,0,21660

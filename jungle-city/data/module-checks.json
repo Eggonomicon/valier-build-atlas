@@ -1,0 +1,410 @@
+{
+  "status": "pass",
+  "models": 50,
+  "module_hosts_as_alternatives": 60556,
+  "city_bill_includes_modules": false,
+  "port_positions": 769,
+  "checks": [
+    {
+      "id": "MK01",
+      "hosts": 768,
+      "clear_cells": 0,
+      "port_positions_checked": 24,
+      "excluded_manual_water": 0,
+      "source_sha256": "5655566322c6cb5c797b89b70f1a8ed6114b086e1ab20d6b51820ad707ffe65f"
+    },
+    {
+      "id": "MK02",
+      "hosts": 768,
+      "clear_cells": 0,
+      "port_positions_checked": 24,
+      "excluded_manual_water": 0,
+      "source_sha256": "6e12d16ffe2fe5a1996f7d8d787dabc9e0927973fb3784a3ed790315ead4e849"
+    },
+    {
+      "id": "MK03",
+      "hosts": 1440,
+      "clear_cells": 0,
+      "port_positions_checked": 48,
+      "excluded_manual_water": 0,
+      "source_sha256": "f2d6dd2e8f08b6fae2c525e8260e0b8ab7c7fad2807c4c0a22db887797cc9d53"
+    },
+    {
+      "id": "MK04",
+      "hosts": 1152,
+      "clear_cells": 0,
+      "port_positions_checked": 36,
+      "excluded_manual_water": 0,
+      "source_sha256": "8414fd58e0b7dc3a31ce4573171a03b70ff504f9f18e639d33b5d1582a0d13a1"
+    },
+    {
+      "id": "MK05",
+      "hosts": 864,
+      "clear_cells": 0,
+      "port_positions_checked": 24,
+      "excluded_manual_water": 0,
+      "source_sha256": "b92d6335181a4868fe3f617cec31f8f54869def0e6770f69f3dac00ad61c6173"
+    },
+    {
+      "id": "MK06",
+      "hosts": 10648,
+      "clear_cells": 0,
+      "port_positions_checked": 0,
+      "excluded_manual_water": 0,
+      "source_sha256": "a0a3fdac7d7923d292f9fb6895e1f947037827f33489a0652f59bfee24adf20e"
+    },
+    {
+      "id": "MK07",
+      "hosts": 10946,
+      "clear_cells": 0,
+      "port_positions_checked": 0,
+      "excluded_manual_water": 0,
+      "source_sha256": "5c73692799c868aeb31b51be7d1b4102569aced037556433c4c9216fd85511d3"
+    },
+    {
+      "id": "MK08",
+      "hosts": 736,
+      "clear_cells": 640,
+      "port_positions_checked": 10,
+      "excluded_manual_water": 0,
+      "source_sha256": "432b9368819834c4d4dd367935ec2895660f545974dc1a000b5b09364bce0a31"
+    },
+    {
+      "id": "MK09",
+      "hosts": 736,
+      "clear_cells": 640,
+      "port_positions_checked": 10,
+      "excluded_manual_water": 0,
+      "source_sha256": "b49b4bb9dc05ca5f8e138c636cf22b17bddb0c65291fe4c1df55f7a705b06103"
+    },
+    {
+      "id": "MK10",
+      "hosts": 795,
+      "clear_cells": 740,
+      "port_positions_checked": 20,
+      "excluded_manual_water": 0,
+      "source_sha256": "c98f9e57b02fa0927419f2fb333c9fde40697f6dda3f0da62f36609a286022d2"
+    },
+    {
+      "id": "MK11",
+      "hosts": 639,
+      "clear_cells": 580,
+      "port_positions_checked": 15,
+      "excluded_manual_water": 0,
+      "source_sha256": "7d9464692528874d566e38c2b0faa7da0a8a5d12f35234e57039fa1ae1c450af"
+    },
+    {
+      "id": "MK12",
+      "hosts": 479,
+      "clear_cells": 420,
+      "port_positions_checked": 10,
+      "excluded_manual_water": 0,
+      "source_sha256": "4f88207d590908e2b186616e9a9833bc31e30304a0018470d8768fd74e179b5a"
+    },
+    {
+      "id": "MK13",
+      "hosts": 89,
+      "clear_cells": 40,
+      "port_positions_checked": 5,
+      "excluded_manual_water": 0,
+      "source_sha256": "ecca996a765e7b4c9046780d53cb8edc0b27535fdee07de4467cc2b9d56d926c"
+    },
+    {
+      "id": "MK14",
+      "hosts": 392,
+      "clear_cells": 0,
+      "port_positions_checked": 24,
+      "excluded_manual_water": 0,
+      "source_sha256": "a6cc15da610c5e9dc3ff01a37ba189b479958c6f6bfc3c5516459615053715fd"
+    },
+    {
+      "id": "MK15",
+      "hosts": 392,
+      "clear_cells": 0,
+      "port_positions_checked": 24,
+      "excluded_manual_water": 0,
+      "source_sha256": "9d020d329d58c7c17be75e76a12fc8dd0cc72d6dce7b61fb02199414ec90cc87"
+    },
+    {
+      "id": "MK16",
+      "hosts": 920,
+      "clear_cells": 0,
+      "port_positions_checked": 20,
+      "excluded_manual_water": 0,
+      "source_sha256": "fc7f895e73c1d5d21beb4bf3f89d3822533b54741bd531e1383901f1e4652bf2"
+    },
+    {
+      "id": "MK17",
+      "hosts": 72,
+      "clear_cells": 0,
+      "port_positions_checked": 0,
+      "excluded_manual_water": 0,
+      "source_sha256": "d05bec78fedfd84d9ff3c7cf5cf1badbdf9f10e3ad45e5d08ccc3a8b089ce3e6"
+    },
+    {
+      "id": "MK18",
+      "hosts": 230,
+      "clear_cells": 200,
+      "port_positions_checked": 10,
+      "excluded_manual_water": 0,
+      "source_sha256": "003474563468c9b5dc240abad2cc5568e3f7516e1f473223cccfc4b69689453a"
+    },
+    {
+      "id": "MK19",
+      "hosts": 384,
+      "clear_cells": 0,
+      "port_positions_checked": 24,
+      "excluded_manual_water": 0,
+      "source_sha256": "7aff07a25575e8380991f097f037da47397fc71de81e69c3074bf7f656415786"
+    },
+    {
+      "id": "MK20",
+      "hosts": 384,
+      "clear_cells": 0,
+      "port_positions_checked": 24,
+      "excluded_manual_water": 0,
+      "source_sha256": "b0a4bec7bebf67bea64e080236ca94a58af2e3682a7754fbdb673e00b0a9680c"
+    },
+    {
+      "id": "MK21",
+      "hosts": 368,
+      "clear_cells": 320,
+      "port_positions_checked": 10,
+      "excluded_manual_water": 0,
+      "source_sha256": "b2ea69bb33c7dbc77df62f6a6ece32c536e1c72e28e1ee57da869ab2fe714ba9"
+    },
+    {
+      "id": "MK22",
+      "hosts": 920,
+      "clear_cells": 0,
+      "port_positions_checked": 20,
+      "excluded_manual_water": 0,
+      "source_sha256": "69534984e01555edd27bdc5dfe33fbdaeb6d8d471f5267960818df8abbdaee12"
+    },
+    {
+      "id": "MK23",
+      "hosts": 230,
+      "clear_cells": 200,
+      "port_positions_checked": 10,
+      "excluded_manual_water": 0,
+      "source_sha256": "8829c2b38d4f35b4bd0942bd2fbc292112939c8158f8fec7cdd4a6d7b2294452"
+    },
+    {
+      "id": "MK24",
+      "hosts": 368,
+      "clear_cells": 320,
+      "port_positions_checked": 10,
+      "excluded_manual_water": 0,
+      "source_sha256": "d0079b384f73ee5cb694ae6bfa3032c6c64655213d69a329fbc3b20211b4d798"
+    },
+    {
+      "id": "MK04-R1",
+      "hosts": 1152,
+      "clear_cells": 0,
+      "port_positions_checked": 36,
+      "excluded_manual_water": 0,
+      "source_sha256": "be8b465a1012eeeeeb43a15df0857c9ce4b608e23b19a8d3434c0b2e6a74280f"
+    },
+    {
+      "id": "MK04-R2",
+      "hosts": 1152,
+      "clear_cells": 0,
+      "port_positions_checked": 36,
+      "excluded_manual_water": 0,
+      "source_sha256": "4db14d86839ce823aaaaa857424176bd41139afb1d062a7ed10ddd7d4fc4db38"
+    },
+    {
+      "id": "MK04-R3",
+      "hosts": 1152,
+      "clear_cells": 0,
+      "port_positions_checked": 36,
+      "excluded_manual_water": 0,
+      "source_sha256": "52f566fc73a09b737f7347948e3284d5de450a1ed816140fd499bb0f4dcf82fa"
+    },
+    {
+      "id": "MK05-R1",
+      "hosts": 864,
+      "clear_cells": 0,
+      "port_positions_checked": 24,
+      "excluded_manual_water": 0,
+      "source_sha256": "01ecafbad6c4daafa2b2ef4f3b96e07242c99f93c9d530ed5cf378ee11f32f95"
+    },
+    {
+      "id": "MK05-R2",
+      "hosts": 864,
+      "clear_cells": 0,
+      "port_positions_checked": 24,
+      "excluded_manual_water": 0,
+      "source_sha256": "7107c150be0b697ef69c82c34c6e9daf678885f2289f253d0d15ab5f97507757"
+    },
+    {
+      "id": "MK05-R3",
+      "hosts": 864,
+      "clear_cells": 0,
+      "port_positions_checked": 24,
+      "excluded_manual_water": 0,
+      "source_sha256": "55ccbcef5f66ecdde192fd446da254c6baf287d817a0b86176c4ca96a395fa12"
+    },
+    {
+      "id": "MK11-R1",
+      "hosts": 639,
+      "clear_cells": 580,
+      "port_positions_checked": 15,
+      "excluded_manual_water": 0,
+      "source_sha256": "84a543495d0f4574a889d0d113f2d5de6fd1f688e945857c52e489163050958f"
+    },
+    {
+      "id": "MK11-R2",
+      "hosts": 639,
+      "clear_cells": 580,
+      "port_positions_checked": 15,
+      "excluded_manual_water": 0,
+      "source_sha256": "6114dc6278f6d2534c0d1959a30c2a78453c107d45544907351c40f7637d527d"
+    },
+    {
+      "id": "MK11-R3",
+      "hosts": 639,
+      "clear_cells": 580,
+      "port_positions_checked": 15,
+      "excluded_manual_water": 0,
+      "source_sha256": "c778d98dba559ea4af240edf6981957cd7f6b664cf1ed8caa4bb24efb23e57e6"
+    },
+    {
+      "id": "MK12-R1",
+      "hosts": 479,
+      "clear_cells": 420,
+      "port_positions_checked": 10,
+      "excluded_manual_water": 0,
+      "source_sha256": "f65473f8456f091a8130ee45b3620259d4bc6783e46bf659db46e942673e5f21"
+    },
+    {
+      "id": "MK12-R2",
+      "hosts": 479,
+      "clear_cells": 420,
+      "port_positions_checked": 10,
+      "excluded_manual_water": 0,
+      "source_sha256": "fed1ab51f1fa724f831b9eb07de7a86d89ab17c4ddb91433cd8869647471b118"
+    },
+    {
+      "id": "MK12-R3",
+      "hosts": 479,
+      "clear_cells": 420,
+      "port_positions_checked": 10,
+      "excluded_manual_water": 0,
+      "source_sha256": "39e3c5522c9f60125d25b0641e8bac5b4a55fecb97a8f3236f3504db18bfd310"
+    },
+    {
+      "id": "MK25",
+      "hosts": 9479,
+      "clear_cells": 0,
+      "port_positions_checked": 0,
+      "excluded_manual_water": 0,
+      "source_sha256": "ae2b3d82559a5fbf175c41eb9d114345823e7fedf97eed5cc537ea157955d213"
+    },
+    {
+      "id": "MK26",
+      "hosts": 640,
+      "clear_cells": 0,
+      "port_positions_checked": 12,
+      "excluded_manual_water": 0,
+      "source_sha256": "923feef4c2b2a433a2e6f5010fa63df68c919c52425d509fc0aaa192c776341e"
+    },
+    {
+      "id": "MK27",
+      "hosts": 640,
+      "clear_cells": 0,
+      "port_positions_checked": 12,
+      "excluded_manual_water": 0,
+      "source_sha256": "464ab6a26c88ad3da49e66040c2b00c80277e63c465cec74630db92ca86cd060"
+    },
+    {
+      "id": "MK28",
+      "hosts": 504,
+      "clear_cells": 0,
+      "port_positions_checked": 12,
+      "excluded_manual_water": 0,
+      "source_sha256": "ecb6c257a5d43d94c0cbf950c08a49ced802b890902b39629307253692df9ae4"
+    },
+    {
+      "id": "MK29",
+      "hosts": 504,
+      "clear_cells": 0,
+      "port_positions_checked": 12,
+      "excluded_manual_water": 0,
+      "source_sha256": "5cb3eaef3ea50f15e0a1354c2611b8662613d5d4d2a0a2850573fb65161f8803"
+    },
+    {
+      "id": "MK30",
+      "hosts": 54,
+      "clear_cells": 0,
+      "port_positions_checked": 0,
+      "excluded_manual_water": 0,
+      "source_sha256": "be1dd9fcfeb92a5aaa3871614a1db1163ba915d2ed5b5fc4b6976df88b483899"
+    },
+    {
+      "id": "MK31",
+      "hosts": 211,
+      "clear_cells": 0,
+      "port_positions_checked": 0,
+      "excluded_manual_water": 0,
+      "source_sha256": "58a20ae29dfc752b6bfe87d5fc79156b5fca2f5c4b96dc146ad8c090251b7228"
+    },
+    {
+      "id": "MK32",
+      "hosts": 1740,
+      "clear_cells": 0,
+      "port_positions_checked": 16,
+      "excluded_manual_water": 0,
+      "source_sha256": "abf89eb5d68a7aa9d6556699b030f6da46fa84e9b8edf2a11b6b32fe7e777bfe"
+    },
+    {
+      "id": "MK33",
+      "hosts": 392,
+      "clear_cells": 0,
+      "port_positions_checked": 0,
+      "excluded_manual_water": 60,
+      "source_sha256": "3a77a5d934c7801ac886b736088cbdc4b592e650b413efedbfdca1d9d990ad15"
+    },
+    {
+      "id": "MK34",
+      "hosts": 46,
+      "clear_cells": 0,
+      "port_positions_checked": 0,
+      "excluded_manual_water": 0,
+      "source_sha256": "12a80ce63dda294a34825b88001f58df0a3d30d51b5fa8eb6b2fd11089f87663"
+    },
+    {
+      "id": "MK35",
+      "hosts": 792,
+      "clear_cells": 0,
+      "port_positions_checked": 12,
+      "excluded_manual_water": 0,
+      "source_sha256": "52d9560b2cc9aa291057d291a46def35f917201dd4913f0d5f2b4ab86c3310bc"
+    },
+    {
+      "id": "MK36",
+      "hosts": 792,
+      "clear_cells": 0,
+      "port_positions_checked": 12,
+      "excluded_manual_water": 0,
+      "source_sha256": "ae12df3a196d08639e75624779efe57bc44e42158e90cf34ae4ee752e0d4390f"
+    },
+    {
+      "id": "MK37",
+      "hosts": 320,
+      "clear_cells": 0,
+      "port_positions_checked": 12,
+      "excluded_manual_water": 0,
+      "source_sha256": "a4214729ba04c3fbde1a0df84be98d504048fff2d93445594481790326568c0c"
+    },
+    {
+      "id": "MK38",
+      "hosts": 320,
+      "clear_cells": 0,
+      "port_positions_checked": 12,
+      "excluded_manual_water": 0,
+      "source_sha256": "859a3f93b5ba352751370a3ff778f978ef18995851f4aa77a750c8225682b419"
+    }
+  ],
+  "game_tested": false
+}

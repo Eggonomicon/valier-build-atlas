@@ -1,0 +1,8 @@
+kind,role,block_registry,base_metadata,shape_id_or_size_eighths,placed_items_or_parts,quantity_type
+cube,K,Ztones:tile.agonBlock,13,13,1,placed item
+cube,P,Ztones:tile.agonBlock,15,15,32,placed item
+mcr_edge,N,ExtraUtilities:greenscreen,9,1,1,cut micropart; not one full block
+mcr_face,K,Ztones:tile.agonBlock,13,2,5,cut micropart; not one full block
+mcr_face,K,Ztones:tile.agonBlock,13,7,1,cut micropart; not one full block
+mcr_face,L,Ztones:tile.agonBlock,0,2,5,cut micropart; not one full block
+mcr_post,K,Ztones:tile.agonBlock,13,2,2,cut micropart; not one full block

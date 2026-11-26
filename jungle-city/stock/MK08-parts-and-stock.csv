@@ -1,0 +1,6 @@
+kind,role,block_registry,base_metadata,shape_id_or_size_eighths,placed_items_or_parts,quantity_type
+cube,F,minecraft:stonebrick,0,0,160,placed item
+cube,K,Ztones:tile.agonBlock,13,13,352,placed item
+cube,P,Ztones:tile.agonBlock,15,15,160,placed item
+mcr_edge,N,ExtraUtilities:greenscreen,9,1,64,cut micropart; not one full block
+mcr_face,K,Ztones:tile.agonBlock,13,7,64,cut micropart; not one full block

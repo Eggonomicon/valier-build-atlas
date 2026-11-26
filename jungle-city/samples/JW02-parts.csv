@@ -1,0 +1,17 @@
+kind,role,shape,count
+architecture,L,56,192
+cube,C,,104726
+cube,E,,5760
+cube,G,,960
+cube,H,,8023
+cube,J,,20
+cube,K,,1032
+cube,L,,64
+cube,R,,960
+cube,a,,1296
+cube,g,,800
+cube,v,,492
+mcr_edge,K,16,60
+mcr_edge,K,17,60
+mcr_edge,N,25,80
+mcr_edge,N,27,80

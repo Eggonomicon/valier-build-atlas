@@ -1,0 +1,456 @@
+{
+  "status": "pass",
+  "modules": [
+    {
+      "id": "MK01",
+      "layers": 2,
+      "render_model_sha256": "56e1081c0af6a2cd4389e7acf0397e3b889071c3f6d6c4b54a4840845cb84851",
+      "webp_sha256": "7f03bf87d56795e11849d67b16df37068085a496634f9a42cbdbeb41774d0419",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "e41907a573fd83d9faf5026f04099bf82faa608d28483fc4989b29476a91afcd",
+      "hosts": 768
+    },
+    {
+      "id": "MK02",
+      "layers": 2,
+      "render_model_sha256": "51a49b9e8ad2c16e145b3044cd9053aee043219ffd530fe5bdc07b6108b3d499",
+      "webp_sha256": "0d3911a80e88e70e43dd80457b4ac03088c1272cceb83e10d4246cca4abf32c2",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "2dc03ee9258450c48e90d12955eef26a36eb1a0c3bc8c2e52fab6b45b2d1f722",
+      "hosts": 768
+    },
+    {
+      "id": "MK03",
+      "layers": 2,
+      "render_model_sha256": "ae9e5dbc02d46c6021d39a662b863ad29dcf0c67f4b896a06ba4750453256103",
+      "webp_sha256": "10caba736b9f406ccef910155f142c450632ec0532869c48cc01eb3667be1d0d",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "68bd2a094c42b63a2f582b962765306e8f1b01bea2b1b12b0c3f7b44d2357d10",
+      "hosts": 1440
+    },
+    {
+      "id": "MK04",
+      "layers": 2,
+      "render_model_sha256": "737892c87e37ba13932ea1cd57ddb06785de7414c0353c4c061be99c76cf2bd8",
+      "webp_sha256": "891ceb13de231372528ae52729a896c26b324e695174d7a5972b317969279897",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "4a423c72c1e111eac8703ea093818a2f4301147064d19de0a67293322ef0fc9a",
+      "hosts": 1152
+    },
+    {
+      "id": "MK05",
+      "layers": 2,
+      "render_model_sha256": "50477cb8c0b40e4ded5fdd844a4442800585c31bebcb6547c1ad539195af26b4",
+      "webp_sha256": "3efd71697b3af9a076fc27f4c868a863f34047be3b67af2ccf7a708b16db827c",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "3e7d200e8a4f648c481c5ff9e111f3a8452aec70ab0e626a028963435fd5c57c",
+      "hosts": 864
+    },
+    {
+      "id": "MK06",
+      "layers": 9,
+      "render_model_sha256": "54a70136a72f4113db8dd0bf1232e0ba72a4e5da4bbc87a031471f3a37bad8ea",
+      "webp_sha256": "b101c8fecd5813100be37dd48140cca02018d92dd7745fc19727cd71547c255d",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "c3c24de92397c0a160ce410ecda4eef233ffb25ef3bc74cfab46c27da54df998",
+      "hosts": 10648
+    },
+    {
+      "id": "MK07",
+      "layers": 9,
+      "render_model_sha256": "761d2404e78aac17b993ef8548b0a504d08d58cdc2eb6a7c910ee934e78bc140",
+      "webp_sha256": "7e0a04ea0d7f7a72ac783e785c5ecb0b54b02f0e68507f8928e21d6436049830",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "c946e1853ef0dd2f4ff5fb33766ef195fce32693a92b38f9220687d70750be0b",
+      "hosts": 10946
+    },
+    {
+      "id": "MK08",
+      "layers": 7,
+      "render_model_sha256": "6b4fdc01f437a5a599985c1f0d04162de71cc85d952bc6ce654da206a10ff47b",
+      "webp_sha256": "a48b25b0d5d4e494b00f9f24154674a1f17c45aa3c8c839d75a3acb7445b75f2",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "157a1b0d5265ef1448df640f8c335f388f69bc22f9efff481dc2a064fafd587d",
+      "hosts": 736
+    },
+    {
+      "id": "MK09",
+      "layers": 7,
+      "render_model_sha256": "1fb4e713f35c5e3a660de13a709898b46d219bb1195a9dc916176afc5b2dd6d3",
+      "webp_sha256": "27c5ad4e79454d1562e6c99358e60eee06133f0d52f4a63363fe6407be66fa0b",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "a600dcff2b07cf62537f6fd33b4c0b16396e16ae474ac1544a7e9dc593d8a8cb",
+      "hosts": 736
+    },
+    {
+      "id": "MK10",
+      "layers": 7,
+      "render_model_sha256": "20e21b79296757edf9fe5527b52e0e428b6a4d20d0ab2908874ad768c1bca707",
+      "webp_sha256": "bfc7116131d73bbac63fe6ca5e1370cc62bdfc97910b01544d0038d6cb7079ab",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "f3c3b1db3eaf7ef5a2d15bdc65f2a7dbc96fae286791fb7217c3ae305277bbe3",
+      "hosts": 795
+    },
+    {
+      "id": "MK11",
+      "layers": 7,
+      "render_model_sha256": "6d9623d22887cf639f36fad0e6249eb071e7bfeaba2f760112b86d0c9f106b37",
+      "webp_sha256": "08f8bb294aeac41772a64243f6ffcaed9fdc242043fad701e108e94c57079fa1",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "3cffa4d1ac8118953fd4eadc5b75451f917a187e7dc761bbdcfaa8f3df6f4314",
+      "hosts": 639
+    },
+    {
+      "id": "MK12",
+      "layers": 7,
+      "render_model_sha256": "db8b202e189f849b234e7dfee474dd26dcfc89de29fd2ef4c6ca171bdc687cd0",
+      "webp_sha256": "5dc1e212d6ca12188be34dc0a3c0339796cf0918703eeef324b9a2843fd0c975",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "dcbfec2f531527505f14e1d6e7a21d610c9897e2f0921905854d1ca67b4d8a74",
+      "hosts": 479
+    },
+    {
+      "id": "MK13",
+      "layers": 7,
+      "render_model_sha256": "748d8fdc4e299e8a73a1a5c3029fb670b048f8e327bc0a4f99dfccab7299430b",
+      "webp_sha256": "7c90e9d79b43014022ef6cf3ce678beb35d570e3084c0cf438b482d517a6b238",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "f13953941b20322096285f71c1d318a272cb7ecd4c2ac4a2726ce0a2bd1b1e39",
+      "hosts": 89
+    },
+    {
+      "id": "MK14",
+      "layers": 9,
+      "render_model_sha256": "7c8e9ae95a4e1782f399f0437eab51d458501185a88917ee0004153fc078a3f0",
+      "webp_sha256": "d9e675ca3ea2cc1cec2a5268d419ee4344adaff5b20398d4f63fb6c00fe5ee7e",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "572d645b0e72318a1f5408b50ac835a784ee8182905d8a164954befe6d5e74d7",
+      "hosts": 392
+    },
+    {
+      "id": "MK15",
+      "layers": 9,
+      "render_model_sha256": "024d08f305f6c83daa1461d0a43430eebfcda54ae49fe47ce8d667eb0905ae6b",
+      "webp_sha256": "d538ab5bad852217cabf2af21556cbf12e8293f4b341aa180d4622e22a41039e",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "ecf53abd17a3b4e359ecbaa98fa7b9afbd5b4913b10636829111b2131a624595",
+      "hosts": 392
+    },
+    {
+      "id": "MK16",
+      "layers": 10,
+      "render_model_sha256": "90eeab55528fa554eb7c6e7a90a050701450d7ec0c87f4904742034519e5fd7f",
+      "webp_sha256": "d1d01c33ecb62688eca6375142548d8b675637542772f3b258550c39cf155bbf",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "8f21cd1486283b919e39e6086b5854095d0e8ca379fb03f9e48f1027c1791c0e",
+      "hosts": 920
+    },
+    {
+      "id": "MK17",
+      "layers": 8,
+      "render_model_sha256": "b4d7cab9034f4792ca3967837f86add397ab47183802453accc162676a51a435",
+      "webp_sha256": "a11d1544e72e5c30e6e9814235cf1ac97b3b4d70d2e919fb352e1899bcdbb155",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "4112941ec77912e83e0f55e7173418c35d9107c88f700e0fe46809d8eac499d6",
+      "hosts": 72
+    },
+    {
+      "id": "MK18",
+      "layers": 10,
+      "render_model_sha256": "b60353d841e90af5ee8351d5c9686a479eac5b57417196f31e12b822f649658d",
+      "webp_sha256": "a7ca4e9c656df491dc3a3061bb8a75d83223b4289789a0ef205bfa05861d22a8",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "6c098172f91886951805aedcdace78f692ac064919b6fa1c667043bf01bb01d0",
+      "hosts": 230
+    },
+    {
+      "id": "MK19",
+      "layers": 6,
+      "render_model_sha256": "b00fe9ab99ae77384046a3c8d75fd16b3135471f865326573ed0ad73fe919a04",
+      "webp_sha256": "d9148a09e5f0c60bc549b1666896bac512cff741b703589ac2ef4fbb38c13abf",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "0e44790c5e6d42288b676557e94082948c5917a39e4de0469369d64ba8ae2da0",
+      "hosts": 384
+    },
+    {
+      "id": "MK20",
+      "layers": 6,
+      "render_model_sha256": "8b6c7bf432b4bfa561186b034cca775ff68e4df20ebd90096901f699243dc877",
+      "webp_sha256": "a9e60124eb21e7d9d8ee5b152e7e81eba4291916fed0189793656d283344f0ce",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "94c03f987a9a1928a4a88b9e8f3e03de249d64ea94605e088220894ee459f2c7",
+      "hosts": 384
+    },
+    {
+      "id": "MK21",
+      "layers": 11,
+      "render_model_sha256": "c2aae37659e1d94ce229d22b0cb263f18a21c790fc3e8109f775ac8703074482",
+      "webp_sha256": "22863cb959e3aaef3b2d1b3aaf81586d04fa6f65a41bea26d82bb575400b1111",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "41165135123727a3dc86aff5fd73c98c84b9771f249efc09049678a9e97d9230",
+      "hosts": 368
+    },
+    {
+      "id": "MK22",
+      "layers": 10,
+      "render_model_sha256": "d309c9a332968e59bd07c59b44e36ea6f639cd4d7cd1c721d2f801504efa0cd0",
+      "webp_sha256": "62f3de8d443977a9a3c0da8378e032721ca60c7fc636368808bb305d41659639",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "ec6685462a13e2c5024258a8ad0fce2e7584e977b216c9d0a027f68fa20e3bff",
+      "hosts": 920
+    },
+    {
+      "id": "MK23",
+      "layers": 10,
+      "render_model_sha256": "0c814f9a48dfd0ee530fe94871811541ff44097ff9f76f168e84598c7f39e0c3",
+      "webp_sha256": "a90b61964b57f5600c7d65b5df197b3996014b7765f8495f51eb866f3ea8776b",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "9604f20eb63d1d3f072eef89a6a128c68dcc7d35aafcb8786c2a3e0342649fbf",
+      "hosts": 230
+    },
+    {
+      "id": "MK24",
+      "layers": 11,
+      "render_model_sha256": "6dbd454c8ffe8103ea120d4388d68371969d3b7e48a15eb46236995a7e90320c",
+      "webp_sha256": "137c1d179a2c9edc4ee7c13e2647ed4684e2d06d2acb460741c23ffdffffa54a",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "315e1bc7c13b71da39e14af8d0673c3c437749fc542101b070ff5d5f51970437",
+      "hosts": 368
+    },
+    {
+      "id": "MK04-R1",
+      "layers": 2,
+      "render_model_sha256": "4c141ec40bc92097e3a3fa31494008e4ffb35b91b6f19678427b56673c0301c7",
+      "webp_sha256": "ed5e5e7e7e7103785db3e73f0c8a5216341428c8902b0090f8389c008890ad4e",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "8818c7b834300ad53763b3aec977b07fde303b3cb9476d8bbf5607bb66684ff3",
+      "hosts": 1152
+    },
+    {
+      "id": "MK04-R2",
+      "layers": 2,
+      "render_model_sha256": "ad492c1dabe26733270e5d01ba3856970f6bd22d4ff03e4cefdea437d8eaad5c",
+      "webp_sha256": "5d92849cfeccad28e9d47a7a19e4ad66e5afe4c932b10e1ad974ef6015b7ad00",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "469c1990a6ab08543e45d7418ff7367801c18297244551a77b6a8240c24ad35c",
+      "hosts": 1152
+    },
+    {
+      "id": "MK04-R3",
+      "layers": 2,
+      "render_model_sha256": "9bb32a37f31c266df3c582c6b9eec900c780c2001b852f36d89b3969f2db36bb",
+      "webp_sha256": "5c9984de5a92d91ac8d9527d6313ba05b2dda02d81e8761822f7b062dd82e1ac",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "86fca7ca01d4893494e8eba2e3575add7b765059d401d7c0df4b8fe0f96cc8f5",
+      "hosts": 1152
+    },
+    {
+      "id": "MK05-R1",
+      "layers": 2,
+      "render_model_sha256": "e6a4f722357bb676f569444c2d1e96adb78a67650c8fe932ab2614490d50518b",
+      "webp_sha256": "0ae0343543665071de1b5ba315d75d304f587d8a1f37447f62a8c6dab97cdeb7",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "6b120fa1029e334e21a190626bdbd79b656dba689e22f5cd7500d3a1295fa69a",
+      "hosts": 864
+    },
+    {
+      "id": "MK05-R2",
+      "layers": 2,
+      "render_model_sha256": "36bac8edde6927ba166eef8b9e9b578eeb25384342ffb8e7849cc6ea180805d3",
+      "webp_sha256": "36b8142ba2bc57efd6fa032db3b362e3cd2a11019b3995cede267640b5255d0c",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "11e2eb7d1bb402050f8f3275860ca46b4afcc739f70da9ca572e9c07a198b27f",
+      "hosts": 864
+    },
+    {
+      "id": "MK05-R3",
+      "layers": 2,
+      "render_model_sha256": "856f832804d1cd03784df3857a1a87b29b7807e7d0058e7c30a3c8c71f25fbb0",
+      "webp_sha256": "0e50688362b9521eb8e3fdfc92b13bd029e1855b1bbfbf695bd6f0d62609a710",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "c3acd2a7a05a56a66c9fcd7f84b09e5d357665ba8192678b8371bfaf613e38ea",
+      "hosts": 864
+    },
+    {
+      "id": "MK11-R1",
+      "layers": 7,
+      "render_model_sha256": "d79bd3aed3e7f4b77e5ee97e8772016e2b4ff411b9020663d74fbbd736a1f116",
+      "webp_sha256": "99f88e6ddaaece76b083e8ef1d2c77bf190e73a4d20c5ace9ce3014b3d6f5f6d",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "919a1c1a8d1dada4dc7456cb5767d8b7196a274c94fcf88315dde3feff4e9b62",
+      "hosts": 639
+    },
+    {
+      "id": "MK11-R2",
+      "layers": 7,
+      "render_model_sha256": "bfa63ceb12f68ee127b5d517be51b04b32c9046991947100cd24c07804b45c9a",
+      "webp_sha256": "1e2f663b6bc90b98241328c900795b9463d48d58efe6a32e2aae16e485ef2693",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "4e042dc89f96a9c25f51bf67b35ef6e5821e04e99e7080dcbce49075d3966544",
+      "hosts": 639
+    },
+    {
+      "id": "MK11-R3",
+      "layers": 7,
+      "render_model_sha256": "ec1d27c8061518c9bffe3ee89b76b230a353085620537328b1c705577d89ae95",
+      "webp_sha256": "d24de8c5d553ac216b123389262cbc999b38edb4c80220e2c2fcf9cad76957f1",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "9de4c0c8dee9d0ca35238e09bfac1d1b202b48f95ebd13359667e9fbf3b4a8da",
+      "hosts": 639
+    },
+    {
+      "id": "MK12-R1",
+      "layers": 7,
+      "render_model_sha256": "5b2b9d5311568b1ef5480a564cabb67ddc5fe3f08203023fb5a23cc3071a753d",
+      "webp_sha256": "2a9d41642e2c46d14a436941ee1eb1ebf3da5dcf471d8648765cd5bba1bc3f29",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "27550bd59c36ad0b8977c74737756192dcf7548fb9ed978422f1acf5e6a672c5",
+      "hosts": 479
+    },
+    {
+      "id": "MK12-R2",
+      "layers": 7,
+      "render_model_sha256": "8d908b46f471720d69510352d76f2e2cb55d3d5230389611b199cea101586070",
+      "webp_sha256": "8e0bb8466503fed2b344dd8a79fd30ed254de59c41ce44793976c4f2f454e97e",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "b1829e74afcd96dddbfb126937731257ea06018a1a69f9033124af2d859b931c",
+      "hosts": 479
+    },
+    {
+      "id": "MK12-R3",
+      "layers": 7,
+      "render_model_sha256": "a0b73c75ab20f8c960ec451868aa81320d707f08aff0133d21c9ebd648dc067c",
+      "webp_sha256": "e6a8c283edc4a6eb94273478facf1e1ca0d3df03991a156449a0e0a4027ce256",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "70f5b44ccfc7a64a1dff3878371e07b5b9e30565e537d1e1352d2939efbd8bc6",
+      "hosts": 479
+    },
+    {
+      "id": "MK25",
+      "layers": 35,
+      "render_model_sha256": "63eba64f24fb619639da4fd239bce96be03eba1e594cb224c7e834d46cb5ceba",
+      "webp_sha256": "c47dcf41bb25d5b458fb0d097c50e38df65830015bb5a77fdc9ffc9d31007902",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "6a58482effd8c942843395175dcd1fd3f1538a8fd038cdfdd6f7bd88fccf8e4f",
+      "hosts": 9479
+    },
+    {
+      "id": "MK26",
+      "layers": 4,
+      "render_model_sha256": "8547be393861fc47f610125b348bda37b1d76d1c7d8397a033be72adb641cd94",
+      "webp_sha256": "fd5efab1d070d9ce1d63378a64b4683c91a83191e0ec738756c6f40f31f12303",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "fd47ae47b093c400552ab576c4520fb34d48c2186c9c913bd84d1fbb702960fb",
+      "hosts": 640
+    },
+    {
+      "id": "MK27",
+      "layers": 4,
+      "render_model_sha256": "30ae5d961248b2979d4e782dd196077a87a71c43c562ca92ae837a9c812fb989",
+      "webp_sha256": "467dfbe06f10b4dbd28280309b7061ead2d973314254da94358ab31901098a36",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "2647e722c450b636f681cb513037bb44d90c2c94811443ce36bbcad11f1ba352",
+      "hosts": 640
+    },
+    {
+      "id": "MK28",
+      "layers": 10,
+      "render_model_sha256": "de1e6512b6f3828038144ec89f07bd9e2557b9082750e9bcde7c027003c3f458",
+      "webp_sha256": "d3cce1f1888cbc7ceb8efd2ac182ee79e12561d4da81b873063fe5aae49b8107",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "6c6f1b25022326f5b2c6a0c8cc2d7d1417a44dbe29a188f07c47ebd2b78e00a0",
+      "hosts": 504
+    },
+    {
+      "id": "MK29",
+      "layers": 10,
+      "render_model_sha256": "9156e7cb1c31db395e46c636c194ebb6763a3819c8e0549506d0861f2662ed29",
+      "webp_sha256": "c1a02cbab05baeaab4022c0bf84cfedb73b38d269a552def230457fb0f1dd08b",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "c93c9ea2119338a205f3282a51e401ef2f2c4a1d5725693453e0f052bc9b3295",
+      "hosts": 504
+    },
+    {
+      "id": "MK30",
+      "layers": 3,
+      "render_model_sha256": "cd60090df1ee5c2c6b3a6d3d4e2d57d9d63800cbb4c5f4fb3c2e350ae601eb66",
+      "webp_sha256": "5a6c7af602df1eb36b2cae80b2f13d077fd480a108cac720da031f4316514447",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "a8049c68f51c8e6680c5df8fcde19dd5f6e132f8a30d02f68c25fe33ac7aa2ab",
+      "hosts": 54
+    },
+    {
+      "id": "MK31",
+      "layers": 9,
+      "render_model_sha256": "56482ee1d44da3a94913c6ae94efb17cce7e308af97897b5bbcae3b8dcd6647d",
+      "webp_sha256": "588baf53c0db5c8d77e7c5fc9a06c5ecc8df93de4cdbab3f0fe6e681136f6859",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "cc59b93482e7203b1f8fe15cdf39f32f9444d0896b084366d2172a4b9873d404",
+      "hosts": 211
+    },
+    {
+      "id": "MK32",
+      "layers": 10,
+      "render_model_sha256": "fee5e45813b58203b57d083986f058a8c8d961d6f4cdf0162aaac97d858b38b7",
+      "webp_sha256": "e4ffdcb4016f832d55cb18fcff5557f7348969ee017266f7018f75b29c416b1f",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "a86a4c5bbbc936bf676c95c968fe1707c14c2685d7ba283b0b5c164c9f9cb9c6",
+      "hosts": 1740
+    },
+    {
+      "id": "MK33",
+      "layers": 4,
+      "render_model_sha256": "0ccf1b616dbe3738a3745d81647f59e4c3715b325e62154f2bad19b2d8cfa0e8",
+      "webp_sha256": "773b30184888e6089bac2ef98acc86e9cce3be461cf17989ddf9ca54b6261edb",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "896a015e82f56d93108ff6f71fec111563c368d1f9e1a0b0240f942c6294859e",
+      "hosts": 392
+    },
+    {
+      "id": "MK34",
+      "layers": 3,
+      "render_model_sha256": "8b82323379f1022009045b7f9a9c0f67898ffbc8f5b73fee8fb9d6fd0cd93246",
+      "webp_sha256": "dcfc3b63f4319a469bb58e1f67103157d25837727cc1c6c2ff7d1612bb4313c0",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "54c78113caafb504ce6e627dbfacca54a9997e582638fda1b667fbd990cfe918",
+      "hosts": 46
+    },
+    {
+      "id": "MK35",
+      "layers": 13,
+      "render_model_sha256": "06d3d1a54017b4af3327896dc617462c95ba5df6d84b2597216e63ee086b189b",
+      "webp_sha256": "8e1c628d63e3f3379028ea5e2ff5ec406ed6cace65d392b56367565492b58aaa",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "043097217113b4aa3851503c1d5d85aa0dee367fb9799624387b43bd9785a5e1",
+      "hosts": 792
+    },
+    {
+      "id": "MK36",
+      "layers": 13,
+      "render_model_sha256": "90f806293fac3632c60a1898f118b117064354ad8952f901a1a6b8597c69c186",
+      "webp_sha256": "296771fde2d5cbf4d8a47f70cc20be1c57c59a38e02fafaab00ea95b8ca474bf",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "f25c2ed5fca2fe207b5bbae8ab60c4172d7fad667f57fb05f405daba5992f5d3",
+      "hosts": 792
+    },
+    {
+      "id": "MK37",
+      "layers": 8,
+      "render_model_sha256": "9d277c71fd7ccee388908966a5cd3ac3a31d023f302d09215b12ea6501119028",
+      "webp_sha256": "efde2ac5d2a83c18fe4393c16e2697a29f2a90675aae5d7022d904af6add82b5",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "a5d273b92824b5945a301ebc4472469f2e0ea76d743181110476899b16021945",
+      "hosts": 320
+    },
+    {
+      "id": "MK38",
+      "layers": 8,
+      "render_model_sha256": "f7e74922278cdc00086c91d2134e626ae96ec3114ce86455bc78a6fc4e87f0ec",
+      "webp_sha256": "fab5022c56086b1fe0c796694fd562731ba3b581f934373434a8fda11c1c1a75",
+      "decoded_RGBA_identical": true,
+      "blueprints_sha256": "91b0a036fe37d6f17fd8e8fb7b173c0cf8704237d292cff83d91dfd39f892c8a",
+      "hosts": 320
+    }
+  ],
+  "total_layers": 358
+}
